@@ -59,7 +59,7 @@ async function handleEvent(event) {
 }
 
 /**
- * Here's one example of how to modify a request to
+ * Here's one cs of how to modify a request to
  * remove a specific prefix, in this case `/docs` from
  * the url. This can be useful if you are deploying to a
  * route on a zone, or if you only want your static content
