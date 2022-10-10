@@ -52,6 +52,8 @@ menu:
     url: /cs/
   - title: Programming
     url: /programming/
+  - title: Database
+    url: /database/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
