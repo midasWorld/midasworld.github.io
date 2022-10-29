@@ -72,5 +72,132 @@ sitemap: false
 - this 바인딩 이슈
 - 로직들을 재사용 하기 어려움
 
+## 개발 환경 툴
+### node JS
+> JavaScript runtime environment (framework) that **executes JavaScript** code **outside a web browser** "JavaScript everywhere"
+- server-side rendering 뿐만 아니라 스크립트로 만들어서 사용 가능!
+- node 설치 → 자동으로 npm 설치 됨.
+
+### npm
+- package manager
+- **Publish** and **share** course code of Node.js packages simplify installation, updating, and uninstallation of packages.
+- 라이브러리를 쉽게 설치하고 버전을 관리하는 도구
+- `package.json`에서 관리
+
+### yarn
+- package manager
+- built on top of npm to resolve some of npm's shortcomings
+  <br>
+  faster, consistent, secure
+- npm 대비 속도가 빠르고 보안성이 높다.
+
+## 프로젝트 생성
+
+### 만들기
+- 링크 : https://create-react-app.dev/docs/getting-started
+
+위 링크를 보면 아래와 같은 명령어로 프로젝트를 생성하게 됩니다.
+> yarn create react-app [프로젝트명]
+
+
+### 📌 yarn 버전 문제
+리액트 프로젝트를 생성했을 때 파일이 다를수도 있는데, 이것은 yarn 버전 때문 입니다.
+<br>
+최신 버전 보다는 안정화된 버전으로 생성하는 것이 좋겠죠? 🤔
+
+> yarn set version stable
+
+위의 명령어로 yarn 안정화된 버전으로 설정이 가능 합니다! 
+
+### 중요 툴
+- BABEL
+  - JavaScript transcompiler
+  - 개발 때는 최신 자바스크립트로 개발을 해도, 예전 버전으로 변환 가능!!
+- Webpack
+  - Bundling the code, JavaScript module bundler 
+  - 우리의 코드를 포장해서 배포할 수 있게 해주는 번들러!
+  - 어떤 것들을 그룹지어 전송을 해야 되는지 등...
+- ESLint
+  - 코드가 올바르게 작성되고 있는지 체크!
+- Jest
+  - 테스팅 프레임워크
+- PostCSS
+
+### CSR?
+- client side rendering
+
+### Yarn 오류
+실행을 하고 나서 파일을 수정하게 되면 실시간으로 수정된 내용이 반영되는게 아닌 아래와 같은 오류가 발생하는 것을 볼 수 있는데요. 🤔
+
+<img width="875" alt="image" src="https://user-images.githubusercontent.com/93169519/198752227-87423f4e-588c-4d30-8433-6e60b122db48.png">
+
+이를 해결하기 위해서 아래와 같이 하면 됩니다.
+1. Dependencies 추가
+    ```shell
+    yarn add -D eslint-config-react-app
+    ```
+2. Root 경로에 `.yarnrc.yml` 작성
+    ```yaml
+    packageExtensions:
+      react-scripts@*:                  # 기본적으로 모든 리액트 스크립트를 사용하고 있는데,
+        peerDependencies:               # peer dependencies 중에 
+          eslint-config-react-app: "*"  # 얘는 우리가 설치한 것을 수동적으로 사용할 것이니라!
+    ```
+3. 캐시 초기화 후 다시 설치해서 실행하면 됩니다.
+    ```shell
+    yarn cache clean
+    yarn install
+    ```
+4. 끗!
+
+### JSX
+- https://reactjs.org/docs/introducing-jsx.html
+- https://reactjs.org/docs/jsx-in-depth.html
+- https://transform.tools/html-to-jsx
+
+무료 사진 사이트 : https://unsplash.com/
+
+### 컴포넌트 만들기
+- rfc : 단축키 (react snippet 익스텐션)
+
+- Box Shadow : https://cssgenerator.org/box-shadow-css-generator.html\
+
+### Props
+외부에서 전달용으로 주입할 수 있음!
+
+### useState
+주의할 점!
+```jsx
+const [cnt, setCnt] = useState(0);
+
+onclick= () => {
+    setState(cnt + 1);
+    setState(cnt + 1);
+    setState(cnt + 1);
+    setState(cnt + 1);
+    setState(cnt + 1);
+}
+```
+위의 코드에서 한번 클릭을 하면, cnt = 5가 될까요?
+<br>
+❌ 1만 오르게 됩니다.
+<br>
+onclick 을 하게 됬을 때, 스냅샷을 저장하게 되며 환경(Lexical Environment : 특정 코드가 작성, 선언(정의)된 환경)이 콜백함수에 전달됩니다.
+<br>
+cnt = 0 인 상태로 전달을 하고, 0 + 1 만 계속해서 실행하게 되니 결국 1이 됩니다.
+
+이를 굳이? 해결하고자 한다면? 아래와 같이 하면 됩니다!
+```jsx
+const [cnt, setCnt] = useState(0);
+
+onclick= () => {
+    setState((prev) => prev + 1);
+    setState((prev) => prev + 1);
+    setState((prev) => prev + 1);
+    setState((prev) => prev + 1);
+    setState((prev) => prev + 1);
+}
+```
+
 ## 🔖 참고 사이트
 - [드림코딩 - 리액트 개념정리 · 클론코딩](https://academy.dream-coding.com/courses/react)
