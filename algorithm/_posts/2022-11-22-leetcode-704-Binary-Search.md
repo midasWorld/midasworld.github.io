@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 704. Binary Search 풀기 완료
+title: 리트코드 704. Binary Search 풀기 완료
 description: >
   배열에서 숫자 찾기!
 sitemap: false

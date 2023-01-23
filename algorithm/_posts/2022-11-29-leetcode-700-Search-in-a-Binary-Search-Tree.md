@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 700. Search in a Binary Search Tree
+title: 리트코드 700. Search in a Binary Search Tree
 description: >
   BST 에서 주어지는 숫자를 찾아라!
 sitemap: false

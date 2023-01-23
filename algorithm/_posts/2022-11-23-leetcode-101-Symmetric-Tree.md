@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 101. Symmetric Tree 풀기 완료
+title: 리트코드 101. Symmetric Tree 풀기 완료
 description: >
   Tree → 좌우 대칭인지 판별하시오!
 sitemap: false

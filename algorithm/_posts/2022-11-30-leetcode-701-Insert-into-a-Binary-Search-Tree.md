@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 701. Insert into a Binary Search Tree
+title: 리트코드 701. Insert into a Binary Search Tree
 description: >
   BST 에 주어진 값의 노드 추가하기!
 sitemap: false

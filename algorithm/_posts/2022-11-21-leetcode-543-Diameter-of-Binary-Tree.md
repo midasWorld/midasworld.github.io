@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 543. Diameter of Binary Tree 풀기 완료
+title: 리트코드 543. Diameter of Binary Tree 풀기 완료
 description: >
   이진 트리의 두 노드 간 가장 긴 경로의 길이 구하기
 sitemap: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 409. Longest Palindrome
+title: 리트코드 409. Longest Palindrome
 description: >
   가장 긴 팰린드롬을 구하시오!
 sitemap: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 566. Reshape the Matrix
+title: 리트코드 566. Reshape the Matrix
 description: >
   해당 2차원 배열을 주어진 행, 열로 재배열하시오!
 sitemap: false

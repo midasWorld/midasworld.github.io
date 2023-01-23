@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 1779. Find Nearest Point That Has the Same X or Y Coordinate
+title: 리트코드 1779. Find Nearest Point That Has the Same X or Y Coordinate
 description: >
   가장 근접한 좌표의 최소 인덱스는?
 sitemap: false

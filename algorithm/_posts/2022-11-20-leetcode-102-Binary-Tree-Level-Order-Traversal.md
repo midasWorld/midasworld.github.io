@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 102. Binary Tree Level Order Traversal
+title: 리트코드 102. Binary Tree Level Order Traversal
 description: >
   Binary Tree → Level 순서로 탐색하기!
 sitemap: false

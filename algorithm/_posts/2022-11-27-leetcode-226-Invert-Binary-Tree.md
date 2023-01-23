@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 226. Invert Binary Tree
+title: 리트코드 226. Invert Binary Tree
 description: >
   이진 트리를 좌우로 뒤집어보자!
 sitemap: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 36. Valid Sudoku
+title: 리트코드 36. Valid Sudoku
 description: >
   올바른 스도쿠 구성인지 판별하시오!
 sitemap: false

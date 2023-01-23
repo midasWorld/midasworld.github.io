@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 112. Path Sum
+title: 리트코드 112. Path Sum
 description: >
   root 부터 마지막 노드까지의 합 중에 대상 숫자가 있는지 판별하시오! 
 sitemap: false

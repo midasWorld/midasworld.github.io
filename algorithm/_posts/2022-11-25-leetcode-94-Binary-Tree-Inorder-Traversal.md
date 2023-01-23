@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 94. Binary Tree Inorder Traversal
+title: 리트코드 94. Binary Tree Inorder Traversal
 description: >
   이진 트리의 순회(inorder traversal) 리스트를 반환하시오!
 sitemap: false

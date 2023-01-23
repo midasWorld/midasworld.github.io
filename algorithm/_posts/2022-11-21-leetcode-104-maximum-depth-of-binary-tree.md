@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 104. Maximum Depth of Binary Tree 풀기 완료
+title: 리트코드 104. Maximum Depth of Binary Tree 풀기 완료
 description: >
   Binary Tree 최대 깊이 구하기
 sitemap: false

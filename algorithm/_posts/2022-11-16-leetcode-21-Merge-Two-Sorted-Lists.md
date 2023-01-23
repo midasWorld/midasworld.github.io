@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] Merge Two Sorted Lists
+title: 리트코드 21. Merge Two Sorted Lists
 description: >
   두 배열을 병합하여 정렬된 링크드 리스트로 만드시오!
 sitemap: false

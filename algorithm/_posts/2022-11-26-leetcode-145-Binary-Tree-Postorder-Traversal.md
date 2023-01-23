@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 145. Binary Tree Postorder Traversal
+title: 리트코드 145. Binary Tree Postorder Traversal
 description: >
   이진 트리의 순회(postorder traversal) 리스트를 반환하시오!
 sitemap: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] Intersection of Two Arrays II
+title: 리트코드 350. Intersection of Two Arrays II
 description: >
   두 배열의 교집합을 구하시오.
 sitemap: false

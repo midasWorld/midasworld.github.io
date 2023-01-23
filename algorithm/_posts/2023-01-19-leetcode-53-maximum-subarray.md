@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] Maximum Subarray
+title: 리트코드 Maximum Subarray
 description: >
   메모이제이션, 카데인 알고리즘으로 풀기
 sitemap: false

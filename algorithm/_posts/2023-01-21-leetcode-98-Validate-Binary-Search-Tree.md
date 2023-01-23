@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 98. Validate Binary Search Tree
+title: 리트코드 98. Validate Binary Search Tree
 description: >
   올바른 BST 인지 판별하시오! 
 sitemap: false

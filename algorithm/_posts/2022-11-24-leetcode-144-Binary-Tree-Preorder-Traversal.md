@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] 144. Binary Tree Preorder Traversal
+title: 리트코드 144. Binary Tree Preorder Traversal
 description: >
   이진 트리의 순회(preorder traversal) 리스트를 반환하시오!
 sitemap: false

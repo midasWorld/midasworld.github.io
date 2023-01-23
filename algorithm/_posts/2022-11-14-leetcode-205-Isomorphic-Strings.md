@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [leetcode] Isomorphic Strings
+title: 리트코드 205. Isomorphic Strings
 description: >
   같은 모양의 문자열인지 판별하시오!
 sitemap: false
