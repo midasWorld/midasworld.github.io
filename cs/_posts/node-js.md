@@ -124,5 +124,85 @@ found 0 vulnerabilities
 
 ### 🧐 import 구문 오류!
 
-- [Cannot use import statement outside a module 에러 해결](https://takeknowledge.netlify.app/bugfix/cannot-use-import-statement-outside-a-module/)
+- [✅ Cannot use import statement outside a module 에러 해결](https://takeknowledge.netlify.app/bugfix/cannot-use-import-statement-outside-a-module/)
 - [[NODE] 📚 require vs import 문법 비교 (CommonJS vs ES6)](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-require-%E2%9A%94%EF%B8%8F-import-CommonJs%EC%99%80-ES6-%EC%B0%A8%EC%9D%B4-1)
+
+### 유용한 패키지들? 🤔
+- morgan : 요청과 응답에 대한 정보를 콘솔에 기록합니다.
+  - dev, combined, common, short, tiny 등의 인수를 넣을 수 있다!
+- cookie-parser
+- express-session
+- dotenv
+
+### 🧐 module(import) - __dirname 오류!
+
+- [✅ [Node.js] __dirname is not defined 에러](https://node-js.tistory.com/entry/Nodejs-dirname-is-not-defined-%EC%97%90%EB%9F%AC)
+- [자바스크립트 ESM(ES Module)에서 __dirname 사용하기](https://jootc.com/p/202206123895)
+
+### 자주 쓰이는 req, res 객체 속성 알아보기
+- req
+  - req.app: app 객체 접근(req.app.get('port') 등)
+  - req.body: body-parser 미들웨어가 만드는 요청의 본문 해석 객체
+  - req.cookies: cookie-parser 미들웨어가 만드는 요청의 쿠키 해석 객체
+  - req.ip: 요청의 ip 주소
+  - req.params: 라우트 매개변수 정보
+  - req.query: 쿼리스트링 정보
+  - req.signedCookies: 서명된 쿠키들은 이곳에!
+  - req.get(헤더 이름): 헤더의 값을 가져오고 싶을 때!
+- res
+  - res.app: app 객체
+  - res.cookie(키, 값, 옵션): 퀴 설정
+  - res.clearCookie(키, 값, 옵션): 쿠키 제거 
+  - res.end(): 데이터 없이 응답
+  - res.json(JSON): 
+  - res.locals: 
+  - res.redirect(주소): 리다이렉트
+  - res.render(뷰, 데이터): 템플릿 엔진 렌더링 응답
+  - res.send(데이터): 데이터(문자열 or HTML or 버퍼 or 객체, 배열 or ...)와 함께 응답.
+  - res.sendFile(경로): 경로에 위치한 파일 응답
+  - res.set(헤더, 값): 응답 헤더 설정
+  - res.status(코드): 응답 시 HTTP 상태 코드 지정
+  
+### module(import) - config.json 오류(json 파일 참조 오류)!
+
+```javascript
+import config from "../config/config.json";
+
+// ...
+const sequelize = new Sequelize(
+  config.database,
+  config.username,
+  config.password,
+  config
+);
+// ...
+```
+
+위와 같이 참조하여 사용하려고 하니 아래와 같은 오류가 발생했습니다.
+
+```shell
+[nodemon] starting `node app.js`
+node:internal/errors:484
+    ErrorCaptureStackTrace(err);
+    ^
+
+TypeError [ERR_IMPORT_ASSERTION_TYPE_MISSING]: Module "file:///Users/midas/Desktop/Projects/node-js/learn-mysql/config/config.json" needs an import assertion of type "json"
+    at new NodeError (node:internal/errors:393:5)
+    at validateAssertions (node:internal/modules/esm/assert:82:15)
+    at defaultLoad (node:internal/modules/esm/load:84:3)
+    at nextLoad (node:internal/modules/esm/loader:163:28)
+    at ESMLoader.load (node:internal/modules/esm/loader:601:26)
+    at ESMLoader.moduleProvider (node:internal/modules/esm/loader:457:22)
+    at new ModuleJob (node:internal/modules/esm/module_job:63:26)
+    at #createModuleJob (node:internal/modules/esm/loader:476:17)
+    at ESMLoader.getModuleJob (node:internal/modules/esm/loader:434:34)
+    at async ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:78:21) {
+  code: 'ERR_IMPORT_ASSERTION_TYPE_MISSING'
+```
+
+🔖 참고
+- [자바스크립트에서의 JSON 모듈](https://abbo.tistory.com/245)
+
+
+### 메모
+- 웹 사이트가 어떤 페이지의 크롤링을 허용하는지 확인하려면 도메인/robots.txt 확인
