@@ -25,6 +25,13 @@ git filter-branch --tree-filter 'rm -rf model/auth.js' HEAD
 
 그리고 커밋할 내역에 남아있다면 오류가 발생하니 미리 Commit or Stash 처리 해둬야 합니다.
 
+### 🤔 혹시나 폴더에 공백이 있다면? (ex: `/folder 1/test.sh`)
+이 경우에는 특수문자인 `\`를 사용하면 됩니다. ❗️
+
+```shell
+git filter-branch --tree-filter 'rm -rf folder\ 1/test.sh' HEAD
+```
+
 ### 🚨 혹시나 아래와 같은 오류가 발생하며 안된다면?
 ```shell
 cannot create a new backup. 
