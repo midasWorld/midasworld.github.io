@@ -54,6 +54,8 @@ menu:
     url: /programming/
   - title: Database
     url: /database/
+  - title: Git
+    url: /git/
   - title: Algorithm
     url: /algorithm/
 

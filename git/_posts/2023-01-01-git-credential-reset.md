@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [GIT] 인증 정보 초기화 방법
+title: 인증 정보 초기화 방법
 description: >
   credential 오류 해결 방법 → 인증 정보 초기화 방법!
 sitemap: false

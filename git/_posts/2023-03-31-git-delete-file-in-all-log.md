@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [GIT] 모든 로그에서 특정 파일 삭제하는 방법
+title: 모든 로그에서 특정 파일 삭제하는 방법
 description: >
   모든 로그에서 특정 파일 삭제하는 명령어 소개
 sitemap: false

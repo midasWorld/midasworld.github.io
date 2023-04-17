@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [GIT] gitignore 파일 적용 안될 때!
+title: gitignore 파일 적용 안될 때!
 description: >
   ignore 파일 적용 안될 때 해결 방법 | Cache 삭제 방법
 sitemap: false

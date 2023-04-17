@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [GIT] Rebase 상태 해제하는 방법
+title: Rebase 상태 해제하는 방법
 description: >
   Local 에서 Rebase 상태 해제하는 방법 소개
 sitemap: false
