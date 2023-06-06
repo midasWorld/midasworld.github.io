@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: CS
+title: ETC
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: cs
+slug: etc
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  CS (Computer Science) 공부 및 정리
+  기타 공부 및 정리
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

@@ -31,7 +31,7 @@ tagline: >
   서버 개발자의 여정
 
 # A list of keywords for your blog
-keywords: [programming, server, database]
+keywords: [backend, server, database, docker, node, nestjs]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -48,16 +48,32 @@ author:
 
 ## Add links to the sidebar.
 menu:
-  - title: CS
-    url: /cs/
-  - title: Programming
-    url: /programming/
+  - title: OS
+    url: /os/
+  - title: Network
+    url: /network/
   - title: Database
     url: /database/
-  - title: Git
-    url: /git/
-  - title: Algorithm
-    url: /algorithm/
+  - title: Server
+    url: /server/
+  - title: Docker
+    url: /docker/
+#  - title: Book
+#    url: /book/
+  - title: Java
+    url: /java/
+  - title: Spring
+    url: /spring/
+#  - title: javascript
+#    url: /javascript/
+#  - title: Typescript
+#    url: /typescript/
+  - title: Node
+    url: /node/
+#  - title: NestJS
+#    url: /nest/
+  - title: ETC
+    url: /etc/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

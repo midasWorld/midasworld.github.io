@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Programming
+title: Typescript
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: programming
+slug: typescript
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  개발 관련 정리 글 (동작 원리, 이슈 등등)
+  Typescript 관련 공부 및 정리
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
