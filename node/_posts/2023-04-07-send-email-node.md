@@ -18,7 +18,7 @@ sitemap: false
 
 ## ⚙️ 1. 구글 설정(앱 비밀번호 생성)!
 
-이전 글인 [Spring(Java) 이메일 인증 구현(with Google)](https://midasworld.github.io/programming/2023-04-06-send-email-java/)에서 잘 설명되어 있습니다!
+이전 글인 [Spring(Java) 이메일 인증 구현(with Google)](https://midasworld.github.io/spring/2023-04-06-send-email-java/)에서 잘 설명되어 있습니다!
 
 ## 💻 2. 코드 구현!
 
