@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 프로젝트 Route53 + HTTPS 적용기
+title: AWS Route53 + HTTPS 적용기
 description: >
   https 상태에서 JWT Refresh 토큰 쿠키(Http-Only) 발행 테스트를 위한 적용기 
 sitemap: false
