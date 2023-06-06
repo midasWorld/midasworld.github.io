@@ -54,6 +54,8 @@ menu:
     url: /network/
   - title: Database
     url: /database/
+  - title: Git
+    url: /git/
   - title: Server
     url: /server/
   - title: Docker
