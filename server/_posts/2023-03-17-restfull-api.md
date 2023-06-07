@@ -6,8 +6,7 @@ description: >
 sitemap: false
 ---
 
-
-# REST API 란 무엇인가?
+Restful API 에 대해 정리해보기
 
 ## 🗣️ 면접 질문
 
@@ -96,10 +95,12 @@ REST API의 가장 큰 특징은 각 요청이 어떤 동작이나 정보를 위
 
 1. URI는 명사를 사용한다!
    <br> 동사 사용 금지!
-  - `/getAll`
-  - `/updateUser`
-  - `/deleteUser`
-  - ...
+
+- `/getAll`
+- `/updateUser`
+- `/deleteUser`
+- ...
+
 2. 슬래시(/)로 계층 관계를 표현한다.
 3. URI 마지막 문자로 슬래시(/)를 포함하지 않는다.
 4. 밑줄(\_)을 사용하지 않고, 하이픈(-)을 사용한다.
