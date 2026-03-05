@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tca4,<p>요즘 많이 사용되는 ORM의 개념에 대해 알아보았습니다.</p>
+<h1>ORM (Object Relation Mapping)</h1>
+<h2>ORM 이란?</h2>
+<p>ORM(Object Relation Mapping)은 뜻 풀이 그대로 '객체와 관계형 데이터베이스의 매핑' 입니다.</p>
+<p>Java 와 같은 객체지향언어(OOP: Object Oriented Programming)의 클래스와
+<br>RDB(Relation DataBase)의 테이블을 매핑하는 것을 의미합니다.</p>
+<p>ORM을 사용하면 SQL Query가 아니라 객체의 메서드로 데이터를 조작할 수 있습니다.</p>
+<p>예를 들어 스프링의 JDBC vs JPA 로 각각 회원을 조회한다고 해볼게요.
+JDBC의 경우 <code>SELECT * FROM users</code>라는 쿼리를 작성해서 실행해야 하지만,
+JPA의 경우 <code>user.findAll()</code> 라는 메서드 호출로 조회가 가능합니다.</p>
+<h2>ORM 장단점</h2>
+<blockquote>
+<p>간단하게 DB 설정과 테이블 매핑되는 클래스 선언만으로도 해당 테이블의 CRUD를 사용 가능합니다.
+<br>
+그래서 ORM을 사용하면 기본적인 프로젝트의 CRUD 구축이 어마무시하게 빨라지는 장점이 굉장히 큽니다.</p>
+</blockquote>
+<h3>장점</h3>
+<ul>
+<li>객체지향적인 코드로 더 직관적으로 비지니스 로직에 집중할 수 있도록 도와줍니다.
+<ul>
+<li>선언문, 할당, 종류 와 같은 부수적인 코드가 없어지거나 줄어듭니다.</li>
+<li>객체마다 코드를 별도로 작성하기 때문에 코드의 가독성이 높아집니다.</li>
+<li>SQL의 절차적이고 순차적 접근이 아닌 객체지향적 접근으로 생산성을 높입니다.</li>
+</ul>
+</li>
+<li>재사용성 및 유지보수의 편리성이 증가합니다.
+<ul>
+<li>ORM은 독립적으로 작성되어 있고, 해당 객체들을 재활용 할 수 있습니다.</li>
+<li>매핑 정보가 명확하고, ERD를 보는 것에 대한 의존도를 낮출 수 있습니다.</li>
+</ul>
+</li>
+<li>DBMS(Database Management System)에 대한 종속성이 줄어듭니다.
+<ul>
+<li>대부분의 ORM은 DB에 종속적이지 않기 때문에, 다른 데이터베이스의 자료형 타입도 유효합니다.</li>
+<li>개발자는 객체에 집중할 수 있고, DBMS를 교체하는 큰 작업에도 적은 리스크와 시간이 소요됩니다.</li>
+<li>자바의 경우 equals, hashCode 의 오버라이드 기능을 이용할 수 있고, 간결하고 빠른 가공이 가능합니다.</li>
+</ul>
+</li>
+</ul>
+<h3>단점</h3>
+<ul>
+<li>ORM 으로만 서비스를 구현하기는 어렵습니다.
+<ul>
+<li>단순한 CRUD의 경우에는 편하지만, 서비스가 커지면 커질수록 복잡도가 커지면서 사용 난이도가 급격하게 올라갑니다.</li>
+<li>잘못 구현된 경우 심각한 속도저하 문제가 있을 수 있습니다. (JPA의 N+1 문제)</li>
+<li>자주 사용되는 대형 쿼리의 경우는 속도를 위해 별도의 튜닝이 필요한 경우가 있습니다.</li>
+</ul>
+</li>
+<li>프로시저가 많은 시스템에서는 ORM 의 장점을 활용하기 어렵습니다.
+<ul>
+<li>이미 프로시저가 많은 경우에는 이를 객체로 바꾸는데 있어서, 생산성 저하와 리스크가 발생할 수 있습니다.</li>
+</ul>
+</li>
+</ul>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Database"}],["$","span",null,{"className":"ml-2","children":"2023-02-11"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"ORM(Object Relation Mapping) 이란?"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"ORM(Object Relation Mapping) 대해 알아봅시다."}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

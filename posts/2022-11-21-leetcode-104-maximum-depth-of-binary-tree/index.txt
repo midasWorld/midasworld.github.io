@@ -1,0 +1,68 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","posts","2022-11-21-leetcode-104-maximum-depth-of-binary-tree",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","2022-11-21-leetcode-104-maximum-depth-of-binary-tree","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+11:Td4c,<p>Tree 문제... 🎋</p>
+<h3>문제</h3>
+<blockquote>
+<p><a href="https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan&#x26;id=level-1">104. Maximum Depth of Binary Tree 풀기 완료 문제 링크</a></p>
+</blockquote>
+<p>Binary Tree → 최대 깊이 구하기!</p>
+<blockquote>
+<p>🤔 Binary Tree(이진 트리)?
+<br>
+자식 노드가 최대 두 개인 노드들로 구성된 트리 입니다.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/93169519/230863009-94cf7a63-7198-4a16-b890-40a5710705d2.png" alt="image"></p>
+<pre><code class="hljs language-text"># Example 1:
+Input: root = [3,9,20,null,null,15,7]
+Output: 3
+</code></pre>
+<p>사진을 보면 알 수 있듯이 가장 깊은건  15, 7(3 level)이므로 정답은 3입니다.</p>
+<h3>최종 Solution</h3>
+<p>결과적으로 가장 깊은 노드까지 반복적으로 내려가며 반복하는 방법 밖에 없는 것 같습니다.</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">maxDepth</span>(<span class="hljs-params">self, root: <span class="hljs-type">Optional</span>[TreeNode]</span>) -> <span class="hljs-built_in">int</span>:
+  <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> root: <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>
+
+  ans, level = <span class="hljs-number">0</span>, [root]
+  <span class="hljs-keyword">while</span> level:
+    ans += <span class="hljs-number">1</span>
+    LRs = []
+    <span class="hljs-keyword">for</span> node <span class="hljs-keyword">in</span> level:
+      <span class="hljs-keyword">if</span> node.left:
+        LRs.append(node.left)
+      <span class="hljs-keyword">if</span> node.right:
+        LRs.append(node.right)
+    level = LRs
+  <span class="hljs-keyword">return</span> ans
+</code></pre>
+<p>일단 빈 배열로 들어오면 0을 반환 합니다.
+<br>
+그리고 나서는 한 단계씩 '비어 있지 않은 하위 노드(left, right)'를 변수 <code>level</code>로 전달해서 계속 반복하는 것 뿐입니다.</p>
+<p>아래의 <code>dfs</code>로 풀어낸 것과 거의 똑같은 속도가 측정되었습니다. 🥸</p>
+<h2>Best Solution</h2>
+<p>이걸 <code>dfs</code>로 풀어내니 코드가 이렇게 짧아지는 구나... 싶었습니다. 🤔</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">maxDepth</span>(<span class="hljs-params">self, root: <span class="hljs-type">Optional</span>[TreeNode]</span>) -> <span class="hljs-built_in">int</span>:
+  <span class="hljs-keyword">def</span> <span class="hljs-title function_">dfs</span>(<span class="hljs-params">root, depth</span>):
+    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> root: <span class="hljs-keyword">return</span> depth
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">max</span>(dfs(root.left, depth + <span class="hljs-number">1</span>), dfs(root.right, depth + <span class="hljs-number">1</span>))
+                 
+  <span class="hljs-keyword">return</span> dfs(root, <span class="hljs-number">0</span>)
+</code></pre>
+<p>재귀함수로 계속해서 실행되며 마지막 노드까지 반환하여 <code>max</code> 함수로 최대 깊이를 반환하는 깔끔한 코드였습니다. 🧐</p>8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L10",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Algorithm"}],["$","span",null,{"className":"ml-2","children":"2022-11-21"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"리트코드 104. Maximum Depth of Binary Tree 풀기 완료"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"Binary Tree 최대 깊이 구하기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"리트코드 104. Maximum Depth of Binary Tree 풀기 완료 | midasworld"}],["$","meta","1",{"name":"description","content":"Binary Tree 최대 깊이 구하기"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

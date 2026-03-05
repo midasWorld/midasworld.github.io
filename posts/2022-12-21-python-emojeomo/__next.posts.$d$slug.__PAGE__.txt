@@ -1,0 +1,189 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T35e1,<p>파이썬 공부 필기용</p>
+<h2>self 이해하기</h2>
+<h3>🔖 참고 사이트</h3>
+<ul>
+<li><a href="https://velog.io/@magnoliarfsit/RePython-1.-self-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0">[Re:Python] 1. self 이해하기</a></li>
+</ul>
+<h2>PriorityQueue vs heapq</h2>
+<p>PriorityQueue vs heapq 차이점을 알아보겠습니다.</p>
+<h3>CPython - PriorityQueue 클래스 일부</h3>
+<pre><code class="hljs language-python"><span class="hljs-keyword">class</span> <span class="hljs-title class_">PriorityQueue</span>:
+    ...
+    <span class="hljs-keyword">def</span> <span class="hljs-title function_">_put</span>(<span class="hljs-params">self, item</span>):
+        heappush(<span class="hljs-variable language_">self</span>.queue, item)
+        
+    <span class="hljs-keyword">def</span> <span class="hljs-title function_">_get</span>(<span class="hljs-params">self</span>):
+        <span class="hljs-keyword">return</span> heappop(<span class="hljs-variable language_">self</span>.queue)
+</code></pre>
+<h3>차이점은 스레드 세이프(Thread-Safe)</h3>
+<blockquote>
+<p>스레드 세이프(Thread-Safe)?
+<br>
+멀티 스레드에도 안전한 프로그래밍의 개념.
+<br>
+만약 스레드 세이프하지 않은 경우 1번 스레드의 값이 2번 스레드에서 변경될 수 있어 문제가 발생한다.</p>
+</blockquote>
+<p>파이썬은 GIL의 특성상 멀티 스레딩이 거의 없기 때문에 대부분 멀티 프로세싱으로 활용한다는 점을 생각해본다면...
+<br>
+멀티 스레딩 지원은 사실 큰 의미를 없습니다.
+<br>
+또한 스레드 세이프를 보장한다는 것은 내부적으로 락킹(Locking)을 제공한다는 의미로
+<br>
+락킹 오버헤드(Locking Overhead)가 발생해 성능에 영향을 끼칩니다.</p>
+<p>따라서 굳이 멀티 스레드로 구현할 것이 아니라면 <code>PriorityQueue</code> 모듈을 사용할 필요가 없습니다.
+<br>
+(실무에서도 우선순위 큐는 대부분 <code>heapq</code>로 구현을 하고 있다고 합니다. 🤔)</p>
+<h2>zip() &#x26; *(아스테리스크)</h2>
+<h3>zip() 함수</h3>
+<p>2개 이상의 시퀀스를 짧은 길이를 기준으로 일대일 대응하는 새로운 튜플 시퀀스를 만드는 함수</p>
+<pre><code class="hljs language-python">a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+b = [<span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+c = [<span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+<span class="hljs-built_in">zip</span>(a, b)
+
+<span class="hljs-built_in">list</span>(<span class="hljs-built_in">zip</span>(a, b))
+[(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>), (<span class="hljs-number">2</span>, <span class="hljs-number">3</span>), (<span class="hljs-number">3</span>, <span class="hljs-number">4</span>), (<span class="hljs-number">4</span>, <span class="hljs-number">5</span>)]
+
+<span class="hljs-built_in">list</span>(<span class="hljs-built_in">zip</span>(a, b, c))
+[(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>), (<span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>), (<span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>)]
+</code></pre>
+<p>zip() 결과 자체는 리스트 시퀀스가 아닌 튜플 시퀀스를 만들기 때문에, 값을 변경하는 것이 불가능 합니다.
+<br>
+(== 불변(Immutable) 객체)</p>
+<pre><code class="hljs language-python">a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+b = [<span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+c = [<span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+
+d = <span class="hljs-built_in">list</span>(<span class="hljs-built_in">zip</span>(a, b, c))
+
+<span class="hljs-built_in">print</span>(d[<span class="hljs-number">0</span>][<span class="hljs-number">0</span>])
+
+d[<span class="hljs-number">0</span>][<span class="hljs-number">0</span>] = <span class="hljs-number">0</span>
+
+<span class="hljs-comment"># >> 실행 결과!</span>
+<span class="hljs-number">1</span>
+Traceback (most recent call last):
+  File <span class="hljs-string">"/Users/midas/Desktop/Study/Python/CodingInterview/interview/해시테이블/Sample.py"</span>, line <span class="hljs-number">9</span>, <span class="hljs-keyword">in</span> &#x3C;module>
+    d[<span class="hljs-number">0</span>][<span class="hljs-number">0</span>] = <span class="hljs-number">0</span>
+TypeError: <span class="hljs-string">'tuple'</span> <span class="hljs-built_in">object</span> does <span class="hljs-keyword">not</span> support item assignment
+
+Process finished <span class="hljs-keyword">with</span> exit code <span class="hljs-number">1</span>
+</code></pre>
+<p>위와 같이 <code>zip()</code>의 값을 변경 하려고하면 <code>TypeError</code>가 발생합니다.</p>
+<blockquote>
+<p>이처럼 <code>zip()</code>은 여러 시퀀스에서 동일한 인덱스의 아이템을 순서대로 추출하여 튜플로 만들어줍니다.</p>
+</blockquote>
+<h3>아스테리스크(*)</h3>
+<p>C 언어의 포인터 변수와 혼동될 수 있으나 <strong>파이썬에는 포인터가 존재하지 않습니다.</strong>
+<br>
+파이썬에서 *는 언팩(Unpack) 입니다.
+<br>
+시퀀스 언패킹 연산자(Sequence Unpacking Operator)로 말 그대로 시퀀스를 풀어헤치는 연산자입니다.
+<br>
+주로 튜플이나 리스트를 언패킹하는 데 사용됩니다.</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">import</span> collections
+
+nums = [<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]
+result = collections.Counter(nums).most_common(<span class="hljs-number">2</span>)
+
+<span class="hljs-built_in">print</span>(result) <span class="hljs-comment"># 1</span>
+[(<span class="hljs-number">1</span>, <span class="hljs-number">3</span>), (<span class="hljs-number">2</span>, <span class="hljs-number">2</span>)]
+
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">list</span>(<span class="hljs-built_in">zip</span>(result))) <span class="hljs-comment"># 2</span>
+[((<span class="hljs-number">1</span>, <span class="hljs-number">3</span>),), ((<span class="hljs-number">2</span>, <span class="hljs-number">2</span>),)]
+
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">list</span>(<span class="hljs-built_in">zip</span>(*result))) <span class="hljs-comment"># 3</span>
+[(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>), (<span class="hljs-number">3</span>, <span class="hljs-number">2</span>)]
+</code></pre>
+<p>위와 같이 Counter... 의 결과를 <code>zip()</code>으로 바로 묶으면 2번과 같이 엉뚱한 결과가 나오게 됩니다.
+<br>
+이는 *로 언패킹을 해줘야 원하는 값을 얻을 수 있습니다.</p>
+<p>예제를 더 살펴보겠습니다.</p>
+<pre><code class="hljs language-python">fruits = [<span class="hljs-string">'lemon'</span>, <span class="hljs-string">'pear'</span>, <span class="hljs-string">'watermelon'</span>, <span class="hljs-string">'tomato'</span>]
+
+<span class="hljs-keyword">for</span> f <span class="hljs-keyword">in</span> fruits: <span class="hljs-comment"># 1</span>
+    <span class="hljs-built_in">print</span>(f, end=<span class="hljs-string">' '</span>)
+    
+<span class="hljs-built_in">print</span>(*fruits) <span class="hljs-comment"># 2</span>
+</code></pre>
+<p>각 요소를 출력하는 방법은 1번과 같이 for 문을 사용해야 하지만...
+<br>
+놀랍게도 *로 언패킹을 해줘도 같은 결과가 출력됩니다!</p>
+<p>이외에도 *는 활용도가 많다고 하는데요.</p>
+<pre><code class="hljs language-python">date_info = {<span class="hljs-string">'year'</span>: <span class="hljs-string">'2020'</span>, <span class="hljs-string">'month'</span>: <span class="hljs-string">'01'</span>, <span class="hljs-string">'day'</span>: <span class="hljs-string">'7'</span>}
+new_info = {**date_info, <span class="hljs-string">'day'</span>: <span class="hljs-string">'14'</span>}
+
+<span class="hljs-built_in">print</span>(new_info)
+{<span class="hljs-string">'year'</span>: <span class="hljs-string">'2020'</span>, <span class="hljs-string">'month'</span>: <span class="hljs-string">'01'</span>, <span class="hljs-string">'day'</span>: <span class="hljs-string">'14'</span>}
+</code></pre>
+<p>위와 같이 <code>**date_info</code>에 모든 요소를 언패킹 할 수 있고,
+<br>
+<code>day</code>가 14로 업데이트 된것을 확인할 수 있습니다.</p>
+<h2>객체 복사</h2>
+<blockquote>
+<p>파이썬의 중요한 특징 중 하나!
+<br>
+모든것이 객체이다!</p>
+</blockquote>
+<p>위와 글과 같이 파이썬은 모든 것이 객체 입니다.
+<br>
+숫자, 문자까지도 객체죠. 🕺</p>
+<p>숫자, 문자가 리스트, 딕셔너리와 같은 객체와 차이점은 <strong>불변 객체</strong>라는 것 뿐입니다.
+<br>
+그래서 별도로 값을 복사하지 않으면, 변수에 값을 할당하는 모든 행위는 값 객체에 대한 참조가 됩니다.
+<br>
+이는 즉 참조가 가리키는 원래의 값을 변경하면 모든 참조, 모든 변수의 값 또한 함께 변경됨을 말합니다.</p>
+<p>그렇다면 참조가 되지 않도록 값 자체를 복사하는 방법은 무엇이 있을까요? 🤔
+<br>
+가장 간단한 방법이 <code>[:]</code> 슬라이스를 사용하는 것입니다.</p>
+<pre><code class="hljs language-python">a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]
+b = a
+c = a[:]
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">id</span>(a), <span class="hljs-built_in">id</span>(b), <span class="hljs-built_in">id</span>(c))
+<span class="hljs-comment"># 4312361728 4312361728 4312236800</span>
+</code></pre>
+<p>[:]로 처리한 변수 c는 다른 ID를 갖는 것을 알 수 있습니다.
+<br>
+즉 참조 처리된 b는 a와 동일한 ID를 갖지만, 변수 c는 값 자체가 복사되어 새로운 객체가 되었습니다.</p>
+<p>이외에도 <code>copy()</code> 메서드를 사용하는 방법이 있습니다.
+<br>
+(좀 더 직관적임 💁‍♂️)</p>
+<pre><code class="hljs language-python">a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]
+b = a
+c = a[:]
+d = a.copy()
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">id</span>(a), <span class="hljs-built_in">id</span>(b), <span class="hljs-built_in">id</span>(c), <span class="hljs-built_in">id</span>(d))
+<span class="hljs-comment"># 4344310272 4344310272 4344185408 4344308800</span>
+</code></pre>
+<p>위와 같이 변수 d 또한 다른 ID를 갖는 것을 확인할 수 있었습니다.
+<br>
+(== 값이 복사되어 새로운 객체가 생성되었다.)</p>
+<p>간단한 리스트의 경우에는 위와 같이 <code>[:]</code>와 <code>copy()</code>로 할 수 있지만,
+<br>
+복잡한 리스트의 경우에는 다음과 같이 <code>copy.deepcopy()</code> 사용해야 합니다.</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">import</span> copy
+a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, [<span class="hljs-number">3</span>, <span class="hljs-number">5</span>], <span class="hljs-number">4</span>]
+b = a
+c = a[:]
+d = copy.deepcopy(a)
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">id</span>(a), <span class="hljs-built_in">id</span>(a[<span class="hljs-number">2</span>]), a) <span class="hljs-comment"># 4376593536 4376586048 [1, 2, [3, 5], 4]</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">id</span>(b), <span class="hljs-built_in">id</span>(b[<span class="hljs-number">2</span>]), b) <span class="hljs-comment"># 4376593536 4376586048 [1, 2, [3, 5], 4]</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">id</span>(c), <span class="hljs-built_in">id</span>(c[<span class="hljs-number">2</span>]), c) <span class="hljs-comment"># 4376586880 4376586048 [1, 2, [3, 5], 4]</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">id</span>(d), <span class="hljs-built_in">id</span>(d[<span class="hljs-number">2</span>]), d) <span class="hljs-comment"># 4376586624 4376587584 [1, 2, [3, 5], 4]</span>
+</code></pre>
+<p>자.. 위의 것을 차근차근 살펴보면... 🫠
+<br></p>
+<ol>
+<li><code>=</code> 연산자로 생성된 b는 a, [3, 5]까지 주소가 같은 것을 확인할 수 있습니다.</li>
+<li><code>[:]</code> 메서드로 생성된 c는 a는 주소가 다르지만, <strong>내부의 [3, 5]는 주소가 같은 것을 확인할 수 있습니다.</strong></li>
+<li><code>copy.deepcopy()</code>로 생성된 d가 되어서야, a 뿐만 아니라 [3, 5]도 주소가 새롭게 생성된 것을 확인할 수 있습니다.</li>
+</ol>
+<blockquote>
+<p>즉 2차원 리스트 이상의 경우 객체를 복사하기 위해서는 <code>copy.deepcopy()</code>를 사용해야 합니다.</p>
+</blockquote>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Etc"}],["$","span",null,{"className":"ml-2","children":"2022-12-21"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"파이썬 이모저모"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"파이썬 이모저모"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tc00,<p>면접 단골 질문인 Blocking vs Non-Blocking 에 대해 정리해보았습니다.</p>
+<h2>Blocking vs Non-Blocking</h2>
+<p>둘의 차이점의 키-포인트는 <em><strong>제어권</strong></em> 입니다.</p>
+<pre><code class="hljs language-text">함수 A() {
+  B();
+  // 다음 작업!
+}
+
+함수 B() {
+  // 열심히 실행!
+}
+</code></pre>
+<blockquote>
+<p>A 함수 내에서 B 함수 실행 시?</p>
+</blockquote>
+<h3>⛔️ 블로킹 (Blocking)</h3>
+<p>A는 B에게 제어권을 넘겨주고, 함수 실행을 잠시 멈춥니다(Block!).
+<br>
+B는 함수를 실행하고 A에게 제어권을 넘겨줍니다.
+<br>
+A는 제어권을 넘겨받고 나서 다음 작업을 이어갑니다.</p>
+<p><code>Javascript</code>에서 <code>alert()</code> 함수로 설명해보겠습니다.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-title function_">alert</span>(<span class="hljs-string">'Hi!'</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">'Bye!'</span>);
+</code></pre>
+<p>위의 작업의 결과는 보이는 바와 같이 아래와 같습니다.</p>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">메시지 알림으로 Hi! 팝업</span>
+Bye!
+</code></pre>
+<p>메시지 팝업으로 <code>Hi!</code>를 보여준 후에 <code>Bye!</code>가 콘솔로 출력됩니다.
+<br>
+이는 <code>alert</code> 함수로 제어권이 넘어가서 실행을 완료되기 전까지 Block 됩니다.
+<br>
+메시지 창을 닫고 나서야 제어권이 다시 돌아와 다음 작업을 실행하게 되는 것이죠.</p>
+<h3>⛩️ 논블로킹 (Non-blocking)</h3>
+<p>A에서 B를 호출하지만 B가 바로 제어권을 반납하여 A가 제어권을 가지게 됩니다.
+<br>
+A는 B를 호출하고도 계속해서 다음 작업을 실행합니다.</p>
+<p>똑같이 <code>Javascript</code>로 예시를 들어보겠습니다.
+<br>
+비동기 함수로 사용되는 <code>setTimeout()</code>로 설명해볼게요.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-built_in">setTimeout</span>(<span class="hljs-function">() =></span> 
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">'Hi!'</span>), <span class="hljs-number">0</span>); <span class="hljs-comment">// 2번째 매개변수: 대기 시간을 0으로 설정!</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">'Bye!'</span>);
+</code></pre>
+<p>위의 작업을 실행하게 되면 어떻게 될까요?
+<br>
+정답은 아래와 같습니다.</p>
+<pre><code class="hljs language-shell">Bye!
+Hi!
+</code></pre>
+<p>제어권을 바로 반납 받아 (<code>Hi!</code>를 기다리는 것이 아닌) <code>Bye!</code>를 실행하게 되기 때문입니다.
+<br>
+이렇게 제어권을 바로 반납 받아 다른 일을 할 수 있도록 하는것을 논블로킹이라고 합니다.</p>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Node.js"}],["$","span",null,{"className":"ml-2","children":"2022-11-22"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Blocking vs Non-Blocking"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"Blocking vs Non-Blocking 에 대해서 알아봅시다."}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

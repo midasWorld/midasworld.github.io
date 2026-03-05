@@ -1,0 +1,57 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T125e,<p>시퀄라이즈 다사다난 사용기... 🚶</p>
+<h1>ISSUE 정리</h1>
+<h2>INSERT 시, FK(외래키) 정보가 등록 안되는 문제</h2>
+<p>글(Tweet) 생성 시, 작성자 정보 등록을 위해 회원의 Id를 외래키로 설정을 하고,
+<br>
+시퀄라이즈에서 제공하는 <code>model.create</code> 메서드를 사용해서 등록을 해줬는데?
+<br>
+외래키 정보만 쏙 빠진채로 등록되는 문제가 발생했습니다. 🤔</p>
+<p>아래에는 순서대로 <code>[1]외래키 설정</code>, <code>[2]실행된 테이블 생성문</code>, <code>[3]등록 메서드(create)</code>, <code>[4]등록 결과물</code> 입니다.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">// [1] 외래키 설정(with Sequelize)</span>
+<span class="hljs-title class_">Tweet</span>.<span class="hljs-title function_">belongsTo</span>(<span class="hljs-title class_">User</span>);
+</code></pre>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">[2] 실행된 테이블 생성문</span>
+<span class="hljs-meta prompt_"># </span><span class="bash">`user_id`(FK)가 생성됨!</span> 
+Executing (default): CREATE TABLE IF NOT EXISTS `tweets` (`id` INTEGER NOT NULL auto_increment , `text` TEXT NOT NULL, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME, `user_id` INTEGER NOT NULL, PRIMARY KEY (`id`), FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;
+</code></pre>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">// [3] 등록 메서드(create)</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">create</span>(<span class="hljs-params">text, userId</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Tweet</span>.<span class="hljs-title function_">create</span>({ text, userId });
+}
+</code></pre>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">[4] 등록 결과</span>
+INSERT INTO `tweets` (`id`,`text`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?);
+</code></pre>
+<p>4번과 같이 user_id 는 제외된 상태로 INSERT 된것을 확인할 수 있었습니다. 🫠
+<br>
+(테이블을 확인해보니 <code>user_id</code>가 null 상태였습니다.)</p>
+<pre><code class="hljs language-javascript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">create</span>(<span class="hljs-params">text, userId</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Tweet</span>.<span class="hljs-title function_">create</span>({ text, <span class="hljs-attr">user_id</span>: userId });
+}
+</code></pre>
+<p>위와 같이 <code>user_id</code>를 명시해줘도 똑같이 등록이 되지 않았습니다.</p>
+<h3>✨ 해결</h3>
+<p>이리저리 찾아보다 외래키 설정하는 부분을 보고, 설정값을 넣어줬더니 너무 간단하게 해결되었습니다.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-title class_">Tweet</span>.<span class="hljs-title function_">belongsTo</span>(<span class="hljs-title class_">User</span>, {
+  <span class="hljs-attr">foreignKey</span>: { <span class="hljs-attr">name</span>: <span class="hljs-string">"userId"</span>, <span class="hljs-attr">allowNull</span>: <span class="hljs-literal">false</span> },
+});
+</code></pre>
+<p>위와 같이 name 설정해주면서 겸사겸사 null 허용이 되지 않도록 같이 설정했습니다.
+<br>
+그리고 나서 실행을 하니 정상적으로 등록이 됬고, 데이터도 들어간것을 확인할 수 있었습니다.</p>
+<pre><code class="hljs language-shell">INSERT INTO `tweets` (`id`,`text`,`created_at`,`updated_at`,`user_id`) VALUES (DEFAULT,?,?,?,?);
+</code></pre>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_">mysql> </span><span class="bash"><span class="hljs-keyword">select</span> * from tweets;</span>
++----+---------+---------------------+---------------------+------------+---------+
+| id | text    | created_at          | updated_at          | deleted_at | user_id |
++----+---------+---------------------+---------------------+------------+---------+
+|  1 | 헬로?   | 2023-03-19 00:54:25 | 2023-03-19 00:54:25 | NULL       |       1 |
++----+---------+---------------------+---------------------+------------+---------+
+1 row in set (0.01 sec)
+</code></pre>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Node.js"}],["$","span",null,{"className":"ml-2","children":"2023-03-11"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Sequelize Issue 정리"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"Sequelize 사용하면서 생긴 이슈 정리"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

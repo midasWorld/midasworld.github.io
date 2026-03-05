@@ -1,0 +1,212 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T148c,<h2>금리와 주식</h2>
+<p>금리는 주식시장에 가장 큰 영향을 미치는 거시 변수.</p>
+<h3>금리 인상의 영향</h3>
+<pre><code class="hljs">금리 인상
+→ 예금·채권 매력 상승
+→ 주식 매력 상대적 감소
+→ 기업 대출 이자 부담 증가 → 이익 감소
+→ 주가에 부정적
+</code></pre>
+<p>특히 <strong>성장주(고PER)</strong> 에 타격이 크다. 성장주의 가치는 먼 미래 이익의 현재가치인데, 금리 상승 시 할인율이 올라가 현재가치가 줄어들기 때문.</p>
+<h3>금리 인하의 영향</h3>
+<pre><code class="hljs">금리 인하
+→ 대출 이자 부담 완화
+→ 기업 투자·소비 증가
+→ 주식 상대적 매력 증가
+→ 주가에 긍정적
+</code></pre>
+<h3>장단기 금리차 (Yield Curve)</h3>
+<pre><code class="hljs language-scss">장기금리(<span class="hljs-number">10</span>년) - 단기금리(<span class="hljs-number">2</span>년)
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>상태</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>플러스 (정상)</td>
+<td>경제 성장 기대</td>
+</tr>
+<tr>
+<td>역전 (마이너스)</td>
+<td>경기침체 예고 신호</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>미국에서 장단기 금리차 역전 후 평균 12~18개월 내 경기침체가 온 역사적 패턴.</p>
+</blockquote>
+<hr>
+<h2>환율과 주식</h2>
+<h3>원/달러 환율 상승 (원화 약세)</h3>
+<ul>
+<li><strong>수출주 유리</strong>: 삼성전자, 현대차 등 수출 기업은 달러 수입이 원화로 환산 시 더 많아짐</li>
+<li><strong>수입주 불리</strong>: 원자재를 달러로 수입하는 기업은 원가 상승</li>
+<li>외국인 투자자는 원화 자산 가치 하락으로 매도 경향</li>
+</ul>
+<h3>원/달러 환율 하락 (원화 강세)</h3>
+<ul>
+<li><strong>수출주 불리</strong>: 환산 이익 감소</li>
+<li><strong>내수주 유리</strong>: 수입 물가 하락</li>
+<li>외국인 자금 유입 경향</li>
+</ul>
+<hr>
+<h2>경기 사이클과 업종</h2>
+<p>경제는 <strong>회복 → 호황 → 후퇴 → 침체</strong> 의 사이클을 반복.
+각 국면에서 유리한 업종이 다르다.</p>
+<table>
+<thead>
+<tr>
+<th>사이클</th>
+<th>특징</th>
+<th>유리한 업종</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>회복기</td>
+<td>금리 낮음, 소비 시작</td>
+<td>금융, 소재, IT</td>
+</tr>
+<tr>
+<td>호황기</td>
+<td>고성장, 고물가</td>
+<td>에너지, 원자재, 산업재</td>
+</tr>
+<tr>
+<td>후퇴기</td>
+<td>성장 둔화, 긴축</td>
+<td>필수소비재, 헬스케어</td>
+</tr>
+<tr>
+<td>침체기</td>
+<td>경기 악화, 금리 하락</td>
+<td>채권, 유틸리티, 금</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>주요 경제 지표</h2>
+<h3>미국 지표 (글로벌 영향 큼)</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>발표 주기</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPI (소비자물가지수)</td>
+<td>월간</td>
+<td>인플레이션 수준 → 금리 방향 결정</td>
+</tr>
+<tr>
+<td>실업률</td>
+<td>월간</td>
+<td>노동시장 건강도</td>
+</tr>
+<tr>
+<td>GDP 성장률</td>
+<td>분기</td>
+<td>경제 성장 속도</td>
+</tr>
+<tr>
+<td>ISM 제조업 PMI</td>
+<td>월간</td>
+<td>50 이상이면 확장, 이하면 수축</td>
+</tr>
+<tr>
+<td>FOMC 회의</td>
+<td>연 8회</td>
+<td>기준금리 결정</td>
+</tr>
+</tbody>
+</table>
+<h3>한국 지표</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>한국은행 기준금리</td>
+<td>국내 금리 기준</td>
+</tr>
+<tr>
+<td>수출 증감률</td>
+<td>한국 경제 바로미터 (수출주도형)</td>
+</tr>
+<tr>
+<td>외국인 순매수/순매도</td>
+<td>코스피 방향성 영향 큼</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>공포·탐욕 지수</h2>
+<p>시장 심리를 나타내는 지표들.</p>
+<h3>VIX (변동성 지수, 공포 지수)</h3>
+<ul>
+<li>S&#x26;P 500 옵션의 내재 변동성을 나타냄</li>
+<li><strong>20 이하</strong>: 시장 안정, 낙관적</li>
+<li><strong>30 이상</strong>: 시장 불안, 공포</li>
+<li><strong>40 이상</strong>: 극단적 공포 → 역발상 매수 기회일 수 있음</li>
+</ul>
+<h3>버핏 지수</h3>
+<pre><code class="hljs">버핏 지수 = 전체 주식시장 시가총액 / GDP × 100
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>수준</th>
+<th>해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>75% 이하</td>
+<td>저평가</td>
+</tr>
+<tr>
+<td>75~100%</td>
+<td>적정</td>
+</tr>
+<tr>
+<td>100~125%</td>
+<td>고평가</td>
+</tr>
+<tr>
+<td>125% 이상</td>
+<td>매우 고평가 (버블 경고)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>거시 환경 체크 순서</h2>
+<p>주식 투자 전 거시 환경 파악 순서:</p>
+<ol>
+<li><strong>금리 방향</strong> — 인상 사이클인가, 인하 사이클인가?</li>
+<li><strong>경기 국면</strong> — 회복/호황/후퇴/침체 중 어디인가?</li>
+<li><strong>환율</strong> — 원화 강세/약세 추세?</li>
+<li><strong>외국인 수급</strong> — 최근 외국인이 사는가, 파는가?</li>
+<li><strong>시장 심리</strong> — VIX, 공포탐욕 지수 수준?</li>
+</ol>
+<blockquote>
+<p>거시 분석은 투자 시기와 업종 선택에 참고하되, 개별 기업 분석을 대체하지는 않는다.</p>
+</blockquote>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"경제 지표와 주식시장"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

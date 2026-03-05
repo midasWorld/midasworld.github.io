@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T952,<p>인텔리제이에서 Node, NextJS 작업을 하려고 했으나.. 😓
+<br>
+vscode의 편리함과의 괴리감이 느껴져서 그걸 줄여보고자 설정들을 찾아봤습니다.</p>
+<h2>curly braces ('{}') for authformat</h2>
+<h3>관련 링크: <a href="https://stackoverflow.com/questions/41903215/how-to-format-curly-braces-for-autoformat-in-intellij">How to format curly braces for autoformat in intellij</a></h3>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">// 설정 전: import {CommonModule} from "@angular/common";</span>
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">CommonModule</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/common"</span>;
+</code></pre>
+<p>설정 전을 보시면 <code>{}</code> 의 안쪽의 띄워쓰기가 없이 설정되어 있습니다.
+이 부분을 설정하는 곳은!! <code>ES6 import/export braces</code> 입니다.</p>
+<p><code>Settings > Editor > Code Style > Javascript > Spaces > ES6 import/export braces</code> 체크 하면 됩니다.</p>
+<h3>🔖 추가로 Object 도 바로 위에 있습니다.</h3>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">// 설정 전: const {name, image} = getUser();</span>
+<span class="hljs-keyword">const</span> { name, image } = <span class="hljs-title function_">getUser</span>();
+</code></pre>
+<p><code>Settings > Editor > Code Style > Javascript > Spaces > Object literal braces</code> 체크 하면 됩니다. 👍</p>
+<h2>preserve whitespace in self closing tag</h2>
+<h3>관련 링크: <a href="https://intellij-support.jetbrains.com/hc/en-us/community/posts/207060005-Code-formatting-preserve-whitespace-in-self-closing-tags">Code formatting - preserve whitespace in self closing tags</a></h3>
+<pre><code class="hljs language-html"><span class="hljs-comment">&#x3C;!-- 설정 전: &#x3C;input type="text"/> --></span>
+<span class="hljs-tag">&#x3C;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> /></span>
+</code></pre>
+<p>설정 전을 보시면 <code>/></code> 부분에 띄워쓰기가 되지 않는 걸로 되어 있습니다.
+이 부분을 위한 설정은!! <code>in empty tag</code> 입니다.</p>
+<p><code>Settings > Code Style > HTML > Other > Spaces > in empty tag</code> 체크하면 됩니다!</p>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Node.js"}],["$","span",null,{"className":"ml-2","children":"2023-04-09"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"인텔리제이에서 Javascript 관련 설정하기"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"인텔리제이에서 Node 개발 환경 만들기!"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,220 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T43f5,<blockquote>
+<p>✨ 데이터베이스 운영에서 가장 중요한 두 가지 요소는 확장성과 가용성 입니다.</p>
+</blockquote>
+<p>이 두 요소를 위해 가장 일반적으로 사용되는 기술이 '복제(Replication)' 입니다.</p>
+<h2>Replication 사용 이유</h2>
+<img src="../../assets/img/docs/database/mysql_replication.png" />
+<ol>
+<li>
+<p>스케일 아웃 (Scale-out)</p>
+<ul>
+<li>대량의 트래픽을 처리하기 위해 DB 서버의 개수를 늘려 실행 되는 쿼리를 분산시키기 위해 사용됩니다.</li>
+<li>스케일 아웃은 스케일 업 방식보다 갑자기 늘어나는 트래픽을 대응하는 데 훨씬 더 유연한 구조입니다.</li>
+</ul>
+</li>
+<li>
+<p>데이터 백업</p>
+<ul>
+<li>DB 백업은 필수 입니다. (많이 하면 할수록 좋습니다. 👍)</li>
+<li>하지만 사용중인 DB를 백업하게 되면 DBMS가 서버의 자원을 공유해서 사용하기 때문에,백업으로 인해 DBMS에서 실행 중인 쿼리들이 영향을 받을 수 있으며, 처리속도가 늦어져 문제가 발생할 수 있습니다.</li>
+<li>이러한 문제를 방지하기 위해 레플리카 서버를 구축하고, 백업은 여기서 실행 됩니다.</li>
+<li>📌 <strong>백업용 레플리카 서버는 소스 서버가 문제가 생겼을 때를 대비한 서버의 역할</strong></li>
+</ul>
+</li>
+<li>
+<p>데이터 분석</p>
+<ul>
+<li>많은 기업에서 데이터 분석을 목적으로 분석용 쿼리를 사용하게 됩니다.</li>
+<li>이러한 분석용 쿼리는 대량의 데이터를 집계 연산을 포함해서 하기 때문에, 복잡하고 무겁습니다.</li>
+<li>서버의 많은 리소스를 사용하기 때문에 여분의 레플리카 서버를 구축해 분석용 쿼리 전용으로 실행하는 것이 좋습니다.</li>
+</ul>
+</li>
+<li>
+<p>데이터 지리적 분산</p>
+<ul>
+<li>DB 서버와 App 서버가 서로 떨어져 있는 경우, 두 서버 간 통신 시간은 거리만큼 늘어납니다.</li>
+<li>이를 위해 DB 서버를 복제해 App 서버가 위치한 곳에 레플리카 서버를 구축해 응답 속도를 개선할 수 있습니다.</li>
+</ul>
+</li>
+</ol>
+<h2>Replication 사용해보기 (with Docker-compose)</h2>
+<h3>📂 폴더 구조 소개</h3>
+<pre><code class="hljs language-text">db
+ ㄴ master
+      ㄴ Dockerfile
+      ㄴ master.cnf
+ ㄴ slave
+      ㄴ Dockerfile
+      ㄴ slave.cnf
+docker-compose.yml
+</code></pre>
+<h3>📄 docker-compose.yml 작성</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-attr">version:</span> <span class="hljs-string">"3"</span>
+
+<span class="hljs-attr">services:</span>
+  <span class="hljs-attr">master-db:</span>
+    <span class="hljs-attr">build:</span>
+      <span class="hljs-attr">context:</span> <span class="hljs-string">./</span>
+      <span class="hljs-attr">dockerfile:</span> <span class="hljs-string">db/master/Dockerfile</span>
+    <span class="hljs-attr">container_name:</span> <span class="hljs-string">master-db</span>
+    <span class="hljs-attr">image:</span> <span class="hljs-string">mysql:8.0.30</span>
+    <span class="hljs-attr">restart:</span> <span class="hljs-string">always</span>
+    <span class="hljs-attr">ports:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-number">3308</span><span class="hljs-string">:3306</span>
+    <span class="hljs-attr">environment:</span>
+      <span class="hljs-attr">MYSQL_DATABASE:</span> <span class="hljs-string">"mydb"</span>
+      <span class="hljs-attr">MYSQL_USER:</span> <span class="hljs-string">"user"</span>
+      <span class="hljs-attr">MYSQL_PASSWORD:</span> <span class="hljs-string">"password"</span>
+      <span class="hljs-attr">MYSQL_ROOT_PASSWORD:</span> <span class="hljs-string">"password"</span>
+    <span class="hljs-attr">volumes:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">~/db/master-db:/var/lib/mysql</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">~/db/master-db:/var/lib/mysql-files</span>
+    <span class="hljs-attr">command:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">--character-set-server=utf8mb4</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">--collation-server=utf8mb4_unicode_ci</span>
+    <span class="hljs-attr">networks:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">net-mysql</span>
+
+  <span class="hljs-attr">slave-db:</span>
+    <span class="hljs-attr">build:</span>
+      <span class="hljs-attr">context:</span> <span class="hljs-string">./</span>
+      <span class="hljs-attr">dockerfile:</span> <span class="hljs-string">db/slave/Dockerfile</span>
+    <span class="hljs-attr">container_name:</span> <span class="hljs-string">slave-db</span>
+    <span class="hljs-attr">image:</span> <span class="hljs-string">mysql:8.0.33</span>
+    <span class="hljs-attr">restart:</span> <span class="hljs-string">always</span>
+    <span class="hljs-attr">ports:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-number">3309</span><span class="hljs-string">:3306</span>
+    <span class="hljs-attr">environment:</span>
+      <span class="hljs-attr">MYSQL_DATABASE:</span> <span class="hljs-string">"mydb"</span>
+      <span class="hljs-attr">MYSQL_USER:</span> <span class="hljs-string">"user"</span>
+      <span class="hljs-attr">MYSQL_PASSWORD:</span> <span class="hljs-string">"password"</span>
+      <span class="hljs-attr">MYSQL_ROOT_PASSWORD:</span> <span class="hljs-string">"password"</span>
+    <span class="hljs-attr">volumes:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">~/db/slave-db:/var/lib/mysql</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">~/db/slave-db:/var/lib/mysql-files</span>
+    <span class="hljs-attr">command:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">--character-set-server=utf8mb4</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">--collation-server=utf8mb4_unicode_ci</span>
+    <span class="hljs-attr">networks:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">net-mysql</span>
+
+<span class="hljs-attr">networks:</span>
+  <span class="hljs-attr">net-mysql:</span>
+    <span class="hljs-attr">driver:</span> <span class="hljs-string">bridge</span>
+</code></pre>
+<h3>[master] master.cnf 파일 > etc/mysql/my.cnf</h3>
+<pre><code class="hljs language-yaml">[<span class="hljs-string">mysqld</span>]
+<span class="hljs-string">server_id=10</span>
+<span class="hljs-string">log_bin=mysql-bin</span>
+<span class="hljs-string">default_authentication_plugin=mysql_native_password</span>
+<span class="hljs-string">binlog_do_db=</span>
+</code></pre>
+<ul>
+<li>server_id : 서버의 고유 식별자 입니다.
+<br> 복제 DB 와는 다르게 각각 설정해줘야 합니다.</li>
+<li>log_bin : 바이너리 로그의 이름을 지정할 수 있습니다.</li>
+<li>binlog_do_db : 복제할 데이터베이스를 지정합니다.
+<br> (따로 지정해주지 않으면 mydatabase 라는 기본값이 들어갔습니다. 😓)</li>
+<li>default_authentication_plugin : 기본 인증 플러그인을 지정하는데 사용됩니다.
+<br>mysql_native_password 는 전통적인 비밀번호 인증 방식을 사용하는 플러그인 입니다.</li>
+</ul>
+<h3>[master] Dockerfile</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">FROM</span> <span class="hljs-string">mysql:8.0.30</span>
+
+<span class="hljs-string">ADD</span> <span class="hljs-string">./db/master/master.cnf</span> <span class="hljs-string">/etc/mysql/my.cnf</span>
+</code></pre>
+<p>위의 설정 값을 기본 설정 파일로 옮길 수 있도록 구성했습니다.</p>
+<h3>[slave] slave.cnf 파일 > etc/mysql/my.cnf</h3>
+<pre><code class="hljs language-yaml">[<span class="hljs-string">mysqld</span>]
+<span class="hljs-string">server_id=11</span>
+<span class="hljs-string">relay_log=/var/lib/mysql/mysql-relay-bin</span>
+<span class="hljs-string">log_slave_updates</span>
+<span class="hljs-string">read_only</span>
+<span class="hljs-string">default_authentication_plugin=mysql_native_password</span>
+</code></pre>
+<ul>
+<li>relay_log : 릴레이 로그 파일명을 지정할 수 있습니다.
+<br>릴레이 로그는 마스터 서버의 바이너리 로그에서 읽어온 이벤트(트랜잭션) 정보가 저장됩니다.
+<br>여기에 저장된 이벤트들이 Replication SQL 스레드에 의해 레플리카 서버에 적용됩니다.</li>
+<li>log_slave_updates : 레플리카 서버에서 수신한 변경 작업도 이벤트 로그에 적용할 지 여부를 지정할 수 있습니다.</li>
+<li>read_only : 레플리카 서버를 읽기 전용으로 설정하는데 사용 됩니다.</li>
+</ul>
+<h3>[slave] Dockerfile</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">FROM</span> <span class="hljs-string">mysql:8.0.33</span>
+
+<span class="hljs-string">ADD</span> <span class="hljs-string">./db/slave/slave.cnf</span> <span class="hljs-string">/etc/mysql/my.cnf</span>
+</code></pre>
+<p>위의 설정 값을 기본 설정 파일로 옮길 수 있도록 구성했습니다.</p>
+<h3>도커 실행 후... 🥸</h3>
+<ol>
+<li>
+<p>Master DB 에서 실행하기</p>
+<pre><code class="hljs language-sql"># replication 담당 사용자 생성 및 권한 적용
+# (테스트라 <span class="hljs-string">'%'</span> 적용 했지만, 실무에서는 특정 IP로 지정해야 합니다<span class="hljs-operator">!</span>)
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">USER</span> <span class="hljs-string">'repl_user'</span>@<span class="hljs-string">'%'</span> IDENTIFIED <span class="hljs-keyword">BY</span> <span class="hljs-string">'1234'</span>;
+<span class="hljs-keyword">GRANT</span> REPLICATION SLAVE <span class="hljs-keyword">ON</span> <span class="hljs-operator">*</span>.<span class="hljs-operator">*</span> <span class="hljs-keyword">TO</span> <span class="hljs-string">'repl_user'</span>@<span class="hljs-string">'%'</span>;
+FLUSH PRIVILEGES;
+
+# Master 정보 확인
+<span class="hljs-keyword">SHOW</span> MASTER STATUS\G
+
+# 결과값
+<span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span> <span class="hljs-number">1.</span> <span class="hljs-type">row</span> <span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span>
+             File: mysql<span class="hljs-operator">-</span>bin<span class="hljs-number">.000003</span>  # ✨ 이 값(바이너리 파일명)과
+         Position: <span class="hljs-number">670</span>               # ✨ 이 값(위치 값)을 기억해야 합니다.
+     Binlog_Do_DB:
+ Binlog_Ignore_DB: mysql
+Executed_Gtid_Set:
+</code></pre>
+</li>
+<li>
+<p>Slave DB 에서 실행하기</p>
+<pre><code class="hljs language-sql"># Replication 설정
+CHANGE REPLICATION SOURCE <span class="hljs-keyword">TO</span> \
+   SOURCE_HOST<span class="hljs-operator">=</span><span class="hljs-string">'master-db'</span>, \
+   SOURCE_PORT<span class="hljs-operator">=</span><span class="hljs-number">3306</span>, \
+   SOURCE_USER<span class="hljs-operator">=</span><span class="hljs-string">'repl_user'</span>, \
+   SOURCE_PASSWORD<span class="hljs-operator">=</span><span class="hljs-string">'1234'</span>, \
+   SOURCE_LOG_FILE<span class="hljs-operator">=</span><span class="hljs-string">'mysql-bin.000003'</span>, \ # ✨ 위에서 나온 정보 값 작성하기
+   SOURCE_LOG_POS<span class="hljs-operator">=</span><span class="hljs-number">670</span>, \
+   GET_SOURCE_PUBLIC_KEY<span class="hljs-operator">=</span><span class="hljs-number">1</span>;
+
+# 시작하기
+<span class="hljs-keyword">start</span> slave;
+
+# Replica 상태 보기
+<span class="hljs-keyword">show</span> slave status\G;
+
+<span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span> <span class="hljs-number">1.</span> <span class="hljs-type">row</span> <span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span><span class="hljs-operator">*</span>
+            Slave_IO_State: Waiting <span class="hljs-keyword">for</span> source <span class="hljs-keyword">to</span> send event
+               Master_Host: master<span class="hljs-operator">-</span>db
+               Master_User: repl_user
+               Master_Port: <span class="hljs-number">3306</span>
+             Connect_Retry: <span class="hljs-number">60</span>
+           Master_Log_File: mysql<span class="hljs-operator">-</span>bin<span class="hljs-number">.000003</span>
+       Read_Master_Log_Pos: <span class="hljs-number">837</span>
+            Relay_Log_File: mysql<span class="hljs-operator">-</span>relay<span class="hljs-operator">-</span>bin<span class="hljs-number">.000002</span>
+             Relay_Log_Pos: <span class="hljs-number">326</span>
+     Relay_Master_Log_File: mysql<span class="hljs-operator">-</span>bin<span class="hljs-number">.000003</span>
+          Slave_IO_Running: Yes                    # ✨ 이 부분과
+         Slave_SQL_Running: Yes                    # ✨ 이 부분이 활성화 되었다면 OK<span class="hljs-operator">!</span>
+</code></pre>
+</li>
+</ol>
+<h3>🎬 끝</h3>
+<p>이후에 마스터 서버에서 테이블을 만들어 보면...
+<br>바로 레플리카 서버로 동기화 되는 것을 확인할 수 있었습니다. 😁</p>
+<h2>🤔 Master vs Slave 의 버전이 다른 이유는?</h2>
+<p>동일하게 적용 했더니... 😓
+<br>cnf 파일이 master, slave 각각 적용되지 않고 하나의 파일로만 적용 됬습니다.</p>
+<p>방법을 이리저리 찾아봤는데, 해결 방법을 찾지 못해 버전을 달리 했습니다.
+(depend_on 설정으로는 턱도 없었습니다. 🫠)</p>
+<blockquote>
+<p>💡 MySQL 버전이 다른 경우 레플리카 서버의 버전이 높아야 합니다.</p>
+</blockquote>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Database"}],["$","span",null,{"className":"ml-2","children":"2023-06-11"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"MySQL - Replication 설정하기"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"MySQL - Replication 설정하기 정리"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

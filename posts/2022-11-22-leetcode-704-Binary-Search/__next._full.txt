@@ -1,0 +1,56 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","posts","2022-11-22-leetcode-704-Binary-Search",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","2022-11-22-leetcode-704-Binary-Search","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+11:T98a,<p>Tree 문제... 🎋</p>
+<h3>문제</h3>
+<blockquote>
+<p><a href="https://leetcode.com/problems/binary-search/">704. Binary Search 풀기 완료 문제 링크</a></p>
+</blockquote>
+<pre><code class="hljs language-text"># Example 1:
+Input: nums = [-1,0,3,5,9,12], target = 9
+Output: 4
+Explanation: 9 exists in nums and its index is 4
+</code></pre>
+<p>nums 배열에서 타겟의 숫자는 9의 인덱스는 <code>4</code>이므로 <code>4</code>가 반환 됩니다.</p>
+<h3>✅해결 방법 &#x26; 최종 Solution</h3>
+<p>문제 자체가 Binary Search 이므로 이 방법으로 풀었습니다.</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span>:
+    <span class="hljs-keyword">def</span> <span class="hljs-title function_">search</span>(<span class="hljs-params">self, nums: <span class="hljs-type">List</span>[<span class="hljs-built_in">int</span>], target: <span class="hljs-built_in">int</span></span>) -> <span class="hljs-built_in">int</span>:
+        start, end = <span class="hljs-number">0</span>, <span class="hljs-built_in">len</span>(nums) - <span class="hljs-number">1</span>
+        <span class="hljs-keyword">while</span> start &#x3C;= end:
+            mid = (end - start) // <span class="hljs-number">2</span> + start
+            <span class="hljs-keyword">if</span> nums[mid] == target:
+                <span class="hljs-keyword">return</span> mid
+            <span class="hljs-keyword">elif</span> nums[mid] &#x3C; target:
+                start = mid + <span class="hljs-number">1</span>
+            <span class="hljs-keyword">else</span>:
+                end = mid - <span class="hljs-number">1</span>
+        <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>
+</code></pre>
+<p>위의 예제로 순서대로 구해보면?</p>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">Example</span>
+Input: nums = [-1,0,3,5,9,12], target = 9
+
+1. ❎ start = 0, end = 5, mid = 2, nums[mid] = 3
+2. ✅ start = 3, end = 5, mid = 4, nums[mid] = 9 (정답 끗!) 
+</code></pre>
+<p>첫 번째 중간 인덱스는 2인데 대상이 그보다 크기 때문에! 다음에는 [-1, 0 3] 배제! 하고 나머지 배열에서 찾게 됩니다.
+<br>
+이렇게 하면 개수 만큼 순서대로 찾는게 아니라 1/2씩 배제하며 찾을 수 있기 때문에 효과적입니다.</p>8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L10",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Algorithm"}],["$","span",null,{"className":"ml-2","children":"2022-11-22"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"리트코드 704. Binary Search 풀기 완료"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"배열에서 숫자 찾기!"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"리트코드 704. Binary Search 풀기 완료 | midasworld"}],["$","meta","1",{"name":"description","content":"배열에서 숫자 찾기!"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

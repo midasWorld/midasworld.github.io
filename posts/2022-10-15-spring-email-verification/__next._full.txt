@@ -1,0 +1,119 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","posts","2022-10-15-spring-email-verification",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","2022-10-15-spring-email-verification","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+11:T21c5,<p>기존 사이드 프로젝트인 회원 관리 시스템에 이메일 인증 관리를 위해서 기능 추가를 해보았습니다. 🤔</p>
+<h2>GMAIL 설정</h2>
+<h3>1. (🙅‍♂️ 비추천) 보안 수준이 낮은 앱의 엑세스 허용하기</h3>
+<ul>
+<li><a href="https://myaccount.google.com/lesssecureapps?pli=1&#x26;rapt=AEjHL4P4ZD9vqj5HX72RUdPEI2TreSAFtRkz6nxoFRZnFAhZwbKjDu4mS_7Y-Ob5_D7LR_WPJDtJTvcEEoWeOb-WZU1Nh28R1Q">보안 수준이 낮은 앱의 엑세스</a> 해당 링크를 통해서 앱 허용을 해주셔야 합니다.
+<br>
+<img src="https://user-images.githubusercontent.com/93169519/196298743-2aa030be-fb74-4644-b26b-77e1faa3106a.png" alt="image"></li>
+<li>해당 설정을 사용하지 않으면 오류가 발생합니다. 😓
+<br>
+(→ Authentication failed; … Username and Password not accepted.)
+<ul>
+<li>🤔 의문이 새롭게 계정을 생성해서 같은 곳으로 들어가면...
+<br>
+<img src="https://user-images.githubusercontent.com/93169519/196298756-9da98946-540f-4670-ab73-9999dbaa2f7b.png" alt="image">
+<br>
+사용할 수 없다고 나오게 됩니다. <del>😓2차 인증을 해야 되는건가? 싶네요</del>
+<br>
+→ 2차 인증을 해도 안됨
+<br>
+<img src="https://user-images.githubusercontent.com/93169519/196298768-1316cc95-2799-4904-9fa5-66b21165d68b.png" alt="image">
+<br>
+<a href="https://support.google.com/accounts/answer/6010255?hl=ko&#x26;visit_id=637950495068647686-2065665416&#x26;p=less-secure-apps&#x26;rd=1">👉 [보안 수준이 낮은 앱 및 Google 계정]</a>
+<br>
+결국 로그인을 해서 메일을 보내는 구조다 보니.. 보안을 위해서 지원을 하지 않는 것 같습니다. 😱</li>
+</ul>
+</li>
+</ul>
+<h3>2. (✨ 추천) 2차 인증 설정</h3>
+<ol>
+<li>계정 관리 → 보안 → 2단계 인증을 해줍니다.
+<img src="https://user-images.githubusercontent.com/93169519/196298107-973d8f82-8246-4f9b-985f-744e8514472d.png" alt="image"></li>
+<li>인증이 완료 되었다면, 같은 곳의 앱 비밀번호로 들어갑니다.
+<img src="https://user-images.githubusercontent.com/93169519/196297978-26c75529-98a8-4607-b089-701fcc1240fb.png" alt="image"></li>
+<li>앱 비밀번호를 생성해줍니다.</li>
+</ol>
+<ul>
+<li><strong>앱 선택</strong> → 기타</li>
+<li><strong>기기 선택</strong> → 기타 (맞춤 이름)</li>
+<li><strong>앱 이름 설정</strong> 후 <strong>생성 버튼을 클릭</strong>합니다.
+<br>
+그럼 이렇게 앱 비밀번호가 생성 됩니다. 😁
+<br>
+<img src="https://user-images.githubusercontent.com/93169519/196297988-b1d17a22-fcd7-4ac7-84bf-9f6a60684a31.png" alt="image"></li>
+</ul>
+<p><strong>이제 생성된 기기용 앱 비밀번호를 사용하면 됩니다.</strong></p>
+<h2>인증 메일 전송 구현</h2>
+<p>일단 회원가입 시, 해당 이메일 인증을 위한 메일 전송을 구현 했습니다.</p>
+<h3>메일 내용 HTML 작성</h3>
+<p>먼저 인증 메일을 그저 텍스트로 보내는 것이 아니라 <strong>보기 좋게 디자인된 형태로 보내기 위해</strong> 먼저 HTML을 작성 했습니다.</p>
+<pre><code class="hljs language-html"><span class="hljs-tag">&#x3C;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #f8f9f9; padding: 2.5em"</span>></span>
+  <span class="hljs-tag">&#x3C;<span class="hljs-name">h1</span>></span><span class="hljs-tag">&#x3C;<span class="hljs-name">span</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"color: #819ff7"</span>></span>이메일 인증<span class="hljs-tag">&#x3C;/<span class="hljs-name">span</span>></span><span class="hljs-tag">&#x3C;<span class="hljs-name">br</span> /></span>링크를 안내드립니다.<span class="hljs-tag">&#x3C;/<span class="hljs-name">h1</span>></span>
+  <span class="hljs-tag">&#x3C;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"margin-top: 3em"</span>></span>
+    <span class="hljs-tag">&#x3C;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"margin-bottom: 0"</span>></span>아래의 <span class="hljs-tag">&#x3C;<span class="hljs-name">b</span>></span>인증하기<span class="hljs-tag">&#x3C;/<span class="hljs-name">b</span>></span> 버튼을 클릭하면<span class="hljs-tag">&#x3C;/<span class="hljs-name">p</span>></span>
+    <span class="hljs-tag">&#x3C;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"margin-top: 0.3em"</span>></span>이메일 인증이 완료 됩니다.<span class="hljs-tag">&#x3C;/<span class="hljs-name">p</span>></span>
+  <span class="hljs-tag">&#x3C;/<span class="hljs-name">div</span>></span>
+  <span class="hljs-tag">&#x3C;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"display: flex; justify-content: center; margin-top: 3em"</span>></span>
+    <span class="hljs-tag">&#x3C;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"position: relative; width: 15%; background: #819ff7; border: none; border-radius: 1.5em; padding: 0.9em; color: white; font-size: 1.1em; text-align: center; text-decoration: none; cursor: pointer;"</span>></span>인증하기<span class="hljs-tag">&#x3C;/<span class="hljs-name">a</span>></span>
+  <span class="hljs-tag">&#x3C;/<span class="hljs-name">div</span>></span>
+<span class="hljs-tag">&#x3C;/<span class="hljs-name">div</span>></span>
+</code></pre>
+<p>여기서 중요한게 속성 값을 '(작은 따옴표)로 사용하면 안된다는 점입니다. 😓
+<br>
+먼저 이것을 스프링 프로젝트로 옮겨 오면 아래와 같은 형태가 되는데요.</p>
+<pre><code class="hljs language-java"><span class="hljs-keyword">private</span> String <span class="hljs-title function_">getEmailHtmlContent</span><span class="hljs-params">(String url)</span> {
+    <span class="hljs-keyword">return</span> MessageFormat.format(
+        <span class="hljs-keyword">new</span> <span class="hljs-title class_">StringBuilder</span>()
+            .append(<span class="hljs-string">"&#x3C;div style=\"background-color: #f8f9f9; padding: 2.5em\">"</span>)
+            .append(<span class="hljs-string">"  &#x3C;h1>&#x3C;span style=\"color: #819ff7\">이메일 인증&#x3C;/span>&#x3C;br />링크를 안내드립니다.&#x3C;/h1>"</span>)
+            .append(<span class="hljs-string">"  &#x3C;div style=\"margin-top: 3em\">"</span>)
+            .append(<span class="hljs-string">"    &#x3C;p style=\"margin-bottom: 0\">아래의 &#x3C;b>인증하기&#x3C;/b> 버튼을 클릭하면&#x3C;/p>"</span>)
+            .append(<span class="hljs-string">"    &#x3C;p style=\"margin-top: 0.3em\">이메일 인증이 완료 됩니다.&#x3C;/p>"</span>)
+            .append(<span class="hljs-string">"  &#x3C;/div>"</span>)
+            .append(<span class="hljs-string">"  &#x3C;div style=\"display: flex; justify-content: center; margin-top: 3em\">"</span>)
+            .append(<span class="hljs-string">"    &#x3C;a href=\"{0}\" style=\"position: relative; width: 15%; background: #819ff7; border: none; border-radius: 1.5em; padding: 0.9em; color: white; font-size: 1.1em; text-align: center; text-decoration: none; cursor: pointer;\">인증하기&#x3C;/a>"</span>)
+            .append(<span class="hljs-string">"  &#x3C;/div>"</span>)
+            .append(<span class="hljs-string">"&#x3C;/div>"</span>)
+            .toString()
+        , url);
+}
+</code></pre>
+<p>처음에는 속성 값을 '(작은 따옴표)로 감싸는 형태로 사용했습니다.
+<br>
+이유는 특수문자을 하기 위해 " 형태로 사용하는 것보다 확실히 구분되어 보기가 더 좋다고 생각이 들어서 였는데요.
+<br>
+문제는 '(작은 따옴표)를 사용하게 되면 해당 속성 값 자체가 제외된 상태로 전송이 됩니다. 🧐
+<br>
+(CSS가 모두 제외된 상태로 HTML 태그만 전송 됩니다.)
+<br>
+그래서 이 부분만 유의하면 문제 없이 적용이 됩니다. <strong>🪄 속성 값은 꼭 \"로 감싸야 합니다!</strong></p>
+<h3>전송 기능 구현</h3>
+<p><img src="https://user-images.githubusercontent.com/93169519/195991229-4ee3c50b-ca4e-451a-939a-0203e423d550.png" alt="image"></p>
+<h2>이메일 인증 구현</h2>
+<h2>후기</h2>
+<p>코드 상으로 부족한 부분이 많아서 참 고민이 많아 졌습니다. 😓
+<br></p>
+<h2>🔖 참고 사이트</h2>
+<ul>
+<li><a href="https://gilssang97.tistory.com/60">[Spring] 이메일 인증 구현</a></li>
+</ul>8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L10",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Spring"}],["$","span",null,{"className":"ml-2","children":"2022-10-15"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"이메일 인증 구현 (Spring boot)"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"회원 가입 시, 인증 메일을 전송하고 해당 메일로 인증까지 하는 기능 구현기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"이메일 인증 구현 (Spring boot) | midasworld"}],["$","meta","1",{"name":"description","content":"회원 가입 시, 인증 메일을 전송하고 해당 메일로 인증까지 하는 기능 구현기"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

@@ -1,0 +1,146 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","posts","2022-10-06-http-vs-https",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","2022-10-06-http-vs-https","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+11:T1644,<p>Web 기초 지식인 HTTP 정리해보기 (면접 대비용)</p>
+<h2>HTTP</h2>
+<ul>
+<li>HTTP (HyperText Transfer Protocol)</li>
+<li>서버-클라이언트 메시지 교환 프로토콜</li>
+<li>HTML 문서 및 이미지와 같은 리소스를 가져오는 방법</li>
+</ul>
+<p>HTTP(HyperText Transfer Protocol)는 데이터를 주고 받기 위한 프로토콜이며, 서버/클라이언트 모델을 따릅니다.
+<br>
+HTTP는 상태 정보를 저장하지 않는 <strong>Stateless</strong> 특징과 클라이언트 요청에 맞는 응답을 보낸 후 연결을 끊는 <strong>Connectionless</strong> 특징을 가지고 있습니다.</p>
+<p>이전 통신 정보를 모르기 때문에 매번 인증을 해줘야 하는데...
+<br>
+이를 해결하기 위해 쿠키(Cookie)나 세션(Session)을 사용해서 데이터를 처리합니다.</p>
+<p><strong><code>www.domain.com</code> 을 입력하게 되면? 🤔</strong></p>
+<ol>
+<li>브라우저 주소 표시줄에 URL 입력</li>
+<li>웹사이트 서버로 데이터 전달
+<br>
+<strong>(👾: 해당 데이터는 서버에 도달할 때까지 일반 텍스트로 이동 됨)</strong></li>
+<li>서버는 응답값을 다시 보냄</li>
+<li>브라우저는 해당 데이터를 의도한 대로 렌더링하거나 표시하고 <strong>끗!</strong></li>
+</ol>
+<blockquote>
+<p>🚨 HTTP는 암호화 되지 않고 데이터가 전달 되기 때문에 보안에 취약합니다.</p>
+</blockquote>
+<ul>
+<li>중간에 패킷을 가로챌 수 있고 수정할 수도 있습니다.</li>
+<li>민감한 정보(이름, 이메일, 신용카드 정보, 비밀번호)의 경우 유출되거나 악용될 여지가 큽니다.</li>
+</ul>
+<h3>프로토콜 (Protocol)</h3>
+<p>서로 다른 하드웨어 기기간 데이터 통신 규약</p>
+<pre><code class="hljs language-angular2html">[CLIENT]                   [SERVER]
+HTTP (초밥 1인분이요!)         HTTP (금방 가져다 드리죠!)
+↕                           ↕
+TCP (주인장 들리니?)           TCP (손님 들리니?)
+↕                           ↕
+IP (주인장 위치는)             IP (손님 위치는?)
+↕                           ↕
+NETWORK (메시지 이동중...)  ↔  NETWORK (메시지 이동중...)
+</code></pre>
+<h3>TCP (Transmission Control Protocol)</h3>
+<ul>
+<li>트랜스포트 계층</li>
+<li>서버와 클라이언트 사이 통신 연결 제어</li>
+<li>HTTP ←(DATA)→ TCP ↔ IP</li>
+<li>Byte Stream 제공 :
+<br>
+데이터가 너무 크기 때문에, 패킷으로 쪼개서 제공!</li>
+<li>3way handshaking</li>
+</ul>
+<h3>IP (Internet Protocol)</h3>
+<p>IP 주소는 각 기기들을 식별하기 위한 논리적 주소입니다.
+<br>
+주소의 길이는 IPv4 기준으로 각각 8bit 씩 총 32bit 를 이룹니다.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>IPv4</th>
+<th>IPv6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>주소 길이</td>
+<td>32bit</td>
+<td>128bit</td>
+</tr>
+<tr>
+<td>표기 방법</td>
+<td>10진수<br>ex) 162.168.1.1</td>
+<td>16진수<br>ex)cccc:cccc:cccc:cccc</td>
+</tr>
+<tr>
+<td>주소 개수</td>
+<td>약 43억 개<br>범위: 0.0.0.0~255.255.255.255</td>
+<td>무한대에 가까움</td>
+</tr>
+<tr>
+<td>서비스 품질</td>
+<td>제한적 품질</td>
+<td>확장된 품질</td>
+</tr>
+<tr>
+<td>보안 기능</td>
+<td>IPSec 별도 설치</td>
+<td>기본 제공</td>
+</tr>
+</tbody>
+</table>
+<p>IPv4 의 43억 개가 많아 보이지만, 인터넷 보급이 확산되며 고갈되어 IPv6 가 나오게 되었습니다.</p>
+<p>IP 주소는 A, B, C, D, E 총 5개의 클래스로 나눌 수 있습니다.
+<br>
+클래스는 하나의 IP 주소에서 네트워크 영역과 호스트 영역으로 나누는 방법에 따라 다릅니다.</p>
+<p><img src="https://github.com/midasWorld/blog/assets/93169519/7f17c927-5f21-44f5-8016-584d1ba2d4da" alt="image"></p>
+<p>[<a href="https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/resources/ipv4Info.jsp">한국인터넷정보센터</a> 출처]</p>
+<p>주소의 클래스는 A, B, C 가 일반적으로 사용되고,
+<br>
+D, E는 각각 멀티캐스트용, 연구용으로 사용됩니다.</p>
+<h2>HTTPS</h2>
+<ul>
+<li>HTTPS (HyperText Transfer Protocol Secure)</li>
+<li>HTTP with security features.</li>
+<li>주소표시줄 왼쪽에 있는 자물쇠 마크(🔒)로 적용되고 있는지 유무를 확인할 수 있습니다.</li>
+<li>웹 서버로 이동하기 전에 패킷을 암호화 됩니다. → 🔒!</li>
+</ul>
+<h2>HTTP vs HTTPS</h2>
+<p>HTTP의 보안 취약점을 해결하기 위해 HTTP에 암호화가 추가된 프로토콜이 HTTPS 입니다.
+<br>
+<strong>HTTP에 SSL을 더해 보안을 강화한 것이 HTTPS 입니다.</strong></p>
+<blockquote>
+<p>※ SSL(Secure Socket Layer) : 인터넷을 통해 전달되는 정보를 보호하기 위해 개발된 통신 규약</p>
+</blockquote>
+<p>HTTP는 원래 TCP와 직접 통신 했지만, HTTPS에서 HTTP는 SSL과 통신하고 SSL이 TCP와 통신함으로써,
+<br>
+암호화와 증명서, 안정성 보호를 이용할 있게 됩니다.</p>
+<h2>🔖 참고 사이트</h2>
+<p><a href="https://www.youtube.com/watch?v=IjxkKQvn8Bc&#x26;t=592s">https://www.youtube.com/watch?v=IjxkKQvn8Bc&#x26;t=592s</a>
+<br>
+<a href="https://www.youtube.com/watch?v=AB0VMbvEz7g&#x26;pp=ugMICgJrbxABGAE%3D">https://www.youtube.com/watch?v=AB0VMbvEz7g&#x26;pp=ugMICgJrbxABGAE%3D</a>
+<br>
+<a href="https://www.youtube.com/watch?v=H6lpFRpyl14&#x26;t=2s">https://www.youtube.com/watch?v=H6lpFRpyl14&#x26;t=2s</a>
+<br>
+<a href="https://www.youtube.com/watch?v=xcrjamphIp4&#x26;t=54s">https://www.youtube.com/watch?v=xcrjamphIp4&#x26;t=54s</a>
+<br>
+<a href="https://www.youtube.com/watch?v=WS2n8mkrFaY">https://www.youtube.com/watch?v=WS2n8mkrFaY</a></p>8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L10",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Network"}],["$","span",null,{"className":"ml-2","children":"2022-10-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"HTTP vs HTTPS"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"HTTP vs HTTPS 각 개념과 차이점"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"HTTP vs HTTPS | midasworld"}],["$","meta","1",{"name":"description","content":"HTTP vs HTTPS 각 개념과 차이점"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

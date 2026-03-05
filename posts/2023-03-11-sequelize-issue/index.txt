@@ -1,0 +1,71 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","posts","2023-03-11-sequelize-issue",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","2023-03-11-sequelize-issue","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+11:T125e,<p>시퀄라이즈 다사다난 사용기... 🚶</p>
+<h1>ISSUE 정리</h1>
+<h2>INSERT 시, FK(외래키) 정보가 등록 안되는 문제</h2>
+<p>글(Tweet) 생성 시, 작성자 정보 등록을 위해 회원의 Id를 외래키로 설정을 하고,
+<br>
+시퀄라이즈에서 제공하는 <code>model.create</code> 메서드를 사용해서 등록을 해줬는데?
+<br>
+외래키 정보만 쏙 빠진채로 등록되는 문제가 발생했습니다. 🤔</p>
+<p>아래에는 순서대로 <code>[1]외래키 설정</code>, <code>[2]실행된 테이블 생성문</code>, <code>[3]등록 메서드(create)</code>, <code>[4]등록 결과물</code> 입니다.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">// [1] 외래키 설정(with Sequelize)</span>
+<span class="hljs-title class_">Tweet</span>.<span class="hljs-title function_">belongsTo</span>(<span class="hljs-title class_">User</span>);
+</code></pre>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">[2] 실행된 테이블 생성문</span>
+<span class="hljs-meta prompt_"># </span><span class="bash">`user_id`(FK)가 생성됨!</span> 
+Executing (default): CREATE TABLE IF NOT EXISTS `tweets` (`id` INTEGER NOT NULL auto_increment , `text` TEXT NOT NULL, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME, `user_id` INTEGER NOT NULL, PRIMARY KEY (`id`), FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;
+</code></pre>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">// [3] 등록 메서드(create)</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">create</span>(<span class="hljs-params">text, userId</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Tweet</span>.<span class="hljs-title function_">create</span>({ text, userId });
+}
+</code></pre>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">[4] 등록 결과</span>
+INSERT INTO `tweets` (`id`,`text`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?);
+</code></pre>
+<p>4번과 같이 user_id 는 제외된 상태로 INSERT 된것을 확인할 수 있었습니다. 🫠
+<br>
+(테이블을 확인해보니 <code>user_id</code>가 null 상태였습니다.)</p>
+<pre><code class="hljs language-javascript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">create</span>(<span class="hljs-params">text, userId</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Tweet</span>.<span class="hljs-title function_">create</span>({ text, <span class="hljs-attr">user_id</span>: userId });
+}
+</code></pre>
+<p>위와 같이 <code>user_id</code>를 명시해줘도 똑같이 등록이 되지 않았습니다.</p>
+<h3>✨ 해결</h3>
+<p>이리저리 찾아보다 외래키 설정하는 부분을 보고, 설정값을 넣어줬더니 너무 간단하게 해결되었습니다.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-title class_">Tweet</span>.<span class="hljs-title function_">belongsTo</span>(<span class="hljs-title class_">User</span>, {
+  <span class="hljs-attr">foreignKey</span>: { <span class="hljs-attr">name</span>: <span class="hljs-string">"userId"</span>, <span class="hljs-attr">allowNull</span>: <span class="hljs-literal">false</span> },
+});
+</code></pre>
+<p>위와 같이 name 설정해주면서 겸사겸사 null 허용이 되지 않도록 같이 설정했습니다.
+<br>
+그리고 나서 실행을 하니 정상적으로 등록이 됬고, 데이터도 들어간것을 확인할 수 있었습니다.</p>
+<pre><code class="hljs language-shell">INSERT INTO `tweets` (`id`,`text`,`created_at`,`updated_at`,`user_id`) VALUES (DEFAULT,?,?,?,?);
+</code></pre>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_">mysql> </span><span class="bash"><span class="hljs-keyword">select</span> * from tweets;</span>
++----+---------+---------------------+---------------------+------------+---------+
+| id | text    | created_at          | updated_at          | deleted_at | user_id |
++----+---------+---------------------+---------------------+------------+---------+
+|  1 | 헬로?   | 2023-03-19 00:54:25 | 2023-03-19 00:54:25 | NULL       |       1 |
++----+---------+---------------------+---------------------+------------+---------+
+1 row in set (0.01 sec)
+</code></pre>8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L10",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Node.js"}],["$","span",null,{"className":"ml-2","children":"2023-03-11"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Sequelize Issue 정리"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"Sequelize 사용하면서 생긴 이슈 정리"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"Sequelize Issue 정리 | midasworld"}],["$","meta","1",{"name":"description","content":"Sequelize 사용하면서 생긴 이슈 정리"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

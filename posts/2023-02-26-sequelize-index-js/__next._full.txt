@@ -1,0 +1,128 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","posts","2023-02-26-sequelize-index-js",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","2023-02-26-sequelize-index-js","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+11:T21ae,<h2>Sequelize - 😓 index.js → module 타입으로 수정하기</h2>
+<p>require 대신에 import 문을 사용하기 위해 <code>package.json</code>에서 type module 설정을 했더니...
+<br>
+sequelize - <code>index.js</code>에서 아래의 구문에서 문제가 발생했습니다.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">//...</span>
+fs.<span class="hljs-title function_">readdirSync</span>(__dirname)
+  .<span class="hljs-title function_">filter</span>(<span class="hljs-function">(<span class="hljs-params">file</span>) =></span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(file);
+    <span class="hljs-keyword">return</span> (
+      file.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">"."</span>) !== <span class="hljs-number">0</span> &#x26;&#x26; file !== basename &#x26;&#x26; file.<span class="hljs-title function_">slice</span>(-<span class="hljs-number">3</span>) === <span class="hljs-string">".js"</span>
+    );
+  })
+  .<span class="hljs-title function_">forEach</span>(<span class="hljs-function">(<span class="hljs-params">file</span>) =></span> {
+    <span class="hljs-comment">// 📌 바로 여기 require()부분!!!!!</span>
+    <span class="hljs-keyword">const</span> model = <span class="hljs-built_in">require</span>(path.<span class="hljs-title function_">join</span>(__dirname, file));
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(file, model.<span class="hljs-property">name</span>);
+    db[model.<span class="hljs-property">name</span>] = model;
+    model.<span class="hljs-title function_">initiate</span>(sequelize);
+  });
+</code></pre>
+<p>아래와 같이 <code>require</code> 부분에서 오류가 발생했습니다.</p>
+<pre><code class="hljs language-shell">ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/Users/midas/Desktop/Projects/node-js/malcopolo/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+</code></pre>
+<p>ES Module 에서는 <code>require</code>를 사용할 수 없는 부분이죠. 🤔
+<br>
+하지만 models 폴더에서 entity 객체를 초기화 해주기 위해서는 필요한 구문이었습니다.
+<br>
+다행히 대체 가능한 코드를 잘 작성한 사이트를 찾을 수 있어서 아래와 같이 작성했습니다.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">// models/index.js</span>
+
+<span class="hljs-keyword">import</span> <span class="hljs-title class_">Sequelize</span> <span class="hljs-keyword">from</span> <span class="hljs-string">"sequelize"</span>;
+<span class="hljs-keyword">import</span> fs <span class="hljs-keyword">from</span> <span class="hljs-string">"fs"</span>;
+<span class="hljs-keyword">import</span> path <span class="hljs-keyword">from</span> <span class="hljs-string">"path"</span>;
+<span class="hljs-keyword">import</span> { fileURLToPath } <span class="hljs-keyword">from</span> <span class="hljs-string">"url"</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-title class_">Config</span> <span class="hljs-keyword">from</span> <span class="hljs-string">"../config/config.json"</span> assert { <span class="hljs-attr">type</span>: <span class="hljs-string">"json"</span> };
+
+<span class="hljs-keyword">const</span> __filename = <span class="hljs-title function_">fileURLToPath</span>(<span class="hljs-keyword">import</span>.<span class="hljs-property">meta</span>.<span class="hljs-property">url</span>);
+<span class="hljs-keyword">const</span> __dirname = path.<span class="hljs-title function_">dirname</span>(__filename);
+
+<span class="hljs-keyword">const</span> env = process.<span class="hljs-property">env</span>.<span class="hljs-property">NODE_ENV</span> || <span class="hljs-string">"development"</span>;
+<span class="hljs-keyword">const</span> config = <span class="hljs-title class_">Config</span>[env];
+<span class="hljs-keyword">const</span> db = {};
+
+<span class="hljs-keyword">const</span> sequelize = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Sequelize</span>(
+  config.<span class="hljs-property">database</span>,
+  config.<span class="hljs-property">username</span>,
+  config.<span class="hljs-property">password</span>,
+  config
+);
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title function_">async</span> () => {
+  <span class="hljs-keyword">const</span> files = fs.<span class="hljs-title function_">readdirSync</span>(__dirname).<span class="hljs-title function_">filter</span>(<span class="hljs-function">(<span class="hljs-params">file</span>) =></span> {
+    <span class="hljs-keyword">return</span> (
+      file.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">"."</span>) !== <span class="hljs-number">0</span> &#x26;&#x26;
+      file !== path.<span class="hljs-title function_">basename</span>(__filename) &#x26;&#x26;
+      file.<span class="hljs-title function_">slice</span>(-<span class="hljs-number">3</span>) === <span class="hljs-string">".js"</span>
+    );
+  });
+
+  <span class="hljs-keyword">for</span> <span class="hljs-title function_">await</span> (<span class="hljs-keyword">const</span> file <span class="hljs-keyword">of</span> files) {
+    <span class="hljs-comment">// 📌 이 부분이 import로 해당 파일의 객체를 생성하는 부분!</span>
+    <span class="hljs-keyword">const</span> model = <span class="hljs-keyword">await</span> <span class="hljs-keyword">import</span>(<span class="hljs-string">`./<span class="hljs-subst">${file}</span>`</span>);
+    model.<span class="hljs-property">default</span>.<span class="hljs-title function_">initiate</span>(sequelize);
+  }
+
+  <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">keys</span>(db).<span class="hljs-title function_">forEach</span>(<span class="hljs-function">(<span class="hljs-params">modelName</span>) =></span> {
+    <span class="hljs-keyword">if</span> (db[modelName].<span class="hljs-property">associate</span>) {
+      db[modelName].<span class="hljs-title function_">associate</span>(db);
+    }
+  });
+
+  db.<span class="hljs-property">sequelize</span> = sequelize;
+
+  <span class="hljs-keyword">return</span> db;
+};
+</code></pre>
+<blockquote>
+<p>model.default.initiate(sequelize);</p>
+</blockquote>
+<p><code>model.default</code>를 사용한 이유는 해당 import 문으로 받아온 <code>model</code>을 로그로 출력 해보면...
+<br>
+아래와 같이 default 안에 값이 들어있기 때문입니다.</p>
+<pre><code class="hljs language-shell">[Module: null prototype] { default: User }
+</code></pre>
+<p>🥸 그리고!! 사용하는 부분도 export 부분이 함수로 내보내기 때문에, 아래와 같이 사용할 수 있었습니다.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">// app.js</span>
+<span class="hljs-keyword">import</span> db <span class="hljs-keyword">from</span> <span class="hljs-string">"./models/index.js"</span>;
+
+<span class="hljs-comment">// 📌 이 부분!</span>
+<span class="hljs-keyword">const</span> database = <span class="hljs-keyword">await</span> <span class="hljs-title function_">db</span>();
+<span class="hljs-keyword">const</span> sequelize = database.<span class="hljs-property">sequelize</span>;
+
+sequelize
+  .<span class="hljs-title function_">sync</span>({ <span class="hljs-attr">force</span>: <span class="hljs-literal">false</span> })
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">() =></span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"데이터베이스 연결 성공"</span>);
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =></span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(err);
+  });
+</code></pre>
+<p><strong>🕺 고로 데이터 베이스 연결 성공!</strong></p>
+<img width="617" alt="image" src="https://user-images.githubusercontent.com/93169519/221416626-2a2930ec-bf68-42f5-9a2d-0a87573f1268.png">
+<p>🔖 참고 사이트</p>
+<ul>
+<li><a href="https://github.com/sequelize/cli/issues/960">models/index.js doesn't work with ES6 modules</a></li>
+</ul>8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L10",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Node.js"}],["$","span",null,{"className":"ml-2","children":"2023-02-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Sequelize - index.js → module 타입으로 전환하기"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"import 사용을 위한 index.js 수정하기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"Sequelize - index.js → module 타입으로 전환하기 | midasworld"}],["$","meta","1",{"name":"description","content":"import 사용을 위한 index.js 수정하기"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

@@ -1,0 +1,47 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Tc14,<p>Tree 문제... 🎋</p>
+<h3>문제</h3>
+<blockquote>
+<p><a href="https://leetcode.com/problems/symmetric-tree/?envType=study-plan&#x26;id=data-structure-i">101. Symmetric Tree 풀기 완료 문제 링크</a></p>
+</blockquote>
+<p>문제는 Tree 가 좌우 대칭인지 판별하는 것입니다.</p>
+<p><img src="https://user-images.githubusercontent.com/93169519/230925823-55e91feb-f1b7-43d3-aa1e-087084df36ca.png" alt="image"></p>
+<pre><code class="hljs language-text"># Example 1:
+Input: root = [1,2,2,3,4,4,3]
+Output: true
+</code></pre>
+<p>1번 예제는 보시는 바와 같이 1번을 기점으로 좌우 대칭으로 되어 있어 True 를 반환해야 합니다.</p>
+<p><img src="https://user-images.githubusercontent.com/93169519/230925859-fd5acef7-eaeb-444a-8fd3-9c6e1937a21f.png" alt="image"></p>
+<pre><code class="hljs language-text"># Example 2:
+Input: root = [1,2,2,null,3,null,3]
+Output: false
+</code></pre>
+<p>하지만 2번 예제는 마지막 3번이 좌우 대칭이 아니기 때문에 False 를 반환해야 합니다.
+<br>
+(←|(왼쪽) 3번이 2의 왼쪽으로 가던지, 아니면 |→(오른쪽)의 3번이 2의 왼쪽으로 가면 대칭이 되겠죠?)</p>
+<h3>✅ 최종 Solution</h3>
+<pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">isSymmetric</span>(<span class="hljs-params">self, root: <span class="hljs-type">Optional</span>[TreeNode]</span>) -> <span class="hljs-built_in">bool</span>:
+  <span class="hljs-keyword">def</span> <span class="hljs-title function_">isSame</span>(<span class="hljs-params">leftNode, rightNode</span>):
+    <span class="hljs-keyword">if</span> leftNode == <span class="hljs-literal">None</span> <span class="hljs-keyword">and</span> rightNode == <span class="hljs-literal">None</span>:
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">True</span>
+    <span class="hljs-keyword">if</span> leftNode == <span class="hljs-literal">None</span> <span class="hljs-keyword">or</span> rightNode == <span class="hljs-literal">None</span>:
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">False</span>
+    <span class="hljs-keyword">if</span> leftNode.val != rightNode.val:
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">False</span>
+    <span class="hljs-keyword">return</span> isSame(leftNode.left, rightNode.right) <span class="hljs-keyword">and</span> isSame(leftNode.right, rightNode.left)
+  
+  <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> root:
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">True</span>
+
+  <span class="hljs-keyword">return</span> isSame(root.left, root.right)
+</code></pre>
+<p>풀이는 재귀로 간단하게 풀 수 있었습니다.
+<br>
+이진 트리는 2개의 하위 노드만 있기 때문에, 각 2개가 대칭이 맞는지 재귀로 반복하게 되면 모든 노드를 확인할 수 있습니다.
+<br>
+None 값을 다루기 때문에, if 문의 순서만 잘 작성하면 문제 없는 풀이였습니다.</p>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Algorithm"}],["$","span",null,{"className":"ml-2","children":"2022-11-23"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"리트코드 101. Symmetric Tree 풀기 완료"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"Tree → 좌우 대칭인지 판별하시오!"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

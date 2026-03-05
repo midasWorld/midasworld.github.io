@@ -1,0 +1,69 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Tf7a,<p>MySQL에서 새로운 데이터베이스와 함께 사용될 사용자 생성에 사용되는 명령어 모음 입니다.</p>
+<h2>사용자 생성 및 권한 부여하기</h2>
+<p>아래의 명령어들을 통해 생성한 데이터베이스를 사용하실 수 있습니다.</p>
+<h3>😐 사용자 생성</h3>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_">#</span><span class="bash"><span class="hljs-comment">## 생성 ###</span></span>
+use mysql;
+
+create user '사용자'@'host' identified by '비밀번호';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">ex1) 내부 접근을 허용하는 사용자 추가</span>
+create user 'test'@'localhost' identified by '0000';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">ex2) 외부 접근을 허용하는 사용자 추가</span>
+create user 'test'@'%' identified by '0000';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">ex3) 특정 ip만 접근을 허용하는 사용자 추가</span>
+create user 'test'@'123.456.789.100' iden****tified by '0000';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">ex4) 특정 ip 대역을 허용하는 사용자 추가</span>
+create user 'test'@'%' identified by '0000';
+</code></pre>
+<h3>🫥 사용자 제거</h3>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_">#</span><span class="bash"><span class="hljs-comment">## 제거 ###</span></span>
+drop user '사용자';
+<span class="hljs-meta prompt_"># </span><span class="bash">or</span>
+delete from user where user='사용자';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">example</span>
+drop user 'test'@'localhost';
+
+//== 비밀변호 변경 ==//
+alter user '사용자'@'localhost' identified by '비밀번호';
+</code></pre>
+<h3>😎 GRANT 를 이용한 사용자 권한 부여</h3>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">모든 데이터베이스의 모든 테이블에 모든 권한을 줌</span>
+grant all privileges on *.* to '사용자'@'localhost';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">특정 데이터베이스의 모든 테이블에 모든 권한을 줌</span>
+grant all privileges on DB이름.* to '사용자'@'localhost';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">특정 데이터베이스의 특정 테이블에 모든 권한을 줌</span>
+grant all privileges on DB이름.테이블명 to '사용자'@'localhost';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">특정 데이터베이스의 특정 테이블에 <span class="hljs-keyword">select</span> 권한을 줌</span>
+grant select on DB이름.테이블명 to '사용자'@'localhost';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">특정 데이터베이스의 특정 테이블에 <span class="hljs-keyword">select</span>, insert 권한을 줌</span>
+grant select, insert on DB이름.테이블명 to '사용자'@'localhost';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">특정 데이터베이스의 특정 테이블의 컬럼1과 컬럼2의 update 권한을 줌</span>
+grant update(컬럼1, 컬럼2) on DB이름.테이블명 to '사용자'@'localhost';
+</code></pre>
+<h3>✨ 사용자 생성 + GRANT 권한 부여 한번에!</h3>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_">#</span><span class="bash"><span class="hljs-comment">## 생성 및 권한 부여 ###</span></span>
+grant all privileges on *.* to '사용자'@'localhost' identified by '비밀번호';
+<span class="hljs-meta prompt_">
+# </span><span class="bash">example</span>
+grant all privileges on *.* to 'test'@'localhost' identified by '0000';
+</code></pre>
+<h3>‼️ 마무리로 변경사항 반영하기</h3>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_">#</span><span class="bash"><span class="hljs-comment">## 권한 부여 ###</span></span>
+FLUSH PRIVILEGES;
+</code></pre>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Database"}],["$","span",null,{"className":"ml-2","children":"2023-01-27"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"MySQL 사용자 생성 및 권한 부여"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"MySQL 에서 사용자 생성하고 데이터베이스에 대한 권한 부여해보기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

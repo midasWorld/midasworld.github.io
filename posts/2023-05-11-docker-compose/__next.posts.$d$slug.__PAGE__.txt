@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T10bd,<p>유용한 docker-compose 사용 정리! 🥸</p>
+<h2>도커 컴포즈란?</h2>
+<ul>
+<li>도커 컨테이너를 일괄적으로 정의하고 제어하는 도구 입니다.</li>
+<li>설정 파일을 도커 CLI로 변역하는 역할을 맡습니다.</li>
+</ul>
+<pre><code class="hljs language-yaml"><span class="hljs-attr">version:</span> <span class="hljs-string">'3'</span>
+<span class="hljs-attr">services:</span>
+  <span class="hljs-attr">prisma:</span>
+    <span class="hljs-attr">image:</span> <span class="hljs-string">prismagraphql/prisma:${PRISMA_VERSION}</span>
+    <span class="hljs-attr">restart:</span> <span class="hljs-string">always</span>
+    <span class="hljs-attr">ports:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">'${PRISMA_PORT}:${PRISMA_PORT}'</span>
+    <span class="hljs-attr">environment:</span>
+      <span class="hljs-attr">PRISMA_CONFIG:</span> <span class="hljs-string">|
+        managementApiSecret: ${PRISMA_MANAGEMENT_API_SECRET}
+        port: ${PRISMA_PORT}
+        databases:
+          default:
+            connector: postgres
+            host: postgres
+            port: ${POSTGRES_PORT}
+            user: ${POSTGRES_USER}
+            password: ${POSTGRES_PASSWORD}
+</span>   <span class="hljs-attr">postgres:</span>
+    <span class="hljs-attr">image:</span> <span class="hljs-string">postgres:${POSTGRES_VERSION}</span>
+    <span class="hljs-attr">restart:</span> <span class="hljs-string">always</span>
+    <span class="hljs-attr">environment:</span>
+      <span class="hljs-attr">POSTGRES_USER:</span> <span class="hljs-string">${POSTGRES_USER}</span>
+      <span class="hljs-attr">POSTGRES_PASSWORD:</span> <span class="hljs-string">${POSTGRES_PASSWORD}</span>
+    <span class="hljs-attr">volumes:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">postgres:/var/lib/postgresql/data</span>
+<span class="hljs-attr">volumes:</span>
+  <span class="hljs-attr">postgres:</span> <span class="hljs-literal">null</span>
+</code></pre>
+<h3><code>services</code>란?</h3>
+<ul>
+<li>실행하려는 컨테이너들을 정의하는 역할</li>
+<li>이름, 이미지, 포트 매핑, 환경 변수, 볼륨 등을 포함</li>
+<li>해당 정보를 가지고 컨테이너를 생성하고 관리</li>
+</ul>
+<h3><code>services</code> 옵션</h3>
+<ul>
+<li>images: 컨테이너를 생성할 때 쓰일 이미지 지정</li>
+<li>build: 정의된 도커파일에서 이미지를 빌드해 서비스의 컨테이너를 생성하도록 설정</li>
+<li>environment: 환경 변수 설정, docker run 명령어의 --env, -e 옵션과 동일</li>
+<li>command: 컨테이너가 실행 될 때 수행할 명령어, docker run 명령어의 마지막에 붙이는 커맨드와 동일</li>
+<li>depends_on: 컨테이너간의 의존성 주입, 명시된 컨테이너가 먼저 생성되고 실행</li>
+<li>ports: 개방할 포트 지정, docker run 명령어의 -p 옵션과 동일 (포트 포워딩)</li>
+<li>expose: 링크로 연계된 컨테이너에게만 공개할 포트 설정</li>
+<li>volumes: 컨테이너에 볼륨을 마운트함</li>
+<li>restart: 컨테이너가 종료될 때 재시작 정책
+<ul>
+<li>no: 재시작 되지 않음</li>
+<li>always: 외부의 영향에 의해 종료 되었을 때 항상 재시작(수동으로 끄기 전까지)</li>
+<li>on-failure: 오류가 있을 시 재시작</li>
+</ul>
+</li>
+</ul>
+<h2>도커 컴포즈 명령어</h2>
+<blockquote>
+<p>docker-compose -f local-infra.yml up -d</p>
+</blockquote>
+<ul>
+<li>up: 도커 컴포즈 파일로, 컨테이너를 실행하기</li>
+<li>-f: 도커 컴포즈 파일 지정하기</li>
+<li>-d: 백그라운드에서 실행하기</li>
+</ul>
+<h3>도커 네트워크 리스트 조회</h3>
+<blockquote>
+<p>docker network ls</p>
+</blockquote>
+<ul>
+<li>bridge: 도커 엔진에 의해 자동으로 생성되는 가상 네트워크, 컨테이너끼리 연결되는 기본 네트워크</li>
+<li>host: 호스트 컴퓨터의 네트워크 인터페이스를 그대로 사용하는 네트워크</li>
+<li>none: 네트워크를 사용하지 않는 컨테이너</li>
+</ul>
+<h3>도커 네트워크 생성</h3>
+<blockquote>
+<p>docker network create wordpress_net</p>
+</blockquote>
+<p>도커 네트워크를 생성하는 명령어 (네트워크 이름을 지정)</p>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Docker"}],["$","span",null,{"className":"ml-2","children":"2023-05-11"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Docker-compose 란?"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"Docker-compose 내용 정리"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

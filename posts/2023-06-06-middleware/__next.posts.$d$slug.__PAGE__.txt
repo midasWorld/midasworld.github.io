@@ -1,0 +1,62 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T1407,<p>Middlware 예제로 로깅을 소개하고 있지만... 🤔
+<br>커스텀 로깅으로는 사실 인터셉터를 이용해서 많이 사용하고 있고,
+<br>보안 관련 해서는 Guards 를 지원하고 있기 때문에 사용처가 애매해진 느낌이 들었습니다.
+<br>(npm library 의 morgan, helmet 등을 이미 사용하고 있지만 말이죠. 😐)</p>
+<p>NestJS 에서 Request LifeCycle 문서를 보면 가장 먼저 Middleware 가 실행됩니다.
+<br>그리하여 저의 경우에는 CSRF 토큰 검증에 사용했습니다.</p>
+<p>전역적으로 모든 API에 CSRF 토큰이 필요하고, 가장 먼저 거치게 되는 부분도 딱 맞아떨어졌기 때문입니다.</p>
+<h2>Middleware 란?</h2>
+<ul>
+<li>미들웨어는 라우트 핸들러보다 먼저 호출되는 함수 입니다.</li>
+<li>요청 및 응답 객체에 접근하여 사용가능합니다.
+<br>(요청 객체를 변경할 수도 있고, 여기서 응답을 할 수도 있습니다.)</li>
+<li>스택에서 다음 미들웨어 함수를 호출합니다.</li>
+<li>미들웨어에서는 <code>next()</code> 함수를 호출하지 않으면 요청이 중단됩니다.</li>
+<li>특정 API에서만 해당 미들웨어를 거쳐가도록 설정 가능합니다.</li>
+</ul>
+<p>Node 환경의 미들웨어에서는 대게 로깅, JWT 토큰 검증등으로 활용했었습니다.</p>
+<p>NextJS 에서는 Guards 기능을 통해 JWT 토큰 검증을 활용할 수 있어,
+<br>여기서는 로깅을 예제로 들고 있습니다.</p>
+<h2>로깅 구현 및 설정하기</h2>
+<p>로깅 미들웨어를 만들어보겠습니다.</p>
+<p>express 에서 사용했던 것 처럼 아래와 같이 구현 및 적용할 수 있습니다.</p>
+<h3>logger.middleware.ts 구현</h3>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">Request</span>, <span class="hljs-title class_">Response</span>, <span class="hljs-title class_">NextFunction</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"express"</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">logger</span>(<span class="hljs-params"><span class="hljs-attr">req</span>: <span class="hljs-title class_">Request</span>, <span class="hljs-attr">res</span>: <span class="hljs-title class_">Response</span>, <span class="hljs-attr">next</span>: <span class="hljs-title class_">NextFunction</span></span>) {
+  <span class="hljs-comment">// 하고 싶은 작업 수행</span>
+  <span class="hljs-title function_">next</span>();
+}
+</code></pre>
+<h3>전역(Global)적인 미들웨어 적용하기</h3>
+<p>main.ts 에서 아래와 같이 추가해주기만 하면 됩니다.</p>
+<pre><code class="hljs language-typescript">app.<span class="hljs-title function_">use</span>(logger);
+</code></pre>
+<h3>특정 api 에 미들웨어 적용하기</h3>
+<p><code>/posts</code> 의 <code>GET</code> API만 적용하고 싶다면 아래와 같습니다.</p>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppModule</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">NestModule</span> {
+  <span class="hljs-title function_">configure</span>(<span class="hljs-params"><span class="hljs-attr">consumer</span>: <span class="hljs-title class_">MiddlewareConsumer</span></span>) {
+    consumer <span class="hljs-comment">//</span>
+      .<span class="hljs-title function_">apply</span>(logger)
+      .<span class="hljs-title function_">forRoutes</span>({ <span class="hljs-attr">path</span>: <span class="hljs-string">"posts"</span>, <span class="hljs-attr">method</span>: <span class="hljs-title class_">RequestMethod</span>.<span class="hljs-property">GET</span> });
+  }
+}
+</code></pre>
+<h3>특정 컨트롤러에 적용해보고, 그 중 특정 api는 제외하기!</h3>
+<p>특정 컨트롤러로 연결시킬 수도 있습니다.
+<br>그리고 exclude() 함수를 통해 특정 API를 제외할 수도 있습니다.</p>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppModule</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">NestModule</span> {
+  <span class="hljs-title function_">configure</span>(<span class="hljs-params"><span class="hljs-attr">consumer</span>: <span class="hljs-title class_">MiddlewareConsumer</span></span>) {
+    consumer <span class="hljs-comment">//</span>
+      .<span class="hljs-title function_">apply</span>(logger)
+      .<span class="hljs-title function_">exclude</span>({ <span class="hljs-attr">path</span>: <span class="hljs-string">"posts"</span>, <span class="hljs-attr">method</span>: <span class="hljs-title class_">RequestMethod</span>.<span class="hljs-property">POST</span> })
+      .<span class="hljs-title function_">forRoutes</span>(<span class="hljs-title class_">PostsController</span>);
+  }
+}
+</code></pre>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"NestJS"}],["$","span",null,{"className":"ml-2","children":"2023-06-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"NestJS - Middleware"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"NestJS - Middleware 내용 정리"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

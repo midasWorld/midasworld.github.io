@@ -1,0 +1,147 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","private","chart-reading-basics",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","chart-reading-basics","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[12613,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+11:I[22016,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+12:T103b,<h2>캔들 차트 기본 구조</h2>
+<p>캔들 하나가 특정 기간(일/주/월)의 가격 움직임을 표현한다.</p>
+<pre><code class="hljs language-scss"> │  ← 윗꼬리 (고가)
+┌─┤
+│ │  ← 몸통 (시가 ~ 종가)
+└─┤
+ │  ← 아랫꼬리 (저가)
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>색상</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>빨간 캔들 (양봉)</td>
+<td>종가 > 시가 (상승)</td>
+</tr>
+<tr>
+<td>파란 캔들 (음봉)</td>
+<td>종가 &#x3C; 시가 (하락)</td>
+</tr>
+</tbody>
+</table>
+<h3>주요 캔들 패턴</h3>
+<p><strong>장대 양봉</strong> — 몸통이 크고 꼬리가 짧음. 강한 매수세.</p>
+<p><strong>도지</strong> — 시가 ≈ 종가. 몸통이 거의 없음. 방향 전환 신호 가능성.</p>
+<p><strong>망치형</strong> — 아랫꼬리가 길고 몸통이 작음. 하락 후 지지 신호.</p>
+<hr>
+<h2>이동평균선 (MA)</h2>
+<p>과거 N일간 종가의 평균을 이은 선. 추세 방향과 지지/저항 확인에 사용.</p>
+<table>
+<thead>
+<tr>
+<th>선</th>
+<th>기간</th>
+<th>용도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>단기선</td>
+<td>5일, 20일</td>
+<td>단기 추세</td>
+</tr>
+<tr>
+<td>중기선</td>
+<td>60일</td>
+<td>중기 추세</td>
+</tr>
+<tr>
+<td>장기선</td>
+<td>120일, 200일</td>
+<td>장기 추세</td>
+</tr>
+</tbody>
+</table>
+<h3>골든크로스 / 데드크로스</h3>
+<ul>
+<li><strong>골든크로스</strong>: 단기선이 장기선을 <strong>위로</strong> 돌파 → 매수 신호</li>
+<li><strong>데드크로스</strong>: 단기선이 장기선을 <strong>아래로</strong> 돌파 → 매도 신호</li>
+</ul>
+<blockquote>
+<p>이동평균선은 후행 지표라 실제 전환점보다 늦게 신호가 온다. 다른 지표와 함께 사용할 것.</p>
+</blockquote>
+<hr>
+<h2>거래량</h2>
+<p>가격 움직임의 신뢰도를 확인하는 핵심 지표.</p>
+<ul>
+<li><strong>가격 상승 + 거래량 증가</strong> → 신뢰도 높은 상승 (매수세 강함)</li>
+<li><strong>가격 상승 + 거래량 감소</strong> → 상승 모멘텀 약화 가능성</li>
+<li><strong>가격 하락 + 거래량 폭증</strong> → 투매. 이후 반등 가능성 있음</li>
+<li><strong>가격 하락 + 거래량 감소</strong> → 눌림목일 수 있음 (추세 유지)</li>
+</ul>
+<hr>
+<h2>RSI (상대강도지수)</h2>
+<p>0~100 범위의 모멘텀 지표. 과매수/과매도 판단.</p>
+<pre><code class="hljs language-ini"><span class="hljs-attr">RSI</span> = <span class="hljs-number">100</span> - (<span class="hljs-number">100</span> / (<span class="hljs-number">1</span> + RS))
+<span class="hljs-attr">RS</span> = 평균 상승폭 / 평균 하락폭
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>구간</th>
+<th>해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>70 이상</td>
+<td>과매수 → 조정 가능성</td>
+</tr>
+<tr>
+<td>30 이하</td>
+<td>과매도 → 반등 가능성</td>
+</tr>
+<tr>
+<td>50 기준선</td>
+<td>추세 방향 판단</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>볼린저 밴드</h2>
+<p>이동평균선(중심선) ± 표준편차 2배로 상·하단 밴드 형성.</p>
+<ul>
+<li><strong>밴드 수축 (스퀴즈)</strong> → 변동성 감소, 곧 큰 움직임 예고</li>
+<li><strong>밴드 확장</strong> → 변동성 증가</li>
+<li>주가가 <strong>상단 밴드 터치</strong> → 과매수 구간</li>
+<li>주가가 <strong>하단 밴드 터치</strong> → 과매도 구간, 반등 주목</li>
+</ul>
+<hr>
+<h2>실전 체크리스트</h2>
+<p>차트 분석 시 순서:</p>
+<ol>
+<li><strong>추세 확인</strong> — 장기선(120일) 기준 상승/하락/횡보</li>
+<li><strong>지지·저항 확인</strong> — 전고점·전저점, 이동평균선</li>
+<li><strong>거래량 확인</strong> — 가격 움직임과 거래량 방향 일치 여부</li>
+<li><strong>모멘텀 확인</strong> — RSI 위치, 골든/데드크로스 여부</li>
+<li><strong>변동성 확인</strong> — 볼린저 밴드 수축·확장 구간</li>
+</ol>
+<blockquote>
+<p>차트는 과거 데이터 기반이므로 미래를 보장하지 않는다. 기업 펀더멘털 분석과 병행해야 한다.</p>
+</blockquote>8:["$","$L10",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L11",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"주식 차트 보는 법 기초"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$12"}}]]}]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"주식 차트 보는 법 기초 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L13","3",{}]]

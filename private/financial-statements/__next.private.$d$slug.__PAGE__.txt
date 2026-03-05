@@ -1,0 +1,159 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T161c,<h2>재무제표란?</h2>
+<p>기업의 재무 상태와 경영 성과를 숫자로 보여주는 보고서. 주식 투자에서 기업의 체력을 파악하는 가장 기본적인 도구.</p>
+<p><strong>공시 확인:</strong> <a href="https://dart.fss.or.kr">DART (금융감독원 전자공시)</a> → 사업보고서 / 분기보고서</p>
+<hr>
+<h2>1. 손익계산서 (Income Statement)</h2>
+<p>일정 기간(분기/연간) 동안 얼마나 벌고 썼는지 보여줌.</p>
+<pre><code class="hljs language-diff">매출액
+<span class="hljs-deletion">- 매출원가</span>
+─────────────────
+= 매출총이익 (Gross Profit)
+
+<span class="hljs-deletion">- 판매비·관리비 (판관비)</span>
+─────────────────
+= 영업이익 (Operating Income)  ← 핵심
+
+<span class="hljs-addition">+ 영업외수익 - 영업외비용</span>
+─────────────────
+= 세전순이익
+
+<span class="hljs-deletion">- 법인세</span>
+─────────────────
+= 당기순이익 (Net Income)
+</code></pre>
+<h3>체크 포인트</h3>
+<ul>
+<li><strong>영업이익률</strong> = 영업이익 / 매출액 × 100 → 본업 경쟁력</li>
+<li><strong>순이익률</strong> = 당기순이익 / 매출액 × 100</li>
+<li>영업이익은 흑자인데 순이익이 적자 → 영업외 손실(환율손실, 이자비용) 확인</li>
+<li>3년치 추세를 봐야 한다. 1년치만 보면 오판 가능</li>
+</ul>
+<hr>
+<h2>2. 재무상태표 (Balance Sheet)</h2>
+<p>특정 시점의 자산, 부채, 자본 현황. "지금 이 회사의 살림살이"</p>
+<pre><code class="hljs language-scss">자산 = 부채 + 자본
+
+자산
+├── 유동자산 (<span class="hljs-number">1</span>년 내 현금화 가능)
+│   ├── 현금 및 현금성자산
+│   ├── 매출채권
+│   └── 재고자산
+└── 비유동자산
+    ├── 유형자산 (건물, 기계)
+    └── 무형자산 (특허, 브랜드)
+
+부채
+├── 유동부채 (<span class="hljs-number">1</span>년 내 상환)
+└── 비유동부채 (장기차입금)
+
+자본
+├── 자본금
+├── 이익잉여금
+└── 기타포괄손익
+</code></pre>
+<h3>핵심 지표</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>공식</th>
+<th>기준</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>부채비율</td>
+<td>총부채 / 자본 × 100</td>
+<td>100% 이하 선호</td>
+</tr>
+<tr>
+<td>유동비율</td>
+<td>유동자산 / 유동부채 × 100</td>
+<td>150% 이상 선호</td>
+</tr>
+<tr>
+<td>당좌비율</td>
+<td>(유동자산-재고) / 유동부채 × 100</td>
+<td>100% 이상</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>부채비율이 높아도 이자를 충분히 감당하면 괜찮다. 이자보상배율(영업이익/이자비용)이 3배 이상이면 안전.</p>
+</blockquote>
+<hr>
+<h2>3. 현금흐름표 (Cash Flow Statement)</h2>
+<p>실제 현금이 어떻게 움직였는지. <strong>"이익은 의견, 현금은 사실"</strong></p>
+<pre><code class="hljs">영업활동 현금흐름  ← 가장 중요
+투자활동 현금흐름
+재무활동 현금흐름
+</code></pre>
+<h3>영업활동 현금흐름</h3>
+<p>본업에서 실제로 들어온 현금.</p>
+<ul>
+<li><strong>영업이익 > 0인데 영업현금흐름 &#x3C; 0</strong> → 매출채권 급증, 재고 쌓임. 위험 신호</li>
+<li><strong>순이익보다 영업현금흐름이 크면</strong> → 이익의 질이 높음 (실제 현금 창출력 좋음)</li>
+</ul>
+<h3>자유현금흐름 (FCF)</h3>
+<pre><code class="hljs language-ini"><span class="hljs-attr">FCF</span> = 영업활동 현금흐름 - 자본적 지출(CapEx)
+</code></pre>
+<p>기업이 자유롭게 쓸 수 있는 현금. FCF가 꾸준히 플러스인 기업이 투자하기 좋다.</p>
+<hr>
+<h2>실전 체크리스트</h2>
+<h3>성장성</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 매출액이 3년간 꾸준히 증가하는가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 영업이익률이 개선되는 추세인가?</li>
+</ul>
+<h3>수익성</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> ROE(자기자본이익률) 10% 이상 지속되는가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> ROA(총자산이익률) 5% 이상인가?</li>
+</ul>
+<h3>안정성</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 부채비율 100% 이하인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 유동비율 150% 이상인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 이자보상배율 3배 이상인가?</li>
+</ul>
+<h3>현금흐름</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 영업현금흐름이 3년간 플러스인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> FCF가 플러스인가?</li>
+</ul>
+<hr>
+<h2>ROE 심화: 듀폰 분석</h2>
+<p>ROE를 3가지로 분해해 어디서 수익이 나는지 파악.</p>
+<pre><code class="hljs language-scss">ROE = 순이익률 × 자산회전율 × 재무레버리지
+    = (순이익/매출) × (매출/자산) × (자산/자본)
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>원인</th>
+<th>해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>순이익률이 높아서</td>
+<td>진짜 좋은 기업</td>
+</tr>
+<tr>
+<td>자산회전율이 높아서</td>
+<td>효율적 운영</td>
+</tr>
+<tr>
+<td>레버리지가 높아서</td>
+<td>부채로 수익률 올린 것 → 위험 동반</td>
+</tr>
+</tbody>
+</table>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"재무제표 보는 법"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

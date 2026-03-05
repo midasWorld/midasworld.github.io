@@ -1,0 +1,184 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T16ec,<h2>저평가란?</h2>
+<p>기업의 **내재가치(Intrinsic Value)**보다 <strong>현재 주가</strong>가 낮은 상태.
+"1만원짜리를 7천원에 사는 것."</p>
+<p>저평가를 판단하는 방법은 크게 <strong>상대 가치 평가</strong>와 <strong>절대 가치 평가</strong>로 나뉜다.</p>
+<hr>
+<h2>1. PER (주가수익비율)</h2>
+<pre><code class="hljs language-ini"><span class="hljs-attr">PER</span> = 주가 / EPS(주당순이익)
+</code></pre>
+<p>현재 주가가 연간 순이익의 몇 배인지를 나타낸다.</p>
+<table>
+<thead>
+<tr>
+<th>PER</th>
+<th>해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>낮을수록</td>
+<td>이익 대비 주가가 저렴</td>
+</tr>
+<tr>
+<td>높을수록</td>
+<td>성장 기대감이 반영된 상태</td>
+</tr>
+</tbody>
+</table>
+<h3>활용법</h3>
+<ul>
+<li><strong>동종 업종 평균 PER</strong>과 비교. 업종 평균이 15배인데 해당 기업이 8배라면 상대적 저평가.</li>
+<li><strong>과거 자사 PER 밴드</strong>와 비교. 역사적 최저 PER 구간 진입 시 주목.</li>
+<li>적자 기업에는 사용 불가.</li>
+</ul>
+<blockquote>
+<p>PER만으로 판단하면 위험. '이익이 일회성인지', '이익 감소 추세인지' 반드시 확인.</p>
+</blockquote>
+<hr>
+<h2>2. PBR (주가순자산비율)</h2>
+<pre><code class="hljs language-ini"><span class="hljs-attr">PBR</span> = 주가 / BPS(주당순자산)
+</code></pre>
+<p>기업 청산 시 돌려받을 수 있는 순자산 대비 주가 수준.</p>
+<table>
+<thead>
+<tr>
+<th>PBR</th>
+<th>해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 미만</td>
+<td>청산가치 이하 (극단적 저평가 가능성)</td>
+</tr>
+<tr>
+<td>1~2</td>
+<td>적정 수준</td>
+</tr>
+<tr>
+<td>2 이상</td>
+<td>브랜드·기술력 등 무형자산 반영</td>
+</tr>
+</tbody>
+</table>
+<h3>주의사항</h3>
+<ul>
+<li>제조업·금융업에 적합. IT·바이오처럼 무형자산 비중이 높은 업종에는 부적합.</li>
+<li>부채가 많은 기업은 PBR 1 미만이어도 위험할 수 있다.</li>
+</ul>
+<hr>
+<h2>3. EV/EBITDA</h2>
+<pre><code class="hljs language-ini"><span class="hljs-attr">EV</span> = 시가총액 + 순부채(총부채 - 현금)
+<span class="hljs-attr">EBITDA</span> = 영업이익 + 감가상각비
+EV/<span class="hljs-attr">EBITDA</span> = EV / EBITDA
+</code></pre>
+<p>부채까지 포함한 기업 전체 가치를 영업 현금흐름으로 나눈 값. M&#x26;A 시 많이 쓰임.</p>
+<ul>
+<li><strong>낮을수록</strong> 저평가 (통상 10배 이하면 저평가 구간)</li>
+<li>PER과 달리 감가상각비·세금·이자 영향을 배제해 업종 간 비교에 유리</li>
+</ul>
+<hr>
+<h2>4. PSR (주가매출비율)</h2>
+<pre><code class="hljs language-ini"><span class="hljs-attr">PSR</span> = 시가총액 / 연간 매출액
+</code></pre>
+<p>아직 적자인 성장주 평가에 사용. 매출은 있지만 이익이 없을 때 유용.</p>
+<ul>
+<li>1 미만이면 저평가로 볼 수 있으나 업종별 편차가 크다.</li>
+</ul>
+<hr>
+<h2>5. PEG (성장조정 PER)</h2>
+<pre><code class="hljs language-ini"><span class="hljs-attr">PEG</span> = PER / 이익성장률(%)
+</code></pre>
+<p>성장률을 감안한 PER. 고성장 기업의 고PER이 합리적인지 판단.</p>
+<table>
+<thead>
+<tr>
+<th>PEG</th>
+<th>해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 미만</td>
+<td>성장 대비 저평가</td>
+</tr>
+<tr>
+<td>1</td>
+<td>성장과 가격이 균형</td>
+</tr>
+<tr>
+<td>1 초과</td>
+<td>성장 대비 고평가</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>저평가 체크리스트</h2>
+<p>단순히 숫자가 낮다고 저평가가 아니다. 다음을 함께 확인해야 한다.</p>
+<h3>재무 건전성</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 부채비율 100% 이하 (업종 평균 이하)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 유동비율 100% 이상 (단기 상환 능력)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 영업이익률이 최근 3년간 유지 또는 개선</li>
+</ul>
+<h3>이익 품질</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 영업이익과 순이익의 방향 일치 (일회성 이익 제외)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 영업현금흐름 > 순이익 (이익의 현금화 확인)</li>
+<li class="task-list-item"><input type="checkbox" disabled> ROE(자기자본이익률) 10% 이상 지속</li>
+</ul>
+<h3>저평가 이유 파악</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 일시적 이슈인가? (실적 쇼크, 업황 부진, 시장 공포)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 구조적 문제인가? (사업 경쟁력 약화, 업종 자체 쇠퇴)</li>
+</ul>
+<blockquote>
+<p>저평가 이유가 일시적이면 매수 기회. 구조적이면 가치 함정(Value Trap).</p>
+</blockquote>
+<hr>
+<h2>실전 스크리닝 예시</h2>
+<table>
+<thead>
+<tr>
+<th>조건</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PER</td>
+<td>동종 업종 하위 30%</td>
+</tr>
+<tr>
+<td>PBR</td>
+<td>1.5 이하</td>
+</tr>
+<tr>
+<td>부채비율</td>
+<td>100% 이하</td>
+</tr>
+<tr>
+<td>ROE</td>
+<td>10% 이상</td>
+</tr>
+<tr>
+<td>영업이익 증가율</td>
+<td>최근 2년 연속 플러스</td>
+</tr>
+</tbody>
+</table>
+<p>위 조건을 모두 만족하는 종목을 1차 스크리닝 후, 사업 내용과 경쟁 우위를 직접 분석하는 것이 2차 단계.</p>
+<hr>
+<h2>결론</h2>
+<blockquote>
+<p>"가격은 당신이 지불하는 것이고, 가치는 당신이 얻는 것이다." — 워런 버핏</p>
+</blockquote>
+<p>저평가 투자의 핵심은 <strong>숫자 + 사업 이해</strong>다. 지표가 낮아 보여도 왜 낮은지 이유를 모르면 투자하지 않는 것이 낫다.</p>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"기업 저평가 판단하는 법"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

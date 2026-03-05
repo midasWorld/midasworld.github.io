@@ -1,0 +1,233 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","private","portfolio-management",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","portfolio-management","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[12613,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+11:I[22016,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+12:T1420,<h2>포트폴리오란?</h2>
+<p>여러 자산을 조합해 만든 투자 묶음. 단일 종목에 모든 자금을 넣는 것보다 리스크를 낮출 수 있다.</p>
+<blockquote>
+<p>"모든 달걀을 한 바구니에 담지 마라" — 분산투자의 핵심</p>
+</blockquote>
+<hr>
+<h2>분산투자의 원리</h2>
+<h3>상관관계</h3>
+<p>두 자산이 얼마나 같은 방향으로 움직이는지 (-1 ~ +1).</p>
+<table>
+<thead>
+<tr>
+<th>상관계수</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+1</td>
+<td>완전히 같이 움직임 (분산 효과 없음)</td>
+</tr>
+<tr>
+<td>0</td>
+<td>독립적으로 움직임</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>완전히 반대로 움직임 (최대 분산 효과)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>서로 낮은 상관관계</strong>를 가진 자산들을 묶으면 개별 자산의 변동성보다 포트폴리오 전체 변동성이 낮아진다.</p>
+<h3>분산 효과가 있는 자산 조합 예시</h3>
+<ul>
+<li>주식 + 채권 (일반적으로 역의 관계)</li>
+<li>국내주식 + 해외주식</li>
+<li>성장주 + 배당주</li>
+<li>주식 + 금</li>
+</ul>
+<hr>
+<h2>자산배분 전략</h2>
+<h3>연령 기반 배분 (고전적 방법)</h3>
+<pre><code class="hljs language-markdown">주식 비중 = 100 - 나이
+
+예) 30세 → 주식 70%, 채권 30%
+<span class="hljs-code">    50세 → 주식 50%, 채권 50%
+</span></code></pre>
+<p>나이가 들수록 안전자산 비중 증가. 단순하지만 개인 상황과 맞지 않을 수 있음.</p>
+<h3>영구 포트폴리오 (Permanent Portfolio)</h3>
+<p>해리 브라운의 전략. 어떤 경제 상황에서도 견디도록 설계.</p>
+<table>
+<thead>
+<tr>
+<th>자산</th>
+<th>비중</th>
+<th>유리한 환경</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>주식</td>
+<td>25%</td>
+<td>경제 성장기</td>
+</tr>
+<tr>
+<td>장기채권</td>
+<td>25%</td>
+<td>디플레이션, 불황</td>
+</tr>
+<tr>
+<td>금</td>
+<td>25%</td>
+<td>인플레이션</td>
+</tr>
+<tr>
+<td>현금</td>
+<td>25%</td>
+<td>경기침체</td>
+</tr>
+</tbody>
+</table>
+<h3>올웨더 포트폴리오 (레이 달리오)</h3>
+<table>
+<thead>
+<tr>
+<th>자산</th>
+<th>비중</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>주식</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>장기채권</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>중기채권</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>금</td>
+<td>7.5%</td>
+</tr>
+<tr>
+<td>원자재</td>
+<td>7.5%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>리밸런싱</h2>
+<p>시간이 지나면 자산 비중이 목표에서 벗어남. 주기적으로 원래 비중으로 되돌리는 작업.</p>
+<pre><code class="hljs language-makefile"><span class="hljs-section">목표: 주식 60%, 채권 40%</span>
+
+1년 후 주식이 올라서 주식 75%, 채권 25%가 됨
+→ 주식 일부 매도 + 채권 매수
+→ 다시 60:40으로 맞춤
+</code></pre>
+<h3>리밸런싱 방법</h3>
+<table>
+<thead>
+<tr>
+<th>방법</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>정기 리밸런싱</td>
+<td>6개월 or 1년마다 기계적으로 실행</td>
+</tr>
+<tr>
+<td>임계값 리밸런싱</td>
+<td>비중이 ±5% 벗어나면 실행</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>리밸런싱은 자동으로 "비싼 것 팔고, 싼 것 사는" 효과. 세금·수수료 고려해서 너무 자주 하지 말 것.</p>
+</blockquote>
+<hr>
+<h2>리스크 관리</h2>
+<h3>손실 허용 범위 설정</h3>
+<p>투자 전 "이 정도 손실은 감당할 수 있다"는 선을 미리 정해두는 것.</p>
+<pre><code class="hljs">투자금 1,000만원, 최대 손실 허용 20%
+→ 200만원 손실 시 전량 매도 또는 재검토
+</code></pre>
+<h3>손절 vs 버티기</h3>
+<table>
+<thead>
+<tr>
+<th>상황</th>
+<th>대응</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>내가 분석한 투자 근거가 여전히 유효</td>
+<td>버티거나 추가 매수</td>
+</tr>
+<tr>
+<td>투자 근거가 무너짐 (실적 악화, 구조적 문제)</td>
+<td>손절</td>
+</tr>
+<tr>
+<td>단순히 주가가 내렸음</td>
+<td>근거 재검토 필요</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>"손절은 부끄러운 게 아니다. 틀렸다는 걸 인정하는 것이다."</p>
+</blockquote>
+<h3>집중투자 vs 분산투자</h3>
+<table>
+<thead>
+<tr>
+<th>전략</th>
+<th>장점</th>
+<th>단점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>집중투자 (5종목 이내)</td>
+<td>고수익 가능, 깊은 분석 가능</td>
+<td>한 종목 급락 시 타격 큼</td>
+</tr>
+<tr>
+<td>분산투자 (10~20종목)</td>
+<td>리스크 분산</td>
+<td>시장 수익률 수렴 경향</td>
+</tr>
+<tr>
+<td>ETF 투자</td>
+<td>자동 분산, 저비용</td>
+<td>초과수익 어려움</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>투자 원칙</h2>
+<ol>
+<li><strong>잃지 않는 것이 먼저다</strong> — 수익률보다 원금 보존 우선</li>
+<li><strong>모르면 사지 마라</strong> — 사업 이해 못 하는 기업에 투자 금지</li>
+<li><strong>여유 자금으로만 투자</strong> — 빚투, 생활비 투자는 판단을 흐림</li>
+<li><strong>단기 변동성에 흔들리지 마라</strong> — 좋은 기업은 10년을 봐야</li>
+<li><strong>분할 매수</strong> — 한 번에 전량 매수보다 여러 번 나눠 매수</li>
+</ol>8:["$","$L10",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L11",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"포트폴리오 구성과 리스크 관리"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$12"}}]]}]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"포트폴리오 구성과 리스크 관리 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L13","3",{}]]

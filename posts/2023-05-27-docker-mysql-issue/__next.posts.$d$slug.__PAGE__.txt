@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T9e2,<p>흠.. 괜찮다가 갑자기 생기는 docker-compose &#x26; mysql 이슈였습니다. 🤔</p>
+<h2>Docker MySQL Issue 해결</h2>
+<h3>ISSUE 발생</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-attr">version:</span> <span class="hljs-string">"3"</span>
+
+<span class="hljs-attr">services:</span>
+  <span class="hljs-attr">db:</span>
+    <span class="hljs-attr">container_name:</span> <span class="hljs-string">db</span>
+    <span class="hljs-attr">image:</span> <span class="hljs-string">mysql:8.0</span>
+    <span class="hljs-attr">restart:</span> <span class="hljs-string">always</span>
+    <span class="hljs-attr">ports:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-number">3307</span><span class="hljs-string">:3306</span>
+    <span class="hljs-attr">env_file:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">.env</span>
+    <span class="hljs-attr">volumes:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">./db:/var/lib/mysql</span>
+    <span class="hljs-attr">command:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">--character-set-server=utf8mb4</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">--collation-server=utf8mb4_unicode_ci</span>
+</code></pre>
+<p>위의 도커 컴포즈를 실행하고 MySQL 로 접속하려고 하는데...</p>
+<pre><code class="hljs language-shell">Host '172.18.0.1' is not allowed to connect to this MySQL server
+</code></pre>
+<p>위와 같은 오류가 발생했습니다. 😓</p>
+<h3>해결</h3>
+<ul>
+<li>✨ 링크 : <a href="https://stackoverflow.com/questions/54030469/host-x-is-not-allowed-to-connect-to-this-mysql-server">https://stackoverflow.com/questions/54030469/host-x-is-not-allowed-to-connect-to-this-mysql-server</a></li>
+</ul>
+<p>역시나 stackoverflow 였습니다. 👍
+<br>단순하게 경로만 아래와 같이 변경을 해주면 해결되는 문제였습니다.</p>
+<pre><code class="hljs language-yaml"><span class="hljs-comment"># Before (Error)</span>
+<span class="hljs-attr">volumes:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">./db:/var/lib/mysql</span>
+
+<span class="hljs-comment"># After (Solved)</span>
+<span class="hljs-attr">volumes:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">~/db:/var/lib/mysql</span>
+</code></pre>
+<p>이유는 자세히 알수는 없지만...
+경로에 대한 권한 관련해서 오류가 발생했지 않았을까...? 🤔 싶습니다.</p>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Docker"}],["$","span",null,{"className":"ml-2","children":"2023-05-27"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Docker-compose & MySQL Issue 해결"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"docker-compose 에서 mysql 실행 시 생기는 이슈 해결"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

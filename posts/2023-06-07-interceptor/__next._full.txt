@@ -1,0 +1,153 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","posts","2023-06-07-interceptor",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","2023-06-07-interceptor","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+11:T2a68,<p>인터셉터는 전 처리는 Middlware → Guard → Interceptor 으로 Pipe 전 단계에서 실행됩니다.</p>
+<img src="../../assets/img/docs/nest/nestjs-interceptor.png" />
+[NestJS - Interceptor Image](https://docs.nestjs.com/interceptors)
+<p>인터셉터는 AOP(Aspect Oriented Programming) 기술에 영감을 받은 유용한 기술입니다.</p>
+<ul>
+<li>메서드 실행 전/후 추가 로직 바인딩</li>
+<li>함수에서 반환된 결과 변환</li>
+<li>함수에서 발생한 예외 변환</li>
+<li>기본 기능 동작 확장</li>
+<li>특정 조건에 따라 함수를 완전히 재정의 (캐싱 목적)</li>
+</ul>
+<h1>Interceptor 사용하기</h1>
+<p>인터셉터를 가장 많이 예시로 들고 있는 것은 라우터 핸들러 전후로 실행 시간을 측정하는 로깅 입니다.
+<br>그 로깅을 만들어보면 아래와 같습니다.</p>
+<h2>logging.inteceptor.ts 코드</h2>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">import</span> {
+  <span class="hljs-title class_">Injectable</span>,
+  <span class="hljs-title class_">NestInterceptor</span>,
+  <span class="hljs-title class_">ExecutionContext</span>,
+  <span class="hljs-title class_">CallHandler</span>,
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@nestjs/common"</span>;
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">Observable</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"rxjs"</span>;
+<span class="hljs-keyword">import</span> { tap } <span class="hljs-keyword">from</span> <span class="hljs-string">"rxjs/operators"</span>;
+
+<span class="hljs-meta">@Injectable</span>()
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">LoggingInterceptor</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">NestInterceptor</span> {
+  <span class="hljs-title function_">intercept</span>(<span class="hljs-attr">context</span>: <span class="hljs-title class_">ExecutionContext</span>, <span class="hljs-attr">next</span>: <span class="hljs-title class_">CallHandler</span>): <span class="hljs-title class_">Observable</span>&#x3C;<span class="hljs-built_in">any</span>> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Before..."</span>);
+
+    <span class="hljs-keyword">const</span> now = <span class="hljs-title class_">Date</span>.<span class="hljs-title function_">now</span>();
+    <span class="hljs-keyword">return</span> next
+      .<span class="hljs-title function_">handle</span>()
+      .<span class="hljs-title function_">pipe</span>(<span class="hljs-title function_">tap</span>(<span class="hljs-function">() =></span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`After... <span class="hljs-subst">${<span class="hljs-built_in">Date</span>.now() - now}</span>ms`</span>)));
+  }
+}
+</code></pre>
+<h3>CallHandler</h3>
+<p>이 인터페이스는 인터셉터의 특정 지점에서 Route handler 메서드를 호출하는데 사용할 수 있는 handle() 메서드를 구현합니다.
+<br><strong>만약에 handle() 메서드를 호출하지 않으면 Route handler 메서드 실행되지 않습니다.</strong>
+<br>이를 통해 request/response 스트림을 효과적으로 <strong>wraps</strong> 할 수 있으며 전/후 처리를 커스텀 할 수 있습니다.</p>
+<p>이 handle() 메서드는 Observable 를 반환하기 때문에, 응답을 추가로 조작할 수 있는데요.
+<br>Observable 이라는 Rxjs 연산자는 무엇일까요? 🤔</p>
+<h3>Rxjs 란?</h3>
+<ul>
+<li>해당 유튜브 세션 영상 : <a href="https://www.youtube.com/watch?v=VH1GTGIMHQw&#x26;t=5827s">https://www.youtube.com/watch?v=VH1GTGIMHQw&#x26;t=5827s</a></li>
+</ul>
+<p>RxJS 는 이벤트 스트림을 다루는 라이브러리로,
+<br>이를 operator를 이용해 변환할 수 있습니다.</p>
+<blockquote>
+<p>RxJS == 함수형 &#x26; 이벤트 &#x26; 비동기</p>
+</blockquote>
+<h3>Observable 이란?</h3>
+<ul>
+<li>이벤트가 흐르는 스트림</li>
+<li>lazy 한 실행 (누군가 subscribe 를 해야 실행 됨)</li>
+<li>observer 가 observable 을 subscribe 하면서 next, error, complete 키워드를 사용해 이벤트 처리</li>
+<li>위 코드(logging.inteceptor.ts) 처럼 pipe() operator 를 사용해서 스트림 내부에서 변환 처리 가능</li>
+</ul>
+<blockquote>
+<p>💡 observer 는 observable 을 구독하는 대상 > observable 에 들어오는 event 를 처리합니다.</p>
+</blockquote>
+<blockquote>
+<p>💡 operator 는 각 이벤트 연산이 가능한 pure function 입니다. (tap(), filter(), min(), max() 등이 있음)</p>
+</blockquote>
+<h3>인터셉터 적용 방법</h3>
+<pre><code class="hljs language-typescript"><span class="hljs-meta">@UseInterceptors</span>(<span class="hljs-title class_">LoggingInterceptor</span>) <span class="hljs-comment">// ✨ Here!</span>
+<span class="hljs-meta">@Post</span>()
+<span class="hljs-keyword">async</span> <span class="hljs-title function_">create</span>(<span class="hljs-meta">@Body</span>() <span class="hljs-attr">request</span>: <span class="hljs-title class_">SignupUserDto</span>): <span class="hljs-title class_">Promise</span>&#x3C;<span class="hljs-built_in">void</span>> {
+  <span class="hljs-comment">// 로직</span>
+}
+</code></pre>
+<p>위와 같이 데코레이터만 추가하면 끝입니다. 😁
+<br>메서드 말고도 컨트롤러 자체에도 추가할 수 있습니다.</p>
+<p>그리고 Global 적으로 하고 싶다면?</p>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">const</span> app = <span class="hljs-keyword">await</span> <span class="hljs-title class_">NestFactory</span>.<span class="hljs-title function_">create</span>(<span class="hljs-title class_">AppModule</span>);
+app.<span class="hljs-title function_">useGlobalInterceptors</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">LoggingInterceptor</span>());
+</code></pre>
+<h2>예외 매핑하기</h2>
+<p>기존에 발생한 오류를 다른 오류로 재정의도 가능합니다.</p>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">import</span> {
+  <span class="hljs-title class_">BadGatewayException</span>,
+  <span class="hljs-title class_">CallHandler</span>,
+  <span class="hljs-title class_">ExecutionContext</span>,
+  <span class="hljs-title class_">Injectable</span>,
+  <span class="hljs-title class_">NestInterceptor</span>,
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@nestjs/common"</span>;
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">Observable</span>, catchError, tap, throwError } <span class="hljs-keyword">from</span> <span class="hljs-string">"rxjs"</span>;
+
+<span class="hljs-meta">@Injectable</span>()
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">LoggingInterceptor</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">NestInterceptor</span> {
+  <span class="hljs-title function_">intercept</span>(
+    <span class="hljs-attr">_</span>: <span class="hljs-title class_">ExecutionContext</span>,
+    <span class="hljs-attr">next</span>: <span class="hljs-title class_">CallHandler</span>&#x3C;<span class="hljs-built_in">any</span>>
+  ): <span class="hljs-title class_">Observable</span>&#x3C;<span class="hljs-built_in">any</span>> | <span class="hljs-title class_">Promise</span>&#x3C;<span class="hljs-title class_">Observable</span>&#x3C;<span class="hljs-built_in">any</span>>> {
+    <span class="hljs-keyword">return</span> next
+      .<span class="hljs-title function_">handle</span>()
+      .<span class="hljs-title function_">pipe</span>(<span class="hljs-title function_">catchError</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =></span> <span class="hljs-title function_">throwError</span>(<span class="hljs-function">() =></span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">BadGatewayException</span>())));
+  }
+}
+</code></pre>
+<h2>캐시 처리 하기</h2>
+<p>handler 처리를 방지하고 다른 값을 반환하는데 있어 캐시로 활용되고 있습니다.</p>
+<pre><code class="hljs language-typescript"><span class="hljs-meta">@Injectable</span>()
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">LoggingInterceptor</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">NestInterceptor</span> {
+  <span class="hljs-title function_">intercept</span>(
+    <span class="hljs-attr">context</span>: <span class="hljs-title class_">ExecutionContext</span>,
+    <span class="hljs-attr">next</span>: <span class="hljs-title class_">CallHandler</span>&#x3C;<span class="hljs-built_in">any</span>>
+  ): <span class="hljs-title class_">Observable</span>&#x3C;<span class="hljs-built_in">any</span>> | <span class="hljs-title class_">Promise</span>&#x3C;<span class="hljs-title class_">Observable</span>&#x3C;<span class="hljs-built_in">any</span>>> {
+    <span class="hljs-comment">// 해당 url 로 캐시 정보가 있다면?</span>
+    <span class="hljs-keyword">const</span> <span class="hljs-attr">req</span>: <span class="hljs-title class_">Request</span> = context.<span class="hljs-title function_">switchToHttp</span>().<span class="hljs-title function_">getRequest</span>();
+    <span class="hljs-keyword">const</span> { isCahced, data } = cacheService.<span class="hljs-title function_">getData</span>(req.<span class="hljs-property">originalUrl</span>);
+    <span class="hljs-keyword">if</span> (isCahced) {
+      <span class="hljs-keyword">return</span> data; <span class="hljs-comment">// 캐시로 반환!</span>
+    }
+    <span class="hljs-keyword">return</span> next.<span class="hljs-title function_">handle</span>(); <span class="hljs-comment">// 없으면 그냥 라우트 핸들러 실행!</span>
+  }
+}
+</code></pre>
+<h2>Interceptor vs Middleware 차이</h2>
+<ul>
+<li>도움된 글 링크 : <a href="https://blog-ko.superb-ai.com/nestjs-interceptor-and-lifecycle/">https://blog-ko.superb-ai.com/nestjs-interceptor-and-lifecycle/</a></li>
+</ul>
+<p>위의 글을 보면...</p>
+<h3>Middleware</h3>
+<ul>
+<li>request, response, next 인자를 받아 req, res가 HTTP 위에서 동작하게 설계</li>
+<li>HTTP 통신이 아니면 사용이 불가능</li>
+</ul>
+<h3>Interceptor</h3>
+<ul>
+<li>HTTP(request, response, next) 외에도 매개변수로 <strong>Excuetion Context</strong> 라는 helper class를 받음</li>
+<li>HTTP 외에도 WebSocket, GraphQL, RPC(Remote procedure call) 위에서도 동작!</li>
+</ul>8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L10",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"NestJS"}],["$","span",null,{"className":"ml-2","children":"2023-06-07"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"NestJS - Interceptor"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"NestJS - Interceptor 내용 정리"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"NestJS - Interceptor | midasworld"}],["$","meta","1",{"name":"description","content":"NestJS - Interceptor 내용 정리"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

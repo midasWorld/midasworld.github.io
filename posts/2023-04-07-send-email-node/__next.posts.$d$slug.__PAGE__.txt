@@ -1,0 +1,148 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T238a,<p>블로그의 <code>Contact</code> 페이지에서 블로그 주인에게 이메일 보내는 기능 구현을 위해!
+<br>
+<code>Nodemailer</code> 활용해 이메일 전송을 구현해보았습니다.</p>
+<p><a href="https://nodemailer.com/about/">Nodemailer 공식 문서</a>에서 잘 설명되어 있어 참고하면 간단하게 구현이 가능합니다!</p>
+<h3>✅ 작업 순서!</h3>
+<ol>
+<li>구글 설정(앱 비밀번호 생성)!</li>
+<li>코드 구현</li>
+</ol>
+<h2>⚙️ 1. 구글 설정(앱 비밀번호 생성)!</h2>
+<p>이전 글인 <a href="https://midasworld.github.io/spring/2023-04-06-send-email-java/">Spring(Java) 이메일 인증 구현(with Google)</a>에서 잘 설명되어 있습니다!</p>
+<h2>💻 2. 코드 구현!</h2>
+<h3>1. 의존성 추가!</h3>
+<pre><code class="hljs language-shell">npm install nodemailer
+</code></pre>
+<h3>2. <code>/service/email.ts</code> 구현</h3>
+<pre><code class="hljs language-shell">import nodemailer from "nodemailer";
+
+export type EmailData = {
+  from: string;
+  subject: string;
+  message: string;
+};
+
+const transporter = nodemailer.createTransport({
+  host: "smtp.gmail.com",
+  port: 465,
+  secure: true,
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASSWORD,
+  },
+});
+
+export async function sendEmail({ from, subject, message }: EmailData) {
+  return transporter.sendMail({
+    from,
+    to: process.env.EMAIL_USER,
+    subject,
+    html: `
+    &#x3C;div style="background-color: #f8f9f9; padding: 2.5em">
+      &#x3C;h1>${subject}&#x3C;/h1>
+      &#x3C;p>${message}&#x3C;/p>
+      &#x3C;h3>from: &#x3C;/span>${from}&#x3C;/h3>
+    &#x3C;/div>
+    `,
+  });
+}
+</code></pre>
+<p><code>nodemailer</code> 관련된 코드를 모아놓고 관리하기 위해 위와 같이 만들어줬습니다.</p>
+<blockquote>
+<p><strong>그래서 이제 ContactForm 컴포넌트에서 sendEmail 메서드만 사용하면 될줄 알았는데...?</strong> 🤔</p>
+</blockquote>
+<h3>🚨 오류 발생</h3>
+<pre><code class="hljs language-typescript"><span class="hljs-string">"use client"</span>;
+
+<span class="hljs-comment">// ...</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">ContactForm</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> [form, setForm] = useState&#x3C;<span class="hljs-title class_">Form</span>>(<span class="hljs-variable constant_">DEFAULT_DATA</span>);
+
+  <span class="hljs-keyword">const</span> <span class="hljs-title function_">onSubmit</span> = <span class="hljs-keyword">async</span> (<span class="hljs-params"><span class="hljs-attr">e</span>: <span class="hljs-title class_">FormEvent</span>&#x3C;<span class="hljs-title class_">HTMLFormElement</span>></span>) => {
+    e.<span class="hljs-title function_">preventDefault</span>();
+    <span class="hljs-title function_">sendEmail</span>(form) <span class="hljs-comment">// ✨ 이메일 전송!</span>
+      .<span class="hljs-title function_">then</span>(<span class="hljs-function">() =></span> {<span class="hljs-comment">/* 성공 배너 활성화 */</span>})
+      .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =></span> {<span class="hljs-comment">/* 오류 배너 활성화 */</span>});
+  };
+
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">form</span> <span class="hljs-attr">onSubmit</span>=<span class="hljs-string">{onSubmit}</span>></span>
+      //...
+    <span class="hljs-tag">&#x3C;/<span class="hljs-name">form</span>></span></span>
+  );
+}
+</code></pre>
+<p>처음에는 /service/email.ts - sendEmail() 메서드를 위의 <code>ContactForm 컴포넌트</code>에서 바로 사용 했습니다.
+<br>
+하지만 아래와 같은 오류와 함께 다른 오류 외에도 줄줄이 발생해버렸습니다. 😳</p>
+<blockquote>
+<p>Module not found: Can't resolve 'fs' ....</p>
+</blockquote>
+<p>해당 건에 대해 찾다 찾다가... 🫠
+<br>
+<a href="https://github.com/vercel/next.js/issues/7755">Module not found: Can't resolve 'fs' #7755</a> → 해당 사이트에서 원인을 알게 되었습니다.</p>
+<p><code>ContactForm</code>는 클라이언트 컴포넌트이기 때문에 <code>fs</code> 사용할 수가 없는 것이었습니다. ❗️
+<br>
+(<code>fs</code> 관련된 것은 서버에 있는 동안만 사용 가능하여 클라이언트 측에서 랜더링되는 동안에는 사용할 수 없습니다.)</p>
+<p>그래서 <code>fetch</code>를 사용해서 서버 API로 전송 후에 서버측에서 사용되도록 하였습니다.</p>
+<pre><code class="hljs language-text">[Client] ContactForm - 이메일 전송 버튼 클릭!
+ ↓
+[Server] POST /api/contact 라우터에서 이메일 전송 처리 및 반환
+</code></pre>
+<h3>✨ 오류 해결을 위한 ContactForm 컴포넌트 수정</h3>
+<pre><code class="hljs language-typescript"><span class="hljs-string">"use client"</span>;
+
+<span class="hljs-comment">// ...</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">ContactForm</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> [form, setForm] = useState&#x3C;<span class="hljs-title class_">Form</span>>(<span class="hljs-variable constant_">DEFAULT_DATA</span>);
+
+  <span class="hljs-keyword">const</span> <span class="hljs-title function_">onSubmit</span> = <span class="hljs-keyword">async</span> (<span class="hljs-params"><span class="hljs-attr">e</span>: <span class="hljs-title class_">FormEvent</span>&#x3C;<span class="hljs-title class_">HTMLFormElement</span>></span>) => {
+    e.<span class="hljs-title function_">preventDefault</span>();
+    <span class="hljs-comment">// ✨ 이메일 전송!</span>
+    <span class="hljs-title function_">fetch</span>(<span class="hljs-string">"/api/contact"</span>, {
+      <span class="hljs-attr">method</span>: <span class="hljs-string">"POST"</span>,
+      <span class="hljs-attr">body</span>: <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(form),
+      <span class="hljs-attr">headers</span>: {
+        <span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"applicatioin/json"</span>,
+      },
+    })
+    .<span class="hljs-title function_">then</span>(<span class="hljs-function">() =></span> {<span class="hljs-comment">/* 성공 배너 활성화 */</span>})
+    .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =></span> {<span class="hljs-comment">/* 오류 배너 활성화 */</span>});
+  };
+
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">form</span> <span class="hljs-attr">onSubmit</span>=<span class="hljs-string">{onSubmit}</span>></span>
+      //...
+    <span class="hljs-tag">&#x3C;/<span class="hljs-name">form</span>></span></span>
+  );
+}
+</code></pre>
+<p>먼저 <code>ContactForm 컴포넌트</code>에서 <code>fetch</code>를 이용해 서버측으로 요청을 하고,
+<br>
+아래와 같이 서버측 라우터를 생성하여 여기서 이메일이 전송될 수 있도록 하였습니다.</p>
+<pre><code class="hljs language-typescript"><span class="hljs-comment">// ...</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">POST</span>(<span class="hljs-params"><span class="hljs-attr">request</span>: <span class="hljs-title class_">Request</span></span>) {
+  <span class="hljs-keyword">const</span> body = <span class="hljs-keyword">await</span> request.<span class="hljs-title function_">json</span>();
+  <span class="hljs-comment">// 유효성 검사 하기...</span>
+  
+  <span class="hljs-keyword">return</span> <span class="hljs-title function_">sendEmail</span>(body) <span class="hljs-comment">// ✨ 여기서 전송하기!</span>
+    .<span class="hljs-title function_">then</span>(<span class="hljs-function">() =></span> {<span class="hljs-comment">/* 성공 정보 반환 */</span>})
+    .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =></span> {<span class="hljs-comment">/* 오류 정보 반환 */</span>});
+}
+</code></pre>
+<h3>최종 확인!</h3>
+<p><img src="https://user-images.githubusercontent.com/93169519/230944591-5a1970cf-d5cc-40b8-b74d-c85d15ba8504.png" alt="image"></p>
+<blockquote>
+<p>메시지 입력 후 전송을 하게 되면?? 🤔</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/93169519/230943260-0d20c871-fe57-432f-9765-4b8772478adc.png" alt="image"></p>
+<p>위와 같이 잘 전달 된것을 확인할 수 있었습니다. 😁</p>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Node.js"}],["$","span",null,{"className":"ml-2","children":"2023-04-07"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Nodemailer 활용한 이메일 전송 구현(with Google)"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"구글 설정 및 Node 이메일 전송 구현"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

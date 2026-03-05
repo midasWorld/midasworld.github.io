@@ -1,0 +1,189 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","private","stock-market-basics",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","stock-market-basics","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[12613,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+11:I[22016,["/_next/static/chunks/01ea5e4778087873.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+12:T10b2,<h2>주식이란?</h2>
+<p>기업이 자금을 조달하기 위해 발행하는 <strong>소유권 증서</strong>. 주식을 사면 그 기업의 주주(공동 소유자)가 된다.</p>
+<ul>
+<li>기업 이익 일부를 <strong>배당</strong>으로 받을 권리</li>
+<li>주가 상승 시 <strong>시세차익</strong> 실현 가능</li>
+<li>주주총회 <strong>의결권</strong> 행사 가능 (소액주주는 사실상 의미 없음)</li>
+</ul>
+<hr>
+<h2>시장 구조</h2>
+<h3>발행시장 vs 유통시장</h3>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>발행시장</td>
+<td>기업이 주식을 새로 발행하는 시장 (IPO)</td>
+</tr>
+<tr>
+<td>유통시장</td>
+<td>이미 발행된 주식을 투자자끼리 사고파는 시장 (거래소)</td>
+</tr>
+</tbody>
+</table>
+<p>우리가 HTS/MTS로 매매하는 것은 모두 <strong>유통시장</strong>이다.</p>
+<h3>한국 거래소</h3>
+<table>
+<thead>
+<tr>
+<th>시장</th>
+<th>특징</th>
+<th>대표 종목</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KOSPI</td>
+<td>대형 우량주 중심</td>
+<td>삼성전자, SK하이닉스</td>
+</tr>
+<tr>
+<td>KOSDAQ</td>
+<td>중소형·성장주 중심</td>
+<td>셀트리온, 카카오게임즈</td>
+</tr>
+<tr>
+<td>KONEX</td>
+<td>초기 벤처기업</td>
+<td>소규모 스타트업</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>주문 종류</h2>
+<h3>지정가 주문</h3>
+<p>원하는 가격을 직접 지정. 그 가격이 될 때까지 체결 안 됨.</p>
+<pre><code class="hljs">삼성전자를 70,000원에 사고 싶다
+→ 70,000원 지정가 매수
+→ 주가가 70,000원 이하로 내려올 때 체결
+</code></pre>
+<h3>시장가 주문</h3>
+<p>현재 시장 가격으로 즉시 체결. 급하게 사거나 팔 때.</p>
+<blockquote>
+<p>변동성이 큰 종목은 시장가 사용 시 예상보다 불리한 가격에 체결될 수 있음 (슬리피지).</p>
+</blockquote>
+<h3>조건부 지정가</h3>
+<p>장 중에는 지정가, 장 마감 시 미체결이면 시장가로 전환.</p>
+<hr>
+<h2>거래 시간 (한국)</h2>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>시간</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>장 전 동시호가</td>
+<td>08:30 ~ 09:00</td>
+</tr>
+<tr>
+<td>정규장</td>
+<td>09:00 ~ 15:30</td>
+</tr>
+<tr>
+<td>장 후 동시호가</td>
+<td>15:30 ~ 15:40</td>
+</tr>
+<tr>
+<td>시간 외 단일가</td>
+<td>15:40 ~ 18:00</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>주요 용어</h2>
+<table>
+<thead>
+<tr>
+<th>용어</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>시가총액</td>
+<td>주가 × 발행주식수. 기업의 시장가치</td>
+</tr>
+<tr>
+<td>상장 (IPO)</td>
+<td>거래소에 처음 주식을 공개하는 것</td>
+</tr>
+<tr>
+<td>액면분할</td>
+<td>주가를 낮춰 거래를 활성화 (삼성전자 50:1 분할)</td>
+</tr>
+<tr>
+<td>유상증자</td>
+<td>새 주식 발행해 자금 조달. 기존 주주 지분 희석</td>
+</tr>
+<tr>
+<td>자사주 매입</td>
+<td>기업이 자기 주식 매입. 주가 방어·주주환원 효과</td>
+</tr>
+<tr>
+<td>공매도</td>
+<td>없는 주식을 빌려서 판 뒤 낮은 가격에 사서 갚는 것. 하락 시 수익</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>수익률 계산</h2>
+<pre><code class="hljs language-scss">수익률(%) = (매도가 - 매수가) / 매수가 × <span class="hljs-number">100</span>
+
+예) <span class="hljs-number">10</span>만원에 사서 <span class="hljs-number">13</span>만원에 팔면
+→ (<span class="hljs-number">130</span>,<span class="hljs-number">000</span> - <span class="hljs-number">100</span>,<span class="hljs-number">000</span>) / <span class="hljs-number">100</span>,<span class="hljs-number">000</span> × <span class="hljs-number">100</span> = <span class="hljs-number">30%</span>
+</code></pre>
+<h3>세금·수수료 고려</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>매도 시 증권거래세</td>
+<td>KOSPI 0.18%, KOSDAQ 0.18%</td>
+</tr>
+<tr>
+<td>증권사 수수료</td>
+<td>0.015% 내외 (증권사마다 다름)</td>
+</tr>
+<tr>
+<td>양도소득세</td>
+<td>대주주 또는 해외주식 양도차익에 부과</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>소액 국내주식 투자자는 양도소득세 없음. 배당소득세는 15.4% 원천징수.</p>
+</blockquote>8:["$","$L10",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L11",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"주식 시장 기초 개념"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$12"}}]]}]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"주식 시장 기초 개념 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L13","3",{}]]

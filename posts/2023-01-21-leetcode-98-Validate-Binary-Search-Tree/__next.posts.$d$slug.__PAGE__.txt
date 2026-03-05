@@ -1,0 +1,63 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Td2d,<p>룰루</p>
+<h3>문제</h3>
+<blockquote>
+<ol start="98">
+<li>Validate Binary Search Tree 문제 링크](<a href="https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan&#x26;id=data-structure-i">https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan&#x26;id=data-structure-i</a>)</li>
+</ol>
+</blockquote>
+<p>올바른 BST 인지 판별하시오!</p>
+<p><img src="https://user-images.githubusercontent.com/93169519/231334574-9d010410-986b-4110-88c2-f16b097bfaa1.png" alt="image"></p>
+<pre><code class="hljs language-text"># Example 1:
+Input: root = [2,1,3]
+Output: true
+</code></pre>
+<p>2의 왼쪽엔 작은 1, 오른쪽은 큰 3이 있으므로 올바릅니다. 👍</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/93169519/231334559-6efb3ccc-5fb3-4ab2-9f25-185499279936.png" alt="image"></p>
+<pre><code class="hljs language-text"># Example 1:
+Input: root = [5,1,4,null,null,3,6]
+Output: false
+Explanation: The root node's value is 5 but its right child's value is 4.
+</code></pre>
+<p>5의 오른쪽 노드인 4가 5보다 작으므로 올바르지 않습니다!</p>
+<h3>✅ 해결 방법 찾아보기</h3>
+<p><img src="https://user-images.githubusercontent.com/93169519/231334542-d8905517-3839-4d60-b145-c6c527bb7a80.png" alt="image"></p>
+<pre><code class="hljs language-text"># Example 1:
+Input: root = [5,4,6,null,null,3,7]
+Output: false
+</code></pre>
+<p>테스트 케이스에서 위에서 실패 했습니다.
+<br>
+저게 왜 문제지...? 했는데 Discussion 란에 저와 같이 질문한 사람이 있었습니다.
+<br></p>
+<blockquote>
+<p>❗️ 문제는 Root의 5의 오른쪽 노드에는 모두 5보다 큰 수만 있어야 되는 것입니다.
+<br>
+→ 5의 오른쪽 하위 노드들 중에 3이 있는 것이 문제인 것이죠!</p>
+</blockquote>
+<p>이를 위해 lower, upper 두 개의 변수를 사용했습니다.
+<br></p>
+<ul>
+<li>오른쪽 노드를 검사할 때는 루트보다 커야 되므로 lower 를 갱신해주고,</li>
+<li>왼쪽 노드를 검사할 때는 루트보다 작아야 하므로 upper 를 갱신해주는 것이죠!
+<br>
+</li>
+<li>(lower &#x3C; node.val &#x3C; upper 로 검사 할 수 있도록 합니다.)</li>
+</ul>
+<p>이를 코드로 구현해 보면 아래와 같습니다.</p>
+<h3>✅ 최종 Solution</h3>
+<pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">isValidBST</span>(<span class="hljs-params">self, root: <span class="hljs-type">Optional</span>[TreeNode]</span>) -> <span class="hljs-built_in">bool</span>:
+  <span class="hljs-keyword">def</span> <span class="hljs-title function_">dfs</span>(<span class="hljs-params">node, lower, upper</span>):
+    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> node: <span class="hljs-keyword">return</span> <span class="hljs-literal">True</span>
+    <span class="hljs-keyword">if</span> lower &#x3C; node.val &#x3C; upper:
+      <span class="hljs-keyword">return</span> dfs(node.left, lower, node.val) <span class="hljs-keyword">and</span> dfs(node.right, node.val, upper)
+    <span class="hljs-keyword">else</span>:
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">False</span>
+  <span class="hljs-keyword">return</span> dfs(root, -sys.maxsize, sys.maxsize)
+</code></pre>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Algorithm"}],["$","span",null,{"className":"ml-2","children":"2023-01-21"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"리트코드 98. Validate Binary Search Tree"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"올바른 BST 인지 판별하시오!"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

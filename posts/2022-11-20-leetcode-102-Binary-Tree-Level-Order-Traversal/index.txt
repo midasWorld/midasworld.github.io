@@ -1,0 +1,68 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","posts","2022-11-20-leetcode-102-Binary-Tree-Level-Order-Traversal",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","2022-11-20-leetcode-102-Binary-Tree-Level-Order-Traversal","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+11:Tc24,<p>Tree 문제</p>
+<h3>문제</h3>
+<blockquote>
+<p><a href="https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan&#x26;id=level-1">102. Binary Tree Level Order Traversal 문제 링크</a></p>
+</blockquote>
+<p>Binary Tree → Level 순서로 탐색하기!</p>
+<blockquote>
+<p>🤔 Binary Tree(이진 트리)?
+<br>
+자식 노드가 최대 두 개인 노드들로 구성된 트리 입니다.</p>
+</blockquote>
+<pre><code class="hljs language-text"># Example 1:
+Input: root = [3,9,20,null,null,15,7]
+Output: [[3],[9,20],[15,7]]
+</code></pre>
+<p><img src="https://user-images.githubusercontent.com/93169519/230064070-fcb82fc7-00b3-4f10-b362-3692eba2fc01.png" alt="image"></p>
+<p>문제의 핵심은 <code>Level</code> 순서로 진행 된다는 점!
+<br>
+🤔 만약에 위의 예제에서 9의 자식노드 [10, 4]가 추가로 존재한다면?
+<br>
+→ Output: [[3],[9,20],[10,4,15,7]] 으로 된다는 것!</p>
+<h3>최종 Solution</h3>
+<p>각 노드의 왼쪽 오른쪽에 있는 것을 <code>Level</code> 별로 하나로 합쳐야 됩니다.
+<br>
+그를 위해 노드를 하나의 배열로 모아놓은 <code>level</code> 변수를 이용해서 반복하여 풀어냈습니다.</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">levelOrder</span>(<span class="hljs-params">self, root: <span class="hljs-type">Optional</span>[TreeNode]</span>) -> <span class="hljs-type">List</span>[<span class="hljs-type">List</span>[<span class="hljs-built_in">int</span>]]:
+  ans, level = [], [root]
+  <span class="hljs-keyword">while</span> root <span class="hljs-keyword">and</span> level:
+    ans.append([node.val <span class="hljs-keyword">for</span> node <span class="hljs-keyword">in</span> level])
+    LRs = [(node.left, node.right) <span class="hljs-keyword">for</span> node <span class="hljs-keyword">in</span> level]
+    level = [leaf <span class="hljs-keyword">for</span> LR <span class="hljs-keyword">in</span> LRs <span class="hljs-keyword">for</span> leaf <span class="hljs-keyword">in</span> LR <span class="hljs-keyword">if</span> leaf]
+  <span class="hljs-keyword">return</span> ans
+</code></pre>
+<p>while 문 부분의 <code>level</code> 부분만 보면 아래와 같습니다.</p>
+<pre><code class="hljs language-python"><span class="hljs-comment"># 1. 일단 임시변수에 하위노드인 (left, right) 등록 (다음 레벨 노드)</span>
+LRs = []
+<span class="hljs-keyword">for</span> node <span class="hljs-keyword">in</span> level:
+  LRs.append((node.left, node.right));
+
+<span class="hljs-comment"># 2. (left, right)로 묶인 것을 배열 형태로 풀어 등록하기.</span>
+level = []
+<span class="hljs-keyword">for</span> LR <span class="hljs-keyword">in</span> LRs:
+  <span class="hljs-comment"># LR = (left, right)</span>
+  <span class="hljs-keyword">for</span> leaf <span class="hljs-keyword">in</span> LR:
+    <span class="hljs-keyword">if</span> leaf:
+      <span class="hljs-comment"># 각 노드에 있는 값을 이제 다음 레벨로 </span>
+      level.append(leaf);
+</code></pre>8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L10",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Algorithm"}],["$","span",null,{"className":"ml-2","children":"2022-11-20"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"리트코드 102. Binary Tree Level Order Traversal"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"Binary Tree → Level 순서로 탐색하기!"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"리트코드 102. Binary Tree Level Order Traversal | midasworld"}],["$","meta","1",{"name":"description","content":"Binary Tree → Level 순서로 탐색하기!"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

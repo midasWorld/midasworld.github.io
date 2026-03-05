@@ -1,0 +1,68 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T1474,<p>작성한 문서는 아래와 같습니다. 😁</p>
+<h2>Git Workflow 문서</h2>
+<pre><code class="hljs language-yaml"><span class="hljs-attr">name:</span> <span class="hljs-string">Server</span> <span class="hljs-string">CI</span>
+
+<span class="hljs-attr">on:</span>
+  <span class="hljs-attr">push:</span>
+    <span class="hljs-attr">branches:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">main</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">release</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">develop</span>
+  <span class="hljs-attr">pull_request:</span>
+    <span class="hljs-attr">branches:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">main</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">release</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">develop</span>
+
+<span class="hljs-attr">permissions:</span>
+  <span class="hljs-attr">contents:</span> <span class="hljs-string">read</span>
+  <span class="hljs-attr">issues:</span> <span class="hljs-string">read</span>
+  <span class="hljs-attr">checks:</span> <span class="hljs-string">write</span>
+  <span class="hljs-attr">pull-requests:</span> <span class="hljs-string">write</span>
+
+<span class="hljs-attr">jobs:</span>
+  <span class="hljs-attr">CI:</span>
+    <span class="hljs-attr">runs-on:</span> <span class="hljs-string">ubuntu-latest</span>
+    <span class="hljs-attr">steps:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Repository</span> <span class="hljs-string">가져오기</span>
+        <span class="hljs-attr">uses:</span> <span class="hljs-string">actions/checkout@v3</span>
+
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Node</span> <span class="hljs-string">JS</span> <span class="hljs-string">설치</span>
+        <span class="hljs-attr">uses:</span> <span class="hljs-string">actions/setup-node@v3</span>
+        <span class="hljs-attr">with:</span>
+          <span class="hljs-attr">node-version:</span> <span class="hljs-number">19.7</span><span class="hljs-number">.0</span>
+
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Cache</span> <span class="hljs-string">node</span> <span class="hljs-string">modules</span>
+        <span class="hljs-attr">uses:</span> <span class="hljs-string">actions/cache@v3</span>
+        <span class="hljs-attr">id:</span> <span class="hljs-string">cache</span>
+        <span class="hljs-attr">with:</span>
+          <span class="hljs-attr">path:</span> <span class="hljs-string">node_modules</span>
+          <span class="hljs-attr">key:</span> <span class="hljs-string">${{</span> <span class="hljs-string">runner.os</span> <span class="hljs-string">}}-node-${{</span> <span class="hljs-string">hashFiles('**/package-lock.json')</span> <span class="hljs-string">}}</span>
+
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Dependencies</span> <span class="hljs-string">설치</span>
+        <span class="hljs-attr">if:</span> <span class="hljs-string">steps.cache.outputs.cache-hit</span> <span class="hljs-type">!=</span> <span class="hljs-string">'true'</span>
+        <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">ci</span>
+
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">ESLint</span> <span class="hljs-string">실행</span>
+        <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">run</span> <span class="hljs-string">lint</span>
+        <span class="hljs-attr">if:</span> <span class="hljs-string">${{</span> <span class="hljs-string">always()</span> <span class="hljs-string">}}</span>
+
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">프로젝트</span> <span class="hljs-string">빌드</span>
+        <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">run</span> <span class="hljs-string">build</span>
+        <span class="hljs-attr">if:</span> <span class="hljs-string">${{</span> <span class="hljs-string">always()</span> <span class="hljs-string">}}</span>
+</code></pre>
+<h3>🤔 Cache node modules ??</h3>
+<p>push 나 PR 때마다 <code>npm install</code> 을 실행하게 되면 시간이 굉장히 많이 소요됩니다.</p>
+<p>이를 사용하면 해당 프로젝트의 node_modules가 변했는지 여부를 확인할 수 있고,
+<br>모듈 변화가 있는 경우에만 <code>npm install</code> 실행할 수 있도록 해줍니다.</p>
+<h3>🤔 <code>if: ${{ always() }}</code>란?</h3>
+<p>무조건 테스트를 실행하게끔 하는 옵션입니다.
+<br>사용되는 이유는 앞선 ESLint 실행에서 오류가 발생하면 여기서 실행이 종료되게 됩니다.
+<br>뒤에 빌드 부분에도 문제가 있을지도 모르는데 말이죠. 😓</p>
+<p>이를 위해서 무조건 필요한 상황에 추가하면 됩니다.</p>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Git"}],["$","span",null,{"className":"ml-2","children":"2023-05-27"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Github Action - Node CI 작성"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"Github Action - Node CI 작성해보기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

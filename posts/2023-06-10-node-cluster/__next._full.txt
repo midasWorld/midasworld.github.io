@@ -1,0 +1,231 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/01ea5e4778087873.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/01ea5e4778087873.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/01ea5e4778087873.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/598acb9f17d49274.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"6sQ1lhiUnTyDpnIgHA0Gq","c":["","posts","2023-06-10-node-cluster",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","2023-06-10-node-cluster","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/598acb9f17d49274.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01ea5e4778087873.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"database":10,"node":7,"nest":3,"etc":5,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+11:T38f8,<p>NodeJS 의 장점이자 단점이 바로 Non-blocking I/O 와 단일 스레드 입니다.</p>
+<p>싱글 스레드로 하나의 코어에서 실행되기 때문에,
+<br>과부하가 된다면 서버가 다운되는 현상을 겪을 수도 있습니다.</p>
+<blockquote>
+<p>🤔 이를 해결하기 위한 방법은?</p>
+</blockquote>
+<ol>
+<li>클러스터링 : <a href="https://nodejs.org/api/cluster.html">https://nodejs.org/api/cluster.html</a>
+<br> 여러 프로세스를 생성하여 요청을 병렬로 처리하는 방식입니다.
+<br> 각 프로세스는 독립적으로 작동하며, 요청 부하를 분산시킴으로써 동시성을 향상시킵니다.</li>
+<li>스레드풀 사용 : <a href="https://nodejs.org/api/worker_threads.html">https://nodejs.org/api/worker_threads.html</a>
+<br> worker-thread 를 사용하여 CPU 집약적인 작업을 병렬로 처리할 수 있습니다.
+<br> worker-thread 는 Node 의 메인 스레드와 별도로 동작하며,
+<br> 비동기적으로 작업을 처리하여 동시성을 개선합니다.</li>
+</ol>
+<h3>🛠️ 과부하 테스트 툴</h3>
+<ul>
+<li>Artillery : <a href="https://github.com/artilleryio/artillery/tree/main/packages/artillery#readme">https://github.com/artilleryio/artillery/tree/main/packages/artillery#readme</a></li>
+</ul>
+<p>위의 툴은 지정한 수의 요청을 보낼 수 있는 과부화 툴 입니다. 😁</p>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">설치</span>
+npm install -g artillery
+<span class="hljs-meta prompt_">
+# </span><span class="bash">사용</span>
+artillery quick -c 2 -n 4000 http://localhost:8000
+</code></pre>
+<p>여기서 사용 부분을 보시면,
+<br><code>-c</code>는 가상 사용자의 수, <code>-n</code>은 보낼 요청의 수 입니다.
+<br>고로 2명의 가상 사용자가 4,000번의 요청을 보내는 테스트 입니다.</p>
+<p>공식 문서를 보시면 yml 파일을 작성하여 시나리오까지 만들 수 있습니다. 😁</p>
+<h2>cluster 사용해보기</h2>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">import</span> cluster <span class="hljs-keyword">from</span> <span class="hljs-string">"node:cluster"</span>;
+<span class="hljs-keyword">import</span> { availableParallelism } <span class="hljs-keyword">from</span> <span class="hljs-string">"node:os"</span>;
+<span class="hljs-keyword">import</span> process <span class="hljs-keyword">from</span> <span class="hljs-string">"node:process"</span>;
+<span class="hljs-keyword">import</span> express <span class="hljs-keyword">from</span> <span class="hljs-string">"express"</span>;
+
+<span class="hljs-keyword">const</span> numCPUs = <span class="hljs-title function_">availableParallelism</span>();
+
+<span class="hljs-keyword">if</span> (cluster.<span class="hljs-property">isPrimary</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`Primary <span class="hljs-subst">${process.pid}</span> is running`</span>);
+
+  <span class="hljs-comment">// Fork workers.</span>
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &#x3C; numCPUs; i++) {
+    cluster.<span class="hljs-title function_">fork</span>();
+  }
+
+  cluster.<span class="hljs-title function_">on</span>(<span class="hljs-string">"exit"</span>, <span class="hljs-function">(<span class="hljs-params">worker, code, signal</span>) =></span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`worker <span class="hljs-subst">${worker.process.pid}</span> died`</span>);
+  });
+} <span class="hljs-keyword">else</span> {
+  <span class="hljs-comment">// Workers can share any TCP connection</span>
+  <span class="hljs-comment">// In this case it is an HTTP server</span>
+  <span class="hljs-keyword">const</span> app = <span class="hljs-title function_">express</span>();
+
+  app.<span class="hljs-title function_">get</span>(<span class="hljs-string">"/"</span>, <span class="hljs-function">(<span class="hljs-params">_, res</span>) =></span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(process.<span class="hljs-property">pid</span>, <span class="hljs-string">" is getting request"</span>);
+    res.<span class="hljs-title function_">status</span>(<span class="hljs-number">200</span>).<span class="hljs-title function_">json</span>({ <span class="hljs-attr">message</span>: <span class="hljs-string">"hello world"</span> });
+  });
+
+  app.<span class="hljs-title function_">listen</span>(<span class="hljs-number">8000</span>);
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`Worker <span class="hljs-subst">${process.pid}</span> started`</span>);
+}
+</code></pre>
+<p>사실상 공식 문서에서 예제로 보여주는 그대로 작성을 했습니다.</p>
+<p>이렇게 작성한 후에 실행을 해보면?</p>
+<pre><code class="hljs language-shell">Primary 24791 is running
+Worker 24800 started
+Worker 24794 started
+Worker 24797 started
+Worker 24795 started
+Worker 24798 started
+Worker 24799 started
+Worker 24793 started
+Worker 24796 started
+Worker 24802 started
+Worker 24801 started
+</code></pre>
+<p>위와 같이 CPU 코어에 맞춰 프로세스가 각각 실행됩니다.
+<br>그리고 artillery 툴을 이용해서 요청을 보내보면 각각의 프로세스가 일을 처리하는 걸 확인할 수 있습니다.</p>
+<h3>message 이벤트 사용하기</h3>
+<p>원래는 각 worker 는 독립적으로 동작하기 때문에 <strong>데이터가 공유되지 않습니다.</strong>
+<br>그래서 아래와 같이 추가해버린다면? 🤔</p>
+<pre><code class="hljs language-typescript"><span class="hljs-comment">// ✨ 추가된 부분</span>
+<span class="hljs-keyword">let</span> <span class="hljs-attr">logs</span>: <span class="hljs-title class_">Record</span>&#x3C;<span class="hljs-built_in">number</span>, <span class="hljs-built_in">number</span>> = {};
+
+<span class="hljs-keyword">if</span> (cluster.<span class="hljs-property">isPrimary</span>) {
+  <span class="hljs-comment">// ...</span>
+} <span class="hljs-keyword">else</span> {
+  <span class="hljs-comment">// ...</span>
+  app.<span class="hljs-title function_">get</span>(<span class="hljs-string">"/"</span>, <span class="hljs-function">(<span class="hljs-params">_, res</span>) =></span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(++logs[process.<span class="hljs-property">pid</span>]); <span class="hljs-comment">// ✨ 추가된 부분</span>
+    res.<span class="hljs-title function_">status</span>(<span class="hljs-number">200</span>).<span class="hljs-title function_">json</span>({ <span class="hljs-attr">message</span>: <span class="hljs-string">"hello world"</span> });
+  });
+
+  <span class="hljs-comment">// ...</span>
+}
+</code></pre>
+<p>생각대로라면 각 워커들의 pid 와 숫자들이 출력되야 될것 같지만,
+<br>결과로는 해당 pid 하나의 결과만 출력 됩니다.</p>
+<pre><code class="hljs language-shell">{
+  '26769': 12000,
+}
+</code></pre>
+<blockquote>
+<p>💡 이를 어떻게보면 프로세스간에 통신할 수 있도록 해주는 이벤트를 추가할 수 있습니다.</p>
+</blockquote>
+<p>각 worker 에 message 이벤트를 추가해보겠습니다.</p>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">import</span> cluster <span class="hljs-keyword">from</span> <span class="hljs-string">"node:cluster"</span>;
+<span class="hljs-keyword">import</span> { availableParallelism } <span class="hljs-keyword">from</span> <span class="hljs-string">"node:os"</span>;
+<span class="hljs-keyword">import</span> process <span class="hljs-keyword">from</span> <span class="hljs-string">"node:process"</span>;
+<span class="hljs-keyword">import</span> express <span class="hljs-keyword">from</span> <span class="hljs-string">"express"</span>;
+
+<span class="hljs-keyword">const</span> numCPUs = <span class="hljs-title function_">availableParallelism</span>();
+
+<span class="hljs-keyword">let</span> <span class="hljs-attr">logs</span>: <span class="hljs-title class_">Record</span>&#x3C;<span class="hljs-built_in">number</span>, <span class="hljs-built_in">number</span>> = {};
+
+<span class="hljs-keyword">if</span> (cluster.<span class="hljs-property">isPrimary</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`Primary <span class="hljs-subst">${process.pid}</span> is running`</span>);
+
+  <span class="hljs-comment">// Fork workers.</span>
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &#x3C; numCPUs; i++) {
+    cluster.<span class="hljs-title function_">fork</span>();
+  }
+
+  <span class="hljs-comment">// ✨ 추가된 부분</span>
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> id <span class="hljs-keyword">in</span> cluster.<span class="hljs-property">workers</span>) {
+    cluster.<span class="hljs-property">workers</span>[id]?.<span class="hljs-title function_">on</span>(<span class="hljs-string">"message"</span>, <span class="hljs-function">(<span class="hljs-params">message</span>) =></span> {
+      <span class="hljs-keyword">const</span> pid = <span class="hljs-built_in">parseInt</span>(message);
+      <span class="hljs-keyword">if</span> (pid <span class="hljs-keyword">in</span> logs) {
+        logs[pid] += <span class="hljs-number">1</span>;
+      } <span class="hljs-keyword">else</span> {
+        logs[pid] = <span class="hljs-number">1</span>;
+      }
+      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(logs);
+    });
+  }
+
+  cluster.<span class="hljs-title function_">on</span>(<span class="hljs-string">"exit"</span>, <span class="hljs-function">(<span class="hljs-params">worker, code, signal</span>) =></span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`worker <span class="hljs-subst">${worker.process.pid}</span> died`</span>);
+  });
+} <span class="hljs-keyword">else</span> {
+  <span class="hljs-comment">// Workers can share any TCP connection</span>
+  <span class="hljs-comment">// In this case it is an HTTP server</span>
+  <span class="hljs-keyword">const</span> app = <span class="hljs-title function_">express</span>();
+
+  app.<span class="hljs-title function_">get</span>(<span class="hljs-string">"/"</span>, <span class="hljs-function">(<span class="hljs-params">_, res</span>) =></span> {
+    res.<span class="hljs-title function_">status</span>(<span class="hljs-number">200</span>).<span class="hljs-title function_">json</span>({ <span class="hljs-attr">message</span>: <span class="hljs-string">"hello world"</span> });
+
+    <span class="hljs-comment">// ✨ 추가된 부분</span>
+    process.<span class="hljs-title function_">send</span>(<span class="hljs-string">`<span class="hljs-subst">${process.pid}</span>`</span>);
+  });
+
+  app.<span class="hljs-title function_">listen</span>(<span class="hljs-number">8000</span>);
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`Worker <span class="hljs-subst">${process.pid}</span> started`</span>);
+}
+</code></pre>
+<p>추가된 부분만 보시면 각 worker 에 message 이벤트를 추가한 것을 알 수 있습니다.
+<br>그리고 메시지를 보내면 추가한 이벤트가 작동을 하고,
+<br>저는 각 pid 마다 요청 받아 처리한 개수를 logs 라는 변수에 담아 이를 출력하는 처리를 작성했기 때문에 아래와 같이 결과값이 출력됩니다.</p>
+<pre><code class="hljs language-shell">{
+  '26769': 16000,
+  '26770': 16000,
+  '26771': 16000,
+  '26772': 12000,
+  '26773': 16000,
+  '26774': 16000,
+  '26775': 16000,
+  '26776': 16000,
+  '26777': 12000,
+  '26778': 16000
+}
+</code></pre>
+<h2>🤔 완벽하게 나눠서 일하지 않는다?</h2>
+<p>message 이벤트 결과 값을 먼저 보겠습니다.</p>
+<pre><code class="hljs language-shell">{
+  '26769': 16000,
+  '26770': 16000,
+  '26771': 16000,
+  '26772': 12000,
+  '26773': 16000,
+  '26774': 16000,
+  '26775': 16000,
+  '26776': 16000,
+  '26777': 12000,
+  '26778': 16000
+}
+</code></pre>
+<p>위의 결과 값은 <code>artillery quick -c 8 -n 4000 http://localhost:8000</code> 이 명령어로 동작한 결과 입니다.
+<br>클러스터링을 적용하면 완벽하게 나누어서 동작할 것 같지만 꼭 그렇지도 않다는 것을 확인할 수 있습니다.</p>
+<p>따로 지정하지 않는다면 기본적으로 라운드 로빈 방식으로 동작하게 되는데요,
+<br>라운드 로빈 방식은 순차적으로 하나의 작업을 배분하는 방식입니다.</p>
+<p>그래서 각각에 사용자의 담당을 순차적으로 맡겨서 실행하게 됩니다.</p>
+<p>트래픽이 분산되는 것은 맞지만, 모든 요청에 대해서 모든 작업이 나누어 실행되지는 않습니다.
+<br>이를 위해서는 로드밸런싱이 필요하다는 것을 알 수 있습니다.</p>
+<h2>🪄 PM2</h2>
+<p>위와 같이 코드를 작성하지 않고도 PM2 라는 툴만 이용하면 간단하게 클러스터 사용 가능합니다.</p>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">설치</span>
+npm install -g pm2
+<span class="hljs-meta prompt_">
+# </span><span class="bash">사용법</span>
+pm2 start &#x3C;file> -i &#x3C;n>
+pm2 start ./app.js -i max
+</code></pre>
+<p>위와 같이 max 라고 지정하게 되면 최대 CPU 개수로 실행 됩니다.</p>
+<h2>🔖 보면 좋은 사이트</h2>
+<ul>
+<li><a href="https://inpa.tistory.com/entry/node-%F0%9F%93%9A-PM2-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EC%84%9C%EB%B9%84%EC%8A%A4">[NODE] 📚 PM2 모듈 사용법 - 클러스터 / 무중단 서비스</a></li>
+<li><a href="https://medium.com/monday-9-pm/%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-node-js-%EB%A9%80%ED%8B%B0%EC%BD%94%EC%96%B4-%EB%B3%91%EB%A0%AC%EC%B2%98%EB%A6%AC-%EA%B5%AC%ED%98%84-c2953dc2daa8">웹 서비스를 위한 Node.js 병렬처리 구현</a></li>
+</ul>8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L10",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Node.js"}],["$","span",null,{"className":"ml-2","children":"2023-06-10"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Node - Cluster"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"Node - Cluster 예제 구현해보기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"Node - Cluster | midasworld"}],["$","meta","1",{"name":"description","content":"Node - Cluster 예제 구현해보기"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

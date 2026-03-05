@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T90f,<p>RDB와 NoSQL을 차이와 각각의 장단점에 대해 정리해보았습니다.</p>
+<h2>면접 질문</h2>
+<h3>RDB vs NoSQL 차이를 설명해주세요.</h3>
+<p>관계형 데이터베이스(RDB)는 사전에 엄격하게 정의된 Schema를 요구하는 <strong>Table 기반 데이터 구조</strong>를 갖습니다.
+<br>NoSQL(비관계형 데이터베이스)은 Table 형식이 아닌 <strong>비정형 데이터를 저장할 수 있도록 지원</strong>합니다.</p>
+<h3>NoSQL은 언제 사용하면 좋을까요?</h3>
+<ul>
+<li>NoSQL은 정확한 데이터 구조가 정해지지 않은 경우,</li>
+<li>데이터 Update가 자주 이루어지지 않고 조회가 많은 경우,</li>
+<li>Scale out이 가능하므로 데이터 양이 매우 많은 경우에 사용하면 좋습니다.</li>
+</ul>
+<h3>RDB는 언제 사용하면 좋을 까요?</h3>
+<ul>
+<li>데이터 구조가 명확하여 변경될 여지가 없는 경우,</li>
+<li>데이터 중복이 없으므로 데이터 Update가 많은 경우 사용하면 좋습니다.</li>
+</ul>
+<h2>NoSQL</h2>
+<blockquote>
+<p>key-value storage system</p>
+</blockquote>
+<p>기존 RDB의 경우 단일 기업의 데이터를 다루는데 최적화되어 있습니다.
+<br>하지만 다뤄야 할 데이터양이 훨씬 커진 빅데이터를 다루기에는 많은 부하가 일어납니다.</p>
+<p>이를 처리하기 위한 방법 중 하나가 <code>key-value storage system</code> 입니다.
+<br>(NoSQL이 이에 해당합니다.)</p>
+<p>NoSQL은 데이터간의 관계를 정의하지 않고, 스키마가 없어 좀 더 자유롭게 데이터를 관리할 수 있습니다.
+<br>데이터는 컬렉션이라는 형태로 관리합니다.</p>
+<h3>NoSQL의 종류</h3>
+<ul>
+<li>MongoDB</li>
+<li>Cassandra</li>
+<li>DynamoDB</li>
+<li>Bigtable</li>
+</ul>
+<h3>NoSQL 장점</h3>
+<ul>
+<li>유연하고 자유로운 데이터 구조를 가집니다.</li>
+<li>새로운 필드를 추가하는데 있어 자유롭습니다.</li>
+<li>수평적 확장(scale out)이 용이합니다.</li>
+</ul>
+<h3>NoSQL 단점</h3>
+<ul>
+<li>데이터 중복이 발생할 수 있고,</li>
+<li>중복된 데이터가 변경될 경우 모든 컬렉션에서 수정이 필요합니다.</li>
+<li>스키마가 존재하지 않아 명확한 데이터 구조를 보장하지 않습니다.</li>
+</ul>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Database"}],["$","span",null,{"className":"ml-2","children":"2023-02-14"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"RDB vs NoSQL"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"RDB와 NoSQL의 차이 알아보기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

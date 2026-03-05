@@ -1,0 +1,231 @@
+<!DOCTYPE html><!--6sQ1lhiUnTyDpnIgHA0Gq--><html lang="ko"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="stylesheet" href="/_next/static/chunks/65eda8e73b1f4598.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/598acb9f17d49274.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/27f693b36b0bbdda.js"/><script src="/_next/static/chunks/82abf2d65f5428ae.js" async=""></script><script src="/_next/static/chunks/7856538ac4d2a93b.js" async=""></script><script src="/_next/static/chunks/bd1354d7a1b1bf9d.js" async=""></script><script src="/_next/static/chunks/turbopack-2f6121475624b185.js" async=""></script><script src="/_next/static/chunks/01ea5e4778087873.js" async=""></script><script src="/_next/static/chunks/ff1a16fafef87110.js" async=""></script><script src="/_next/static/chunks/2b423cf30d3964a3.js" async=""></script><meta name="next-size-adjust" content=""/><title>리액트 기초 공부 (1) | midasworld</title><meta name="description" content="리액트 기본 부터 다시 복습하며 정리해보기"/><link rel="icon" href="/favicon.ico?favicon.0b3bf435.ico" sizes="256x256" type="image/x-icon"/><script src="/_next/static/chunks/a6dad97d9634a72d.js" noModule=""></script></head><body class="noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100"><div hidden=""><!--$--><!--/$--></div><script>((a,b,c,d,e,f,g,h)=>{let i=document.documentElement,j=["light","dark"];function k(b){var c;(Array.isArray(a)?a:[a]).forEach(a=>{let c="class"===a,d=c&&f?e.map(a=>f[a]||a):e;c?(i.classList.remove(...d),i.classList.add(f&&f[b]?f[b]:b)):i.setAttribute(a,b)}),c=b,h&&j.includes(c)&&(i.style.colorScheme=c)}if(d)k(d);else try{let a=localStorage.getItem(b)||c,d=g&&"system"===a?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":a;k(d)}catch(a){}})("class","theme","system",null,["light","dark"],null,true,true)</script><div class="flex min-h-screen"><!--$!--><template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><div class="hidden lg:block w-64 shrink-0"></div><!--/$--><!--$!--><template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$--><main class="flex-1 min-w-0 pt-14 lg:pt-0"><div class="max-w-3xl mx-auto px-4 py-12"><a class="text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block" href="/posts/">← 목록으로</a><header class="mb-8"><div class="flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500"><span>개발</span><span>/</span><span class="font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400">Etc</span><span class="ml-2">2022-10-27</span></div><h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3">리액트 기초 공부 (1)</h1><p class="text-gray-500 dark:text-gray-400">리액트 기본 부터 다시 복습하며 정리해보기</p></header><article class="prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950"><p>간단한 프론트 프로젝트를 만들어서 백엔드와 연동될 수 있도록 만들기 위한 리액트 복습!
+<br>
+리액트로 하고 후에 여유가 있다면 Typescript, Next.js로 전환하면 될듯 싶다.</p>
+<h1>리액트 개념 정리</h1>
+<h2>라이브러리와 프레임워크 차이</h2>
+<p>리액트는 라이브러리 일까요? 프레임워크 일까요?? 🤔
+<br>
+둘의 차이는 무엇일까요?</p>
+<ul>
+<li>프레임워크 :
+<ul>
+<li>ex) Angular</li>
+<li>Http Client, UI, Routing, State management 등이 모두 갖추어진 틀</li>
+<li>정해진 틀 안에서 원하는 것들을 만들어야 됨!</li>
+<li>😓 프레임워크에서 규정하는 사용되는 권장되는 모든 것들을 공부해야 되는 단점이 있어 러닝 커브가 있습니다.</li>
+<li>😓 정해진 틀 안에서 개발해야 되기 때문에 <strong>자율성이 낮아집니다.</strong></li>
+</ul>
+</li>
+<li>라이브러리 :
+<ul>
+<li>큰 골격이나 규칙이 정해지지 않고, 단 한가지의 작은 솔루션 단위를 라이브러리라고 합니다.</li>
+<li>ex) React : UI를 만들 수 있게 도와주는 라이브러리!! 😳
+<br>
+      (커뮤니티가 막강해서 필요하다 싶은 라이브러리가 다 있음!)</li>
+<li>원하는 것을 골라서 사용할 수 있는 자율성이 보장됩니다.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>리액트는 유저 인터페이스를 만들기 위한 <strong>자바스크립트 라이브러리</strong> 입니다. 😁</p>
+</blockquote>
+<h2>리액트 컴포넌트</h2>
+<p>리액트란 컴포넌트들의 집합체 입니다.
+<br>
+고로 컴포넌트를 잘 만들어가야 합니다! 🪄</p>
+<blockquote>
+<p>A highly <strong>cohesive building block</strong> for UIs <strong>loosely coupled</strong> with other components.</p>
+</blockquote>
+<p>좋은 컴포넌트란 다른 컴포넌트와 연결되어 있지 않아 독립적이며 재사용성이 높아야 합니다.
+<br>
+<br>
+🎯 두 가지를 기억해보자!</p>
+<ul>
+<li><strong>DRY</strong>
+<ul>
+<li>Don't Repeat Yourself</li>
+<li>재사용성</li>
+</ul>
+</li>
+<li><strong>SR</strong>
+<ul>
+<li>Single Responsibility</li>
+<li>단일책임</li>
+</ul>
+</li>
+</ul>
+<h2>리액트 동작 원리</h2>
+<p>데이터를 State(내부 상태) Props(외부로부터 전달받은 상태)
+<br>
+나타내는 render가 있다.
+<br>
+상태가 변경될때마다 re-render 된다.
+<br>
+실제로 변경된 부분만 화면에 업데이트 된다.</p>
+<ul>
+<li>✨ 60fps 유지하는 것이 중요!</li>
+</ul>
+<h2>리액트 훅</h2>
+<blockquote>
+<p>Hooks are functions that let you <strong>"hook into"</strong> React <strong>state and lifecycle feature</strong> from function component
+<br>
+📌 state and lifecycle feature : 재사용 가능한 로직들</p>
+</blockquote>
+<ul>
+<li>재사용 가능한 함수이다!</li>
+<li>✨ 값의 재사용이 아닌 <strong>로직의 재사용</strong>을 위한 것이다!!</li>
+<li>useState(상태 관리), useEffect(컴포넌트 생애주기 관리), useRef, useMemo, useCallback, useContext ...</li>
+</ul>
+<h3>클래스 컴포넌트들의 단점</h3>
+<ul>
+<li>클래스는 어렵다.</li>
+<li>this 바인딩 이슈</li>
+<li>로직들을 재사용 하기 어려움</li>
+</ul>
+<h2>개발 환경 툴</h2>
+<h3>node JS</h3>
+<blockquote>
+<p>JavaScript runtime environment (framework) that <strong>executes JavaScript</strong> code <strong>outside a web browser</strong> "JavaScript everywhere"</p>
+</blockquote>
+<ul>
+<li>server-side rendering 뿐만 아니라 스크립트로 만들어서 사용 가능!</li>
+<li>node 설치 → 자동으로 npm 설치 됨.</li>
+</ul>
+<h3>npm</h3>
+<ul>
+<li>package manager</li>
+<li><strong>Publish</strong> and <strong>share</strong> course code of Node.js packages simplify installation, updating, and uninstallation of packages.</li>
+<li>라이브러리를 쉽게 설치하고 버전을 관리하는 도구</li>
+<li><code>package.json</code>에서 관리</li>
+</ul>
+<h3>yarn</h3>
+<ul>
+<li>package manager</li>
+<li>built on top of npm to resolve some of npm's shortcomings
+<br>
+faster, consistent, secure</li>
+<li>npm 대비 속도가 빠르고 보안성이 높다.</li>
+</ul>
+<h2>프로젝트 생성</h2>
+<h3>만들기</h3>
+<ul>
+<li>링크 : <a href="https://create-react-app.dev/docs/getting-started">https://create-react-app.dev/docs/getting-started</a></li>
+</ul>
+<p>위 링크를 보면 아래와 같은 명령어로 프로젝트를 생성하게 됩니다.</p>
+<blockquote>
+<p>yarn create react-app [프로젝트명]</p>
+</blockquote>
+<h3>📌 yarn 버전 문제</h3>
+<p>리액트 프로젝트를 생성했을 때 파일이 다를수도 있는데, 이것은 yarn 버전 때문 입니다.
+<br>
+최신 버전 보다는 안정화된 버전으로 생성하는 것이 좋겠죠? 🤔</p>
+<blockquote>
+<p>yarn set version stable</p>
+</blockquote>
+<p>위의 명령어로 yarn 안정화된 버전으로 설정이 가능 합니다!</p>
+<h3>중요 툴</h3>
+<ul>
+<li>BABEL
+<ul>
+<li>JavaScript transcompiler</li>
+<li>개발 때는 최신 자바스크립트로 개발을 해도, 예전 버전으로 변환 가능!!</li>
+</ul>
+</li>
+<li>Webpack
+<ul>
+<li>Bundling the code, JavaScript module bundler</li>
+<li>우리의 코드를 포장해서 배포할 수 있게 해주는 번들러!</li>
+<li>어떤 것들을 그룹지어 전송을 해야 되는지 등...</li>
+</ul>
+</li>
+<li>ESLint
+<ul>
+<li>코드가 올바르게 작성되고 있는지 체크!</li>
+</ul>
+</li>
+<li>Jest
+<ul>
+<li>테스팅 프레임워크</li>
+</ul>
+</li>
+<li>PostCSS</li>
+</ul>
+<h3>CSR?</h3>
+<ul>
+<li>client side rendering</li>
+</ul>
+<h3>Yarn 오류</h3>
+<p>실행을 하고 나서 파일을 수정하게 되면 실시간으로 수정된 내용이 반영되는게 아닌 아래와 같은 오류가 발생하는 것을 볼 수 있는데요. 🤔</p>
+<img width="875" alt="image" src="https://user-images.githubusercontent.com/93169519/198752227-87423f4e-588c-4d30-8433-6e60b122db48.png">
+<p>이를 해결하기 위해서 아래와 같이 하면 됩니다.</p>
+<ol>
+<li>Dependencies 추가
+<pre><code class="hljs language-shell">yarn add -D eslint-config-react-app
+</code></pre>
+</li>
+<li>Root 경로에 <code>.yarnrc.yml</code> 작성
+<pre><code class="hljs language-yaml"><span class="hljs-attr">packageExtensions:</span>
+  <span class="hljs-attr">react-scripts@*:</span>                  <span class="hljs-comment"># 기본적으로 모든 리액트 스크립트를 사용하고 있는데,</span>
+    <span class="hljs-attr">peerDependencies:</span>               <span class="hljs-comment"># peer dependencies 중에 </span>
+      <span class="hljs-attr">eslint-config-react-app:</span> <span class="hljs-string">"*"</span>  <span class="hljs-comment"># 얘는 우리가 설치한 것을 수동적으로 사용할 것이니라!</span>
+</code></pre>
+</li>
+<li>캐시 초기화 후 다시 설치해서 실행하면 됩니다.
+<pre><code class="hljs language-shell">yarn cache clean
+yarn install
+</code></pre>
+</li>
+<li>끗!</li>
+</ol>
+<h3>JSX</h3>
+<ul>
+<li><a href="https://reactjs.org/docs/introducing-jsx.html">https://reactjs.org/docs/introducing-jsx.html</a></li>
+<li><a href="https://reactjs.org/docs/jsx-in-depth.html">https://reactjs.org/docs/jsx-in-depth.html</a></li>
+<li><a href="https://transform.tools/html-to-jsx">https://transform.tools/html-to-jsx</a></li>
+</ul>
+<p>무료 사진 사이트 : <a href="https://unsplash.com/">https://unsplash.com/</a></p>
+<h3>컴포넌트 만들기</h3>
+<ul>
+<li>
+<p>rfc : 단축키 (react snippet 익스텐션)</p>
+</li>
+<li>
+<p>Box Shadow : <a href="https://cssgenerator.org/box-shadow-css-generator.html%5C">https://cssgenerator.org/box-shadow-css-generator.html\</a></p>
+</li>
+</ul>
+<h3>Props</h3>
+<p>외부에서 전달용으로 주입할 수 있음!</p>
+<h3>useState</h3>
+<p>주의할 점!</p>
+<pre><code class="hljs language-jsx"><span class="hljs-keyword">const</span> [cnt, setCnt] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);
+
+onclick= <span class="hljs-function">() =></span> {
+    <span class="hljs-title function_">setState</span>(cnt + <span class="hljs-number">1</span>);
+    <span class="hljs-title function_">setState</span>(cnt + <span class="hljs-number">1</span>);
+    <span class="hljs-title function_">setState</span>(cnt + <span class="hljs-number">1</span>);
+    <span class="hljs-title function_">setState</span>(cnt + <span class="hljs-number">1</span>);
+    <span class="hljs-title function_">setState</span>(cnt + <span class="hljs-number">1</span>);
+}
+</code></pre>
+<p>위의 코드에서 한번 클릭을 하면, cnt = 5가 될까요?
+<br>
+❌ 1만 오르게 됩니다.
+<br>
+onclick 을 하게 됬을 때, 스냅샷을 저장하게 되며 환경(Lexical Environment : 특정 코드가 작성, 선언(정의)된 환경)이 콜백함수에 전달됩니다.
+<br>
+cnt = 0 인 상태로 전달을 하고, 0 + 1 만 계속해서 실행하게 되니 결국 1이 됩니다.</p>
+<p>이를 굳이? 해결하고자 한다면? 아래와 같이 하면 됩니다!</p>
+<pre><code class="hljs language-jsx"><span class="hljs-keyword">const</span> [cnt, setCnt] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);
+
+onclick= <span class="hljs-function">() =></span> {
+    <span class="hljs-title function_">setState</span>(<span class="hljs-function">(<span class="hljs-params">prev</span>) =></span> prev + <span class="hljs-number">1</span>);
+    <span class="hljs-title function_">setState</span>(<span class="hljs-function">(<span class="hljs-params">prev</span>) =></span> prev + <span class="hljs-number">1</span>);
+    <span class="hljs-title function_">setState</span>(<span class="hljs-function">(<span class="hljs-params">prev</span>) =></span> prev + <span class="hljs-number">1</span>);
+    <span class="hljs-title function_">setState</span>(<span class="hljs-function">(<span class="hljs-params">prev</span>) =></span> prev + <span class="hljs-number">1</span>);
+    <span class="hljs-title function_">setState</span>(<span class="hljs-function">(<span class="hljs-params">prev</span>) =></span> prev + <span class="hljs-number">1</span>);
+}
+</code></pre>
+<h2>🔖 참고 사이트</h2>
+<ul>
+<li><a href="https://academy.dream-coding.com/courses/react">드림코딩 - 리액트 개념정리 · 클론코딩</a></li>
+</ul></article></div><!--$--><!--/$--></main></div><script src="/_next/static/chunks/27f693b36b0bbdda.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[80492,[\"/_next/static/chunks/01ea5e4778087873.js\"],\"ThemeProvider\"]\n3:\"$Sreact.suspense\"\n4:I[87771,[\"/_next/static/chunks/01ea5e4778087873.js\"],\"Sidebar\"]\n5:I[32119,[\"/_next/static/chunks/01ea5e4778087873.js\"],\"MobileNav\"]\n6:I[39756,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/2b423cf30d3964a3.js\"],\"default\"]\n7:I[37457,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/2b423cf30d3964a3.js\"],\"default\"]\n9:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/2b423cf30d3964a3.js\"],\"OutletBoundary\"]\nb:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/2b423cf30d3964a3.js\"],\"ViewportBoundary\"]\nd:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/2b423cf30d3964a3.js\"],\"MetadataBoundary\"]\nf:I[68027,[],\"default\"]\n:HL[\"/_next/static/chunks/65eda8e73b1f4598.css\",\"style\"]\n:HL[\"/_next/static/chunks/598acb9f17d49274.css\",\"style\"]\n:HL[\"/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"6sQ1lhiUnTyDpnIgHA0Gq\",\"c\":[\"\",\"posts\",\"2022-10-27-react-basic\",\"\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"posts\",{\"children\":[[\"slug\",\"2022-10-27-react-basic\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/65eda8e73b1f4598.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/598acb9f17d49274.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/01ea5e4778087873.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"ko\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"body\",null,{\"className\":\"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100\",\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"div\",null,{\"className\":\"flex min-h-screen\",\"children\":[[\"$\",\"$3\",null,{\"fallback\":[\"$\",\"div\",null,{\"className\":\"hidden lg:block w-64 shrink-0\"}],\"children\":[\"$\",\"$L4\",null,{\"counts\":{\"database\":10,\"node\":7,\"nest\":3,\"etc\":5,\"docker\":4,\"git\":6,\"server\":8,\"spring\":2,\"network\":4,\"javascript\":1,\"algorithm\":22,\"java\":1}}]}],[\"$\",\"$3\",null,{\"fallback\":null,\"children\":[\"$\",\"$L5\",null,{\"counts\":\"$0:f:0:1:0:props:children:1:props:children:props:children:props:children:props:children:0:props:children:props:counts\"}]}],[\"$\",\"main\",null,{\"className\":\"flex-1 min-w-0 pt-14 lg:pt-0\",\"children\":[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}]}]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[\"$L8\",null,[\"$\",\"$L9\",null,{\"children\":[\"$\",\"$3\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@a\"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$Lb\",null,{\"children\":\"$Lc\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"$3\",null,{\"name\":\"Next.Metadata\",\"children\":\"$Le\"}]}]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$f\",[]],\"S\":true}\n"])</script><script>self.__next_f.push([1,"10:I[22016,[\"/_next/static/chunks/01ea5e4778087873.js\"],\"\"]\n11:T2869,"])</script><script>self.__next_f.push([1,"\u003cp\u003e간단한 프론트 프로젝트를 만들어서 백엔드와 연동될 수 있도록 만들기 위한 리액트 복습!\n\u003cbr\u003e\n리액트로 하고 후에 여유가 있다면 Typescript, Next.js로 전환하면 될듯 싶다.\u003c/p\u003e\n\u003ch1\u003e리액트 개념 정리\u003c/h1\u003e\n\u003ch2\u003e라이브러리와 프레임워크 차이\u003c/h2\u003e\n\u003cp\u003e리액트는 라이브러리 일까요? 프레임워크 일까요?? 🤔\n\u003cbr\u003e\n둘의 차이는 무엇일까요?\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e프레임워크 :\n\u003cul\u003e\n\u003cli\u003eex) Angular\u003c/li\u003e\n\u003cli\u003eHttp Client, UI, Routing, State management 등이 모두 갖추어진 틀\u003c/li\u003e\n\u003cli\u003e정해진 틀 안에서 원하는 것들을 만들어야 됨!\u003c/li\u003e\n\u003cli\u003e😓 프레임워크에서 규정하는 사용되는 권장되는 모든 것들을 공부해야 되는 단점이 있어 러닝 커브가 있습니다.\u003c/li\u003e\n\u003cli\u003e😓 정해진 틀 안에서 개발해야 되기 때문에 \u003cstrong\u003e자율성이 낮아집니다.\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e라이브러리 :\n\u003cul\u003e\n\u003cli\u003e큰 골격이나 규칙이 정해지지 않고, 단 한가지의 작은 솔루션 단위를 라이브러리라고 합니다.\u003c/li\u003e\n\u003cli\u003eex) React : UI를 만들 수 있게 도와주는 라이브러리!! 😳\n\u003cbr\u003e\n      (커뮤니티가 막강해서 필요하다 싶은 라이브러리가 다 있음!)\u003c/li\u003e\n\u003cli\u003e원하는 것을 골라서 사용할 수 있는 자율성이 보장됩니다.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e리액트는 유저 인터페이스를 만들기 위한 \u003cstrong\u003e자바스크립트 라이브러리\u003c/strong\u003e 입니다. 😁\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e리액트 컴포넌트\u003c/h2\u003e\n\u003cp\u003e리액트란 컴포넌트들의 집합체 입니다.\n\u003cbr\u003e\n고로 컴포넌트를 잘 만들어가야 합니다! 🪄\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eA highly \u003cstrong\u003ecohesive building block\u003c/strong\u003e for UIs \u003cstrong\u003eloosely coupled\u003c/strong\u003e with other components.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e좋은 컴포넌트란 다른 컴포넌트와 연결되어 있지 않아 독립적이며 재사용성이 높아야 합니다.\n\u003cbr\u003e\n\u003cbr\u003e\n🎯 두 가지를 기억해보자!\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eDRY\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eDon't Repeat Yourself\u003c/li\u003e\n\u003cli\u003e재사용성\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSR\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eSingle Responsibility\u003c/li\u003e\n\u003cli\u003e단일책임\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e리액트 동작 원리\u003c/h2\u003e\n\u003cp\u003e데이터를 State(내부 상태) Props(외부로부터 전달받은 상태)\n\u003cbr\u003e\n나타내는 render가 있다.\n\u003cbr\u003e\n상태가 변경될때마다 re-render 된다.\n\u003cbr\u003e\n실제로 변경된 부분만 화면에 업데이트 된다.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e✨ 60fps 유지하는 것이 중요!\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e리액트 훅\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003eHooks are functions that let you \u003cstrong\u003e\"hook into\"\u003c/strong\u003e React \u003cstrong\u003estate and lifecycle feature\u003c/strong\u003e from function component\n\u003cbr\u003e\n📌 state and lifecycle feature : 재사용 가능한 로직들\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003e재사용 가능한 함수이다!\u003c/li\u003e\n\u003cli\u003e✨ 값의 재사용이 아닌 \u003cstrong\u003e로직의 재사용\u003c/strong\u003e을 위한 것이다!!\u003c/li\u003e\n\u003cli\u003euseState(상태 관리), useEffect(컴포넌트 생애주기 관리), useRef, useMemo, useCallback, useContext ...\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e클래스 컴포넌트들의 단점\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e클래스는 어렵다.\u003c/li\u003e\n\u003cli\u003ethis 바인딩 이슈\u003c/li\u003e\n\u003cli\u003e로직들을 재사용 하기 어려움\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e개발 환경 툴\u003c/h2\u003e\n\u003ch3\u003enode JS\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003eJavaScript runtime environment (framework) that \u003cstrong\u003eexecutes JavaScript\u003c/strong\u003e code \u003cstrong\u003eoutside a web browser\u003c/strong\u003e \"JavaScript everywhere\"\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003eserver-side rendering 뿐만 아니라 스크립트로 만들어서 사용 가능!\u003c/li\u003e\n\u003cli\u003enode 설치 → 자동으로 npm 설치 됨.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003enpm\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003epackage manager\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003ePublish\u003c/strong\u003e and \u003cstrong\u003eshare\u003c/strong\u003e course code of Node.js packages simplify installation, updating, and uninstallation of packages.\u003c/li\u003e\n\u003cli\u003e라이브러리를 쉽게 설치하고 버전을 관리하는 도구\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003epackage.json\u003c/code\u003e에서 관리\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eyarn\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003epackage manager\u003c/li\u003e\n\u003cli\u003ebuilt on top of npm to resolve some of npm's shortcomings\n\u003cbr\u003e\nfaster, consistent, secure\u003c/li\u003e\n\u003cli\u003enpm 대비 속도가 빠르고 보안성이 높다.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e프로젝트 생성\u003c/h2\u003e\n\u003ch3\u003e만들기\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e링크 : \u003ca href=\"https://create-react-app.dev/docs/getting-started\"\u003ehttps://create-react-app.dev/docs/getting-started\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e위 링크를 보면 아래와 같은 명령어로 프로젝트를 생성하게 됩니다.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eyarn create react-app [프로젝트명]\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3\u003e📌 yarn 버전 문제\u003c/h3\u003e\n\u003cp\u003e리액트 프로젝트를 생성했을 때 파일이 다를수도 있는데, 이것은 yarn 버전 때문 입니다.\n\u003cbr\u003e\n최신 버전 보다는 안정화된 버전으로 생성하는 것이 좋겠죠? 🤔\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eyarn set version stable\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e위의 명령어로 yarn 안정화된 버전으로 설정이 가능 합니다!\u003c/p\u003e\n\u003ch3\u003e중요 툴\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eBABEL\n\u003cul\u003e\n\u003cli\u003eJavaScript transcompiler\u003c/li\u003e\n\u003cli\u003e개발 때는 최신 자바스크립트로 개발을 해도, 예전 버전으로 변환 가능!!\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eWebpack\n\u003cul\u003e\n\u003cli\u003eBundling the code, JavaScript module bundler\u003c/li\u003e\n\u003cli\u003e우리의 코드를 포장해서 배포할 수 있게 해주는 번들러!\u003c/li\u003e\n\u003cli\u003e어떤 것들을 그룹지어 전송을 해야 되는지 등...\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eESLint\n\u003cul\u003e\n\u003cli\u003e코드가 올바르게 작성되고 있는지 체크!\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eJest\n\u003cul\u003e\n\u003cli\u003e테스팅 프레임워크\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003ePostCSS\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eCSR?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eclient side rendering\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eYarn 오류\u003c/h3\u003e\n\u003cp\u003e실행을 하고 나서 파일을 수정하게 되면 실시간으로 수정된 내용이 반영되는게 아닌 아래와 같은 오류가 발생하는 것을 볼 수 있는데요. 🤔\u003c/p\u003e\n\u003cimg width=\"875\" alt=\"image\" src=\"https://user-images.githubusercontent.com/93169519/198752227-87423f4e-588c-4d30-8433-6e60b122db48.png\"\u003e\n\u003cp\u003e이를 해결하기 위해서 아래와 같이 하면 됩니다.\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eDependencies 추가\n\u003cpre\u003e\u003ccode class=\"hljs language-shell\"\u003eyarn add -D eslint-config-react-app\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003eRoot 경로에 \u003ccode\u003e.yarnrc.yml\u003c/code\u003e 작성\n\u003cpre\u003e\u003ccode class=\"hljs language-yaml\"\u003e\u003cspan class=\"hljs-attr\"\u003epackageExtensions:\u003c/span\u003e\n  \u003cspan class=\"hljs-attr\"\u003ereact-scripts@*:\u003c/span\u003e                  \u003cspan class=\"hljs-comment\"\u003e# 기본적으로 모든 리액트 스크립트를 사용하고 있는데,\u003c/span\u003e\n    \u003cspan class=\"hljs-attr\"\u003epeerDependencies:\u003c/span\u003e               \u003cspan class=\"hljs-comment\"\u003e# peer dependencies 중에 \u003c/span\u003e\n      \u003cspan class=\"hljs-attr\"\u003eeslint-config-react-app:\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\"*\"\u003c/span\u003e  \u003cspan class=\"hljs-comment\"\u003e# 얘는 우리가 설치한 것을 수동적으로 사용할 것이니라!\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e캐시 초기화 후 다시 설치해서 실행하면 됩니다.\n\u003cpre\u003e\u003ccode class=\"hljs language-shell\"\u003eyarn cache clean\nyarn install\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e끗!\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003eJSX\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://reactjs.org/docs/introducing-jsx.html\"\u003ehttps://reactjs.org/docs/introducing-jsx.html\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://reactjs.org/docs/jsx-in-depth.html\"\u003ehttps://reactjs.org/docs/jsx-in-depth.html\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://transform.tools/html-to-jsx\"\u003ehttps://transform.tools/html-to-jsx\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e무료 사진 사이트 : \u003ca href=\"https://unsplash.com/\"\u003ehttps://unsplash.com/\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003e컴포넌트 만들기\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003erfc : 단축키 (react snippet 익스텐션)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBox Shadow : \u003ca href=\"https://cssgenerator.org/box-shadow-css-generator.html%5C\"\u003ehttps://cssgenerator.org/box-shadow-css-generator.html\\\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eProps\u003c/h3\u003e\n\u003cp\u003e외부에서 전달용으로 주입할 수 있음!\u003c/p\u003e\n\u003ch3\u003euseState\u003c/h3\u003e\n\u003cp\u003e주의할 점!\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"hljs language-jsx\"\u003e\u003cspan class=\"hljs-keyword\"\u003econst\u003c/span\u003e [cnt, setCnt] = \u003cspan class=\"hljs-title function_\"\u003euseState\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e);\n\nonclick= \u003cspan class=\"hljs-function\"\u003e() =\u003e\u003c/span\u003e {\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(cnt + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(cnt + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(cnt + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(cnt + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(cnt + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e위의 코드에서 한번 클릭을 하면, cnt = 5가 될까요?\n\u003cbr\u003e\n❌ 1만 오르게 됩니다.\n\u003cbr\u003e\nonclick 을 하게 됬을 때, 스냅샷을 저장하게 되며 환경(Lexical Environment : 특정 코드가 작성, 선언(정의)된 환경)이 콜백함수에 전달됩니다.\n\u003cbr\u003e\ncnt = 0 인 상태로 전달을 하고, 0 + 1 만 계속해서 실행하게 되니 결국 1이 됩니다.\u003c/p\u003e\n\u003cp\u003e이를 굳이? 해결하고자 한다면? 아래와 같이 하면 됩니다!\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"hljs language-jsx\"\u003e\u003cspan class=\"hljs-keyword\"\u003econst\u003c/span\u003e [cnt, setCnt] = \u003cspan class=\"hljs-title function_\"\u003euseState\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e);\n\nonclick= \u003cspan class=\"hljs-function\"\u003e() =\u003e\u003c/span\u003e {\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(\u003cspan class=\"hljs-function\"\u003e(\u003cspan class=\"hljs-params\"\u003eprev\u003c/span\u003e) =\u003e\u003c/span\u003e prev + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(\u003cspan class=\"hljs-function\"\u003e(\u003cspan class=\"hljs-params\"\u003eprev\u003c/span\u003e) =\u003e\u003c/span\u003e prev + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(\u003cspan class=\"hljs-function\"\u003e(\u003cspan class=\"hljs-params\"\u003eprev\u003c/span\u003e) =\u003e\u003c/span\u003e prev + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(\u003cspan class=\"hljs-function\"\u003e(\u003cspan class=\"hljs-params\"\u003eprev\u003c/span\u003e) =\u003e\u003c/span\u003e prev + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n    \u003cspan class=\"hljs-title function_\"\u003esetState\u003c/span\u003e(\u003cspan class=\"hljs-function\"\u003e(\u003cspan class=\"hljs-params\"\u003eprev\u003c/span\u003e) =\u003e\u003c/span\u003e prev + \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e);\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e🔖 참고 사이트\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://academy.dream-coding.com/courses/react\"\u003e드림코딩 - 리액트 개념정리 · 클론코딩\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e"])</script><script>self.__next_f.push([1,"8:[\"$\",\"div\",null,{\"className\":\"max-w-3xl mx-auto px-4 py-12\",\"children\":[[\"$\",\"$L10\",null,{\"href\":\"/posts\",\"className\":\"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block\",\"children\":\"← 목록으로\"}],[\"$\",\"header\",null,{\"className\":\"mb-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500\",\"children\":[[\"$\",\"span\",null,{\"children\":\"개발\"}],[\"$\",\"span\",null,{\"children\":\"/\"}],[\"$\",\"span\",null,{\"className\":\"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400\",\"children\":\"Etc\"}],[\"$\",\"span\",null,{\"className\":\"ml-2\",\"children\":\"2022-10-27\"}]]}],[\"$\",\"h1\",null,{\"className\":\"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3\",\"children\":\"리액트 기초 공부 (1)\"}],[\"$\",\"p\",null,{\"className\":\"text-gray-500 dark:text-gray-400\",\"children\":\"리액트 기본 부터 다시 복습하며 정리해보기\"}]]}],[\"$\",\"article\",null,{\"className\":\"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950\",\"dangerouslySetInnerHTML\":{\"__html\":\"$11\"}}]]}]\n"])</script><script>self.__next_f.push([1,"c:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"12:I[27201,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/2b423cf30d3964a3.js\"],\"IconMark\"]\na:null\ne:[[\"$\",\"title\",\"0\",{\"children\":\"리액트 기초 공부 (1) | midasworld\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"리액트 기본 부터 다시 복습하며 정리해보기\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.0b3bf435.ico\",\"sizes\":\"256x256\",\"type\":\"image/x-icon\"}],[\"$\",\"$L12\",\"3\",{}]]\n"])</script></body></html>

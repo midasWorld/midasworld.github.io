@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T933,<p>쉬운 듯 어려운 듯한... 🤔</p>
+<h3>문제</h3>
+<blockquote>
+<p><a href="https://leetcode.com/problems/longest-palindrome/?envType=study-plan&#x26;id=level-1">409. Longest Palindrome 문제 링크</a></p>
+</blockquote>
+<p>가장 긴 팰린드롬을 구하시오!</p>
+<blockquote>
+<p>팰린드롬(palindrome)?</p>
+</blockquote>
+<p>팰린드롬은 역순으로 읽어도 같은 것을 말합니다.
+<br>
+예를 들어 <code>bob</code> 과 같이 거꾸로 해도 <code>bob</code>인 단어 입니다.
+<br>
+(한국 예능에서는 이효리, 이혜리 가 있었죠..)</p>
+<pre><code class="hljs language-text"># Example 1:
+Input: s = "abccccdd"
+Output: 7
+Explanation: One longest palindrome that can be built is "dccaccd", whose length is 7.
+</code></pre>
+<p>위의 예제에서 만들 수 있는 가장 긴 팰린드롬 단어는 dccaccd 입니다.
+<br>
+(a 를 b 로 대체하여 dccbccd 로 할 수도 있죠.)</p>
+<h3>최종 Solution</h3>
+<ol>
+<li>글자 수가 짝수인 경우 그 단어는 무조건 사용할 수 있기에 포함!
+  <br>
+</li>
+</ol>
+<p>(위의 예제에서는 c와 d가 있습니다.)
+<br>
+딱 떨어지는 개수가 아닌 aaa 라는 단어가 있어도! aa 만 추출하면 되니 이도 포함되어야 합니다. (여기서 한번 틀림... 🫠 )
+2. 그리고 한 글자 이더라도 가장 중앙에 위치한다면 아무 문제가 없습니다.
+<br>
+(위의 예제의 중앙의 a와 같습니다.)</p>
+<p>고로 정답 == 짝수개의 단어 + 한 글자(IF 한 글자가 있다면)</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">longestPalindrome</span>(<span class="hljs-params">self, s: <span class="hljs-built_in">str</span></span>) -> <span class="hljs-built_in">int</span>:
+  dic = collections.Counter(s)
+  result = <span class="hljs-number">0</span>
+  odd = <span class="hljs-literal">False</span>
+  <span class="hljs-keyword">for</span> letter <span class="hljs-keyword">in</span> dic:
+    result += dic[letter] // <span class="hljs-number">2</span> * <span class="hljs-number">2</span>
+    <span class="hljs-keyword">if</span> dic[letter] % <span class="hljs-number">2</span> == <span class="hljs-number">1</span>:
+      odd = <span class="hljs-literal">True</span>
+  <span class="hljs-keyword">return</span> result + odd
+</code></pre>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Algorithm"}],["$","span",null,{"className":"ml-2","children":"2022-11-17"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"리트코드 409. Longest Palindrome"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"가장 긴 팰린드롬을 구하시오!"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

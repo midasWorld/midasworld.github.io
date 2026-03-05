@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T62f,<p>특정 커밋에서 불필요한 파일(<code>.env</code> 등)이 올라간 적이 있어서, 이를 찾아보다가 알게된 방법 입니다. 🤔</p>
+<h2>GIT 모든 로그에서 특정 파일 삭제하는 방법</h2>
+<pre><code class="hljs language-shell">git filter-branch --tree-filter 'rm -rf .env' HEAD
+</code></pre>
+<h3><strong>❗️ 어떤 문제가 발생할지 모르니... 무조건 백업 먼저 해두기!!</strong></h3>
+<p>만약에 폴더에 있다면 폴더 경로까지 다 작성해주면 됩니다.
+<br>
+(ex: model/auth.js)</p>
+<pre><code class="hljs language-shell">git filter-branch --tree-filter 'rm -rf model/auth.js' HEAD
+</code></pre>
+<p>그리고 커밋할 내역에 남아있다면 오류가 발생하니 미리 Commit or Stash 처리 해둬야 합니다.</p>
+<h3>🤔 혹시나 폴더에 공백이 있다면? (ex: <code>/folder 1/test.sh</code>)</h3>
+<p>이 경우에는 특수문자인 <code>\</code>를 사용하면 됩니다. ❗️</p>
+<pre><code class="hljs language-shell">git filter-branch --tree-filter 'rm -rf folder\ 1/test.sh' HEAD
+</code></pre>
+<h3>🚨 혹시나 아래와 같은 오류가 발생하며 안된다면?</h3>
+<pre><code class="hljs language-shell">cannot create a new backup. 
+a previous backup already exists in refs/original/ force overwriting the backup with -f ...
+</code></pre>
+<p>위와 같은 경우에는 강제로 덮어 쓸수 있도록! <code>-f</code> 명령어를 추가해주시면 해결됩니다.</p>
+<pre><code class="hljs language-shell">git filter-branch -f --tree-filter 'rm -rf .env' HEAD
+</code></pre>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Git"}],["$","span",null,{"className":"ml-2","children":"2023-03-31"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"모든 로그에서 특정 파일 삭제하는 방법"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"모든 로그에서 특정 파일 삭제하는 명령어 소개"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,56 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Td12,<p>리트코드 문제 풀기 챌린지...!</p>
+<h3>문제</h3>
+<blockquote>
+<p><a href="https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/?envType=study-plan&#x26;id=programming-skills-i">1779. Find Nearest Point That Has the Same X or Y Coordinate 문제 링크</a></p>
+</blockquote>
+<p>주어진 (x, y) 좌표를 기준으로 다음과 같은 조건을 만족하는 인덱스를 반환하면 됩니다!</p>
+<ul>
+<li>x 또는 y 좌표를 공유해야 합니다.
+(둘 중 하나는 같아야 된다는 뜻!)</li>
+<li>거리는 Manhattan distance 으로 계산!</li>
+<li>가장 근접한 좌표가 여러개라면 해당 좌표의 최소 인덱스를 반환하도록!</li>
+</ul>
+<blockquote>
+<p>Manhattan distance 란? 🤔
+<br>
+(x1, y1) ↔ (x2, y2) 의 거리는??
+<br>
+|x1 - x1| + |y1 - y2| 입니다. 즉 두 점의 거리를 절대값으로 더한 값입니다.</p>
+</blockquote>
+<p>즉 배열에서 가장 가까운 거리의 좌표를 구하고, 여러개 있다면 가장 작은 인덱스를 반환하면 됩니다.
+<br>
+기나긴 영어 속에서 읽는게 더 힘들었습니다. 🫠</p>
+<pre><code class="hljs language-text"># Example 1:
+Input: x = 3, y = 4, points = [[1,2],[3,1],[2,4],[2,3],[4,4]]
+Output: 2
+Explanation: Of all the points, only [3,1], [2,4] and [4,4] are valid. Of the valid points, [2,4] and [4,4] have the smallest Manhattan distance from your current location, with a distance of 1. [2,4] has the smallest index, so return 2.
+</code></pre>
+<p>위에서 기준 좌표는 (3, 4) 입니다.
+<br>
+여기서 최소 둘중 하나의 인덱스를 만족하는 좌표는 [3,1], [2,4], [4,4] 입니다.
+<br>
+3개의 각각의 거리는 3, 2, 2 입니다. 고로 최소 거리의 좌표는 [2,4], [4,4]가 됩니다.
+<br>
+복수의 좌표가 나왔기 때문에 가장 작은 인덱스는 [2,4]의 인덱스인 2가 정답이 됩니다!</p>
+<h3>✅ 최종 Solution</h3>
+<p>풀이는 간단했습니다.
+<br>
+먼저 인덱스와 최소 거리를 가지고 있을 변수를 선언 해주고,
+<br>
+순서대로 반복하면서 조건에 만족하는 이전보다 최소 거리의 좌표가 나오면 인덱스와 최소 거리를 갱신해주면 됩니다!</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span>:
+  <span class="hljs-keyword">def</span> <span class="hljs-title function_">nearestValidPoint</span>(<span class="hljs-params">self, x: <span class="hljs-built_in">int</span>, y: <span class="hljs-built_in">int</span>, points: <span class="hljs-type">List</span>[<span class="hljs-type">List</span>[<span class="hljs-built_in">int</span>]]</span>) -> <span class="hljs-built_in">int</span>:
+    minIndex, minDistance = -<span class="hljs-number">1</span>, sys.maxsize
+    <span class="hljs-keyword">for</span> i, (x2, y2) <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(points):
+      <span class="hljs-keyword">if</span> x == x2 <span class="hljs-keyword">or</span> y == y2:
+        distance = <span class="hljs-built_in">abs</span>(x - x2) + <span class="hljs-built_in">abs</span>(y - y2)
+        <span class="hljs-keyword">if</span> minDistance > distance:
+          index, minDistance = i, distance
+    <span class="hljs-keyword">return</span> index
+</code></pre>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Algorithm"}],["$","span",null,{"className":"ml-2","children":"2023-01-22"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"리트코드 1779. Find Nearest Point That Has the Same X or Y Coordinate"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"가장 근접한 좌표의 최소 인덱스는?"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,161 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01ea5e4778087873.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T1f61,<p><code>Nodemailer</code>를 사용해서 이메일 보내기를 구현하려고 하다가... 🤔
+<br>
+작년에 <code>Notion</code>에 작성해 놓은 글과 정보가 겹쳐서 먼저 올려보았습니다.</p>
+<h1>📥 간단 이메일 인증</h1>
+<h2>1. 인증 정보 세팅</h2>
+<h3>🙅‍♂️ a. (비추천) 보안 수준이 낮은 앱의 엑세스 허용하기</h3>
+<p><a href="https://myaccount.google.com/lesssecureapps?pli=1&#x26;rapt=AEjHL4OTsfFueMecNzy1xPMqrw0Abe2okvsvyYh5mjoe9tA-Lant3IYRwVnuYglPe24k7TGiwugxh_WYmJRCkaOsPDvG3fSxyw">보안 수준이 낮은 앱의 엑세스</a> 해당 링크를 통해서 앱 허용을 해주셔야 합니다.
+<br>
+<img width=500 src="https://user-images.githubusercontent.com/93169519/230929394-6f81d6af-0e14-47c9-ba9e-767bc0d934ba.png" /></p>
+<p>해당 설정을 사용하지 않으면 아래와 같이 오류가 발생 됩니다. 😓</p>
+<blockquote>
+<p>Authentication failed; … Username and Password not accepted.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>🤔 의문이 새롭게 계정을 생성해서 같은 곳으로 들어가면…</p>
+</blockquote>
+<img width=500 src="https://user-images.githubusercontent.com/93169519/230929420-8e80c839-5fa5-4b43-a79a-e8b37aef6f0c.png" />
+<p>사용할 수 없다고 나오게 됩니다. 😓 <del>인증을 해야 되는건가? 싶네요.</del> → 2차 인증을 해도 안됨</p>
+<img width=500 src="https://user-images.githubusercontent.com/93169519/230931291-086e7dba-e9e7-458a-adce-def1c42003ae.png" />
+<p><a href="https://support.google.com/accounts/answer/6010255?hl=ko&#x26;visit_id=637950495068647686-2065665416&#x26;p=less-secure-apps&#x26;rd=1">보안 수준이 낮은 앱 및 Google 계정 링크</a>
+<br>
+결국 로그인을 해서 메일을 보내는 구조다 보니.. 보안을 위해서 지원을 하지 않는 것 같습니다. 😱</p>
+<h3>👍 b. (추천) 2차 인증 설정</h3>
+<p>계정 관리 → 보안 → 2단계 인증을 해줍니다.
+<br>
+<img width=500 src="https://user-images.githubusercontent.com/93169519/230929443-6a6154c5-44bd-4f71-80d1-e3a85e92bea0.png" /></p>
+<p>인증이 완료 되었다면, 같은 곳의 앱 비밀번호로 들어갑니다.
+<br>
+<img width=500 src="https://user-images.githubusercontent.com/93169519/230929461-2a6ba35c-81fd-4959-83fb-2fa1d687c482.png" /></p>
+<blockquote>
+<p>이제 앱 비밀번호를 생성해줍니다.</p>
+</blockquote>
+<ul>
+<li>앱 선택 → 기타</li>
+<li><strong>기기 선택</strong> → 기타(맞춤 이름)</li>
+<li><strong>앱 이름 설정</strong> 후 <strong>생성 버튼을 클릭</strong>합니다.
+<br>
+</li>
+</ul>
+<img width=500 src="https://user-images.githubusercontent.com/93169519/230929472-f658a034-19ae-491c-a660-d07b89feeabc.png" />
+<p>🐶 이제 생성된 기기용 앱 비밀번호를 사용하면 됩니다.</p>
+<h2>2. Spring(Java) 코드 작성</h2>
+<h3>라이브러리 추가</h3>
+<pre><code class="hljs language-xml">implementation 'org.springframework.boot:spring-boot-starter-mail'
+</code></pre>
+<ul>
+<li>
+<p><strong>MailSender 인터페이스</strong></p>
+<ul>
+<li>간단한 이메일을 보내기 위한 기본 기능을 제공하는 최상위 클래스</li>
+</ul>
+</li>
+<li>
+<p><strong>JavaMailSender 인터페이스</strong></p>
+<ul>
+<li>MailSender의 하위 인터페이스</li>
+<li>MIME 메시지를 지원하며 대부분의 MimeMessge를 생성을 위해 MimeMessageHelper 클래스와 함께 사용</li>
+<li>이 인터페이스와 함께 MimeMessagePreparator 메커니즘을 사용하는 것이 좋다.</li>
+</ul>
+</li>
+<li>
+<p><strong>JavaMailSenderImpl 클래스</strong></p>
+<ul>
+<li>JavaMailSenderMimeMessage 및 SimpleMailMessage 인터페이스 의 구현을 제공합니다.</li>
+</ul>
+</li>
+<li>
+<p><strong>SimpleMailMessage 클래스</strong></p>
+<ul>
+<li>보낸 사람, 받는 사람, 참조, 제목 및 텍스트 필드를 포함하는 간단한 메일 메시지를 만드는 데 사용</li>
+</ul>
+</li>
+<li>
+<p><strong>MimeMessagePreparator 인터페이스</strong></p>
+<ul>
+<li>MIME 메시지 준비를 위한 콜백 인터페이스를 제공합니다.</li>
+</ul>
+</li>
+<li>
+<p><strong>MimeMessageHelper 클래스</strong></p>
+<ul>
+<li>MIME 메시지 생성을 위한 도우미 클래스입니다.</li>
+<li>HTML 레이아웃의 이미지, 일반적인 메일 첨부 파일 및 텍스트 콘텐츠에 대한
+지원을 제공합니다.</li>
+</ul>
+</li>
+</ul>
+<h3>설정 파일 작성</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-attr">spring:</span>
+  <span class="hljs-attr">application:</span>
+    <span class="hljs-attr">name:</span> <span class="hljs-string">spring-email</span>
+  <span class="hljs-attr">mail:</span>
+    <span class="hljs-attr">host:</span> <span class="hljs-string">smtp.gmail.com</span>
+    <span class="hljs-attr">port:</span> <span class="hljs-number">587</span>
+    <span class="hljs-attr">username:</span> <span class="hljs-string">${SMTP_EMAIL}</span>    
+    <span class="hljs-attr">password:</span> <span class="hljs-string">${SMTP_PASSWORD}</span> <span class="hljs-comment"># 2차 인증 방법이면 앱 비밀번호!</span>
+    <span class="hljs-attr">properties:</span>
+      <span class="hljs-attr">mail:</span>
+        <span class="hljs-attr">smtp:</span>
+          <span class="hljs-attr">starttls:</span>
+            <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span>
+            <span class="hljs-attr">required:</span> <span class="hljs-literal">true</span>
+          <span class="hljs-attr">auth:</span> <span class="hljs-literal">true</span>
+          <span class="hljs-attr">connectiontimeout:</span> <span class="hljs-number">5000</span>
+          <span class="hljs-attr">timout:</span> <span class="hljs-number">5000</span>
+          <span class="hljs-attr">writetimeout:</span> <span class="hljs-number">5000</span>
+</code></pre>
+<ul>
+<li>connectiontimeout, timout, writetimeout : 무한 대기 상태를 피하기 위한 시간 설정</li>
+</ul>
+<h3>이메일 서비스 생성 및 사용</h3>
+<ol>
+<li>
+<p>이메일 서비스 생성</p>
+  <br>
+ ```java
+ @EnableAsync
+ @RequiredArgsConstructor
+ @Service
+ public class EmailService {
+   private final JavaMailSender javaMailSender;
+<p>@Async
+public void send(String email, String authToken) {
+SimpleMailMessage smm = new SimpleMailMessage();
+smm.setTo(email);
+smm.setSubject("회원가입 이메일 인증");
+smm.setText("<a href="http://localhost:8080/api/users/confirm-email?email=">http://localhost:8080/api/users/confirm-email?email=</a>" + email + "&#x26;authToken=" + authToken);</p>
+<pre><code class="hljs language-ini"> javaMailSender.send(smm)<span class="hljs-comment">;</span>
+</code></pre>
+<p>}
+}</p>
+<pre><code class="hljs language-diff"><span class="hljs-deletion">- email : 사용되는 이메일을 등록</span>
+<span class="hljs-deletion">- authToken : UUID를 사용</span>
+</code></pre>
+</li>
+<li>
+<p>이제 메일을 보내게 되면 다음과 같이 이메일이 발송 됩니다.</p>
+  <br>
+</li>
+</ol>
+  <img width=500 src="https://user-images.githubusercontent.com/93169519/230929494-c88a8738-ddd2-454f-8063-876b4df25b1f.png" />
+  <br>
+   해당 링크로 요청을 통해서 인증 처리를 하게 되는 것이죠.
+<h2>🤔 추후 고려해볼만한 대안</h2>
+<p>두 번째 방법 - AWS SES(Simple Email Service) 사용
+<br>
+→ 단점으로는 하나의 관리 대상인 리소스가 더 생긴다는 점이 있습니다.</p>
+<h2>🔖 참고 사이트</h2>
+<ul>
+<li><a href="https://www.baeldung.com/spring-email">[Baeldung] Guide to Spring Email</a></li>
+<li><a href="https://victorydntmd.tistory.com/342">[SpringBoot] 이메일 전송 ( JavaMailSender, MimeMessageHelper )</a></li>
+<li><a href="https://workshop-6349.tistory.com/entry/%EA%B4%B4%EB%B0%9C%EA%B0%9C%EB%B0%9C-REST-API-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EC%9D%B8%EC%A6%9D?category=1007169">[괴발개발] REST API - 이메일 인증</a></li>
+<li><a href="https://yunb2.tistory.com/4">[서버개발캠프] 인증 서버 - 이메일 인증 회원가입</a></li>
+</ul>0:{"buildId":"6sQ1lhiUnTyDpnIgHA0Gq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/posts","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500","children":[["$","span",null,{"children":"개발"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400","children":"Spring"}],["$","span",null,{"className":"ml-2","children":"2023-04-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3","children":"Spring(Java) 이메일 인증 구현(with Google)"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400","children":"구글 설정 및 Spring 이메일 인증 구현"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null
