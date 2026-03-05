@@ -3,6 +3,7 @@ export interface PostMeta {
   title: string;
   description: string;
   date: string;
+  parentCategory: string;
   category: string;
 }
 

@@ -1,41 +1,43 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { CATEGORIES } from "@/lib/constants";
+import { PARENT_CATEGORIES, SUB_CATEGORIES } from "@/lib/constants";
 import type { PostMeta, Post } from "@/lib/types";
 
 export type { PostMeta, Post } from "@/lib/types";
-export { CATEGORIES } from "@/lib/constants";
-export type { Category } from "@/lib/constants";
+export { PARENT_CATEGORIES, SUB_CATEGORIES, CATEGORIES, CATEGORY_LABELS } from "@/lib/constants";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
-function getPostFiles(dir: string): string[] {
-  if (!fs.existsSync(dir)) return [];
-  return fs.readdirSync(dir).filter((f) => f.endsWith(".md"));
+function readPost(filePath: string, slug: string, parentCat: string, subCat: string): PostMeta {
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const { data } = matter(raw);
+  return {
+    slug,
+    title: data.title ?? slug,
+    description: data.description ?? "",
+    date: data.date ?? "",
+    parentCategory: data.parentCategory ?? parentCat,
+    category: data.category ?? subCat,
+  };
 }
 
-export function getPublicPosts(category?: string): PostMeta[] {
-  const cats = category ? [category] : CATEGORIES;
+/** 공개 포스트 목록. parentCategory/category로 필터링 가능 */
+export function getPublicPosts(opts?: { parent?: string; category?: string }): PostMeta[] {
+  const parents = opts?.parent ? [opts.parent] : PARENT_CATEGORIES;
   const posts: PostMeta[] = [];
 
-  for (const cat of cats) {
-    const catDir = path.join(CONTENT_DIR, "public", cat);
-    const files = getPostFiles(catDir);
+  for (const parent of parents) {
+    const subs = opts?.category ? [opts.category] : (SUB_CATEGORIES[parent] ?? []);
 
-    for (const file of files) {
-      const filePath = path.join(catDir, file);
-      const raw = fs.readFileSync(filePath, "utf-8");
-      const { data } = matter(raw);
-      const slug = file.replace(/\.md$/, "");
+    for (const sub of subs) {
+      const dir = path.join(CONTENT_DIR, "public", parent, sub);
+      if (!fs.existsSync(dir)) continue;
 
-      posts.push({
-        slug,
-        title: data.title ?? slug,
-        description: data.description ?? "",
-        date: data.date ?? "",
-        category: data.category ?? cat,
-      });
+      for (const file of fs.readdirSync(dir).filter((f) => f.endsWith(".md"))) {
+        const slug = file.replace(/\.md$/, "");
+        posts.push(readPost(path.join(dir, file), slug, parent, sub));
+      }
     }
   }
 
@@ -43,19 +45,22 @@ export function getPublicPosts(category?: string): PostMeta[] {
 }
 
 export function getPostBySlug(slug: string): Post | null {
-  for (const cat of CATEGORIES) {
-    const filePath = path.join(CONTENT_DIR, "public", cat, `${slug}.md`);
-    if (fs.existsSync(filePath)) {
-      const raw = fs.readFileSync(filePath, "utf-8");
-      const { data, content } = matter(raw);
-      return {
-        slug,
-        title: data.title ?? slug,
-        description: data.description ?? "",
-        date: data.date ?? "",
-        category: data.category ?? cat,
-        content,
-      };
+  for (const parent of PARENT_CATEGORIES) {
+    for (const sub of SUB_CATEGORIES[parent] ?? []) {
+      const filePath = path.join(CONTENT_DIR, "public", parent, sub, `${slug}.md`);
+      if (fs.existsSync(filePath)) {
+        const raw = fs.readFileSync(filePath, "utf-8");
+        const { data, content } = matter(raw);
+        return {
+          slug,
+          title: data.title ?? slug,
+          description: data.description ?? "",
+          date: data.date ?? "",
+          parentCategory: data.parentCategory ?? parent,
+          category: data.category ?? sub,
+          content,
+        };
+      }
     }
   }
   return null;
@@ -71,19 +76,19 @@ export function getPrivatePosts(): PostMeta[] {
 
   for (const dir of privateDirs) {
     const dirPath = path.join(CONTENT_DIR, "private", dir);
-    const files = getPostFiles(dirPath);
+    if (!fs.existsSync(dirPath)) continue;
 
-    for (const file of files) {
+    for (const file of fs.readdirSync(dirPath).filter((f) => f.endsWith(".md"))) {
       const filePath = path.join(dirPath, file);
       const raw = fs.readFileSync(filePath, "utf-8");
       const { data } = matter(raw);
       const slug = file.replace(/\.md$/, "");
-
       posts.push({
         slug,
         title: data.title ?? slug,
         description: data.description ?? "",
         date: data.date ?? "",
+        parentCategory: "private",
         category: dir,
       });
     }
@@ -93,9 +98,7 @@ export function getPrivatePosts(): PostMeta[] {
 }
 
 export function getPrivatePostBySlug(slug: string): Post | null {
-  const privateDirs = ["stock", "exam"];
-
-  for (const dir of privateDirs) {
+  for (const dir of ["stock", "exam"]) {
     const filePath = path.join(CONTENT_DIR, "private", dir, `${slug}.md`);
     if (fs.existsSync(filePath)) {
       const raw = fs.readFileSync(filePath, "utf-8");
@@ -105,6 +108,7 @@ export function getPrivatePostBySlug(slug: string): Post | null {
         title: data.title ?? slug,
         description: data.description ?? "",
         date: data.date ?? "",
+        parentCategory: "private",
         category: dir,
         content,
       };

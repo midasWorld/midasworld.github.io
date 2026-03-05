@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getPostBySlug, getAllPublicSlugs } from "@/lib/posts";
 import { markdownToHtml } from "@/lib/markdown";
+import { CATEGORY_LABELS, PARENT_CATEGORY_LABELS } from "@/lib/constants";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -9,8 +10,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  const slugs = getAllPublicSlugs();
-  return slugs.map((slug) => ({ slug }));
+  return getAllPublicSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -23,19 +23,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const CATEGORY_LABELS: Record<string, string> = {
-  database: "Database", java: "Java", spring: "Spring",
-  node: "Node.js", docker: "Docker", server: "Server",
-  network: "Network", git: "Git", algorithm: "Algorithm",
-  nest: "NestJS", javascript: "JavaScript", etc: "Etc",
-};
-
 export default async function PostPage({ params }: Props) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
   const htmlContent = await markdownToHtml(post.content);
+  const parentLabel = PARENT_CATEGORY_LABELS[post.parentCategory];
+  const subLabel = CATEGORY_LABELS[post.category] ?? post.category;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
@@ -44,15 +39,16 @@ export default async function PostPage({ params }: Props) {
       </Link>
 
       <header className="mb-8">
-        <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400">
-            {CATEGORY_LABELS[post.category] ?? post.category}
+        {/* 브레드크럼: 개발 / Database */}
+        <div className="flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500">
+          {parentLabel && <span>{parentLabel}</span>}
+          {parentLabel && <span>/</span>}
+          <span className="font-medium px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400">
+            {subLabel}
           </span>
-          <span className="text-xs text-gray-400">{post.date}</span>
+          <span className="ml-2">{post.date}</span>
         </div>
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3">
-          {post.title}
-        </h1>
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3">{post.title}</h1>
         {post.description && (
           <p className="text-gray-500 dark:text-gray-400">{post.description}</p>
         )}

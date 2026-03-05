@@ -11,7 +11,8 @@
       "Bash(npm run build 2>&1 | tail -50)",
       "Bash(npm install unified remark-parse remark-gfm remark-rehype rehype-stringify rehype-highlight 2>&1 | tail -3)",
       "Bash(npm run build 2>&1 | tail -30)",
-      "Bash(npm run build 2>&1 | grep -E \"\\(✓|✗|Error|Route|○|●|─|┌|└|├\\)\" | head -40)"
+      "Bash(npm run build 2>&1 | grep -E \"\\(✓|✗|Error|Route|○|●|─|┌|└|├\\)\" | head -40)",
+      "Bash(npm run build 2>&1 | grep -E \"\\(✓|Error|Route|○|●\\)\" | head -20)"
     ]
   }
 }
