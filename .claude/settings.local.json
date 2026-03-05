@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version && npm --version)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes 2>&1 | tail -20)",
+      "Bash(cp -r /tmp/nextjs-blog/app /Users/midas/Desktop/Money/midasworld.github.io/ && echo \"done\")",
+      "Bash(npm install 2>&1 | tail -5)",
+      "Bash(npm install next-themes next-mdx-remote gray-matter 2>&1 | tail -5)",
+      "Bash(npm install @tailwindcss/typography 2>&1 | tail -3)",
+      "Bash(npm run build 2>&1 | tail -40)",
+      "Bash(npm run build 2>&1 | tail -50)",
+      "Bash(npm install unified remark-parse remark-gfm remark-rehype rehype-stringify rehype-highlight 2>&1 | tail -3)",
+      "Bash(npm run build 2>&1 | tail -30)",
+      "Bash(npm run build 2>&1 | grep -E \"\\(✓|✗|Error|Route|○|●|─|┌|└|├\\)\" | head -40)"
+    ]
+  }
+}

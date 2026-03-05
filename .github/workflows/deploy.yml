@@ -1,0 +1,71 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Decrypt private content
+        run: node scripts/decrypt.js
+        env:
+          STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
+
+      - name: Build
+        run: npm run build
+        env:
+          STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
+
+      - name: Encrypt private HTML pages with Staticrypt
+        run: |
+          npm install -g staticrypt@3
+          find out/private -name "*.html" ! -name "index.html" | while read f; do
+            staticrypt "$f" \
+              --password "$STATICRYPT_PASSWORD" \
+              --output "$f" \
+              --remember 30 \
+              --template-title "Private - midasworld" \
+              2>/dev/null || true
+          done
+          # Also encrypt private index
+          if [ -f "out/private/index.html" ]; then
+            staticrypt "out/private/index.html" \
+              --password "$STATICRYPT_PASSWORD" \
+              --output "out/private/index.html" \
+              --remember 30 \
+              --template-title "Private - midasworld" \
+              2>/dev/null || true
+          fi
+        env:
+          STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+          publish_branch: gh-pages

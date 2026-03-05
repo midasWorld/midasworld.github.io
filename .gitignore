@@ -9,3 +9,16 @@ my
 
 # 리트코드 글 템플릿
 2023-99-99-leetcode-template.md
+
+# Next.js
+.next
+out
+node_modules
+
+# Environment
+.env.local
+.env*.local
+
+# Private content (decrypted) - only .enc files should be committed
+content/private/**/*.md
+!content/private/**/*.md.enc

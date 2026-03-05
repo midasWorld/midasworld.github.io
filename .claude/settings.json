@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /Users/midas/Desktop/Money/midasworld.github.io && git add -A && git diff --cached --quiet || git commit -m \"chore: auto-commit claude code session work\""
+          }
+        ]
+      }
+    ]
+  }
+}

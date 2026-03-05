@@ -1,0 +1,4 @@
+#!/bin/sh
+# Encrypt private markdown files before commit
+node scripts/encrypt.js
+git add content/private/**/*.enc 2>/dev/null || true
