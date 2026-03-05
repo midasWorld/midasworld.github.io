@@ -97,6 +97,15 @@ export function getPrivatePosts(): PostMeta[] {
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
+export function getPostCountByCategory(): Record<string, number> {
+  const posts = getPublicPosts();
+  const counts: Record<string, number> = {};
+  for (const post of posts) {
+    counts[post.category] = (counts[post.category] ?? 0) + 1;
+  }
+  return counts;
+}
+
 export function getPrivatePostBySlug(slug: string): Post | null {
   for (const dir of ["stock", "exam"]) {
     const filePath = path.join(CONTENT_DIR, "private", dir, `${slug}.md`);

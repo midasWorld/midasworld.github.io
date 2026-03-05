@@ -39,6 +39,7 @@ jobs:
         run: npm run build
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
+          NEXT_PUBLIC_PRIVATE_HASH: ${{ secrets.PRIVATE_HASH }}
 
       - name: Encrypt private HTML pages with Staticrypt
         run: |

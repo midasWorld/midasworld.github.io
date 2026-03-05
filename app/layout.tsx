@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { Noto_Sans_KR } from "next/font/google";
+import { Suspense } from "react";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import { Navigation } from "@/components/Navigation";
+import { Sidebar } from "@/components/Sidebar";
+import { MobileNav } from "@/components/MobileNav";
+import { getPostCountByCategory } from "@/lib/posts";
 
 const notoSans = Noto_Sans_KR({
   variable: "--font-noto-sans",
@@ -20,14 +23,23 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const counts = getPostCountByCategory();
+
   return (
     <html lang="ko" suppressHydrationWarning>
       <body className={`${notoSans.variable} font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100`}>
         <ThemeProvider>
-          <Navigation />
-          <main className="pt-14 min-h-screen">
-            {children}
-          </main>
+          <div className="flex min-h-screen">
+            <Suspense fallback={<div className="hidden lg:block w-64 shrink-0" />}>
+              <Sidebar counts={counts} />
+            </Suspense>
+            <Suspense fallback={null}>
+              <MobileNav counts={counts} />
+            </Suspense>
+            <main className="flex-1 min-w-0 pt-14 lg:pt-0">
+              {children}
+            </main>
+          </div>
         </ThemeProvider>
       </body>
     </html>
