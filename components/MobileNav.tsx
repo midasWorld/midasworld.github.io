@@ -112,6 +112,18 @@ export function MobileNav({ counts }: MobileNavProps) {
         <nav className="flex-1 overflow-y-auto px-4 py-4 space-y-6">
           <div>
             <Link
+              href="/private"
+              onClick={() => setIsOpen(false)}
+              className="flex items-center gap-2 px-2 py-1.5 rounded-md text-sm text-gray-400 dark:text-gray-600 hover:text-gray-600 dark:hover:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+              Private
+            </Link>
+          </div>
+          <div>
+            <Link
               href="/posts"
               onClick={() => setIsOpen(false)}
               className="block px-2 py-1.5 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors"
