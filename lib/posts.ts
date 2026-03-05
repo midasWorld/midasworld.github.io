@@ -1,8 +1,26 @@
 import fs from "fs";
 import path from "path";
+import crypto from "crypto";
 import matter from "gray-matter";
 import { PARENT_CATEGORIES, SUB_CATEGORIES } from "@/lib/constants";
 import type { PostMeta, Post } from "@/lib/types";
+
+function deriveKey(password: string): Buffer {
+  return crypto.scryptSync(password, "midasworld-salt-v1", 32);
+}
+
+function decryptEnc(filePath: string): string {
+  const password = process.env.STATICRYPT_PASSWORD;
+  if (!password) return "";
+  const data = fs.readFileSync(filePath);
+  const iv = data.subarray(0, 16);
+  const authTag = data.subarray(16, 32);
+  const ciphertext = data.subarray(32);
+  const key = deriveKey(password);
+  const decipher = crypto.createDecipheriv("aes-256-gcm", key, iv);
+  decipher.setAuthTag(authTag);
+  return Buffer.concat([decipher.update(ciphertext), decipher.final()]).toString("utf-8");
+}
 
 export type { PostMeta, Post } from "@/lib/types";
 export { PARENT_CATEGORIES, SUB_CATEGORIES, CATEGORIES, CATEGORY_LABELS } from "@/lib/constants";
@@ -78,11 +96,12 @@ export function getPrivatePosts(): PostMeta[] {
     const dirPath = path.join(CONTENT_DIR, "private", dir);
     if (!fs.existsSync(dirPath)) continue;
 
-    for (const file of fs.readdirSync(dirPath).filter((f) => f.endsWith(".md"))) {
+    for (const file of fs.readdirSync(dirPath).filter((f) => f.endsWith(".md.enc"))) {
       const filePath = path.join(dirPath, file);
-      const raw = fs.readFileSync(filePath, "utf-8");
+      const raw = decryptEnc(filePath);
+      if (!raw) continue;
       const { data } = matter(raw);
-      const slug = file.replace(/\.md$/, "");
+      const slug = file.replace(/\.md\.enc$/, "");
       posts.push({
         slug,
         title: data.title ?? slug,
@@ -108,9 +127,10 @@ export function getPostCountByCategory(): Record<string, number> {
 
 export function getPrivatePostBySlug(slug: string): Post | null {
   for (const dir of ["stock", "exam"]) {
-    const filePath = path.join(CONTENT_DIR, "private", dir, `${slug}.md`);
+    const filePath = path.join(CONTENT_DIR, "private", dir, `${slug}.md.enc`);
     if (fs.existsSync(filePath)) {
-      const raw = fs.readFileSync(filePath, "utf-8");
+      const raw = decryptEnc(filePath);
+      if (!raw) return null;
       const { data, content } = matter(raw);
       return {
         slug,
