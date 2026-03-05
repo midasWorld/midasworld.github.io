@@ -12,7 +12,7 @@ export function PostCard({ post }: PostCardProps) {
 
   return (
     <Link
-      href={`/posts/${post.slug}`}
+      href={post.parentCategory === "private" ? `/private/${post.slug}` : `/posts/${post.slug}`}
       className="block group p-5 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-red-400 dark:hover:border-red-500 hover:shadow-lg hover:-translate-y-1 transition-all duration-200 bg-white dark:bg-gray-800"
     >
       <div className="flex items-center gap-1.5 mb-3 text-xs text-gray-400 dark:text-gray-500">
