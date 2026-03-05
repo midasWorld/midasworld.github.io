@@ -9,6 +9,16 @@ const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 
+// Load .env.local if present (for local development)
+const envPath = path.join(__dirname, "..", ".env.local");
+if (fs.existsSync(envPath)) {
+  const lines = fs.readFileSync(envPath, "utf-8").split("\n");
+  for (const line of lines) {
+    const m = line.match(/^([A-Z_]+)=(.*)$/);
+    if (m) process.env[m[1]] = m[2].trim().replace(/^["']|["']$/g, "");
+  }
+}
+
 const password = process.env.STATICRYPT_PASSWORD;
 if (!password) {
   console.error("Error: STATICRYPT_PASSWORD is not set.");
