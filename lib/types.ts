@@ -5,6 +5,7 @@ export interface PostMeta {
   date: string;
   parentCategory: string;
   category: string;
+  readingTime: number; // minutes
 }
 
 export interface Post extends PostMeta {

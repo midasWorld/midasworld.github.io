@@ -50,15 +50,15 @@ export function MobileNav({ counts }: MobileNavProps) {
   return (
     <>
       {/* Mobile top bar */}
-      <header className="lg:hidden fixed top-0 left-0 right-0 z-40 h-14 bg-white/80 dark:bg-gray-900/80 backdrop-blur border-b border-gray-200 dark:border-gray-800 flex items-center justify-between px-4">
-        <Link href="/" className="font-bold text-lg text-red-600 dark:text-red-400">
+      <header className="lg:hidden fixed top-0 left-0 right-0 z-40 h-14 bg-[var(--bg-sidebar)] backdrop-blur border-b border-[var(--border-base)] flex items-center justify-between px-4">
+        <Link href="/" className="font-bold text-lg font-display text-[var(--text-accent)]">
           midasworld
         </Link>
         <div className="flex items-center gap-1">
           {mounted && (
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="p-1.5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="p-1.5 rounded-md hover:bg-[var(--bg-hover)] transition-colors"
               aria-label="Toggle theme"
             >
               {theme === "dark" ? "☀️" : "🌙"}
@@ -66,7 +66,7 @@ export function MobileNav({ counts }: MobileNavProps) {
           )}
           <button
             onClick={() => setIsOpen(true)}
-            className="p-1.5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            className="p-1.5 rounded-md hover:bg-[var(--bg-hover)] transition-colors text-[var(--text-secondary)]"
             aria-label="Open menu"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -86,21 +86,21 @@ export function MobileNav({ counts }: MobileNavProps) {
 
       {/* Drawer */}
       <div
-        className={`lg:hidden fixed top-0 left-0 bottom-0 z-50 w-64 bg-white dark:bg-gray-900 shadow-xl flex flex-col transition-transform duration-300 ${
+        className={`lg:hidden fixed top-0 left-0 bottom-0 z-50 w-64 bg-[var(--bg-sidebar)] shadow-xl flex flex-col transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="px-6 py-4 border-b border-gray-100 dark:border-gray-800 flex items-center justify-between">
+        <div className="px-6 py-4 border-b border-[var(--border-base)] flex items-center justify-between">
           <Link
             href="/"
             onClick={() => setIsOpen(false)}
-            className="font-bold text-xl text-red-600 dark:text-red-400"
+            className="font-bold text-xl font-display text-[var(--text-accent)]"
           >
             midasworld
           </Link>
           <button
             onClick={() => setIsOpen(false)}
-            className="p-1.5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+            className="p-1.5 rounded-md hover:bg-[var(--bg-hover)] text-[var(--text-muted)]"
             aria-label="Close menu"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -114,7 +114,7 @@ export function MobileNav({ counts }: MobileNavProps) {
             <Link
               href="/private"
               onClick={() => setIsOpen(false)}
-              className="flex items-center gap-2 px-2 py-1.5 rounded-md text-sm text-gray-400 dark:text-gray-600 hover:text-gray-600 dark:hover:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors"
+              className="flex items-center gap-2 px-2 py-1.5 rounded-md text-sm text-[var(--text-muted)] hover:text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] transition-colors"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
@@ -126,7 +126,7 @@ export function MobileNav({ counts }: MobileNavProps) {
             <Link
               href="/posts"
               onClick={() => setIsOpen(false)}
-              className="block px-2 py-1.5 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors"
+              className="block px-2 py-1.5 rounded-md text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-accent)] hover:bg-[var(--bg-hover)] transition-colors"
             >
               Posts
             </Link>
@@ -134,7 +134,7 @@ export function MobileNav({ counts }: MobileNavProps) {
 
           {PARENT_CATEGORIES.map((parent) => (
             <div key={parent}>
-              <p className="px-2 mb-2 text-xs font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500">
+              <p className="px-2 mb-2 text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)]">
                 {PARENT_CATEGORY_LABELS[parent] ?? parent}
               </p>
               <ul className="space-y-0.5">
@@ -147,13 +147,13 @@ export function MobileNav({ counts }: MobileNavProps) {
                         onClick={() => handleCategoryClick(sub)}
                         className={`w-full text-left flex items-center justify-between rounded-md text-sm transition-colors ${
                           isActive
-                            ? "text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/30 border-l-2 border-red-600 dark:border-red-400 pl-1.5 pr-2 py-1.5"
-                            : "px-2 py-1.5 text-gray-600 dark:text-gray-400 hover:text-red-600 dark:hover:text-red-400 hover:bg-gray-50 dark:hover:bg-gray-800/50"
+                            ? "text-[var(--text-accent)] bg-[var(--bg-active)] border-l-2 border-[var(--border-accent)] pl-1.5 pr-2 py-1.5"
+                            : "px-2 py-1.5 text-[var(--text-muted)] hover:text-[var(--text-accent)] hover:bg-[var(--bg-hover)]"
                         }`}
                       >
                         <span>{CATEGORY_LABELS[sub] ?? sub}</span>
                         {count > 0 && (
-                          <span className="text-xs text-gray-400 dark:text-gray-500">{count}</span>
+                          <span className="text-xs text-[var(--text-muted)]">{count}</span>
                         )}
                       </button>
                     </li>

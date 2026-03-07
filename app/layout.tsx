@@ -6,6 +6,8 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Sidebar } from "@/components/Sidebar";
 import { MobileNav } from "@/components/MobileNav";
 import { getPostCountByCategory } from "@/lib/posts";
+import { ACTIVE_THEME } from "../theme.config";
+import { themes, buildCssVars } from "@/lib/themes";
 
 const notoSans = Noto_Sans_KR({
   variable: "--font-noto-sans",
@@ -24,10 +26,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const counts = getPostCountByCategory();
+  const activeTheme = themes[ACTIVE_THEME];
+  const cssVars = buildCssVars(activeTheme.light, activeTheme.dark);
+  const googleFontsUrl = activeTheme.light.googleFontsUrl;
 
   return (
     <html lang="ko" suppressHydrationWarning>
-      <body className={`${notoSans.variable} font-sans antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100`}>
+      <head>
+        <style dangerouslySetInnerHTML={{ __html: cssVars }} />
+        {googleFontsUrl && (
+          <>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+            <link href={googleFontsUrl} rel="stylesheet" />
+          </>
+        )}
+      </head>
+      <body className={`${notoSans.variable} font-sans antialiased`}>
         <ThemeProvider>
           <div className="flex min-h-screen">
             <Suspense fallback={<div className="hidden lg:block w-64 shrink-0" />}>

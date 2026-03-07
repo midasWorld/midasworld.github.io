@@ -29,7 +29,8 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 
 function readPost(filePath: string, slug: string, parentCat: string, subCat: string): PostMeta {
   const raw = fs.readFileSync(filePath, "utf-8");
-  const { data } = matter(raw);
+  const { data, content } = matter(raw);
+  const wordCount = content.trim().split(/\s+/).length;
   return {
     slug,
     title: data.title ?? slug,
@@ -37,6 +38,7 @@ function readPost(filePath: string, slug: string, parentCat: string, subCat: str
     date: data.date ?? "",
     parentCategory: data.parentCategory ?? parentCat,
     category: data.category ?? subCat,
+    readingTime: Math.max(1, Math.ceil(wordCount / 200)),
   };
 }
 
@@ -76,6 +78,7 @@ export function getPostBySlug(slug: string): Post | null {
           date: data.date ?? "",
           parentCategory: data.parentCategory ?? parent,
           category: data.category ?? sub,
+          readingTime: Math.max(1, Math.ceil(content.trim().split(/\s+/).length / 200)),
           content,
         };
       }
@@ -100,8 +103,9 @@ export function getPrivatePosts(): PostMeta[] {
       const filePath = path.join(dirPath, file);
       const raw = decryptEnc(filePath);
       if (!raw) continue;
-      const { data } = matter(raw);
+      const { data, content } = matter(raw);
       const slug = file.replace(/\.md\.enc$/, "");
+      const wordCount = content.trim().split(/\s+/).length;
       posts.push({
         slug,
         title: data.title ?? slug,
@@ -109,11 +113,23 @@ export function getPrivatePosts(): PostMeta[] {
         date: data.date ?? "",
         parentCategory: "private",
         category: dir,
+        readingTime: Math.max(1, Math.ceil(wordCount / 200)),
       });
     }
   }
 
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+export function getAdjacentPosts(slug: string): { prev: PostMeta | null; next: PostMeta | null } {
+  const posts = getPublicPosts();
+  const idx = posts.findIndex((p) => p.slug === slug);
+  if (idx === -1) return { prev: null, next: null };
+  // posts is sorted newest-first; prev = older (idx+1), next = newer (idx-1)
+  return {
+    prev: idx + 1 < posts.length ? posts[idx + 1] : null,
+    next: idx - 1 >= 0 ? posts[idx - 1] : null,
+  };
 }
 
 export function getPostCountByCategory(): Record<string, number> {
@@ -139,6 +155,7 @@ export function getPrivatePostBySlug(slug: string): Post | null {
         date: data.date ?? "",
         parentCategory: "private",
         category: dir,
+        readingTime: Math.max(1, Math.ceil(content.trim().split(/\s+/).length / 200)),
         content,
       };
     }
