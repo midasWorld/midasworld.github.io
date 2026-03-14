@@ -7,7 +7,7 @@ import { Sidebar } from "@/components/Sidebar";
 import { MobileNav } from "@/components/MobileNav";
 import { getPostCountByCategory } from "@/lib/posts";
 import { ACTIVE_THEME } from "../theme.config";
-import { themes, buildCssVars } from "@/lib/themes";
+import { themes, buildCssVars, getGoogleFontsUrl } from "@/lib/themes";
 
 const notoSans = Noto_Sans_KR({
   variable: "--font-noto-sans",
@@ -28,7 +28,7 @@ export default function RootLayout({
   const counts = getPostCountByCategory();
   const activeTheme = themes[ACTIVE_THEME];
   const cssVars = buildCssVars(activeTheme.light, activeTheme.dark);
-  const googleFontsUrl = activeTheme.light.googleFontsUrl;
+  const googleFontsUrl = getGoogleFontsUrl(ACTIVE_THEME);
 
   return (
     <html lang="ko" suppressHydrationWarning>

@@ -223,6 +223,10 @@ function tokensToCssVars(tokens: ThemeTokens): string {
     .join('\n');
 }
 
+export function getGoogleFontsUrl(themeId: string): string | null {
+  return themes[themeId]?.light.googleFontsUrl ?? null;
+}
+
 export function buildCssVars(
   light: ThemeTokens,
   dark: ThemeTokens

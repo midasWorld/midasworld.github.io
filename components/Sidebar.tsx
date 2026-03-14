@@ -2,14 +2,13 @@
 
 import Link from "next/link";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
-import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import {
   PARENT_CATEGORIES,
   PARENT_CATEGORY_LABELS,
   SUB_CATEGORIES,
   CATEGORY_LABELS,
 } from "@/lib/constants";
+import { ThemeToggleButton } from "@/components/ThemeToggleButton";
 
 interface SidebarProps {
   counts: Record<string, number>;
@@ -19,10 +18,6 @@ export function Sidebar({ counts }: SidebarProps) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const router = useRouter();
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => setMounted(true), []);
 
   const currentSub = searchParams.get("sub");
 
@@ -114,15 +109,7 @@ export function Sidebar({ counts }: SidebarProps) {
           GitHub
         </a>
         <div className="flex items-center gap-1">
-          {mounted && (
-            <button
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="p-1.5 rounded-md hover:bg-[var(--bg-hover)] transition-colors text-[var(--text-muted)]"
-              aria-label="Toggle theme"
-            >
-              {theme === "dark" ? "☀️" : "🌙"}
-            </button>
-          )}
+          <ThemeToggleButton className="text-[var(--text-muted)]" />
           <Link
             href="/private"
             className="p-1.5 rounded-md hover:bg-[var(--bg-hover)] transition-colors text-[var(--text-muted)] hover:text-[var(--text-secondary)]"

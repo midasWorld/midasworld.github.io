@@ -4,6 +4,7 @@ import crypto from "crypto";
 import matter from "gray-matter";
 import { PARENT_CATEGORIES, SUB_CATEGORIES } from "@/lib/constants";
 import type { PostMeta, Post } from "@/lib/types";
+import { calcReadingTime } from "@/lib/utils";
 
 function deriveKey(password: string): Buffer {
   return crypto.scryptSync(password, "midasworld-salt-v1", 32);
@@ -30,7 +31,6 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 function readPost(filePath: string, slug: string, parentCat: string, subCat: string): PostMeta {
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
-  const wordCount = content.trim().split(/\s+/).length;
   return {
     slug,
     title: data.title ?? slug,
@@ -38,7 +38,7 @@ function readPost(filePath: string, slug: string, parentCat: string, subCat: str
     date: data.date ?? "",
     parentCategory: data.parentCategory ?? parentCat,
     category: data.category ?? subCat,
-    readingTime: Math.max(1, Math.ceil(wordCount / 200)),
+    readingTime: calcReadingTime(content),
   };
 }
 
@@ -78,7 +78,7 @@ export function getPostBySlug(slug: string): Post | null {
           date: data.date ?? "",
           parentCategory: data.parentCategory ?? parent,
           category: data.category ?? sub,
-          readingTime: Math.max(1, Math.ceil(content.trim().split(/\s+/).length / 200)),
+          readingTime: calcReadingTime(content),
           content,
         };
       }
@@ -105,7 +105,6 @@ export function getPrivatePosts(): PostMeta[] {
       if (!raw) continue;
       const { data, content } = matter(raw);
       const slug = file.replace(/\.md\.enc$/, "");
-      const wordCount = content.trim().split(/\s+/).length;
       posts.push({
         slug,
         title: data.title ?? slug,
@@ -113,7 +112,7 @@ export function getPrivatePosts(): PostMeta[] {
         date: data.date ?? "",
         parentCategory: "private",
         category: dir,
-        readingTime: Math.max(1, Math.ceil(wordCount / 200)),
+        readingTime: calcReadingTime(content),
       });
     }
   }
@@ -155,7 +154,7 @@ export function getPrivatePostBySlug(slug: string): Post | null {
         date: data.date ?? "",
         parentCategory: "private",
         category: dir,
-        readingTime: Math.max(1, Math.ceil(content.trim().split(/\s+/).length / 200)),
+        readingTime: calcReadingTime(content),
         content,
       };
     }

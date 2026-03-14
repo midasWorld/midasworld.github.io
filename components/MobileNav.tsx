@@ -3,13 +3,13 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
-import { useTheme } from "next-themes";
 import {
   PARENT_CATEGORIES,
   PARENT_CATEGORY_LABELS,
   SUB_CATEGORIES,
   CATEGORY_LABELS,
 } from "@/lib/constants";
+import { ThemeToggleButton } from "@/components/ThemeToggleButton";
 
 interface MobileNavProps {
   counts: Record<string, number>;
@@ -17,13 +17,9 @@ interface MobileNavProps {
 
 export function MobileNav({ counts }: MobileNavProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const router = useRouter();
-
-  useEffect(() => setMounted(true), []);
 
   // Close drawer on route change
   useEffect(() => {
@@ -55,15 +51,7 @@ export function MobileNav({ counts }: MobileNavProps) {
           midasworld
         </Link>
         <div className="flex items-center gap-1">
-          {mounted && (
-            <button
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="p-1.5 rounded-md hover:bg-[var(--bg-hover)] transition-colors"
-              aria-label="Toggle theme"
-            >
-              {theme === "dark" ? "☀️" : "🌙"}
-            </button>
-          )}
+          <ThemeToggleButton />
           <button
             onClick={() => setIsOpen(true)}
             className="p-1.5 rounded-md hover:bg-[var(--bg-hover)] transition-colors text-[var(--text-secondary)]"
