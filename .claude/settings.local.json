@@ -20,7 +20,8 @@
       "Bash(node scripts/encrypt.js && npm run build 2>&1 | grep \"private\")",
       "Bash(git add content/private/stock/ && git commit -m \"docs: 주식 기초 지식 5개 포스트 추가\")",
       "Bash(node -e \"\nconst { ACTIVE_THEME } = require\\('./theme.config.js'\\);\nconst { themes, buildCssVars } = require\\('./lib/themes.js'\\);\nconst t = themes[ACTIVE_THEME];\nconsole.log\\('Active theme:', ACTIVE_THEME\\);\nconsole.log\\('CSS vars \\(first 5 lines\\):'\\);\nconsole.log\\(buildCssVars\\(t.light, t.dark\\).split\\('\\\\n'\\).slice\\(0, 8\\).join\\('\\\\n'\\)\\);\n\" 2>&1 || echo \"Note: Cannot run via node directly \\(TypeScript\\) - build output confirms it works\")",
-      "Bash(grep -c 'var\\(--' /Users/midas/Desktop/Money/midasworld.github.io/components/Sidebar.tsx /Users/midas/Desktop/Money/midasworld.github.io/components/MobileNav.tsx /Users/midas/Desktop/Money/midasworld.github.io/components/PostCard.tsx /Users/midas/Desktop/Money/midasworld.github.io/app/posts/\\\\[slug\\\\]/page.tsx)"
+      "Bash(grep -c 'var\\(--' /Users/midas/Desktop/Money/midasworld.github.io/components/Sidebar.tsx /Users/midas/Desktop/Money/midasworld.github.io/components/MobileNav.tsx /Users/midas/Desktop/Money/midasworld.github.io/components/PostCard.tsx /Users/midas/Desktop/Money/midasworld.github.io/app/posts/\\\\[slug\\\\]/page.tsx)",
+      "Bash(git add:*)"
     ]
   }
 }
