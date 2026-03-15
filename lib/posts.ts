@@ -92,7 +92,7 @@ export function getAllPublicSlugs(): string[] {
 }
 
 export function getPrivatePosts(): PostMeta[] {
-  const privateDirs = ["stock", "exam"];
+  const privateDirs = ["stock", "exam", "job"];
   const posts: PostMeta[] = [];
 
   for (const dir of privateDirs) {
@@ -141,7 +141,7 @@ export function getPostCountByCategory(): Record<string, number> {
 }
 
 export function getPrivatePostBySlug(slug: string): Post | null {
-  for (const dir of ["stock", "exam"]) {
+  for (const dir of ["stock", "exam", "job"]) {
     const filePath = path.join(CONTENT_DIR, "private", dir, `${slug}.md.enc`);
     if (fs.existsSync(filePath)) {
       const raw = decryptEnc(filePath);
