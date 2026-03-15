@@ -1,0 +1,457 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T27d7,<h1>부산 공기업 자격증·어학·가산점 전략</h1>
+<blockquote>
+<p>자격증 하나가 합격·불합격을 가르는 경우가 실제로 있습니다.
+공고 나오기 전에 미리 준비해두는 게 정답입니다.</p>
+</blockquote>
+<hr>
+<h2>1. 공기업 채용 서류 구성 이해</h2>
+<p>서류전형에서 보는 것:</p>
+<pre><code class="hljs language-scss">필수 요건 확인
+  → 학력 (무관 or 학력 제한)
+  → 전공 (직렬에 따라 관련 전공 필수)
+  → 자격증 (기술직은 기사 이상 필수)
+  → 결격사유 없음
+
+우대 가점 항목
+  → 어학 점수 (토익, TOEIC Speaking, 오픽)
+  → 자격증 등급 (기사, 산업기사 등)
+  → 한국사능력검정시험
+  → 취업지원대상자 (보훈)
+  → 장애인 고용 우대
+  → 지역인재 (부산 소재 대학 졸업)
+</code></pre>
+<hr>
+<h2>2. 어학 점수 (토익 기준)</h2>
+<h3>기관별 토익 요구 수준</h3>
+<table>
+<thead>
+<tr>
+<th>기관</th>
+<th>사무직 권장</th>
+<th>최소 기준</th>
+<th>비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>부산항만공사</strong></td>
+<td>900점 이상</td>
+<td>800점</td>
+<td>영어 비중 매우 높음</td>
+</tr>
+<tr>
+<td><strong>부산교통공사</strong></td>
+<td>800점 이상</td>
+<td>700점</td>
+<td>NCS 점수로 환산</td>
+</tr>
+<tr>
+<td><strong>부산도시공사</strong></td>
+<td>800점 이상</td>
+<td>700점</td>
+<td>가산점 3~5점</td>
+</tr>
+<tr>
+<td><strong>부산환경공단</strong></td>
+<td>750점 이상</td>
+<td>650점</td>
+<td>기술직은 650 이하도 가능</td>
+</tr>
+<tr>
+<td><strong>부산시설공단</strong></td>
+<td>750점 이상</td>
+<td>600점</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>점수대별 전략</h3>
+<ul>
+<li><strong>600점 미만</strong>: 기술직 지원 시 토익 비중이 낮아 부담 적음</li>
+<li><strong>700~750점</strong>: 대부분 기관 지원 가능한 최소선</li>
+<li><strong>800점 이상</strong>: 사무직 경쟁력 확보</li>
+<li><strong>850점 이상</strong>: 부산항만공사·대형 공기업 사무직 유리</li>
+<li><strong>900점 이상</strong>: 영어 관련 가산점 만점 처리 기관 多</li>
+</ul>
+<h3>유효기간</h3>
+<ul>
+<li>2년 → 5년으로 확대 추세</li>
+<li>부산 통합채용: 원서 접수 마감일 기준 <strong>2년 이내</strong> 성적 (기관별 상이, 공고 확인 필수)</li>
+</ul>
+<h3>토익 외 인정 어학 시험</h3>
+<table>
+<thead>
+<tr>
+<th>시험</th>
+<th>인정 기준 (토익 700 환산)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TOEFL IBT</td>
+<td>71점 이상</td>
+</tr>
+<tr>
+<td>IELTS</td>
+<td>5.5점 이상</td>
+</tr>
+<tr>
+<td>TOEIC Speaking</td>
+<td>110점 이상 (IM2)</td>
+</tr>
+<tr>
+<td>OPIc</td>
+<td>IM2 이상</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>3. 한국사능력검정시험 (필수!)</h2>
+<p>거의 모든 공기업에서 <strong>가산점 부여 또는 응시 자격 요건</strong>으로 요구합니다.</p>
+<h3>급수별 가산점 예시</h3>
+<table>
+<thead>
+<tr>
+<th>급수</th>
+<th>한국전력</th>
+<th>코레일</th>
+<th>인천공항</th>
+<th>부산 기관</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1급</strong></td>
+<td>5점</td>
+<td>5점</td>
+<td>5점</td>
+<td>3~5점</td>
+</tr>
+<tr>
+<td><strong>2급</strong></td>
+<td>3점</td>
+<td>5점</td>
+<td>3점</td>
+<td>3점</td>
+</tr>
+<tr>
+<td><strong>3급</strong></td>
+<td>1점</td>
+<td>3점</td>
+<td>1점</td>
+<td>0~1점</td>
+</tr>
+<tr>
+<td><strong>4급 이하</strong></td>
+<td>0점</td>
+<td>0점</td>
+<td>0점</td>
+<td>0점</td>
+</tr>
+</tbody>
+</table>
+<p><strong>→ 최소 2급은 취득해야 가산점 의미 있음</strong></p>
+<h3>시험 일정 (연 6회 시행)</h3>
+<table>
+<thead>
+<tr>
+<th>회차</th>
+<th>시험일 (2026 예상)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>68회</td>
+<td>2026년 2월</td>
+</tr>
+<tr>
+<td>69회</td>
+<td>2026년 4월</td>
+</tr>
+<tr>
+<td>70회</td>
+<td>2026년 6월</td>
+</tr>
+<tr>
+<td>71회</td>
+<td>2026년 8월</td>
+</tr>
+<tr>
+<td>72회</td>
+<td>2026년 10월</td>
+</tr>
+<tr>
+<td>73회</td>
+<td>2026년 12월</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>상반기 채용 준비 중이라면 <strong>4월 시험</strong> 응시가 마지막 기회일 수 있음.</p>
+</blockquote>
+<hr>
+<h2>4. 사무직 핵심 자격증</h2>
+<h3>컴퓨터활용능력 (컴활)</h3>
+<p>거의 모든 공기업에서 인정하는 기본 자격증</p>
+<table>
+<thead>
+<tr>
+<th>등급</th>
+<th>가산점 수준</th>
+<th>취득 난이도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1급</strong></td>
+<td>3~5점</td>
+<td>중상 (필기+실기)</td>
+</tr>
+<tr>
+<td><strong>2급</strong></td>
+<td>1~3점</td>
+<td>중 (필기+실기)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>수험생 조언</strong>: 컴활 2급은 꼭 취득하세요.
+공부 시간 대비 가산점 효율이 가장 좋습니다.</p>
+</blockquote>
+<h3>기타 사무직 우대 자격증</h3>
+<table>
+<thead>
+<tr>
+<th>자격증</th>
+<th>주관처</th>
+<th>가산점 여부</th>
+<th>취득 난이도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MOS (마스터)</strong></td>
+<td>마이크로소프트</td>
+<td>일부 기관 인정</td>
+<td>중</td>
+</tr>
+<tr>
+<td><strong>ERP정보관리사</strong></td>
+<td>한국생산성본부</td>
+<td>일부 인정</td>
+<td>중상</td>
+</tr>
+<tr>
+<td><strong>사회조사분석사</strong></td>
+<td>한국산업인력공단</td>
+<td>일부 인정</td>
+<td>중</td>
+</tr>
+<tr>
+<td><strong>재경관리사</strong></td>
+<td>삼일회계법인</td>
+<td>일부 인정</td>
+<td>중</td>
+</tr>
+<tr>
+<td><strong>SQLD</strong></td>
+<td>한국데이터산업진흥원</td>
+<td>IT 직렬 인정</td>
+<td>중</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>5. 기술직 필수 자격증 (직렬별)</h2>
+<p>기술직은 <strong>기사 이상 자격증이 지원 요건</strong>인 경우가 많습니다.</p>
+<table>
+<thead>
+<tr>
+<th>직렬</th>
+<th>필수 자격증</th>
+<th>우대 자격증</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>토목</strong></td>
+<td>토목기사</td>
+<td>토목시공기술사, 측량기사</td>
+</tr>
+<tr>
+<td><strong>건축</strong></td>
+<td>건축기사</td>
+<td>건축사, 실내건축기사</td>
+</tr>
+<tr>
+<td><strong>전기</strong></td>
+<td>전기기사</td>
+<td>전기공사기사, 전기안전기사</td>
+</tr>
+<tr>
+<td><strong>기계</strong></td>
+<td>일반기계기사</td>
+<td>기계설비기사, 에너지관리기사</td>
+</tr>
+<tr>
+<td><strong>전산</strong></td>
+<td>정보처리기사</td>
+<td>네트워크관리사, SQLD</td>
+</tr>
+<tr>
+<td><strong>환경</strong></td>
+<td>환경기사</td>
+<td>수질환경기사, 대기환경기사</td>
+</tr>
+<tr>
+<td><strong>화학</strong></td>
+<td>화학분석기사</td>
+<td>위험물산업기사</td>
+</tr>
+<tr>
+<td><strong>안전</strong></td>
+<td>산업안전기사</td>
+<td>건설안전기사</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>주의</strong>: 산업기사로는 지원 자격 미달인 경우가 많습니다.
+반드시 <strong>기사 이상</strong> 취득을 목표로 하세요.</p>
+</blockquote>
+<hr>
+<h2>6. 지역인재 가산점</h2>
+<p>부산 소재 대학 졸업자에게 가산점을 주는 기관이 있습니다.</p>
+<table>
+<thead>
+<tr>
+<th>기관</th>
+<th>지역인재 가산점</th>
+<th>적용 기준</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>부산교통공사</td>
+<td>2~5점</td>
+<td>부산·경남 소재 대학</td>
+</tr>
+<tr>
+<td>부산도시공사</td>
+<td>3점</td>
+<td>부산 소재 대학</td>
+</tr>
+<tr>
+<td>부산항만공사</td>
+<td>별도 우대</td>
+<td>지역인재 전형 별도 운영</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>7. 취업지원대상자 (보훈)</h2>
+<p>국가유공자, 독립유공자 자녀 등 해당자는 <strong>5~10% 가산점</strong> 또는 별도 전형 운영.</p>
+<hr>
+<h2>8. 자격증 취득 전략 (처음 준비하는 경우)</h2>
+<h3>강사 추천 취득 순서</h3>
+<pre><code class="hljs language-scss"><span class="hljs-number">1</span>단계 (필수, 빠른 취득)
+  □ 한국사능력검정 <span class="hljs-number">2</span>급 이상
+  □ 컴퓨터활용능력 <span class="hljs-number">2</span>급
+
+<span class="hljs-number">2</span>단계 (필수, 기술직)
+  □ 해당 직렬 기사 자격증 취득
+
+<span class="hljs-number">3</span>단계 (선택, 경쟁력 강화)
+  □ 컴퓨터활용능력 <span class="hljs-number">1</span>급 (업그레이드)
+  □ 한국사능력검정 <span class="hljs-number">1</span>급 (업그레이드)
+  □ SQLD (전산직 또는 데이터 관심자)
+
+<span class="hljs-number">4</span>단계 (어학)
+  □ 토익 <span class="hljs-number">700</span>점 이상 (사무직은 <span class="hljs-number">800</span>점 목표)
+</code></pre>
+<hr>
+<h2>9. 가산점 계산 예시</h2>
+<p><strong>부산도시공사 사무직 가산점 예시 (기관별 상이)</strong></p>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>등급/점수</th>
+<th>가산점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>한국사 1급</td>
+<td>인증 완료</td>
+<td>+5점</td>
+</tr>
+<tr>
+<td>컴퓨터활용능력 1급</td>
+<td>인증 완료</td>
+<td>+3점</td>
+</tr>
+<tr>
+<td>토익 850점</td>
+<td>인증 완료</td>
+<td>+3점</td>
+</tr>
+<tr>
+<td>지역인재</td>
+<td>부산 소재 대학</td>
+<td>+3점</td>
+</tr>
+<tr>
+<td><strong>합계</strong></td>
+<td></td>
+<td><strong>+14점</strong></td>
+</tr>
+</tbody>
+</table>
+<p>가산점 14점 차이는 필기시험 성적 순위에서 결정적인 차이가 됩니다.</p>
+<hr>
+<h2>10. 자격증 취득 타임라인</h2>
+<p><strong>2026년 상반기 지원 목표 기준:</strong></p>
+<table>
+<thead>
+<tr>
+<th>자격증</th>
+<th>취득 목표</th>
+<th>시험 일정</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>한국사 2급</td>
+<td>2026년 2~4월</td>
+<td>격월 시행</td>
+</tr>
+<tr>
+<td>컴활 2급</td>
+<td>2026년 2~3월</td>
+<td>상시 시행</td>
+</tr>
+<tr>
+<td>토익 700+</td>
+<td>2026년 4월 이전</td>
+<td>매월 시행</td>
+</tr>
+<tr>
+<td>전공 기사</td>
+<td>이미 보유 또는 별도 준비</td>
+<td>연 3회 시행</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>상반기 공고가 4월 말에 나온다면 그 전에 자격증을 미리 취득해야 합니다.
+시험 합격 후 자격증 발급까지 2~4주 소요됩니다.</p>
+</blockquote>0:{"buildId":"o6zeTR5Q_GazsQ9S7Lz2w","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"job"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-15"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"부산 공기업 자격증·어학·가산점 전략 완전 정리"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,0 +1,292 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/f694a9fffc00c61e.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"o6zeTR5Q_GazsQ9S7Lz2w","c":["","private","busan-public-enterprise-intro",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","busan-public-enterprise-intro","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/f694a9fffc00c61e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":6,"database":10,"node":7,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T212d,<h1>부산 공기업 취업 완전 입문 가이드</h1>
+<blockquote>
+<p>도시공사 근무 선배, 수험생 동기, 학원 강사 3명의 시각을 모아 정리했습니다.</p>
+</blockquote>
+<hr>
+<h2>1. 공기업이란 무엇인가?</h2>
+<p>공기업(公企業)은 국가 또는 지방자치단체가 출자·설립하거나 경영에 참여하는 기업입니다.
+사기업처럼 이윤 극대화가 1순위가 아니라 <strong>공공서비스 제공</strong>이 주된 목적입니다.</p>
+<h3>공공기관 3분류</h3>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>예시</th>
+<th>특징</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>공기업</strong></td>
+<td>한국전력, 코레일, 부산교통공사</td>
+<td>자체 수입 50% 이상</td>
+</tr>
+<tr>
+<td><strong>준정부기관</strong></td>
+<td>국민건강보험공단, 근로복지공단</td>
+<td>정부 의존도 높음</td>
+</tr>
+<tr>
+<td><strong>기타공공기관</strong></td>
+<td>부산도시공사, 부산시설공단</td>
+<td>지방공기업 포함</td>
+</tr>
+</tbody>
+</table>
+<h3>부산 주요 공기업 목록</h3>
+<table>
+<thead>
+<tr>
+<th>기관명</th>
+<th>주요 업무</th>
+<th>직원 규모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>부산교통공사</strong></td>
+<td>도시철도(지하철) 운영</td>
+<td>약 4,000명</td>
+</tr>
+<tr>
+<td><strong>부산도시공사</strong></td>
+<td>도시개발·주택공급·임대</td>
+<td>약 900명</td>
+</tr>
+<tr>
+<td><strong>부산항만공사</strong></td>
+<td>항만 개발·운영</td>
+<td>약 300명</td>
+</tr>
+<tr>
+<td><strong>부산환경공단</strong></td>
+<td>환경시설 운영·관리</td>
+<td>약 1,200명</td>
+</tr>
+<tr>
+<td><strong>부산시설공단</strong></td>
+<td>공공시설 관리·운영</td>
+<td>약 2,200명</td>
+</tr>
+<tr>
+<td><strong>부산관광공사</strong></td>
+<td>관광 마케팅·MICE</td>
+<td>약 200명</td>
+</tr>
+<tr>
+<td><strong>부산신용보증재단</strong></td>
+<td>중소기업 보증 지원</td>
+<td>약 300명</td>
+</tr>
+<tr>
+<td><strong>부산경제진흥원</strong></td>
+<td>창업·기업 지원</td>
+<td>약 200명</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>2. 공기업 취업이 매력적인 이유</h2>
+<h3>직장인 선배 관점 (도시공사 5년차)</h3>
+<p>실제로 다녀보니 이런 점이 좋았습니다:</p>
+<ul>
+<li><strong>정년 보장</strong>: 60세까지 안정적 근무</li>
+<li><strong>복지 수준</strong>: 건강검진, 경조사비, 학자금 지원 등 대기업 못지않음</li>
+<li><strong>워라밸</strong>: 야근 강요 문화 없음, 초과근무수당 정산</li>
+<li><strong>연금</strong>: 공무원 연금이 아닌 국민연금이지만 퇴직금 수준이 좋음</li>
+<li><strong>사회적 인식</strong>: 안정적인 직장이라는 인식</li>
+</ul>
+<blockquote>
+<p>단점은 연봉 상승 속도가 사기업 대비 느리고,
+성과 보상 개념이 약해 능력 있어도 크게 튀기 어렵습니다.</p>
+</blockquote>
+<hr>
+<h2>3. 채용 전형 흐름 (공통)</h2>
+<pre><code class="hljs language-scss">공고 확인
+    ↓
+서류전형 (입사지원서 + 자격요건 확인)
+    ↓
+필기전형 (NCS 직업기초능력 + 직무수행능력)
+    ↓
+면접전형 (실무면접 + 임원면접)
+    ↓
+신체검사 + 신원조회
+    ↓
+최종합격 → 수습기간 → 정규직
+</code></pre>
+<p>부산 지역 공공기관은 <strong>부산광역시 통합채용</strong> 시스템을 통해 1년에 2회(상반기·하반기) 공동으로 채용합니다.
+즉, 한 번 원서 접수로 여러 기관에 동시 지원할 수 있습니다.</p>
+<hr>
+<h2>4. NCS란 무엇인가? (가장 중요)</h2>
+<p><strong>NCS(National Competency Standards)</strong> = 국가직무능력표준</p>
+<p>쉽게 말하면: "이 직무를 잘하려면 어떤 능력이 필요한지"를 국가가 정해놓은 기준.
+공기업 필기시험의 80% 이상이 NCS 기반으로 출제됩니다.</p>
+<h3>NCS 10대 직업기초능력</h3>
+<table>
+<thead>
+<tr>
+<th>영역</th>
+<th>무엇을 평가하나</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>의사소통능력</strong></td>
+<td>문서 읽기·쓰기·이해력</td>
+</tr>
+<tr>
+<td><strong>수리능력</strong></td>
+<td>기본 수학, 통계, 도표 해석</td>
+</tr>
+<tr>
+<td><strong>문제해결능력</strong></td>
+<td>상황 판단, 논리적 사고</td>
+</tr>
+<tr>
+<td><strong>자기개발능력</strong></td>
+<td>자기 이해와 경력 설계</td>
+</tr>
+<tr>
+<td><strong>자원관리능력</strong></td>
+<td>시간·예산·인력 관리</td>
+</tr>
+<tr>
+<td><strong>대인관계능력</strong></td>
+<td>팀워크, 갈등 해결</td>
+</tr>
+<tr>
+<td><strong>조직이해능력</strong></td>
+<td>조직 구조 이해, 경영 기초</td>
+</tr>
+<tr>
+<td><strong>직업윤리</strong></td>
+<td>근로윤리, 공직자 자세</td>
+</tr>
+<tr>
+<td><strong>정보능력</strong></td>
+<td>컴퓨터·정보 활용</td>
+</tr>
+<tr>
+<td><strong>기술능력</strong></td>
+<td>장비·기술 이해 (기술직 필수)</td>
+</tr>
+</tbody>
+</table>
+<p>부산 통합채용 기준 NCS 필기: <strong>5개 영역 × 10문항 = 50문항</strong> (의사소통·수리·문제해결·자원관리·조직이해)</p>
+<hr>
+<h2>5. 처음 준비 시작하는 로드맵</h2>
+<h3>학원 강사 추천 6개월 플랜</h3>
+<pre><code class="hljs language-markdown">1~2개월: 기초 다지기
+<span class="hljs-bullet">  -</span> NCS 기본서 1권 처음부터 끝까지 정독
+<span class="hljs-bullet">  -</span> 10개 영역 개념 파악
+<span class="hljs-bullet">  -</span> 하루 1~2시간 투자
+
+3~4개월: 본격 문제풀이
+<span class="hljs-bullet">  -</span> 영역별 기출문제 풀이
+<span class="hljs-bullet">  -</span> 약점 영역 집중 보완
+<span class="hljs-bullet">  -</span> 부산 통합채용 기출 모의고사 풀기
+
+5~6개월: 실전 대비
+<span class="hljs-bullet">  -</span> 실제 시험 시간 맞춰 모의고사
+<span class="hljs-bullet">  -</span> 자소서·면접 준비 병행
+<span class="hljs-bullet">  -</span> 자격증 취득 (한국사, 컴활 등)
+</code></pre>
+<h3>수험생 관점에서 현실적인 조언</h3>
+<p>수험 기간 1년 이상이 많습니다. 중간에 포기하지 않으려면:</p>
+<ol>
+<li><strong>목표 기관 1~2개로 좁히기</strong>: 모든 공기업을 다 준비하려면 방향이 흐려짐</li>
+<li><strong>커뮤니티 활용</strong>: 블라인드, 네이버카페 "공기업취업"에서 최신 정보 공유</li>
+<li><strong>기출 분석이 핵심</strong>: NCS는 유형이 반복되므로 기출 풀이가 가장 효율적</li>
+<li><strong>자격증 미리 따기</strong>: 서류 마감 전에 취득 완료 상태여야 가산점 인정</li>
+</ol>
+<hr>
+<h2>6. 지원 직렬 이해하기</h2>
+<h3>사무직 vs 기술직</h3>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>주요 업무</th>
+<th>요구 자격</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>사무직</strong></td>
+<td>경영·회계·인사·기획</td>
+<td>어학 점수 중시</td>
+</tr>
+<tr>
+<td><strong>토목직</strong></td>
+<td>도시개발, 시설관리</td>
+<td>토목기사 필수</td>
+</tr>
+<tr>
+<td><strong>건축직</strong></td>
+<td>건물 설계·감리</td>
+<td>건축기사 필수</td>
+</tr>
+<tr>
+<td><strong>전기직</strong></td>
+<td>전력설비 관리</td>
+<td>전기기사 필수</td>
+</tr>
+<tr>
+<td><strong>기계직</strong></td>
+<td>기계설비 유지</td>
+<td>일반기계기사 필수</td>
+</tr>
+<tr>
+<td><strong>전산직</strong></td>
+<td>IT시스템 운영</td>
+<td>정보처리기사 필수</td>
+</tr>
+<tr>
+<td><strong>환경직</strong></td>
+<td>환경시설 운영</td>
+<td>환경기사 필수</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>수험생 Tip</strong>: 기술직이 사무직보다 경쟁률이 낮습니다.
+관련 전공자라면 기술직 지원이 합격 확률을 높이는 전략입니다.</p>
+</blockquote>
+<hr>
+<h2>7. 핵심 정리</h2>
+<p><strong>처음 준비한다면 이것만 기억하세요:</strong></p>
+<ol>
+<li>부산 통합채용 홈페이지 북마크: <code>busan.saramin.co.kr</code></li>
+<li>NCS 기본서 1권 구매해서 읽기</li>
+<li>한국사능력검정시험 2급 이상 취득</li>
+<li>컴퓨터활용능력 2급 이상 취득</li>
+<li>토익 700점 이상 목표 (사무직은 800점 이상)</li>
+<li>채용 공고 나오면 즉시 지원 (공고 기간이 짧음, 보통 1주일)</li>
+</ol>
+<hr>
+<p>다음 포스트에서는 2024~2025년 실제 채용 일정과 공고 상세 내용을 정리합니다.</p>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"job"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-15"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"부산 공기업 취업 완전 입문 가이드 — 처음 준비하는 분들을 위해"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"부산 공기업 취업 완전 입문 가이드 — 처음 준비하는 분들을 위해 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]
