@@ -36,7 +36,8 @@
       "WebFetch(domain:www.bisco.or.kr)",
       "WebFetch(domain:www.keco.or.kr)",
       "WebSearch",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote:*)"
     ]
   }
 }
