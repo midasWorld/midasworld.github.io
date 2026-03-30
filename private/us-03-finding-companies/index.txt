@@ -1,0 +1,1087 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/f694a9fffc00c61e.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"6dNzU7_5pCuaCrqstHw1V","c":["","private","us-03-finding-companies",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","us-03-finding-companies","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/f694a9fffc00c61e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":6,"database":10,"node":7,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T11b79,<h2>들어가며</h2>
+<p>미국 시장에는 6,000개가 넘는 상장 종목이 있다. 이 중에서 나에게 맞는 종목을 찾는 것이 투자의 출발점이다.</p>
+<p>막막하게 느껴지지만, 실제 투자자들은 체계적인 <strong>종목 발굴 방법론</strong>을 갖고 있다. 이 편에서는 가장 많이 쓰이는 접근법을 이해하고, 무료·유료 도구들을 실전에서 어떻게 활용하는지 단계별로 안내한다.</p>
+<pre><code class="hljs language-scss"><span class="hljs-selector-attr">[종목 발굴 전체 의사결정 트리]</span>
+
+          <span class="hljs-number">6</span>,<span class="hljs-number">000</span>개+ 미국 상장 종목
+                   │
+          ┌────────┴────────┐
+          │                 │
+       탑다운             바텀업
+   (매크로→섹터→종목)    (일상→기업→분석)
+          │                 │
+          └────────┬────────┘
+                   │
+           후보 <span class="hljs-number">20</span>~<span class="hljs-number">30</span>개 추출
+                   │
+           ┌───────┼───────┐
+           │       │       │
+        Finviz   Yahoo   Simply
+       스크리닝  Finance  Wall St
+           │       │       │
+           └───────┼───────┘
+                   │
+           <span class="hljs-number">10</span>개 이하 압축
+                   │
+           ┌───────┼───────┐
+           │       │       │
+        레드플래그 SEC   Seeking
+         <span class="hljs-number">10</span>개 체크 EDGAR  Alpha
+           │       │       │
+           └───────┼───────┘
+                   │
+           <span class="hljs-number">3</span>~<span class="hljs-number">5</span>개 워치리스트 등록
+                   │
+           매수 기준 충족 대기
+</code></pre>
+<hr>
+<h2>1. 종목 발굴 두 가지 접근법</h2>
+<h3>1-1. 탑다운(Top-Down) 접근법</h3>
+<p><strong>큰 그림 → 섹터 → 개별 종목</strong> 순서로 좁혀가는 방식이다.</p>
+<pre><code class="hljs language-css"><span class="hljs-selector-attr">[탑다운 분석 흐름도]</span>
+
+매크로 환경 분석
+      │
+      ▼
+┌──────────────────────────────────────────────────┐
+│  거시 지표 파악                                    │
+│  - 금리 방향: 인상? 동결? 인하?                    │
+│  - 경제 성장률 (GDP 전망)                          │
+│  - 인플레이션 (CPI 추세)                           │
+│  - 주요 테마: AI 붐, 친환경, 바이오 혁신 등         │
+└──────────────────────────────────────────────────┘
+      │
+      ▼
+유망 섹터/테마 선정
+      │
+      ▼
+┌──────────────────────────────────────────────────┐
+│  해당 섹터 내 기업 스크리닝                         │
+│  - 시장 점유율 <span class="hljs-number">1</span>~<span class="hljs-number">2</span>위 기업                          │
+│  - 강력한 해자(Moat) 보유 기업                     │
+│  - 섹터 ETF 상위 구성 종목                         │
+└──────────────────────────────────────────────────┘
+      │
+      ▼
+개별 종목 심층 분석
+</code></pre>
+<p><strong>실전 사례: AI 붐 → 반도체 섹터 → Nvidia 발굴</strong></p>
+<pre><code class="hljs language-yaml"><span class="hljs-string">Step</span> <span class="hljs-number">1</span><span class="hljs-string">.</span> <span class="hljs-string">매크로</span> <span class="hljs-string">테마</span> <span class="hljs-string">포착</span>
+  <span class="hljs-number">2022</span><span class="hljs-string">~2023년:</span> <span class="hljs-string">ChatGPT</span> <span class="hljs-string">등장으로</span> <span class="hljs-string">AI</span> <span class="hljs-string">수요</span> <span class="hljs-string">폭발</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">AI</span> <span class="hljs-string">모델</span> <span class="hljs-string">학습에는</span> <span class="hljs-string">대규모</span> <span class="hljs-string">컴퓨팅</span> <span class="hljs-string">파워</span> <span class="hljs-string">필요</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">데이터센터</span> <span class="hljs-string">투자</span> <span class="hljs-string">급증</span> <span class="hljs-string">예상</span>
+
+<span class="hljs-string">Step</span> <span class="hljs-number">2</span><span class="hljs-string">.</span> <span class="hljs-string">유망</span> <span class="hljs-string">섹터</span> <span class="hljs-string">특정</span>
+  <span class="hljs-string">AI</span> <span class="hljs-string">연산의</span> <span class="hljs-string">핵심:</span> <span class="hljs-string">GPU</span> <span class="hljs-string">(그래픽처리장치)</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">IT</span> <span class="hljs-string">섹터</span> <span class="hljs-string">내</span> <span class="hljs-string">반도체</span> <span class="hljs-string">산업군</span> <span class="hljs-string">주목</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">SOX</span> <span class="hljs-string">(필라델피아</span> <span class="hljs-string">반도체</span> <span class="hljs-string">지수)</span> <span class="hljs-string">확인</span>
+
+<span class="hljs-string">Step</span> <span class="hljs-number">3</span><span class="hljs-string">.</span> <span class="hljs-string">섹터</span> <span class="hljs-string">내</span> <span class="hljs-string">기업</span> <span class="hljs-string">스크리닝</span>
+  <span class="hljs-string">AI</span> <span class="hljs-string">GPU</span> <span class="hljs-string">시장</span> <span class="hljs-string">플레이어:</span>
+  <span class="hljs-string">┌────────────────────────────────────────────────┐</span>
+  <span class="hljs-string">│</span> <span class="hljs-attr">Nvidia (NVDA):</span> <span class="hljs-string">AI</span> <span class="hljs-string">GPU</span> <span class="hljs-string">시장</span> <span class="hljs-string">점유율</span> <span class="hljs-number">80</span><span class="hljs-string">%+</span>         <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-attr">AMD (AMD):</span>     <span class="hljs-string">GPU/CPU</span> <span class="hljs-string">통합,</span> <span class="hljs-string">대안</span> <span class="hljs-string">공급업체</span>     <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-attr">Intel (INTC):</span>  <span class="hljs-string">데이터센터</span> <span class="hljs-string">CPU,</span> <span class="hljs-string">AI</span> <span class="hljs-string">후발주자</span>     <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-attr">TSMC (TSM):</span>    <span class="hljs-string">파운드리,</span> <span class="hljs-string">모든</span> <span class="hljs-string">칩</span> <span class="hljs-string">생산</span>          <span class="hljs-string">│</span>
+  <span class="hljs-string">└────────────────────────────────────────────────┘</span>
+
+<span class="hljs-string">Step</span> <span class="hljs-number">4</span><span class="hljs-string">.</span> <span class="hljs-string">심층</span> <span class="hljs-string">분석</span> <span class="hljs-string">대상</span> <span class="hljs-string">선정</span>
+  <span class="hljs-attr">Nvidia:</span> <span class="hljs-string">AI</span> <span class="hljs-string">가속기</span> <span class="hljs-string">H100/H200</span> <span class="hljs-string">독점적</span> <span class="hljs-string">지위</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">CUDA</span> <span class="hljs-string">생태계로</span> <span class="hljs-string">강력한</span> <span class="hljs-string">해자</span> <span class="hljs-string">형성</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">최종</span> <span class="hljs-string">선정</span> <span class="hljs-string">종목:</span> <span class="hljs-string">NVDA</span>
+</code></pre>
+<h3>1-2. 바텀업(Bottom-Up) 접근법</h3>
+<p><strong>일상 경험 → 기업 발견 → 기업 분석</strong> 순서로 진행하는 방식이다. 피터 린치(Peter Lynch)가 "당신이 아는 것에 투자하라(Invest in What You Know)"로 유명하게 만든 접근법이다.</p>
+<pre><code class="hljs language-scss"><span class="hljs-selector-attr">[바텀업 발굴 경로 예시]</span>
+
+일상 경험 관찰
+      │
+      ├── 마트에서 줄이 점점 길어지는 Costco
+      │       → Costco Wholesale (COST) 조사
+      │
+      ├── 스타벅스 앱으로 미리 주문하는 사람 급증
+      │       → Starbucks (SBUX) 조사
+      │
+      ├── 주변 모든 사람이 iPhone 쓰고, 앱스토어 결제
+      │       → Apple (AAPL) 조사
+      │
+      ├── Apple Pay, 삼성페이 등 간편결제 확산
+      │       → Visa (V), Mastercard (MA) 조사
+      │
+      ├── 지인이 Tesla 사서 "충전비 거의 <span class="hljs-number">0</span>원"이라 자랑
+      │       → Tesla (TSLA) 조사
+      │
+      └── 회사 동료가 "AWS 없으면 서버 못 유지"라고 말함
+              → Amazon (AMZN) 조사
+</code></pre>
+<blockquote>
+<p><strong>탑다운 vs 바텀업</strong>: 두 접근법은 대립이 아니라 상호 보완 관계다. 바텀업으로 관심 기업을 발견하고, 탑다운 관점에서 해당 섹터가 지금 좋은 환경인지 확인하는 방식으로 결합하면 더 효과적이다.</p>
+</blockquote>
+<hr>
+<h2>2. 실화 — Warren Buffett은 어떻게 Coca-Cola를 발굴했나</h2>
+<p>이 스토리는 바텀업 투자의 교과서적 사례다.</p>
+<h3>2-1. 발굴 배경 — 1988년 월스트리트의 공황</h3>
+<pre><code class="hljs language-bash">[1987년 블랙 먼데이 이후 상황]
+
+1987년 10월 19일
+  - 다우존스 하루 -22.6% 폭락 (<span class="hljs-string">"블랙 먼데이"</span>)
+  - 역사상 단일 최대 하락폭
+  - 대부분 투자자: <span class="hljs-string">"이제 주식은 끝났다"</span>
+  - 공포 지수 폭등, 모든 우량주 폭락
+
+1988년 초 — 버핏의 결정:
+  버크셔 해서웨이, Coca-Cola 주식 대량 매수 시작
+  매수 가격: 주당 <span class="hljs-variable">$5</span>.22 (분할 조정 기준)
+  총 투자액: <span class="hljs-variable">$10</span>억 2,300만 (엄청난 금액)
+  버크셔 순자산 대비 약 25% 베팅
+</code></pre>
+<h3>2-2. 버핏이 코카콜라에서 발견한 것들</h3>
+<pre><code class="hljs language-markdown">[버핏의 코카콜라 분석 노트 — 재구성]
+
+<span class="hljs-bullet">1.</span> 브랜드 파워 (전 세계 1등 음료 브랜드)
+   ─────────────────────────────────────
+   "코카콜라 공장을 모두 불태워도
+<span class="hljs-code">    Coca-Cola 브랜드와 레시피만 있으면
+    은행에서 돈을 빌려 다시 세울 수 있다"
+   — 버핏의 실제 발언
+</span>
+   정량 지표:
+   • 코카콜라 하루 판매량: 20억 잔+ (전 세계)
+   • 200개국 이상 판매
+   • 경쟁사(Pepsi)가 수십 년 도전해도 1위 유지
+
+<span class="hljs-bullet">2.</span> 소비자 독점 (Consumer Monopoly)
+   ─────────────────────────────────────
+   • 음식점, 극장, 편의점 어디서나 Coke를 파는 이유:
+<span class="hljs-code">     "소비자가 원하기 때문"
+   • 레시피 비밀 유지 100년+
+   • 전 세계 배급 네트워크 → 경쟁사 따라올 수 없음
+</span>
+<span class="hljs-bullet">3.</span> 탁월한 수익성 (ROE 30%+)
+   ─────────────────────────────────────
+   • 코카콜라는 설탕물에 브랜드를 팔아
+<span class="hljs-code">     30%+ ROE를 유지
+   • 자본투자 거의 없이 현금 창출
+   • 매년 배당 증가 (배당 귀족주)
+</span>
+<span class="hljs-bullet">4.</span> 이해하기 쉬운 사업
+   ─────────────────────────────────────
+   버핏의 원칙: "내가 이해하지 못하는 사업엔 투자 안 함"
+   → "음료수 원액을 만들어 병입자에게 팔고
+<span class="hljs-code">      소비자가 마신다" — 완벽히 이해 가능
+</span></code></pre>
+<h3>2-3. 결과 — 바텀업 투자의 완벽한 성공</h3>
+<pre><code class="hljs language-bash">[버핏의 코카콜라 투자 성과]
+
+매수 기간: 1988~1989년
+평균 매수가: 주당 약 <span class="hljs-variable">$5</span>.22 (분할 조정)
+총 투자액: <span class="hljs-variable">$10</span>억 2,300만
+현재 보유 주식 수: 약 4억 주 (버크셔)
+
+2024년 기준:
+  현재 주가: 약 <span class="hljs-variable">$60</span>~65
+  배당 연간 수령액: 약 <span class="hljs-variable">$7</span>억 7,600만 (연간!)
+  투자원금 대비 배당 수익률: 75%/년
+
+가치 증가:
+  1988년: <span class="hljs-variable">$10</span>억 투자
+  2024년: 주식 가치 약 <span class="hljs-variable">$250</span>억+
+  → 36년간 약 24배 수익
+
+핵심 교훈:
+  <span class="hljs-string">"블랙 먼데이 공황"</span> 때 모든 사람이 팔 때,
+  버핏은 <span class="hljs-string">"좋은 기업이 싸게 나왔다"</span>고 판단하고 샀다.
+  바텀업 분석 → 사업 이해 → 공황에도 흔들리지 않는 신념
+</code></pre>
+<blockquote>
+<p><strong>핵심 포인트</strong>: 버핏은 코카콜라를 발굴하기 위해 복잡한 모델을 쓰지 않았다. 매일 마시는 음료수, 세계 어디서나 파는 음료수, 100년 넘은 브랜드 — 이 단순한 관찰에서 시작했다. 바텀업의 본질이다.</p>
+</blockquote>
+<hr>
+<h2>3. Finviz 스크리너 실전 완전 가이드</h2>
+<p>**Finviz(finviz.com)**는 미국 투자자들이 가장 많이 사용하는 무료 주식 스크리닝 도구다.</p>
+<h3>3-1. Finviz 스크리너 접근 방법</h3>
+<pre><code class="hljs language-less"><span class="hljs-selector-attr">[Finviz 화면 구성 — 단계별 사용법]</span>
+
+<span class="hljs-selector-tag">finviz</span><span class="hljs-selector-class">.com</span> 접속
+       │
+       ▼
+상단 메뉴 "<span class="hljs-selector-tag">Screener</span>" 클릭
+       │
+       ▼
+┌──────────────────────────────────────────────────────────┐
+│  탭 선택:                                                  │
+│  <span class="hljs-selector-attr">[Descriptive]</span> <span class="hljs-selector-attr">[Fundamental]</span> <span class="hljs-selector-attr">[Technical]</span> <span class="hljs-selector-attr">[All]</span>            │
+│                                                            │
+│  ┌──────────────────────────────────────────────────┐    │
+│  │  <span class="hljs-selector-tag">Descriptive</span> 탭: 기본 정보 필터                    │    │
+│  │  <span class="hljs-selector-tag">-</span> <span class="hljs-selector-tag">Exchange</span> (NYSE/NASDAQ)                        │    │
+│  │  <span class="hljs-selector-tag">-</span> <span class="hljs-selector-tag">Market</span> <span class="hljs-selector-tag">Cap</span> (Large, Mid, Small...)             │    │
+│  │  <span class="hljs-selector-tag">-</span> <span class="hljs-selector-tag">Sector</span> / <span class="hljs-selector-tag">Industry</span>                             │    │
+│  │  <span class="hljs-selector-tag">-</span> <span class="hljs-selector-tag">Country</span>                                       │    │
+│  └──────────────────────────────────────────────────┘    │
+│                                                            │
+│  ┌──────────────────────────────────────────────────┐    │
+│  │  <span class="hljs-selector-tag">Fundamental</span> 탭: 재무 지표 필터 ← 핵심            │    │
+│  │  <span class="hljs-selector-tag">-</span> <span class="hljs-selector-tag">P</span>/<span class="hljs-selector-tag">E</span>, <span class="hljs-selector-tag">Forward</span> <span class="hljs-selector-tag">P</span>/<span class="hljs-selector-tag">E</span>, <span class="hljs-selector-tag">PEG</span>                        │    │
+│  │  <span class="hljs-selector-tag">-</span> <span class="hljs-selector-tag">EPS</span> <span class="hljs-selector-tag">growth</span> (past <span class="hljs-number">5</span>Y, next <span class="hljs-number">5</span>Y)                │    │
+│  │  <span class="hljs-selector-tag">-</span> <span class="hljs-selector-tag">Debt</span>/<span class="hljs-selector-tag">Equity</span>, <span class="hljs-selector-tag">ROE</span>, <span class="hljs-selector-tag">ROA</span>                        │    │
+│  │  <span class="hljs-selector-tag">-</span> <span class="hljs-selector-tag">Dividend</span> <span class="hljs-selector-tag">Yield</span>, <span class="hljs-selector-tag">Payout</span> <span class="hljs-selector-tag">Ratio</span>                 │    │
+│  └──────────────────────────────────────────────────┘    │
+│                                                            │
+│  ┌──────────────────────────────────────────────────┐    │
+│  │  <span class="hljs-selector-tag">Technical</span> 탭: 기술적 지표 필터                    │    │
+│  │  <span class="hljs-selector-tag">-</span> <span class="hljs-number">52</span>주 고가/저가 대비 위치                        │    │
+│  │  <span class="hljs-selector-tag">-</span> 이동평균선 위치                                 │    │
+│  │  <span class="hljs-selector-tag">-</span> 거래량 변화                                     │    │
+│  └──────────────────────────────────────────────────┘    │
+└──────────────────────────────────────────────────────────┘
+       │
+       ▼
+조건 설정 후 → 결과 테이블 표시
+(무료: <span class="hljs-number">20</span>개씩 표시, Elite 유료: 전체 표시)
+</code></pre>
+<h3>3-2. 실전 필터 세트 A — 성장주 스크리닝</h3>
+<p>빠르게 성장하는 기업을 찾는 필터다.</p>
+<table>
+<thead>
+<tr>
+<th>필터 탭</th>
+<th>항목</th>
+<th>설정값</th>
+<th>이유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Descriptive</td>
+<td>Market Cap</td>
+<td>Large ($10bln+)</td>
+<td>유동성 확보, 소형주 리스크 제거</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>EPS growth next Y</td>
+<td>Over 20%</td>
+<td>내년 이익 성장 전망 강함</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>EPS growth past 5Y</td>
+<td>Over 15%</td>
+<td>과거 5년 성장 일관성</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Sales growth past 5Y</td>
+<td>Over 15%</td>
+<td>이익뿐 아니라 매출도 성장</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Return on Equity</td>
+<td>Over 15%</td>
+<td>자본 효율성 확인</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Debt/Equity</td>
+<td>Under 1</td>
+<td>과도한 부채 기업 제외</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="hljs language-ini"><span class="hljs-section">[성장주 스크리너 예상 결과 (2024년 기준)]</span>
+
+이 필터로 도출될 수 있는 종목 유형:
+  ✓ Nvidia (NVDA)        — AI GPU 독점
+  ✓ Meta (META)          — 광고 매출 폭증
+  ✓ ServiceNow (NOW)     — 기업용 AI 소프트웨어
+  ✓ Eli Lilly (LLY)      — 비만·당뇨 치료제 붐
+  ✓ Booking Holdings     — 여행 수요 회복
+
+필터 URL 예시 (Finviz에서 직접 붙여넣기 가능):
+https://finviz.com/screener.ashx?<span class="hljs-attr">v</span>=<span class="hljs-number">111</span>&#x26;f=cap_large,
+fa_epsyoy_o20,fa_eps5years_o15,fa_sales5years_o15,
+fa_roe_o15,fa_debteq_u1
+</code></pre>
+<h3>3-3. 실전 필터 세트 B — 가치주 스크리닝</h3>
+<p>저평가된 우량 기업을 찾는 필터.</p>
+<table>
+<thead>
+<tr>
+<th>필터 탭</th>
+<th>항목</th>
+<th>설정값</th>
+<th>이유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Descriptive</td>
+<td>Market Cap</td>
+<td>Mid ($2bln) 이상</td>
+<td>일정 규모 이상</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>P/E</td>
+<td>Under 20</td>
+<td>주가/이익 비율 낮음</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Forward P/E</td>
+<td>Under 18</td>
+<td>내년 기준으로도 저평가</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>P/B</td>
+<td>Under 2</td>
+<td>순자산 대비 주가 낮음</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Return on Equity</td>
+<td>Over 15%</td>
+<td>수익성 확인</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Debt/Equity</td>
+<td>Under 0.5</td>
+<td>재무 건전성</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>EPS growth next Y</td>
+<td>Positive</td>
+<td>이익 성장 최소 전망</td>
+</tr>
+</tbody>
+</table>
+<h3>3-4. 실전 필터 세트 C — 배당주 스크리닝</h3>
+<p>안정적인 배당 수입을 목적으로 하는 필터.</p>
+<table>
+<thead>
+<tr>
+<th>필터 탭</th>
+<th>항목</th>
+<th>설정값</th>
+<th>이유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Descriptive</td>
+<td>Market Cap</td>
+<td>Large ($10bln+)</td>
+<td>안정성 최우선</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Dividend Yield</td>
+<td>Over 2%</td>
+<td>최소 배당 수익률 보장</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Payout Ratio</td>
+<td>Under 60%</td>
+<td>배당 지속 가능성 확인</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Return on Equity</td>
+<td>Over 10%</td>
+<td>수익성 최소 기준</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Debt/Equity</td>
+<td>Under 1</td>
+<td>재무 건전성</td>
+</tr>
+<tr>
+<td>Fundamental</td>
+<td>Current Ratio</td>
+<td>Over 1</td>
+<td>단기 유동성 확인</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="hljs language-scss"><span class="hljs-selector-attr">[배당주 스크리너 예상 결과]</span>
+
+  ✓ Johnson &#x26; Johnson (JNJ) — <span class="hljs-number">62</span>년 연속 배당 증가
+  ✓ Procter &#x26; Gamble (PG)   — <span class="hljs-number">67</span>년 연속 배당 증가
+  ✓ Coca-Cola (KO)           — <span class="hljs-number">62</span>년 연속 배당 증가
+  ✓ Realty Income (O)        — 월 배당 지급 REIT
+  ✓ Automatic Data Processing (ADP) — 고품질 배당
+
+배당 귀족주(Dividend Aristocrat) 조건:
+  → S&#x26;P500 구성원 + <span class="hljs-number">25</span>년 이상 연속 배당 증가
+  → 현재 <span class="hljs-number">68</span>개 기업 해당
+</code></pre>
+<h3>3-5. Finviz 히트맵 — 시장 전체 흐름 파악</h3>
+<pre><code class="hljs language-csharp">[<span class="hljs-meta">Finviz 히트맵 활용법</span>]
+
+finviz.com → 상단 <span class="hljs-string">"Maps"</span> 클릭
+
+히트맵 구성:
+┌─────────────────────────────────────────────────────┐
+│                  Finviz Heatmap                     │
+│  IT           Healthcare       Finance              │
+│  ┌──────────┐ ┌──────────┐    ┌──────────┐         │
+│  │ AAPL +<span class="hljs-number">3</span>% │ │ LLY +<span class="hljs-number">2</span>%  │    │ JPM +<span class="hljs-number">1</span>%  │         │
+│  │ (큰 녹색 ) │ │ (녹색)   │    │ (연녹색)  │         │
+│  ├──────────┤ ├──────────┤    ├──────────┤         │
+│  │ NVDA <span class="hljs-number">-2</span>% │ │ JNJ <span class="hljs-number">-0.5</span>%│    │ V +<span class="hljs-number">0.5</span>%  │         │
+│  │ (빨간색)  │ │ (연빨강)  │    │ (연녹색)  │         │
+│  └──────────┘ └──────────┘    └──────────┘         │
+│                                                     │
+│  녹색 = 상승, 빨간색 = 하락, 크기 = 시가총액         │
+└─────────────────────────────────────────────────────┘
+
+활용법:
+  → 오늘 어떤 섹터가 강한가 한눈에 파악
+  → 특정 섹터만 빨갛다면 섹터 이슈 발생
+  → 시장 전체 흐름 <span class="hljs-number">1</span>분 만에 파악 가능
+</code></pre>
+<hr>
+<h2>4. Simply Wall St — 시각적 기업 분석 도구</h2>
+<p>**Simply Wall St(simplywall.st)**는 복잡한 재무 데이터를 시각적으로 표현해주는 서비스다. 숫자에 익숙하지 않은 입문자에게 특히 유용하다.</p>
+<h3>4-1. Simply Wall St 핵심 기능</h3>
+<pre><code class="hljs language-scss"><span class="hljs-selector-attr">[Simply Wall St 주요 기능]</span>
+
+<span class="hljs-number">1</span>. 눈꽃 모양 분석 다이어그램 (Snowflake)
+   ┌─────────────────────────────────────────┐
+   │         ★ Value (밸류에이션)              │
+   │        ╱    ╲                           │
+   │   Future ────── Past                    │
+   │   (성장성)      (과거 실적)              │
+   │        ╲    ╱                           │
+   │         ★ Health                        │
+   │      (재무 건전성)                       │
+   │         │                               │
+   │        Dividends                        │
+   │         (배당)                          │
+   └─────────────────────────────────────────┘
+   → 각 꼭지점이 클수록 해당 영역 우수
+   → 한눈에 기업의 <span class="hljs-number">5</span>개 차원 비교 가능
+
+<span class="hljs-number">2</span>. 공정가치 추정 (Fair Value)
+   → 현재 주가 vs 추정 적정가치 비교
+   → "<span class="hljs-number">20%</span> 저평가", "<span class="hljs-number">35%</span> 고평가" 등 직관적 표시
+
+<span class="hljs-number">3</span>. 위험 요소 자동 체크
+   → 재무 위험 자동 감지
+   → 예: <span class="hljs-string">"부채가 자기자본의 3배"</span>, <span class="hljs-string">"배당 커버리지 낮음"</span>
+
+<span class="hljs-number">4</span>. 경쟁사 자동 비교
+   → 동일 섹터 경쟁사 재무 지표 비교 테이블
+</code></pre>
+<h3>4-2. Simply Wall St 활용 전략</h3>
+<table>
+<thead>
+<tr>
+<th>기능</th>
+<th>활용 방법</th>
+<th>장점</th>
+<th>한계</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Snowflake 다이어그램</td>
+<td>5개 차원 한눈에 비교</td>
+<td>직관적, 초보 친화적</td>
+<td>깊이 부족</td>
+</tr>
+<tr>
+<td>공정가치 추정</td>
+<td>스크리닝 후 빠른 확인</td>
+<td>자동 계산</td>
+<td>DCF 가정 불투명</td>
+</tr>
+<tr>
+<td>위험 요소 체크</td>
+<td>레드플래그 초기 발견</td>
+<td>빠른 스크리닝</td>
+<td>False positive 존재</td>
+</tr>
+<tr>
+<td>경쟁사 비교</td>
+<td>동일 섹터 상대 평가</td>
+<td>빠른 벤치마킹</td>
+<td>섹터 선택이 중요</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>⚠️ 주의사항</strong>: Simply Wall St의 공정가치 추정은 참고용이다. 실제 투자 결정에 맹신하면 안 된다. 어디까지나 "첫 번째 필터"로 활용하고, 반드시 SEC EDGAR 원본 자료로 검증해야 한다.</p>
+</blockquote>
+<hr>
+<h2>5. Seeking Alpha — 심층 분석의 허브</h2>
+<p>**Seeking Alpha(seekingalpha.com)**는 전문 투자자와 애널리스트들이 심층 분석 아티클을 올리는 플랫폼이다.</p>
+<h3>5-1. Seeking Alpha 핵심 콘텐츠</h3>
+<pre><code class="hljs language-markdown">[Seeking Alpha 주요 콘텐츠 유형]
+
+<span class="hljs-bullet">1.</span> 분석 아티클 (Articles)
+   ─────────────────────────────────────────
+   • 전문 기고자(Pro Contributors)가 작성
+   • 종목별 심층 분석
+   • 장기 투자 아이디어 제시
+   무료: 월 10개까지 읽기 가능
+   유료(Premium): 월 $24~$29
+
+<span class="hljs-bullet">2.</span> Quant Rating 시스템
+   ─────────────────────────────────────────
+   • 알고리즘 기반 자동 평가
+   • Valuation / Growth / Profitability /
+<span class="hljs-code">     Momentum / Revision 5개 영역 점수화
+   • Strong Buy / Buy / Hold / Sell / Strong Sell
+</span>
+<span class="hljs-bullet">3.</span> 어닝 분석 &#x26; 트랜스크립트
+   ─────────────────────────────────────────
+   • 실적 발표 후 빠른 요약
+   • 어닝 콜 전체 내용 무료 열람
+   → CEO가 직접 한 말을 읽을 수 있음
+
+<span class="hljs-bullet">4.</span> 배당 분석
+   ─────────────────────────────────────────
+   • 배당 지속 가능성 분석
+   • 배당 히스토리 시각화
+   • 배당 삭감 위험 경고
+</code></pre>
+<h3>5-2. Seeking Alpha Quant Rating 활용법</h3>
+<pre><code class="hljs language-less"><span class="hljs-selector-attr">[Seeking Alpha Quant Rating 해석]</span>
+
+예시: <span class="hljs-selector-tag">Microsoft</span> (MSFT) <span class="hljs-selector-tag">Quant</span> <span class="hljs-selector-tag">Rating</span>
+
+  <span class="hljs-selector-tag">Factor</span>          <span class="hljs-selector-tag">Grade</span>   <span class="hljs-selector-tag">Score</span>  <span class="hljs-selector-tag">S</span><span class="hljs-selector-tag">&#x26;</span><span class="hljs-selector-tag">P500</span> 중앙값 대비
+  ──────────────────────────────────────────────────
+  <span class="hljs-selector-tag">Valuation</span>       <span class="hljs-selector-tag">D</span>+      <span class="hljs-number">2.1</span>    낮음 (고평가)
+  <span class="hljs-selector-tag">Growth</span>          <span class="hljs-selector-tag">A</span>       <span class="hljs-number">4.8</span>    매우 높음
+  <span class="hljs-selector-tag">Profitability</span>   <span class="hljs-selector-tag">A</span>+      <span class="hljs-number">5.0</span>    최상위
+  <span class="hljs-selector-tag">Momentum</span>        <span class="hljs-selector-tag">B</span>+      <span class="hljs-number">4.2</span>    높음
+  <span class="hljs-selector-tag">Revisions</span>       <span class="hljs-selector-tag">A</span><span class="hljs-selector-tag">-</span>      <span class="hljs-number">4.5</span>    높음
+  ──────────────────────────────────────────────────
+  <span class="hljs-selector-tag">Overall</span>:        <span class="hljs-selector-tag">Buy</span> (<span class="hljs-number">4.1</span>/<span class="hljs-number">5</span>)
+
+해석:
+  → 밸류에이션은 비싸지만 (D+)
+  → 성장성, 수익성이 탁월해서 (A+)
+  → 종합 <span class="hljs-selector-tag">Buy</span> 등급
+
+→ <span class="hljs-selector-tag">Valuation</span> 낮음 = 이미 비쌈 → 매수 타이밍 주의
+→ <span class="hljs-selector-tag">Profitability</span> <span class="hljs-selector-tag">A</span>+ = 사업 자체는 탁월
+</code></pre>
+<h3>5-3. Seeking Alpha 무료 vs 유료 비교</h3>
+<table>
+<thead>
+<tr>
+<th>기능</th>
+<th>무료</th>
+<th>프리미엄 ($24/월)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>아티클 읽기</td>
+<td>월 10개</td>
+<td>무제한</td>
+</tr>
+<tr>
+<td>Quant Rating</td>
+<td>기본</td>
+<td>상세 + 필터링</td>
+</tr>
+<tr>
+<td>어닝 트랜스크립트</td>
+<td>무료</td>
+<td>무료</td>
+</tr>
+<tr>
+<td>포트폴리오 추적</td>
+<td>제한적</td>
+<td>전체</td>
+</tr>
+<tr>
+<td>뉴스 알림</td>
+<td>기본</td>
+<td>고급 필터</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>6. Motley Fool — 장기 성장주 발굴의 보고</h2>
+<p>**Motley Fool(fool.com)**은 장기 성장주 투자에 특화된 투자 미디어다. 창업자 Tom Gardner와 David Gardner가 1993년 설립했다.</p>
+<h3>6-1. Motley Fool 주요 서비스</h3>
+<pre><code class="hljs language-bash">[Motley Fool 서비스 라인업]
+
+1. Stock Advisor (유료, 연 <span class="hljs-variable">$199</span>)
+   ─────────────────────────────────────────
+   • 매월 2개의 <span class="hljs-string">"Best Buy"</span> 종목 추천
+   • 누적 수익률: 창립 이래 S&#x26;P500 대비 4~5배 이상 성과
+   • 대표 추천 종목: Netflix(2004), Amazon(2002), Tesla(2012)
+
+   성과 예시:
+   • Amazon 2002년 추천 (<span class="hljs-variable">$15</span>) → 2024년 <span class="hljs-variable">$185</span>+ → 12배+
+   • Netflix 2004년 추천 (<span class="hljs-variable">$3</span>) → 2024년 <span class="hljs-variable">$650</span>+ → 200배+
+
+2. 무료 콘텐츠 (fool.com)
+   ─────────────────────────────────────────
+   • 일간 종목 분석 기사
+   • <span class="hljs-string">"Why I Bought [종목명]"</span> 시리즈
+   • 기업 실적 요약
+   • 초보자 투자 교육
+
+3. Rule Breakers (유료)
+   ─────────────────────────────────────────
+   • 고성장·파괴적 혁신 기업 발굴 특화
+   • 더 높은 위험, 더 높은 수익 추구
+</code></pre>
+<h3>6-2. Motley Fool 활용 전략 (무료)</h3>
+<pre><code class="hljs language-makefile">[Motley Fool 무료 활용 방법]
+
+<span class="hljs-section">1단계: fool.com 접속</span>
+   → 검색창에 관심 종목명 입력 (예: <span class="hljs-string">"Apple"</span>)
+
+<span class="hljs-section">2단계: 최신 분석 기사 읽기</span>
+   → <span class="hljs-string">"Is Apple Stock a Buy Right Now?"</span> 류의 기사
+   → 작성자의 주요 논리와 리스크 파악
+
+<span class="hljs-section">3단계: 커뮤니티 Discussion 확인</span>
+   → 다른 투자자들의 의견 교차 검증
+
+<span class="hljs-section">4단계: "5 Companies..." 시리즈 참고</span>
+   → <span class="hljs-string">"Top 5 AI Stocks to Buy Now"</span> 등
+   → 아이디어 발굴용으로만 활용
+   → ⚠️ 무조건 따르지 말고 자체 분석 필수
+
+핵심 활용법:
+  Motley Fool = 아이디어 발굴의 도구
+  자체 분석 = 반드시 직접 수행해야 함
+</code></pre>
+<hr>
+<h2>7. SEC EDGAR에서 10-K 찾는 법 (단계별)</h2>
+<p><strong>10-K</strong>는 미국 기업이 매년 SEC(증권거래위원회)에 제출하는 연간 보고서다.</p>
+<h3>7-1. EDGAR 실전 가이드</h3>
+<pre><code class="hljs language-vbnet">[Apple(AAPL) <span class="hljs-number">10</span>-K 찾는 실전 과정]
+
+<span class="hljs-keyword">Step</span> <span class="hljs-number">1</span>. sec.gov/edgar 접속
+
+<span class="hljs-keyword">Step</span> <span class="hljs-number">2</span>. 회사 검색
+   → <span class="hljs-string">"Company Search"</span> → <span class="hljs-string">"Apple Inc"</span> 입력
+   → CIK 번호로 검색 (Apple CIK: <span class="hljs-number">0000320193</span>)
+
+<span class="hljs-keyword">Step</span> <span class="hljs-number">3</span>. 공시 필터링
+   ┌────────────────────────────────────────────┐
+   │ Filing Type: <span class="hljs-string">"10-K"</span> 입력 후 Search 클릭    │
+   │ → 연도별 <span class="hljs-number">10</span>-K 목록 표시                    │
+   └────────────────────────────────────────────┘
+
+<span class="hljs-keyword">Step</span> <span class="hljs-number">4</span>. 최신 <span class="hljs-number">10</span>-K 열기
+   → 가장 최근 날짜 <span class="hljs-number">10</span>-K 클릭
+   → Documents 탭 → <span class="hljs-string">"10-K"</span> 링크 클릭
+
+<span class="hljs-keyword">Step</span> <span class="hljs-number">5</span>. 핵심 섹션 찾기
+   ┌────────────────────────────────────────────┐
+   │ Item <span class="hljs-number">1</span>.   Business        → 사업 개요      │
+   │ Item <span class="hljs-number">1</span>A.  Risk Factors    → 위험 요소      │
+   │ Item <span class="hljs-number">7</span>.   MD&#x26;A            → 경영진 분석    │
+   │ Item <span class="hljs-number">8</span>.   Financial Stmts → 재무제표       │
+   └────────────────────────────────────────────┘
+</code></pre>
+<h3>7-2. 10-K에서 반드시 읽어야 할 섹션</h3>
+<table>
+<thead>
+<tr>
+<th>섹션</th>
+<th>내용</th>
+<th>읽는 이유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Item 1. Business</td>
+<td>사업 구조, 주요 제품, 시장</td>
+<td>기업이 무엇으로 돈 버는지 파악</td>
+</tr>
+<tr>
+<td>Item 1A. Risk Factors</td>
+<td>회사가 인정하는 위험</td>
+<td>최악 시나리오 파악</td>
+</tr>
+<tr>
+<td>Item 7. MD&#x26;A</td>
+<td>경영진의 재무 결과 설명</td>
+<td>숫자의 이유를 직접 설명</td>
+</tr>
+<tr>
+<td>Item 8. Financial Statements</td>
+<td>손익·대차대조표·현금흐름</td>
+<td>실제 재무 성과 확인</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>8. 실전 시뮬레이션 — Apple을 발굴하는 전 과정</h2>
+<p>이 편에서 배운 모든 내용을 Apple(AAPL)을 예시로 실전 적용해 본다.</p>
+<pre><code class="hljs language-yaml">[<span class="hljs-string">AAPL</span> <span class="hljs-string">종목</span> <span class="hljs-string">발굴</span> <span class="hljs-string">→</span> <span class="hljs-string">워치리스트</span> <span class="hljs-string">등록</span> <span class="hljs-string">전</span> <span class="hljs-string">과정</span>]
+
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-string">Step</span> <span class="hljs-number">1</span><span class="hljs-string">.</span> <span class="hljs-string">발굴</span> <span class="hljs-string">(바텀업</span> <span class="hljs-string">+</span> <span class="hljs-string">탑다운</span> <span class="hljs-string">결합)</span>
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-string">바텀업:</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">iPhone,</span> <span class="hljs-string">AirPods,</span> <span class="hljs-string">Apple</span> <span class="hljs-string">Watch를</span> <span class="hljs-string">매일</span> <span class="hljs-string">사용</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">앱스토어,</span> <span class="hljs-string">애플뮤직,</span> <span class="hljs-string">iCloud</span> <span class="hljs-string">구독</span> <span class="hljs-string">중</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">"이 서비스 없으면 불편하겠다"</span> <span class="hljs-string">→</span> <span class="hljs-string">관심</span> <span class="hljs-string">발생</span>
+
+<span class="hljs-string">탑다운</span> <span class="hljs-string">검증:</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">IT</span> <span class="hljs-string">섹터:</span> <span class="hljs-string">AI</span> <span class="hljs-string">시대에도</span> <span class="hljs-string">소프트웨어</span> <span class="hljs-string">마진</span> <span class="hljs-string">유리</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">서비스</span> <span class="hljs-string">경제</span> <span class="hljs-string">성장:</span> <span class="hljs-string">앱스토어·구독</span> <span class="hljs-string">서비스</span> <span class="hljs-string">확장</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">결론:</span> <span class="hljs-string">탑다운으로도</span> <span class="hljs-string">IT</span> <span class="hljs-string">섹터</span> <span class="hljs-string">우호적</span> <span class="hljs-string">환경</span> <span class="hljs-string">확인</span>
+
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-string">Step</span> <span class="hljs-number">2</span><span class="hljs-string">.</span> <span class="hljs-string">Finviz</span> <span class="hljs-string">스크리닝</span> <span class="hljs-string">검증</span>
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-string">finviz.com/quote.ashx?t=AAPL</span> <span class="hljs-string">에서</span> <span class="hljs-string">확인:</span>
+
+  <span class="hljs-attr">Market Cap:</span> <span class="hljs-string">$2.8T</span> <span class="hljs-string">(Mega</span> <span class="hljs-string">cap)</span> <span class="hljs-string">✓</span>
+  <span class="hljs-attr">P/E:</span> <span class="hljs-number">29</span><span class="hljs-string">배</span> <span class="hljs-string">(IT섹터</span> <span class="hljs-string">평균</span> <span class="hljs-string">대비</span> <span class="hljs-string">적정)</span>
+  <span class="hljs-attr">Forward P/E:</span> <span class="hljs-number">27</span><span class="hljs-string">배</span> <span class="hljs-string">(약간</span> <span class="hljs-string">하락</span> <span class="hljs-string">전망)</span>
+  <span class="hljs-attr">EPS Growth next 5Y:</span> <span class="hljs-number">10</span><span class="hljs-string">%</span> <span class="hljs-string">(안정</span> <span class="hljs-string">성장)</span>
+  <span class="hljs-attr">ROE:</span> <span class="hljs-number">160</span><span class="hljs-string">%+</span> <span class="hljs-string">(자사주</span> <span class="hljs-string">매입으로</span> <span class="hljs-string">극도로</span> <span class="hljs-string">높음)</span>
+  <span class="hljs-attr">Debt/Equity:</span> <span class="hljs-number">1.8</span> <span class="hljs-string">(다소</span> <span class="hljs-string">높지만</span> <span class="hljs-string">현금흐름</span> <span class="hljs-string">강함)</span>
+  <span class="hljs-attr">Analyst Rating:</span> <span class="hljs-string">Buy</span> <span class="hljs-string">다수,</span> <span class="hljs-string">목표가</span> <span class="hljs-string">$200~250</span>
+
+<span class="hljs-string">필터</span> <span class="hljs-string">통과</span> <span class="hljs-string">여부:</span>
+  <span class="hljs-string">성장주</span> <span class="hljs-string">필터:</span> <span class="hljs-string">EPS</span> <span class="hljs-string">성장률이</span> <span class="hljs-number">20</span><span class="hljs-string">%</span> <span class="hljs-string">미만</span> <span class="hljs-string">→</span> <span class="hljs-string">고성장주</span> <span class="hljs-string">아님</span>
+  <span class="hljs-string">가치주</span> <span class="hljs-string">필터:</span> <span class="hljs-string">P/E</span> <span class="hljs-number">29</span><span class="hljs-string">배</span> <span class="hljs-string">→</span> <span class="hljs-string">저평가</span> <span class="hljs-string">아님</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">Apple은</span> <span class="hljs-string">"안정 성장 + 프리미엄 밸류"</span> <span class="hljs-string">성격</span>
+
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-string">Step</span> <span class="hljs-number">3</span><span class="hljs-string">.</span> <span class="hljs-string">Simply</span> <span class="hljs-string">Wall</span> <span class="hljs-string">St</span> <span class="hljs-string">빠른</span> <span class="hljs-string">확인</span>
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+  <span class="hljs-attr">Snowflake:</span>
+    <span class="hljs-attr">Value:</span>        <span class="hljs-string">●●○○○</span> <span class="hljs-string">(고평가</span> <span class="hljs-string">경고)</span>
+    <span class="hljs-attr">Future:</span>       <span class="hljs-string">●●●○○</span> <span class="hljs-string">(적정</span> <span class="hljs-string">성장</span> <span class="hljs-string">전망)</span>
+    <span class="hljs-attr">Past:</span>         <span class="hljs-string">●●●●○</span> <span class="hljs-string">(강한</span> <span class="hljs-string">과거</span> <span class="hljs-string">실적)</span>
+    <span class="hljs-attr">Health:</span>       <span class="hljs-string">●●●●●</span> <span class="hljs-string">(재무</span> <span class="hljs-string">건전성</span> <span class="hljs-string">우수)</span>
+    <span class="hljs-attr">Dividends:</span>    <span class="hljs-string">●●○○○</span> <span class="hljs-string">(배당</span> <span class="hljs-string">낮음)</span>
+
+  <span class="hljs-string">공정가치</span> <span class="hljs-string">추정:</span> <span class="hljs-string">$148~162</span> <span class="hljs-string">(현재가</span> <span class="hljs-string">$185</span> <span class="hljs-string">대비</span> <span class="hljs-string">고평가)</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">완전</span> <span class="hljs-string">가치</span> <span class="hljs-string">반영,</span> <span class="hljs-string">할인</span> <span class="hljs-string">매수</span> <span class="hljs-string">기회</span> <span class="hljs-string">아님</span>
+
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-string">Step</span> <span class="hljs-number">4</span><span class="hljs-string">.</span> <span class="hljs-string">SEC</span> <span class="hljs-string">EDGAR</span> <span class="hljs-string">원본</span> <span class="hljs-string">확인</span>
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-number">10</span><span class="hljs-string">-K</span> <span class="hljs-string">핵심</span> <span class="hljs-string">내용:</span>
+  <span class="hljs-attr">Item 1. Business:</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">Services</span> <span class="hljs-string">매출</span> <span class="hljs-string">비중:</span> <span class="hljs-number">22</span><span class="hljs-string">%+</span> <span class="hljs-string">(꾸준히</span> <span class="hljs-string">증가</span> <span class="hljs-string">중)</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">Services</span> <span class="hljs-string">마진:</span> <span class="hljs-number">70</span><span class="hljs-string">%+</span> <span class="hljs-string">(iPhone</span> <span class="hljs-string">마진</span> <span class="hljs-number">46</span><span class="hljs-string">%보다</span> <span class="hljs-string">높음)</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">자사주</span> <span class="hljs-string">매입:</span> <span class="hljs-string">연간</span> <span class="hljs-string">$90B+</span> <span class="hljs-string">(주주</span> <span class="hljs-string">환원</span> <span class="hljs-string">강력)</span>
+
+  <span class="hljs-attr">Item 1A. Risk Factors:</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">중국</span> <span class="hljs-string">의존도:</span> <span class="hljs-string">매출</span> <span class="hljs-number">19</span><span class="hljs-string">%,</span> <span class="hljs-string">생산</span> <span class="hljs-string">대부분</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">규제</span> <span class="hljs-string">리스크:</span> <span class="hljs-string">앱스토어</span> <span class="hljs-string">독점</span> <span class="hljs-string">조사</span> <span class="hljs-string">(EU,</span> <span class="hljs-string">미국)</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">iPhone</span> <span class="hljs-string">교체</span> <span class="hljs-string">주기</span> <span class="hljs-string">증가</span> <span class="hljs-string">가능성</span>
+
+  <span class="hljs-string">Item</span> <span class="hljs-number">7</span><span class="hljs-string">.</span> <span class="hljs-string">MD&#x26;A:</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">"서비스 부문이 회사 성장의 핵심 동력"</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">설치</span> <span class="hljs-string">기반</span> <span class="hljs-number">22</span><span class="hljs-string">억</span> <span class="hljs-string">개</span> <span class="hljs-string">기기</span> <span class="hljs-string">→</span> <span class="hljs-string">서비스</span> <span class="hljs-string">monetization</span> <span class="hljs-string">확장</span>
+
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-string">Step</span> <span class="hljs-number">5</span><span class="hljs-string">.</span> <span class="hljs-string">Seeking</span> <span class="hljs-string">Alpha</span> <span class="hljs-string">검토</span>
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+  <span class="hljs-attr">Quant Rating:</span>
+    <span class="hljs-attr">Valuation:</span>    <span class="hljs-string">C</span> <span class="hljs-string">(다소</span> <span class="hljs-string">고평가)</span>
+    <span class="hljs-attr">Growth:</span>       <span class="hljs-string">B+</span> <span class="hljs-string">(적정</span> <span class="hljs-string">성장)</span>
+    <span class="hljs-attr">Profitability:</span> <span class="hljs-string">A+</span> <span class="hljs-string">(최상위)</span>
+    <span class="hljs-attr">Overall:</span>      <span class="hljs-string">Hold/Mild</span> <span class="hljs-string">Buy</span>
+
+  <span class="hljs-string">주요</span> <span class="hljs-string">아티클</span> <span class="hljs-string">논지:</span>
+    <span class="hljs-string">Bull</span> <span class="hljs-string">케이스:</span> <span class="hljs-string">"서비스 매출 성장이 iPhone 둔화 상쇄"</span>
+    <span class="hljs-string">Bear</span> <span class="hljs-string">케이스:</span> <span class="hljs-string">"중국 경쟁 심화, AI 경쟁력 의문"</span>
+
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-string">Step</span> <span class="hljs-number">6</span><span class="hljs-string">.</span> <span class="hljs-string">레드플래그</span> <span class="hljs-string">체크</span> <span class="hljs-string">(아래</span> <span class="hljs-string">섹션</span> <span class="hljs-string">참고)</span>
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+  <span class="hljs-string">레드플래그</span> <span class="hljs-number">10</span><span class="hljs-string">개</span> <span class="hljs-string">항목</span> <span class="hljs-string">대조:</span>
+    <span class="hljs-string">✓</span> <span class="hljs-string">이익</span> <span class="hljs-string">성장은</span> <span class="hljs-string">유지</span> <span class="hljs-string">(매출</span> <span class="hljs-string">성장과</span> <span class="hljs-string">이익</span> <span class="hljs-string">성장</span> <span class="hljs-string">일치)</span>
+    <span class="hljs-string">✓</span> <span class="hljs-string">부채는</span> <span class="hljs-string">관리</span> <span class="hljs-string">범위</span> <span class="hljs-string">내</span>
+    <span class="hljs-string">⚠️</span> <span class="hljs-string">중국</span> <span class="hljs-string">의존도</span> <span class="hljs-string">주의</span> <span class="hljs-string">(Risk</span> <span class="hljs-string">Factor</span> <span class="hljs-string">확인)</span>
+    <span class="hljs-string">✓</span> <span class="hljs-string">경영진</span> <span class="hljs-string">안정적</span> <span class="hljs-string">(Tim</span> <span class="hljs-string">Cook</span> <span class="hljs-string">장기</span> <span class="hljs-string">재임)</span>
+
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span class="hljs-string">Step</span> <span class="hljs-number">7</span><span class="hljs-string">.</span> <span class="hljs-string">워치리스트</span> <span class="hljs-string">등록</span>
+<span class="hljs-string">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+  <span class="hljs-string">투자</span> <span class="hljs-string">이유:</span>
+    <span class="hljs-number">1</span><span class="hljs-string">.</span> <span class="hljs-string">서비스</span> <span class="hljs-string">매출</span> <span class="hljs-string">연간</span> <span class="hljs-number">10</span><span class="hljs-string">~15%</span> <span class="hljs-string">성장</span>
+    <span class="hljs-number">2</span><span class="hljs-string">.</span> <span class="hljs-number">22</span><span class="hljs-string">억</span> <span class="hljs-string">기기</span> <span class="hljs-string">생태계</span> <span class="hljs-string">—</span> <span class="hljs-string">이탈</span> <span class="hljs-string">불가</span> <span class="hljs-string">해자</span>
+    <span class="hljs-number">3</span><span class="hljs-string">.</span> <span class="hljs-string">연간</span> <span class="hljs-string">$90B+</span> <span class="hljs-string">자사주</span> <span class="hljs-string">매입으로</span> <span class="hljs-string">EPS</span> <span class="hljs-string">지속</span> <span class="hljs-string">증가</span>
+    <span class="hljs-number">4</span><span class="hljs-string">.</span> <span class="hljs-string">현금</span> <span class="hljs-string">보유</span> <span class="hljs-string">$160B+</span> <span class="hljs-string">—</span> <span class="hljs-string">재무</span> <span class="hljs-string">방어력</span> <span class="hljs-string">최강</span>
+
+  <span class="hljs-string">주요</span> <span class="hljs-string">리스크:</span>
+    <span class="hljs-number">1</span><span class="hljs-string">.</span> <span class="hljs-string">중국</span> <span class="hljs-string">매출</span> <span class="hljs-string">비중</span> <span class="hljs-number">19</span><span class="hljs-string">%</span> <span class="hljs-string">(지정학</span> <span class="hljs-string">리스크)</span>
+    <span class="hljs-number">2</span><span class="hljs-string">.</span> <span class="hljs-string">AI</span> <span class="hljs-string">시대</span> <span class="hljs-string">경쟁력</span> <span class="hljs-string">—</span> <span class="hljs-string">Siri</span> <span class="hljs-string">vs</span> <span class="hljs-string">ChatGPT</span>
+    <span class="hljs-number">3</span><span class="hljs-string">.</span> <span class="hljs-string">앱스토어</span> <span class="hljs-string">규제로</span> <span class="hljs-string">수수료</span> <span class="hljs-string">수입</span> <span class="hljs-string">압박</span>
+
+  <span class="hljs-string">매수</span> <span class="hljs-string">기준:</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">P/E</span> <span class="hljs-number">24</span><span class="hljs-string">배</span> <span class="hljs-string">이하</span> <span class="hljs-string">($155~160</span> <span class="hljs-string">수준)</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">또는</span> <span class="hljs-number">200</span><span class="hljs-string">일</span> <span class="hljs-string">이동평균</span> <span class="hljs-string">하향</span> <span class="hljs-string">돌파</span> <span class="hljs-string">시</span> <span class="hljs-string">분할</span> <span class="hljs-string">매수</span>
+    <span class="hljs-string">→</span> <span class="hljs-string">서비스</span> <span class="hljs-string">매출</span> <span class="hljs-string">성장</span> <span class="hljs-string">둔화</span> <span class="hljs-string">시</span> <span class="hljs-string">투자</span> <span class="hljs-string">이유</span> <span class="hljs-string">재검토</span>
+</code></pre>
+<hr>
+<h2>9. 나쁜 종목 피하는 방법 — 레드플래그 10가지</h2>
+<p>아무리 좋아 보이는 종목도 이 10가지 레드플래그 중 하나라도 해당된다면 각별히 주의해야 한다.</p>
+<pre><code class="hljs language-graphql"><span class="hljs-punctuation">[</span>레드플래그 <span class="hljs-number">10</span>가지 체크리스트<span class="hljs-punctuation">]</span>
+
+레드플래그 <span class="hljs-comment">#1: 이익은 나는데 현금흐름이 없다</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> 영업현금흐름 vs 순이익 비교
+  이유<span class="hljs-punctuation">:</span> 이익 조작 가능성 <span class="hljs-punctuation">(</span>회계 트릭<span class="hljs-punctuation">)</span>
+  예시<span class="hljs-punctuation">:</span> Enron 스캔들 — 장부 이익은 있었지만 현금 없음
+  기준<span class="hljs-punctuation">:</span> 영업현금흐름이 순이익의 <span class="hljs-number">70</span>% 미만이면 주의
+
+레드플래그 <span class="hljs-comment">#2: 매출은 늘어도 이익률이 계속 하락</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> <span class="hljs-number">3</span>~<span class="hljs-number">5</span>년 영업이익률 추세
+  이유<span class="hljs-punctuation">:</span> 경쟁 심화로 가격 결정력 상실 중
+  예시<span class="hljs-punctuation">:</span> 전통 리테일 기업들 — 아마존에 밀려 마진 붕괴
+
+레드플래그 <span class="hljs-comment">#3: 부채가 EBITDA의 5배 이상</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> Debt/EBITDA 비율
+  이유<span class="hljs-punctuation">:</span> 금리 상승 시 이자 비용 급증 → 이익 잠식
+  예외<span class="hljs-punctuation">:</span> 유틸리티, 부동산<span class="hljs-punctuation">(</span>REIT<span class="hljs-punctuation">)</span>은 높아도 정상
+
+레드플래그 <span class="hljs-comment">#4: CEO/임원들이 주식을 대량 매도 중</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> SEC EDGAR의 Form <span class="hljs-number">4</span> <span class="hljs-punctuation">(</span>내부자 거래 공시<span class="hljs-punctuation">)</span>
+  이유<span class="hljs-punctuation">:</span> 본인 회사를 가장 잘 아는 사람이 팔고 있음
+  참고<span class="hljs-punctuation">:</span> 일부 매도는 세금·다양화 목적으로 정상
+       <span class="hljs-string">"모든 임원이 동시에 대량 매도"</span>가 위험 신호
+
+레드플래그 <span class="hljs-comment">#5: 경영진이 자주 바뀐다</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> CEO/CFO 재직 기간
+  이유<span class="hljs-punctuation">:</span> 내부 문제 또는 방향성 혼란 신호
+  예시<span class="hljs-punctuation">:</span> <span class="hljs-number">3</span>년간 CFO가 <span class="hljs-number">3</span>번 바뀐 기업은 경계
+
+레드플래그 <span class="hljs-comment">#6: 감사인 의견에 "의문사항" 또는 "비적정"</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> <span class="hljs-number">10</span>-K의 Independent Auditor's Report
+  이유<span class="hljs-punctuation">:</span> 회계법인이 재무제표 신뢰성에 의구심 표명
+  기준<span class="hljs-punctuation">:</span> <span class="hljs-string">"Going Concern"</span> <span class="hljs-punctuation">(</span>계속기업 의문<span class="hljs-punctuation">)</span> <span class="hljs-punctuation">=</span> 즉시 주의
+
+레드플래그 <span class="hljs-comment">#7: 특허·소송이 지나치게 많다</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> <span class="hljs-number">10</span>-K Item <span class="hljs-number">3</span>. Legal Proceedings
+  이유<span class="hljs-punctuation">:</span> 거대 소송 패소 시 수십억 달러 손해 배상 가능
+  예시<span class="hljs-punctuation">:</span> 오피오이드 소송 → J&#x26;J에 <span class="hljs-variable">$5B</span>+ 합의 비용
+
+레드플래그 <span class="hljs-comment">#8: 매출 집중도 — 고객 1~2곳에 50%+ 의존</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> <span class="hljs-number">10</span>-K의 고객 집중도 공시
+  이유<span class="hljs-punctuation">:</span> 핵심 고객 이탈 시 매출 급락
+  예시<span class="hljs-punctuation">:</span> Apple 공급업체 중 일부 — Apple 의존도 <span class="hljs-number">70</span>%+
+
+레드플래그 <span class="hljs-comment">#9: 희석 주식 수가 빠르게 늘어난다</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> Shares Outstanding <span class="hljs-number">3</span>년 추세
+  이유<span class="hljs-punctuation">:</span> 스톡옵션 남발, 유상증자 반복 → 기존 주주 희석
+  기준<span class="hljs-punctuation">:</span> 연간 <span class="hljs-number">3</span>% 이상 주식 수 증가면 주의
+  비교<span class="hljs-punctuation">:</span> Apple은 자사주 매입으로 주식 수 매년 감소
+
+레드플래그 <span class="hljs-comment">#10: 산업 자체가 기술에 의해 대체되고 있다</span>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  확인<span class="hljs-punctuation">:</span> 산업 내 구조적 변화 뉴스, 경쟁사 분석
+  이유<span class="hljs-punctuation">:</span> 기업이 아무리 잘해도 산업이 사라지면 끝
+  예시<span class="hljs-punctuation">:</span>
+    • 신문사 → 디지털 미디어에 의해 소멸
+    • 비디오 대여점 <span class="hljs-punctuation">(</span>Blockbuster<span class="hljs-punctuation">)</span> → Netflix에 의해 소멸
+    • 필름 카메라 → 디지털에 의해 소멸
+  질문<span class="hljs-punctuation">:</span> <span class="hljs-string">"이 사업은 10년 뒤에도 존재하는가?"</span>
+</code></pre>
+<blockquote>
+<p><strong>⚠️ 주의사항</strong>: 레드플래그가 하나 있다고 즉시 "나쁜 종목"은 아니다. 그러나 3개 이상이 동시에 나타난다면 매우 신중하게 접근해야 한다.</p>
+</blockquote>
+<hr>
+<h2>10. 정보 소스 플랫폼 완전 비교</h2>
+<table>
+<thead>
+<tr>
+<th>플랫폼</th>
+<th>유료 여부</th>
+<th>주요 용도</th>
+<th>강점</th>
+<th>약점</th>
+<th>추천 사용 시점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Finviz</strong></td>
+<td>무료 (Elite 유료)</td>
+<td>스크리닝, 히트맵</td>
+<td>강력한 스크리너</td>
+<td>실시간 데이터 유료</td>
+<td>종목 후보군 추출</td>
+</tr>
+<tr>
+<td><strong>Yahoo Finance</strong></td>
+<td>무료</td>
+<td>재무제표, 뉴스</td>
+<td>통합 정보, 편리</td>
+<td>심층 분석 부족</td>
+<td>기본 정보 확인</td>
+</tr>
+<tr>
+<td><strong>Simply Wall St</strong></td>
+<td>부분 무료</td>
+<td>시각적 기업 분석</td>
+<td>직관적, 초보 친화</td>
+<td>공정가치 신뢰도</td>
+<td>빠른 1차 스크리닝</td>
+</tr>
+<tr>
+<td><strong>Seeking Alpha</strong></td>
+<td>부분 유료</td>
+<td>심층 분석 아티클</td>
+<td>전문가 의견 다양</td>
+<td>유료 콘텐츠 많음</td>
+<td>투자 논리 검증</td>
+</tr>
+<tr>
+<td><strong>Motley Fool</strong></td>
+<td>부분 유료</td>
+<td>장기 성장주 발굴</td>
+<td>성장주 아이디어</td>
+<td>편향된 낙관주의</td>
+<td>아이디어 발굴</td>
+</tr>
+<tr>
+<td><strong>SEC EDGAR</strong></td>
+<td>완전 무료</td>
+<td>공식 공시 (10-K)</td>
+<td>가장 정확한 1차 자료</td>
+<td>읽기 어려움</td>
+<td>최종 검증</td>
+</tr>
+<tr>
+<td><strong>Macrotrends</strong></td>
+<td>무료</td>
+<td>장기 재무 데이터</td>
+<td>20년+ 히스토리</td>
+<td>최신 뉴스 없음</td>
+<td>장기 추세 확인</td>
+</tr>
+<tr>
+<td><strong>TradingView</strong></td>
+<td>부분 무료</td>
+<td>차트 분석</td>
+<td>강력한 차트 도구</td>
+<td>기본 분석 약함</td>
+<td>매수 타이밍 확인</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>11. 워치리스트 관리 실전 템플릿</h2>
+<pre><code class="hljs language-bash">[워치리스트 관리 항목]
+
+종목     티커  현재가  매수기준  투자이유       주요리스크        상태
+───────────────────────────────────────────────────────────────────
+Apple    AAPL  <span class="hljs-variable">$185</span>   <span class="hljs-variable">$160</span>     서비스 성장     중국 리스크       관찰중
+Microsoft MSFT <span class="hljs-variable">$415</span>   <span class="hljs-variable">$380</span>     Azure 성장      클라우드 경쟁     관찰중
+Nvidia   NVDA  <span class="hljs-variable">$135</span>   <span class="hljs-variable">$115</span>     AI GPU 독점     고밸류에이션      매수검토
+Alphabet GOOGL <span class="hljs-variable">$175</span>   <span class="hljs-variable">$160</span>     검색 독점       AI대체 위협       관찰중
+Amazon   AMZN  <span class="hljs-variable">$200</span>   <span class="hljs-variable">$185</span>     AWS+광고 성장   규제리스크        관찰중
+</code></pre>
+<h3>11-1. 주간 워치리스트 관리 루틴</h3>
+<pre><code class="hljs language-markdown">[매주 일요일 저녁 30분 루틴]
+
+□ 1. 워치리스트 종목 가격 확인
+<span class="hljs-code">     → 매수 기준 가격에 근접했나?
+</span>
+□ 2. 뉴스 스캔 (Yahoo Finance / Seeking Alpha)
+<span class="hljs-code">     → 워치리스트 종목 관련 주요 뉴스
+</span>
+□ 3. 어닝 캘린더 확인
+<span class="hljs-code">     → 이번 주 실적 발표 종목?
+</span>
+□ 4. 레드플래그 재체크
+<span class="hljs-code">     → 최근 10-K/10-Q에서 변화 있나?
+</span>
+□ 5. 투자 이유 재검토
+<span class="hljs-code">     → 처음 워치리스트에 넣은 이유가 유효한가?
+</span></code></pre>
+<hr>
+<h2>12. 정리 — 종목 발굴 워크플로우 요약</h2>
+<pre><code class="hljs language-scss"><span class="hljs-selector-attr">[종목 발굴 전체 플로우 최종 정리]</span>
+
+탑다운                      바텀업
+매크로 → 섹터 → 종목        일상 → 기업 → 분석
+      ↘                   ↙
+      후보 종목 <span class="hljs-number">20</span>~<span class="hljs-number">30</span>개 추출
+              │
+              ▼
+      Finviz 스크리닝
+      (재무 기준 필터링)
+              │
+              ▼
+      Simply Wall St 빠른 확인
+      (Snowflake 시각화, 공정가치)
+              │
+              ▼
+      Seeking Alpha / Motley Fool
+      (투자 논리 및 리스크 검증)
+              │
+              ▼
+      Yahoo Finance 기본 확인
+      (재무 요약, 뉴스, 어닝 캘린더)
+              │
+              ▼
+      SEC EDGAR 원본 확인
+      (<span class="hljs-number">10</span>-K, Risk Factors, MD&#x26;A)
+              │
+              ▼
+      레드플래그 <span class="hljs-number">10</span>개 체크
+              │
+              ▼
+      워치리스트 등록
+      (투자이유 · 리스크 · 매수기준 문서화)
+              │
+              ▼
+      매수 기준 충족 대기
+      (인내가 핵심)
+</code></pre>
+<p>종목을 찾는 것보다 중요한 것은 <strong>왜 그 종목을 사는지</strong> 명확히 아는 것이다. 투자 이유가 명확해야 주가 하락 시 흔들리지 않고, 매도 시점도 결정할 수 있다.</p>
+<p>다음 편에서는 찾은 종목을 실제로 분석하는 <strong>재무제표 읽는 법</strong>을 다룬다.</p>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"미국 주식 투자 입문 (3) — 투자할 미국 기업 찾기: 실전 완전 가이드"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"미국 주식 투자 입문 (3) — 투자할 미국 기업 찾기: 실전 완전 가이드 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

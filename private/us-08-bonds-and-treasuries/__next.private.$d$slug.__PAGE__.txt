@@ -1,0 +1,1096 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:Td161,<h1>미국 국채와 채권 ETF: 안전자산으로 포트폴리오 지키기</h1>
+<p>주식 투자에 익숙해지면 한 가지 의문이 생깁니다. "주식만 사면 되는 거 아닌가?" 하지만 베테랑 투자자들은 반드시 채권을 섞습니다. 왜 그럴까요? 이번 편에서는 채권의 기초부터 역수익률 곡선, 신용 스프레드, 실전 ETF 활용까지 완전히 정리합니다.</p>
+<hr>
+<h2>1. 채권이란 무엇인가</h2>
+<p>채권(Bond)은 한마디로 <strong>내가 돈을 빌려주는 계약서</strong>입니다. 주식이 기업의 소유권을 사는 것이라면, 채권은 기업이나 정부에게 돈을 빌려주고 이자를 받는 것입니다.</p>
+<h3>채권 거래 흐름 (ASCII 다이어그램)</h3>
+<pre><code class="hljs language-scss">        ① 채권 발행 (돈 빌림)
+┌─────────────────────────────────────────────────┐
+│                                                 │
+│  투자자              →→→→→          발행자       │
+│ (채권 구매자)        돈 지급      (정부 · 기업)   │
+│                                                 │
+│  투자자              ←←←←←          발행자       │
+│                    이자(쿠폰)                    │
+│                    반기마다                      │
+│                                                 │
+│  투자자              ←←←←←          발행자       │
+│                    만기 시                       │
+│                  원금(액면가) 상환               │
+└─────────────────────────────────────────────────┘
+
+  ② 이자 수령 (매 <span class="hljs-number">6</span>개월)
+  ③ 만기 시 원금 상환
+</code></pre>
+<p>미국 국채를 예로 들면: 미국 정부가 돈이 필요할 때 국채를 발행합니다. 투자자는 국채를 사서 정부에 돈을 빌려주고, 정부는 6개월마다 이자(쿠폰)를 지급하고 만기에 원금을 돌려줍니다.</p>
+<h3>채권 vs 주식 비교 표</h3>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>채권</th>
+<th>주식</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>본질</td>
+<td>채권자 (돈 빌려준 사람)</td>
+<td>주주 (회사 소유자)</td>
+</tr>
+<tr>
+<td>수익 방식</td>
+<td>이자 + 매매차익</td>
+<td>배당 + 주가 상승</td>
+</tr>
+<tr>
+<td>위험 수준</td>
+<td>낮음 (국채 기준)</td>
+<td>높음</td>
+</tr>
+<tr>
+<td>만기</td>
+<td>있음 (1개월~30년)</td>
+<td>없음</td>
+</tr>
+<tr>
+<td>파산 시 우선권</td>
+<td>주주보다 먼저 상환받음</td>
+<td>채권자 상환 후 남은 것만</td>
+</tr>
+<tr>
+<td>기대 수익률</td>
+<td>낮음 (2~6%, 국채 기준)</td>
+<td>높음 (장기 평균 7~10%)</td>
+</tr>
+<tr>
+<td>가격 변동성</td>
+<td>낮음~중간 (만기에 따라)</td>
+<td>높음</td>
+</tr>
+<tr>
+<td>인플레이션</td>
+<td>취약 (TIPS 제외)</td>
+<td>상대적으로 강함</td>
+</tr>
+</tbody>
+</table>
+<h3>채권의 핵심 용어</h3>
+<p><strong>액면가 (Face Value / Par Value)</strong>
+채권에 적힌 금액으로, 만기에 돌려받는 원금입니다. 미국 국채는 보통 $1,000 단위입니다.</p>
+<p><strong>쿠폰 (Coupon)</strong>
+채권이 지급하는 이자율입니다. 액면가 $1,000에 쿠폰 4%라면 매년 $40, 6개월마다 $20씩 지급합니다. 옛날에는 종이 채권에 쿠폰을 잘라 은행에 제출했기 때문에 이 이름이 붙었습니다.</p>
+<p><strong>만기 (Maturity)</strong>
+채권이 끝나는 날짜입니다. 만기가 되면 발행자는 액면가를 돌려줍니다.</p>
+<p><strong>YTM (Yield to Maturity, 만기수익률)</strong>
+지금 이 채권을 사서 만기까지 보유했을 때의 연평균 수익률입니다. 채권 가격이 액면가보다 낮으면 YTM이 쿠폰율보다 높아지고, 액면가보다 높으면 YTM이 낮아집니다.</p>
+<hr>
+<h2>2. 미국 국채의 종류: T-Bills vs T-Notes vs T-Bonds</h2>
+<p>미국 국채(US Treasury)는 미국 정부가 발행하는 채권으로, 세계에서 가장 안전한 자산으로 여겨집니다. 만기에 따라 세 가지로 구분됩니다.</p>
+<h3>미국 국채 종류 상세 비교 표</h3>
+<table>
+<thead>
+<tr>
+<th>종류</th>
+<th>영문명</th>
+<th>만기</th>
+<th>이자 지급</th>
+<th>최소 투자금</th>
+<th>특징</th>
+<th>대표 ETF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>T-Bill</strong></td>
+<td>Treasury Bill</td>
+<td>4주 / 8주 / 13주 / 26주 / 52주</td>
+<td>없음 (할인 발행)</td>
+<td>$100</td>
+<td>현금에 가장 가까운 안전자산, 이자 없이 할인가에 매수 후 액면가 상환</td>
+<td>SGOV, BIL</td>
+</tr>
+<tr>
+<td><strong>T-Note</strong></td>
+<td>Treasury Note</td>
+<td>2년 / 3년 / 5년 / 7년 / 10년</td>
+<td>6개월마다 쿠폰 지급</td>
+<td>$100</td>
+<td>가장 일반적인 국채, <strong>10년물이 전 세계 금융의 기준금리</strong></td>
+<td>IEF (7<del>10년), SHY (1</del>3년), VGIT</td>
+</tr>
+<tr>
+<td><strong>T-Bond</strong></td>
+<td>Treasury Bond</td>
+<td>20년 / 30년</td>
+<td>6개월마다 쿠폰 지급</td>
+<td>$100</td>
+<td>금리 민감도 가장 높음, 가격 변동 가장 큼, 장기 투자자 or 금리 방향에 베팅</td>
+<td>TLT (20년+), VGLT</td>
+</tr>
+<tr>
+<td><strong>TIPS</strong></td>
+<td>Treasury Inflation-Protected Securities</td>
+<td>5년 / 10년 / 30년</td>
+<td>6개월마다 (물가 연동 원금 기반)</td>
+<td>$100</td>
+<td>원금이 CPI에 연동 → 인플레이션 자동 방어</td>
+<td>TIP, SCHP</td>
+</tr>
+<tr>
+<td><strong>I-Bond</strong></td>
+<td>Series I Savings Bond</td>
+<td>최대 30년</td>
+<td>없음 (복리 축적)</td>
+<td>$25</td>
+<td>인플레 연동 저축채, 개인 $10,000/년 한도, 1년 lock-up</td>
+<td>없음 (TreasuryDirect 직접 구매만)</td>
+</tr>
+</tbody>
+</table>
+<h3>각 국채 종류 상세 설명</h3>
+<p><strong>T-Bill (재무부 단기채권)</strong>
+4주<del>52주 단기 국채입니다. 이자를 따로 주지 않는 대신, 액면가보다 낮은 가격에 발행됩니다. 예를 들어 $980에 사서 26주 후 $1,000을 받는 방식입니다. 현재 금리가 높을 때는 연 4</del>5%대 수익도 가능합니다. 머니마켓 펀드(MMF)의 주요 투자 대상이기도 합니다.</p>
+<pre><code class="hljs language-bash">T-Bill 수익 구조 예시 (26주, 연 5% 환경)
+
+발행가:  <span class="hljs-variable">$975</span>.61  ← 할인 발행
+26주 후: <span class="hljs-variable">$1</span>,000.00  ← 액면가 상환
+수익:      <span class="hljs-variable">$24</span>.39
+연환산 수익률: ~5.0%
+</code></pre>
+<p><strong>T-Note (재무부 중기채권)</strong>
+2년~10년 중기 국채입니다. 특히 <strong>10년물 국채 금리(10-Year Treasury Yield)는 전 세계 금융의 기준점</strong>으로 쓰입니다. 주택담보대출, 기업 대출 금리의 기준이 됩니다. 주가 밸류에이션(PER)에도 영향을 주어, 10년물 금리가 오르면 성장주가 하락하는 경향이 있습니다.</p>
+<p><strong>T-Bond (재무부 장기채권)</strong>
+20년~30년 장기 국채입니다. 금리 변화에 가장 민감하게 반응합니다. TLT ETF가 대표적입니다. 금리가 1% 하락하면 20% 이상 오를 수 있고, 금리가 1% 상승하면 20% 이상 떨어질 수 있습니다.</p>
+<p><strong>TIPS (물가연동국채)</strong>
+원금이 소비자물가지수(CPI)에 연동됩니다. 인플레이션이 올라가면 원금도 따라 올라가서 구매력을 지킬 수 있습니다. 단, 디플레이션 시에는 원금이 줄어들지 않고 액면가를 보장합니다.</p>
+<hr>
+<h2>3. 핵심: 금리와 채권 가격은 반대로 움직인다</h2>
+<p>채권 투자에서 가장 중요하고 처음에 가장 헷갈리는 개념입니다. <strong>금리가 오르면 기존 채권 가격이 내려갑니다.</strong> 왜 그럴까요?</p>
+<h3>직관적 예시</h3>
+<p>당신이 작년에 연 2% 쿠폰의 10년 국채를 $1,000에 샀다고 합시다.</p>
+<p>그런데 올해 새로 나오는 국채는 연 4% 쿠폰을 줍니다.</p>
+<p>지금 당신의 채권을 사려는 사람은 생각합니다: "새 채권은 4%를 주는데, 이 채권은 2%밖에 안 주네. 그러면 $1,000을 줄 이유가 없지. 더 싸게 사야 본전이야."</p>
+<p>결국 당신의 채권은 $1,000보다 낮은 가격에서 거래됩니다. 금리가 2%에서 4%로 두 배 오르면, 기존 채권 가격은 크게 하락합니다.</p>
+<h3>금리-채권가격 반비례 시각화</h3>
+<pre><code class="hljs language-bash">채권 가격
+  <span class="hljs-variable">$1</span>,200 │
+         │  ╲
+  <span class="hljs-variable">$1</span>,100 │   ╲
+         │    ╲
+  <span class="hljs-variable">$1</span>,000 │─────╲────────  ← 액면가 (금리=쿠폰율일 때)
+         │      ╲
+   <span class="hljs-variable">$900</span>  │       ╲
+         │        ╲
+   <span class="hljs-variable">$800</span>  │         ╲
+         │          ╲___
+   <span class="hljs-variable">$700</span>  │
+         └──────────────────────────────────
+         1%    2%    3%    4%    5%    6%
+                      금리 (시장 금리)
+
+  금리↑ → 채권가격↓  (반비례)
+  금리↓ → 채권가격↑  (반비례)
+</code></pre>
+<h3>듀레이션: 금리 민감도의 척도</h3>
+<p>듀레이션(Duration)은 금리가 1% 변할 때 채권 가격이 몇 % 변하는지를 나타냅니다.</p>
+<pre><code class="hljs language-ini">듀레이션과 금리 민감도
+
+단기채 (1~3년)          중기채 (7~10년)         장기채 (20~30년)
+  듀레이션 ≈ 2년           듀레이션 ≈ 8년           듀레이션 ≈ 18년
+
+  금리 1% 상승 시:         금리 1% 상승 시:         금리 1% 상승 시:
+  가격 ≈ -2%               가격 ≈ -8%               가격 ≈ -18%
+
+  <span class="hljs-section">[안정적]</span>                 <span class="hljs-section">[중간]</span>                   <span class="hljs-section">[변동 큼!]</span>
+  SHY ETF                  IEF ETF                  TLT ETF
+  현금 대안                균형형                   금리 방향 베팅
+</code></pre>
+<blockquote>
+<p><strong>핵심 규칙</strong>: 만기가 길수록 금리 변화에 더 민감합니다. 금리 상승 시기에는 장기채가 가장 큰 손실을 봅니다.</p>
+</blockquote>
+<hr>
+<h2>4. 수익률 곡선 (Yield Curve): 경기 예측의 바로미터</h2>
+<p>수익률 곡선은 만기별 국채 금리를 그래프로 나타낸 것입니다. 단순한 차트처럼 보이지만, 경기 침체를 예고하는 강력한 도구입니다.</p>
+<h3>정상적인 수익률 곡선 vs 역전된 수익률 곡선</h3>
+<pre><code class="hljs language-scss">정상 수익률 곡선 (Upward Slope)      역전 수익률 곡선 (Inverted Yield Curve)
+
+금리                                  금리
+<span class="hljs-number">6%</span> │                    ●            <span class="hljs-number">6%</span> │  ●
+   │                 ●               <span class="hljs-number">5%</span> │     ●
+<span class="hljs-number">5%</span> │             ●                   <span class="hljs-number">4%</span> │         ●
+   │          ●                      <span class="hljs-number">3%</span> │              ●
+<span class="hljs-number">4%</span> │       ●                         <span class="hljs-number">2%</span> │                   ●
+   │    ●                            <span class="hljs-number">1%</span> │
+<span class="hljs-number">3%</span> │  ●                              <span class="hljs-number">0%</span> └──────────────────────
+   │●                                    <span class="hljs-number">1</span>M <span class="hljs-number">3</span>M <span class="hljs-number">6</span>M <span class="hljs-number">1</span>Y <span class="hljs-number">2</span>Y <span class="hljs-number">5</span>Y <span class="hljs-number">10</span>Y <span class="hljs-number">30</span>Y
+<span class="hljs-number">2%</span> └─────────────────────
+    <span class="hljs-number">1</span>M <span class="hljs-number">3</span>M <span class="hljs-number">6</span>M <span class="hljs-number">1</span>Y <span class="hljs-number">2</span>Y <span class="hljs-number">5</span>Y <span class="hljs-number">10</span>Y <span class="hljs-number">30</span>Y          단기금리 > 장기금리
+                                        → 역전 (Inverted)!
+   단기금리 &#x3C; 장기금리
+   → 정상 (Normal)                   <span class="hljs-number">2</span>Y-<span class="hljs-number">10</span>Y 스프레드 = 음수(-)
+                                      → 경기침체 신호!
+</code></pre>
+<h3>역수익률 곡선이 경기침체를 예고하는 이유</h3>
+<p>역수익률 곡선(Inverted Yield Curve)은 <strong>2년물 금리가 10년물 금리보다 높아지는 현상</strong>입니다. 이는 매우 비정상적인 상황이며, 역사적으로 경기침체를 예고해왔습니다.</p>
+<p><strong>왜 경기침체 신호인가?</strong></p>
+<ol>
+<li>단기 금리가 높다 = 연준이 금리를 인위적으로 높이 올렸다 = 경기 과열을 식히려는 긴축</li>
+<li>장기 금리가 낮다 = 시장이 미래 성장을 비관적으로 본다 = 경기 침체 예상</li>
+<li>은행 수익성 악화: 은행은 단기로 빌려서 장기로 빌려주는데, 역전되면 마진이 없어져 대출이 줄어든다</li>
+<li>대출 감소 → 기업 투자 감소 → 경기 침체</li>
+</ol>
+<pre><code class="hljs language-markdown">역수익률 곡선과 경기침체 메커니즘
+
+단기금리↑ (연준 긴축)
+<span class="hljs-code">    │
+    ├── 은행 대출 마진 축소
+    │       │
+    │       └── 기업 대출 감소 → 투자 위축
+    │
+    └── 소비자 대출 비용↑ → 소비 위축
+             │
+             └── 기업 실적 악화 → 고용 감소
+                      │
+                      └── 소비 추가 감소 → 경기침체!
+</span></code></pre>
+<h3>역전 사례 3가지</h3>
+<p><strong>사례 1: 2006~2007년 역전 → 2008년 금융위기</strong></p>
+<table>
+<thead>
+<tr>
+<th>시점</th>
+<th>2년물 금리</th>
+<th>10년물 금리</th>
+<th>스프레드</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2006년 초</td>
+<td>4.5%</td>
+<td>4.4%</td>
+<td><strong>-0.1%</strong> (역전 시작)</td>
+</tr>
+<tr>
+<td>2007년 초</td>
+<td>5.1%</td>
+<td>4.8%</td>
+<td><strong>-0.3%</strong> (역전 심화)</td>
+</tr>
+<tr>
+<td>2008년 하반기</td>
+<td></td>
+<td></td>
+<td>리먼브라더스 파산, 금융위기</td>
+</tr>
+</tbody>
+</table>
+<p><strong>사례 2: 2019~2020년 역전 → 2020년 COVID 침체</strong></p>
+<table>
+<thead>
+<tr>
+<th>시점</th>
+<th>2년물 금리</th>
+<th>10년물 금리</th>
+<th>스프레드</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2019년 8월</td>
+<td>1.58%</td>
+<td>1.56%</td>
+<td><strong>-0.02%</strong> (역전)</td>
+</tr>
+<tr>
+<td>2019년 말</td>
+<td>정상화</td>
+<td>정상화</td>
+<td>회복</td>
+</tr>
+<tr>
+<td>2020년 3월</td>
+<td></td>
+<td></td>
+<td>COVID 경기침체</td>
+</tr>
+</tbody>
+</table>
+<p><strong>사례 3: 2022~2023년 역전 → 경기침체 논쟁 진행 중</strong></p>
+<table>
+<thead>
+<tr>
+<th>시점</th>
+<th>2년물 금리</th>
+<th>10년물 금리</th>
+<th>스프레드</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022년 7월</td>
+<td>3.05%</td>
+<td>2.78%</td>
+<td><strong>-0.27%</strong> (역전 시작)</td>
+</tr>
+<tr>
+<td>2023년 3월</td>
+<td>5.05%</td>
+<td>3.96%</td>
+<td><strong>-1.09%</strong> (역사적 최대 역전폭)</td>
+</tr>
+<tr>
+<td>2023년 말</td>
+<td>4.84%</td>
+<td>4.03%</td>
+<td><strong>-0.81%</strong> (여전히 역전)</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="hljs language-yaml"><span class="hljs-number">2022</span><span class="hljs-string">~2023년</span> <span class="hljs-string">역수익률</span> <span class="hljs-string">곡선</span> <span class="hljs-string">역전</span> <span class="hljs-string">시각화</span>
+
+<span class="hljs-string">금리</span>
+<span class="hljs-number">5.5</span><span class="hljs-string">%</span> <span class="hljs-string">│</span>          <span class="hljs-number">2</span><span class="hljs-string">년물</span>
+<span class="hljs-number">5.0</span><span class="hljs-string">%</span> <span class="hljs-string">│</span>  <span class="hljs-string">●────●────●────●────●</span>
+<span class="hljs-number">4.5</span><span class="hljs-string">%</span> <span class="hljs-string">│</span>                           <span class="hljs-number">10</span><span class="hljs-string">년물</span>
+<span class="hljs-number">4.0</span><span class="hljs-string">%</span> <span class="hljs-string">│</span>  <span class="hljs-string">●────●────●────●────●</span>
+<span class="hljs-number">3.5</span><span class="hljs-string">%</span> <span class="hljs-string">│</span>
+<span class="hljs-number">3.0</span><span class="hljs-string">%</span> <span class="hljs-string">│</span>
+     <span class="hljs-string">└─────────────────────────────────</span>
+      <span class="hljs-number">2022.7  </span><span class="hljs-number">2022.10  </span><span class="hljs-number">2023.1  </span><span class="hljs-number">2023.6  </span><span class="hljs-number">2023.10</span>
+
+<span class="hljs-string">스프레드</span> <span class="hljs-string">(2Y-10Y):</span>
+<span class="hljs-number">-0.27</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-number">-0.82</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-number">-1.09</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-number">-0.81</span><span class="hljs-string">%</span>
+<span class="hljs-string">역사상</span> <span class="hljs-string">가장</span> <span class="hljs-string">깊고</span> <span class="hljs-string">긴</span> <span class="hljs-string">역전</span> <span class="hljs-string">구간</span> <span class="hljs-string">중</span> <span class="hljs-string">하나</span>
+</code></pre>
+<blockquote>
+<p><strong>주의</strong>: 역전 이후 실제 침체까지는 평균 12~24개월 시차가 있습니다. 역전 직후 주식을 팔면 오히려 상승장을 놓칠 수 있습니다.</p>
+</blockquote>
+<hr>
+<h2>5. 2022년 채권 대학살: TLT -45%의 교훈</h2>
+<p>2022년은 채권 역사상 <strong>최악의 해</strong> 중 하나였습니다. 투자자들이 "채권은 안전하다"는 믿음이 얼마나 위험한 착각일 수 있는지 뼈저리게 깨달은 해입니다.</p>
+<h3>무슨 일이 있었나</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-number">2021</span><span class="hljs-string">년</span> <span class="hljs-string">말:</span> <span class="hljs-string">미국</span> <span class="hljs-string">기준금리</span> <span class="hljs-number">0.25</span><span class="hljs-string">%</span>
+    <span class="hljs-string">↓</span>
+<span class="hljs-number">2022</span><span class="hljs-string">년:</span> <span class="hljs-string">러시아-우크라이나</span> <span class="hljs-string">전쟁</span> <span class="hljs-string">→</span> <span class="hljs-string">에너지·식품</span> <span class="hljs-string">공급망</span> <span class="hljs-string">붕괴</span>
+    <span class="hljs-string">↓</span>
+<span class="hljs-string">인플레이션</span> <span class="hljs-string">CPI</span> <span class="hljs-number">9.1</span><span class="hljs-string">%</span> <span class="hljs-string">(40년</span> <span class="hljs-string">만의</span> <span class="hljs-string">최고치,</span> <span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">6</span><span class="hljs-string">월)</span>
+    <span class="hljs-string">↓</span>
+<span class="hljs-string">연준:</span> <span class="hljs-string">"인플레 잡겠다!"</span> <span class="hljs-string">→</span> <span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-string">한</span> <span class="hljs-string">해만</span> <span class="hljs-number">7</span><span class="hljs-string">차례</span> <span class="hljs-string">금리</span> <span class="hljs-string">인상</span>
+    <span class="hljs-string">↓</span>
+<span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">3</span><span class="hljs-string">월:</span> <span class="hljs-string">+0.25%p</span>
+<span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">5</span><span class="hljs-string">월:</span> <span class="hljs-string">+0.50%p</span>
+<span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">6</span><span class="hljs-string">월:</span> <span class="hljs-string">+0.75%p</span>  <span class="hljs-string">←</span> <span class="hljs-number">28</span><span class="hljs-string">년</span> <span class="hljs-string">만에</span> <span class="hljs-string">최대</span> <span class="hljs-string">인상폭</span>
+<span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">7</span><span class="hljs-string">월:</span> <span class="hljs-string">+0.75%p</span>
+<span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">9</span><span class="hljs-string">월:</span> <span class="hljs-string">+0.75%p</span>
+<span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">11</span><span class="hljs-string">월:</span> <span class="hljs-string">+0.75%p</span>
+<span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">12</span><span class="hljs-string">월:</span> <span class="hljs-string">+0.50%p</span>
+    <span class="hljs-string">↓</span>
+<span class="hljs-string">연간</span> <span class="hljs-string">총</span> <span class="hljs-string">인상폭:</span> <span class="hljs-string">+4.25%p</span>
+<span class="hljs-string">기준금리:</span> <span class="hljs-number">0.25</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-number">4.50</span><span class="hljs-string">%</span> <span class="hljs-string">(18배!)</span>
+</code></pre>
+<h3>2022년 주요 자산 수익률</h3>
+<table>
+<thead>
+<tr>
+<th>자산</th>
+<th>2022년 수익률</th>
+<th>충격 포인트</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TLT (20년+ 장기채 ETF)</td>
+<td><strong>-31.2%</strong> (연중 최저 -45%)</td>
+<td>나스닥보다 더 폭락</td>
+</tr>
+<tr>
+<td>VGLT (장기 국채 ETF)</td>
+<td><strong>-29.2%</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>IEF (7-10년 중기채 ETF)</td>
+<td><strong>-15.0%</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>SHY (1-3년 단기채 ETF)</td>
+<td><strong>-3.7%</strong></td>
+<td>상대적으로 안전</td>
+</tr>
+<tr>
+<td>BND (전체 채권 ETF)</td>
+<td><strong>-13.1%</strong></td>
+<td>"안전 자산" 붕괴</td>
+</tr>
+<tr>
+<td>TIP (TIPS ETF)</td>
+<td><strong>-11.8%</strong></td>
+<td>인플레 방어라더니...</td>
+</tr>
+<tr>
+<td>S&#x26;P 500 (SPY)</td>
+<td>-18.1%</td>
+<td></td>
+</tr>
+<tr>
+<td>QQQ (나스닥 100)</td>
+<td>-32.6%</td>
+<td></td>
+</tr>
+<tr>
+<td>HYG (하이일드 채권 ETF)</td>
+<td>-14.5%</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="hljs language-bash">TLT 가격 추이 (2020~2023년)
+
+<span class="hljs-variable">$175</span> │  ●
+<span class="hljs-variable">$165</span> │ ╱ ╲
+<span class="hljs-variable">$155</span> │╱   ╲
+<span class="hljs-variable">$145</span> │     ╲
+<span class="hljs-variable">$135</span> │      ╲
+<span class="hljs-variable">$125</span> │       ╲
+<span class="hljs-variable">$115</span> │        ╲
+<span class="hljs-variable">$105</span> │         ╲
+ <span class="hljs-variable">$95</span> │          ╲___
+ <span class="hljs-variable">$85</span> │               ╲___  ← 2023년 10월 최저점 (~<span class="hljs-variable">$84</span>)
+ <span class="hljs-variable">$75</span> │                    (2020년 고점 대비 -51%)
+     └───────────────────────────────────────────
+     2020.3  2021.1  2022.1  2022.10  2023.10
+
+TLT 2020년 고점: ~<span class="hljs-variable">$175</span>
+TLT 2023년 저점: ~<span class="hljs-variable">$84</span>
+최대 낙폭: -51.4% !!!
+</code></pre>
+<p><strong>2022년의 충격적 사실</strong>: 주식도 -18%, 채권도 -13~31%. 전통적으로 "주식이 떨어지면 채권이 오른다"는 역상관 관계가 <strong>완전히 깨졌습니다.</strong></p>
+<h3>교훈</h3>
+<table>
+<thead>
+<tr>
+<th>교훈</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>장기채는 안전자산이 아닐 수 있다</td>
+<td>금리 급등기에 TLT는 나스닥만큼 폭락. "채권 = 안전"은 무조건 참이 아님</td>
+</tr>
+<tr>
+<td>단기채는 상대적으로 안전</td>
+<td>SHY는 -3.7%에 그침. 금리 상승기에는 단기채가 유일한 피난처</td>
+</tr>
+<tr>
+<td>금리 방향을 보고 만기를 선택해야</td>
+<td>금리 상승기 → 단기채(SHY, SGOV) / 금리 하락기 → 장기채(TLT)</td>
+</tr>
+<tr>
+<td>TIPS도 완벽하지 않다</td>
+<td>인플레 방어라지만 금리 급등기엔 손실 발생 (-11%)</td>
+</tr>
+<tr>
+<td>2022년은 이례적</td>
+<td>인플레 원인 위기에서만 주식-채권 동반 하락. 대부분 위기에선 역상관 유효</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>6. 채권 ETF 완전 비교: BND, TLT, IEF, SHY, TIPS, HYG</h2>
+<p>직접 국채를 사려면 TreasuryDirect.gov를 이용해야 하지만, ETF로 훨씬 쉽게 투자할 수 있습니다.</p>
+<h3>주요 채권 ETF 종합 비교 표</h3>
+<table>
+<thead>
+<tr>
+<th>ETF</th>
+<th>정식 명칭</th>
+<th>만기 구간</th>
+<th>운용사</th>
+<th>운용보수</th>
+<th>듀레이션</th>
+<th>현재 YTM</th>
+<th>특징</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>BND</strong></td>
+<td>Vanguard Total Bond Market</td>
+<td>단기~장기 혼합</td>
+<td>Vanguard</td>
+<td>0.03%</td>
+<td>~6.2년</td>
+<td>~4.8%</td>
+<td>미국 전체 투자등급 채권 1만개+</td>
+</tr>
+<tr>
+<td><strong>TLT</strong></td>
+<td>iShares 20+ Year Treasury</td>
+<td>20년+</td>
+<td>BlackRock</td>
+<td>0.15%</td>
+<td>~16.5년</td>
+<td>~4.7%</td>
+<td>금리 하락 베팅용, 변동성 최대</td>
+</tr>
+<tr>
+<td><strong>IEF</strong></td>
+<td>iShares 7-10 Year Treasury</td>
+<td>7~10년</td>
+<td>BlackRock</td>
+<td>0.15%</td>
+<td>~7.5년</td>
+<td>~4.5%</td>
+<td>중기 국채, 균형형</td>
+</tr>
+<tr>
+<td><strong>SHY</strong></td>
+<td>iShares 1-3 Year Treasury</td>
+<td>1~3년</td>
+<td>BlackRock</td>
+<td>0.15%</td>
+<td>~1.9년</td>
+<td>~4.9%</td>
+<td>현금 대안, 안정적</td>
+</tr>
+<tr>
+<td><strong>SGOV</strong></td>
+<td>iShares 0-3 Month Treasury</td>
+<td>0~3개월</td>
+<td>BlackRock</td>
+<td>0.09%</td>
+<td>~0.1년</td>
+<td>~5.2%</td>
+<td>T-Bill ETF, 가장 안전</td>
+</tr>
+<tr>
+<td><strong>TIP</strong></td>
+<td>iShares TIPS Bond</td>
+<td>혼합 (TIPS)</td>
+<td>BlackRock</td>
+<td>0.19%</td>
+<td>~7.3년</td>
+<td>실질 ~1.8%</td>
+<td>인플레이션 방어, 원금 CPI 연동</td>
+</tr>
+<tr>
+<td><strong>SCHP</strong></td>
+<td>Schwab US TIPS ETF</td>
+<td>혼합 (TIPS)</td>
+<td>Schwab</td>
+<td>0.03%</td>
+<td>~7.6년</td>
+<td>실질 ~1.8%</td>
+<td>저비용 TIPS ETF</td>
+</tr>
+<tr>
+<td><strong>HYG</strong></td>
+<td>iShares High Yield Corp Bond</td>
+<td>혼합 (하이일드)</td>
+<td>BlackRock</td>
+<td>0.48%</td>
+<td>~3.8년</td>
+<td>~7.2%</td>
+<td>정크본드, 고수익·고위험</td>
+</tr>
+<tr>
+<td><strong>LQD</strong></td>
+<td>iShares Investment Grade Corp</td>
+<td>혼합 (투자등급)</td>
+<td>BlackRock</td>
+<td>0.14%</td>
+<td>~8.3년</td>
+<td>~5.5%</td>
+<td>우량 기업 회사채</td>
+</tr>
+</tbody>
+</table>
+<h3>각 ETF 특징 상세</h3>
+<p><strong>BND (Vanguard Total Bond Market ETF)</strong>
+미국 투자등급 채권 1만 개 이상을 담습니다. 국채(약 65%), 회사채(약 25%), 모기지채(약 10%) 등 전방위 분산입니다. 운용보수 0.03%는 채권 ETF 중 최저 수준. 주식의 VTI처럼, 채권의 BND가 대표 종합 ETF입니다.</p>
+<pre><code class="hljs language-scss">BND 포트폴리오 구성
+
+국채·정부채  ████████████████████████████████ <span class="hljs-number">65%</span>
+회사채(BBB+) █████████████ <span class="hljs-number">25%</span>
+모기지채     ████ <span class="hljs-number">8%</span>
+기타         ██   <span class="hljs-number">2%</span>
+</code></pre>
+<p><strong>TLT (iShares 20+ Year Treasury Bond ETF)</strong>
+만기 20년 이상 미국 장기 국채만 담습니다. 듀레이션이 약 16~18년으로 금리 민감도가 매우 높습니다. 연준이 금리를 낮출 것으로 예상될 때 강한 수익을 기대할 수 있습니다. 반대로 금리 상승기에는 큰 손실을 봅니다. 2020년 COVID 위기 때 +25% 상승했습니다.</p>
+<p><strong>SHY (iShares 1-3 Year Treasury Bond ETF)</strong>
+만기 1~3년 단기 국채입니다. 금리 민감도가 낮아 가격이 거의 안 움직입니다. 비상금을 굴리거나 시장 불확실성이 높을 때 주차 용도로 씁니다.</p>
+<p><strong>TIP (iShares TIPS Bond ETF)</strong>
+물가연동국채(TIPS) ETF입니다. 인플레이션이 올라가면 원금이 따라서 커집니다. YTM이 "실질 금리"를 나타내므로, 실질 YTM이 높을수록 좋은 매수 기회입니다.</p>
+<hr>
+<h2>7. 하이일드 채권(HYG)과 신용 스프레드: 시장 불안 측정계</h2>
+<p>HYG는 단순한 고수익 채권 ETF가 아닙니다. <strong>금융 시장의 위험 온도계</strong> 역할을 합니다.</p>
+<h3>신용 스프레드(Credit Spread)란?</h3>
+<pre><code class="hljs language-makefile">신용 스프레드 = 하이일드 채권 금리 - 미국 국채 금리
+
+<span class="hljs-section">예시:</span>
+HYG (정크본드 평균 금리): 8.0%
+10년물 국채 금리:          4.5%
+신용 스프레드:             3.5% (=350bp)
+
+<span class="hljs-section">해석:</span>
+스프레드 좁음 (2~3%): 투자자들이 위험자산 선호 → 낙관적 시장
+스프레드 넓음 (6~10%+): 투자자들이 안전자산 도피 → 위기 신호!
+</code></pre>
+<h3>역사적 신용 스프레드 추이</h3>
+<table>
+<thead>
+<tr>
+<th>시기</th>
+<th>신용 스프레드</th>
+<th>시장 상황</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>평상시 (강세장)</td>
+<td>2~4%</td>
+<td>정상, 낙관적</td>
+</tr>
+<tr>
+<td>2008년 리먼 사태</td>
+<td><strong>21%</strong> 이상</td>
+<td>금융 공황</td>
+</tr>
+<tr>
+<td>2011년 유럽 재정위기</td>
+<td>8~9%</td>
+<td>경계 상태</td>
+</tr>
+<tr>
+<td>2016년 에너지 위기</td>
+<td>8~9%</td>
+<td>원유 폭락, 경기 우려</td>
+</tr>
+<tr>
+<td>2020년 3월 COVID</td>
+<td><strong>10~11%</strong></td>
+<td>급격한 공황</td>
+</tr>
+<tr>
+<td>2022년 긴축기</td>
+<td>5~6%</td>
+<td>위험 신호 증가</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="hljs language-shell">신용 스프레드 모니터링 방법
+
+FRED (연준 경제데이터)에서 무료로 확인:
+fred.stlouisfed.org
+검색어: "ICE BofA US High Yield Option-Adjusted Spread"
+
+스프레드 해석 기준:
+&#x3C; 3%    ████████████ 매우 낙관적 (과열 주의)
+<span class="hljs-meta prompt_">3~5% </span><span class="bash">   ████████     정상 범위</span>
+<span class="hljs-meta prompt_">5~7% </span><span class="bash">   ████         경계 신호</span>
+<span class="hljs-meta prompt_">7~10% </span><span class="bash">  ██           위험 신호, 포지션 점검</span>
+<span class="hljs-meta prompt_">> </span><span class="bash">10%   ●            공황, 매수 기회 탐색 시작</span>
+</code></pre>
+<h3>HYG가 하락할 때 주식도 하락하는 이유</h3>
+<p>하이일드 채권 투자자와 주식 투자자는 모두 "위험 자산"을 선호하는 투자자들입니다. 경기가 나빠질 것 같으면 두 자산 모두에서 빠져나옵니다.</p>
+<pre><code class="hljs language-scss">위기 시 자금 흐름
+
+위험자산 (주식, HYG)
+        ↓ 팔기
+        ↓
+현금, 국채 (T-Bill, SHY)
+        ↑ 사기
+
+→ 주식↓ + HYG↓ + 국채↑
+   신용 스프레드↑ = 시장 스트레스 신호
+</code></pre>
+<blockquote>
+<p><strong>실전 활용</strong>: HYG가 갑자기 -5% 이상 하락하면, 주식 시장도 1~2주 내로 하락 가능성이 높습니다. 선행 지표로 활용하세요.</p>
+</blockquote>
+<hr>
+<h2>8. TreasuryDirect.gov에서 직접 국채 사는 방법</h2>
+<p>미국 재무부가 운영하는 공식 국채 직접 구매 사이트입니다. ETF보다 복잡하지만, 수수료 없이 액면가 그대로 투자할 수 있습니다.</p>
+<h3>TreasuryDirect.gov 이용 가이드</h3>
+<pre><code class="hljs language-markdown">Step 1: 계좌 개설
+────────────────────────────────────────────
+  웹사이트: www.treasurydirect.gov
+  필요 서류:
+<span class="hljs-bullet">    -</span> 미국 사회보장번호(SSN) 또는 납세자번호(ITIN)
+<span class="hljs-bullet">    -</span> 미국 은행 계좌 (ACH 이체 가능)
+<span class="hljs-bullet">    -</span> 유효한 이메일 주소
+
+  ※ 한국 거주자: SSN/ITIN 없으면 이용 불가
+<span class="hljs-code">     → 미국 증권사(Fidelity, IBKR) 채권 ETF 이용 권장
+</span>
+Step 2: 경매 일정 확인
+────────────────────────────────────────────
+  T-Bill (단기채):
+<span class="hljs-code">    4주물:  매주 화요일 경매
+    8주물:  매주 화요일 경매
+    13주물: 매주 월요일 경매
+    26주물: 매주 월요일 경매
+    52주물: 4주마다 화요일 경매
+</span>
+  T-Note (중기채):
+<span class="hljs-code">    2년물:  매월 말 경매
+    5년물:  매월 말 경매
+    10년물: 분기 리옥션 + 새 발행
+</span>
+  T-Bond (장기채):
+<span class="hljs-code">    20년물: 격월 경매
+    30년물: 분기마다
+</span>
+Step 3: 비경쟁 입찰 (개인 투자자 방법)
+────────────────────────────────────────────
+  비경쟁 입찰이란:
+<span class="hljs-bullet">    -</span> 경매에서 결정된 금리를 그대로 받겠다는 신청
+<span class="hljs-bullet">    -</span> 개인 투자자가 이용하는 방식
+<span class="hljs-bullet">    -</span> 경쟁 입찰(기관)처럼 금리를 지정할 필요 없음
+
+  한도: 비경쟁 입찰 최대 $10,000,000/경매
+
+Step 4: 만기 시 처리
+────────────────────────────────────────────
+<span class="hljs-bullet">  -</span> 연결 은행 계좌로 자동 입금 (원금+이자)
+<span class="hljs-bullet">  -</span> 자동 롤오버 설정 가능 (만기 → 새 T-Bill 자동 재투자)
+</code></pre>
+<h3>TreasuryDirect vs 증권사 ETF 비교</h3>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>TreasuryDirect (직접 구매)</th>
+<th>채권 ETF (증권사)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>최소 투자금</td>
+<td>$100</td>
+<td>ETF 1주 ($80~$100)</td>
+</tr>
+<tr>
+<td>수수료</td>
+<td>없음</td>
+<td>운용보수 0.03~0.20%/년</td>
+</tr>
+<tr>
+<td>분산</td>
+<td>없음 (단일 채권)</td>
+<td>수백~수천 개 자동 분산</td>
+</tr>
+<tr>
+<td>만기</td>
+<td>있음 (만기에 원금 확정 회수)</td>
+<td>없음 (롤오버 지속)</td>
+</tr>
+<tr>
+<td>세금</td>
+<td>이자: 연방세 과세, 주세 면제</td>
+<td>주식과 동일 처리</td>
+</tr>
+<tr>
+<td>편의성</td>
+<td>별도 계정, 복잡, 미국 SS 필요</td>
+<td>기존 계좌에서 즉시 거래</td>
+</tr>
+<tr>
+<td>가격 변동성</td>
+<td>만기 보유 시 원금 보장</td>
+<td>중간에 팔면 가격 변동 있음</td>
+</tr>
+<tr>
+<td>추천 대상</td>
+<td>만기까지 보유 확실 + SSN 있음</td>
+<td>대부분의 개인 투자자</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>9. 수익률 곡선 전체 시각화</h2>
+<pre><code class="hljs language-shell">정상 수익률 곡선 (경기 정상)
+금리
+<span class="hljs-meta prompt_">5% </span><span class="bash">│                                      ●●●</span>
+   │                               ●●
+<span class="hljs-meta prompt_">4% </span><span class="bash">│                         ●●</span>
+   │                    ●●
+<span class="hljs-meta prompt_">3% </span><span class="bash">│              ●●</span>
+   │        ●●
+<span class="hljs-meta prompt_">2% </span><span class="bash">│   ●●</span>
+<span class="hljs-meta prompt_">1% </span><span class="bash">│●</span>
+   └─────────────────────────────────────────────
+    1M  3M  6M  1Y  2Y  3Y  5Y  7Y 10Y 20Y 30Y
+
+    해석: 단기금리 낮음 &#x3C; 장기금리 높음 = 정상
+          경기 성장 기대 = 주식 투자 좋음
+
+평탄한 수익률 곡선 (경기 전환점)
+금리
+<span class="hljs-meta prompt_">5% </span><span class="bash">│          ●●●●●●●●●●●●●●●●●●●</span>
+   │    ●●●
+<span class="hljs-meta prompt_">4% </span><span class="bash">│●</span>
+   └─────────────────────────────────────────────
+    1M  3M  6M  1Y  2Y  3Y  5Y  7Y 10Y 20Y 30Y
+
+    해석: 단기 ≈ 장기 금리 = 경기 방향 불확실
+          주의 신호
+
+역전 수익률 곡선 (경기침체 전조)
+금리
+<span class="hljs-meta prompt_">6% </span><span class="bash">│●●●●●●</span>
+<span class="hljs-meta prompt_">5% </span><span class="bash">│         ●●●●●●</span>
+<span class="hljs-meta prompt_">4% </span><span class="bash">│                    ●●●●●●●●●●●●●●●</span>
+   └─────────────────────────────────────────────
+    1M  3M  6M  1Y  2Y  3Y  5Y  7Y 10Y 20Y 30Y
+
+    해석: 단기금리 > 장기금리 = DANGER!
+          과거 7번 중 6번 경기침체로 이어짐
+          (평균 12~24개월 시차)
+</code></pre>
+<hr>
+<h2>10. 주식-채권 상관관계</h2>
+<h3>왜 채권을 섞는가</h3>
+<p>포트폴리오에 채권을 넣는 핵심 이유는 <strong>주식과 반대로 움직여 손실을 줄이기 때문</strong>입니다.</p>
+<pre><code class="hljs language-scss">전통적 역상관 관계 (<span class="hljs-number">2000</span>년대~<span class="hljs-number">2010</span>년대)
+
+주식 시장 공황 (금리 하락)
+    주가 ↓↓           채권 가격 ↑↑ (금리 하락 → 채권 오름)
+    ──────────────────────────────
+    전체 포트폴리오 손실 완화!
+
+경기 호황 (금리 상승)
+    주가 ↑↑           채권 가격 ↓ (금리 상승 → 채권 내림)
+    ──────────────────────────────
+    주식 수익이 채권 손실 상쇄
+</code></pre>
+<h3>언제 역상관이 깨지는가</h3>
+<p>2022년처럼 <strong>인플레이션이 주 원인인 위기</strong>에서는 주식과 채권이 동시에 하락합니다.</p>
+<table>
+<thead>
+<tr>
+<th>위기 유형</th>
+<th>주식</th>
+<th>채권</th>
+<th>상관관계</th>
+<th>대표 사례</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>경기 침체 (수요 부족)</td>
+<td>↓↓</td>
+<td>↑↑</td>
+<td>역상관</td>
+<td>2008~2009년</td>
+</tr>
+<tr>
+<td>인플레이션 충격</td>
+<td>↓↓</td>
+<td>↓↓</td>
+<td>동반 하락</td>
+<td>2022년</td>
+</tr>
+<tr>
+<td>지정학적 위기</td>
+<td>↓↓</td>
+<td>↑ (안전자산 선호)</td>
+<td>역상관 경향</td>
+<td>2001년 9/11</td>
+</tr>
+<tr>
+<td>기술 버블 붕괴</td>
+<td>↓↓</td>
+<td>↑↑</td>
+<td>역상관</td>
+<td>2000~2002년 닷컴</td>
+</tr>
+<tr>
+<td>금융 위기</td>
+<td>↓↓</td>
+<td>↑↑</td>
+<td>역상관</td>
+<td>2008~2009년</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>11. 투자 목적별 채권 ETF 추천</h2>
+<table>
+<thead>
+<tr>
+<th>투자 목적</th>
+<th>추천 ETF</th>
+<th>이유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>포트폴리오 안정화 (기본)</td>
+<td>BND</td>
+<td>미국 전체 채권 분산, 저비용 0.03%</td>
+</tr>
+<tr>
+<td>금리 하락 베팅</td>
+<td>TLT</td>
+<td>장기채, 금리 하락 시 20%+ 수익 가능</td>
+</tr>
+<tr>
+<td>현금 대안 / 안전 주차</td>
+<td>SHY, SGOV</td>
+<td>단기채, 가격 안정 + 4~5% 이자</td>
+</tr>
+<tr>
+<td>인플레이션 방어</td>
+<td>TIP, SCHP</td>
+<td>TIPS, 물가 연동</td>
+</tr>
+<tr>
+<td>수익률 높이기 (위험 수용)</td>
+<td>HYG</td>
+<td>정크본드, 7%+ YTM</td>
+</tr>
+<tr>
+<td>균형 포트폴리오 핵심</td>
+<td>BND or IEF</td>
+<td>주식 60% + BND 40% 구성</td>
+</tr>
+<tr>
+<td>은퇴 임박 (자본 보존)</td>
+<td>SHY + BND 반반</td>
+<td>안정성 최우선</td>
+</tr>
+<tr>
+<td>공격형 투자자의 채권</td>
+<td>TLT</td>
+<td>금리 하락 사이클에만 소량 보유</td>
+</tr>
+<tr>
+<td>시장 공포 측정</td>
+<td>HYG</td>
+<td>신용 스프레드 모니터링</td>
+</tr>
+</tbody>
+</table>
+<h3>금리 환경별 최적 채권 ETF</h3>
+<pre><code class="hljs language-scss">금리 사이클별 채권 전략
+
+금리 인상기 (<span class="hljs-number">2022</span>년 같은)
+    연준이 금리 올리는 중
+    ↓
+    단기채(SHY, SGOV) 보유 ✓
+    장기채(TLT) 최소화 ✗
+    TIPS 일부 보유 (인플레 방어)
+
+금리 고점기 (금리 정점)
+    연준이 인상 멈추고 동결 중
+    ↓
+    중기채(IEF) 편입 시작
+    TLT 조금씩 편입
+
+금리 인하기 (<span class="hljs-number">2019</span>, <span class="hljs-number">2024</span>년 같은)
+    연준이 금리 내리는 중
+    ↓
+    TLT 적극 보유 ✓ (가격 상승 수혜)
+    SHY는 이자율 하락으로 매력 감소
+
+금리 바닥기 (<span class="hljs-number">2021</span>년 <span class="hljs-number">0.25%</span> 같은)
+    금리가 이미 매우 낮음
+    ↓
+    채권 전체 매력도 낮음
+    주식 비중 높이기
+</code></pre>
+<hr>
+<h2>12. 실전 시나리오별 채권 ETF 배분</h2>
+<pre><code class="hljs language-yaml"><span class="hljs-string">시나리오</span> <span class="hljs-attr">A:</span> <span class="hljs-number">30</span><span class="hljs-string">대</span> <span class="hljs-string">직장인,</span> <span class="hljs-string">안정성</span> <span class="hljs-string">원함</span>
+<span class="hljs-string">┌──────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span> <span class="hljs-string">VTI</span> <span class="hljs-string">(미국</span> <span class="hljs-string">전체</span> <span class="hljs-string">주식)</span>  <span class="hljs-number">60</span><span class="hljs-string">%</span>   <span class="hljs-string">████████████████</span>  <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">BND</span> <span class="hljs-string">(전체</span> <span class="hljs-string">채권)</span>       <span class="hljs-number">25</span><span class="hljs-string">%</span>   <span class="hljs-string">██████</span>           <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">GLD</span> <span class="hljs-string">(금)</span>              <span class="hljs-number">10</span><span class="hljs-string">%</span>   <span class="hljs-string">██</span>               <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">TIP</span> <span class="hljs-string">(TIPS)</span>             <span class="hljs-number">5</span><span class="hljs-string">%</span>   <span class="hljs-string">█</span>                <span class="hljs-string">│</span>
+<span class="hljs-string">└──────────────────────────────────────────────┘</span>
+<span class="hljs-string">예상</span> <span class="hljs-attr">MDD:</span> <span class="hljs-number">-25</span><span class="hljs-string">~30%</span>  <span class="hljs-string">/</span>  <span class="hljs-string">예상</span> <span class="hljs-string">연수익:</span> <span class="hljs-number">6</span><span class="hljs-string">~8%</span>
+
+<span class="hljs-string">시나리오</span> <span class="hljs-attr">B:</span> <span class="hljs-number">50</span><span class="hljs-string">대,</span> <span class="hljs-string">은퇴</span> <span class="hljs-number">10</span><span class="hljs-string">년</span> <span class="hljs-string">전</span>
+<span class="hljs-string">┌──────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span> <span class="hljs-string">VTI</span> <span class="hljs-string">(미국</span> <span class="hljs-string">전체</span> <span class="hljs-string">주식)</span>  <span class="hljs-number">35</span><span class="hljs-string">%</span>   <span class="hljs-string">█████████</span>        <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">BND</span> <span class="hljs-string">(전체</span> <span class="hljs-string">채권)</span>       <span class="hljs-number">30</span><span class="hljs-string">%</span>   <span class="hljs-string">████████</span>         <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">IEF</span> <span class="hljs-string">(중기</span> <span class="hljs-string">국채)</span>       <span class="hljs-number">15</span><span class="hljs-string">%</span>   <span class="hljs-string">████</span>             <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">TIP</span> <span class="hljs-string">(TIPS)</span>            <span class="hljs-number">10</span><span class="hljs-string">%</span>   <span class="hljs-string">██</span>               <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">SGOV</span> <span class="hljs-string">(T-Bill)</span>         <span class="hljs-number">10</span><span class="hljs-string">%</span>   <span class="hljs-string">██</span>               <span class="hljs-string">│</span>
+<span class="hljs-string">└──────────────────────────────────────────────┘</span>
+<span class="hljs-string">예상</span> <span class="hljs-attr">MDD:</span> <span class="hljs-number">-15</span><span class="hljs-string">~20%</span>  <span class="hljs-string">/</span>  <span class="hljs-string">예상</span> <span class="hljs-string">연수익:</span> <span class="hljs-number">5</span><span class="hljs-string">~6%</span>
+
+<span class="hljs-string">시나리오</span> <span class="hljs-attr">C:</span> <span class="hljs-string">금리</span> <span class="hljs-string">인하</span> <span class="hljs-string">사이클</span> <span class="hljs-string">예상</span>
+<span class="hljs-string">┌──────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span> <span class="hljs-string">VTI</span> <span class="hljs-string">(미국</span> <span class="hljs-string">전체</span> <span class="hljs-string">주식)</span>  <span class="hljs-number">55</span><span class="hljs-string">%</span>   <span class="hljs-string">██████████████</span>   <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">TLT</span> <span class="hljs-string">(장기</span> <span class="hljs-string">국채)</span>       <span class="hljs-number">30</span><span class="hljs-string">%</span>   <span class="hljs-string">████████</span>  <span class="hljs-string">←</span> <span class="hljs-string">금리</span> <span class="hljs-string">하락</span> <span class="hljs-string">수혜</span> <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">GLD</span> <span class="hljs-string">(금)</span>              <span class="hljs-number">15</span><span class="hljs-string">%</span>   <span class="hljs-string">████</span>             <span class="hljs-string">│</span>
+<span class="hljs-string">└──────────────────────────────────────────────┘</span>
+<span class="hljs-string">예상</span> <span class="hljs-string">시나리오:</span> <span class="hljs-string">연준</span> <span class="hljs-string">금리</span> <span class="hljs-string">인하</span> <span class="hljs-string">시</span> <span class="hljs-string">TLT</span> <span class="hljs-string">+20~30%</span> <span class="hljs-string">수익</span>
+
+<span class="hljs-string">시나리오</span> <span class="hljs-attr">D:</span> <span class="hljs-string">위기</span> <span class="hljs-string">대비</span> <span class="hljs-string">방어형</span>
+<span class="hljs-string">┌──────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span> <span class="hljs-string">VTI</span> <span class="hljs-string">(미국</span> <span class="hljs-string">전체</span> <span class="hljs-string">주식)</span>  <span class="hljs-number">40</span><span class="hljs-string">%</span>   <span class="hljs-string">██████████</span>       <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">BND</span> <span class="hljs-string">(전체</span> <span class="hljs-string">채권)</span>       <span class="hljs-number">30</span><span class="hljs-string">%</span>   <span class="hljs-string">████████</span>         <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">GLD</span> <span class="hljs-string">(금)</span>              <span class="hljs-number">15</span><span class="hljs-string">%</span>   <span class="hljs-string">████</span>             <span class="hljs-string">│</span>
+<span class="hljs-string">│</span> <span class="hljs-string">SGOV</span> <span class="hljs-string">(T-Bill)</span>         <span class="hljs-number">15</span><span class="hljs-string">%</span>   <span class="hljs-string">████</span>             <span class="hljs-string">│</span>
+<span class="hljs-string">└──────────────────────────────────────────────┘</span>
+<span class="hljs-string">예상</span> <span class="hljs-attr">MDD:</span> <span class="hljs-number">-12</span><span class="hljs-string">~18%</span>  <span class="hljs-string">/</span>  <span class="hljs-string">현금</span> <span class="hljs-string">흐름</span> <span class="hljs-string">중심</span>
+</code></pre>
+<hr>
+<h2>핵심 요약</h2>
+<table>
+<thead>
+<tr>
+<th>핵심 내용</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>채권 기본</td>
+<td>정부·기업에 돈 빌려주고 이자 받는 것. 주식보다 위험 낮음</td>
+</tr>
+<tr>
+<td>금리-가격 법칙</td>
+<td>금리↑ → 채권가격↓. 만기 길수록 더 크게 움직임 (듀레이션)</td>
+</tr>
+<tr>
+<td>국채 3종</td>
+<td>T-Bills(단기, 할인 발행) / T-Notes(2<del>10년) / T-Bonds(20</del>30년)</td>
+</tr>
+<tr>
+<td>역수익률 곡선</td>
+<td>2년물 > 10년물 = 경기침체 예고. 2007, 2019, 2022년 사례</td>
+</tr>
+<tr>
+<td>2022년 교훈</td>
+<td>TLT -45%(연중), BND -13%. 금리 급등기엔 "채권 = 안전" 아님</td>
+</tr>
+<tr>
+<td>채권 ETF</td>
+<td>BND(전체), TLT(장기), IEF(중기), SHY(단기), TIP(인플레 방어), HYG(하이일드)</td>
+</tr>
+<tr>
+<td>신용 스프레드</td>
+<td>HYG - 국채 금리 차. 넓어지면 위기 신호, 시장 불안 온도계</td>
+</tr>
+<tr>
+<td>TreasuryDirect</td>
+<td>미국 정부 직판 사이트. 수수료 없지만 SSN 필요, 대부분은 ETF 추천</td>
+</tr>
+</tbody>
+</table>
+<p>다음 편에서는 실제로 언제 사고 언제 팔지, 매수·매도 타이밍의 기술을 다룹니다.</p>0:{"buildId":"6dNzU7_5pCuaCrqstHw1V","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"미국 주식 투자 입문 (8) — 미국 국채와 채권 ETF: 안전자산으로 포트폴리오 지키기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,0 +1,325 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/f694a9fffc00c61e.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"6dNzU7_5pCuaCrqstHw1V","c":["","private","01-stock-basics",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","01-stock-basics","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/f694a9fffc00c61e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":6,"database":10,"node":7,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T3fa7,<p>주식 투자를 시작하고 싶은데 뭔가 복잡하고 어렵게 느껴진다면, 이 시리즈가 딱 맞다. 용어 하나하나를 외울 필요는 없다. 흐름을 이해하는 게 먼저다. 친구한테 설명해주듯 쉽게 풀어볼 테니 편하게 읽어보자.</p>
+<hr>
+<h2>1. 주식이란 — 회사의 소유권 한 조각</h2>
+<p>주식(Stock)은 단순하게 말하면 <strong>회사의 소유권 증서</strong>다.</p>
+<p>삼성전자를 예로 들어보자. 삼성전자의 총 주식 수는 약 59억 주다. 내가 그 중 1주를 가지고 있다면, 나는 삼성전자의 59억 분의 1을 소유한 주주다. 물론 경영에 직접 참여하거나 회의실에 들어갈 수 있는 건 아니지만, 법적으로는 회사의 공동 소유자다.</p>
+<p>왜 회사는 주식을 발행할까? 간단하다. <strong>돈이 필요하기 때문이다.</strong></p>
+<p>회사가 새로운 공장을 짓거나 연구개발(R&#x26;D)에 투자하려면 막대한 자금이 필요하다. 이 돈을 조달하는 방법은 크게 두 가지다.</p>
+<table>
+<thead>
+<tr>
+<th>방법</th>
+<th>설명</th>
+<th>단점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>은행 대출 (부채)</td>
+<td>은행에서 빌리고 이자를 내는 방식</td>
+<td>매달 이자 부담, 만기 상환 의무</td>
+</tr>
+<tr>
+<td>주식 발행 (자본)</td>
+<td>투자자에게 소유권을 나눠주고 자금을 받는 방식</td>
+<td>이익을 나눠야 함, 경영권 희석</td>
+</tr>
+</tbody>
+</table>
+<p>주식을 발행하면 회사는 이자 부담 없이 자금을 마련할 수 있다. 대신 투자자에게 배당이나 주가 상승의 형태로 보상을 돌려줘야 한다.</p>
+<h3>상장이란?</h3>
+<p>처음엔 비상장 회사였다가 주식시장에 올라오는 걸 <strong>기업공개(IPO, Initial Public Offering)</strong> 라고 한다. 카카오나 크래프톤처럼 유망한 스타트업이 어느 날 갑자기 주식시장에 등장하는 게 바로 IPO다.</p>
+<p>상장 이후엔 누구나 증권사 앱을 통해 그 회사 주식을 사고팔 수 있게 된다. 이게 바로 <strong>2차 시장(유통시장)</strong> 이다.</p>
+<blockquote>
+<p>핵심 요약: 주식 = 회사의 소유권 조각. 내가 주식을 사면 그 회사의 주주가 된다.</p>
+</blockquote>
+<hr>
+<h2>2. 주식시장 구조 — 거래소, 호가, 체결의 원리</h2>
+<h3>한국의 주식시장</h3>
+<p>한국엔 크게 두 개의 주식시장이 있다.</p>
+<table>
+<thead>
+<tr>
+<th>시장</th>
+<th>특징</th>
+<th>대표 종목</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>코스피(KOSPI)</strong></td>
+<td>대형 우량 기업 중심</td>
+<td>삼성전자, SK하이닉스, LG화학</td>
+</tr>
+<tr>
+<td><strong>코스닥(KOSDAQ)</strong></td>
+<td>중소·벤처·IT 기업 중심</td>
+<td>카카오게임즈, 셀트리온헬스케어</td>
+</tr>
+</tbody>
+</table>
+<p>코스피는 뉴욕증권거래소(NYSE)와 비슷하고, 코스닥은 나스닥(NASDAQ)과 비슷하다고 생각하면 된다.</p>
+<h3>거래 시간</h3>
+<p>한국 주식시장의 정규 거래 시간은 다음과 같다.</p>
+<pre><code class="hljs language-makefile"><span class="hljs-section">정규장:    오전 9:00 ~ 오후 3:30</span>
+<span class="hljs-section">동시호가:  오전 8:30 ~ 9:00 (시가 결정)</span>
+           오후 3:20 ~ 3:30 (종가 결정)
+<span class="hljs-section">시간외:    오전 8:00 ~ 8:30 / 오후 3:40 ~ 6:00</span>
+</code></pre>
+<p>오전 9시가 되면 시장이 열리고, 오후 3시 30분에 닫힌다. 시간 외 거래도 가능하지만 거래량이 적고 가격 왜곡이 생길 수 있어서 초보자는 정규장에서만 거래하는 걸 권장한다.</p>
+<h3>호가와 체결의 원리</h3>
+<p><strong>호가</strong>란 매수자가 사겠다고 제시하는 가격(매수 호가)과 매도자가 팔겠다고 제시하는 가격(매도 호가)의 목록이다.</p>
+<p>예를 들어 어떤 주식의 호가창이 이렇다고 해보자.</p>
+<pre><code class="hljs language-css"><span class="hljs-selector-attr">[매도 호가]</span>
+<span class="hljs-number">5</span>만<span class="hljs-number">5</span>,<span class="hljs-number">500</span>원 → <span class="hljs-number">2</span>,<span class="hljs-number">000</span>주
+<span class="hljs-number">5</span>만<span class="hljs-number">5</span>,<span class="hljs-number">000</span>원 → <span class="hljs-number">1</span>,<span class="hljs-number">500</span>주
+<span class="hljs-number">5</span>만<span class="hljs-number">4</span>,<span class="hljs-number">500</span>원 → <span class="hljs-number">800</span>주
+─────────────────────
+<span class="hljs-number">5</span>만<span class="hljs-number">4</span>,<span class="hljs-number">000</span>원 → <span class="hljs-number">1</span>,<span class="hljs-number">000</span>주  ← 매수 호가 <span class="hljs-number">1</span>순위
+<span class="hljs-number">5</span>만<span class="hljs-number">3</span>,<span class="hljs-number">500</span>원 → <span class="hljs-number">3</span>,<span class="hljs-number">000</span>주
+<span class="hljs-number">5</span>만<span class="hljs-number">3</span>,<span class="hljs-number">000</span>원 → <span class="hljs-number">2</span>,<span class="hljs-number">500</span>주
+<span class="hljs-selector-attr">[매수 호가]</span>
+</code></pre>
+<p>매수자가 제시한 최고가(5만4,000원)와 매도자가 제시한 최저가(5만4,500원) 사이에는 500원의 차이가 있다. 이 차이를 <strong>스프레드(Spread)</strong> 라고 한다.</p>
+<p>누군가 5만4,500원에 사겠다고 주문을 넣으면 매도 호가 1순위인 800주와 즉시 <strong>체결</strong>된다. 이렇게 매수·매도 주문이 만나면 거래가 성사된다.</p>
+<hr>
+<h2>3. 투자 vs 투기 — 마인드셋 정립</h2>
+<p>주식을 시작하기 전에 가장 먼저 정리해야 할 게 있다. 바로 <strong>내가 무엇을 하려는가</strong>다.</p>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>투자(Investment)</th>
+<th>투기(Speculation)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>시간</td>
+<td>중장기 (1년 이상)</td>
+<td>단기 (며칠~몇 주)</td>
+</tr>
+<tr>
+<td>기준</td>
+<td>기업의 본질 가치</td>
+<td>가격 변동, 수급</td>
+</tr>
+<tr>
+<td>정보</td>
+<td>재무제표, 사업 분석</td>
+<td>차트, 뉴스, 루머</td>
+</tr>
+<tr>
+<td>리스크</td>
+<td>상대적으로 낮음</td>
+<td>높음</td>
+</tr>
+<tr>
+<td>대표 인물</td>
+<td>워런 버핏, 피터 린치</td>
+<td>단타 트레이더</td>
+</tr>
+</tbody>
+</table>
+<p>투자는 좋은 회사를 싸게 사서 오랫동안 보유하는 것이다. 투기는 내일 오를 것 같은 종목을 사서 빠르게 차익을 취하는 것이다.</p>
+<p>둘 다 방법이 있고, 둘 다 돈을 벌 수 있다. 하지만 <strong>초보자에게 투기는 거의 확실하게 돈을 잃는 방법</strong>이다. 단타 매매로 수익을 내는 개인투자자는 전체의 5%도 안 된다는 연구 결과가 많다.</p>
+<h3>가장 흔한 실수들</h3>
+<ol>
+<li><strong>뉴스 보고 따라 사기</strong> — 뉴스가 나올 때쯤엔 이미 주가에 반영된 경우가 많다.</li>
+<li><strong>주가가 올랐다고 사기, 내렸다고 팔기</strong> — 추격 매수, 공포 매도는 손실을 키운다.</li>
+<li><strong>손실 종목 물타기 남용</strong> — 근거 없이 평단가를 낮추는 건 위험하다.</li>
+<li><strong>레버리지(빚투) 사용</strong> — 수익을 극대화하려다 파산하는 지름길이다.</li>
+</ol>
+<blockquote>
+<p>조언: 주식은 단거리 달리기가 아니라 마라톤이다. 빨리 부자가 되려는 마음이 크면 클수록 손실도 커진다.</p>
+</blockquote>
+<hr>
+<h2>4. 증권 계좌 개설과 주문 방법</h2>
+<h3>증권 계좌 개설</h3>
+<p>주식을 사려면 먼저 <strong>증권 계좌</strong>가 필요하다. 은행 앱처럼 증권사 앱을 설치하고 계좌를 개설하면 된다. 신분증만 있으면 10분 내로 비대면 개설이 가능하다.</p>
+<p><strong>국내 주요 증권사</strong></p>
+<table>
+<thead>
+<tr>
+<th>증권사</th>
+<th>특징</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>키움증권</td>
+<td>수수료 저렴, HTS 강자, 거래량 1위</td>
+</tr>
+<tr>
+<td>삼성증권</td>
+<td>대형사, 리서치 자료 풍부</td>
+</tr>
+<tr>
+<td>미래에셋증권</td>
+<td>해외주식 강세</td>
+</tr>
+<tr>
+<td>토스증권</td>
+<td>UI 깔끔, 초보자 친화적</td>
+</tr>
+<tr>
+<td>카카오페이증권</td>
+<td>소수점 매매 가능</td>
+</tr>
+</tbody>
+</table>
+<p>초보자라면 <strong>토스증권</strong>이나 <strong>카카오페이증권</strong>이 접근하기 쉽다. 수익을 본격적으로 노린다면 <strong>키움증권</strong>으로 넘어가는 사람이 많다.</p>
+<h3>주문 방법</h3>
+<p>계좌를 개설했다면 이제 주문을 넣어보자. 주문 방식은 크게 두 가지다.</p>
+<h4>시장가 주문 (Market Order)</h4>
+<p>현재 형성된 시장 가격으로 즉시 사고파는 주문이다.</p>
+<pre><code class="hljs language-makefile"><span class="hljs-section">예시:</span>
+삼성전자를 시장가로 10주 매수 주문
+→ 현재 최저 매도 호가인 78,000원에 즉시 체결
+</code></pre>
+<p>장점: 빠르게 체결된다.
+단점: 내가 원하는 가격을 보장할 수 없다. 급등·급락 상황에서 생각보다 비싸거나 싸게 체결될 수 있다.</p>
+<h4>지정가 주문 (Limit Order)</h4>
+<p>내가 원하는 가격을 직접 지정해서 주문하는 방식이다.</p>
+<pre><code class="hljs language-makefile"><span class="hljs-section">예시:</span>
+삼성전자를 77,500원에 10주 매수 지정가 주문
+→ 주가가 77,500원 이하로 내려올 때 체결
+   그 전까지는 주문이 대기 상태
+</code></pre>
+<p>장점: 원하는 가격에 매수·매도할 수 있다.
+단점: 가격에 도달하지 않으면 체결이 안 된다.</p>
+<blockquote>
+<p>초보자 팁: 처음엔 지정가 주문을 사용해라. 시장가로 매수했다가 생각보다 훨씬 비싼 가격에 체결되는 경우가 있다.</p>
+</blockquote>
+<h3>매도 주문도 똑같이</h3>
+<p>사는 것과 반대로 팔 때도 시장가 또는 지정가를 선택할 수 있다. 지정가로 팔 때는 내가 원하는 가격보다 <strong>낮은 가격엔 팔지 않겠다</strong>는 의미다.</p>
+<hr>
+<h2>5. 수익의 두 원천 — 시세차익과 배당</h2>
+<p>주식으로 돈을 버는 방법은 두 가지다.</p>
+<h3>1) 시세차익 (Capital Gain)</h3>
+<p>싸게 사서 비싸게 파는 것이다. 가장 직관적인 수익 방식이다.</p>
+<pre><code class="hljs language-makefile"><span class="hljs-section">예시:</span>
+삼성전자 1주를 70,000원에 매수
+이후 80,000원이 됐을 때 매도
+→ 시세차익 = 10,000원 (약 14.3% 수익)
+</code></pre>
+<p>주가는 회사의 실적, 경기, 금리, 외국인 수급 등 수많은 요인에 의해 움직인다.</p>
+<h3>2) 배당 (Dividend)</h3>
+<p>회사가 번 돈의 일부를 주주에게 나눠주는 것이다. 내 계좌에 현금이 그냥 들어온다.</p>
+<pre><code class="hljs language-makefile"><span class="hljs-section">예시:</span>
+삼성전자를 1,000주 보유
+삼성전자 배당금: 주당 1,444원 (2023년 기준)
+→ 내 배당금 = 1,444원 × 1,000주 = 1,444,000원
+</code></pre>
+<p>배당을 많이 주는 회사를 <strong>배당주</strong>라고 한다. 배당 수익률이 3~5% 이상인 종목도 많다. 예금 금리가 낮은 시기엔 배당주에 눈이 가게 된다.</p>
+<p><strong>배당 관련 중요 개념</strong></p>
+<table>
+<thead>
+<tr>
+<th>용어</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>배당수익률</td>
+<td>주가 대비 배당금 비율 (배당금 ÷ 주가 × 100)</td>
+</tr>
+<tr>
+<td>배당성향</td>
+<td>순이익 중 배당으로 지급하는 비율</td>
+</tr>
+<tr>
+<td>배당락일</td>
+<td>이 날 이후 주식을 사면 배당을 못 받는 기준일</td>
+</tr>
+<tr>
+<td>배당 기준일</td>
+<td>이 날까지 주식을 보유해야 배당을 받을 수 있는 날</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>주의: 배당락일 이후엔 주가가 배당금만큼 하락하는 경향이 있다. 배당만 받고 팔면 결국 비슷하거나 손해일 수 있다.</p>
+</blockquote>
+<hr>
+<h2>6. 세금과 수수료 — 양도세, 배당소득세, 거래세 기초</h2>
+<p>투자 수익에는 세금이 따라온다. 미리 알아두면 당황하지 않는다.</p>
+<h3>국내 주식 세금 구조 (2025년 기준)</h3>
+<table>
+<thead>
+<tr>
+<th>세금 종류</th>
+<th>대상</th>
+<th>세율</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>증권거래세</td>
+<td>주식 매도 시</td>
+<td>코스피 0.03%, 코스닥 0.18%</td>
+</tr>
+<tr>
+<td>배당소득세</td>
+<td>배당금 수령 시</td>
+<td>14% (지방세 포함 15.4%)</td>
+</tr>
+<tr>
+<td>양도소득세</td>
+<td>대주주 기준 초과 시</td>
+<td>22~27.5%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>증권거래세</strong>는 팔 때마다 자동으로 빠져나간다. 크진 않지만 자주 사고팔수록 누적된다.</p>
+<p><strong>배당소득세</strong>는 배당금이 내 계좌에 들어올 때 이미 원천징수된 금액이 들어온다. 배당금 100만 원을 받으면 실제로는 84만6,000원이 들어온다.</p>
+<p><strong>양도소득세</strong>는 대주주 요건(종목당 10억 원 이상 보유 또는 지분 1% 이상)에 해당하지 않으면 개인은 안 낸다. 하지만 해외주식은 250만 원 초과 수익에 대해 22%를 낸다.</p>
+<h3>금융투자소득세 (금투세)</h3>
+<p>원래 2025년부터 시행 예정이었으나 <strong>2025년 1월 폐지</strong>가 확정됐다. 연 5,000만 원 이상 수익에 과세하는 제도였는데, 개인 투자자 저변 확대를 위해 없애기로 했다.</p>
+<h3>수수료</h3>
+<p>증권사마다 다르지만, 키움증권 기준 온라인 거래 수수료는 약 <strong>0.015%</strong> 수준이다. 100만 원어치를 사면 수수료는 150원 정도다. 예전에 비해 많이 낮아졌다.</p>
+<h3>ISA 계좌 활용</h3>
+<p>ISA(개인종합자산관리계좌)를 활용하면 세금을 아낄 수 있다.</p>
+<pre><code class="hljs language-yaml"><span class="hljs-string">일반형</span> <span class="hljs-attr">ISA:</span> <span class="hljs-string">연</span> <span class="hljs-number">200</span><span class="hljs-string">만</span> <span class="hljs-string">원</span> <span class="hljs-string">비과세,</span> <span class="hljs-string">초과분은</span> <span class="hljs-number">9.9</span><span class="hljs-string">%</span> <span class="hljs-string">분리과세</span>
+<span class="hljs-string">서민형</span> <span class="hljs-attr">ISA:</span> <span class="hljs-string">연</span> <span class="hljs-number">400</span><span class="hljs-string">만</span> <span class="hljs-string">원</span> <span class="hljs-string">비과세</span>
+<span class="hljs-string">의무</span> <span class="hljs-string">가입</span> <span class="hljs-string">기간:</span> <span class="hljs-number">3</span><span class="hljs-string">년</span>
+</code></pre>
+<p>장기 투자자라면 ISA 계좌를 꼭 활용해볼 것. 배당소득세와 매매차익에 대한 절세 효과가 크다.</p>
+<hr>
+<h2>마무리 — 이것만 기억하자</h2>
+<p>이번 포스트에서 다룬 핵심 내용을 정리해보면:</p>
+<ol>
+<li><strong>주식 = 회사의 소유권 조각</strong>. 주주가 되면 법적으로 회사의 일부를 소유한다.</li>
+<li><strong>코스피·코스닥</strong>이 한국의 주요 주식시장이고, 거래는 오전 9시~오후 3시 30분에 이루어진다.</li>
+<li><strong>투자와 투기를 구분</strong>하고, 초보자는 장기 투자 관점을 먼저 익혀야 한다.</li>
+<li><strong>지정가 주문</strong>을 습관으로 삼아라. 시장가는 급할 때만 쓰자.</li>
+<li><strong>수익 = 시세차익 + 배당</strong>. 두 가지를 모두 이해하고 전략을 세우자.</li>
+<li><strong>세금은 미리 파악</strong>해두자. 특히 ISA 계좌는 장기 투자자에게 큰 도움이 된다.</li>
+</ol>
+<p>다음 포스트에서는 어떤 주식을 고를지, 관심종목을 만드는 방법을 알아보자.</p>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-25"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"주식 투자 입문 (1) — 주식이란 무엇인가"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"주식 투자 입문 (1) — 주식이란 무엇인가 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

@@ -1,0 +1,489 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T7824,<h2>들어가며 — 왜 재무제표를 읽어야 하는가</h2>
+<p>"이 기업은 유명하니까 좋겠지"는 투자가 아니다. 실제로 기업의 건강 상태를 확인하는 유일한 방법은 <strong>재무제표</strong>를 직접 읽는 것이다.</p>
+<p>재무제표는 처음엔 어렵게 느껴지지만, 핵심 개념 몇 가지만 이해하면 30분 안에 기업의 재무 건전성을 파악할 수 있다.</p>
+<pre><code class="hljs language-scss">재무제표 <span class="hljs-number">3</span>총사
+─────────────────────────────────────────────────────────
+  손익계산서          대차대조표          현금흐름표
+(Income Statement) (Balance Sheet)  (Cash Flow Statement)
+        │                 │                  │
+   얼마 벌었나?    지금 얼마 갖고      실제 현금은
+   (수익성)         있나? (안전성)      얼마인가?
+                                      (현금창출력)
+─────────────────────────────────────────────────────────
+세 가지 모두 함께 봐야 기업의 진짜 상태가 보인다
+</code></pre>
+<blockquote>
+<p><strong>💡 핵심 원칙</strong>: 순이익이 높아도 현금이 없으면 위험하다. 3가지 재무제표를 반드시 함께 봐야 한다.</p>
+</blockquote>
+<hr>
+<h2>1. 손익계산서 (Income Statement)</h2>
+<p>손익계산서는 <strong>일정 기간 동안 얼마를 벌고 얼마를 썼는지</strong> 보여주는 성적표다. 보통 분기(3개월), 연간 기준으로 발표된다.</p>
+<h3>1-1. 손익계산서 구조</h3>
+<pre><code class="hljs language-scss">손익계산서 흐름 (폭포 차트)
+────────────────────────────────────────────────────────
+매출액 (Revenue)                          $<span class="hljs-number">100</span>
+  └─ 매출원가 (Cost of Goods Sold)         -$<span class="hljs-number">40</span>
+       ────────────────────────────────────────
+매출총이익 (Gross Profit)                  $<span class="hljs-number">60</span>   → Gross <span class="hljs-attribute">Margin</span> <span class="hljs-number">60%</span>
+  └─ 판매관리비 (Operating Expenses)       -$<span class="hljs-number">20</span>
+       ────────────────────────────────────────
+영업이익 (Operating Income)                $<span class="hljs-number">40</span>   → Operating <span class="hljs-attribute">Margin</span> <span class="hljs-number">40%</span>
+  └─ 이자/세금 등 (Interest, Tax)          -$<span class="hljs-number">10</span>
+       ────────────────────────────────────────
+순이익 (Net Income)                        $<span class="hljs-number">30</span>   → Net <span class="hljs-attribute">Margin</span> <span class="hljs-number">30%</span>
+────────────────────────────────────────────────────────
+</code></pre>
+<h3>1-2. 핵심 수익성 지표</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>계산식</th>
+<th>의미</th>
+<th>좋은 수준</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>매출총이익률 (Gross Margin)</td>
+<td>매출총이익 ÷ 매출</td>
+<td>제품/서비스 본연의 수익성</td>
+<td>소프트웨어 70%+, 소매 25%+</td>
+</tr>
+<tr>
+<td>영업이익률 (Operating Margin)</td>
+<td>영업이익 ÷ 매출</td>
+<td>실제 사업 운영 효율성</td>
+<td>20%+ 양호</td>
+</tr>
+<tr>
+<td>순이익률 (Net Margin)</td>
+<td>순이익 ÷ 매출</td>
+<td>세후 최종 수익성</td>
+<td>10%+ 양호</td>
+</tr>
+</tbody>
+</table>
+<h3>1-3. Apple 2023년 실제 수치 분석</h3>
+<pre><code class="hljs language-scss">Apple (AAPL) FY2023 손익계산서
+────────────────────────────────────────────────────────────────
+항목                              금액          비율
+────────────────────────────────────────────────────────────────
+매출액 (Revenue)               $<span class="hljs-number">383.3</span>B        <span class="hljs-number">100.0%</span>
+  ├─ 제품 (Products)           $<span class="hljs-number">298.1</span>B         <span class="hljs-number">77.8%</span>
+  └─ 서비스 (Services)          $<span class="hljs-number">85.2</span>B         <span class="hljs-number">22.2%</span>  ← 고수익
+────────────────────────────────────────────────────────────────
+매출원가 (COGS)               -$<span class="hljs-number">214.1</span>B        -<span class="hljs-number">55.9%</span>
+────────────────────────────────────────────────────────────────
+매출총이익 (Gross Profit)       $<span class="hljs-number">169.1</span>B         <span class="hljs-number">44.1%</span>  ← Gross <span class="hljs-attribute">Margin</span>
+────────────────────────────────────────────────────────────────
+영업비용 (Operating Expenses)  -$<span class="hljs-number">54.8</span>B         -<span class="hljs-number">14.3%</span>
+  ├─ 연구개발 (R&#x26;D)             -$<span class="hljs-number">29.9</span>B         -<span class="hljs-number">7.8%</span>
+  └─ 판매관리 (SG&#x26;A)            -$<span class="hljs-number">24.9</span>B         -<span class="hljs-number">6.5%</span>
+────────────────────────────────────────────────────────────────
+영업이익 (Operating Income)    $<span class="hljs-number">114.3</span>B          <span class="hljs-number">29.8%</span>  ← Operating <span class="hljs-attribute">Margin</span>
+세금 등                        -$<span class="hljs-number">29.7</span>B
+────────────────────────────────────────────────────────────────
+순이익 (Net Income)             $<span class="hljs-number">96.9</span>B          <span class="hljs-number">25.3%</span>  ← Net <span class="hljs-attribute">Margin</span>
+────────────────────────────────────────────────────────────────
+</code></pre>
+<blockquote>
+<p><strong>💡 분석 포인트</strong>: Apple의 서비스 매출 비중이 22.2%에 불과하지만, 서비스 부문 Gross Margin은 70%+로 제품(37%)보다 훨씬 높다. 서비스 매출 성장이 전체 수익성 개선의 핵심 동력이다.</p>
+</blockquote>
+<h3>1-4. 업종별 마진 비교</h3>
+<table>
+<thead>
+<tr>
+<th>업종</th>
+<th>Gross Margin</th>
+<th>Operating Margin</th>
+<th>대표 기업</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>소프트웨어 SaaS</td>
+<td>70-80%</td>
+<td>20-30%</td>
+<td>Microsoft, Salesforce</td>
+</tr>
+<tr>
+<td>반도체</td>
+<td>50-65%</td>
+<td>25-40%</td>
+<td>Nvidia, AMD</td>
+</tr>
+<tr>
+<td>빅테크</td>
+<td>40-60%</td>
+<td>25-35%</td>
+<td>Apple, Google</td>
+</tr>
+<tr>
+<td>의약품</td>
+<td>60-80%</td>
+<td>20-35%</td>
+<td>Johnson &#x26; Johnson</td>
+</tr>
+<tr>
+<td>소매 (오프라인)</td>
+<td>25-35%</td>
+<td>3-8%</td>
+<td>Walmart, Target</td>
+</tr>
+<tr>
+<td>자동차</td>
+<td>15-25%</td>
+<td>5-12%</td>
+<td>Tesla, Ford</td>
+</tr>
+<tr>
+<td>항공</td>
+<td>10-20%</td>
+<td>5-15%</td>
+<td>Delta, United</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>2. 대차대조표 (Balance Sheet)</h2>
+<p>대차대조표는 <strong>특정 시점에 기업이 무엇을 갖고 있고, 무엇을 빚졌는지</strong> 보여준다.</p>
+<h3>2-1. 핵심 공식</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────┐
+│                                                     │
+│         자산 (Assets) = 부채 (Liabilities)          │
+│                       + 자본 (Equity)               │
+│                                                     │
+│   기업이 가진 것  =  남에게 빌린 것 + 내 것           │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+</code></pre>
+<h3>2-2. 대차대조표 구조</h3>
+<pre><code class="hljs language-scss">대차대조표 구조
+─────────────────────────────────────────────────────────────
+왼쪽 (자산)                     오른쪽 (부채 + 자본)
+─────────────────────────────────────────────────────────────
+유동자산 (<span class="hljs-number">1</span>년 내 현금화 가능)    유동부채 (<span class="hljs-number">1</span>년 내 갚아야 할 빚)
+  ├─ 현금 및 현금성 자산           ├─ 매입채무
+  ├─ 단기투자                      ├─ 단기차입금
+  ├─ 매출채권                      └─ 기타 유동부채
+  └─ 재고자산
+                                 비유동부채 (장기 부채)
+비유동자산 (장기 자산)             ├─ 장기차입금
+  ├─ 유형자산 (설비, 건물)         └─ 기타 장기부채
+  ├─ 무형자산 (특허, 브랜드)
+  └─ 장기투자                   자본 (Equity)
+                                 ├─ 자본금
+                                 ├─ 이익잉여금
+                                 └─ 자기주식 (-)
+─────────────────────────────────────────────────────────────
+왼쪽 합계 = 오른쪽 합계 (반드시 일치!)
+</code></pre>
+<h3>2-3. 핵심 안전성 지표</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>계산식</th>
+<th>의미</th>
+<th>기준</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>현재비율 (Current Ratio)</td>
+<td>유동자산 ÷ 유동부채</td>
+<td>단기 부채 상환 능력</td>
+<td>1.5 이상 양호</td>
+</tr>
+<tr>
+<td>부채비율 (D/E Ratio)</td>
+<td>총부채 ÷ 자본</td>
+<td>재무 레버리지 수준</td>
+<td>업종마다 다름</td>
+</tr>
+<tr>
+<td>이자보상배율</td>
+<td>영업이익 ÷ 이자비용</td>
+<td>이자 감당 능력</td>
+<td>3 이상 안전</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>⚠️ 주의</strong>: 부채비율은 업종마다 적정 수준이 다르다. 금융주는 본업이 돈을 빌려주는 것이라 부채비율이 당연히 높다. 제조업은 1 이하, IT 기업은 0.5 이하를 목표로 보는 것이 일반적이다.</p>
+</blockquote>
+<h3>2-4. Apple vs 일반 기업 대차대조표 비교</h3>
+<pre><code class="hljs language-bash">Apple (AAPL) 2023 대차대조표 핵심
+────────────────────────────────────────────────────────
+총자산:    <span class="hljs-variable">$352</span>.6B
+총부채:    <span class="hljs-variable">$290</span>.4B
+자본:       <span class="hljs-variable">$62</span>.2B
+
+부채비율 (D/E): 290.4 ÷ 62.2 = 4.67배 → 매우 높아 보인다!
+
+하지만... 보유 현금/투자자산이 <span class="hljs-variable">$166B</span>+
+실질 순부채: <span class="hljs-variable">$290</span>.4B - <span class="hljs-variable">$166B</span> = <span class="hljs-variable">$124B</span>
+실질 부채비율: 훨씬 낮다
+────────────────────────────────────────────────────────
+
+💡 포인트: 단순 부채비율이 높아도 현금이 많으면 실질적으로 안전할 수 있다.
+Apple처럼 현금을 많이 보유한 기업은 현금을 제외한 순부채(Net Debt)로 봐야 한다.
+</code></pre>
+<hr>
+<h2>3. 현금흐름표 (Cash Flow Statement)</h2>
+<p>현금흐름표는 <strong>실제 현금이 어디서 들어오고 어디로 나갔는지</strong> 보여준다. 이것이 가장 중요한 재무제표라는 전문가도 많다.</p>
+<blockquote>
+<p><strong>💡 핵심</strong>: 순이익은 회계 기준으로 조작 가능하지만, 현금은 거짓말하지 않는다.</p>
+</blockquote>
+<h3>3-1. 현금흐름 3가지 유형</h3>
+<pre><code class="hljs language-scss">현금흐름표 구분
+─────────────────────────────────────────────────────────────────
+영업활동 현금흐름 (Operating Cash Flow, OCF)
+  → 본업에서 실제로 들어온 현금
+  → "이 기업은 장사로 돈을 버는가?"
+  → 항상 (+) 이어야 한다 (지속적 (-) 이면 적신호)
+
+투자활동 현금흐름 (Investing Cash Flow)
+  → 설비 투자, 자산 매각, 인수합병 등
+  → 성장하는 기업은 보통 (-) (미래를 위해 투자 중)
+  → 너무 공격적인 투자는 현금 부담 위험
+
+재무활동 현금흐름 (Financing Cash Flow)
+  → 주식 발행, 배당 지급, 차입/상환
+  → 성숙 기업은 보통 (-) (자사주 매입, 배당 지급)
+─────────────────────────────────────────────────────────────────
+</code></pre>
+<h3>3-2. FCF (잉여현금흐름) — 가장 중요한 지표</h3>
+<pre><code class="hljs language-swift"><span class="hljs-type">Free</span> <span class="hljs-type">Cash</span> <span class="hljs-type">Flow</span> (<span class="hljs-type">FCF</span>) 계산
+<span class="hljs-operator">────────────────────────────────────────────────</span>
+<span class="hljs-type">FCF</span> <span class="hljs-operator">=</span> 영업활동 현금흐름 <span class="hljs-operator">-</span> 자본적 지출(<span class="hljs-type">CAPEX</span>)
+
+예시:
+  영업활동 현금흐름:  <span class="hljs-operator">+</span><span class="hljs-variable">$110</span>B
+  <span class="hljs-type">CAPEX</span> (설비투자):   <span class="hljs-operator">-</span><span class="hljs-variable">$10</span>B
+  <span class="hljs-operator">─────────────────────────</span>
+  <span class="hljs-type">FCF</span>:               <span class="hljs-operator">+</span><span class="hljs-variable">$100</span>B  <span class="hljs-operator">←</span> 이 돈이 실제 여유 현금
+
+이 <span class="hljs-type">FCF로</span> 기업은:
+  <span class="hljs-operator">✓</span> 자사주 매입 (주주 환원)
+  <span class="hljs-operator">✓</span> 배당 지급
+  <span class="hljs-operator">✓</span> 빚 갚기
+  <span class="hljs-operator">✓</span> 인수합병
+  <span class="hljs-operator">✓</span> 현금 보유
+<span class="hljs-operator">────────────────────────────────────────────────</span>
+</code></pre>
+<h3>3-3. Apple vs 고성장 적자기업 비교</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>Apple (AAPL)</th>
+<th>Uber (초기 2019)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>순이익</td>
+<td>+$57B</td>
+<td>-$8.5B</td>
+</tr>
+<tr>
+<td>영업 현금흐름</td>
+<td>+$104B</td>
+<td>-$1.7B</td>
+</tr>
+<tr>
+<td>FCF</td>
+<td>+$100B</td>
+<td>-$2.1B</td>
+</tr>
+<tr>
+<td>평가</td>
+<td>현금 창출 최강</td>
+<td>성장 투자 중</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>💡 투자 관점</strong>: 순이익이 적자여도 현금흐름이 개선 추세라면 투자 가치가 있을 수 있다 (Uber, Amazon 초기). 하지만 순이익도 현금흐름도 모두 부정적이면 위험 신호다.</p>
+</blockquote>
+<h3>3-4. Microsoft 현금흐름 분석</h3>
+<pre><code class="hljs language-swift"><span class="hljs-type">Microsoft</span> (<span class="hljs-type">MSFT</span>) <span class="hljs-type">FY2023</span> 현금흐름
+<span class="hljs-operator">────────────────────────────────────────────────────</span>
+영업활동 현금흐름:   <span class="hljs-operator">+</span><span class="hljs-variable">$87</span>.6B   <span class="hljs-operator">←</span> 사업 본업 강력
+투자활동 현금흐름:   <span class="hljs-operator">-</span><span class="hljs-variable">$22</span>.7B   <span class="hljs-operator">←</span> <span class="hljs-type">AI</span><span class="hljs-operator">/</span>클라우드 투자
+재무활동 현금흐름:   <span class="hljs-operator">-</span><span class="hljs-variable">$43</span>.9B   <span class="hljs-operator">←</span> 자사주 매입 <span class="hljs-operator">+</span> 배당
+
+잉여현금흐름 (<span class="hljs-type">FCF</span>): <span class="hljs-number">87.6</span> <span class="hljs-operator">-</span> <span class="hljs-number">20.1</span>(<span class="hljs-type">CAPEX</span>) <span class="hljs-operator">=</span> <span class="hljs-variable">$67</span>.5B
+<span class="hljs-operator">────────────────────────────────────────────────────</span>
+영업 현금흐름이 강하고, 투자와 주주환원이 균형 잡혀 있다.
+이것이 <span class="hljs-string">"캐시 카우"</span>의 전형적인 모습이다.
+</code></pre>
+<hr>
+<h2>4. 실전: SEC EDGAR와 Yahoo Finance 활용법</h2>
+<h3>4-1. SEC EDGAR — 공식 재무제표 원본</h3>
+<p>미국 상장 기업은 SEC(증권거래위원회)에 정기적으로 보고서를 제출한다.</p>
+<pre><code class="hljs language-yaml"><span class="hljs-string">SEC</span> <span class="hljs-string">EDGAR</span> <span class="hljs-string">보고서</span> <span class="hljs-string">종류</span>
+<span class="hljs-string">────────────────────────────────────────────────────</span>
+<span class="hljs-attr">10-K :</span> <span class="hljs-string">연간</span> <span class="hljs-string">보고서</span> <span class="hljs-string">(가장</span> <span class="hljs-string">상세,</span> <span class="hljs-string">연</span> <span class="hljs-number">1</span><span class="hljs-string">회)</span>
+        <span class="hljs-string">→</span> <span class="hljs-string">사업</span> <span class="hljs-string">개요,</span> <span class="hljs-string">리스크</span> <span class="hljs-string">요인,</span> <span class="hljs-string">전체</span> <span class="hljs-string">재무제표</span>
+<span class="hljs-attr">10-Q :</span> <span class="hljs-string">분기</span> <span class="hljs-string">보고서</span> <span class="hljs-string">(연</span> <span class="hljs-number">3</span><span class="hljs-string">회)</span>
+        <span class="hljs-string">→</span> <span class="hljs-string">분기</span> <span class="hljs-string">실적,</span> <span class="hljs-string">간략한</span> <span class="hljs-string">재무제표</span>
+<span class="hljs-attr">8-K  :</span> <span class="hljs-string">수시</span> <span class="hljs-string">공시</span> <span class="hljs-string">(중요</span> <span class="hljs-string">사건</span> <span class="hljs-string">발생</span> <span class="hljs-string">시)</span>
+        <span class="hljs-string">→</span> <span class="hljs-string">실적</span> <span class="hljs-string">발표,</span> <span class="hljs-string">인수합병,</span> <span class="hljs-string">CEO</span> <span class="hljs-string">교체</span> <span class="hljs-string">등</span>
+<span class="hljs-attr">DEF14A:</span> <span class="hljs-string">주주총회</span> <span class="hljs-string">안건</span> <span class="hljs-string">+</span> <span class="hljs-string">임원</span> <span class="hljs-string">보수</span>
+<span class="hljs-string">────────────────────────────────────────────────────</span>
+<span class="hljs-string">접속:</span> <span class="hljs-string">https://www.sec.gov/edgar/search/</span>
+<span class="hljs-string">검색:</span> <span class="hljs-string">회사명</span> <span class="hljs-string">또는</span> <span class="hljs-string">티커</span> <span class="hljs-string">→</span> <span class="hljs-number">10</span><span class="hljs-string">-K</span> <span class="hljs-string">선택</span>
+</code></pre>
+<h3>4-2. Yahoo Finance — 빠른 분석</h3>
+<pre><code class="hljs language-java">Yahoo Finance 활용 워크플로우
+────────────────────────────────────────────
+<span class="hljs-number">1.</span> finance.yahoo.com 접속
+<span class="hljs-number">2.</span> 검색창에 티커 입력 (예: AAPL)
+<span class="hljs-number">3.</span> 상단 메뉴에서 <span class="hljs-string">"Financials"</span> 클릭
+   ├─ Income <span class="hljs-title function_">Statement</span> <span class="hljs-params">(손익계산서)</span>
+   ├─ Balance <span class="hljs-title function_">Sheet</span> <span class="hljs-params">(대차대조표)</span>
+   └─ Cash <span class="hljs-title function_">Flow</span> <span class="hljs-params">(현금흐름표)</span>
+<span class="hljs-number">4.</span> 오른쪽 상단: Annual / Quarterly 전환
+<span class="hljs-number">5.</span> <span class="hljs-string">"5-Year"</span> 버튼으로 추세 확인
+────────────────────────────────────────────
+⭐ TIP: <span class="hljs-string">"TTM"</span> = Trailing Twelve <span class="hljs-title function_">Months</span> <span class="hljs-params">(최근 <span class="hljs-number">12</span>개월)</span>
+</code></pre>
+<h3>4-3. 5년 추세가 왜 중요한가</h3>
+<p>단순히 최근 1년 수치만 보면 안 된다. 5년 추세를 봐야 "방향성"이 보인다.</p>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>1년만 봤을 때</th>
+<th>5년 추세로 봤을 때</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>매출 성장</td>
+<td>10% 성장</td>
+<td>매년 10-20% 꾸준한 성장</td>
+</tr>
+<tr>
+<td>영업 마진</td>
+<td>25%</td>
+<td>15% → 20% → 25% (개선 중)</td>
+</tr>
+<tr>
+<td>FCF</td>
+<td>$100B</td>
+<td>$50B → $75B → $100B (증가 추세)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>💡 핵심</strong>: 단순한 수치보다 <strong>방향성</strong>이 중요하다. 마진이 개선되고 있는가? FCF가 꾸준히 성장하고 있는가?</p>
+</blockquote>
+<hr>
+<h2>5. 실전 재무 분석 체크리스트</h2>
+<p>기업을 분석하기 전에 아래 10가지를 순서대로 확인하라.</p>
+<h3>✅ 수익성 체크 (손익계산서)</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 매출이 꾸준히 성장하고 있는가? (연 10%+ 이상이면 양호)</li>
+<li class="task-list-item"><input type="checkbox" disabled> Gross Margin이 안정적이거나 개선 중인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 영업이익률이 긍정적인가? (15%+ 양호)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 순이익이 지속적으로 발생하는가?</li>
+</ul>
+<h3>✅ 안전성 체크 (대차대조표)</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 현재비율이 1.5 이상인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 부채가 통제 가능한 수준인가? (업종 평균 비교)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 현금 및 유동성이 충분한가?</li>
+</ul>
+<h3>✅ 현금창출력 체크 (현금흐름표)</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 영업 현금흐름이 항상 (+) 인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> FCF가 꾸준히 증가 추세인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 주주 환원(자사주 매입/배당)을 하고 있는가?</li>
+</ul>
+<hr>
+<h2>6. Apple vs Palantir — 두 기업 재무 비교</h2>
+<p>완전히 다른 두 기업을 비교하면 재무제표 해석 능력이 생긴다.</p>
+<pre><code class="hljs language-scss">Apple (AAPL) vs Palantir (PLTR) 재무 비교
+────────────────────────────────────────────────────────────────────
+지표                    Apple (성숙기 캐시카우)    Palantir (성장주)
+────────────────────────────────────────────────────────────────────
+매출 성장률 (YoY)              -<span class="hljs-number">3%</span> (성숙기)          +<span class="hljs-number">17%</span> (성장 중)
+Gross <span class="hljs-attribute">Margin</span>                   <span class="hljs-number">44.1%</span>                  <span class="hljs-number">80%</span>+ (소프트웨어)
+Operating <span class="hljs-attribute">Margin</span>               <span class="hljs-number">29.8%</span>                  <span class="hljs-number">10%</span>대 (흑자 전환)
+순이익                       +$<span class="hljs-number">96.9</span>B                   소규모 흑자
+FCF                          +$<span class="hljs-number">100</span>B                   +$<span class="hljs-number">700</span>M 수준
+부채                           높음 (현금으로 커버)     매우 낮음
+주주 환원                    자사주 매입 $<span class="hljs-number">90</span>B+         아직 없음
+────────────────────────────────────────────────────────────────────
+
+어떤 투자자에게?
+Apple:    안정적 수익과 주주 환원을 원하는 보수적 투자자
+Palantir: AI/데이터 분야의 성장에 배팅하는 공격적 투자자
+────────────────────────────────────────────────────────────────────
+</code></pre>
+<hr>
+<h2>7. 재무제표 함정 — 이런 기업 조심하라</h2>
+<h3>🚨 레드 플래그 10가지</h3>
+<pre><code class="hljs language-markdown"><span class="hljs-bullet">1.</span> 순이익은 증가하는데 FCF는 감소
+   → 회계상 이익을 부풀릴 가능성 (수익 조기 인식 등)
+
+<span class="hljs-bullet">2.</span> 재고가 매출보다 빠르게 증가
+   → 물건이 안 팔리고 있는 신호
+
+<span class="hljs-bullet">3.</span> 매출채권이 매출보다 빠르게 증가
+   → 현금을 못 받고 있거나 공격적 회계 처리
+
+<span class="hljs-bullet">4.</span> 반복적인 "일회성 비용" 처리
+   → 매년 일회성 손실이 나오면 사실상 일상적 비용
+
+<span class="hljs-bullet">5.</span> 감사 의견에 "계속기업 관련 중요한 불확실성"
+   → 회사가 망할 수도 있다는 뜻
+
+<span class="hljs-bullet">6.</span> 임원의 지속적 주식 매도
+   → 내부자들이 미래를 부정적으로 본다는 신호
+
+<span class="hljs-bullet">7.</span> 부채가 급격히 증가하면서 FCF는 정체
+   → 빚으로 성장을 유지하는 구조
+
+<span class="hljs-bullet">8.</span> 여러 번의 CFO/CEO 교체
+   → 내부 문제가 있을 가능성
+
+<span class="hljs-bullet">9.</span> 감사법인 교체
+   → 이전 감사법인과 의견 충돌 가능성
+
+<span class="hljs-bullet">10.</span> 관련 당사자 거래가 많음 (Related Party Transactions)
+<span class="hljs-code">    → 오너 일가와의 불투명한 거래 가능성
+</span></code></pre>
+<hr>
+<h2>정리 — 재무제표 읽기 학습 로드맵</h2>
+<pre><code class="hljs language-markdown">재무제표 분석 역량 향상 단계
+────────────────────────────────────────────────────────
+Step 1: Yahoo Finance에서 관심 기업의 5년 매출/이익 추세 확인
+<span class="hljs-code">        (30분 투자, 바로 시작 가능)
+</span>
+Step 2: 해당 기업의 경쟁사 1-2개와 주요 지표 비교
+<span class="hljs-code">        (누가 더 효율적인가?)
+</span>
+Step 3: SEC EDGAR에서 10-K 개요 섹션 읽기
+<span class="hljs-code">        (리스크 요인과 사업 모델 파악)
+</span>
+Step 4: FCF 5년 추세 직접 계산해보기
+<span class="hljs-code">        (영업현금흐름 - CAPEX)
+</span>
+Step 5: 앞서 배운 밸류에이션 지표(5편)와 연결해서 분석
+<span class="hljs-code">        (FCF 기반 DCF 계산)
+────────────────────────────────────────────────────────
+</span></code></pre>
+<p>다음 편에서는 이 재무 수치를 바탕으로 <strong>주가가 비싼지 싼지 판단하는 가치평가 방법</strong>을 다룬다.</p>0:{"buildId":"6dNzU7_5pCuaCrqstHw1V","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"미국 주식 투자 입문 (4) — 재무제표 읽기: 이 기업이 건강한지 숫자로 확인하기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

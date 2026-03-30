@@ -1,0 +1,627 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/f694a9fffc00c61e.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"6dNzU7_5pCuaCrqstHw1V","c":["","private","us-01-getting-started",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","us-01-getting-started","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/f694a9fffc00c61e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":6,"database":10,"node":7,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:Tc7cb,<h1>미국 주식 투자 입문 (1) — 계좌 개설부터 첫 주문까지</h1>
+<blockquote>
+<p>"애플 주식 사보고 싶은데 어떻게 시작하지?"</p>
+<p>이 글은 주식 계좌 하나 없는 완전 초보자를 위해 썼다.
+계좌 개설 → 환전 → 첫 주문까지 한 번에 끝낸다.</p>
+</blockquote>
+<hr>
+<h2>전체 흐름 한눈에 보기</h2>
+<pre><code class="hljs language-vbnet">┌─────────────────────────────────────────────────────────────────┐
+│                 미국 주식 투자 전체 흐름                         │
+└─────────────────────────────────────────────────────────────────┘
+
+  <span class="hljs-keyword">STEP</span> <span class="hljs-number">1</span>          <span class="hljs-keyword">STEP</span> <span class="hljs-number">2</span>          <span class="hljs-keyword">STEP</span> <span class="hljs-number">3</span>          <span class="hljs-keyword">STEP</span> <span class="hljs-number">4</span>
+┌────────┐      ┌────────┐      ┌────────┐      ┌────────┐
+│ 증권사 │ ───▶ │  원화  │ ───▶ │  달러  │ ───▶ │  주식  │
+│ 계좌   │      │ 입금   │      │ 환전   │      │ 매수   │
+│ 개설   │      │        │      │        │      │        │
+└────────┘      └────────┘      └────────┘      └────────┘
+    │                                                │
+    │  신분증 + <span class="hljs-number">10</span>분                                  │  클릭 한 번
+    │  비대면 가능                                    │  AAPL 매수!
+    ▼                                                ▼
+  완료!                                            투자자!
+</code></pre>
+<hr>
+<h2>1. 증권사 선택 — 어디서 계좌를 열까?</h2>
+<h3>1.1 국내 증권사 비교</h3>
+<p>미국 주식을 사려면 <strong>해외주식 거래가 가능한 증권사</strong>가 필요하다.
+국내 주요 증권사들의 특징을 비교해보자.</p>
+<pre><code class="hljs language-swift"><span class="hljs-operator">┌──────────────────────────────────────────────────────────────────────┐</span>
+<span class="hljs-operator">│</span>                    국내 증권사 비교표 (<span class="hljs-number">2026</span>년 기준)                   <span class="hljs-operator">│</span>
+<span class="hljs-operator">├──────────────┬──────────┬──────────┬──────────┬──────────┬──────────┤</span>
+<span class="hljs-operator">│</span>   증권사     <span class="hljs-operator">│</span> 수수료   <span class="hljs-operator">│</span> 환전우대 <span class="hljs-operator">│</span>  앱 편의 <span class="hljs-operator">│</span>  최소금액<span class="hljs-operator">│</span>  특징    <span class="hljs-operator">│</span>
+<span class="hljs-operator">├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤</span>
+<span class="hljs-operator">│</span> 키움증권     <span class="hljs-operator">│</span>  <span class="hljs-number">0.25</span><span class="hljs-operator">%</span>   <span class="hljs-operator">│</span>  <span class="hljs-number">70</span><span class="hljs-operator">~</span><span class="hljs-number">90</span><span class="hljs-operator">%</span>  <span class="hljs-operator">│</span>   <span class="hljs-operator">★★★★</span>  <span class="hljs-operator">│</span>  제한없음<span class="hljs-operator">│</span> 점유율<span class="hljs-number">1</span>위<span class="hljs-operator">│</span>
+<span class="hljs-operator">│</span> 영웅문글로벌 <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>  이벤트시<span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span> <span class="hljs-type">PC툴강력</span> <span class="hljs-operator">│</span>
+<span class="hljs-operator">├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤</span>
+<span class="hljs-operator">│</span> 신한투자증권 <span class="hljs-operator">│</span>  <span class="hljs-number">0.25</span><span class="hljs-operator">%</span>   <span class="hljs-operator">│</span>  <span class="hljs-number">90</span><span class="hljs-operator">%</span>     <span class="hljs-operator">│</span>   <span class="hljs-operator">★★★★★</span> <span class="hljs-operator">│</span>  제한없음<span class="hljs-operator">│</span> 앱<span class="hljs-type">UX최고</span> <span class="hljs-operator">│</span>
+<span class="hljs-operator">│</span> <span class="hljs-type">SOL</span>          <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>  상시우대<span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span> 초보추천 <span class="hljs-operator">│</span>
+<span class="hljs-operator">├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤</span>
+<span class="hljs-operator">│</span> 미래에셋증권 <span class="hljs-operator">│</span>  <span class="hljs-number">0.25</span><span class="hljs-operator">%</span>   <span class="hljs-operator">│</span>  <span class="hljs-number">90</span><span class="hljs-operator">%</span>     <span class="hljs-operator">│</span>   <span class="hljs-operator">★★★★</span>  <span class="hljs-operator">│</span>  제한없음<span class="hljs-operator">│</span> 리서치강 <span class="hljs-operator">│</span>
+<span class="hljs-operator">│</span> <span class="hljs-type">M</span><span class="hljs-operator">-</span><span class="hljs-type">STOCK</span>      <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>  이벤트시<span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span> 글로벌강 <span class="hljs-operator">│</span>
+<span class="hljs-operator">├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤</span>
+<span class="hljs-operator">│</span> 삼성증권     <span class="hljs-operator">│</span>  <span class="hljs-number">0.25</span><span class="hljs-operator">%</span>   <span class="hljs-operator">│</span>  <span class="hljs-number">90</span><span class="hljs-operator">%</span>     <span class="hljs-operator">│</span>   <span class="hljs-operator">★★★</span>   <span class="hljs-operator">│</span>  제한없음<span class="hljs-operator">│</span> <span class="hljs-type">PB서비스</span> <span class="hljs-operator">│</span>
+<span class="hljs-operator">│</span> <span class="hljs-type">POP</span>          <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>  이벤트시<span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span> 자산가용 <span class="hljs-operator">│</span>
+<span class="hljs-operator">├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤</span>
+<span class="hljs-operator">│</span> 토스증권     <span class="hljs-operator">│</span>  <span class="hljs-number">0.25</span><span class="hljs-operator">%</span>   <span class="hljs-operator">│</span>  <span class="hljs-number">50</span><span class="hljs-operator">%</span>     <span class="hljs-operator">│</span>   <span class="hljs-operator">★★★★★</span> <span class="hljs-operator">│</span>  제한없음<span class="hljs-operator">│</span> 초보최적 <span class="hljs-operator">│</span>
+<span class="hljs-operator">│</span>              <span class="hljs-operator">│</span>  (첫해무료<span class="hljs-operator">│</span>         <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span> <span class="hljs-type">UI단순</span>   <span class="hljs-operator">│</span>
+<span class="hljs-operator">├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤</span>
+<span class="hljs-operator">│</span> <span class="hljs-type">Interactive</span>  <span class="hljs-operator">│</span>  <span class="hljs-variable">$0</span><span class="hljs-operator">~</span><span class="hljs-number">1</span>    <span class="hljs-operator">│</span>  직접환전<span class="hljs-operator">│</span>   <span class="hljs-operator">★★★</span>   <span class="hljs-operator">│</span>  <span class="hljs-variable">$0</span>      <span class="hljs-operator">│</span> 전문가용 <span class="hljs-operator">│</span>
+<span class="hljs-operator">│</span> <span class="hljs-type">Brokers</span>(<span class="hljs-type">IB</span>)  <span class="hljs-operator">│</span>  <span class="hljs-operator">/</span>거래   <span class="hljs-operator">│</span>  필요없음<span class="hljs-operator">│</span>          <span class="hljs-operator">│</span>          <span class="hljs-operator">│</span> 수수료최저<span class="hljs-operator">│</span>
+<span class="hljs-operator">└──────────────┴──────────┴──────────┴──────────┴──────────┴──────────┘</span>
+
+<span class="hljs-operator">※</span> 수수료는 변경될 수 있으므로 개설 전 반드시 확인
+</code></pre>
+<h3>1.2 초보자 추천 선택 기준</h3>
+<pre><code class="hljs language-scss">┌────────────────────────────────────────────┐
+│           어떤 증권사를 골라야 할까?        │
+├────────────────────────────────────────────┤
+│                                            │
+│  📱 앱이 쉬워야 해  →  토스증권, 신한SOL  │
+│                                            │
+│  💰 수수료 아끼고 싶어 →  키움, IB        │
+│                                            │
+│  📊 리서치 보고 싶어 →  미래에셋          │
+│                                            │
+│  💵 소액 (<span class="hljs-number">100</span>만원 미만) →  토스, 신한SOL  │
+│                                            │
+│  💰 대액 (<span class="hljs-number">1000</span>만원 이상) →  IB 고려       │
+│                                            │
+└────────────────────────────────────────────┘
+</code></pre>
+<p><strong>초보자라면 토스증권 또는 신한 SOL을 추천한다.</strong></p>
+<ul>
+<li>앱 인터페이스가 단순하고 직관적</li>
+<li>비대면 계좌 개설 10분 이내</li>
+<li>분할 매수(1주 미만 소수점 투자) 지원</li>
+</ul>
+<h3>1.3 Interactive Brokers (IB)는 언제 고려하나?</h3>
+<p>IB는 전 세계 투자자가 쓰는 글로벌 브로커리지다.</p>
+<p><strong>장점:</strong></p>
+<ul>
+<li>수수료 최저 (주당 $0.005 또는 거래금액의 0.1%, 최소 $1)</li>
+<li>환전 스프레드 거의 없음 (은행 대비 압도적으로 유리)</li>
+<li>옵션, 선물, 외국 ETF 등 다양한 상품 접근</li>
+</ul>
+<p><strong>단점:</strong></p>
+<ul>
+<li>한국어 지원 미흡</li>
+<li>초보자가 쓰기에 UI가 복잡</li>
+<li>해외 금융기관이므로 예금자 보호법 미적용</li>
+<li>세금 신고를 직접 해야 함</li>
+</ul>
+<blockquote>
+<p><strong>결론:</strong> 투자금 3,000만원 이상, 해외주식 경험 1년 이상이면 IB 이전을 고려하자.</p>
+</blockquote>
+<hr>
+<h2>2. 계좌 개설 실전 — 신한 SOL 기준</h2>
+<p>모든 증권사 프로세스는 거의 동일하다.</p>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────┐
+│                비대면 계좌 개설 단계                     │
+└─────────────────────────────────────────────────────────┘
+
+  <span class="hljs-selector-attr">[앱 다운로드]</span>
+       │
+       ▼
+  <span class="hljs-selector-attr">[개인정보 입력]</span>
+  이름 / 주민번호 / 연락처
+       │
+       ▼
+  <span class="hljs-selector-attr">[신분증 촬영]</span>
+  주민등록증 또는 운전면허증
+       │
+       ▼
+  <span class="hljs-selector-attr">[본인 인증]</span>
+  ① 계좌 인증 (기존 은행 계좌)
+  ② 영상통화 인증 (일부 증권사)
+       │
+       ▼
+  <span class="hljs-selector-attr">[계좌 종류 선택]</span>
+  ✅ 종합위탁계좌 (일반)
+  ✅ ISA 계좌 (세금 혜택, 연 <span class="hljs-number">2000</span>만원 한도)
+       │
+       ▼
+  <span class="hljs-selector-attr">[해외주식 거래 신청]</span>
+  ← 이 단계 반드시 체크!
+       │
+       ▼
+  <span class="hljs-selector-attr">[완료]</span> <span class="hljs-number">10</span>~<span class="hljs-number">15</span>분 소요
+</code></pre>
+<blockquote>
+<p><strong>주의:</strong> "해외주식 거래 신청"을 별도로 해야 하는 경우가 많다.
+계좌 개설 완료 후 앱에서 "해외주식 > 거래 신청" 메뉴를 확인하자.</p>
+</blockquote>
+<hr>
+<h2>3. 환전 — 언제, 어떻게 달러를 바꿀까?</h2>
+<h3>3.1 환전의 기본 개념</h3>
+<pre><code class="hljs language-ini">┌───────────────────────────────────────────────────────────────┐
+│                      환전 비용 구조                            │
+└───────────────────────────────────────────────────────────────┘
+
+  실제 환율 (은행 기준): 1달러 = 1,300원
+                              │
+              ┌───────────────┼───────────────┐
+              │               │               │
+        살 때(매수)     팔 때(매도)        우대환율
+        1,330원         1,270원           1,300원
+              │               │
+           스프레드: 30원     스프레드: 30원
+          (2.3% 손실)        (2.3% 손실)
+
+  ──────────────────────────────────────────────────────────────
+  증권사 우대 90% 적용 시:
+    우대 금액: 30원 × 90% = 27원 할인
+    실제 매수 환율: 1,330 - <span class="hljs-attr">27</span> = <span class="hljs-number">1</span>,<span class="hljs-number">303</span>원
+    (0.23% 비용으로 줄어듦!)
+  ──────────────────────────────────────────────────────────────
+</code></pre>
+<h3>3.2 환전 우대 신청하기</h3>
+<p>증권사마다 "환전 우대" 이벤트를 한다. 놓치지 말자.</p>
+<table>
+<thead>
+<tr>
+<th>방법</th>
+<th>우대율</th>
+<th>특징</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>기본 환율</td>
+<td>0%</td>
+<td>증권사 기본 제공 (비쌈)</td>
+</tr>
+<tr>
+<td>앱 내 환전 신청</td>
+<td>50~70%</td>
+<td>버튼 클릭만으로</td>
+</tr>
+<tr>
+<td>이벤트 신청</td>
+<td>90~95%</td>
+<td>기간 한정</td>
+</tr>
+<tr>
+<td>환전 예약</td>
+<td>90%</td>
+<td>목표 환율 도달 시 자동</td>
+</tr>
+</tbody>
+</table>
+<p><strong>실전 팁:</strong> 신한 SOL, 키움증권 앱에서 "환전 우대" 또는 "환율 우대 신청" 탭을 찾아보자.</p>
+<h3>3.3 환전 타이밍 전략</h3>
+<pre><code class="hljs language-bash">┌───────────────────────────────────────────────────────────────┐
+│                   환전 타이밍 전략                             │
+└───────────────────────────────────────────────────────────────┘
+
+  전략 1: 분할 환전 (초보자 추천)
+  ────────────────────────────────
+  목표 투자금: 300만원
+
+  1월  환전: 100만원 → 환율 1,350원 → <span class="hljs-variable">$740</span>
+  2월  환전: 100만원 → 환율 1,300원 → <span class="hljs-variable">$769</span>
+  3월  환전: 100만원 → 환율 1,280원 → <span class="hljs-variable">$781</span>
+
+  평균 환율: 1,310원 (환율 리스크 분산)
+
+  ──────────────────────────────────────────────────────────────
+
+  전략 2: 달러 저축 (장기투자자)
+  ────────────────────────────────
+  매월 고정 금액(예: 50만원)을 달러로 환전
+  → 달러-코스트 평균법 (DCA) 효과
+  → 환율 예측 필요 없음
+
+  ──────────────────────────────────────────────────────────────
+
+  전략 3: 환율 목표 설정
+  ────────────────────────
+  <span class="hljs-string">"달러가 1,280원 이하로 내려오면 환전"</span>
+  → 환전 예약 기능 활용
+  → 단, 언제 내려올지 모름 (예측 불가)
+
+  ──────────────────────────────────────────────────────────────
+
+  ❌ 피해야 할 행동
+  <span class="hljs-string">"환율이 떨어지기를 기다리며 계속 미루기"</span>
+  → 주가도 오를 수 있어 기회 비용 발생
+  → 환율 + 주가 동시 예측은 불가능
+</code></pre>
+<blockquote>
+<p><strong>핵심 원칙:</strong> 환율 타이밍보다 <strong>분할 환전 + 분할 매수</strong>가 훨씬 중요하다.
+환율 예측으로 수익 내는 사람은 거의 없다.</p>
+</blockquote>
+<hr>
+<h2>4. 미국 주식 거래 시간 — 한국 시각 기준</h2>
+<h3>4.1 정규장 시간</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────┐
+│              미국 주식 거래 시간 (한국 기준)                     │
+└─────────────────────────────────────────────────────────────────┘
+
+  ☀️ 여름 (서머타임, <span class="hljs-number">3</span>월 둘째 주 일요일 ~ <span class="hljs-number">11</span>월 첫째 주 일요일)
+  ┌──────────────────────────────────────────────────────────────┐
+  │  프리마켓   │    정규장    │  애프터마켓  │      야간      │
+  │  <span class="hljs-number">21</span>:<span class="hljs-number">00</span>     │   <span class="hljs-number">22</span>:<span class="hljs-number">30</span>     │    <span class="hljs-number">05</span>:<span class="hljs-number">00</span>    │              │
+  │    ~       │     ~       │     ~       │              │
+  │  <span class="hljs-number">22</span>:<span class="hljs-number">30</span>     │   <span class="hljs-number">05</span>:<span class="hljs-number">00</span>     │    <span class="hljs-number">09</span>:<span class="hljs-number">00</span>    │              │
+  └──────────────────────────────────────────────────────────────┘
+  한국 시각   <span class="hljs-number">21</span>시          <span class="hljs-number">22</span>시<span class="hljs-number">30</span>분        <span class="hljs-number">5</span>시           <span class="hljs-number">9</span>시
+
+  ❄️ 겨울 (서머타임 없음)
+  ┌──────────────────────────────────────────────────────────────┐
+  │  프리마켓   │    정규장    │  애프터마켓  │      야간      │
+  │  <span class="hljs-number">22</span>:<span class="hljs-number">00</span>     │   <span class="hljs-number">23</span>:<span class="hljs-number">30</span>     │    <span class="hljs-number">06</span>:<span class="hljs-number">00</span>    │              │
+  │    ~       │     ~       │     ~       │              │
+  │  <span class="hljs-number">23</span>:<span class="hljs-number">30</span>     │   <span class="hljs-number">06</span>:<span class="hljs-number">00</span>     │    <span class="hljs-number">10</span>:<span class="hljs-number">00</span>    │              │
+  └──────────────────────────────────────────────────────────────┘
+  한국 시각   <span class="hljs-number">22</span>시          <span class="hljs-number">23</span>시<span class="hljs-number">30</span>분        <span class="hljs-number">6</span>시           <span class="hljs-number">10</span>시
+</code></pre>
+<h3>4.2 프리마켓 / 애프터마켓 주의사항</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────┐
+│              프리마켓 / 애프터마켓 특징                          │
+└─────────────────────────────────────────────────────────────────┘
+
+  정규장                프리마켓/애프터마켓
+  ──────                ────────────────────
+  유동성 매우 높음      유동성 낮음
+  가격 안정적           가격 변동성 극심
+  대부분 주문 체결      지정가만 가능 (일부 증권사)
+  스프레드 좁음         스프레드 넓음
+
+  ⚠️  실적 발표는 정규장 후 (After Hours)에 많이 나온다
+      → Apple 실적 발표 → 애프터마켓에서 급등/급락
+      → 다음날 정규장 시작 때 반영
+
+  💡 초보자는 정규장(<span class="hljs-number">22</span>:<span class="hljs-number">30</span>~<span class="hljs-number">05</span>:<span class="hljs-number">00</span> 여름 기준)에서만 거래하자
+</code></pre>
+<h3>4.3 공휴일</h3>
+<p>미국 주식 시장은 미국 공휴일에 쉰다. 한국 공휴일과 다르다.</p>
+<pre><code class="hljs language-python">미국 주요 주식 시장 휴장일 (연간)
+──────────────────────────────────
+<span class="hljs-number">1</span>월  <span class="hljs-number">1</span>일     New Yea<span class="hljs-string">r's Day (새해)
+1월  3째 월  Martin Luther King Jr. Day
+2월  3째 월  Presidents'</span> Day
+<span class="hljs-number">4</span>월  성금요일 Good Friday (부활절 전)
+<span class="hljs-number">5</span>월  마지막 월 Memorial Day
+<span class="hljs-number">6</span>월  <span class="hljs-number">19</span>일    Juneteenth
+<span class="hljs-number">7</span>월  <span class="hljs-number">4</span>일     Independence Day (독립기념일)
+<span class="hljs-number">9</span>월  첫째 월  Labor Day
+<span class="hljs-number">11</span>월 <span class="hljs-number">4</span>째 목  Thanksgiving Day
+<span class="hljs-number">12</span>월 <span class="hljs-number">25</span>일    Christmas Day
+</code></pre>
+<hr>
+<h2>5. 세금 완벽 정리 — 가장 중요한 부분</h2>
+<h3>5.1 미국 주식 세금 종류</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────┐
+│                 미국 주식 관련 세금 <span class="hljs-number">2</span>가지                        │
+└─────────────────────────────────────────────────────────────────┘
+
+  ┌──────────────────────┐    ┌──────────────────────┐
+  │   양도소득세          │    │   배당소득세          │
+  │   (매매차익)          │    │   (배당금)            │
+  └──────────────────────┘    └──────────────────────┘
+          │                           │
+  주식 팔아서 번 돈               배당금 받을 때
+  연 <span class="hljs-number">250</span>만원 공제                 <span class="hljs-number">15%</span> 원천징수
+  초과분 × <span class="hljs-number">22%</span>                    (자동 차감)
+  연 <span class="hljs-number">1</span>회 신고                     별도 신고 필요시
+  (<span class="hljs-number">5</span>월 종합소득세)                (금융소득종합과세)
+</code></pre>
+<h3>5.2 양도소득세 상세 계산</h3>
+<pre><code class="hljs language-bash">┌─────────────────────────────────────────────────────────────────┐
+│                   양도소득세 계산 예시                           │
+└─────────────────────────────────────────────────────────────────┘
+
+  예시 1: 수익 200만원 → 세금 0원
+  ─────────────────────────────────
+  Apple(AAPL) 매수: <span class="hljs-variable">$10</span>,000 (2025년)
+  Apple(AAPL) 매도: <span class="hljs-variable">$11</span>,538 (2026년)
+  환율 1,300원 적용
+
+  매매차익: (<span class="hljs-variable">$11</span>,538 - <span class="hljs-variable">$10</span>,000) × 1,300원 = 2,000,000원
+  기본공제: -2,500,000원 (250만원)
+  과세표준: 0원 (공제 후 마이너스)
+  세금: 0원 ✅
+
+  ──────────────────────────────────────────────────────────────
+
+  예시 2: 수익 700만원 → 세금 99만원
+  ─────────────────────────────────────
+  Microsoft(MSFT) 매수: <span class="hljs-variable">$15</span>,000
+  Microsoft(MSFT) 매도: <span class="hljs-variable">$20</span>,385
+  환율 1,300원 적용
+
+  매매차익: (<span class="hljs-variable">$20</span>,385 - <span class="hljs-variable">$15</span>,000) × 1,300원 = 7,000,500원
+  기본공제: -2,500,000원
+  과세표준: 4,500,500원
+  세금: 4,500,500 × 22% = 990,110원 💸
+
+  ──────────────────────────────────────────────────────────────
+
+  ⚠️  중요: 연간 모든 해외주식 손익을 합산한다
+
+  AAPL 수익: +500만원
+  TSLA 손실: -200만원
+  합산 수익:  300만원
+  공제 후:    50만원
+  세금: 50만원 × 22% = 11만원
+</code></pre>
+<h3>5.3 절세 전략</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">┌─────────────────────────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span>                    <span class="hljs-string">연말</span> <span class="hljs-string">절세</span> <span class="hljs-string">체크리스트</span>                          <span class="hljs-string">│</span>
+<span class="hljs-string">└─────────────────────────────────────────────────────────────────┘</span>
+
+  <span class="hljs-number">12</span><span class="hljs-string">월이</span> <span class="hljs-string">되면</span> <span class="hljs-string">수익/손실</span> <span class="hljs-string">계산</span>
+
+  <span class="hljs-string">상황</span> <span class="hljs-attr">A:</span> <span class="hljs-string">수익</span> <span class="hljs-number">600</span><span class="hljs-string">만원,</span> <span class="hljs-string">아직</span> <span class="hljs-string">팔지</span> <span class="hljs-string">않은</span> <span class="hljs-string">손실</span> <span class="hljs-string">주식</span> <span class="hljs-string">있음</span>
+  <span class="hljs-string">──────────────────────────────────────────────────────</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">손실</span> <span class="hljs-string">주식</span> <span class="hljs-string">매도</span> <span class="hljs-string">→</span> <span class="hljs-string">수익</span> <span class="hljs-string">상쇄</span> <span class="hljs-string">→</span> <span class="hljs-string">세금</span> <span class="hljs-string">절감</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">원하면</span> <span class="hljs-string">즉시</span> <span class="hljs-string">재매수</span> <span class="hljs-string">(국내</span> <span class="hljs-string">주식과</span> <span class="hljs-string">달리</span> <span class="hljs-string">워시세일</span> <span class="hljs-string">규정</span> <span class="hljs-string">없음)</span>
+
+  <span class="hljs-string">상황</span> <span class="hljs-attr">B:</span> <span class="hljs-string">수익이</span> <span class="hljs-number">250</span><span class="hljs-string">만원</span> <span class="hljs-string">넘지</span> <span class="hljs-string">않을</span> <span class="hljs-string">것</span> <span class="hljs-string">같음</span>
+  <span class="hljs-string">──────────────────────────────────────────</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">추가</span> <span class="hljs-string">매도로</span> <span class="hljs-string">수익</span> <span class="hljs-string">실현해도</span> <span class="hljs-string">세금</span> <span class="hljs-string">없음</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">"연간 250만원 비과세 한도"</span> <span class="hljs-string">최대한</span> <span class="hljs-string">활용</span>
+
+  <span class="hljs-string">상황</span> <span class="hljs-attr">C:</span> <span class="hljs-string">ISA</span> <span class="hljs-string">계좌</span> <span class="hljs-string">활용</span>
+  <span class="hljs-string">─────────────────────</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">ISA</span> <span class="hljs-string">내</span> <span class="hljs-string">해외ETF는</span> <span class="hljs-number">200</span><span class="hljs-string">만원(서민형</span> <span class="hljs-number">400</span><span class="hljs-string">만원)</span> <span class="hljs-string">비과세</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">초과분도</span> <span class="hljs-number">9.9</span><span class="hljs-string">%</span> <span class="hljs-string">분리과세</span> <span class="hljs-string">(22%보다</span> <span class="hljs-string">유리)</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">단,</span> <span class="hljs-string">의무보유기간</span> <span class="hljs-number">3</span><span class="hljs-string">년</span>
+
+  <span class="hljs-string">──────────────────────────────────────────────────────────────</span>
+  <span class="hljs-string">신고</span> <span class="hljs-string">방법:</span> <span class="hljs-string">매년</span> <span class="hljs-number">5</span><span class="hljs-string">월</span> <span class="hljs-string">종합소득세</span> <span class="hljs-string">신고</span> <span class="hljs-string">기간에</span>
+            <span class="hljs-string">홈택스(hometax.go.kr)에서</span> <span class="hljs-string">직접</span> <span class="hljs-string">신고</span>
+            <span class="hljs-string">또는</span> <span class="hljs-string">세무사</span> <span class="hljs-string">위임</span>
+</code></pre>
+<h3>5.4 배당소득세</h3>
+<pre><code class="hljs language-bash">┌─────────────────────────────────────────────────────────────────┐
+│                    배당소득세 구조                               │
+└─────────────────────────────────────────────────────────────────┘
+
+  배당금 발생
+       │
+       ▼
+  미국에서 15% 원천징수 (자동)
+       │
+       ▼
+  증권사 계좌에 입금 (세후 금액)
+       │
+       ├── 연간 금융소득이 2,000만원 이하
+       │   → 추가 신고 불필요 ✅
+       │
+       └── 연간 금융소득이 2,000만원 초과
+           → 금융소득종합과세 신고 필요 ⚠️
+           → 다른 소득과 합산 → 최대 45% 세율
+
+  예시: Apple 배당금 <span class="hljs-variable">$100</span> 수령
+  ─────────────────────────────
+  배당금: <span class="hljs-variable">$100</span>
+  미국 원천징수: <span class="hljs-variable">$100</span> × 15% = <span class="hljs-variable">$15</span> 차감
+  실제 수령: <span class="hljs-variable">$85</span>
+  (한국 세금 추가 없음, 단 금융소득 2000만원 이하)
+</code></pre>
+<hr>
+<h2>6. 실제 주문 방법 — 버튼 누르기 전 알아야 할 것</h2>
+<h3>6.1 주문 종류</h3>
+<pre><code class="hljs language-vbnet">┌─────────────────────────────────────────────────────────────────┐
+│                    주문 종류 비교                                │
+└─────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │ <span class="hljs-number">1</span>. 시장가 주문 (Market <span class="hljs-keyword">Order</span>)                               │
+  │                                                             │
+  │  <span class="hljs-string">"지금 당장 현재 가격에 사줘"</span>                               │
+  │                                                             │
+  │  장점: 즉시 체결                                            │
+  │  단점: 원하는 가격 보장 안 됨 (슬리피지 발생)              │
+  │                                                             │
+  │  사용 시기: 급하게 사야 할 때, 유동성 높은 대형주           │
+  │  예시: <span class="hljs-string">"AAPL 10주 시장가 매수"</span> → 현재가 $<span class="hljs-number">185</span>로 즉시 체결   │
+  └─────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │ <span class="hljs-number">2</span>. 지정가 주문 (Limit <span class="hljs-keyword">Order</span>) ← 초보자 추천                  │
+  │                                                             │
+  │  <span class="hljs-string">"이 가격 이하(매수) 또는 이상(매도)일 때만 사줘"</span>           │
+  │                                                             │
+  │  장점: 원하는 가격에 거래 가능                              │
+  │  단점: 원하는 가격에 도달하지 않으면 미체결                 │
+  │                                                             │
+  │  사용 시기: 항상 (특히 변동성 클 때)                        │
+  │  예시: <span class="hljs-string">"AAPL $183 이하로 10주 매수"</span> → $<span class="hljs-number">183</span> 이하일 때 체결  │
+  └─────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │ <span class="hljs-number">3</span>. 손절 주문 (<span class="hljs-keyword">Stop</span> Loss <span class="hljs-keyword">Order</span>)                              │
+  │                                                             │
+  │  <span class="hljs-string">"이 가격 아래로 떨어지면 자동으로 팔아줘"</span>                  │
+  │                                                             │
+  │  장점: 감정 없이 손실 제한                                  │
+  │  단점: 일시적 하락 시에도 매도됨                            │
+  │                                                             │
+  │  사용 시기: 손실 제한이 필요할 때                           │
+  │  예시: <span class="hljs-string">"$170 이하면 AAPL 자동 매도"</span> → 하락 방어            │
+  └─────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │ <span class="hljs-number">4</span>. <span class="hljs-keyword">Stop</span> Limit <span class="hljs-keyword">Order</span>                                         │
+  │                                                             │
+  │  <span class="hljs-keyword">Stop</span> 가격 도달 시 → Limit 주문으로 전환                    │
+  │  갭다운 시 원치 않는 가격에 팔리는 것 방지                  │
+  └─────────────────────────────────────────────────────────────┘
+</code></pre>
+<h3>6.2 실전 주문 시뮬레이션 — Apple(AAPL) 첫 매수</h3>
+<pre><code class="hljs language-bash">┌─────────────────────────────────────────────────────────────────┐
+│            AAPL 10주 지정가 매수 시뮬레이션                     │
+└─────────────────────────────────────────────────────────────────┘
+
+  현재 상황:
+  - AAPL 현재가: <span class="hljs-variable">$185</span>.20
+  - 내가 원하는 가격: <span class="hljs-variable">$184</span>.00
+  - 매수 수량: 10주
+
+  Step 1. 앱 실행 → 해외주식 탭
+  Step 2. AAPL 검색 → Apple Inc 선택
+  Step 3. 매수 버튼 클릭
+
+  주문 화면:
+  ┌───────────────────────────────┐
+  │  AAPL (Apple Inc.)           │
+  │  현재가: <span class="hljs-variable">$185</span>.20             │
+  │                               │
+  │  주문 유형: [지정가 ▼]       │
+  │  주문 수량: [10    ]         │
+  │  주문 가격: [<span class="hljs-variable">$184</span>.00]        │
+  │                               │
+  │  예상 금액: <span class="hljs-variable">$1</span>,840.00        │
+  │  (원화 환산: ₩2,392,000)     │
+  │                               │
+  │      [매수 확인]              │
+  └───────────────────────────────┘
+
+  Step 4. <span class="hljs-string">"매수 확인"</span> 클릭
+  Step 5. 비밀번호 / 생체인증 입력
+  Step 6. 완료!
+
+  이후:
+  - AAPL이 <span class="hljs-variable">$184</span>.00 이하로 내려오면 → 자동 체결 ✅
+  - 오늘 장 마감까지 안 내려오면 → 미체결 (취소 또는 재주문)
+</code></pre>
+<h3>6.3 체결 후 확인사항</h3>
+<pre><code class="hljs language-bash">┌─────────────────────────────────────────────────────────────────┐
+│                  매수 체결 후 확인 체크리스트                   │
+└─────────────────────────────────────────────────────────────────┘
+
+  ✅  체결 수량 확인 (10주 맞는지)
+  ✅  체결 가격 확인 (<span class="hljs-variable">$184</span>.00 이하인지)
+  ✅  수수료 확인 (0.25% 적용됐는지)
+  ✅  잔고 확인 (달러 잔고 차감 확인)
+  ✅  포트폴리오에 AAPL 표시 확인
+
+  수수료 계산:
+  <span class="hljs-variable">$1</span>,840 × 0.25% = <span class="hljs-variable">$4</span>.60
+  총 비용: <span class="hljs-variable">$1</span>,844.60
+</code></pre>
+<hr>
+<h2>7. 소수점 투자 (1주 미만 매수)</h2>
+<p>국내 일부 증권사는 1주 미만의 소수점 투자를 지원한다.</p>
+<pre><code class="hljs language-bash">┌─────────────────────────────────────────────────────────────────┐
+│                소수점 투자 예시                                  │
+└─────────────────────────────────────────────────────────────────┘
+
+  Amazon(AMZN) 현재가: <span class="hljs-variable">$186</span>.00
+
+  소수점 없이: 최소 <span class="hljs-variable">$186</span> 필요 (약 24만원)
+  소수점 지원: <span class="hljs-variable">$10</span>으로 0.054주 매수 가능!
+
+  지원 증권사:
+  ✅ 토스증권 (0.001주 단위)
+  ✅ 신한 SOL (0.01주 단위)
+  ✅ 키움증권 (일부 종목)
+  ❌ IB (소수점 지원 없음, 단 ETF는 가능)
+
+  장점: 초기 소액으로 다양한 주식 경험
+  단점: 의결권 없음, 현금 배당만 지급
+</code></pre>
+<hr>
+<h2>8. 첫 투자를 위한 실전 체크리스트</h2>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────┐
+│              미국 주식 첫 투자 준비 완료 체크                   │
+└─────────────────────────────────────────────────────────────────┘
+
+  계좌 준비
+  ─────────
+  □ 증권사 앱 설치 완료
+  □ 비대면 계좌 개설 완료
+  □ 해외주식 거래 신청 완료
+  □ 환전 우대 신청 완료
+
+  자금 준비
+  ─────────
+  □ 투자 가능 금액 결정 (잃어도 되는 돈)
+  □ 원화 입금 완료
+  □ 달러 환전 완료
+
+  공부
+  ────
+  □ 관심 종목 <span class="hljs-number">3</span>개 선정 (예: AAPL, MSFT, SPY)
+  □ 거래 시간 확인 (여름/겨울 구분)
+  □ 세금 구조 이해 (<span class="hljs-number">250</span>만원 공제)
+
+  첫 주문
+  ────────
+  □ 지정가 주문으로 소량(<span class="hljs-number">1</span>~<span class="hljs-number">3</span>주) 매수
+  □ 체결 확인
+  □ 수수료 확인
+
+  마음가짐
+  ─────────
+  □ 단기 손익에 흔들리지 않기로 결심
+  □ 최소 <span class="hljs-number">1</span>~<span class="hljs-number">3</span>년 장기 보유 계획
+  □ 추가 매수를 위한 여유 자금 확보
+</code></pre>
+<hr>
+<h2>9. 자주 묻는 질문 (FAQ)</h2>
+<p><strong>Q. 미국 주식은 1주씩만 살 수 있나요?</strong>
+A. 아니다. 수량 제한 없다. 0.001주도 가능한 증권사가 있다.</p>
+<p><strong>Q. 달러가 없어도 되나요?</strong>
+A. 증권사 앱에서 원화로 환전할 수 있다. 자동 환전 서비스도 있다.</p>
+<p><strong>Q. 밤새워서 미국 주식 봐야 하나요?</strong>
+A. 장기투자라면 필요 없다. 지정가 주문을 걸어두면 자고 일어나서 체결 확인만 하면 된다.</p>
+<p><strong>Q. 미국 주식도 상한가/하한가가 있나요?</strong>
+A. 없다. 단, 서킷브레이커(Circuit Breaker)는 있다. S&#x26;P500이 7%, 13%, 20% 이상 하락 시 거래 일시 정지.</p>
+<p><strong>Q. 세금 신고는 어떻게 하나요?</strong>
+A. 매년 5월 홈택스에서 해외주식 양도소득세 신고. 증권사에서 손익 내역서를 발급해준다.</p>
+<p><strong>Q. ISA 계좌에서도 미국 주식 살 수 있나요?</strong>
+A. 직접 미국 주식은 불가. 단, 미국 주식 담은 ETF(예: TIGER 미국S&#x26;P500)는 가능.</p>
+<hr>
+<h2>10. 다음 편 예고</h2>
+<p>이제 계좌도 열었고 환전도 했고 첫 주문도 했다.
+다음은 "어떤 주식을 살까?"가 고민일 것이다.</p>
+<pre><code class="hljs language-sql">미국 주식 투자 입문 시리즈
+──────────────────────────────────────────────────
+✅ <span class="hljs-number">01</span>편: 계좌 개설부터 첫 주문까지 (지금 읽는 중)
+📌 <span class="hljs-number">02</span>편: 미국 시장 구조 — NYSE, NASDAQ, S<span class="hljs-operator">&#x26;</span>P500
+📌 <span class="hljs-number">03</span>편: 어떤 주식 살까 — 기업 분석 첫걸음
+📌 <span class="hljs-number">04</span>편: 재무제표 읽기 (애플 사례)
+📌 <span class="hljs-number">05</span>편: 주가 가치평가 — <span class="hljs-keyword">PER</span>, PBR, EV<span class="hljs-operator">/</span>EBITDA
+📌 <span class="hljs-number">06</span>편: 성장주 vs 가치주 선택법
+📌 <span class="hljs-number">07</span>편: ETF로 분산투자하기
+📌 <span class="hljs-number">08</span>편: 채권과 미국 국채 (TLT)
+📌 <span class="hljs-number">09</span>편: 매수<span class="hljs-operator">/</span>매도 타이밍
+📌 <span class="hljs-number">10</span>편: 포트폴리오 구성과 리밸런싱
+📌 <span class="hljs-number">11</span>편: 거시경제와 국제 시사가 주가를 움직인다
+</code></pre>
+<hr>
+<blockquote>
+<p><strong>투자 원칙 한 줄 요약:</strong>
+처음엔 무조건 소액으로 시작하라. $100으로 경험한 1%의 손실이
+$10,000으로 경험한 1%의 손실보다 백만 배 교육적이다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"미국 주식 투자 입문 (1) — 계좌 개설부터 첫 주문까지"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"미국 주식 투자 입문 (1) — 계좌 개설부터 첫 주문까지 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

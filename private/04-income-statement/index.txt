@@ -1,0 +1,325 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/f694a9fffc00c61e.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"6dNzU7_5pCuaCrqstHw1V","c":["","private","04-income-statement",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","04-income-statement","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/f694a9fffc00c61e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":6,"database":10,"node":7,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T3385,<h1>주식 투자 입문 (4) — 재무제표 읽기 1편: 손익계산서</h1>
+<p>지금까지 주식이 뭔지, 시장이 어떻게 돌아가는지 감을 잡았다면, 이제 본론으로 들어갈 차례다. <strong>"이 회사가 진짜 돈을 잘 버는 회사인가?"</strong> 를 판단하는 능력. 이걸 익히는 게 주식 투자의 핵심이다.</p>
+<p>그리고 그 판단의 근거가 되는 게 바로 <strong>재무제표</strong>다.</p>
+<hr>
+<h2>1. 왜 재무제표를 봐야 하는가</h2>
+<p>솔직히 말하자. 재무제표 안 보고 주식 사는 사람이 훨씬 많다. 뉴스 보고, 커뮤니티 보고, 유튜브 보고 산다. 그게 나쁜 건 아닌데, 문제는 그게 <strong>남의 판단을 그대로 빌려오는 것</strong>이라는 거다.</p>
+<p>남이 "이 회사 좋다"고 하면 왜 좋은지 스스로 검증할 수가 없다. 주가가 떨어지면 버텨야 할지 팔아야 할지 판단할 근거가 없다. 그냥 불안해서 팔거나, 근거 없이 믿으면서 버티거나, 둘 중 하나가 된다.</p>
+<p>재무제표를 읽는다는 건 <strong>회사의 실제 성적표를 직접 보는 것</strong>이다. 어떤 애널리스트의 해석도 아니고, 회사가 직접 금융감독원에 제출한 숫자들을 내가 직접 읽는 것. 그 숫자를 해석하는 눈이 생기면, 투자 판단이 훨씬 단단해진다.</p>
+<p>재무제표는 크게 세 가지다:</p>
+<table>
+<thead>
+<tr>
+<th>재무제표</th>
+<th>핵심 질문</th>
+<th>비유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>손익계산서</strong></td>
+<td>이 회사가 돈을 얼마나 벌었나?</td>
+<td>성적표</td>
+</tr>
+<tr>
+<td><strong>재무상태표</strong></td>
+<td>이 회사의 재산과 빚은 얼마나 되나?</td>
+<td>현재 자산 현황</td>
+</tr>
+<tr>
+<td><strong>현금흐름표</strong></td>
+<td>실제로 현금이 얼마나 들어오고 나갔나?</td>
+<td>통장 내역</td>
+</tr>
+</tbody>
+</table>
+<p>이번 편에서는 그 첫 번째, <strong>손익계산서</strong>를 제대로 읽어보자.</p>
+<hr>
+<h2>2. 손익계산서 구조 — 매출 → 영업이익 → 순이익</h2>
+<p>손익계산서는 일정 기간(보통 1년 또는 분기) 동안 회사가 얼마를 벌고, 얼마를 쓰고, 결국 얼마가 남았는지를 보여주는 표다.</p>
+<p>구조는 이렇다:</p>
+<pre><code class="hljs language-scss">매출액 (Revenue)
+  - 매출원가 (Cost of Goods Sold)
+= 매출총이익 (Gross Profit)
+  - 판매비와 관리비 (SG&#x26;A)
+= 영업이익 (Operating Income)
+  + 영업외수익 - 영업외비용
+= 세전이익 (Pre-tax Income)
+  - 법인세
+= 당기순이익 (Net Income)
+</code></pre>
+<p>하나씩 풀어보자.</p>
+<h3>매출액</h3>
+<p>회사가 물건이나 서비스를 팔아서 번 돈이다. 이걸 <strong>"탑라인(Top Line)"</strong> 이라고도 부른다. 손익계산서의 가장 위에 있어서.</p>
+<p>주의할 점: 매출액은 실제로 돈이 들어온 게 아닐 수도 있다. 외상으로 팔아도 매출로 잡힌다. 그래서 뒤에 현금흐름표를 같이 봐야 한다.</p>
+<h3>매출원가</h3>
+<p>물건을 만드는 데 직접 들어간 비용이다. 제조업이라면 원재료, 직접 인건비 등. 서비스업이라면 서비스 제공에 직접 든 비용.</p>
+<h3>매출총이익</h3>
+<p>매출액에서 매출원가를 뺀 것. "물건을 팔아서 기본적으로 얼마 남겼나"를 보여준다.</p>
+<h3>판매비와 관리비 (판관비)</h3>
+<p>마케팅비, 광고비, 임원 급여, 사무실 임대료 등 회사 운영에 드는 간접 비용들.</p>
+<h3>영업이익</h3>
+<p><strong>가장 중요한 숫자다.</strong> 회사가 본업을 통해서 얼마나 벌었는지를 보여준다. 영업외적인 요소(이자, 투자 수익, 환차익 등)를 제외한 순수한 사업 능력의 척도다.</p>
+<p>영업이익이 꾸준히 늘어나는 회사가 좋은 회사다.</p>
+<h3>당기순이익</h3>
+<p>세금까지 다 내고 최종적으로 남은 돈. <strong>"바텀라인(Bottom Line)"</strong> 이라고도 한다. 이 돈이 주주들에게 배당으로 나가거나 회사에 재투자된다.</p>
+<p>순이익은 영업이익보다 변동이 클 수 있다. 자산을 팔거나 소송에서 이기면 영업이익은 별로여도 순이익이 크게 나올 수 있다. 반대로 환율이 불리하게 움직이면 영업이익은 좋아도 순이익이 줄 수 있다.</p>
+<hr>
+<h2>3. 핵심 마진 지표 — 매출총이익률, 영업이익률, 순이익률</h2>
+<p>숫자 자체보다 <strong>비율</strong>이 중요할 때가 많다. 영업이익 100억이 많은 건지 적은 건지는 매출이 얼마냐에 따라 다르니까.</p>
+<h3>매출총이익률 (Gross Margin)</h3>
+<pre><code class="hljs">매출총이익률 = 매출총이익 / 매출액 × 100
+</code></pre>
+<p>제품 자체의 수익성을 보여준다. 이 수치가 높을수록 제품의 가격 경쟁력이나 원가 효율이 좋다는 뜻.</p>
+<ul>
+<li>소프트웨어 기업: 60~80% (원가가 거의 없음)</li>
+<li>제약·바이오: 60~70%</li>
+<li>일반 제조업: 20~40%</li>
+<li>유통·식품: 10~30%</li>
+</ul>
+<p>업종마다 차이가 크다. 그래서 <strong>같은 업종끼리 비교</strong>하는 게 기본이다.</p>
+<h3>영업이익률 (Operating Margin)</h3>
+<pre><code class="hljs">영업이익률 = 영업이익 / 매출액 × 100
+</code></pre>
+<p>회사의 <strong>본업 수익성</strong>을 가장 잘 보여주는 지표. 이 수치가 높고 안정적인 회사가 진짜 강한 회사다.</p>
+<ul>
+<li>10% 이상: 꽤 좋음</li>
+<li>15% 이상: 우수</li>
+<li>20% 이상: 탁월 (해자가 있는 기업)</li>
+</ul>
+<p>삼성전자 반도체 호황기엔 영업이익률이 30%를 넘기도 했다. 반도체 불황기엔 5% 미만으로 떨어지기도 한다. 이렇게 변동이 심한 업종은 <strong>사이클</strong>을 같이 이해해야 한다.</p>
+<h3>순이익률 (Net Margin)</h3>
+<pre><code class="hljs">순이익률 = 당기순이익 / 매출액 × 100
+</code></pre>
+<p>최종 수익성 지표. 영업이익률과 비교해서:</p>
+<ul>
+<li>순이익률 > 영업이익률: 영업외 이익이 크다 (이자 수입, 지분 매각 등)</li>
+<li>순이익률 &#x3C; 영업이익률: 영업외 비용이 크다 (이자 부담, 환손실 등)</li>
+</ul>
+<p>일시적인 요인으로 크게 차이 나는 경우도 많다. 그래서 영업이익률을 더 중시한다.</p>
+<hr>
+<h2>4. 연도별 추이 읽기 — 성장·정체·감소 판단</h2>
+<p>재무제표에서 숫자 하나보다 <strong>방향과 트렌드</strong>가 더 중요하다.</p>
+<p>아래 예시를 보자. (가상의 A사)</p>
+<table>
+<thead>
+<tr>
+<th>연도</th>
+<th>매출액</th>
+<th>영업이익</th>
+<th>영업이익률</th>
+<th>순이익</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021</td>
+<td>1,000억</td>
+<td>80억</td>
+<td>8%</td>
+<td>60억</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>1,200억</td>
+<td>120억</td>
+<td>10%</td>
+<td>90억</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>1,500억</td>
+<td>180억</td>
+<td>12%</td>
+<td>140억</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>1,800억</td>
+<td>250억</td>
+<td>14%</td>
+<td>190억</td>
+</tr>
+</tbody>
+</table>
+<p>이 회사 어떻게 보이나? 매출도 늘고, 영업이익도 늘고, 심지어 영업이익률도 해마다 올라가고 있다. <strong>규모의 경제가 작동하면서 수익성이 개선되는 이상적인 패턴</strong>이다.</p>
+<p>이번엔 다른 예시. B사:</p>
+<table>
+<thead>
+<tr>
+<th>연도</th>
+<th>매출액</th>
+<th>영업이익</th>
+<th>영업이익률</th>
+<th>순이익</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021</td>
+<td>2,000억</td>
+<td>200억</td>
+<td>10%</td>
+<td>180억</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>1,800억</td>
+<td>140억</td>
+<td>7.8%</td>
+<td>120억</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>1,600억</td>
+<td>80억</td>
+<td>5%</td>
+<td>50억</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>1,500억</td>
+<td>30억</td>
+<td>2%</td>
+<td>-10억</td>
+</tr>
+</tbody>
+</table>
+<p>매출도 줄고, 이익률도 계속 떨어지고, 결국 적자 전환. 이건 <strong>구조적 위기</strong>다. 이런 회사를 "싸졌다"고 사면 안 된다. 싼 게 아니라 이유가 있는 것이다.</p>
+<h3>추이를 볼 때 체크리스트</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 매출이 꾸준히 성장하고 있나?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 영업이익이 매출보다 빠르게 성장하고 있나? (레버리지 효과)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 영업이익률이 안정적이거나 개선되고 있나?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 영업이익과 순이익의 방향이 일치하나? (불일치하면 이유 파악 필요)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 일시적 요인(자산 매각, 보상금 등)이 결과를 왜곡하고 있지는 않나?</li>
+</ul>
+<p>최소 3년, 가능하면 5년치를 봐야 패턴이 보인다.</p>
+<hr>
+<h2>5. DART에서 실제 손익계산서 찾아 읽기 실습</h2>
+<p>이론은 충분하다. 이제 실제로 해보자.</p>
+<h3>DART란?</h3>
+<p><strong>DART(Data Analysis, Retrieval and Transfer System)</strong> 는 금융감독원이 운영하는 전자공시 시스템이다. 국내 모든 상장회사는 분기마다, 반기마다, 연간으로 재무제표를 여기에 공시해야 한다. 무료로, 누구나 볼 수 있다.</p>
+<p>주소: <strong><a href="https://dart.fss.or.kr">https://dart.fss.or.kr</a></strong></p>
+<h3>실습: 삼성전자 손익계산서 찾기</h3>
+<p><strong>Step 1: DART 접속</strong>
+dart.fss.or.kr 에 접속한다.</p>
+<p><strong>Step 2: 회사명 검색</strong>
+상단 검색창에 "삼성전자" 입력 후 검색.</p>
+<p><strong>Step 3: 사업보고서 선택</strong>
+공시 목록에서 "사업보고서" (연간) 또는 "분기보고서"를 클릭. 가장 최근 것을 본다.</p>
+<p><strong>Step 4: 재무제표 찾기</strong>
+보고서 목차에서 <strong>"재무에 관한 사항"</strong> → <strong>"재무제표"</strong> 로 이동.</p>
+<p>연결재무제표(그룹 전체)와 별도재무제표(지주사 단독)가 있다. <strong>보통 연결재무제표를 본다.</strong></p>
+<p><strong>Step 5: 손익계산서 확인</strong>
+"연결 손익계산서" 또는 "포괄손익계산서"를 찾아본다.</p>
+<h3>실제로 마주치는 용어들</h3>
+<p>처음 보면 당황스러운 용어들이 있다. 미리 알아두자:</p>
+<table>
+<thead>
+<tr>
+<th>공시 용어</th>
+<th>쉬운 말</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>매출액</td>
+<td>판매해서 번 돈</td>
+</tr>
+<tr>
+<td>매출원가</td>
+<td>물건 만드는 데 든 비용</td>
+</tr>
+<tr>
+<td>매출총이익</td>
+<td>매출 - 원가</td>
+</tr>
+<tr>
+<td>판매비와관리비</td>
+<td>운영에 드는 간접 비용</td>
+</tr>
+<tr>
+<td>영업이익</td>
+<td>본업으로 번 돈</td>
+</tr>
+<tr>
+<td>금융수익</td>
+<td>이자 수익, 배당 수익 등</td>
+</tr>
+<tr>
+<td>금융비용</td>
+<td>이자 비용 등</td>
+</tr>
+<tr>
+<td>법인세비용차감전순이익</td>
+<td>세전이익</td>
+</tr>
+<tr>
+<td>당기순이익</td>
+<td>세후 최종 이익</td>
+</tr>
+<tr>
+<td>지배기업 소유주 귀속</td>
+<td>최대주주 몫</td>
+</tr>
+<tr>
+<td>비지배지분 귀속</td>
+<td>소수주주 몫</td>
+</tr>
+</tbody>
+</table>
+<h3>네이버 증권으로 간단히 보기</h3>
+<p>DART가 너무 복잡하면 <strong>네이버 증권</strong>을 쓰는 것도 좋다.</p>
+<ol>
+<li>finance.naver.com 접속</li>
+<li>종목 검색 (예: 삼성전자)</li>
+<li>종목 페이지에서 <strong>"재무분석"</strong> 탭 클릭</li>
+<li>연간/분기 손익계산서를 깔끔하게 볼 수 있다</li>
+</ol>
+<p>숫자가 정리되어 있고 추이도 볼 수 있어서 처음에는 네이버 증권이 더 편하다. DART는 원본 자료를 직접 확인할 때 쓰면 된다.</p>
+<h3>연습 과제</h3>
+<p>오늘 하나만 해보자:</p>
+<ol>
+<li>네이버 증권에서 관심 있는 기업 하나 선택</li>
+<li>재무분석 탭에서 최근 5년 연간 손익계산서 확인</li>
+<li>매출, 영업이익, 영업이익률 추이를 직접 적어보기</li>
+<li>"이 회사는 성장하고 있나? 이익이 늘고 있나?" 스스로 판단해보기</li>
+</ol>
+<p>처음엔 뭐가 뭔지 모르는 게 정상이다. 10개 회사 보면 눈이 트이기 시작한다.</p>
+<hr>
+<h2>정리</h2>
+<p>이번 편에서 배운 것:</p>
+<ul>
+<li><strong>손익계산서</strong>는 일정 기간 동안의 수익과 비용을 보여주는 성적표다</li>
+<li>핵심 구조: 매출 → 매출총이익 → 영업이익 → 순이익</li>
+<li><strong>영업이익률</strong>이 회사의 본업 경쟁력을 가장 잘 보여준다</li>
+<li>숫자 하나보다 **추이(트렌드)**가 더 중요하다</li>
+<li>DART나 네이버 증권에서 실제 재무제표를 직접 찾아볼 수 있다</li>
+</ul>
+<p>다음 편에서는 재무상태표와 현금흐름표를 다룬다. 손익은 좋아 보이는데 사실 속은 곪아 있는 회사를 어떻게 걸러내는지 배울 것이다.</p>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-25"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"주식 투자 입문 (4) — 재무제표 읽기 1편: 손익계산서"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"주식 투자 입문 (4) — 재무제표 읽기 1편: 손익계산서 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

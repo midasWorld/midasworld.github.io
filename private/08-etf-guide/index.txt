@@ -1,0 +1,503 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/f694a9fffc00c61e.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"6dNzU7_5pCuaCrqstHw1V","c":["","private","08-etf-guide",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","08-etf-guide","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/f694a9fffc00c61e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":6,"database":10,"node":7,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T46b4,<p>지금까지 재무제표 읽는 법, PER/PBR 계산, 성장성 분석까지 배웠는데, 솔직히 느끼지 않았나? "이거 한 종목 분석하는 것도 이렇게 공들여야 하는데, 나는 언제 투자 시작하지?" 라고.</p>
+<p>맞다. 개별 종목 분석은 시간도 많이 걸리고, 틀릴 위험도 있다. 그래서 <strong>ETF</strong>라는 게 등장했다. 개별 주식 분석 없이도, 시장 전체의 수익률을 가져갈 수 있는 방법이다.</p>
+<p>이번 편에서는 ETF가 뭔지, 어떤 종류가 있는지, 어떻게 고르는지, 그리고 국내에서 살 수 있는 주요 상품까지 싹 정리해준다.</p>
+<hr>
+<h2>1. ETF란 무엇인가 — 펀드와의 차이, 구조 이해</h2>
+<h3>기본 개념: 바구니를 사는 것</h3>
+<p>ETF는 <strong>Exchange Traded Fund</strong>, 우리말로는 <strong>상장지수펀드</strong>다.</p>
+<p>쉽게 설명하면 이렇다. 삼성전자, SK하이닉스, 현대차, LG에너지솔루션 — 이 주식들을 하나하나 사려면 돈도 많이 들고 관리도 복잡하다. 그런데 이걸 한 바구니에 다 담아서 주식처럼 거래할 수 있게 만들면? 그게 ETF다.</p>
+<p>코스피200 ETF를 한 주 사면, 한국 대표 200개 기업에 동시에 투자하는 효과가 생긴다. 삼성전자 주가가 오르든 현대차가 오르든 전체 평균적인 수익을 가져가는 것이다.</p>
+<h3>일반 펀드와의 차이</h3>
+<p>많은 사람이 ETF와 펀드를 혼동한다. 둘 다 여러 종목을 묶어서 투자하는 건 같지만 중요한 차이가 있다.</p>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>일반 펀드</th>
+<th>ETF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>거래 방식</td>
+<td>운용사에 신청, 하루 1번 가격 결정</td>
+<td>주식처럼 장 중 실시간 매매</td>
+</tr>
+<tr>
+<td>수수료</td>
+<td>선취판매수수료 + 운용보수 (연 1~3%)</td>
+<td>운용보수만 (연 0.01~0.5%)</td>
+</tr>
+<tr>
+<td>최소 투자금</td>
+<td>펀드마다 다름 (보통 1만원~)</td>
+<td>1주 단위 (수천 원~수만 원)</td>
+</tr>
+<tr>
+<td>투명성</td>
+<td>포트폴리오 공시 주기 다양</td>
+<td>매일 구성 종목 공시</td>
+</tr>
+<tr>
+<td>환매 기간</td>
+<td>영업일 기준 2~3일</td>
+<td>즉시 매도 가능</td>
+</tr>
+</tbody>
+</table>
+<p>가장 큰 차이는 <strong>수수료</strong>와 <strong>투명성</strong>이다. ETF는 운용보수가 극도로 낮다. 연 0.05% 운용보수 상품은 1000만 원 투자 시 연간 수수료가 5000원이다. 반면 일반 펀드는 1~2%씩 떼어가는 경우도 많다.</p>
+<h3>ETF의 구조: AP와 괴리율</h3>
+<p>ETF가 어떻게 주식처럼 거래되면서도 기초자산의 가격을 따라갈 수 있을까? 여기에 **AP(Authorized Participant, 지정참가회사)**라는 존재가 중요하다.</p>
+<p>AP는 큰 기관투자자(주로 증권사)로, ETF 운용사와 계약을 맺고 ETF의 실제 가격(순자산가치, NAV)과 시장 거래가격 사이의 차이가 크게 벌어지면 이를 중재하는 역할을 한다.</p>
+<p>예를 들어 ETF 시장 가격이 NAV보다 높으면, AP가 기초자산을 사서 ETF 새 유닛을 만들어 팔면서 가격을 내린다. 반대로 ETF 가격이 NAV보다 낮으면 ETF를 사서 기초자산으로 분해해 수익을 낸다. 이 과정에서 ETF 시장가격과 NAV가 거의 비슷하게 유지된다.</p>
+<p>이 차이를 <strong>괴리율</strong>이라고 하는데, 대부분의 ETF는 괴리율이 0.1% 미만이다. 유동성이 낮은 ETF는 괴리율이 커질 수 있어서 주의가 필요하다.</p>
+<hr>
+<h2>2. ETF의 종류 — 인덱스, 섹터, 테마, 레버리지/인버스</h2>
+<p>ETF는 크게 4가지 종류로 나눌 수 있다.</p>
+<h3>인덱스 ETF (Index ETF)</h3>
+<p>특정 지수를 추종하는 ETF다. 가장 기본적이고 일반 투자자에게 가장 추천되는 유형이다.</p>
+<ul>
+<li>코스피200 ETF: 한국 시총 상위 200개 기업</li>
+<li>S&#x26;P500 ETF: 미국 대형주 500개</li>
+<li>나스닥100 ETF: 미국 나스닥 상위 100개 (테크 중심)</li>
+<li>전 세계 주식 ETF: 선진국 + 신흥국 포함한 글로벌 분산</li>
+</ul>
+<p><strong>인덱스 ETF의 핵심 논리</strong>: 장기적으로 시장 평균을 이기는 펀드매니저는 극소수다. 전문가도 시장을 이기기 어렵다면, 그냥 시장 평균을 사는 게 낫지 않을까? 이 논리로 인덱스 투자를 주장한 사람이 뱅가드 창업자 **존 보글(John Bogle)**이다.</p>
+<h3>섹터 ETF (Sector ETF)</h3>
+<p>특정 산업 분야에만 집중 투자하는 ETF다.</p>
+<ul>
+<li>반도체 ETF (KODEX 반도체, TIGER 미국필라델피아반도체)</li>
+<li>헬스케어 ETF</li>
+<li>금융 ETF</li>
+<li>에너지 ETF</li>
+<li>IT ETF</li>
+</ul>
+<p>섹터 ETF는 "앞으로 반도체 업황이 좋아질 것 같아"라고 생각할 때, 특정 종목 리스크 없이 섹터 전체에 베팅하는 방법이다.</p>
+<h3>테마 ETF (Thematic ETF)</h3>
+<p>특정 테마나 트렌드에 투자하는 ETF다. 섹터보다 더 좁고 특수한 분야다.</p>
+<ul>
+<li>인공지능 ETF</li>
+<li>전기차 ETF (KODEX 2차전지산업)</li>
+<li>클린에너지 ETF</li>
+<li>사이버보안 ETF</li>
+<li>리츠(REITs) ETF — 부동산 간접투자</li>
+</ul>
+<p>테마 ETF는 성장 잠재력이 크지만, 테마가 실제로 성장하지 않으면 손실도 크다. 투자 전에 테마의 실현 가능성을 신중하게 검토해야 한다.</p>
+<h3>레버리지/인버스 ETF</h3>
+<ul>
+<li><strong>레버리지 ETF</strong>: 지수 수익률의 2배, 3배를 추구한다. 코스피가 1% 오르면 2% 수익.</li>
+<li><strong>인버스 ETF</strong>: 지수 수익률의 반대 방향. 코스피가 1% 내리면 1% 수익.</li>
+<li><strong>레버리지 인버스 ETF</strong>: 지수가 1% 내리면 2% 수익.</li>
+</ul>
+<p><strong>주의</strong>: 레버리지/인버스 ETF는 초보 투자자에게 비추천한다. 변동성이 높은 데다, 장기 보유 시 "변동성 손실(Volatility Decay)" 때문에 예상과 다르게 손실이 발생하는 경우가 많다. 단기 트레이딩 목적으로 사용하는 도구지, 장기 투자 수단이 아니다.</p>
+<hr>
+<h2>3. ETF 고르는 기준 — 운용보수, 추적오차, 거래량, 괴리율</h2>
+<p>ETF가 수백 개다. 어떤 걸 골라야 할까? 4가지 기준으로 판단한다.</p>
+<h3>기준 1: 운용보수 (Total Expense Ratio, TER)</h3>
+<p>ETF를 보유하는 동안 매년 지불하는 비용이다. 작아 보여도 장기 복리로 쌓이면 차이가 크다.</p>
+<table>
+<thead>
+<tr>
+<th>운용보수</th>
+<th>1000만 원 투자 시 연간 비용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.01%</td>
+<td>1,000원</td>
+</tr>
+<tr>
+<td>0.05%</td>
+<td>5,000원</td>
+</tr>
+<tr>
+<td>0.30%</td>
+<td>30,000원</td>
+</tr>
+<tr>
+<td>1.00%</td>
+<td>100,000원</td>
+</tr>
+</tbody>
+</table>
+<p>같은 지수를 추종하는 ETF가 여러 개 있다면 운용보수가 낮은 것을 선택하는 게 기본이다. 예를 들어 코스피200을 추종하는 KODEX 200(운용보수 0.15%)과 TIGER 200(운용보수 0.05%)이 있다면, 장기 투자자에겐 TIGER 200이 유리하다.</p>
+<h3>기준 2: 추적오차 (Tracking Error)</h3>
+<p>ETF가 따라가야 하는 기초지수와 실제 ETF 수익률 사이의 차이다. 낮을수록 좋다.</p>
+<p>추적오차가 생기는 이유:</p>
+<ul>
+<li>운용보수로 인한 비용</li>
+<li>주식 거래 타이밍의 미묘한 차이</li>
+<li>배당금 재투자 시점 차이</li>
+</ul>
+<p>보통 ETF 상품 설명서에 연간 추적오차가 공시된다. 0.5% 이하면 양호, 1% 이상이면 확인이 필요하다.</p>
+<h3>기준 3: 거래량 (Volume)</h3>
+<p>ETF의 하루 평균 거래량이 중요하다. 거래량이 낮으면 두 가지 문제가 생긴다.</p>
+<ol>
+<li><strong>유동성 위험</strong>: 팔고 싶을 때 원하는 가격에 팔기 어렵다.</li>
+<li><strong>스프레드 확대</strong>: 매수-매도 호가 차이가 커져서 숨은 비용이 증가한다.</li>
+</ol>
+<p>일반적으로 하루 거래량이 <strong>1억 원 이상</strong>이면 유동성이 충분하다고 본다. 국내 주요 ETF (KODEX 200, TIGER 미국S&#x26;P500 등)는 수백억~수천억 원대 거래량을 기록한다.</p>
+<h3>기준 4: 괴리율 (Premium/Discount)</h3>
+<p>앞서 설명한 것처럼, ETF 시장 가격과 순자산가치(NAV) 사이의 차이다.</p>
+<p>괴리율이 +2%라는 건 ETF가 실제 가치보다 2% 비싸게 거래되고 있다는 뜻이다. 이때 사면 손해다. 반대로 -2%라면 2% 싸게 살 수 있는 기회다.</p>
+<p>대부분의 주요 ETF는 괴리율이 거의 0에 가깝다. 하지만 해외자산 ETF는 시장이 닫혀 있는 시간에 국내 ETF가 거래되므로 괴리율이 일시적으로 커질 수 있다.</p>
+<h3>실전 ETF 선택 체크리스트</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 내가 원하는 지수/섹터를 제대로 추종하는가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 운용보수가 유사 상품 대비 낮은가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 추적오차가 0.5% 이하인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 하루 거래량이 충분한가 (1억 원 이상)?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 괴리율이 과도하게 벌어져 있지 않은가?</li>
+</ul>
+<hr>
+<h2>4. 국내 vs 해외 ETF — 실제 상품 비교</h2>
+<h3>국내 코스피/코스닥 ETF</h3>
+<table>
+<thead>
+<tr>
+<th>상품명</th>
+<th>추종지수</th>
+<th>운용사</th>
+<th>운용보수</th>
+<th>특징</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KODEX 200</td>
+<td>코스피200</td>
+<td>삼성자산운용</td>
+<td>0.15%</td>
+<td>국내 최대 규모 ETF</td>
+</tr>
+<tr>
+<td>TIGER 200</td>
+<td>코스피200</td>
+<td>미래에셋자산운용</td>
+<td>0.05%</td>
+<td>저보수 코스피 ETF</td>
+</tr>
+<tr>
+<td>KODEX 코스닥150</td>
+<td>코스닥150</td>
+<td>삼성자산운용</td>
+<td>0.15%</td>
+<td>국내 중소형 성장주</td>
+</tr>
+<tr>
+<td>TIGER 코스닥150</td>
+<td>코스닥150</td>
+<td>미래에셋자산운용</td>
+<td>0.15%</td>
+<td>코스닥150 추종</td>
+</tr>
+</tbody>
+</table>
+<p>KODEX 200과 TIGER 200은 같은 지수를 추종하지만 운용보수가 3배 차이난다. 장기 보유라면 TIGER 200이 유리하다. 그러나 KODEX 200의 거래량이 압도적으로 많아 유동성은 더 좋다.</p>
+<h3>미국 주식 ETF (국내 상장)</h3>
+<p>국내 증권계좌에서 원화로 살 수 있지만, 미국 주식에 투자하는 ETF들이다.</p>
+<table>
+<thead>
+<tr>
+<th>상품명</th>
+<th>추종지수</th>
+<th>운용보수</th>
+<th>특징</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TIGER 미국S&#x26;P500</td>
+<td>S&#x26;P500</td>
+<td>0.07%</td>
+<td>미국 대형주 500개</td>
+</tr>
+<tr>
+<td>KODEX 미국S&#x26;P500TR</td>
+<td>S&#x26;P500 (TR)</td>
+<td>0.05%</td>
+<td>배당 재투자 포함</td>
+</tr>
+<tr>
+<td>TIGER 미국나스닥100</td>
+<td>나스닥100</td>
+<td>0.07%</td>
+<td>미국 테크 중심 100개</td>
+</tr>
+<tr>
+<td>KODEX 미국나스닥100TR</td>
+<td>나스닥100 (TR)</td>
+<td>0.05%</td>
+<td>배당 재투자 포함</td>
+</tr>
+<tr>
+<td>TIGER 미국배당다우존스</td>
+<td>Dow Jones US Dividend 100</td>
+<td>0.01%</td>
+<td>고배당 미국주 100개, 초저보수</td>
+</tr>
+</tbody>
+</table>
+<p><strong>TR(Total Return)의 의미</strong>: TR이 붙으면 배당금을 분배하지 않고 자동으로 재투자한다. 장기 복리 효과를 극대화하고 싶다면 TR형이 유리하다.</p>
+<h3>미국 ETF (미국 직접 투자)</h3>
+<p>미국 거래소에 상장된 ETF를 해외주식 계좌로 직접 사는 것이다. 국내 상장 ETF보다 운용보수가 더 낮은 경우가 많다.</p>
+<table>
+<thead>
+<tr>
+<th>상품명</th>
+<th>추종지수</th>
+<th>운용보수</th>
+<th>운용사</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VOO</td>
+<td>S&#x26;P500</td>
+<td>0.03%</td>
+<td>뱅가드</td>
+</tr>
+<tr>
+<td>IVV</td>
+<td>S&#x26;P500</td>
+<td>0.03%</td>
+<td>블랙록(iShares)</td>
+</tr>
+<tr>
+<td>SPY</td>
+<td>S&#x26;P500</td>
+<td>0.0945%</td>
+<td>SPDR</td>
+</tr>
+<tr>
+<td>QQQ</td>
+<td>나스닥100</td>
+<td>0.20%</td>
+<td>인베스코</td>
+</tr>
+<tr>
+<td>VTI</td>
+<td>미국 전체주식시장</td>
+<td>0.03%</td>
+<td>뱅가드</td>
+</tr>
+</tbody>
+</table>
+<p><strong>국내 상장 vs 미국 직접 상장 ETF 비교</strong></p>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>국내 상장 ETF</th>
+<th>미국 직접 ETF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>거래 통화</td>
+<td>원화</td>
+<td>달러</td>
+</tr>
+<tr>
+<td>세금</td>
+<td>매매차익 15.4% 분리과세 (연 250만원 공제)</td>
+<td>동일</td>
+</tr>
+<tr>
+<td>배당 세금</td>
+<td>배당소득세 15.4%</td>
+<td>동일</td>
+</tr>
+<tr>
+<td>환헤지</td>
+<td>상품에 따라 다름 (H 붙으면 헤지)</td>
+<td>없음</td>
+</tr>
+<tr>
+<td>운용보수</td>
+<td>상대적으로 높음 (0.05~0.2%)</td>
+<td>아주 낮음 (0.03~0.1%)</td>
+</tr>
+<tr>
+<td>편의성</td>
+<td>국내 앱에서 쉽게 거래</td>
+<td>해외주식 계좌 필요</td>
+</tr>
+</tbody>
+</table>
+<p>장기 투자에서 운용보수 0.03% vs 0.07%의 차이는 30년 복리 기준으로 상당한 차이를 만든다. 편의성 vs 보수 절감을 비교해서 선택하면 된다.</p>
+<h3>섹터/테마 ETF 주요 상품</h3>
+<table>
+<thead>
+<tr>
+<th>상품명</th>
+<th>분야</th>
+<th>운용보수</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KODEX 반도체</td>
+<td>국내 반도체</td>
+<td>0.45%</td>
+</tr>
+<tr>
+<td>TIGER 미국필라델피아반도체나스닥</td>
+<td>미국 반도체 (SOX)</td>
+<td>0.49%</td>
+</tr>
+<tr>
+<td>KODEX 2차전지산업</td>
+<td>국내 2차전지</td>
+<td>0.45%</td>
+</tr>
+<tr>
+<td>TIGER KRX BBIG K-뉴딜</td>
+<td>배터리·바이오·인터넷·게임</td>
+<td>0.40%</td>
+</tr>
+<tr>
+<td>KODEX 미국S&#x26;P500IT섹터</td>
+<td>미국 IT 섹터</td>
+<td>0.30%</td>
+</tr>
+<tr>
+<td>TIGER 리츠부동산인프라</td>
+<td>국내 리츠</td>
+<td>0.29%</td>
+</tr>
+</tbody>
+</table>
+<p>섹터/테마 ETF는 운용보수가 높다. 성장 기대감에 투자하는 거라면 그 비용을 감당할 만한 기대수익률이 있어야 한다.</p>
+<hr>
+<h2>5. ETF만으로 포트폴리오 만들기</h2>
+<p>ETF는 개별 종목 분석 없이도 <strong>분산 투자된 포트폴리오</strong>를 만들 수 있다는 게 가장 큰 장점이다.</p>
+<h3>초간단 포트폴리오: 미국 주식 100%</h3>
+<p>투자 초보에게 가장 많이 추천되는 방법이다.</p>
+<ul>
+<li><strong>TIGER 미국S&#x26;P500</strong> 또는 <strong>KODEX 미국S&#x26;P500TR</strong> 100%</li>
+</ul>
+<p>매월 일정금액을 꾸준히 사는 정액 적립식(달러 코스트 애버리징)으로 10년 이상 가져가면, 역사적으로 연 7~10% 수익률을 기록했다.</p>
+<h3>기초 분산 포트폴리오</h3>
+<table>
+<thead>
+<tr>
+<th>자산</th>
+<th>상품</th>
+<th>비중</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>미국 주식</td>
+<td>TIGER 미국S&#x26;P500</td>
+<td>60%</td>
+</tr>
+<tr>
+<td>국내 주식</td>
+<td>TIGER 200</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>채권</td>
+<td>KODEX 국고채3년</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+<p>주식 80% + 채권 20%의 기본 분산 포트폴리오. 주식 부분은 미국과 국내를 나눠서 리스크를 분산한다.</p>
+<h3>코어-새틀라이트 포트폴리오</h3>
+<table>
+<thead>
+<tr>
+<th>분류</th>
+<th>자산</th>
+<th>상품</th>
+<th>비중</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>코어</td>
+<td>미국 주식</td>
+<td>TIGER 미국S&#x26;P500</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>코어</td>
+<td>국내 주식</td>
+<td>TIGER 200</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>코어</td>
+<td>채권</td>
+<td>KODEX 국고채3년</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>새틀라이트</td>
+<td>반도체</td>
+<td>TIGER 미국필라델피아반도체</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>새틀라이트</td>
+<td>테마</td>
+<td>본인 관심 섹터</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+<p>안정적인 코어(80%)에 성장 기대 새틀라이트(20%)를 얹는 방식이다.</p>
+<h3>실전 팁</h3>
+<p><strong>정액 적립식이 진리다</strong>: 매달 일정 금액을 기계적으로 사는 것. 주가가 오르면 적게 사고, 내리면 많이 사는 효과가 자동으로 생긴다. 타이밍을 맞추려다 실패하는 것보다 훨씬 효과적이다.</p>
+<p><strong>리밸런싱</strong>: 6개월 또는 1년마다 목표 비중이 틀어졌으면 다시 맞춰준다. 주식이 많이 올라서 70%가 됐다면, 조금 팔아서 채권을 더 사는 것이다. 이 과정에서 자연스럽게 비싸게 팔고 싸게 사는 효과가 생긴다.</p>
+<p><strong>세금을 잊지 말자</strong>: 국내 ETF 매매차익은 금융투자소득세(예정) 또는 현행 15.4% 분리과세 대상이다. 연간 250만 원 공제 한도를 활용한 절세 전략을 미리 파악해두자.</p>
+<hr>
+<h2>마무리 정리</h2>
+<p>이번 편에서 배운 것:</p>
+<ol>
+<li>
+<p><strong>ETF는 바구니다.</strong> 여러 주식을 묶어서 주식처럼 거래하는 것. 낮은 수수료와 높은 투명성이 장점이다.</p>
+</li>
+<li>
+<p><strong>4가지 종류</strong>: 인덱스(추천), 섹터, 테마, 레버리지/인버스(비추). 처음엔 인덱스 ETF부터 시작하자.</p>
+</li>
+<li>
+<p><strong>ETF 고르는 기준</strong>: 운용보수, 추적오차, 거래량, 괴리율 순으로 체크한다.</p>
+</li>
+<li>
+<p><strong>주요 상품</strong>: 국내는 KODEX 200/TIGER 200, 미국 주식은 TIGER 미국S&#x26;P500/KODEX 미국S&#x26;P500TR이 대표적이다.</p>
+</li>
+<li>
+<p><strong>포트폴리오는 단순하게</strong>: 미국 S&#x26;P500 ETF 하나에 꾸준히 적립하는 것만으로도 훌륭한 장기 투자 전략이 된다.</p>
+</li>
+</ol>
+<p>다음 편에서는 주식 외에 또 다른 핵심 자산인 <strong>채권</strong>에 대해 알아본다. 금리가 오르면 왜 채권 가격이 내리는지, 그 신기한 반비례 관계를 쉽게 설명해준다.</p>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-25"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"주식 투자 입문 (8) — ETF 완전 정복: 시장을 통째로 사는 법"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"주식 투자 입문 (8) — ETF 완전 정복: 시장을 통째로 사는 법 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

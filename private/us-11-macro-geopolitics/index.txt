@@ -1,0 +1,1009 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/f694a9fffc00c61e.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"6dNzU7_5pCuaCrqstHw1V","c":["","private","us-11-macro-geopolitics",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","us-11-macro-geopolitics","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/f694a9fffc00c61e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":6,"database":10,"node":7,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T1c9a8,<h1>미국 주식 투자 입문 (11) — 거시경제와 국제 시사가 주가를 움직인다</h1>
+<blockquote>
+<p>"왜 내가 산 주식이 회사도 잘 다니는데 갑자기 떨어지지?"</p>
+<p>개별 기업 분석만 잘해서는 반쪽짜리 투자자다.
+금리가 오르면 왜 주가가 떨어지는지, 달러가 강해지면 Apple 실적에 어떤 영향을 주는지,
+러시아가 전쟁을 일으키면 어떤 주식이 오르는지 알아야 진짜 투자다.</p>
+</blockquote>
+<hr>
+<h2>전체 거시경제 영향 지도</h2>
+<pre><code class="hljs language-css">┌─────────────────────────────────────────────────────────────────────┐
+│                    거시경제 → 주가 영향 지도                         │
+└─────────────────────────────────────────────────────────────────────┘
+
+  <span class="hljs-selector-attr">[연준(Fed)]</span> ──금리결정──▶ <span class="hljs-selector-attr">[채권 수익률]</span> ──할인율 상승──▶ <span class="hljs-selector-attr">[주가 하락]</span>
+       │                         │
+       │                    <span class="hljs-selector-attr">[달러 강세]</span>
+       │                         │
+  <span class="hljs-selector-attr">[인플레이션]</span> ──CPI 발표──▶ <span class="hljs-selector-attr">[금리 예측]</span>  <span class="hljs-selector-attr">[다국적기업 실적 악화]</span>
+       │                         │
+  <span class="hljs-selector-attr">[고용지표]</span>                <span class="hljs-selector-attr">[신흥국 자금 이탈]</span>
+       │
+  <span class="hljs-selector-attr">[GDP 성장]</span>
+       │
+  <span class="hljs-selector-attr">[기업 실적]</span> ──EPS 서프라이즈──▶ <span class="hljs-selector-attr">[개별 주가 급등/급락]</span>
+       │
+  <span class="hljs-selector-attr">[지정학 리스크]</span> ──전쟁/제재──▶ <span class="hljs-selector-attr">[에너지·방산주 급등]</span>
+                                  <span class="hljs-selector-attr">[항공·기술주 급락]</span>
+</code></pre>
+<hr>
+<h2>1. 금리와 주가의 관계 — 투자자가 반드시 이해해야 할 핵심</h2>
+<h3>1.1 연준(Fed)은 어떻게 금리를 결정하나</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────────┐
+│                  연준 금리 결정 메커니즘                              │
+└─────────────────────────────────────────────────────────────────────┘
+
+  <span class="hljs-selector-attr">[경제 데이터 수집]</span>
+  <span class="hljs-built_in">CPI</span>(물가) + 고용지표 + GDP + <span class="hljs-built_in">PCE</span>(연준 선호 물가)
+          │
+          ▼
+  <span class="hljs-selector-attr">[FOMC 위원 회의]</span> ← 연 <span class="hljs-number">8</span>회 개최
+  <span class="hljs-number">12</span>명의 위원이 투표
+  (의장 포함, 지역 연준 총재 순환)
+          │
+          ▼
+  판단: 경제 과열?    vs    경제 침체?
+          │                     │
+    인플레이션 우려           실업 급증
+          │                     │
+    금리 인상 ↑               금리 인하 ↓
+          │                     │
+    ──────▼─────────────────────▼──────
+                   발표
+    <span class="hljs-string">"기준금리를 0.25%p 인상합니다"</span>
+    (또는 동결, 또는 인하)
+          │
+          ▼
+    즉각 시장 반응 (발표 후 수 분 이내)
+    → 예상과 다르면 주식/채권/달러 동시 급변동
+</code></pre>
+<p><strong>연준 의장의 말 한마디가 시장 전체를 흔든다.</strong>
+제롬 파월(Jerome Powell) 의장의 발표 시간에는 변동성이 극도로 커진다.</p>
+<h3>1.2 금리 인상이 주가를 떨어뜨리는 이유 — DCF 모델</h3>
+<pre><code class="hljs language-ini">┌─────────────────────────────────────────────────────────────────────┐
+│          DCF(현금흐름할인) 모델로 이해하는 금리-주가 역관계          │
+└─────────────────────────────────────────────────────────────────────┘
+
+  주가 = 미래 이익들의 현재 가치 합계
+
+  현재 가치 공식:
+  <span class="hljs-attr">PV</span> = Future Cash Flow ÷ (<span class="hljs-number">1</span> + 할인율)^n
+
+  ──────────────────────────────────────────────────────────────────
+
+  사례: Apple이 향후 3년간 매년 $10 EPS 예상
+
+  금리 3% (낮을 때):                금리 7% (높을 때):
+  ─────────────────                 ─────────────────
+  1년후 $10 → <span class="hljs-attr">PV</span> = <span class="hljs-number">10</span>/<span class="hljs-number">1.03</span>  = <span class="hljs-variable">$9</span>.<span class="hljs-number">71</span>  <span class="hljs-number">10</span>/<span class="hljs-number">1.07</span>  = <span class="hljs-variable">$9</span>.<span class="hljs-number">35</span>
+  2년후 $10 → <span class="hljs-attr">PV</span> = <span class="hljs-number">10</span>/<span class="hljs-number">1.06</span>  = <span class="hljs-variable">$9</span>.<span class="hljs-number">43</span>  <span class="hljs-number">10</span>/<span class="hljs-number">1.14</span>  = <span class="hljs-variable">$8</span>.<span class="hljs-number">73</span>
+  3년후 $10 → <span class="hljs-attr">PV</span> = <span class="hljs-number">10</span>/<span class="hljs-number">1.09</span>  = <span class="hljs-variable">$9</span>.<span class="hljs-number">15</span>  <span class="hljs-number">10</span>/<span class="hljs-number">1.23</span>  = <span class="hljs-variable">$8</span>.<span class="hljs-number">16</span>
+                            ──────                  ──────
+              합계 현재가치: $28.29                  $26.24
+
+  금리 3% → 7%  :  주가 이론값 7.2% 하락!
+
+  ──────────────────────────────────────────────────────────────────
+
+  특히 성장주(미래 이익 비중 높음)에 타격 더 큼!
+
+  가치주: 이미 이익 내는 회사 → 금리 영향 상대적 작음
+  성장주: 10년 후 이익 기대 → 할인율 상승 시 현재가치 폭락!
+
+         금리 인상
+            │
+     ┌──────┴──────┐
+     │             │
+  성장주           가치주
+  -30% ~ -50%    -10% ~ -20%
+  (TSLA, NVDA)   (JPM, XOM)
+</code></pre>
+<h3>1.3 2022년 금리 인상 사이클 — 실제 데이터</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">┌─────────────────────────────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span>              <span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-string">연준</span> <span class="hljs-string">금리</span> <span class="hljs-string">인상과</span> <span class="hljs-string">시장</span> <span class="hljs-string">반응</span>                       <span class="hljs-string">│</span>
+<span class="hljs-string">└─────────────────────────────────────────────────────────────────────┘</span>
+
+  <span class="hljs-string">기준금리</span> <span class="hljs-string">변화:</span>
+  <span class="hljs-string">──────────────────────────────────────────────────────────────────</span>
+  <span class="hljs-number">2021.12  </span><span class="hljs-number">0.25</span><span class="hljs-string">%</span>  <span class="hljs-string">│▓</span>
+  <span class="hljs-number">2022.03  </span><span class="hljs-number">0.50</span><span class="hljs-string">%</span>  <span class="hljs-string">│▓▓</span>
+  <span class="hljs-number">2022.05  </span><span class="hljs-number">1.00</span><span class="hljs-string">%</span>  <span class="hljs-string">│▓▓▓▓</span>
+  <span class="hljs-number">2022.06  </span><span class="hljs-number">1.75</span><span class="hljs-string">%</span>  <span class="hljs-string">│▓▓▓▓▓▓▓</span>
+  <span class="hljs-number">2022.07  </span><span class="hljs-number">2.50</span><span class="hljs-string">%</span>  <span class="hljs-string">│▓▓▓▓▓▓▓▓▓▓</span>
+  <span class="hljs-number">2022.09  </span><span class="hljs-number">3.25</span><span class="hljs-string">%</span>  <span class="hljs-string">│▓▓▓▓▓▓▓▓▓▓▓▓▓</span>
+  <span class="hljs-number">2022.11  </span><span class="hljs-number">4.00</span><span class="hljs-string">%</span>  <span class="hljs-string">│▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</span>
+  <span class="hljs-number">2022.12  </span><span class="hljs-number">4.50</span><span class="hljs-string">%</span>  <span class="hljs-string">│▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</span>
+  <span class="hljs-string">──────────────────────────────────────────────────────────────────</span>
+              <span class="hljs-string">(0.25%에서</span> <span class="hljs-number">4.50</span><span class="hljs-string">%로!</span> <span class="hljs-number">1</span><span class="hljs-string">년</span> <span class="hljs-string">만에</span> <span class="hljs-number">4.25</span><span class="hljs-string">%p</span> <span class="hljs-string">인상)</span>
+
+  <span class="hljs-string">주요</span> <span class="hljs-string">지수</span> <span class="hljs-string">성과</span> <span class="hljs-string">(2022년):</span>
+  <span class="hljs-string">┌─────────────────┬────────────┬────────────┐</span>
+  <span class="hljs-string">│</span>  <span class="hljs-string">지수</span>            <span class="hljs-string">│</span> <span class="hljs-string">최대</span> <span class="hljs-string">낙폭</span>   <span class="hljs-string">│</span> <span class="hljs-string">연간</span> <span class="hljs-string">수익률</span> <span class="hljs-string">│</span>
+  <span class="hljs-string">├─────────────────┼────────────┼────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">S&#x26;P</span> <span class="hljs-number">500</span> <span class="hljs-string">(SPY)</span>   <span class="hljs-string">│</span>  <span class="hljs-number">-25</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-number">-19.4</span><span class="hljs-string">%</span>    <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">Nasdaq</span> <span class="hljs-string">(QQQ)</span>    <span class="hljs-string">│</span>  <span class="hljs-number">-34</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-number">-32.6</span><span class="hljs-string">%</span>    <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">다우존스</span> <span class="hljs-string">(DIA)</span>  <span class="hljs-string">│</span>  <span class="hljs-number">-19</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-number">-8.8</span><span class="hljs-string">%</span>     <span class="hljs-string">│</span>
+  <span class="hljs-string">├─────────────────┼────────────┼────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">Meta</span> <span class="hljs-string">(META)</span>     <span class="hljs-string">│</span>  <span class="hljs-number">-77</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-number">-64.2</span><span class="hljs-string">%</span>    <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">Tesla</span> <span class="hljs-string">(TSLA)</span>    <span class="hljs-string">│</span>  <span class="hljs-number">-73</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-number">-65.0</span><span class="hljs-string">%</span>    <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">Netflix</span> <span class="hljs-string">(NFLX)</span>  <span class="hljs-string">│</span>  <span class="hljs-number">-76</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-number">-51.0</span><span class="hljs-string">%</span>    <span class="hljs-string">│</span>
+  <span class="hljs-string">├─────────────────┼────────────┼────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">ExxonMobil(XOM)</span> <span class="hljs-string">│</span>  <span class="hljs-string">+87%</span>      <span class="hljs-string">│</span>  <span class="hljs-string">+87.0%</span>    <span class="hljs-string">│</span> <span class="hljs-string">←</span> <span class="hljs-string">에너지주</span> <span class="hljs-string">급등</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">Chevron</span> <span class="hljs-string">(CVX)</span>   <span class="hljs-string">│</span>  <span class="hljs-string">+53%</span>      <span class="hljs-string">│</span>  <span class="hljs-string">+53.0%</span>    <span class="hljs-string">│</span>
+  <span class="hljs-string">└─────────────────┴────────────┴────────────┘</span>
+
+  <span class="hljs-string">교훈:</span> <span class="hljs-string">금리</span> <span class="hljs-string">인상기</span> <span class="hljs-string">=</span> <span class="hljs-string">성장주</span> <span class="hljs-string">혹독한</span> <span class="hljs-string">시기,</span> <span class="hljs-string">에너지·가치주</span> <span class="hljs-string">상대적</span> <span class="hljs-string">강세</span>
+</code></pre>
+<blockquote>
+<p><strong>실전 체크포인트</strong></p>
+<p>FOMC 회의 일정을 캘린더에 등록하라. 회의 후 발표(미국 동부 오후 2시, 한국 새벽 3시 또는 4시) 전후로 변동성이 급등한다. 장기 투자자라면 이 시기에 추가 매수 기회를 노릴 수 있다.</p>
+</blockquote>
+<hr>
+<h2>2. 인플레이션과 주가 — 물가가 오르면 뭘 사야 하나</h2>
+<h3>2.1 CPI 발표와 주가 반응</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">┌─────────────────────────────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span>                  <span class="hljs-string">CPI</span> <span class="hljs-string">발표</span> <span class="hljs-string">→</span> <span class="hljs-string">시장</span> <span class="hljs-string">반응</span> <span class="hljs-string">매커니즘</span>                       <span class="hljs-string">│</span>
+<span class="hljs-string">└─────────────────────────────────────────────────────────────────────┘</span>
+
+  <span class="hljs-string">CPI</span> <span class="hljs-string">발표</span> <span class="hljs-string">(매월</span> <span class="hljs-string">둘째</span> <span class="hljs-string">주</span> <span class="hljs-string">수요일,</span> <span class="hljs-string">한국</span> <span class="hljs-string">시각</span> <span class="hljs-string">오후</span> <span class="hljs-number">9</span><span class="hljs-string">:30)</span>
+
+  <span class="hljs-string">예상치</span> <span class="hljs-string">대비</span> <span class="hljs-string">결과:</span>
+
+  <span class="hljs-string">CPI</span> <span class="hljs-string">예상</span> <span class="hljs-number">8.0</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-string">실제</span> <span class="hljs-number">8.3</span><span class="hljs-string">%</span> <span class="hljs-string">(예상보다</span> <span class="hljs-string">높음)</span>
+  <span class="hljs-string">─────────────────────────────────────────</span>
+  <span class="hljs-string">해석:</span> <span class="hljs-string">인플레이션</span> <span class="hljs-string">아직</span> <span class="hljs-string">안</span> <span class="hljs-string">잡혔다</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">연준이</span> <span class="hljs-string">금리</span> <span class="hljs-string">더</span> <span class="hljs-string">올릴</span> <span class="hljs-string">것</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">주식시장</span> <span class="hljs-string">즉각</span> <span class="hljs-string">하락</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">특히</span> <span class="hljs-string">성장주</span> <span class="hljs-string">하락</span>
+
+  <span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">9</span><span class="hljs-string">월</span> <span class="hljs-number">13</span><span class="hljs-string">일</span> <span class="hljs-string">실제</span> <span class="hljs-string">사례:</span>
+  <span class="hljs-string">CPI</span> <span class="hljs-string">예상</span> <span class="hljs-number">8.1</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-string">실제</span> <span class="hljs-number">8.3</span><span class="hljs-string">%</span>
+  <span class="hljs-string">당일</span> <span class="hljs-string">S&#x26;P500:</span> <span class="hljs-number">-4.3</span><span class="hljs-string">%</span>
+  <span class="hljs-attr">Nasdaq:</span> <span class="hljs-number">-5.2</span><span class="hljs-string">%</span>
+
+  <span class="hljs-string">──────────────────────────────────────────────────────────────────</span>
+
+  <span class="hljs-string">CPI</span> <span class="hljs-string">예상</span> <span class="hljs-number">7.0</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-string">실제</span> <span class="hljs-number">6.5</span><span class="hljs-string">%</span> <span class="hljs-string">(예상보다</span> <span class="hljs-string">낮음)</span>
+  <span class="hljs-string">─────────────────────────────────────────</span>
+  <span class="hljs-string">해석:</span> <span class="hljs-string">인플레이션</span> <span class="hljs-string">잡히고</span> <span class="hljs-string">있다</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">연준이</span> <span class="hljs-string">금리</span> <span class="hljs-string">덜</span> <span class="hljs-string">올릴</span> <span class="hljs-string">것</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">주식시장</span> <span class="hljs-string">즉각</span> <span class="hljs-string">상승</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">성장주</span> <span class="hljs-string">큰</span> <span class="hljs-string">폭</span> <span class="hljs-string">반등</span>
+
+  <span class="hljs-number">2023</span><span class="hljs-string">년</span> <span class="hljs-number">1</span><span class="hljs-string">월</span> <span class="hljs-number">12</span><span class="hljs-string">일</span> <span class="hljs-string">실제</span> <span class="hljs-string">사례:</span>
+  <span class="hljs-string">CPI</span> <span class="hljs-string">예상</span> <span class="hljs-number">6.5</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-string">실제</span> <span class="hljs-number">6.5</span><span class="hljs-string">%</span> <span class="hljs-string">(예상치</span> <span class="hljs-string">정확</span> <span class="hljs-string">부합)</span>
+  <span class="hljs-string">당일</span> <span class="hljs-string">S&#x26;P500:</span> <span class="hljs-string">+0.3%</span>
+  <span class="hljs-attr">Nasdaq:</span> <span class="hljs-string">+1.0%</span>
+</code></pre>
+<h3>2.2 인플레이션 시기에 강한 섹터</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────────┐
+│              인플레이션 높을 때 vs 낮을 때 섹터별 성과              │
+└─────────────────────────────────────────────────────────────────────┘
+
+  ✅ 인플레이션 높을 때 유리한 섹터
+  ──────────────────────────────────
+  에너지        XOM, CVX, SLB   │ 원유·가스 가격 = 인플레이션
+  원자재·광물   FCX, NEM, MOS   │ 원자재 가격 직결
+  리츠(REIT)    VNQ, O, SPG     │ 임대료 인상으로 수익 증가
+  금융          JPM, BAC, GS    │ 금리 상승 → 순이자마진 증가
+  유틸리티      NEE, DUK        │ 규제 요금에 인플레이션 연동
+
+  ❌ 인플레이션 높을 때 불리한 섹터
+  ──────────────────────────────────
+  기술(성장주)  AAPL, MSFT, GOOG│ 할인율 상승으로 밸류에이션 압축
+  소비재(임의)  AMZN, TSLA      │ 소비자 지출 감소
+  채권ETF      TLT, AGG        │ 금리 상승 = 채권 가격 하락
+
+  ──────────────────────────────────────────────────────────────────
+
+  인플레이션 시기 대표 ETF:
+  ┌─────────────────┬───────────────────────────────────────┐
+  │ ETF             │ 설명                                  │
+  ├─────────────────┼───────────────────────────────────────┤
+  │ XLE             │ 에너지 섹터 ETF                       │
+  │ GLD             │ 금 ETF (인플레이션 헤지)              │
+  │ TIPS (TIP)      │ 물가연동채권 ETF                      │
+  │ DJP             │ 원자재 선물 ETF                       │
+  │ VNQ             │ 부동산 REIT ETF                       │
+  └─────────────────┴───────────────────────────────────────┘
+</code></pre>
+<h3>2.3 실제 사례: 2021-2022년 인플레이션 폭발</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">┌─────────────────────────────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span>            <span class="hljs-number">2021</span><span class="hljs-number">-2022</span><span class="hljs-string">년</span> <span class="hljs-string">인플레이션</span> <span class="hljs-string">폭발과</span> <span class="hljs-string">시장</span> <span class="hljs-string">반응</span>                   <span class="hljs-string">│</span>
+<span class="hljs-string">└─────────────────────────────────────────────────────────────────────┘</span>
+
+  <span class="hljs-string">타임라인:</span>
+  <span class="hljs-attr">2021.01  CPI:</span> <span class="hljs-number">1.4</span><span class="hljs-string">%</span>  <span class="hljs-string">→</span> <span class="hljs-string">연준:</span> <span class="hljs-string">"일시적 인플레이션"</span> <span class="hljs-string">발언</span>
+  <span class="hljs-attr">2021.06  CPI:</span> <span class="hljs-number">5.4</span><span class="hljs-string">%</span>  <span class="hljs-string">→</span> <span class="hljs-string">시장:</span> <span class="hljs-string">여전히</span> <span class="hljs-string">무시</span>
+  <span class="hljs-attr">2021.11  CPI:</span> <span class="hljs-number">6.8</span><span class="hljs-string">%</span>  <span class="hljs-string">→</span> <span class="hljs-string">연준</span> <span class="hljs-string">태도</span> <span class="hljs-string">전환,</span> <span class="hljs-string">테이퍼링</span> <span class="hljs-string">시사</span>
+  <span class="hljs-attr">2022.01  CPI:</span> <span class="hljs-number">7.5</span><span class="hljs-string">%</span>  <span class="hljs-string">→</span> <span class="hljs-string">Nasdaq</span> <span class="hljs-string">조정</span> <span class="hljs-string">시작</span>
+  <span class="hljs-attr">2022.06  CPI:</span> <span class="hljs-number">9.1</span><span class="hljs-string">%</span>  <span class="hljs-string">←</span> <span class="hljs-number">40</span><span class="hljs-string">년</span> <span class="hljs-string">만에</span> <span class="hljs-string">최고치!</span>
+  <span class="hljs-attr">2022.12  CPI:</span> <span class="hljs-number">6.5</span><span class="hljs-string">%</span>  <span class="hljs-string">→</span> <span class="hljs-string">피크아웃</span> <span class="hljs-string">신호</span>
+  <span class="hljs-attr">2023.06  CPI:</span> <span class="hljs-number">3.0</span><span class="hljs-string">%</span>  <span class="hljs-string">→</span> <span class="hljs-string">연착륙</span> <span class="hljs-string">기대감</span>
+
+  <span class="hljs-number">2021</span><span class="hljs-number">-2022</span> <span class="hljs-string">에너지</span> <span class="hljs-string">vs</span> <span class="hljs-string">기술주:</span>
+                     <span class="hljs-number">2021    </span><span class="hljs-number">2022</span>   <span class="hljs-string">합산</span>
+  <span class="hljs-string">XLE</span> <span class="hljs-string">(에너지)</span>      <span class="hljs-string">+53%</span>   <span class="hljs-string">+66%</span>  <span class="hljs-string">=</span> <span class="hljs-string">+120%</span>  <span class="hljs-string">🚀</span>
+  <span class="hljs-string">XLK</span> <span class="hljs-string">(기술)</span>        <span class="hljs-string">+34%</span>   <span class="hljs-number">-29</span><span class="hljs-string">%</span>  <span class="hljs-string">=</span>  <span class="hljs-string">+5%</span>   <span class="hljs-string">😰</span>
+  <span class="hljs-string">QQQ</span> <span class="hljs-string">(Nasdaq)</span>      <span class="hljs-string">+28%</span>   <span class="hljs-number">-33</span><span class="hljs-string">%</span>  <span class="hljs-string">=</span>  <span class="hljs-number">-14</span><span class="hljs-string">%</span>  <span class="hljs-string">💔</span>
+
+  <span class="hljs-string">교훈:</span> <span class="hljs-string">인플레이션</span> <span class="hljs-string">국면에서</span> <span class="hljs-string">포트폴리오에</span> <span class="hljs-string">에너지·원자재</span> <span class="hljs-string">비중을</span>
+        <span class="hljs-number">10</span><span class="hljs-string">~20%</span> <span class="hljs-string">두면</span> <span class="hljs-string">전체</span> <span class="hljs-string">포트폴리오</span> <span class="hljs-string">방어력이</span> <span class="hljs-string">크게</span> <span class="hljs-string">올라간다.</span>
+</code></pre>
+<blockquote>
+<p><strong>실전 체크포인트</strong></p>
+<p>CPI 발표 전날, "컨센서스(시장 예상치)"를 확인하라. Bloomberg나 Investing.com에서 확인 가능. 발표 결과가 예상치보다 높으면 기술주 비중을 줄이고, 낮으면 기술주가 반등할 기회다.</p>
+</blockquote>
+<hr>
+<h2>3. 환율(달러 강세/약세)과 주가 — 한국 투자자만의 이중 위험</h2>
+<h3>3.1 달러 인덱스(DXY)란</h3>
+<pre><code class="hljs language-ini">┌─────────────────────────────────────────────────────────────────────┐
+│                  달러 인덱스 (DXY) 이해하기                          │
+└─────────────────────────────────────────────────────────────────────┘
+
+  <span class="hljs-attr">DXY</span> = 달러의 강도를 주요 <span class="hljs-number">6</span>개 통화 대비 측정한 지수
+
+  구성 통화:
+  ┌──────────────┬──────────┬──────────────────────────────┐
+  │ 통화          │ 비중     │ 설명                         │
+  ├──────────────┼──────────┼──────────────────────────────┤
+  │ 유로 (EUR)   │  57.6%   │ 가장 큰 비중                 │
+  │ 일본 엔 (JPY)│  13.6%   │                              │
+  │ 영국 파운드  │  11.9%   │                              │
+  │ 캐나다 달러  │   9.1%   │                              │
+  │ 스웨덴 크로나│   4.2%   │                              │
+  │ 스위스 프랑  │   3.6%   │                              │
+  └──────────────┴──────────┴──────────────────────────────┘
+
+  기준값: 100 (1973년 기준)
+  현재 DXY 값:
+  > 100: 달러 강세 (역사적 평균 대비 강함)
+  &#x3C; 100: 달러 약세
+
+  DXY ↑ (달러 강세) 시나리오:
+  미국 금리 인상 → 전 세계 자금 미국으로 이동 → 달러 수요 증가 → DXY 상승
+</code></pre>
+<h3>3.2 달러 강세 → 다국적 기업 실적 타격 메커니즘</h3>
+<pre><code class="hljs language-bash">┌─────────────────────────────────────────────────────────────────────┐
+│           달러 강세 → Apple 실적 타격 경로                           │
+└─────────────────────────────────────────────────────────────────────┘
+
+  Apple 매출 구조 (해외 비중 ~60%):
+  미국:   40%
+  유럽:   24%   ← 유로화 수입
+  중국:   19%   ← 위안화 수입
+  기타:   17%   ← 각국 통화 수입
+
+  달러 약세 시 (유럽에서 1억 유로 매출):
+  1€ = <span class="hljs-variable">$1</span>.10  → <span class="hljs-variable">$1</span>억 1,000만 달러로 환산 ✅
+
+  달러 강세 시 (유럽에서 동일 1억 유로 매출):
+  1€ = <span class="hljs-variable">$1</span>.00  → <span class="hljs-variable">$1</span>억 달러로 환산 ❌
+                  (<span class="hljs-variable">$1</span>,000만 달러 손실! 유럽 판매량 그대로인데!)
+
+  ──────────────────────────────────────────────────────────────────
+
+  2022년 실제 Apple 사례:
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  2022년 Q3 실적 발표 (2022년 7월 28일)                         │
+  │                                                                 │
+  │  매출: <span class="hljs-variable">$828</span>억 (예상 <span class="hljs-variable">$828</span>억 - 딱 맞음)                          │
+  │                                                                 │
+  │  팀 쿡 코멘트:                                                  │
+  │  <span class="hljs-string">"달러 강세로 약 <span class="hljs-variable">$600</span>억의 매출 환산 손실 발생"</span>                │
+  │  <span class="hljs-string">"환율 영향 없었다면 매출 성장률 +5% 더 높았을 것"</span>            │
+  │                                                                 │
+  │  DXY 2022년: 95 → 114 (20% 달러 강세)                         │
+  │  AAPL 2022년 주가: <span class="hljs-variable">$182</span> → <span class="hljs-variable">$130</span> (28% 하락)                      │
+  └─────────────────────────────────────────────────────────────────┘
+</code></pre>
+<h3>3.3 한국 투자자의 이중 환율 리스크</h3>
+<pre><code class="hljs language-bash">┌─────────────────────────────────────────────────────────────────────┐
+│               한국 투자자만의 이중 환율 리스크                       │
+└─────────────────────────────────────────────────────────────────────┘
+
+  한국 투자자가 Apple 주식 보유 시:
+
+  수익/손실 = 주가 변동 × 환율 변동
+
+  시나리오 A: 주가 상승 + 달러 약세 (최악)
+  ───────────────────────────────────────
+  AAPL: <span class="hljs-variable">$150</span> → <span class="hljs-variable">$165</span> (+10%)
+  USD/KRW: 1,300 → 1,200 (-7.7% 원화 강세)
+  원화 기준 실제 수익:
+    매수: <span class="hljs-variable">$150</span> × 1,300 = ₩195,000
+    매도: <span class="hljs-variable">$165</span> × 1,200 = ₩198,000
+    수익: +₩3,000 (= +1.5%)  ← 주가는 10% 올랐는데!
+
+  시나리오 B: 주가 상승 + 달러 강세 (최고)
+  ───────────────────────────────────────
+  AAPL: <span class="hljs-variable">$150</span> → <span class="hljs-variable">$165</span> (+10%)
+  USD/KRW: 1,300 → 1,400 (+7.7% 원화 약세)
+  원화 기준 실제 수익:
+    매수: <span class="hljs-variable">$150</span> × 1,300 = ₩195,000
+    매도: <span class="hljs-variable">$165</span> × 1,400 = ₩231,000
+    수익: +₩36,000 (= +18.5%)  ← 주가는 10%인데 18.5% 수익!
+
+  시나리오 C: 주가 하락 + 달러 강세
+  ───────────────────────────────────
+  AAPL: <span class="hljs-variable">$150</span> → <span class="hljs-variable">$135</span> (-10%)
+  USD/KRW: 1,300 → 1,400 (+7.7%)
+  원화 기준:
+    매수: ₩195,000
+    매도: <span class="hljs-variable">$135</span> × 1,400 = ₩189,000
+    손실: -₩6,000 (= -3%)  ← 달러 강세가 손실 일부 상쇄
+
+  ──────────────────────────────────────────────────────────────────
+  환율 헤지 방법:
+  - 환헤지 ETF 사용 (예: KODEX 미국S&#x26;P500(H) - 환헤지 버전)
+  - 달러 자산 보유 (이미 달러로 투자하면 자연 헤지 효과)
+  - 달러 예금 / 달러 RP (단기 달러 자산)
+</code></pre>
+<blockquote>
+<p><strong>실전 체크포인트</strong></p>
+<p>달러 강세(DXY 상승) 구간에서 미국 주식을 사면, 주가 수익에 환율 수익까지 더블로 날 수 있다. 반면 달러 약세 시에는 주가 수익이 환율 손실로 깎인다. 장기 투자자라면 환율 헤지 없이 그냥 보유하는 것이 일반적으로 더 유리하다 (비용 절감).</p>
+</blockquote>
+<hr>
+<h2>4. 지정학적 리스크 — 전쟁과 제재가 주가를 어떻게 흔드나</h2>
+<h3>4.1 러시아-우크라이나 전쟁 (2022년 2월)</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">┌─────────────────────────────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span>         <span class="hljs-string">러시아-우크라이나</span> <span class="hljs-string">전쟁과</span> <span class="hljs-string">섹터별</span> <span class="hljs-string">주가</span> <span class="hljs-string">반응</span>                    <span class="hljs-string">│</span>
+<span class="hljs-string">└─────────────────────────────────────────────────────────────────────┘</span>
+
+  <span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">2</span><span class="hljs-string">월</span> <span class="hljs-number">24</span><span class="hljs-string">일:</span> <span class="hljs-string">러시아</span> <span class="hljs-string">우크라이나</span> <span class="hljs-string">침공</span> <span class="hljs-string">선언</span>
+
+  <span class="hljs-string">즉각</span> <span class="hljs-string">반응</span> <span class="hljs-string">(개전</span> <span class="hljs-string">후</span> <span class="hljs-number">1</span><span class="hljs-string">주일):</span>
+  <span class="hljs-string">┌──────────────────┬──────────┬──────────────────────────────────┐</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">섹터/종목</span>        <span class="hljs-string">│</span> <span class="hljs-string">변동</span>     <span class="hljs-string">│</span> <span class="hljs-string">이유</span>                             <span class="hljs-string">│</span>
+  <span class="hljs-string">├──────────────────┼──────────┼──────────────────────────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">원유</span> <span class="hljs-string">(WTI)</span>       <span class="hljs-string">│</span> <span class="hljs-string">+20%</span>     <span class="hljs-string">│</span> <span class="hljs-string">러시아</span> <span class="hljs-string">=</span> <span class="hljs-string">세계</span> <span class="hljs-number">2</span><span class="hljs-string">위</span> <span class="hljs-string">산유국</span>         <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">천연가스</span> <span class="hljs-string">(NG)</span>    <span class="hljs-string">│</span> <span class="hljs-string">+30%</span>     <span class="hljs-string">│</span> <span class="hljs-string">유럽</span> <span class="hljs-string">가스</span> <span class="hljs-string">공급</span> <span class="hljs-string">차질</span>              <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">밀</span> <span class="hljs-string">선물</span>          <span class="hljs-string">│</span> <span class="hljs-string">+50%</span>     <span class="hljs-string">│</span> <span class="hljs-string">우크라이나</span> <span class="hljs-string">=</span> <span class="hljs-string">세계</span> <span class="hljs-number">4</span><span class="hljs-string">위</span> <span class="hljs-string">밀</span> <span class="hljs-string">수출</span>    <span class="hljs-string">│</span>
+  <span class="hljs-string">├──────────────────┼──────────┼──────────────────────────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">XOM</span> <span class="hljs-string">(엑슨모빌)</span>   <span class="hljs-string">│</span> <span class="hljs-string">+12%</span>     <span class="hljs-string">│</span> <span class="hljs-string">원유</span> <span class="hljs-string">가격</span> <span class="hljs-string">급등</span> <span class="hljs-string">수혜</span>              <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">LMT</span> <span class="hljs-string">(록히드마틴)</span> <span class="hljs-string">│</span> <span class="hljs-string">+17%</span>     <span class="hljs-string">│</span> <span class="hljs-string">방산</span> <span class="hljs-string">수요</span> <span class="hljs-string">증가</span>                   <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">RTX</span> <span class="hljs-string">(레이시온)</span>   <span class="hljs-string">│</span> <span class="hljs-string">+15%</span>     <span class="hljs-string">│</span> <span class="hljs-string">방산</span> <span class="hljs-string">수요</span> <span class="hljs-string">증가</span>                   <span class="hljs-string">│</span>
+  <span class="hljs-string">├──────────────────┼──────────┼──────────────────────────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">S&#x26;P</span> <span class="hljs-number">500</span>          <span class="hljs-string">│</span> <span class="hljs-number">-3</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span> <span class="hljs-string">불확실성</span> <span class="hljs-string">증가</span>                    <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">Nasdaq</span>           <span class="hljs-string">│</span> <span class="hljs-number">-5</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span> <span class="hljs-string">성장주</span> <span class="hljs-string">리스크오프</span>                <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">항공주</span> <span class="hljs-string">(UAL</span> <span class="hljs-string">등)</span>  <span class="hljs-string">│</span> <span class="hljs-number">-12</span><span class="hljs-string">%</span>     <span class="hljs-string">│</span> <span class="hljs-string">유가</span> <span class="hljs-string">급등</span> <span class="hljs-string">→</span> <span class="hljs-string">연료비</span> <span class="hljs-string">증가</span>         <span class="hljs-string">│</span>
+  <span class="hljs-string">└──────────────────┴──────────┴──────────────────────────────────┘</span>
+
+  <span class="hljs-string">전쟁</span> <span class="hljs-string">발발</span> <span class="hljs-string">후</span> <span class="hljs-number">6</span><span class="hljs-string">개월</span> <span class="hljs-string">성과</span> <span class="hljs-string">(2022년</span> <span class="hljs-number">2</span><span class="hljs-string">월~8월):</span>
+  <span class="hljs-string">─────────────────────────────────────────</span>
+  <span class="hljs-string">에너지</span> <span class="hljs-attr">ETF (XLE):</span>   <span class="hljs-string">+45%</span>  <span class="hljs-string">🚀</span>
+  <span class="hljs-string">방산</span> <span class="hljs-attr">ETF (ITA):</span>     <span class="hljs-string">+15%</span>
+  <span class="hljs-string">S&#x26;P</span> <span class="hljs-attr">500 (SPY):</span>      <span class="hljs-number">-13</span><span class="hljs-string">%</span>
+  <span class="hljs-string">기술주</span> <span class="hljs-string">(QQQ):</span>       <span class="hljs-number">-24</span><span class="hljs-string">%</span>
+
+  <span class="hljs-string">한국</span> <span class="hljs-string">투자자에게</span> <span class="hljs-string">시사점:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">지정학</span> <span class="hljs-string">리스크</span> <span class="hljs-string">발발</span> <span class="hljs-string">시</span> <span class="hljs-string">→</span> <span class="hljs-string">에너지,</span> <span class="hljs-string">방산</span> <span class="hljs-string">섹터로</span> <span class="hljs-string">단기</span> <span class="hljs-string">피신</span> <span class="hljs-string">전략</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">단,</span> <span class="hljs-string">전쟁</span> <span class="hljs-string">장기화</span> <span class="hljs-string">여부에</span> <span class="hljs-string">따라</span> <span class="hljs-string">반전</span> <span class="hljs-string">가능성</span> <span class="hljs-string">있음</span>
+</code></pre>
+<h3>4.2 미중 무역전쟁과 반도체 수출 규제</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">┌─────────────────────────────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span>           <span class="hljs-string">미중</span> <span class="hljs-string">무역전쟁</span> <span class="hljs-string">타임라인과</span> <span class="hljs-string">반도체</span> <span class="hljs-string">주가</span> <span class="hljs-string">영향</span>                  <span class="hljs-string">│</span>
+<span class="hljs-string">└─────────────────────────────────────────────────────────────────────┘</span>
+
+  <span class="hljs-string">타임라인:</span>
+  <span class="hljs-string">──────────────────────────────────────────────────────────────────</span>
+  <span class="hljs-number">2018.07</span>  <span class="hljs-string">미국,</span> <span class="hljs-string">중국산</span> <span class="hljs-string">$340억</span> <span class="hljs-string">제품에</span> <span class="hljs-number">25</span><span class="hljs-string">%</span> <span class="hljs-string">관세</span>
+  <span class="hljs-number">2019.05</span>  <span class="hljs-string">화웨이</span> <span class="hljs-string">엔티티</span> <span class="hljs-string">리스트</span> <span class="hljs-string">추가</span> <span class="hljs-string">(미국</span> <span class="hljs-string">기술</span> <span class="hljs-string">수출</span> <span class="hljs-string">금지)</span>
+  <span class="hljs-number">2022.10</span>  <span class="hljs-string">반도체</span> <span class="hljs-string">수출</span> <span class="hljs-string">규제</span> <span class="hljs-string">강화</span>
+           <span class="hljs-string">→</span> <span class="hljs-attr">NVIDIA:</span> <span class="hljs-string">H100,</span> <span class="hljs-string">A100</span> <span class="hljs-string">GPU</span> <span class="hljs-string">중국</span> <span class="hljs-string">수출</span> <span class="hljs-string">금지</span>
+           <span class="hljs-string">→</span> <span class="hljs-attr">ASML:</span> <span class="hljs-string">최신</span> <span class="hljs-string">EUV</span> <span class="hljs-string">장비</span> <span class="hljs-string">중국</span> <span class="hljs-string">판매</span> <span class="hljs-string">금지</span>
+  <span class="hljs-number">2023.01  </span><span class="hljs-string">NVIDIA</span> <span class="hljs-string">주가:</span> <span class="hljs-string">$108</span> <span class="hljs-string">(규제</span> <span class="hljs-string">우려</span> <span class="hljs-string">저점)</span>
+  <span class="hljs-number">2023.12  </span><span class="hljs-string">AI</span> <span class="hljs-string">수요</span> <span class="hljs-string">폭발</span> <span class="hljs-string">→</span> <span class="hljs-string">NVIDIA</span> <span class="hljs-string">$495</span> <span class="hljs-string">(규제</span> <span class="hljs-string">불구</span> <span class="hljs-number">5</span><span class="hljs-string">배</span> <span class="hljs-string">상승!)</span>
+  <span class="hljs-number">2024.10</span>  <span class="hljs-string">추가</span> <span class="hljs-string">규제</span> <span class="hljs-string">(H20</span> <span class="hljs-string">칩</span> <span class="hljs-string">포함)</span>
+  <span class="hljs-string">──────────────────────────────────────────────────────────────────</span>
+
+  <span class="hljs-string">규제</span> <span class="hljs-string">발표</span> <span class="hljs-string">당일</span> <span class="hljs-string">주가</span> <span class="hljs-string">반응:</span>
+  <span class="hljs-attr">NVDA:</span> <span class="hljs-number">-5</span><span class="hljs-string">%</span> <span class="hljs-string">~</span> <span class="hljs-number">-10</span><span class="hljs-string">%</span> <span class="hljs-string">(즉각</span> <span class="hljs-string">하락)</span>
+  <span class="hljs-attr">AMD:</span>  <span class="hljs-number">-4</span><span class="hljs-string">%</span> <span class="hljs-string">~</span> <span class="hljs-number">-8</span><span class="hljs-string">%</span>
+  <span class="hljs-attr">QCOM:</span> <span class="hljs-number">-3</span><span class="hljs-string">%</span> <span class="hljs-string">~</span> <span class="hljs-number">-6</span><span class="hljs-string">%</span>
+
+  <span class="hljs-string">그러나</span> <span class="hljs-string">장기적으로:</span>
+  <span class="hljs-string">AI</span> <span class="hljs-string">수요가</span> <span class="hljs-string">지정학</span> <span class="hljs-string">리스크를</span> <span class="hljs-string">압도</span> <span class="hljs-string">→</span> <span class="hljs-string">NVDA</span> <span class="hljs-number">2023</span><span class="hljs-string">년</span> <span class="hljs-string">+239%!</span>
+
+  <span class="hljs-string">교훈:</span> <span class="hljs-string">지정학</span> <span class="hljs-string">리스크로</span> <span class="hljs-string">인한</span> <span class="hljs-string">급락</span> <span class="hljs-string">=</span> <span class="hljs-string">때로는</span> <span class="hljs-string">매수</span> <span class="hljs-string">기회</span>
+        <span class="hljs-string">(단,</span> <span class="hljs-string">업황이</span> <span class="hljs-string">살아있어야</span> <span class="hljs-string">한다)</span>
+
+  <span class="hljs-string">──────────────────────────────────────────────────────────────────</span>
+
+  <span class="hljs-string">섹터별</span> <span class="hljs-string">미중</span> <span class="hljs-string">갈등</span> <span class="hljs-string">민감도:</span>
+  <span class="hljs-string">┌──────────────────┬──────────────────────────────────────────┐</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">섹터</span>             <span class="hljs-string">│</span> <span class="hljs-string">미중</span> <span class="hljs-string">갈등</span> <span class="hljs-string">민감도</span> <span class="hljs-string">및</span> <span class="hljs-string">영향</span>                 <span class="hljs-string">│</span>
+  <span class="hljs-string">├──────────────────┼──────────────────────────────────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">반도체</span>           <span class="hljs-string">│</span> <span class="hljs-string">매우</span> <span class="hljs-string">높음</span> <span class="hljs-string">↑</span> <span class="hljs-string">(수출</span> <span class="hljs-string">규제</span> <span class="hljs-string">직격탄)</span>          <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">방산</span>             <span class="hljs-string">│</span> <span class="hljs-string">높음</span> <span class="hljs-string">↑</span> <span class="hljs-string">(긴장</span> <span class="hljs-string">고조</span> <span class="hljs-string">시</span> <span class="hljs-string">수혜)</span>              <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">농업</span>             <span class="hljs-string">│</span> <span class="hljs-string">높음</span> <span class="hljs-string">(중국이</span> <span class="hljs-string">미국</span> <span class="hljs-string">농산물</span> <span class="hljs-string">보이콧</span> <span class="hljs-string">가능)</span>   <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">소비재</span> <span class="hljs-string">(나이키)</span>  <span class="hljs-string">│</span> <span class="hljs-string">보통</span> <span class="hljs-string">(중국</span> <span class="hljs-string">매출</span> <span class="hljs-string">의존도</span> <span class="hljs-string">높은</span> <span class="hljs-string">기업</span> <span class="hljs-string">타격)</span>  <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">에너지</span>           <span class="hljs-string">│</span> <span class="hljs-string">낮음</span> <span class="hljs-string">(원유는</span> <span class="hljs-string">전</span> <span class="hljs-string">세계</span> <span class="hljs-string">거래)</span>              <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">금융</span>             <span class="hljs-string">│</span> <span class="hljs-string">낮음</span> <span class="hljs-string">(직접</span> <span class="hljs-string">영향</span> <span class="hljs-string">제한적)</span>                 <span class="hljs-string">│</span>
+  <span class="hljs-string">└──────────────────┴──────────────────────────────────────────┘</span>
+</code></pre>
+<h3>4.3 지정학 리스크 섹터 민감도 표</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────────┐
+│              지정학 리스크 유형별 수혜/피해 섹터                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+              │ 중동 분쟁  │ 미중 갈등  │ 러시아 긴장│ 글로벌 불안│
+  ────────────┼────────────┼────────────┼────────────┼────────────┤
+  에너지       │   ↑↑ 수혜  │   ↔ 중립  │   ↑↑ 수혜  │   ↑ 수혜   │
+  방산         │   ↑↑ 수혜  │   ↑ 수혜  │   ↑↑ 수혜  │   ↑↑ 수혜  │
+  반도체       │   ↔ 중립   │   ↓↓ 피해 │   ↔ 중립   │   ↓ 피해   │
+  항공         │   ↓↓ 피해  │   ↔ 중립  │   ↓ 피해   │   ↓ 피해   │
+  소비재       │   ↓ 피해   │   ↓ 피해  │   ↔ 중립   │   ↓ 피해   │
+  금(GLD)      │   ↑↑ 수혜  │   ↑ 수혜  │   ↑↑ 수혜  │   ↑↑ 수혜  │
+  달러(UUP)    │   ↑ 수혜   │   ↑ 수혜  │   ↑ 수혜   │   ↑↑ 수혜  │
+  ────────────┴────────────┴────────────┴────────────┴────────────┘
+
+  ↑↑ 강한 수혜   ↑ 약한 수혜   ↔ 중립
+  ↓ 약한 피해    ↓↓ 강한 피해
+</code></pre>
+<blockquote>
+<p><strong>실전 체크포인트</strong></p>
+<p>지정학 리스크 뉴스가 터졌을 때: (1) 금(GLD) 가격 확인, (2) VIX 지수 확인, (3) 에너지 선물 가격 확인. 이 세 가지가 모두 급등하면 위험자산(성장주) 비중을 일시적으로 줄이는 것을 고려하자.</p>
+</blockquote>
+<hr>
+<h2>5. 경제 지표 발표와 주가 — 매월 체크해야 할 캘린더</h2>
+<h3>5.1 주요 경제 지표 발표 캘린더</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────────┐
+│                주요 경제 지표 발표 일정                               │
+└─────────────────────────────────────────────────────────────────────┘
+
+  매월 정기 발표 (미국 동부 시각 기준, 한국 시각은 여름 +<span class="hljs-number">13</span>h):
+
+  ┌────────────────────┬───────────────────┬───────────────────────┐
+  │ 지표                │ 발표 시기          │ 한국 시각 (여름)     │
+  ├────────────────────┼───────────────────┼───────────────────────┤
+  │ ISM 제조업 PMI     │ 매월 <span class="hljs-number">1</span>일          │ 오후 <span class="hljs-number">11</span>:<span class="hljs-number">00</span>            │
+  │ NFP (비농업취업자) │ 매월 첫째 금요일  │ 오후 <span class="hljs-number">9</span>:<span class="hljs-number">30</span>             │
+  │ ISM 서비스 PMI     │ 매월 첫째 화요일  │ 오후 <span class="hljs-number">11</span>:<span class="hljs-number">00</span>            │
+  │ CPI (소비자물가)   │ 매월 둘째 수요일  │ 오후 <span class="hljs-number">9</span>:<span class="hljs-number">30</span>             │
+  │ PPI (생산자물가)   │ 매월 둘째 목요일  │ 오후 <span class="hljs-number">9</span>:<span class="hljs-number">30</span>             │
+  │ 소매판매           │ 매월 중순         │ 오후 <span class="hljs-number">9</span>:<span class="hljs-number">30</span>             │
+  │ PCE (연준선호물가) │ 매월 말일         │ 오후 <span class="hljs-number">9</span>:<span class="hljs-number">30</span>             │
+  ├────────────────────┼───────────────────┼───────────────────────┤
+  │ GDP (예비치)       │ 분기 첫째달 마지막│ 오후 <span class="hljs-number">9</span>:<span class="hljs-number">30</span>             │
+  │ FOMC 결정          │ 연 <span class="hljs-number">8</span>회            │ 새벽 <span class="hljs-number">3</span>:<span class="hljs-number">00</span> (여름)      │
+  │ 연준 의장 기자회견 │ FOMC 다음날       │ 새벽 <span class="hljs-number">3</span>:<span class="hljs-number">30</span> (여름)      │
+  └────────────────────┴───────────────────┴───────────────────────┘
+
+  ──────────────────────────────────────────────────────────────────
+
+  실전 월별 체크리스트 (예: <span class="hljs-number">3</span>월):
+  ┌────────────────────────────────────────────────────────────────┐
+  │  <span class="hljs-number">3</span>월 <span class="hljs-number">1</span>일 (금요일 예외적 빠름): ISM 제조업                     │
+  │  <span class="hljs-number">3</span>월 <span class="hljs-number">7</span>일 (목요일):             NFP 고용지표 ← 가장 중요!     │
+  │  <span class="hljs-number">3</span>월 <span class="hljs-number">12</span>일 (화요일):            CPI 소비자물가 ← 두번째 중요!│
+  │  <span class="hljs-number">3</span>월 <span class="hljs-number">19</span>-<span class="hljs-number">20</span>일:                  FOMC 회의 ← 시장 최대 이벤트 │
+  │  <span class="hljs-number">3</span>월 <span class="hljs-number">28</span>일:                     PCE 물가                       │
+  └────────────────────────────────────────────────────────────────┘
+</code></pre>
+<h3>5.2 지표별 주가 반응 매트릭스</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────────┐
+│           경제 지표 발표 결과별 주가 반응                            │
+└─────────────────────────────────────────────────────────────────────┘
+
+  ┌──────────────────┬───────────────────────┬───────────────────────┐
+  │ 지표              │ 예상보다 강하게 나옴  │ 예상보다 약하게 나옴  │
+  ├──────────────────┼───────────────────────┼───────────────────────┤
+  │ NFP (고용)        │ 혼재                  │ 혼재                  │
+  │                  │ 경제 좋음 ↑           │ 경기 침체 우려 ↓      │
+  │                  │ But 금리 인상 우려 ↓  │ But 금리 인하 기대 ↑  │
+  ├──────────────────┼───────────────────────┼───────────────────────┤
+  │ CPI (물가)        │ 주식 ↓↓              │ 주식 ↑↑               │
+  │                  │ 금리 인상 우려 증가   │ 금리 인하 기대 증가   │
+  ├──────────────────┼───────────────────────┼───────────────────────┤
+  │ GDP               │ 주식 ↑               │ 주식 ↓                │
+  │                  │ 경제 성장 좋은 신호   │ 경기 침체 우려        │
+  ├──────────────────┼───────────────────────┼───────────────────────┤
+  │ 소매판매          │ 주식 ↑               │ 주식 ↓                │
+  │                  │ 소비 건전 신호        │ 소비 감소 우려        │
+  ├──────────────────┼───────────────────────┼───────────────────────┤
+  │ ISM PMI           │ 주식 ↑               │ 주식 ↓                │
+  │                  │ (<span class="hljs-number">50</span> 이상 = 확장)      │ (<span class="hljs-number">50</span> 이하 = 수축)      │
+  └──────────────────┴───────────────────────┴───────────────────────┘
+
+  ⚠️  고용지표는 '역설'이 있다:
+  고용이 너무 좋음 → 연준이 금리 내리지 않겠다 → 주식 하락
+  고용이 약함    → 연준이 금리 내릴 것 → 주식 상승
+  (<span class="hljs-number">2023</span>~<span class="hljs-number">2024</span>년 이 패턴 반복됨)
+</code></pre>
+<blockquote>
+<p><strong>실전 체크포인트</strong></p>
+<p>경제 지표 발표일 전날은 포지션을 크게 늘리지 않는 것이 좋다. 특히 CPI와 FOMC는 시장 변동성을 극도로 높인다. Investing.com의 "경제 캘린더"를 북마크해두자.</p>
+</blockquote>
+<hr>
+<h2>6. 실적 시즌 — 분기마다 오는 주가 폭풍</h2>
+<h3>6.1 실적 발표 일정과 의미</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────────┐
+│               실적 시즌 (Earnings Season) 캘린더                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+  분기     발표 기간         주요 발표 기업 (예시)
+  ──────────────────────────────────────────────────────────────────
+  Q4      <span class="hljs-number">1</span>월 둘째주~<span class="hljs-number">2</span>월    JPM (<span class="hljs-number">1</span>월 초), AAPL, MSFT (<span class="hljs-number">1</span>월 말)
+  (<span class="hljs-number">10</span>-<span class="hljs-number">12</span>월 실적)
+
+  Q1      <span class="hljs-number">4</span>월 둘째주~<span class="hljs-number">5</span>월    대형 금융주 시작, 빅테크 순서로
+  (<span class="hljs-number">1</span>-<span class="hljs-number">3</span>월 실적)
+
+  Q2      <span class="hljs-number">7</span>월 둘째주~<span class="hljs-number">8</span>월    여름 시즌 실적, 반도체 중간 점검
+  (<span class="hljs-number">4</span>-<span class="hljs-number">6</span>월 실적)
+
+  Q3      <span class="hljs-number">10</span>월 둘째주~<span class="hljs-number">11</span>월  연말 소비 시즌 전망 포함
+  (<span class="hljs-number">7</span>-<span class="hljs-number">9</span>월 실적)
+
+  ──────────────────────────────────────────────────────────────────
+
+  주요 기업 발표 순서 (통상적):
+  Week <span class="hljs-number">1</span>: JPMorgan, Goldman Sachs (금융주)
+  Week <span class="hljs-number">2</span>: Netflix, Tesla
+  Week <span class="hljs-number">3</span>: Apple, Microsoft, Meta, Alphabet, Amazon
+  Week <span class="hljs-number">4</span>: 중소형주 마무리
+</code></pre>
+<h3>6.2 EPS 서프라이즈 vs 실적 쇼크</h3>
+<pre><code class="hljs language-bash">┌─────────────────────────────────────────────────────────────────────┐
+│                  실적 발표 결과 유형별 반응                           │
+└─────────────────────────────────────────────────────────────────────┘
+
+  EPS (Earnings Per Share) = 주당순이익
+  <span class="hljs-string">"컨센서스"</span> = 애널리스트 평균 예상치
+
+  유형 1: 어닝 서프라이즈 (Beat)
+  ─────────────────────────────
+  예상: <span class="hljs-variable">$1</span>.50 EPS
+  실제: <span class="hljs-variable">$1</span>.80 EPS (+20% 상회)
+  → 즉각 5~15% 주가 상승 (애프터마켓)
+
+  유형 2: 인라인 (In-line)
+  ─────────────────────────
+  예상: <span class="hljs-variable">$1</span>.50 EPS
+  실제: <span class="hljs-variable">$1</span>.52 EPS (딱 부합)
+  → 큰 변동 없음 (이미 가격에 반영됨)
+
+  유형 3: 어닝 쇼크 (Miss)
+  ─────────────────────────
+  예상: <span class="hljs-variable">$1</span>.50 EPS
+  실제: <span class="hljs-variable">$1</span>.20 EPS (-20% 하회)
+  → 즉각 10~30% 주가 하락
+
+  ──────────────────────────────────────────────────────────────────
+
+  ⚠️  <span class="hljs-string">"실적은 좋은데 주가는 왜 떨어져?"</span> 현상
+
+  이유: 실적 발표 전에 이미 주가가 기대감으로 올라있었음
+  <span class="hljs-string">"Buy the rumor, Sell the news"</span> (소문에 사서 뉴스에 팔아라)
+
+  가이던스(Guidance)가 더 중요:
+  Q2 실적이 좋아도 Q3 전망이 나쁘면 → 주가 하락
+  Q2 실적이 나빠도 Q3 전망이 좋으면 → 주가 상승
+</code></pre>
+<h3>6.3 실제 사례: Meta 2022년 어닝 쇼크</h3>
+<pre><code class="hljs language-bash">┌─────────────────────────────────────────────────────────────────────┐
+│         Meta (FB) 2022년 Q3 실적 쇼크 — 하루 -26%                   │
+└─────────────────────────────────────────────────────────────────────┘
+
+  날짜: 2022년 10월 26일 (장 마감 후 실적 발표)
+
+  발표 내용:
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  Q3 매출: <span class="hljs-variable">$277</span>억 (예상 <span class="hljs-variable">$275</span>억 - 소폭 상회)                    │
+  │  Q3 EPS: <span class="hljs-variable">$1</span>.64 (예상 <span class="hljs-variable">$1</span>.88 - 13% 하회!)                      │
+  │                                                                 │
+  │  충격 요인:                                                     │
+  │  1. 메타버스(Reality Labs) 사업 손실 <span class="hljs-variable">$36</span>억                     │
+  │  2. Q4 매출 가이던스: <span class="hljs-variable">$300</span>~325억 (예상 <span class="hljs-variable">$326</span>억 하회)            │
+  │  3. 2023년도 비용 <span class="hljs-variable">$960</span>~1,010억 예고 (투자 확대)                │
+  └─────────────────────────────────────────────────────────────────┘
+
+  시장 반응:
+  발표 전 주가:  <span class="hljs-variable">$128</span>
+  다음날 시가:   <span class="hljs-variable">$104</span>  (-18.7%)
+  다음날 종가:   <span class="hljs-variable">$97</span>   (-24.2%)  ← 하루에 -26%!
+
+  시가총액 손실: 약 <span class="hljs-variable">$800</span>억 (하루 만에!)
+
+  한국 투자자 손실 계산 (Meta 1000만원 보유 시):
+  1000만원 → 740만원  (하루 만에 -260만원)
+
+  ──────────────────────────────────────────────────────────────────
+
+  교훈:
+  - 실적 발표 직전에 개별 종목 단기 베팅은 위험
+  - 가이던스 악화가 실적 서프라이즈보다 더 중요
+  - 단일 종목 집중 투자의 리스크 (분산 투자 필요성)
+</code></pre>
+<h3>6.4 실적 발표 전략</h3>
+<pre><code class="hljs language-markdown">┌─────────────────────────────────────────────────────────────────────┐
+│                 실적 시즌 투자 전략                                   │
+└─────────────────────────────────────────────────────────────────────┘
+
+  전략 1: 실적 발표 전 매도 (안전 우선)
+  ──────────────────────────────────────
+<span class="hljs-bullet">  -</span> 실적 1~2주 전에 일부 수익 실현
+<span class="hljs-bullet">  -</span> 불확실성 제거
+<span class="hljs-bullet">  -</span> 단점: 어닝 서프라이즈 수혜 놓침
+
+  전략 2: 실적 후 반응 보고 매수
+  ────────────────────────────────
+<span class="hljs-bullet">  -</span> 실적 발표 후 애프터마켓 반응 확인
+<span class="hljs-bullet">  -</span> 쇼크로 급락했지만 펀더멘털 좋으면 매수 기회
+<span class="hljs-bullet">  -</span> 2022년 Meta 쇼크 → 2023년 +194% 반등!
+
+  전략 3: 실적 중립 (장기 보유)
+  ──────────────────────────────
+<span class="hljs-bullet">  -</span> 분기 실적에 흔들리지 않고 보유
+<span class="hljs-bullet">  -</span> 10년 이상 장기 투자자에게 가장 이상적
+<span class="hljs-bullet">  -</span> Warren Buffett 스타일
+
+  ──────────────────────────────────────────────────────────────────
+
+  실적 발표 때 확인해야 할 3가지:
+  ┌────────────────────────────────────────────────────────────────┐
+  │  1. EPS: 예상 대비 몇 % 상회/하회?                           │
+  │  2. 매출: 예상 대비 성장세 유지?                              │
+  │  3. 가이던스: 다음 분기 전망이 컨센서스 대비 어떤가?         │
+  └────────────────────────────────────────────────────────────────┘
+</code></pre>
+<blockquote>
+<p><strong>실전 체크포인트</strong></p>
+<p>Earnings Whispers (earningswhispers.com) 또는 Seeking Alpha에서 실적 발표 일정과 컨센서스를 미리 확인하자. 특히 보유 종목의 실적 발표일은 반드시 캘린더에 표시해두어야 한다.</p>
+</blockquote>
+<hr>
+<h2>7. 섹터 로테이션 — 경기 사이클에 따라 강한 섹터가 바뀐다</h2>
+<h3>7.1 경기 사이클 시계</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────────┐
+│                경기 사이클 시계 (Clock Model)                        │
+└─────────────────────────────────────────────────────────────────────┘
+
+                     <span class="hljs-number">12</span>시 (경기 정점)
+                    에너지·원자재
+                    /
+               <span class="hljs-number">11</span>시                 <span class="hljs-number">1</span>시
+         소재·산업재             금융·부동산
+              /                         \
+         <span class="hljs-number">10</span>시                             <span class="hljs-number">2</span>시
+       기술·임의소비재               경기방어·유틸리티
+              \                         /
+               <span class="hljs-number">9</span>시                  <span class="hljs-number">3</span>시
+         (경기 저점)              헬스케어
+                   \           /
+                    <span class="hljs-number">8</span>시    <span class="hljs-number">4</span>시
+                      \ <span class="hljs-number">7</span>시 /
+                       <span class="hljs-number">6</span>시 (경기 저점)
+                    채권·현금·금
+
+  경기 확장기(<span class="hljs-number">9</span>시→<span class="hljs-number">12</span>시):   기술주, 임의소비재, 금융
+  경기 정점기(<span class="hljs-number">12</span>시→<span class="hljs-number">3</span>시):   에너지, 원자재, 산업재
+  경기 수축기(<span class="hljs-number">3</span>시→<span class="hljs-number">6</span>시):    방어주(헬스케어, 유틸리티, 필수소비재)
+  경기 저점기(<span class="hljs-number">6</span>시→<span class="hljs-number">9</span>시):    채권, 금, 이후 기술주 반등 시작
+
+  ──────────────────────────────────────────────────────────────────
+
+  대표 ETF로 보는 섹터:
+  ┌──────────────────┬──────────┬────────────────────────────────┐
+  │ 섹터              │ ETF     │ 대표 종목                       │
+  ├──────────────────┼──────────┼────────────────────────────────┤
+  │ 기술 (XLK)        │ XLK     │ AAPL, MSFT, NVDA               │
+  │ 헬스케어 (XLV)    │ XLV     │ JNJ, UNH, PFE                  │
+  │ 금융 (XLF)        │ XLF     │ JPM, BAC, WFC                  │
+  │ 에너지 (XLE)      │ XLE     │ XOM, CVX, SLB                  │
+  │ 임의소비재(XLY)   │ XLY     │ AMZN, TSLA, HD                 │
+  │ 필수소비재(XLP)   │ XLP     │ PG, KO, WMT                    │
+  │ 유틸리티(XLU)     │ XLU     │ NEE, DUK, SO                   │
+  │ 원자재(XLB)       │ XLB     │ LIN, APD, ECL                  │
+  │ 산업재(XLI)       │ XLI     │ RTX, UPS, CAT                  │
+  │ 부동산(XLRE)      │ XLRE    │ AMT, PLD, CCI                  │
+  │ 통신(XLC)         │ XLC     │ GOOG, META, VZ                 │
+  └──────────────────┴──────────┴────────────────────────────────┘
+</code></pre>
+<h3>7.2 방어주 vs 성장주의 금리 민감도</h3>
+<pre><code class="hljs language-markdown">┌─────────────────────────────────────────────────────────────────────┐
+│              방어주 vs 성장주 금리 민감도 비교                       │
+└─────────────────────────────────────────────────────────────────────┘
+
+  방어주 특징:
+  ──────────
+<span class="hljs-bullet">  -</span> 경기 무관 꾸준한 이익 (음식, 약, 전기)
+<span class="hljs-bullet">  -</span> 높은 배당률 (3~5%)
+<span class="hljs-bullet">  -</span> 금리 상승 시: 채권 대비 매력도 하락 → 주가 하락
+<span class="hljs-bullet">  -</span> 금리 하락 시: 채권 대비 매력도 상승 → 주가 상승
+<span class="hljs-bullet">  -</span> 예: KO (코카콜라), PG (P&#x26;G), JNJ (존슨앤존슨)
+
+  성장주 특징:
+  ────────────
+<span class="hljs-bullet">  -</span> 현재 이익보다 미래 성장 기대
+<span class="hljs-bullet">  -</span> 낮은 배당(또는 무배당)
+<span class="hljs-bullet">  -</span> 금리 상승 시: DCF 할인율 급상승 → 주가 폭락
+<span class="hljs-bullet">  -</span> 금리 하락 시: 미래 이익 현재가치 급상승 → 주가 폭등
+<span class="hljs-bullet">  -</span> 예: NVDA, TSLA, AMZN, META
+
+  금리 인상 1%p당 예상 주가 영향:
+  방어주 (유틸리티, 필수소비재): -5% ~ -10%
+  가치주 (금융, 에너지):          -2% ~ +5%
+  성장주 (기술, 임의소비재):     -15% ~ -30%
+
+  ──────────────────────────────────────────────────────────────────
+
+  실전 응용:
+
+  연준 금리 인상 사이클 진입 신호 시
+  → 성장주 비중 줄이고 가치주·에너지 비중 확대
+
+  연준 금리 인하 신호 (or 경기 침체 공포) 시
+  → 방어주·채권 비중 확대, 이후 성장주 재편입
+</code></pre>
+<blockquote>
+<p><strong>실전 체크포인트</strong></p>
+<p>섹터 로테이션을 실행하는 가장 간단한 방법: SPDR의 섹터 ETF (XLK, XLV, XLF 등)를 활용해 경기 사이클에 맞게 비중을 조절한다. 매월 각 섹터 ETF의 상대적 강도를 비교해보자.</p>
+</blockquote>
+<hr>
+<h2>8. 공포 지수 VIX — 시장의 체온계</h2>
+<h3>8.1 VIX란 무엇인가</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">┌─────────────────────────────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span>                      <span class="hljs-string">VIX</span> <span class="hljs-string">지수</span> <span class="hljs-string">완전</span> <span class="hljs-string">해부</span>                              <span class="hljs-string">│</span>
+<span class="hljs-string">└─────────────────────────────────────────────────────────────────────┘</span>
+
+  <span class="hljs-string">VIX</span> <span class="hljs-string">=</span> <span class="hljs-string">CBOE</span> <span class="hljs-string">Volatility</span> <span class="hljs-string">Index</span>
+  <span class="hljs-string">=</span> <span class="hljs-string">S&#x26;P500</span> <span class="hljs-string">옵션</span> <span class="hljs-string">가격에서</span> <span class="hljs-string">추출한</span> <span class="hljs-string">"향후 30일 예상 변동성"</span>
+
+  <span class="hljs-string">수치</span> <span class="hljs-string">해석:</span>
+  <span class="hljs-string">┌─────────┬──────────────┬──────────────────────────────────────┐</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">VIX</span> <span class="hljs-string">수준</span> <span class="hljs-string">│</span> <span class="hljs-string">시장</span> <span class="hljs-string">상태</span>    <span class="hljs-string">│</span> <span class="hljs-string">의미</span>                                <span class="hljs-string">│</span>
+  <span class="hljs-string">├─────────┼──────────────┼──────────────────────────────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">10</span><span class="hljs-string">~15</span>   <span class="hljs-string">│</span> <span class="hljs-string">극도</span> <span class="hljs-string">안정</span>    <span class="hljs-string">│</span> <span class="hljs-string">투자자들</span> <span class="hljs-string">전혀</span> <span class="hljs-string">걱정</span> <span class="hljs-string">안</span> <span class="hljs-string">함</span>             <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">15</span><span class="hljs-string">~20</span>   <span class="hljs-string">│</span> <span class="hljs-string">정상</span>         <span class="hljs-string">│</span> <span class="hljs-string">일반적인</span> <span class="hljs-string">시장</span> <span class="hljs-string">상태</span>                   <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">20</span><span class="hljs-string">~30</span>   <span class="hljs-string">│</span> <span class="hljs-string">불안</span>         <span class="hljs-string">│</span> <span class="hljs-string">불확실성</span> <span class="hljs-string">증가,</span> <span class="hljs-string">조심</span> <span class="hljs-string">구간</span>             <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">30</span><span class="hljs-string">~40</span>   <span class="hljs-string">│</span> <span class="hljs-string">공포</span>         <span class="hljs-string">│</span> <span class="hljs-string">시장</span> <span class="hljs-string">큰</span> <span class="hljs-string">걱정,</span> <span class="hljs-string">기회</span> <span class="hljs-string">탐색</span> <span class="hljs-string">시작</span>        <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">40</span><span class="hljs-string">~60</span>   <span class="hljs-string">│</span> <span class="hljs-string">극도</span> <span class="hljs-string">공포</span>    <span class="hljs-string">│</span> <span class="hljs-string">패닉</span> <span class="hljs-string">셀링,</span> <span class="hljs-string">역발상</span> <span class="hljs-string">매수</span> <span class="hljs-string">기회</span>          <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">60</span><span class="hljs-string">+</span>     <span class="hljs-string">│</span> <span class="hljs-string">시장</span> <span class="hljs-string">붕괴</span>    <span class="hljs-string">│</span> <span class="hljs-string">역사적</span> <span class="hljs-string">위기</span> <span class="hljs-string">수준</span>                     <span class="hljs-string">│</span>
+  <span class="hljs-string">└─────────┴──────────────┴──────────────────────────────────────┘</span>
+
+  <span class="hljs-string">역사적</span> <span class="hljs-string">VIX</span> <span class="hljs-string">최고치:</span>
+  <span class="hljs-string">─────────────────────────────────────────────────────────────────</span>
+  <span class="hljs-number">2008.11  </span><span class="hljs-number">80</span>  <span class="hljs-string">글로벌</span> <span class="hljs-string">금융위기</span> <span class="hljs-string">(리먼</span> <span class="hljs-string">브라더스</span> <span class="hljs-string">파산)</span>
+  <span class="hljs-number">2020.03  </span><span class="hljs-number">85</span>  <span class="hljs-string">COVID-19</span> <span class="hljs-string">팬데믹</span> <span class="hljs-string">충격</span>  <span class="hljs-string">←</span> <span class="hljs-string">역사적</span> <span class="hljs-string">최고치!</span>
+  <span class="hljs-number">2010.05  </span><span class="hljs-number">48</span>  <span class="hljs-string">유럽</span> <span class="hljs-string">재정위기</span>
+  <span class="hljs-number">2022.03  </span><span class="hljs-number">39</span>  <span class="hljs-string">러시아-우크라이나</span> <span class="hljs-string">전쟁</span> <span class="hljs-string">+</span> <span class="hljs-string">금리</span> <span class="hljs-string">인상</span>
+  <span class="hljs-number">2024.08  </span><span class="hljs-number">65</span>  <span class="hljs-string">일본</span> <span class="hljs-string">엔</span> <span class="hljs-string">캐리</span> <span class="hljs-string">트레이드</span> <span class="hljs-string">청산</span> <span class="hljs-string">일시</span> <span class="hljs-string">충격</span>
+</code></pre>
+<h3>8.2 VIX와 주가의 역관계</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────────┐
+│                     VIX vs S&#x26;P500 역관계                             │
+└─────────────────────────────────────────────────────────────────────┘
+
+  VIX      S&#x26;P500
+  ────────────────────────────────────────────────────────
+  │  VIX
+  │  <span class="hljs-number">85</span>┤                  * (<span class="hljs-number">2020.03</span> 팬데믹)
+  │  <span class="hljs-number">80</span>┤        * (<span class="hljs-number">2008.11</span> 금융위기)
+  │  <span class="hljs-number">50</span>┤
+  │  <span class="hljs-number">40</span>┤                               * (<span class="hljs-number">2022.03</span>)
+  │  <span class="hljs-number">30</span>┤
+  │  <span class="hljs-number">20</span>┤──────────────────────────────────────────── 평균
+  │  <span class="hljs-number">15</span>┤
+  │  <span class="hljs-number">10</span>┤
+  └──────────────────────────────────────────────────────▶ 시간
+
+  S&#x26;P500
+  │
+  │  <span class="hljs-number">5000</span>┤                                        /
+  │  <span class="hljs-number">4000</span>┤                               /───────/
+  │  <span class="hljs-number">3000</span>┤                      /───────/
+  │  <span class="hljs-number">2000</span>┤             /───────/  (<span class="hljs-number">2020</span> 팬데믹 저점)
+  │  <span class="hljs-number">1000</span>┤   /─────────/
+  │     └────────────────────────────────────────────────▶ 시간
+
+  VIX ↑ = S&#x26;P500 ↓  (거의 정반대로 움직임)
+  상관계수: 약 -<span class="hljs-number">0.7</span> ~ -<span class="hljs-number">0.8</span>
+</code></pre>
+<h3>8.3 "VIX가 높을 때 매수하라" 전략</h3>
+<pre><code class="hljs language-sql">┌─────────────────────────────────────────────────────────────────────┐
+│           VIX 역발상 투자 전략 실제 데이터                           │
+└─────────────────────────────────────────────────────────────────────┘
+
+  전략: "VIX 40 이상일 때 S&#x26;P500 ETF(SPY) 매수"
+
+  역사적 VIX <span class="hljs-number">40</span><span class="hljs-operator">+</span> 발생 시기와 이후 수익률:
+  ┌─────────────────┬─────────┬───────────┬───────────┬───────────┐
+  │ 사건             │ VIX 최고│ <span class="hljs-number">3</span>개월 후  │ <span class="hljs-number">6</span>개월 후  │ <span class="hljs-number">1</span>년 후    │
+  ├─────────────────┼─────────┼───────────┼───────────┼───────────┤
+  │ <span class="hljs-number">2008</span> 금융위기   │  <span class="hljs-number">80</span>     │  <span class="hljs-number">-10</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">15</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">26</span><span class="hljs-operator">%</span>     │
+  │ <span class="hljs-number">2010</span> 유럽위기   │  <span class="hljs-number">48</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">17</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">19</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">25</span><span class="hljs-operator">%</span>     │
+  │ <span class="hljs-number">2011</span> 미국 신용  │  <span class="hljs-number">48</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">14</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">20</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">29</span><span class="hljs-operator">%</span>     │
+  │ <span class="hljs-number">2018</span> 크리스마스 │  <span class="hljs-number">36</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">24</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">26</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">31</span><span class="hljs-operator">%</span>     │
+  │ <span class="hljs-number">2020</span> 팬데믹     │  <span class="hljs-number">85</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">40</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">52</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">74</span><span class="hljs-operator">%</span>     │
+  │ <span class="hljs-number">2022</span> 금리<span class="hljs-operator">+</span>전쟁  │  <span class="hljs-number">39</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">12</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">15</span><span class="hljs-operator">%</span>     │  <span class="hljs-operator">+</span><span class="hljs-number">20</span><span class="hljs-operator">%</span>     │
+  └─────────────────┴─────────┴───────────┴───────────┴───────────┘
+
+  결론: VIX <span class="hljs-number">40</span><span class="hljs-operator">+</span> 시기에 매수하면 <span class="hljs-number">1</span>년 후 평균 <span class="hljs-operator">+</span><span class="hljs-number">34</span><span class="hljs-operator">%</span> 수익<span class="hljs-operator">!</span>
+        (단, <span class="hljs-number">3</span>개월 이내에는 추가 하락 가능 → 분할 매수 필수)
+
+  ──────────────────────────────────────────────────────────────────
+
+  Warren Buffett 명언:
+  "남들이 탐욕스러울 때 두려워하고,
+   남들이 두려워할 때 탐욕스러워져라."
+   (Be fearful <span class="hljs-keyword">when</span> others <span class="hljs-keyword">are</span> greedy, greedy <span class="hljs-keyword">when</span> others <span class="hljs-keyword">are</span> fearful)
+
+  VIX <span class="hljs-operator">=</span> "남들이 얼마나 두려워하는지" 보여주는 지표
+</code></pre>
+<h3>8.4 COVID-19 팬데믹 사례 — VIX 85와 역대 최대 반등</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">┌─────────────────────────────────────────────────────────────────────┐</span>
+<span class="hljs-string">│</span>           <span class="hljs-string">COVID-19</span> <span class="hljs-string">팬데믹</span> <span class="hljs-string">(2020년)</span> <span class="hljs-string">전체</span> <span class="hljs-string">타임라인</span>                     <span class="hljs-string">│</span>
+<span class="hljs-string">└─────────────────────────────────────────────────────────────────────┘</span>
+
+  <span class="hljs-number">2020</span><span class="hljs-string">년</span> <span class="hljs-string">S&#x26;P500</span> <span class="hljs-string">&#x26;</span> <span class="hljs-string">VIX</span> <span class="hljs-string">타임라인:</span>
+  <span class="hljs-string">─────────────────────────────────────────────────────────────────</span>
+
+  <span class="hljs-number">2020.01</span><span class="hljs-number">.17</span>  <span class="hljs-string">S&#x26;P500:</span> <span class="hljs-number">3</span><span class="hljs-string">,329</span> <span class="hljs-string">(역사적</span> <span class="hljs-string">최고치)</span>
+  <span class="hljs-number">2020.02</span><span class="hljs-number">.20</span>  <span class="hljs-string">첫</span> <span class="hljs-string">미국</span> <span class="hljs-string">내</span> <span class="hljs-string">코로나</span> <span class="hljs-string">확산</span> <span class="hljs-string">시작</span>
+  <span class="hljs-number">2020.02</span><span class="hljs-number">.28</span>  <span class="hljs-number">-12</span><span class="hljs-string">%:</span> <span class="hljs-string">가장</span> <span class="hljs-string">빠른</span> <span class="hljs-number">10</span><span class="hljs-string">%</span> <span class="hljs-string">조정</span> <span class="hljs-string">역사</span> <span class="hljs-string">기록</span>
+  <span class="hljs-number">2020.03</span><span class="hljs-number">.12</span>  <span class="hljs-number">-10</span><span class="hljs-string">%</span> <span class="hljs-string">단일일</span> <span class="hljs-string">하락</span> <span class="hljs-string">(서킷브레이커</span> <span class="hljs-string">발동)</span>
+  <span class="hljs-number">2020.03</span><span class="hljs-number">.16</span>  <span class="hljs-number">-12</span><span class="hljs-string">%</span> <span class="hljs-string">단일일</span> <span class="hljs-string">하락</span> <span class="hljs-string">(검은</span> <span class="hljs-string">월요일)</span>
+  <span class="hljs-attr">2020.03.18  VIX:</span> <span class="hljs-number">85.47</span> <span class="hljs-string">←</span> <span class="hljs-string">역사적</span> <span class="hljs-string">최고치!</span>
+  <span class="hljs-number">2020.03</span><span class="hljs-number">.23</span>  <span class="hljs-string">S&#x26;P500:</span> <span class="hljs-number">2</span><span class="hljs-string">,237</span> <span class="hljs-string">(저점,</span> <span class="hljs-string">고점</span> <span class="hljs-string">대비</span> <span class="hljs-number">-34</span><span class="hljs-string">%)</span>
+  <span class="hljs-number">2020.03</span><span class="hljs-number">.23</span>  <span class="hljs-string">←</span> <span class="hljs-string">여기서</span> <span class="hljs-string">샀다면?</span>
+
+  <span class="hljs-string">이후:</span>
+  <span class="hljs-number">2020.04</span><span class="hljs-number">.30</span>  <span class="hljs-string">+30%</span> <span class="hljs-string">(5주</span> <span class="hljs-string">만에!)</span>
+  <span class="hljs-number">2020.08</span><span class="hljs-number">.18</span>  <span class="hljs-string">신고점</span> <span class="hljs-string">갱신</span> <span class="hljs-string">(5개월</span> <span class="hljs-string">만에!)</span>
+  <span class="hljs-number">2020.12</span><span class="hljs-number">.31</span>  <span class="hljs-string">S&#x26;P500:</span> <span class="hljs-number">3</span><span class="hljs-string">,756</span> <span class="hljs-string">(연간</span> <span class="hljs-string">+18.4%)</span>
+
+  <span class="hljs-string">──────────────────────────────────────────────────────────────────</span>
+
+  <span class="hljs-string">만약</span> <span class="hljs-string">저점(2020.03.23)에</span> <span class="hljs-string">$10,000</span> <span class="hljs-string">투자했다면:</span>
+  <span class="hljs-string">SPY</span> <span class="hljs-string">매수가:</span> <span class="hljs-string">$218</span> <span class="hljs-string">→</span> <span class="hljs-number">2021</span><span class="hljs-string">년</span> <span class="hljs-string">$470</span> <span class="hljs-string">=</span> <span class="hljs-string">+115%</span>
+  <span class="hljs-string">AAPL</span> <span class="hljs-string">매수가:</span> <span class="hljs-string">$56</span>  <span class="hljs-string">→</span> <span class="hljs-number">2021</span><span class="hljs-string">년</span> <span class="hljs-string">$145</span> <span class="hljs-string">=</span> <span class="hljs-string">+159%</span>
+  <span class="hljs-string">NVDA</span> <span class="hljs-string">매수가:</span> <span class="hljs-string">$180</span> <span class="hljs-string">→</span> <span class="hljs-number">2021</span><span class="hljs-string">년</span> <span class="hljs-string">$700</span> <span class="hljs-string">=</span> <span class="hljs-string">+289%</span>
+
+  <span class="hljs-string">──────────────────────────────────────────────────────────────────</span>
+
+  <span class="hljs-string">그러나</span> <span class="hljs-string">현실:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">저점에서</span> <span class="hljs-string">사는</span> <span class="hljs-string">것은</span> <span class="hljs-string">말은</span> <span class="hljs-string">쉽지만</span> <span class="hljs-string">실행</span> <span class="hljs-string">매우</span> <span class="hljs-string">어려움</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">"바닥인 줄 알고 샀는데 더 떨어지면?"</span> <span class="hljs-string">공포</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">해결책:</span> <span class="hljs-string">VIX</span> <span class="hljs-number">40</span><span class="hljs-string">,</span> <span class="hljs-number">50</span><span class="hljs-string">,</span> <span class="hljs-number">60</span><span class="hljs-string">,</span> <span class="hljs-number">70</span> <span class="hljs-string">각</span> <span class="hljs-string">구간에서</span> <span class="hljs-string">분할</span> <span class="hljs-string">매수</span>
+    <span class="hljs-string">(한</span> <span class="hljs-string">번에</span> <span class="hljs-string">몰빵하지</span> <span class="hljs-string">말고</span> <span class="hljs-string">나눠서</span> <span class="hljs-string">사는</span> <span class="hljs-string">전략)</span>
+</code></pre>
+<blockquote>
+<p><strong>실전 체크포인트</strong></p>
+<p>VIX를 매일 체크하는 습관을 들이자. Google에서 "CBOE VIX" 검색하거나, 증권사 앱에서 VIX 시세를 확인할 수 있다. VIX가 20을 넘으면 조심하고, 30을 넘으면 분할 매수 계획을 세우기 시작하자.</p>
+</blockquote>
+<hr>
+<h2>9. 모든 것을 통합하는 투자 프레임워크</h2>
+<h3>9.1 거시경제 + 지정학 종합 판단 체계</h3>
+<pre><code class="hljs">┌─────────────────────────────────────────────────────────────────────┐
+│               거시경제 종합 판단 대시보드                            │
+└─────────────────────────────────────────────────────────────────────┘
+
+  매월 체크해야 할 7가지 지표:
+
+  지표 1. 연준 금리 방향성
+  ─────────────────────────
+  □ 금리 인상 사이클 → 성장주 비중 축소, 가치주·배당주 확대
+  □ 금리 동결 → 현 포트폴리오 유지
+  □ 금리 인하 사이클 → 성장주·장기채 비중 확대
+
+  지표 2. CPI 트렌드
+  ─────────────────────────
+  □ CPI 상승 중 → 에너지·원자재·TIPS 비중 확대
+  □ CPI 하락 중 → 기술주·성장주 비중 확대 시작
+
+  지표 3. 경기선행지수 (LEI)
+  ─────────────────────────
+  □ 3개월 연속 하락 → 방어적 포트폴리오로 전환
+  □ 반등 신호 → 경기민감주(산업재, 기술주) 선취매
+
+  지표 4. 달러 인덱스 (DXY)
+  ─────────────────────────
+  □ DXY 상승 → 다국적 기업 실적 주의, 원자재 약세 가능
+  □ DXY 하락 → 신흥국, 원자재, 다국적 기업 수혜
+
+  지표 5. VIX 레벨
+  ─────────────────────────
+  □ VIX &#x3C; 20 → 정상 투자
+  □ VIX 20~30 → 일부 현금 확보
+  □ VIX > 30 → 분할 매수 시작
+  □ VIX > 40 → 적극 매수 (역발상)
+
+  지표 6. 지정학 리스크 온도
+  ─────────────────────────
+  □ 고조 → 에너지·방산·금 비중 확대
+  □ 완화 → 기술·소비주로 이동
+
+  지표 7. 실적 시즌 컨센서스
+  ─────────────────────────
+  □ 어닝 서프라이즈 연속 → 강세 신호
+  □ 가이던스 하향 연속 → 매도 준비
+</code></pre>
+<h3>9.2 초보 투자자를 위한 단순화된 규칙</h3>
+<pre><code class="hljs language-scss">┌─────────────────────────────────────────────────────────────────────┐
+│                  초보자 거시경제 대응 <span class="hljs-number">3</span>원칙                           │
+└─────────────────────────────────────────────────────────────────────┘
+
+  원칙 <span class="hljs-number">1</span>. 연준을 거스르지 마라 (Don't Fight the Fed)
+  ──────────────────────────────────────────────────
+  연준이 금리 올리는 동안 → 성장주 묻지마 매수 금지
+  연준이 금리 내리는 동안 → 성장주 보유 및 추가 매수 긍정적
+
+  원칙 <span class="hljs-number">2</span>. VIX <span class="hljs-number">40</span> 이상 = 매수 기회
+  ──────────────────────────────────────────────────
+  패닉이 정점일 때가 실은 매수 적기
+  단, 반드시 분할 매수 (전체 자금의 <span class="hljs-number">20%</span>씩 <span class="hljs-number">4</span>번 나눠서)
+
+  원칙 <span class="hljs-number">3</span>. 지정학 이슈로 급락한 펀더멘털 좋은 기업 = 기회
+  ──────────────────────────────────────────────────
+  전쟁이나 제재로 주가가 급락해도
+  해당 기업의 사업 자체가 타격받지 않았다면
+  → 단기 과잉 반응 → 매수 기회
+
+  <span class="hljs-number">2022</span>년 NVDA 미중 갈등 급락 → <span class="hljs-number">2023</span>년 +<span class="hljs-number">239%</span> 사례가 대표적
+</code></pre>
+<hr>
+<h2>10. 시리즈 마무리</h2>
+<pre><code class="hljs language-sql">┌─────────────────────────────────────────────────────────────────────┐
+│              미국 주식 투자 입문 시리즈 완성                         │
+└─────────────────────────────────────────────────────────────────────┘
+
+  ✅ <span class="hljs-number">01</span>편: 계좌 개설부터 첫 주문까지
+  ✅ <span class="hljs-number">02</span>편: 미국 시장 구조 — NYSE, NASDAQ, S<span class="hljs-operator">&#x26;</span>P500
+  ✅ <span class="hljs-number">03</span>편: 어떤 주식 살까 — 기업 분석 첫걸음
+  ✅ <span class="hljs-number">04</span>편: 재무제표 읽기 (애플 사례)
+  ✅ <span class="hljs-number">05</span>편: 주가 가치평가 — <span class="hljs-keyword">PER</span>, PBR, EV<span class="hljs-operator">/</span>EBITDA
+  ✅ <span class="hljs-number">06</span>편: 성장주 vs 가치주 선택법
+  ✅ <span class="hljs-number">07</span>편: ETF로 분산투자하기
+  ✅ <span class="hljs-number">08</span>편: 채권과 미국 국채 (TLT)
+  ✅ <span class="hljs-number">09</span>편: 매수<span class="hljs-operator">/</span>매도 타이밍
+  ✅ <span class="hljs-number">10</span>편: 포트폴리오 구성과 리밸런싱
+  ✅ <span class="hljs-number">11</span>편: 거시경제와 국제 시사가 주가를 움직인다 (지금 읽는 중)
+
+  ──────────────────────────────────────────────────────────────────
+
+  <span class="hljs-number">11</span>편을 마치며:
+
+  주식 투자는 결국 "세상이 어떻게 돌아가는지" 이해하는 것이다.
+  연준 의장의 발언 한 마디, 러시아의 군사 행동, 중국의 반도체 정책,
+  이 모든 것이 당신이 보유한 Apple, NVIDIA, Microsoft 주가에 연결되어 있다.
+
+  뉴스를 그냥 뉴스로 보지 말고,
+  "이게 어떤 섹터에 유리한가? 어떤 섹터에 불리한가?"를
+  항상 생각하는 습관을 들이자.
+
+  그것이 아마추어와 프로를 가르는 가장 중요한 차이다.
+</code></pre>
+<hr>
+<blockquote>
+<p><strong>최종 투자 원칙:</strong>
+거시경제를 알면 시장의 흐름이 보인다.
+그러나 정확한 타이밍은 아무도 모른다.
+알게 된 지식은 더 나은 매수 기회 포착에, 불필요한 패닉 매도 방지에 쓰자.
+결국 장기 투자 + 분산 투자 + 정기 매수가 가장 검증된 전략이다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"미국 주식 투자 입문 (11) — 거시경제와 국제 시사가 주가를 움직인다"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"미국 주식 투자 입문 (11) — 거시경제와 국제 시사가 주가를 움직인다 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

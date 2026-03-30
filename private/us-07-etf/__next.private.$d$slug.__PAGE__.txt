@@ -1,0 +1,524 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T7bb8,<h2>들어가며 — ETF가 왜 혁명적인가</h2>
+<p>2024년 기준, 세계에서 가장 많은 자산을 운용하는 펀드는 뮤추얼 펀드가 아니다. <strong>VOO (Vanguard S&#x26;P500 ETF)</strong> 같은 ETF가 $1조 이상의 자산을 운용하고 있다.</p>
+<p>워런 버핏조차 유언장에 이렇게 썼다:</p>
+<blockquote>
+<p>"내가 죽으면 내 재산의 90%를 S&#x26;P500 인덱스 펀드(Vanguard)에, 10%를 단기 국채에 넣어라."</p>
+</blockquote>
+<p>왜 세계 최고의 투자자가 ETF를 추천하는가?</p>
+<pre><code class="hljs language-bash">ETF가 강력한 이유
+──────────────────────────────────────────────────────────────
+일반 주식형 펀드 (액티브)        ETF (패시브)
+──────────────────────────────────────────────────────────────
+매니저가 종목 선택               지수를 그대로 추종
+연 수수료 1-2%                   연 수수료 0.03-0.2%
+장 마감 기준 1회 거래            장중 실시간 거래 가능
+과거 10년: 80%+ 가 지수 못 이김  지수 수익률 그대로 획득
+──────────────────────────────────────────────────────────────
+수수료 차이의 복리 효과 (30년, 연 8% 수익 가정, 초기 <span class="hljs-variable">$10</span>,000):
+  수수료 0.03%: <span class="hljs-variable">$10</span>,000 → <span class="hljs-variable">$100</span>,107  (+900%)
+  수수료 1.50%: <span class="hljs-variable">$10</span>,000 →  <span class="hljs-variable">$59</span>,083  (+491%)
+  차이: <span class="hljs-variable">$41</span>,024 (ETF가 40% 더 많이 번다)
+──────────────────────────────────────────────────────────────
+</code></pre>
+<hr>
+<h2>1. ETF란 무엇인가</h2>
+<h3>1-1. ETF 구조</h3>
+<pre><code class="hljs language-scss">ETF (Exchange Traded Fund) 구조
+────────────────────────────────────────────────────────────────────
+
+  투자자가 VOO를 <span class="hljs-number">1</span>주 산다
+           ↓
+  VOO <span class="hljs-number">1</span>주 = S&#x26;P500 <span class="hljs-number">503</span>개 기업 주식을 모두 조금씩 보유
+           ↓
+  ┌─────────────────────────────────────────────────────┐
+  │  Apple <span class="hljs-number">7%</span>  Microsoft <span class="hljs-number">6.5%</span>  Nvidia <span class="hljs-number">6%</span>  Amazon <span class="hljs-number">4%</span>   │
+  │  Google <span class="hljs-number">4%</span> Meta <span class="hljs-number">2.5%</span>  Berkshire <span class="hljs-number">1.8%</span> Visa <span class="hljs-number">1.4%</span>    │
+  │  ... (<span class="hljs-number">490</span>개 이상의 기업 나머지 비중)                │
+  └─────────────────────────────────────────────────────┘
+           ↓
+  S&#x26;P500 지수가 <span class="hljs-number">1%</span> 오르면 VOO도 거의 <span class="hljs-number">1%</span> 오른다
+  분산 투자 효과: 한 기업이 파산해도 포트폴리오 타격 미미
+
+────────────────────────────────────────────────────────────────────
+핵심 장점:
+  ✓ <span class="hljs-number">504</span>개 기업을 <span class="hljs-number">1</span>주로 동시 보유
+  ✓ 주식처럼 장중 실시간 매수/매도
+  ✓ 뮤추얼 펀드 대비 세금 효율적
+  ✓ 배당금 자동 수령
+</code></pre>
+<h3>1-2. ETF vs 개별주 vs 뮤추얼 펀드 비교</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>개별주</th>
+<th>ETF</th>
+<th>뮤추얼 펀드</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>분산 효과</td>
+<td>없음 (직접 구성)</td>
+<td>자동 분산</td>
+<td>자동 분산</td>
+</tr>
+<tr>
+<td>수수료</td>
+<td>0%</td>
+<td>0.03-0.8%</td>
+<td>0.5-2%</td>
+</tr>
+<tr>
+<td>거래 방식</td>
+<td>장중 실시간</td>
+<td>장중 실시간</td>
+<td>하루 1회 (장 마감)</td>
+</tr>
+<tr>
+<td>종목 선택</td>
+<td>직접 해야 함</td>
+<td>지수 자동 추종</td>
+<td>매니저가 선택</td>
+</tr>
+<tr>
+<td>세금 효율</td>
+<td>중간</td>
+<td>높음</td>
+<td>낮음</td>
+</tr>
+<tr>
+<td>초보 적합성</td>
+<td>낮음</td>
+<td>높음</td>
+<td>중간</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>2. 시장 전체 지수 ETF — 핵심 4종</h2>
+<h3>2-1. VOO — S&#x26;P500 추종 (최고 인기)</h3>
+<pre><code class="hljs language-makefile">VOO (Vanguard S&#x26;P 500 ETF)
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">운용사:   Vanguard</span>
+<span class="hljs-section">추종지수: S&#x26;P 500 (미국 대형주 500개)</span>
+<span class="hljs-section">수수료:   연 0.03% (업계 최저 수준)</span>
+<span class="hljs-section">AUM:      $1조+ (세계 최대 ETF 중 하나)</span>
+<span class="hljs-section">배당:     분기 배당 (연 ~1.3%)</span>
+
+Top 10 구성 (2024년 기준, 변동 있음):
+  Apple (AAPL)      7.1%
+  Microsoft (MSFT)  6.5%
+  Nvidia (NVDA)     5.9%
+  Amazon (AMZN)     3.7%
+  Alphabet (GOOGL)  2.1%
+  Meta (META)       2.5%
+  Berkshire (BRK.B) 1.8%
+  Tesla (TSLA)      1.7%
+  Eli Lilly (LLY)   1.6%
+  JPMorgan (JPM)    1.4%
+
+10년 연평균 수익률: ~13% (2014-2024)
+20년 연평균 수익률: ~10% (2004-2024)
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">누구에게?: 미국 시장 전체에 분산하고 싶은 모든 투자자</span>
+           <span class="hljs-string">"미국 경제가 성장하면 나도 성장한다"</span>는 철학
+</code></pre>
+<h3>2-2. QQQ — Nasdaq 100 추종 (기술주 집중)</h3>
+<pre><code class="hljs language-makefile">QQQ (Invesco QQQ Trust)
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">운용사:   Invesco</span>
+<span class="hljs-section">추종지수: Nasdaq 100 (비금융 대형주 100개)</span>
+<span class="hljs-section">수수료:   연 0.20%</span>
+<span class="hljs-section">특징:     기술주 비중 50%+, 금융주 제외</span>
+
+VOO vs QQQ 비교:
+  VOO: 미국 전체 경제 대표 (밸런스 있음)
+  QQQ: AI/기술 성장에 집중 베팅 (변동성 높음)
+
+수익률 비교 (2014-2024):
+  VOO 10년: +240%
+  QQQ 10년: +370%  ← 기술주 호황으로 압도
+  하지만 2022년:
+  VOO: -18.1%
+  QQQ: -32.6%  ← 금리 인상 때 더 많이 떨어짐
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">누구에게?: AI·기술 성장에 강하게 베팅하는 공격적 투자자</span>
+<span class="hljs-section">주의:      변동성이 VOO보다 40-50% 높다</span>
+</code></pre>
+<h3>2-3. VTI — 미국 전체 시장</h3>
+<pre><code class="hljs language-makefile">VTI (Vanguard Total Stock Market ETF)
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">추종지수: CRSP US Total Market (약 4,000개 기업)</span>
+<span class="hljs-section">수수료:   연 0.03%</span>
+
+VOO vs VTI 차이:
+  VOO: S&#x26;P500 (대형주 503개)
+  VTI: 미국 전체 (대형주 + 중형주 + 소형주 4,000개)
+
+성과 차이: 장기적으로 거의 동일
+소형주 포함 → 대형주보다 변동성 약간 높음
+하지만 소형주 강세장에서 VTI가 앞서기도 함
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">누구에게?: 미국 전체 시장에 완전한 분산 원하는 투자자</span>
+           VOO vs VTI 선택은 사실상 큰 차이 없음
+</code></pre>
+<h3>2-4. 해외 분산 ETF</h3>
+<pre><code class="hljs language-scss">해외 주식 ETF
+──────────────────────────────────────────────────────────────
+VEA (Vanguard Developed Markets ETF)
+  → 미국 제외 선진국 (유럽, 일본, 캐나다, 호주 등)
+  → 수수료 <span class="hljs-number">0.05%</span>, PER 낮아서 밸류에이션 매력적
+  → 미국 집중 리스크 분산에 활용
+
+VWO (Vanguard Emerging Markets ETF)
+  → 신흥국 (중국, 인도, 브라질, 대만 등)
+  → 수수료 <span class="hljs-number">0.08%</span>, 성장 잠재력 높음
+  → 정치 리스크, 통화 리스크 주의
+
+VXUS (Vanguard Total International Stock ETF)
+  → 미국 제외 전 세계 (선진국 + 신흥국 통합)
+  → "VTI + VXUS" = 글로벌 전체 포트폴리오
+──────────────────────────────────────────────────────────────
+한국 투자자 주의: 해외 ETF 내에 한국 비중 있음
+                  환율 변동이 추가 리스크
+</code></pre>
+<hr>
+<h2>3. 섹터 ETF — 특정 업종에 집중 투자</h2>
+<p>11개 섹터 각각에 투자하는 ETF가 있다. 경기 사이클에 따라 강한 섹터가 다르다.</p>
+<pre><code class="hljs language-makefile">SPDR 섹터 ETF 목록 (State Street 운용)
+────────────────────────────────────────────────────────────────────
+섹터 ETF  │ 섹터명          │ 특징                │ 대표 기업
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLK       │ Information     │ AI, 반도체, 소프트웨어│ MSFT, AAPL, NVDA
+          │ Technology      │ 금리에 민감          │
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLV       │ Healthcare      │ 방어적, 인구 고령화  │ JNJ, UNH, PFE
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLF       │ Financials      │ 금리 인상 수혜       │ JPM, BAC, WFC
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLE       │ Energy          │ 원유 가격 연동        │ XOM, CVX
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLU       │ Utilities       │ 배당주, 금리에 민감  │ NEE, DUK
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLP       │ Consumer        │ 방어주, 경기침체 강함│ PG, KO, WMT
+          │ Staples         │                     │
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLY       │ Consumer        │ 경기 민감, 성장 연동 │ AMZN, TSLA
+          │ Discretionary   │                     │
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLI       │ Industrials     │ 제조업, 인프라 투자  │ CAT, HON, UPS
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLB       │ Materials       │ 원자재, 인플레 수혜  │ LIN, APD, FCX
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLRE      │ Real Estate     │ 리츠, 금리에 민감    │ PLD, AMT, EQIX
+──────────┼─────────────────┼─────────────────────┼─────────────
+XLC       │ Communication   │ 미디어, SNS, 통신    │ GOOGL, META, T
+          │ Services        │                     │
+────────────────────────────────────────────────────────────────────
+<span class="hljs-section">수수료: 모두 연 0.10-0.13%</span>
+</code></pre>
+<h3>섹터 로테이션 전략 활용</h3>
+<pre><code class="hljs language-scss">경기 사이클에 따른 강한 섹터
+────────────────────────────────────────────────────────────
+경기 확장 초기     → 금융(XLF), 소비재(XLY), 기술(XLK)
+경기 확장 후기     → 에너지(XLE), 원자재(XLB), 산업재(XLI)
+경기 수축/침체     → 헬스케어(XLV), 필수소비재(XLP), 유틸리티(XLU)
+경기 회복          → 기술(XLK), 소비재(XLY), 부동산(XLRE)
+────────────────────────────────────────────────────────────
+주의: 섹터 로테이션 타이밍 잡기는 어렵다.
+      초보는 VOO 기본 보유 + 소량 섹터 ETF로 시작 권장
+</code></pre>
+<hr>
+<h2>4. 배당 ETF — 현금흐름을 만드는 투자</h2>
+<h3>4-1. 주요 배당 ETF 비교</h3>
+<table>
+<thead>
+<tr>
+<th>ETF</th>
+<th>전략</th>
+<th>배당수익률</th>
+<th>배당 성장</th>
+<th>10년 총수익</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SCHD</strong></td>
+<td>배당 성장</td>
+<td>~3.5%</td>
+<td>연 ~12%</td>
+<td>중간</td>
+</tr>
+<tr>
+<td><strong>VYM</strong></td>
+<td>고배당</td>
+<td>~3.2%</td>
+<td>연 ~6%</td>
+<td>중간</td>
+</tr>
+<tr>
+<td><strong>DGRO</strong></td>
+<td>배당 성장</td>
+<td>~2.3%</td>
+<td>연 ~10%</td>
+<td>높음</td>
+</tr>
+<tr>
+<td><strong>DVY</strong></td>
+<td>고배당</td>
+<td>~4.5%</td>
+<td>낮음</td>
+<td>낮음</td>
+</tr>
+<tr>
+<td><strong>VIG</strong></td>
+<td>배당 귀족</td>
+<td>~1.8%</td>
+<td>연 ~8%</td>
+<td>높음</td>
+</tr>
+</tbody>
+</table>
+<h3>4-2. SCHD — 가장 인기 있는 배당 성장 ETF</h3>
+<pre><code class="hljs language-bash">SCHD (Schwab U.S. Dividend Equity ETF)
+──────────────────────────────────────────────────────────────
+추종지수: Dow Jones U.S. Dividend 100 Index
+수수료:   연 0.06%
+전략:     높은 배당수익률 + 배당 성장 역사 + 재무 건전성
+
+선정 기준:
+  ✓ 10년 연속 배당 지급 기록
+  ✓ 현금흐름 대비 배당 지불 능력
+  ✓ 배당수익률 상위
+  ✓ ROE, 부채비율 등 재무 건전성
+
+배당 실적:
+  2014: <span class="hljs-variable">$0</span>.85/주 (연배당)
+  2019: <span class="hljs-variable">$1</span>.84/주
+  2024: <span class="hljs-variable">$2</span>.72/주  ← 10년간 배당이 3배 성장!
+
+연 <span class="hljs-variable">$500</span> 배당 SCHD 매월 재투자 시 복리 시뮬레이션:
+  10년 후: 약 <span class="hljs-variable">$100</span>,000 → 연 배당 <span class="hljs-variable">$3</span>,500
+  20년 후: 약 <span class="hljs-variable">$380</span>,000 → 연 배당 <span class="hljs-variable">$13</span>,300
+  30년 후: 약 <span class="hljs-variable">$1</span>,200,000 → 연 배당 <span class="hljs-variable">$42</span>,000  ← 은퇴 생활비
+──────────────────────────────────────────────────────────────
+</code></pre>
+<blockquote>
+<p><strong>💡 배당 재투자의 마법</strong>: 배당금을 현금으로 받지 않고 같은 ETF를 재매수하면 복리 효과가 발생한다. 30년 후 차이는 엄청나다.</p>
+</blockquote>
+<hr>
+<h2>5. 채권 ETF — 포트폴리오의 안전판</h2>
+<h3>5-1. 주요 채권 ETF</h3>
+<pre><code class="hljs">채권 ETF 종류별 특성
+────────────────────────────────────────────────────────────────────
+ETF    │ 만기      │ 금리민감도 │ 배당수익률 │ 특징
+───────┼───────────┼──────────┼──────────┼─────────────────────────
+SHY   │ 단기 1-3년 │ 낮음       │ 4-5%     │ 안정적, 금리 거의 무관
+IEF   │ 중기 7-10년│ 중간       │ 3-4%     │ 균형형
+TLT   │ 장기 20+년 │ 높음       │ 4-5%     │ 금리 하락 시 큰 수익
+BND   │ 미국 전체  │ 중간       │ 3-4%     │ 총 채권 시장 분산
+TIPS  │ 10년 TIPS  │ 중간       │ 낮음     │ 인플레 연동, CPI 헤지
+HYG   │ 하이일드   │ 낮음       │ 6-7%     │ 높은 수익률, 신용 위험
+────────────────────────────────────────────────────────────────────
+</code></pre>
+<h3>5-2. 금리와 채권 ETF 관계</h3>
+<pre><code class="hljs language-scss">금리 변화 → 채권 ETF 가격
+──────────────────────────────────────────────────────────────
+금리 인상 (↑)  →  채권 가격 하락 (↓)  →  채권 ETF 하락
+금리 인하 (↓)  →  채권 가격 상승 (↑)  →  채권 ETF 상승
+
+만기가 길수록 금리 변화에 더 민감하다!
+  SHY (단기): 금리 <span class="hljs-number">1%</span> 변동 → 가격 약 ±<span class="hljs-number">2%</span> 변동
+  TLT (장기): 금리 <span class="hljs-number">1%</span> 변동 → 가격 약 ±<span class="hljs-number">16%</span> 변동
+
+<span class="hljs-number">2022</span>년 금리 인상 사이클 실제 피해:
+  TLT (<span class="hljs-number">20</span>년 이상 국채 ETF): -<span class="hljs-number">45.2%</span>
+  IEF (<span class="hljs-number">7</span>-<span class="hljs-number">10</span>년 국채 ETF): -<span class="hljs-number">18.1%</span>
+  SHY (<span class="hljs-number">1</span>-<span class="hljs-number">3</span>년 국채 ETF): -<span class="hljs-number">4.2%</span>  ← 피해 최소
+──────────────────────────────────────────────────────────────
+교훈: 채권 ETF도 위험할 수 있다.
+      특히 금리 상승기에 장기채 ETF 투자는 주의!
+</code></pre>
+<h3>5-3. TIPS — 인플레이션 헤지</h3>
+<pre><code class="hljs language-scss">TIPS (Treasury Inflation-Protected Securities) ETF
+──────────────────────────────────────────────────────────────
+특징: 원금이 <span class="hljs-built_in">CPI</span>(소비자물가지수)에 연동
+  → 인플레이션 오르면 원금도 오른다
+  → 디플레이션 오면 원금 감소 (하한선: 최초 원금)
+
+ETF: TIP, SCHP, <span class="hljs-built_in">STIP</span>(단기)
+
+언제 유용한가:
+  ✓ 인플레이션 우려가 높은 시기
+  ✓ 장기 보유로 구매력 유지 목적
+  ✓ 전통 채권 + TIPS 혼합으로 헤지
+
+<span class="hljs-number">2021</span>-<span class="hljs-number">2022</span> 인플레이션 폭발 시기:
+  일반 TLT: -<span class="hljs-number">45%</span>
+  <span class="hljs-built_in">TIPS</span>(TIP): -<span class="hljs-number">14%</span>  ← 상대적으로 훨씬 덜 피해
+──────────────────────────────────────────────────────────────
+</code></pre>
+<hr>
+<h2>6. 테마 ETF와 레버리지 ETF — 주의 필요</h2>
+<h3>6-1. 테마 ETF의 함정</h3>
+<pre><code class="hljs language-makefile">ARK Innovation ETF (ARKK) — 교훈적 사례
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">운용사: ARK Invest (Cathie Wood)</span>
+<span class="hljs-section">전략:  미래 혁신 기업에 집중 투자 (테슬라, Zoom, Roku 등)</span>
+
+<span class="hljs-section">성과:</span>
+  2019-2020: +170%  ← 성장주 호황
+  2021년 2월: $159 (최고점)
+  2022년 12월: $30 (-81%!)  ← 금리 인상 직격탄
+  2024년 현재: $50대 회복 중 (최고점 대비 -70%)
+
+<span class="hljs-section">문제:</span>
+  높은 수수료 (0.75%)
+  집중 투자 → 변동성 극대화
+  테마 유행이 식으면 장기 부진 가능
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">교훈: 테마 ETF는 타이밍이 맞으면 큰 수익이지만,</span>
+      잘못 들어가면 회복하기까지 수년이 걸린다.
+</code></pre>
+<h3>6-2. 레버리지 ETF — 절대 장기 보유 금지</h3>
+<pre><code class="hljs language-bash">레버리지 ETF의 수학적 함정
+──────────────────────────────────────────────────────────────
+SOXL (반도체 3배 레버리지 ETF) 예시:
+
+  날 1: 지수 +5% → SOXL +15%  (<span class="hljs-variable">$100</span> → <span class="hljs-variable">$115</span>)
+  날 2: 지수 -5% → SOXL -15%  (<span class="hljs-variable">$115</span> → <span class="hljs-variable">$97</span>.75)
+  순 결과: 지수 +0% (원점), SOXL -2.25%
+
+  이것이 <span class="hljs-string">"변동성 붕괴 (Volatility Decay)"</span>다
+
+  SOXS (반도체 -3배)와 SOXL을 동시에 보유하면?
+  → 둘 다 잃는다! (변동성 붕괴 때문에)
+
+실제 데이터:
+  2021년 11월 SOXL 고점: ~<span class="hljs-variable">$74</span>
+  2022년 10월 SOXL 저점: ~<span class="hljs-variable">$6</span>  (-92% 폭락)
+  기초지수 (SOXX) 하락: -50%
+  레버리지는 하락을 훨씬 더 증폭시켰다
+──────────────────────────────────────────────────────────────
+규칙: 레버리지 ETF는 단기 트레이딩 목적으로만
+      절대로 장기 보유하지 말 것!
+</code></pre>
+<hr>
+<h2>7. ETF 선택 체크리스트</h2>
+<p>새로운 ETF를 매수하기 전에 반드시 확인하라.</p>
+<pre><code class="hljs language-markdown">ETF 매수 전 체크리스트
+──────────────────────────────────────────────────────────────
+□ 1. AUM(운용자산) $1B 이상인가?
+<span class="hljs-code">      → 너무 작은 ETF는 운용 중단 위험, 스프레드 넓음
+</span>
+□ 2. 하루 평균 거래량이 충분한가?
+<span class="hljs-code">      → 거래량 적으면 매도 시 불리한 가격에 팔 수 있음
+</span>
+□ 3. 운용보수(Expense Ratio)가 0.2% 이하인가?
+<span class="hljs-code">      → 지수 ETF는 0.03-0.1%, 섹터/테마는 0.1-0.5%
+</span>
+□ 4. 추종하는 지수가 명확하고 신뢰할 수 있는가?
+<span class="hljs-code">      → S&#x26;P500, Russell 2000 등 공인된 지수 > 자체 구성
+</span>
+□ 5. 배당 정책을 이해하는가?
+<span class="hljs-code">      → 분기/월배당 여부, 배당 재투자 방법
+</span>
+□ 6. 레버리지/인버스 ETF가 아닌가?
+<span class="hljs-code">      → 일반 투자자는 레버리지/인버스 피할 것
+</span>
+□ 7. 설정 이후 기초지수 대비 추적 오차가 낮은가?
+<span class="hljs-code">      → Yahoo Finance ETF 페이지에서 확인 가능
+──────────────────────────────────────────────────────────────
+</span></code></pre>
+<hr>
+<h2>8. 실전 — 연령별 ETF 포트폴리오 예시</h2>
+<h3>20대: 공격적 성장 포트폴리오</h3>
+<pre><code class="hljs language-bash">20대 ETF 포트폴리오 (월 <span class="hljs-variable">$500</span> 투자 기준)
+──────────────────────────────────────────────────────────────
+VOO   60%  (<span class="hljs-variable">$300</span>)   미국 S&#x26;P500 핵심
+QQQ   25%  (<span class="hljs-variable">$125</span>)   기술주 성장 베팅
+VWO   15%  (<span class="hljs-variable">$75</span>)    신흥국 분산
+
+논리:
+  - 투자 기간이 30년+ → 단기 변동성 감수 가능
+  - 채권 비중 없음 → 최대 성장 추구
+  - 신흥국 포함 → 글로벌 분산
+──────────────────────────────────────────────────────────────
+</code></pre>
+<h3>30-40대: 성장 + 배당 균형 포트폴리오</h3>
+<pre><code class="hljs language-markdown">30-40대 ETF 포트폴리오
+──────────────────────────────────────────────────────────────
+VOO   50%   미국 대형주 핵심
+QQQ   20%   기술주 성장
+SCHD  20%   배당 성장 (현금흐름 창출)
+VEA   10%   선진국 분산
+
+논리:
+<span class="hljs-bullet">  -</span> 성장과 안정의 균형
+<span class="hljs-bullet">  -</span> SCHD로 배당 현금흐름 창출 시작
+<span class="hljs-bullet">  -</span> 해외 분산으로 달러 집중 리스크 완화
+──────────────────────────────────────────────────────────────
+</code></pre>
+<h3>50-60대: 보전 + 배당 포트폴리오</h3>
+<pre><code class="hljs language-markdown">50-60대 ETF 포트폴리오
+──────────────────────────────────────────────────────────────
+VOO   40%   핵심 주식 보유
+SCHD  25%   고배당 성장
+BND   20%   채권 완충제
+TIP   10%   인플레이션 헤지
+VEA    5%   해외 분산
+
+논리:
+<span class="hljs-bullet">  -</span> 채권 비중 30% → 변동성 완화
+<span class="hljs-bullet">  -</span> 배당으로 생활비 일부 충당
+<span class="hljs-bullet">  -</span> TIPS로 은퇴 후 구매력 보호
+──────────────────────────────────────────────────────────────
+</code></pre>
+<hr>
+<h2>9. ETF 자주 묻는 질문</h2>
+<p><strong>Q. VOO와 SPY 중 어느 것이 좋은가?</strong></p>
+<blockquote>
+<p>SPY(수수료 0.09%)보다 VOO(수수료 0.03%)가 장기 투자에 유리하다. 단, 기관투자자는 유동성 때문에 SPY를 선호한다.</p>
+</blockquote>
+<p><strong>Q. 배당 ETF와 성장 ETF 중 어느 것이 총 수익이 더 높은가?</strong></p>
+<blockquote>
+<p>장기적으로는 성장 ETF(VOO, QQQ)가 총 수익이 높은 경향이 있다. 배당 ETF는 현금흐름을 원하는 투자자에게 적합하다.</p>
+</blockquote>
+<p><strong>Q. ETF도 파산할 수 있나?</strong></p>
+<blockquote>
+<p>운용사가 파산해도 ETF 자산(주식)은 분리 보관된다. 다만 너무 작은 ETF는 운용 중단 후 청산될 수 있다 (원금 손실 없이 현금으로 돌려받음).</p>
+</blockquote>
+<p><strong>Q. 분기 배당 vs 월 배당 ETF, 어느 것이 좋은가?</strong></p>
+<blockquote>
+<p>총 수익률 차이는 거의 없다. 월 배당은 현금흐름 관리가 편리하지만, 복리 관점에서는 재투자 주기 차이가 미미하다.</p>
+</blockquote>
+<hr>
+<h2>정리 — ETF 투자 핵심 원칙</h2>
+<pre><code class="hljs language-markdown">ETF 투자 5대 원칙
+──────────────────────────────────────────────────────────────
+<span class="hljs-bullet">1.</span> 핵심은 VOO (또는 VTI) 먼저
+   → 복잡하게 구성하기 전에 S&#x26;P500부터 시작
+
+<span class="hljs-bullet">2.</span> 수수료 0.2% 이하 고집
+   → 30년 복리에서 수수료 차이가 수천만 원
+
+<span class="hljs-bullet">3.</span> 레버리지/인버스 ETF는 장기 보유 금지
+   → 단기 트레이딩 도구, 초보는 건드리지 말 것
+
+<span class="hljs-bullet">4.</span> 리밸런싱은 연 1-2회
+   → 설정한 비중에서 5%+ 벗어나면 조정
+
+<span class="hljs-bullet">5.</span> 시장 타이밍 대신 꾸준한 투자 (DCA)
+   → 매월 일정액 자동 투자 > 타이밍 맞추기 시도
+──────────────────────────────────────────────────────────────
+</code></pre>
+<p>다음 편(8편)에서는 포트폴리오의 안전판인 <strong>채권과 미국 국채의 모든 것</strong>을 다룬다.</p>0:{"buildId":"6dNzU7_5pCuaCrqstHw1V","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"미국 주식 투자 입문 (7) — ETF 완전 정복: 개별주 없이도 시장 전체를 산다"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

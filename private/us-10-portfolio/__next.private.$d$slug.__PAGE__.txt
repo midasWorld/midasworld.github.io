@@ -1,0 +1,466 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T8b4d,<h2>들어가며 — 좋은 종목 1개가 아닌 좋은 포트폴리오가 답이다</h2>
+<p>많은 초보 투자자가 이런 함정에 빠진다:</p>
+<ul>
+<li>"어떤 종목 하나를 사야 하나요?"</li>
+<li>"지금 가장 핫한 ETF가 뭔가요?"</li>
+</ul>
+<p>하지만 투자의 진짜 목적은 <strong>내 삶의 재무 목표를 달성하는 것</strong>이다. 그 목표에 맞는 포트폴리오 전체가 중요하지, 개별 종목 하나가 아니다.</p>
+<pre><code class="hljs language-yaml"><span class="hljs-string">나쁜</span> <span class="hljs-string">포트폴리오</span> <span class="hljs-string">vs</span> <span class="hljs-string">좋은</span> <span class="hljs-string">포트폴리오</span>
+<span class="hljs-string">──────────────────────────────────────────────────────────────</span>
+<span class="hljs-string">나쁜</span> <span class="hljs-string">포트폴리오</span> <span class="hljs-string">(집중</span> <span class="hljs-string">투자)</span>
+  <span class="hljs-string">Nvidia</span> <span class="hljs-number">100</span><span class="hljs-string">%</span>
+  <span class="hljs-string">→</span> <span class="hljs-number">2023</span><span class="hljs-string">년</span> <span class="hljs-string">+239%</span> <span class="hljs-string">대박!</span>
+  <span class="hljs-string">→</span> <span class="hljs-number">2022</span><span class="hljs-string">년엔</span> <span class="hljs-number">-50</span><span class="hljs-string">%</span> <span class="hljs-string">폭락</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">변동성:</span> <span class="hljs-string">극도로</span> <span class="hljs-string">높음,</span> <span class="hljs-string">심리적</span> <span class="hljs-string">스트레스</span>
+
+<span class="hljs-string">좋은</span> <span class="hljs-string">포트폴리오</span> <span class="hljs-string">(분산</span> <span class="hljs-string">자산배분)</span>
+  <span class="hljs-string">VOO</span> <span class="hljs-number">60</span><span class="hljs-string">%</span> <span class="hljs-string">+</span> <span class="hljs-string">SCHD</span> <span class="hljs-number">20</span><span class="hljs-string">%</span> <span class="hljs-string">+</span> <span class="hljs-string">BND</span> <span class="hljs-number">20</span><span class="hljs-string">%</span>
+  <span class="hljs-string">→</span> <span class="hljs-number">2022</span><span class="hljs-string">년:</span> <span class="hljs-number">-15</span><span class="hljs-string">%</span> <span class="hljs-string">(시장</span> <span class="hljs-string">대비</span> <span class="hljs-string">선방)</span>
+  <span class="hljs-string">→</span> <span class="hljs-number">2023</span><span class="hljs-string">년:</span> <span class="hljs-string">+20%</span> <span class="hljs-string">(함께</span> <span class="hljs-string">회복)</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">변동성:</span> <span class="hljs-string">낮음,</span> <span class="hljs-string">수면</span> <span class="hljs-string">잘</span> <span class="hljs-string">잠</span>
+<span class="hljs-string">──────────────────────────────────────────────────────────────</span>
+<span class="hljs-string">핵심:</span> <span class="hljs-string">최고의</span> <span class="hljs-string">수익이</span> <span class="hljs-string">목표가</span> <span class="hljs-string">아니라,</span> <span class="hljs-string">목표를</span> <span class="hljs-string">달성할</span> <span class="hljs-string">확률을</span> <span class="hljs-string">높이는</span> <span class="hljs-string">것</span>
+</code></pre>
+<hr>
+<h2>1. 자산배분의 핵심 원리 — 왜 섞는가</h2>
+<h3>1-1. 상관관계(Correlation)의 마법</h3>
+<p>서로 반대로 움직이는 자산을 섞으면 전체 변동성이 줄어든다.</p>
+<pre><code class="hljs language-scss">자산 간 상관관계 (평균적 수치)
+──────────────────────────────────────────────────────────────────────
+                  미국주식  국제주식  채권  금    원자재  리츠
+미국주식 (VOO)     <span class="hljs-number">1.00</span>     <span class="hljs-number">0.75</span>    -<span class="hljs-number">0.20</span>  <span class="hljs-number">0.10</span>   <span class="hljs-number">0.30</span>   <span class="hljs-number">0.60</span>
+국제주식 (VEA)     <span class="hljs-number">0.75</span>     <span class="hljs-number">1.00</span>    -<span class="hljs-number">0.10</span>  <span class="hljs-number">0.15</span>   <span class="hljs-number">0.40</span>   <span class="hljs-number">0.55</span>
+채권 (BND)        -<span class="hljs-number">0.20</span>    -<span class="hljs-number">0.10</span>    <span class="hljs-number">1.00</span>  <span class="hljs-number">0.20</span>  -<span class="hljs-number">0.10</span>   <span class="hljs-number">0.20</span>
+금 (GLD)           <span class="hljs-number">0.10</span>     <span class="hljs-number">0.15</span>    <span class="hljs-number">0.20</span>  <span class="hljs-number">1.00</span>   <span class="hljs-number">0.30</span>   <span class="hljs-number">0.20</span>
+──────────────────────────────────────────────────────────────────────
+→ 주식과 채권은 음의 상관관계 (-<span class="hljs-number">0.20</span>)
+→ 주식이 폭락할 때 채권이 오르는 경향이 있어서 포트폴리오 완충
+
+단, <span class="hljs-number">2022</span>년처럼 인플레이션 폭발 시에는
+주식(-<span class="hljs-number">18%</span>)과 채권(-<span class="hljs-number">13%</span>)이 동시에 떨어지기도 한다.
+→ 완벽한 헤지는 없다
+</code></pre>
+<h3>1-2. 리스크와 수익의 트레이드오프</h3>
+<pre><code class="hljs language-scss">자산별 역사적 평균 수익률 vs 변동성 (연간 기준)
+──────────────────────────────────────────────────────────────
+자산                    연평균 수익률    변동성(표준편차)
+──────────────────────────────────────────────────────────────
+미국 소형주              ~<span class="hljs-number">12%</span>           ~<span class="hljs-number">22%</span>  ← 고위험/고수익
+미국 대형주(S&#x26;P500)      ~<span class="hljs-number">10%</span>           ~<span class="hljs-number">15%</span>
+국제 선진국 주식          ~<span class="hljs-number">7%</span>           ~<span class="hljs-number">18%</span>
+신흥국 주식              ~<span class="hljs-number">9%</span>           ~<span class="hljs-number">25%</span>
+부동산(리츠)              ~<span class="hljs-number">9%</span>           ~<span class="hljs-number">18%</span>
+장기 국채 (TLT)           ~<span class="hljs-number">5%</span>           ~<span class="hljs-number">14%</span>
+중기 국채                 ~<span class="hljs-number">4%</span>            ~<span class="hljs-number">8%</span>
+단기 국채 (SHY)           ~<span class="hljs-number">3%</span>            ~<span class="hljs-number">3%</span>  ← 저위험/저수익
+현금/예금                 ~<span class="hljs-number">1%</span>            ~<span class="hljs-number">0%</span>
+──────────────────────────────────────────────────────────────
+→ 수익률이 높을수록 변동성도 높다 (공짜 점심은 없다)
+</code></pre>
+<hr>
+<h2>2. 생애주기별 자산배분 — 나이가 답을 알려준다</h2>
+<p><strong>원칙</strong>: 나이가 젊을수록 주식 비중 높게, 은퇴에 가까울수록 채권/현금 비중 높게.</p>
+<pre><code class="hljs language-makefile">생애주기별 권장 자산배분
+──────────────────────────────────────────────────────────────────────
+                  20대      30대      40대      50대      60대+
+──────────────────────────────────────────────────────────────────────
+주식 (국내+해외)   90%       80%       70%       60%       50%
+  └ 미국주식       70%       60%       50%       40%       35%
+  └ 해외주식       20%       20%       20%       20%       15%
+채권               5%        15%       25%       30%       35%
+현금/안전자산      5%         5%        5%        10%       15%
+──────────────────────────────────────────────────────────────────────
+
+<span class="hljs-section">이유:</span>
+  20대: 투자 기간 40년+ → 시장 폭락도 회복 시간 충분
+  30-40대: 자산 형성 최대 활용 기간
+  50대: 은퇴 10-15년 전, 리스크 완화 시작
+  60대+: 원금 보전과 현금흐름이 더 중요
+──────────────────────────────────────────────────────────────────────
+<span class="hljs-string">"100 - 나이 = 주식 비중"</span> 규칙 (간단한 출발점)
+  30세: 70% 주식 / 30% 채권
+  50세: 50% 주식 / 50% 채권
+</code></pre>
+<blockquote>
+<p><strong>💡 주의</strong>: 이는 일반적인 가이드라인이다. 개인 상황(부채 유무, 직업 안정성, 위험 허용 한도)에 따라 달라져야 한다. 밤에 잠 못 잘 정도로 불안하다면 주식 비중이 너무 높은 것이다.</p>
+</blockquote>
+<hr>
+<h2>3. 유명 포트폴리오 전략 비교</h2>
+<h3>3-1. 전통 60/40 포트폴리오</h3>
+<pre><code class="hljs language-makefile">60/40 포트폴리오
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">구성: 주식 60% + 채권 40%</span>
+ETF 예시: VOO 60% + BND 40%
+
+<span class="hljs-section">장점:</span>
+  ✓ 단순하고 이해하기 쉬움
+  ✓ 80년+ 역사적 데이터로 검증됨
+  ✓ 주식 폭락 시 채권이 완충
+
+<span class="hljs-section">단점:</span>
+  ✗ 인플레이션 높은 시기에 채권+주식 동반 하락 가능
+  ✗ 2022년: 60/40 포트폴리오 -16% (최악의 해 중 하나)
+
+역사적 성과 (1976-2023):
+  연평균 수익률: ~8.8%
+  최대 낙폭(MDD): -27% (2008년 금융위기)
+  vs S&#x26;P500 단독 MDD: -55%
+──────────────────────────────────────────────────────────────
+</code></pre>
+<h3>3-2. 올웨더 포트폴리오 (Ray Dalio)</h3>
+<pre><code class="hljs language-makefile">올웨더(All Weather) 포트폴리오
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">개념: 어떤 경제 환경에서도 버티도록 설계</span>
+      (성장/침체 × 인플레/디플레 4가지 상황 모두 대비)
+
+<span class="hljs-section">구성:</span>
+  미국 주식 (VTI/VOO)       30%
+  장기 국채 (TLT)           40%
+  중기 국채 (IEF)           15%
+  금 (GLD/IAU)               7.5%
+  원자재 (DJP/PDBC)          7.5%
+
+역사적 성과 (2005-2023):
+  연평균 수익률: ~7.5%
+  최대 낙폭: -12% (매우 낮음)
+  2022년: -21% (채권+금 동반 하락으로 올웨더도 타격 받음)
+
+<span class="hljs-section">단점:</span>
+  채권 비중 55% → 금리 상승기 취약
+  성장 시기 수익률 S&#x26;P500 보다 낮음
+──────────────────────────────────────────────────────────────
+</code></pre>
+<h3>3-3. 영구 포트폴리오 (Harry Browne)</h3>
+<pre><code class="hljs language-makefile">영구(Permanent) 포트폴리오
+──────────────────────────────────────────────────────────────
+<span class="hljs-section">개념: 4개 자산 균등 배분, 리밸런싱 최소화</span>
+
+<span class="hljs-section">구성:</span>
+  주식 25%   (성장 시기 강함)
+  장기 채권 25% (디플레/위기 강함)
+  금 25%     (인플레/지정학 강함)
+  현금 25%   (침체기 안정)
+
+<span class="hljs-section">장점:</span>
+  극도로 단순
+  최대 낙폭 매우 낮음 (-15% 이하)
+
+<span class="hljs-section">단점:</span>
+  성장 시기 주식 100% 대비 현저히 낮은 수익
+  장기 복리 축적에는 불리
+──────────────────────────────────────────────────────────────
+</code></pre>
+<h3>3-4. 워런 버핏 유언장 포트폴리오</h3>
+<pre><code class="hljs language-makefile">버핏 유언장 포트폴리오 (가장 단순)
+──────────────────────────────────────────────────────────────
+<span class="hljs-string">"내가 죽으면 재산의:
+  90% → S&#x26;P500 인덱스 펀드 (Vanguard)
+  10% → 단기 국채"</span>
+         — Warren Buffett
+
+ETF 구성:
+  VOO 90% + SHY or BIL 10%
+
+<span class="hljs-section">이유:</span>
+  <span class="hljs-string">"대부분의 기관 투자자와 개인 투자자가
+   액티브 운용보다 S&#x26;P500을 장기 보유했을 때 더 좋은 결과를 얻는다"</span>
+
+역사적 성과:
+  단순하지만 강력
+  장기 투자자에게 최적
+──────────────────────────────────────────────────────────────
+</code></pre>
+<h3>포트폴리오 전략 비교 표</h3>
+<table>
+<thead>
+<tr>
+<th>전략</th>
+<th>연평균 수익률</th>
+<th>최대 낙폭</th>
+<th>복잡도</th>
+<th>적합한 투자자</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S&#x26;P500 100%</td>
+<td>~10%</td>
+<td>-55%</td>
+<td>매우 낮음</td>
+<td>젊은 장기 투자자</td>
+</tr>
+<tr>
+<td>버핏 유언장 90/10</td>
+<td>~9.5%</td>
+<td>-48%</td>
+<td>낮음</td>
+<td>장기 투자 + 최소 안전장치</td>
+</tr>
+<tr>
+<td>전통 60/40</td>
+<td>~8.8%</td>
+<td>-27%</td>
+<td>낮음</td>
+<td>균형형</td>
+</tr>
+<tr>
+<td>올웨더</td>
+<td>~7.5%</td>
+<td>-12%</td>
+<td>중간</td>
+<td>안정성 중시</td>
+</tr>
+<tr>
+<td>영구 포트폴리오</td>
+<td>~6.5%</td>
+<td>-15%</td>
+<td>낮음</td>
+<td>보수적, 은퇴자</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>4. 실전 포트폴리오 — ETF로만 구성</h2>
+<h3>포트폴리오 A: 완전 입문자 (3 ETF)</h3>
+<pre><code class="hljs language-bash">입문자 포트폴리오 (핵심 3 ETF)
+──────────────────────────────────────────────────────────────
+VOO   80%   미국 S&#x26;P500
+BND   15%   미국 전체 채권
+VEA    5%   선진국 분산
+
+월 <span class="hljs-variable">$300</span> 투자 시:
+  VOO: <span class="hljs-variable">$240</span>
+  BND:  <span class="hljs-variable">$45</span>
+  VEA:  <span class="hljs-variable">$15</span>
+
+특징:
+  최대한 단순하게 시작
+  S&#x26;P500 위주 성장 + 채권 완충
+  해외 최소 분산
+──────────────────────────────────────────────────────────────
+</code></pre>
+<h3>포트폴리오 B: 성장 지향 (5 ETF)</h3>
+<pre><code class="hljs language-makefile">성장 포트폴리오 (5 ETF)
+──────────────────────────────────────────────────────────────
+VOO   50%   미국 S&#x26;P500 핵심
+QQQ   20%   기술주 성장 베팅
+SCHD  15%   배당 성장
+VEA   10%   선진국 분산
+BND    5%   최소 안전장치
+
+<span class="hljs-section">적합: 30-40대, 공격적 성장 원하는 투자자</span>
+<span class="hljs-section">목표: 장기 연평균 10%+ 수익</span>
+──────────────────────────────────────────────────────────────
+</code></pre>
+<h3>포트폴리오 C: 배당+성장 균형 (6 ETF)</h3>
+<pre><code class="hljs language-makefile">배당+성장 균형 포트폴리오
+──────────────────────────────────────────────────────────────
+VOO   35%   미국 S&#x26;P500
+SCHD  25%   배당 성장
+QQQ   15%   기술주 성장
+VEA   10%   선진국
+TLT   10%   장기 국채
+TIPS   5%   인플레이션 헤지
+
+<span class="hljs-section">목표:</span>
+  배당 현금흐름: 연 2-3%
+  자본 성장: 연 7-8%
+  총 기대 수익: 연 9-11%
+
+<span class="hljs-section">적합: 현금흐름도 원하는 40대 투자자</span>
+──────────────────────────────────────────────────────────────
+</code></pre>
+<hr>
+<h2>5. DCA vs 일괄 투자 (Lump Sum)</h2>
+<p>돈이 생겼을 때 한 번에 다 투자해야 할까, 나눠서 투자해야 할까?</p>
+<pre><code class="hljs language-scss"><span class="hljs-built_in">DCA</span>(달러 코스트 평균화) vs 일괄 투자 비교
+──────────────────────────────────────────────────────────────
+DCA (Dollar Cost Averaging)
+  → 매월 일정 금액을 꾸준히 투자
+  → 예: 월급날 매월 $<span class="hljs-number">500</span>씩 VOO 자동 매수
+
+  장점: 고점 매수 위험 분산, 심리적 편안함
+  단점: 시장이 계속 오를 때 성과 불리
+
+일괄 투자 (Lump Sum)
+  → 여유 자금이 생기면 즉시 전액 투자
+  → 예: $<span class="hljs-number">10</span>,<span class="hljs-number">000</span> 생겼을 때 바로 VOO 매수
+
+  장점: 시장 참여 기간 최대화
+  단점: 고점 매수 시 단기 손실 감수 필요
+
+Vanguard 연구 결과 (<span class="hljs-number">1926</span>-<span class="hljs-number">2022</span>):
+  일괄 투자가 DCA 대비:
+  - <span class="hljs-number">68%</span>의 경우에서 <span class="hljs-number">12</span>개월 성과 우수
+  - 평균 초과 수익: +<span class="hljs-number">2.4%</span>
+
+  이유: <span class="hljs-string">"시장은 장기적으로 오르는 경향"</span>
+       → 늦게 투자할수록 불리한 기간 존재
+──────────────────────────────────────────────────────────────
+결론:
+  ✓ 여유 자금이 생기면: 일괄 투자 (이론적으로 유리)
+  ✓ 매월 저축으로 투자: DCA (자동 습관 형성)
+  ✓ 심리적으로 불안하다면: DCA (스트레스 감소가 우선)
+</code></pre>
+<hr>
+<h2>6. 리밸런싱 — 포트폴리오를 유지하는 방법</h2>
+<h3>6-1. 리밸런싱이 왜 필요한가</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">리밸런싱</span> <span class="hljs-string">없을</span> <span class="hljs-string">때의</span> <span class="hljs-string">포트폴리오</span> <span class="hljs-string">변화</span>
+<span class="hljs-string">──────────────────────────────────────────────────────────────</span>
+<span class="hljs-number">2020</span><span class="hljs-string">년</span> <span class="hljs-string">초</span> <span class="hljs-string">설정:</span> <span class="hljs-string">VOO</span> <span class="hljs-number">60</span><span class="hljs-string">%</span> <span class="hljs-string">+</span> <span class="hljs-string">BND</span> <span class="hljs-number">40</span><span class="hljs-string">%</span>
+
+<span class="hljs-number">2021</span><span class="hljs-string">년</span> <span class="hljs-string">말</span> <span class="hljs-string">(주식</span> <span class="hljs-string">강세):</span>
+  <span class="hljs-attr">VOO:</span> <span class="hljs-string">$60,000</span> <span class="hljs-string">→</span> <span class="hljs-string">$96,000</span>  <span class="hljs-string">(큰</span> <span class="hljs-string">상승)</span>
+  <span class="hljs-attr">BND:</span> <span class="hljs-string">$40,000</span> <span class="hljs-string">→</span> <span class="hljs-string">$41,000</span>  <span class="hljs-string">(거의</span> <span class="hljs-string">보합)</span>
+  <span class="hljs-string">현재</span> <span class="hljs-string">비중:</span> <span class="hljs-string">VOO</span> <span class="hljs-number">70</span><span class="hljs-string">%</span> <span class="hljs-string">/</span> <span class="hljs-string">BND</span> <span class="hljs-number">30</span><span class="hljs-string">%</span>  <span class="hljs-string">←</span> <span class="hljs-string">원래</span> <span class="hljs-string">목표와</span> <span class="hljs-string">달라짐</span>
+
+<span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-string">(금리</span> <span class="hljs-string">인상):</span>
+  <span class="hljs-string">이제</span> <span class="hljs-string">주식</span> <span class="hljs-string">비중이</span> <span class="hljs-number">70</span><span class="hljs-string">%라서</span> <span class="hljs-string">더</span> <span class="hljs-string">많이</span> <span class="hljs-string">떨어진다</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">원래</span> <span class="hljs-number">60</span><span class="hljs-string">%였다면</span> <span class="hljs-string">덜</span> <span class="hljs-string">떨어졌을</span> <span class="hljs-string">것</span>
+<span class="hljs-string">──────────────────────────────────────────────────────────────</span>
+<span class="hljs-string">리밸런싱</span> <span class="hljs-string">=</span> <span class="hljs-string">원래</span> <span class="hljs-string">목표</span> <span class="hljs-string">비중으로</span> <span class="hljs-string">되돌리는</span> <span class="hljs-string">것</span>
+</code></pre>
+<h3>6-2. 리밸런싱 방법</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">리밸런싱</span> <span class="hljs-number">3</span><span class="hljs-string">가지</span> <span class="hljs-string">방법</span>
+<span class="hljs-string">──────────────────────────────────────────────────────────────</span>
+<span class="hljs-string">방법</span> <span class="hljs-attr">1:</span> <span class="hljs-string">정기</span> <span class="hljs-string">리밸런싱</span> <span class="hljs-string">(가장</span> <span class="hljs-string">단순)</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">연</span> <span class="hljs-number">1</span><span class="hljs-number">-2</span><span class="hljs-string">회</span> <span class="hljs-string">특정</span> <span class="hljs-string">날짜에</span> <span class="hljs-string">리밸런싱</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">예:</span> <span class="hljs-string">매년</span> <span class="hljs-number">1</span><span class="hljs-string">월</span> <span class="hljs-number">1</span><span class="hljs-string">일,</span> <span class="hljs-number">7</span><span class="hljs-string">월</span> <span class="hljs-number">1</span><span class="hljs-string">일</span>
+
+<span class="hljs-string">방법</span> <span class="hljs-attr">2:</span> <span class="hljs-string">임계치</span> <span class="hljs-string">리밸런싱</span> <span class="hljs-string">(가장</span> <span class="hljs-string">효율적)</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">어느</span> <span class="hljs-string">자산이든</span> <span class="hljs-string">목표</span> <span class="hljs-string">비중에서</span> <span class="hljs-number">5</span><span class="hljs-string">%</span> <span class="hljs-string">이상</span> <span class="hljs-string">벗어나면</span> <span class="hljs-string">리밸런싱</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">예:</span> <span class="hljs-string">VOO</span> <span class="hljs-string">목표</span> <span class="hljs-number">60</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-number">65</span><span class="hljs-string">%</span> <span class="hljs-string">이상이면</span> <span class="hljs-string">매도,</span> <span class="hljs-number">55</span><span class="hljs-string">%</span> <span class="hljs-string">이하면</span> <span class="hljs-string">매수</span>
+
+<span class="hljs-string">방법</span> <span class="hljs-attr">3:</span> <span class="hljs-string">새</span> <span class="hljs-string">투자금으로</span> <span class="hljs-string">리밸런싱</span> <span class="hljs-string">(세금</span> <span class="hljs-string">효율적)</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">매월</span> <span class="hljs-string">투자할</span> <span class="hljs-string">때</span> <span class="hljs-string">비중이</span> <span class="hljs-string">낮은</span> <span class="hljs-string">자산에만</span> <span class="hljs-string">매수</span>
+  <span class="hljs-string">→</span> <span class="hljs-string">기존</span> <span class="hljs-string">보유분</span> <span class="hljs-string">팔</span> <span class="hljs-string">필요</span> <span class="hljs-string">없음</span> <span class="hljs-string">→</span> <span class="hljs-string">양도세</span> <span class="hljs-string">최소화</span>
+<span class="hljs-string">──────────────────────────────────────────────────────────────</span>
+<span class="hljs-string">권장:</span> <span class="hljs-string">방법</span> <span class="hljs-number">2</span><span class="hljs-string">+3</span> <span class="hljs-string">혼합</span> <span class="hljs-string">(임계치</span> <span class="hljs-string">+</span> <span class="hljs-string">새</span> <span class="hljs-string">투자금</span> <span class="hljs-string">활용)</span>
+</code></pre>
+<h3>6-3. 세금 효율적 리밸런싱 (한국 투자자)</h3>
+<pre><code class="hljs language-markdown">한국 투자자 리밸런싱 세금 팁
+──────────────────────────────────────────────────────────────
+한국 해외주식 양도세:
+  연간 양도차익 250만원까지 비과세
+  초과분: 22% 세금
+
+리밸런싱 세금 전략:
+<span class="hljs-bullet">1.</span> 연말에 손실난 종목 매도 → 손익 통산 (Tax Loss Harvesting)
+<span class="hljs-bullet">2.</span> 250만원 한도 내에서 이익 실현 + 재매수
+<span class="hljs-bullet">3.</span> 새 투자금으로만 리밸런싱 → 기존 보유분 매도 최소화
+
+예시:
+  VOO +300만원 이익, QQQ -100만원 손실인 경우
+  QQQ 손절 후 VOO 이익 실현 → 실질 과세 양도차익 200만원 (비과세!)
+──────────────────────────────────────────────────────────────
+</code></pre>
+<hr>
+<h2>7. 포트폴리오 성과 측정</h2>
+<h3>7-1. 샤프 비율 (Sharpe Ratio)</h3>
+<pre><code class="hljs language-ini">샤프 비율 = (포트폴리오 수익률 - 무위험 수익률) / 변동성
+
+높을수록 좋다 (위험 대비 수익이 높다)
+
+기준:
+  1.0 이상 → 양호
+  2.0 이상 → 우수
+  3.0 이상 → 매우 우수
+
+예시:
+  포트폴리오 수익률: 12%
+  무위험 수익률(국채): 4%
+  변동성(표준편차): 15%
+  샤프 비율: (12-4)/<span class="hljs-attr">15</span> = <span class="hljs-number">0.53</span> → 보통
+</code></pre>
+<h3>7-2. 최대 낙폭 (MDD, Maximum Drawdown)</h3>
+<pre><code class="hljs language-bash">최대 낙폭 = 고점 대비 최저점 하락률
+
+예시:
+  포트폴리오 고점: <span class="hljs-variable">$100</span>,000
+  최저점: <span class="hljs-variable">$70</span>,000
+  MDD = -30%
+
+각 전략별 역사적 MDD:
+  S&#x26;P500 100%:    -55% (2008년)
+  60/40 포트폴리오: -27% (2008년)
+  올웨더 포트폴리오: -12% (2020년)
+  현금 100%:       0% (but 인플레이션으로 구매력 -3%/년)
+
+<span class="hljs-string">"MDD가 30%를 넘으면 버티기 너무 힘들어 결국 손절하게 된다"</span>
+→ 자신이 감내할 수 있는 MDD를 먼저 파악하고 포트폴리오 설계
+</code></pre>
+<hr>
+<h2>8. 실전 체크리스트 — 포트폴리오 시작하기</h2>
+<h3>Step 1: 투자 목적 명확화</h3>
+<pre><code class="hljs language-scss">□ 나의 투자 목적은? (노후, 주택 구입, 자녀 교육, 자산 증식)
+□ 투자 기간은? (<span class="hljs-number">10</span>년 미만 / <span class="hljs-number">20</span>년 / <span class="hljs-number">30</span>년+)
+□ 감내 가능한 최대 손실은? (-<span class="hljs-number">10%</span> / -<span class="hljs-number">20%</span> / -<span class="hljs-number">30%</span> / -<span class="hljs-number">50%</span>)
+□ 현금흐름이 필요한가? (배당 필요 vs 성장만 추구)
+</code></pre>
+<h3>Step 2: 자산배분 결정</h3>
+<pre><code class="hljs language-scss">□ 생애주기별 권장 비중 참고 (<span class="hljs-number">2</span>번 섹션)
+□ 위험 허용 한도로 채권 비중 조정
+□ 핵심 ETF (VOO/VTI) + 부가 ETF (<span class="hljs-number">2</span>-<span class="hljs-number">3</span>개 최대)
+</code></pre>
+<h3>Step 3: 실행 및 자동화</h3>
+<pre><code class="hljs language-scss">□ 증권사 계좌 개설 및 달러 환전
+□ 매월 자동 이체 설정 (월급날 다음날)
+□ 리밸런싱 캘린더 설정 (연 <span class="hljs-number">1</span>-<span class="hljs-number">2</span>회 날짜 고정)
+□ 성과 측정 기준 설정 (벤치마크: 보통 S&#x26;P500)
+</code></pre>
+<h3>Step 4: 유지 원칙</h3>
+<pre><code class="hljs language-scss">□ 시장 폭락 시 '매도' 충동 억제 (공황 매도 금지)
+□ 뉴스에 흔들리지 않기 (장기 투자 원칙 유지)
+□ 연 <span class="hljs-number">1</span>회 포트폴리오 검토 (목적이 바뀌었는가?)
+□ 세금 최적화 (손익 통산, <span class="hljs-number">250</span>만원 한도 활용)
+</code></pre>
+<hr>
+<h2>9. 흔한 실수 10가지 — 이것만 피해도 상위 30%</h2>
+<pre><code class="hljs language-markdown">포트폴리오 구성 흔한 실수
+──────────────────────────────────────────────────────────────
+<span class="hljs-bullet">1.</span> "지금 핫한 테마"에 전부 투자 (ARKK, 메타버스 등)
+<span class="hljs-bullet">2.</span> 레버리지 ETF를 장기 보유
+<span class="hljs-bullet">3.</span> 리밸런싱을 한 번도 안 함 (비중 왜곡 심해짐)
+<span class="hljs-bullet">4.</span> 시장 폭락 시 공황 매도 후 회복 시작할 때 다시 매수
+<span class="hljs-bullet">5.</span> 수수료 높은 액티브 펀드로 전환 (1-2% 수수료 복리 손실)
+<span class="hljs-bullet">6.</span> 배당 받으면 그냥 계좌에 방치 (재투자 안 함)
+<span class="hljs-bullet">7.</span> 모든 자산을 달러로만 보유 (환율 집중 리스크)
+<span class="hljs-bullet">8.</span> 세금 고려 없이 연말 전 이익 전부 실현
+<span class="hljs-bullet">9.</span> 포트폴리오가 너무 복잡 (ETF 20개 이상 → 관리 불가)
+<span class="hljs-bullet">10.</span> 남의 포트폴리오 그대로 복사 (목적/나이/상황이 다름)
+──────────────────────────────────────────────────────────────
+</code></pre>
+<hr>
+<h2>정리 — 포트폴리오의 황금 원칙</h2>
+<pre><code class="hljs language-markdown">포트폴리오 5대 황금 원칙
+──────────────────────────────────────────────────────────────
+<span class="hljs-bullet">1.</span> 단순하게 시작한다
+   → VOO + BND 2개로도 충분히 강력한 포트폴리오
+
+<span class="hljs-bullet">2.</span> 목적에 맞게 설계한다
+   → 30년 후 노후자금 ≠ 5년 후 집 살 돈 → 다른 포트폴리오
+
+<span class="hljs-bullet">3.</span> 꾸준히 투자한다 (DCA)
+   → 타이밍 맞추려 하지 말고 매월 일정액 자동 투자
+
+<span class="hljs-bullet">4.</span> 리밸런싱으로 유지한다
+   → 연 1-2회 원래 비중으로 되돌리기
+
+<span class="hljs-bullet">5.</span> 감정을 제거한다
+   → 시장이 -30% 떨어져도 팔지 않는 비중으로 설계
+──────────────────────────────────────────────────────────────
+"주식 시장에서 돈을 잃는 것은 어렵지 않다.
+ 하지만 20년간 보유하는 것도 어렵지 않다.
+ 문제는 대부분이 그 사이에 뭔가를 하려 한다는 것이다."
+<span class="hljs-code">                              — Peter Lynch
+──────────────────────────────────────────────────────────────
+</span></code></pre>
+<p>이것으로 미국 주식 투자 입문 10편 시리즈가 완성됐다. 11편(거시경제와 국제 시사)에서는 뉴스와 경제 지표가 포트폴리오에 어떤 영향을 미치는지 배운다.</p>0:{"buildId":"6dNzU7_5pCuaCrqstHw1V","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"미국 주식 투자 입문 (10) — 포트폴리오 구성: 주식·ETF·채권으로 나만의 자산배분 만들기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

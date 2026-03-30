@@ -1,0 +1,355 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T3809,<h1>주식 투자 입문 (5) — 재무제표 읽기 2편: 재무상태표와 현금흐름표</h1>
+<p>지난 편에서 손익계산서로 회사가 돈을 얼마나 버는지 봤다. 근데 돈을 잘 번다고 해서 무조건 안전한 회사일까?</p>
+<p>아니다. 세상에는 <strong>매출은 1조인데 부채가 5조인 회사</strong>도 있다. 영업이익은 흑자인데 <strong>통장에 현금이 없어서 부도난 회사</strong>도 있다.</p>
+<p>이번 편에서는 회사의 <strong>재정 건전성</strong>을 보는 방법을 배운다. 재무상태표와 현금흐름표가 그 도구다.</p>
+<hr>
+<h2>1. 재무상태표 — 자산, 부채, 자본의 관계</h2>
+<p>재무상태표(Balance Sheet)는 <strong>특정 시점</strong>에 회사의 재산이 얼마고, 빚이 얼마고, 주주 몫이 얼마인지를 보여준다. 손익계산서가 "1년 동안의 흐름"이라면, 재무상태표는 "12월 31일 현재의 스냅샷"이다.</p>
+<p>핵심 구조는 딱 한 줄이다:</p>
+<pre><code class="hljs">자산 = 부채 + 자본
+</code></pre>
+<p><strong>자산(Assets):</strong> 회사가 보유한 모든 것. 현금, 재고, 건물, 설비, 지적재산권, 투자 자산 등.</p>
+<p><strong>부채(Liabilities):</strong> 회사가 갚아야 할 빚. 은행 대출, 회사채, 매입채무 등.</p>
+<p><strong>자본(Equity):</strong> 자산에서 부채를 뺀 나머지. 주주의 몫이다. "순자산"이라고도 한다.</p>
+<h3>유동과 비유동의 구분</h3>
+<p>자산과 부채는 각각 **유동(1년 이내)**과 **비유동(1년 초과)**으로 나뉜다.</p>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>유동자산</strong></td>
+<td>현금, 단기 예금, 매출채권, 재고자산 (1년 안에 현금화 가능)</td>
+</tr>
+<tr>
+<td><strong>비유동자산</strong></td>
+<td>건물, 기계, 무형자산, 장기 투자 (1년 이상 보유)</td>
+</tr>
+<tr>
+<td><strong>유동부채</strong></td>
+<td>단기 차입금, 매입채무, 1년 안에 갚아야 할 빚</td>
+</tr>
+<tr>
+<td><strong>비유동부채</strong></td>
+<td>장기 차입금, 사채, 장기 충당금</td>
+</tr>
+</tbody>
+</table>
+<p>이 구분이 왜 중요하냐면, <strong>단기 부채는 곧 갚아야 하니까</strong> 유동자산이 얼마나 있는지가 생존에 직결된다.</p>
+<h3>재무상태표 실제 예시</h3>
+<p>가상의 C사 재무상태표(단위: 억원):</p>
+<table>
+<thead>
+<tr>
+<th>자산</th>
+<th>금액</th>
+<th>부채·자본</th>
+<th>금액</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>유동자산</td>
+<td>500</td>
+<td>유동부채</td>
+<td>300</td>
+</tr>
+<tr>
+<td>- 현금</td>
+<td>200</td>
+<td>비유동부채</td>
+<td>400</td>
+</tr>
+<tr>
+<td>- 매출채권</td>
+<td>150</td>
+<td>부채 합계</td>
+<td>700</td>
+</tr>
+<tr>
+<td>- 재고자산</td>
+<td>150</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>비유동자산</td>
+<td>800</td>
+<td>자본 합계</td>
+<td>600</td>
+</tr>
+<tr>
+<td>자산 합계</td>
+<td>1,300</td>
+<td>부채+자본 합계</td>
+<td>1,300</td>
+</tr>
+</tbody>
+</table>
+<p>양쪽 합계가 같다 — 이게 "Balance Sheet"인 이유다.</p>
+<hr>
+<h2>2. 안전성 지표 — 부채비율, 유동비율, 이자보상배율</h2>
+<h3>부채비율 (Debt to Equity Ratio)</h3>
+<pre><code class="hljs">부채비율 = 총부채 / 자기자본 × 100
+</code></pre>
+<p>빚이 자기 자본 대비 얼마나 되는지를 보여준다.</p>
+<p>위 C사 예시:</p>
+<pre><code class="hljs language-ini">부채비율 = 700 / 600 × <span class="hljs-attr">100</span> = <span class="hljs-number">116.7</span>%
+</code></pre>
+<p><strong>일반적인 기준:</strong></p>
+<ul>
+<li>100% 미만: 양호</li>
+<li>100~200%: 업종에 따라 다름, 주의 필요</li>
+<li>200% 초과: 고위험 (업종 특성 확인 필요)</li>
+</ul>
+<p>단, 업종마다 기준이 다르다. <strong>건설사나 금융회사는 구조적으로 부채비율이 높다.</strong> 건설사는 프로젝트 선금을 받아 선수금(부채)이 많고, 은행은 예금 자체가 부채다. 그래서 은행의 부채비율은 수천 %가 넘어도 정상이다.</p>
+<p>비교는 항상 <strong>같은 업종 내에서</strong> 해야 한다.</p>
+<h3>유동비율 (Current Ratio)</h3>
+<pre><code class="hljs">유동비율 = 유동자산 / 유동부채 × 100
+</code></pre>
+<p>"단기 빚을 갚을 능력이 있는가"를 본다.</p>
+<p>C사 예시:</p>
+<pre><code class="hljs language-ini">유동비율 = 500 / 300 × <span class="hljs-attr">100</span> = <span class="hljs-number">166.7</span>%
+</code></pre>
+<p><strong>기준:</strong></p>
+<ul>
+<li>200% 이상: 이상적</li>
+<li>150% 이상: 양호</li>
+<li>100% 미만: 주의 (단기 유동성 위기 가능성)</li>
+</ul>
+<p>유동비율이 100% 미만이라는 건, 1년 안에 갚아야 할 빚이 1년 안에 현금화할 수 있는 자산보다 많다는 뜻이다. 경기가 나빠지거나 매출이 갑자기 줄면 유동성 위기가 올 수 있다.</p>
+<h3>이자보상배율 (Interest Coverage Ratio)</h3>
+<pre><code class="hljs">이자보상배율 = 영업이익 / 이자비용
+</code></pre>
+<p>영업이익이 이자를 몇 배나 감당할 수 있는지를 본다.</p>
+<ul>
+<li>3배 이상: 양호</li>
+<li>1~3배: 주의</li>
+<li>1배 미만: 위험 (영업이익으로 이자도 못 갚는 상황)</li>
+</ul>
+<p>이자보상배율이 1배 미만인 회사가 "좀비기업"이다. 한국에는 이런 회사들이 생각보다 많다. 영업이익 내는 척하지만 이자 갚기도 빠듯한 곳들. 이런 회사는 금리가 오르거나 경기가 나빠지면 순식간에 무너진다.</p>
+<hr>
+<h2>3. 현금흐름표 — 영업/투자/재무 활동 현금흐름</h2>
+<p>이제 세 번째 재무제표, 현금흐름표다.</p>
+<p>현금흐름표는 손익계산서가 놓치는 핵심을 잡아준다. <strong>"이익이 났다고 해서 현금이 있는 건 아니다."</strong></p>
+<p>왜냐면 손익계산서의 이익은 <strong>발생주의</strong> 회계를 따른다. 외상으로 팔아도 매출로 잡힌다. 아직 현금을 못 받았어도. 그래서 이익이 나도 통장이 빌 수 있다.</p>
+<p>현금흐름표는 <strong>실제 현금의 이동</strong>을 보여준다. 세 파트로 나뉜다:</p>
+<h3>영업활동 현금흐름 (Operating Cash Flow, OCF)</h3>
+<p>본업에서 실제로 얼마의 현금이 들어왔나.</p>
+<p>당기순이익에서 시작해서:</p>
+<ul>
+<li>비현금 비용(감가상각 등) 더하기</li>
+<li>운전자본 변동(매출채권, 재고, 매입채무 등) 반영</li>
+</ul>
+<p><strong>이게 플러스(+)여야 정상이다.</strong> 사업을 통해 현금이 들어오고 있다는 뜻이니까.</p>
+<h3>투자활동 현금흐름 (Investing Cash Flow, ICF)</h3>
+<p>설비 투자, 자산 매각, 타사 지분 취득/처분 등에서 생기는 현금 흐름.</p>
+<p><strong>성장하는 회사는 보통 이게 마이너스(-)다.</strong> 공장 짓고 설비 사고 투자하는 데 돈을 쓰니까. 마이너스가 나쁜 게 아니라, 미래를 위해 투자하고 있다는 신호일 수 있다.</p>
+<p>반대로 이게 플러스면? 자산을 팔고 있다는 뜻이다. 자금 사정이 어려워서 자산을 팔아 현금 마련하는 경우가 많다.</p>
+<h3>재무활동 현금흐름 (Financing Cash Flow, FCF)</h3>
+<p>차입, 상환, 배당, 유상증자 등 자금 조달과 관련된 현금 흐름.</p>
+<p>은행에서 돈 빌리면 플러스, 갚으면 마이너스.
+유상증자하면 플러스, 자사주 매입이나 배당 지급하면 마이너스.</p>
+<hr>
+<h2>4. 현금흐름 패턴으로 기업 상태 진단</h2>
+<p>세 가지 현금흐름의 조합으로 기업 상태를 진단할 수 있다. (+: 현금 유입, -: 현금 유출)</p>
+<table>
+<thead>
+<tr>
+<th>패턴</th>
+<th>영업</th>
+<th>투자</th>
+<th>재무</th>
+<th>해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>우량 성장 기업</strong></td>
+<td>+</td>
+<td>-</td>
+<td>-</td>
+<td>본업에서 벌어서, 투자도 하고, 빚도 갚는다</td>
+</tr>
+<tr>
+<td><strong>성숙 배당 기업</strong></td>
+<td>+</td>
+<td>-</td>
+<td>- (배당)</td>
+<td>본업 현금 충분, 투자 유지, 주주 환원</td>
+</tr>
+<tr>
+<td><strong>공격적 확장 기업</strong></td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
+<td>본업에서 벌지만 투자가 커서 외부 자금 조달</td>
+</tr>
+<tr>
+<td><strong>자산 매각 기업</strong></td>
+<td>-</td>
+<td>+</td>
+<td>+</td>
+<td>본업 부진, 자산 팔아 생존 중 (위험)</td>
+</tr>
+<tr>
+<td><strong>위험 기업</strong></td>
+<td>-</td>
+<td>-</td>
+<td>+</td>
+<td>본업 안 되고, 빚만 늘어나는 중 (매우 위험)</td>
+</tr>
+</tbody>
+</table>
+<p>가장 건강한 패턴은 <strong>영업 +, 투자 -, 재무 -</strong> 조합이다. 이걸 "캐시 카우" 상태라고 한다.</p>
+<p>가장 위험한 패턴은 <strong>영업 -, 투자 -, 재무 +</strong> 다. 사업도 안 되고 투자도 계속하면서 빚만 늘어나는 구조. 이런 회사는 언젠가 한계에 부딪힌다.</p>
+<h3>잉여현금흐름 (Free Cash Flow, FCF)</h3>
+<p>투자자들이 가장 많이 쓰는 개념 중 하나다.</p>
+<pre><code class="hljs language-objectivec">잉여현금흐름 = 영업활동 현금흐름 - 설비투자(<span class="hljs-built_in">CAPEX</span>)
+</code></pre>
+<p>영업으로 벌어서 설비 유지에 쓰고 <strong>남은 현금</strong>이다. 이 돈이 배당으로 나가거나, 자사주 매입에 쓰이거나, 신규 투자에 쓰이거나, 부채 상환에 쓰인다.</p>
+<p>잉여현금흐름이 꾸준히 플러스이고 증가하는 회사가 장기 투자에 좋다.</p>
+<hr>
+<h2>5. 실전 사례 — 손익은 좋은데 현금이 나쁜 기업</h2>
+<p>이제 가장 중요한 사례를 보자. 재무제표를 겉만 보면 놓치는 함정이다.</p>
+<h3>사례: 가상의 D사</h3>
+<p>D사의 최근 5년 손익계산서:</p>
+<table>
+<thead>
+<tr>
+<th>연도</th>
+<th>매출액</th>
+<th>영업이익</th>
+<th>순이익</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2020</td>
+<td>500억</td>
+<td>50억</td>
+<td>40억</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>700억</td>
+<td>70억</td>
+<td>55억</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>900억</td>
+<td>90억</td>
+<td>72억</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>1,200억</td>
+<td>120억</td>
+<td>95억</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>1,500억</td>
+<td>150억</td>
+<td>120억</td>
+</tr>
+</tbody>
+</table>
+<p>매출도 매년 30% 이상 성장, 영업이익률도 10%로 안정적. 순이익도 계속 늘고 있다. 완벽해 보인다.</p>
+<p>근데 현금흐름표를 보면:</p>
+<table>
+<thead>
+<tr>
+<th>연도</th>
+<th>영업 현금흐름</th>
+<th>투자 현금흐름</th>
+<th>재무 현금흐름</th>
+<th>현금 잔액</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2020</td>
+<td>+30억</td>
+<td>-20억</td>
+<td>-5억</td>
+<td>100억</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>+20억</td>
+<td>-50억</td>
+<td>+40억</td>
+<td>110억</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>+10억</td>
+<td>-80억</td>
+<td>+90억</td>
+<td>130억</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>-15억</td>
+<td>-100억</td>
+<td>+120억</td>
+<td>135억</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>-40억</td>
+<td>-80억</td>
+<td>+150억</td>
+<td>165억</td>
+</tr>
+</tbody>
+</table>
+<p>뭔가 이상하다.</p>
+<p>영업이익은 계속 느는데 영업 현금흐름은 오히려 마이너스가 되고 있다. 이유가 뭘까?</p>
+<p><strong>가능한 원인들:</strong></p>
+<ol>
+<li><strong>매출채권이 폭발적으로 증가</strong> — 외상으로 팔기만 하고 실제 현금 회수가 안 되고 있다</li>
+<li><strong>재고가 계속 쌓임</strong> — 팔리지 않는 재고에 현금이 묶여 있다</li>
+<li><strong>이익이 과대 계상</strong> — 분식 회계 가능성 (극단적 케이스)</li>
+</ol>
+<p>현금 잔액은 늘어나 보이지만, 그게 다 <strong>빚을 내서 (재무 현금흐름 +)</strong> 채워진 것이다.</p>
+<p>이 회사는 지금 매출 성장을 위해 외상을 마구 줘서 매출채권이 쌓이고, 현금이 안 돌아서 계속 은행에서 빌리는 상태다. 당장은 괜찮아 보여도, 매출채권 회수가 안 되거나 은행이 대출을 조이면 순식간에 위기가 온다.</p>
+<h3>이걸 어떻게 포착하나?</h3>
+<p><strong>매출채권 회전일수</strong>를 계산해보면 된다.</p>
+<pre><code class="hljs language-scss">매출채권 회전일수 = 매출채권 / (매출액 / <span class="hljs-number">365</span>)
+</code></pre>
+<p>이 수치가 매년 늘어나고 있다면, 외상 기간이 길어지고 있다는 뜻이다. 경쟁이 심해져서 외상 조건을 완화했거나, 부실 채권이 쌓이고 있거나.</p>
+<h3>결론: 세 가지 재무제표는 세트다</h3>
+<p>손익계산서만 보지 말고, 반드시 현금흐름표와 함께 봐야 한다.</p>
+<p><strong>체크리스트:</strong></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 영업 현금흐름이 순이익과 비슷한 방향으로 움직이나?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 영업 현금흐름이 꾸준히 플러스인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 잉여현금흐름(FCF)이 플러스인가?</li>
+<li class="task-list-item"><input type="checkbox" disabled> 재무활동 현금흐름이 플러스인 이유가 무엇인가? (성장 투자? 유동성 문제?)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 매출채권, 재고가 매출보다 빠르게 늘지는 않나?</li>
+</ul>
+<hr>
+<h2>정리</h2>
+<p>이번 편에서 배운 것:</p>
+<ul>
+<li><strong>재무상태표</strong>: 자산 = 부채 + 자본. 부채비율과 유동비율로 안전성을 판단한다</li>
+<li><strong>이자보상배율 1배 미만</strong> 기업은 영업이익으로 이자도 못 내는 좀비 기업</li>
+<li><strong>현금흐름표</strong>: 영업/투자/재무 세 부분으로 나뉘며, 세 조합의 패턴으로 기업 상태를 진단한다</li>
+<li><strong>손익이 좋아도 현금흐름이 나쁜 기업</strong>은 위험하다. 세 재무제표를 반드시 같이 봐야 한다</li>
+</ul>
+<p>다음 편에서는 가치평가로 넘어간다. 재무가 좋은 회사를 찾았다면, 그 회사 주식이 지금 비싼지 싼지를 판단하는 방법을 배울 것이다.</p>0:{"buildId":"6dNzU7_5pCuaCrqstHw1V","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-25"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"주식 투자 입문 (5) — 재무제표 읽기 2편: 재무상태표와 현금흐름표"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

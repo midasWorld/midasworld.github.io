@@ -1,0 +1,464 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/f694a9fffc00c61e.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"6dNzU7_5pCuaCrqstHw1V","c":["","private","09-bonds-basics",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","09-bonds-basics","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/f694a9fffc00c61e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":6,"database":10,"node":7,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":22,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T47e6,<p>"채권이요? 그거 어르신들이 하는 거 아닌가요?"</p>
+<p>이런 생각을 하고 있다면, 오늘 포스트를 읽고 나서 생각이 바뀔 것이다. 채권은 지루한 투자 수단이 아니다. 오히려 포트폴리오의 안전벨트 역할을 하면서, 주식 시장이 폭락할 때 자산을 지켜주는 핵심 장치다.</p>
+<p>그리고 채권을 이해하면, 금리 뉴스가 왜 그렇게 시장에 영향을 주는지, 미국 연준(Fed)이 금리를 올리면 왜 주식이 빠지는지도 자연스럽게 이해된다.</p>
+<p>이번 편에서는 채권의 기본 구조부터, 금리와 가격의 반비례 관계(이게 진짜 핵심이다), 실전 투자 방법까지 쉽게 풀어서 설명한다.</p>
+<hr>
+<h2>1. 채권이란 — 돈을 빌려주고 이자를 받는 구조</h2>
+<h3>가장 단순한 설명</h3>
+<p>채권은 <strong>빌려준 돈에 대한 차용증서</strong>다.</p>
+<p>정부가 돈이 필요하다. 은행에서 빌릴 수도 있지만, 불특정 다수에게 "우리가 돈을 빌릴게요. 이자도 줄게요"라고 공표하고 돈을 모을 수 있다. 이때 발행하는 것이 채권이다.</p>
+<p>투자자 입장에서는:</p>
+<ol>
+<li>채권을 산다 (돈을 빌려준다)</li>
+<li>정해진 기간 동안 **이자(쿠폰)**를 받는다</li>
+<li>만기가 되면 원금을 돌려받는다</li>
+</ol>
+<h3>실제 예시로 이해하기</h3>
+<p>정부가 "3년 만기, 연 3% 이자, 1만 원권 국채"를 발행한다고 하자.</p>
+<ul>
+<li>당신이 이 채권을 1만 원에 산다</li>
+<li>매년 300원(3%)의 이자를 받는다</li>
+<li>3년 후에 원금 1만 원을 돌려받는다</li>
+</ul>
+<p>결과: 3년 동안 총 900원 이자 + 원금 1만 원 = 1만 900원 수령</p>
+<p>단순하다. 은행 정기예금이랑 개념이 비슷하다. 차이는 채권은 <strong>중간에 사고팔 수 있다</strong>는 것이다. 이 거래 가능성이 채권을 복잡하게 만들기도 하고, 동시에 주식처럼 투자 기회를 제공하기도 한다.</p>
+<h3>채권의 주요 용어</h3>
+<table>
+<thead>
+<tr>
+<th>용어</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>액면가 (Face Value)</td>
+<td>채권에 표시된 금액. 만기에 돌려받는 원금. 보통 1만 원 또는 1000원 단위</td>
+</tr>
+<tr>
+<td>쿠폰금리 (Coupon Rate)</td>
+<td>액면가 기준 연간 이자율. "3% 채권"이면 1만 원당 300원/년</td>
+</tr>
+<tr>
+<td>만기 (Maturity)</td>
+<td>원금을 돌려받는 날짜. 1년, 3년, 5년, 10년, 30년 등</td>
+</tr>
+<tr>
+<td>수익률 (Yield)</td>
+<td>현재 시장 가격 기준 실제 수익률. 쿠폰금리와 다를 수 있음</td>
+</tr>
+<tr>
+<td>채권 등급</td>
+<td>발행자의 신용도. AAA가 최고, D는 부도</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>2. 국채, 회사채, 지방채 — 종류와 신용등급</h2>
+<p>누가 채권을 발행하느냐에 따라 종류가 나뉜다.</p>
+<h3>국채 (Government Bond)</h3>
+<p>정부가 발행하는 채권이다. 한국에서는 기획재정부가 발행한다.</p>
+<p>국채는 가장 안전한 채권이다. 국가가 부도날 가능성은 극도로 낮기 때문이다. 물론 아르헨티나나 베네수엘라처럼 국가 부도가 난 사례가 없는 건 아니지만, 한국이나 미국 같은 주요 국가의 국채는 사실상 무위험 자산으로 본다.</p>
+<p>대표적인 한국 국채:</p>
+<ul>
+<li>통화안정증권 (단기)</li>
+<li>국고채 2년, 3년, 5년, 10년, 20년, 30년</li>
+</ul>
+<p>미국 국채:</p>
+<ul>
+<li>T-Bill (단기, 1년 미만)</li>
+<li>T-Note (2~10년)</li>
+<li>T-Bond (20~30년)</li>
+<li>TIPS (물가연동채권)</li>
+</ul>
+<h3>회사채 (Corporate Bond)</h3>
+<p>기업이 자금 조달을 위해 발행하는 채권이다.</p>
+<p>국채보다 이자가 높다. 왜냐하면 기업은 국가보다 부도 가능성이 높기 때문이다. 더 높은 이자를 줘야 투자자들이 사니까. 이 추가 이자를 <strong>신용 스프레드</strong>라고 한다.</p>
+<table>
+<thead>
+<tr>
+<th>발행 주체</th>
+<th>안전성</th>
+<th>이자율</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>정부 (국채)</td>
+<td>최고</td>
+<td>낮음</td>
+</tr>
+<tr>
+<td>우량 대기업 (투자등급 회사채)</td>
+<td>높음</td>
+<td>중간</td>
+</tr>
+<tr>
+<td>중소기업 (하이일드채)</td>
+<td>낮음</td>
+<td>높음</td>
+</tr>
+</tbody>
+</table>
+<h3>지방채 (Municipal Bond)</h3>
+<p>지방정부나 공기업이 발행하는 채권이다. 서울시채, 도로공사채 등이 있다. 국채보다는 이자가 조금 높고, 일반 기업보다는 안전하다.</p>
+<h3>신용등급의 중요성</h3>
+<p>채권 투자에서 <strong>신용등급</strong>은 핵심이다. 채권 발행자가 이자와 원금을 제대로 갚을 수 있는지를 평가하는 등급이다.</p>
+<table>
+<thead>
+<tr>
+<th>등급 (무디스)</th>
+<th>등급 (S&#x26;P)</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aaa</td>
+<td>AAA</td>
+<td>최고 등급</td>
+</tr>
+<tr>
+<td>Aa</td>
+<td>AA</td>
+<td>매우 안전</td>
+</tr>
+<tr>
+<td>A</td>
+<td>A</td>
+<td>안전</td>
+</tr>
+<tr>
+<td>Baa</td>
+<td>BBB</td>
+<td>투자 적격 최하단</td>
+</tr>
+<tr>
+<td>Ba, B</td>
+<td>BB, B</td>
+<td>투기 등급 (하이일드)</td>
+</tr>
+<tr>
+<td>Caa~C</td>
+<td>CCC~C</td>
+<td>매우 위험</td>
+</tr>
+<tr>
+<td>D</td>
+<td>D</td>
+<td>부도</td>
+</tr>
+</tbody>
+</table>
+<p><strong>BBB 이상 = 투자등급 (Investment Grade)</strong>
+<strong>BB 이하 = 투기등급 (Speculative Grade) = 하이일드 (High Yield) = 정크본드</strong></p>
+<p>처음 채권 투자를 시작한다면, 투자등급 이상의 채권만 다루는 것이 안전하다.</p>
+<hr>
+<h2>3. 채권 가격과 금리의 반비례 관계 (핵심 개념)</h2>
+<p>이게 채권에서 가장 중요한 개념이다. 그리고 처음에는 직관적으로 이해하기 어렵다. 천천히 읽어보자.</p>
+<h3>핵심 공식</h3>
+<blockquote>
+<p><strong>금리가 오르면 채권 가격은 내린다. 금리가 내리면 채권 가격은 오른다.</strong></p>
+</blockquote>
+<p>왜 반비례할까? 예시로 설명한다.</p>
+<hr>
+<h3>이해를 위한 예시: 고정금리 채권의 딜레마</h3>
+<p><strong>상황 1: 채권을 산 직후 금리가 올랐다</strong></p>
+<p>당신이 오늘 연 3% 이자를 주는 1만 원짜리 국채를 샀다. 매년 300원을 받는다.</p>
+<p>그런데 다음 달에 정부가 금리를 올려서, 새로 발행하는 국채는 연 5% 이자를 준다. 1만 원짜리 새 채권은 매년 500원을 준다.</p>
+<p>이제 당신 채권 상황을 보자:</p>
+<ul>
+<li>당신 채권: 매년 300원 이자</li>
+<li>새 채권: 매년 500원 이자</li>
+</ul>
+<p>당신이 채권을 중간에 팔고 싶다면? 누가 사겠는가? 새 채권 사면 500원 받는데 당신 채권은 300원밖에 못 받으니, 아무도 1만 원에 안 사려 할 것이다.</p>
+<p>결국 당신은 채권 가격을 낮춰서 팔아야 한다. 얼마에? 300원이 5%처럼 보이려면 6000원에 팔아야 한다. (300원 ÷ 6000원 = 5%)</p>
+<p>즉, <strong>금리가 3%에서 5%로 올라가자 채권 가격은 1만 원에서 6000원으로 떨어진 것이다.</strong></p>
+<hr>
+<p><strong>상황 2: 채권을 산 직후 금리가 내렸다</strong></p>
+<p>반대로, 당신이 연 5% 이자 국채를 1만 원에 샀다.</p>
+<p>그 후 정부가 금리를 내려서 새 국채는 연 3%밖에 안 준다.</p>
+<p>이제 당신 채권은:</p>
+<ul>
+<li>당신 채권: 매년 500원 이자</li>
+<li>새 채권: 매년 300원 이자</li>
+</ul>
+<p>당신 채권이 더 좋다! 모두가 사고 싶어한다. 당신은 1만 원보다 비싸게 팔 수 있다. 얼마에? 500원이 3%처럼 보이려면 약 1만 6667원에 팔아야 한다. (500원 ÷ 16667원 ≈ 3%)</p>
+<p>즉, <strong>금리가 5%에서 3%로 내려가자 채권 가격은 1만 원에서 약 1만 6667원으로 올라간 것이다.</strong></p>
+<hr>
+<h3>핵심 정리를 다시 한 번</h3>
+<p>금리와 채권 가격이 반비례하는 이유:</p>
+<ul>
+<li>채권은 <strong>고정된 이자</strong>를 준다</li>
+<li>금리가 오르면 <strong>새 채권이 더 유리</strong>해서 기존 채권 가치 하락</li>
+<li>금리가 내리면 <strong>기존 채권이 더 유리</strong>해서 기존 채권 가치 상승</li>
+</ul>
+<p><strong>투자 관점에서 이 의미는:</strong></p>
+<table>
+<thead>
+<tr>
+<th>상황</th>
+<th>채권 투자자</th>
+<th>이유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>금리 인상 예상</td>
+<td>채권에 불리</td>
+<td>가격 하락 예상</td>
+</tr>
+<tr>
+<td>금리 인하 예상</td>
+<td>채권에 유리</td>
+<td>가격 상승 예상</td>
+</tr>
+<tr>
+<td>경기 침체 (금리↓)</td>
+<td>채권에 유리</td>
+<td>안전자산 수요 + 금리 인하</td>
+</tr>
+<tr>
+<td>경기 과열 (금리↑)</td>
+<td>채권에 불리</td>
+<td>인플레이션 + 금리 인상</td>
+</tr>
+</tbody>
+</table>
+<h3>만기가 길수록 가격 변동이 크다</h3>
+<p>만기가 긴 채권일수록 금리 변화에 더 민감하게 반응한다. 이것을 **듀레이션(Duration)**이라고 한다.</p>
+<p>예를 들어:</p>
+<ul>
+<li>금리가 1% 올랐을 때</li>
+<li>1년 만기 채권: 가격 약 1% 하락</li>
+<li>10년 만기 채권: 가격 약 8~9% 하락</li>
+<li>30년 만기 채권: 가격 약 20% 이상 하락</li>
+</ul>
+<p>장기채는 주식 못지않게 변동성이 크다. 금리 방향을 잘 예측하면 큰 수익을 낼 수 있지만, 반대로 가면 큰 손실이 날 수 있다.</p>
+<hr>
+<h2>4. 채권 투자 방법 — 직접 매수 vs 채권 ETF</h2>
+<h3>방법 1: 채권 직접 매수</h3>
+<p>증권사 앱에서 직접 국채나 회사채를 살 수 있다. 최근에는 1만 원 이하의 소액으로도 살 수 있는 플랫폼이 생겼다.</p>
+<p><strong>장점:</strong></p>
+<ul>
+<li>만기까지 보유하면 확정 수익률이 보장된다</li>
+<li>중간에 금리가 어떻게 변하든 만기에는 원금 + 약속한 이자를 받는다</li>
+</ul>
+<p><strong>단점:</strong></p>
+<ul>
+<li>특정 채권을 직접 찾아서 사는 게 불편하다</li>
+<li>유동성이 낮아서 중간에 팔기 어려울 수 있다</li>
+<li>분산이 안 된다 (한 채권에 집중 투자)</li>
+</ul>
+<p>직접 매수가 맞는 경우: "3년 후에 이 돈이 필요한데, 그때까지 안전하게 굴리고 싶다"는 확정 수익 목적.</p>
+<h3>방법 2: 채권 ETF</h3>
+<p>채권도 ETF가 있다. 여러 채권을 묶어서 주식처럼 거래할 수 있게 만든 것이다.</p>
+<table>
+<thead>
+<tr>
+<th>상품명</th>
+<th>종류</th>
+<th>운용보수</th>
+<th>특징</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KODEX 국고채3년</td>
+<td>한국 국채 3년</td>
+<td>0.05%</td>
+<td>단기 안전 자산</td>
+</tr>
+<tr>
+<td>KODEX 국고채10년</td>
+<td>한국 국채 10년</td>
+<td>0.15%</td>
+<td>금리 변화에 민감</td>
+</tr>
+<tr>
+<td>TIGER 미국채10년선물</td>
+<td>미국 국채 10년</td>
+<td>0.29%</td>
+<td>미국 금리 방향 베팅</td>
+</tr>
+<tr>
+<td>KODEX 미국채30년선물(H)</td>
+<td>미국 국채 30년</td>
+<td>0.30%</td>
+<td>장기채, 높은 변동성</td>
+</tr>
+<tr>
+<td>TIGER 단기통안채</td>
+<td>통화안정증권 (초단기)</td>
+<td>0.06%</td>
+<td>현금 대용, 리스크 최소</td>
+</tr>
+<tr>
+<td>KBSTAR 단기국공채액티브</td>
+<td>단기 국공채</td>
+<td>0.05%</td>
+<td>파킹형 ETF</td>
+</tr>
+</tbody>
+</table>
+<p><strong>채권 ETF의 주의사항:</strong></p>
+<p>채권 ETF는 직접 채권 매수와 다르게, <strong>만기가 없다.</strong> 계속 비슷한 만기의 채권들을 교체하면서 운용한다. 이 때문에 "만기까지 보유하면 원금 보장"이라는 확정 수익 개념이 없다. 금리가 오르면 ETF 가격이 내려간 채로 있을 수 있다.</p>
+<p>반면 분산이 잘 되고, 소액으로 쉽게 투자할 수 있으며, 필요할 때 언제든 팔 수 있다.</p>
+<h3>방법 3: 파킹형 ETF (초단기 채권 ETF)</h3>
+<p>최근 인기를 끌고 있는 파킹형 ETF는 은행 CMA 계좌처럼 활용할 수 있다. 초단기 채권(1일~1개월)에 투자해서 하루하루 수익이 쌓인다.</p>
+<ul>
+<li>KODEX CD금리액티브(합성)</li>
+<li>TIGER KOFR금리액티브(합성)</li>
+<li>KBSTAR 머니마켓액티브</li>
+</ul>
+<p>이런 상품들은 기준금리 수준의 수익을 매일 조금씩 쌓아가는 구조다. 투자할 곳을 못 찾겠거나, 급하게 쓸 돈을 잠시 굴릴 때 유용하다.</p>
+<hr>
+<h2>5. 주식-채권 상관관계 — 자산배분에서 채권이 필요한 이유</h2>
+<h3>주식과 채권은 반대로 움직이는 경향이 있다</h3>
+<p>역사적으로, 주식 시장이 크게 하락할 때 채권 가격은 오르는 경향이 있었다. 왜일까?</p>
+<p>주식 시장이 폭락하면:</p>
+<ol>
+<li>투자자들이 안전한 자산으로 도망간다</li>
+<li>국채 같은 안전 자산 수요가 급증한다</li>
+<li>채권 가격이 오른다</li>
+</ol>
+<p>또한 경기 침체 우려가 커지면 중앙은행이 금리를 내린다. 금리 인하 → 기존 채권 가격 상승.</p>
+<p>이 반대 방향의 움직임을 **음의 상관관계(Negative Correlation)**라고 한다.</p>
+<table>
+<thead>
+<tr>
+<th>시장 상황</th>
+<th>주식</th>
+<th>채권 (국채)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>경기 호황</td>
+<td>상승</td>
+<td>하락 또는 보합</td>
+</tr>
+<tr>
+<td>경기 침체</td>
+<td>하락</td>
+<td>상승</td>
+</tr>
+<tr>
+<td>금리 인상</td>
+<td>하락 (보통)</td>
+<td>하락</td>
+</tr>
+<tr>
+<td>금리 인하</td>
+<td>상승 (보통)</td>
+<td>상승</td>
+</tr>
+</tbody>
+</table>
+<p><strong>주의</strong>: 2022년처럼 인플레이션 쇼크로 금리를 급격히 올릴 때는 주식도 하락하고 채권도 하락하는 이례적인 상황이 발생했다. 항상 음의 상관관계가 유지되는 건 아니다.</p>
+<h3>포트폴리오에 채권이 필요한 이유</h3>
+<p><strong>예시: 주식 100% vs 주식 60% + 채권 40%</strong></p>
+<p>2008년 금융위기 때:</p>
+<ul>
+<li>미국 주식 (S&#x26;P500): 약 -38% 하락</li>
+<li>미국 국채 (10년): 약 +25% 상승</li>
+</ul>
+<p>주식 100% 포트폴리오는 -38%가 됐다. 하지만 주식 60% + 채권 40% 포트폴리오는 약 -13% 정도로 방어됐다.</p>
+<p>수익은 주식이 더 많이 준다. 하지만 폭락 때의 충격을 채권이 완화해준다. 포트폴리오가 -38% 되면 심리적으로 패닉셀(panic sell)하기 쉽다. 하지만 -13% 정도면 버틸 수 있다. 투자에서 <strong>버티는 것</strong>이 얼마나 중요한지는 아무리 강조해도 지나치지 않다.</p>
+<h3>연령대별 채권 비중 가이드</h3>
+<p>오래된 투자 격언 중에 "채권 비중 = 나이"가 있다. 30살이면 채권 30%, 60살이면 채권 60%. 나이가 들수록 자산을 지키는 것이 더 중요하기 때문이다.</p>
+<p>요즘은 저금리 시대와 기대수명 증가로 이 공식이 너무 보수적이라는 의견도 많다. 하지만 기본 아이디어, <strong>젊을 때는 주식 비중을 높이고 나이 들수록 채권 비중을 늘린다</strong>는 방향은 여전히 유효하다.</p>
+<table>
+<thead>
+<tr>
+<th>연령대</th>
+<th>권장 채권 비중</th>
+<th>권장 주식 비중</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20~30대</td>
+<td>10~20%</td>
+<td>80~90%</td>
+</tr>
+<tr>
+<td>40대</td>
+<td>20~30%</td>
+<td>70~80%</td>
+</tr>
+<tr>
+<td>50대</td>
+<td>30~40%</td>
+<td>60~70%</td>
+</tr>
+<tr>
+<td>60대 이상</td>
+<td>40~50%</td>
+<td>50~60%</td>
+</tr>
+</tbody>
+</table>
+<h3>채권 ETF로 간단하게 시작하기</h3>
+<p>채권이 처음이라면 복잡하게 생각하지 말고, 포트폴리오에 채권 ETF를 일부 추가하는 것부터 시작하자.</p>
+<p><strong>초보용 채권 포트폴리오:</strong></p>
+<ul>
+<li><strong>안전 중시형</strong>: TIGER 단기통안채 또는 KODEX CD금리액티브 → 거의 현금처럼 활용</li>
+<li><strong>균형형</strong>: KODEX 국고채3년 → 3년 만기 국채 추종, 금리 변화에 적당히 반응</li>
+<li><strong>수익 추구형</strong>: KODEX 국고채10년 → 장기채, 금리 하락 시 주식처럼 오를 수 있음</li>
+</ul>
+<p>처음에는 <strong>단기 국채 ETF</strong>로 시작해서 채권의 움직임을 경험해보는 것을 추천한다.</p>
+<hr>
+<h2>실전 팁: 채권을 어떻게 활용할까?</h2>
+<h3>시나리오 1: 비상금 + 파킹</h3>
+<p>다음 달에 쓸 돈은 은행 통장에. 6~12개월 내에 쓸 것 같은 돈은 파킹형 ETF에 넣어서 기준금리 수준의 수익 챙기기.</p>
+<h3>시나리오 2: 리스크 완충</h3>
+<p>주식 위주 포트폴리오에 국고채 ETF를 20% 정도 섞어서, 주식 폭락 시 심리적 충격을 줄이고 리밸런싱 기회를 만든다.</p>
+<h3>시나리오 3: 금리 인하 베팅</h3>
+<p>연준(Fed)이 금리를 인하할 것 같다는 판단이 서면, 장기채 ETF (미국채 10년, 30년)를 사서 채권 가격 상승 수익을 노린다. 단, 예측이 틀리면 손실이 크므로 전체 자산의 소액만 사용한다.</p>
+<hr>
+<h2>마무리 정리</h2>
+<p>이번 편에서 배운 것:</p>
+<ol>
+<li>
+<p><strong>채권은 빌려준 돈에 대한 차용증서다.</strong> 이자(쿠폰)를 받고 만기에 원금을 돌려받는다.</p>
+</li>
+<li>
+<p><strong>종류</strong>: 국채(가장 안전) > 지방채/공기업채 > 투자등급 회사채 > 투기등급(하이일드) 순으로 리스크가 커진다.</p>
+</li>
+<li>
+<p><strong>금리-가격 반비례 관계가 핵심</strong>: 금리가 오르면 기존 채권 가격이 내린다. 금리가 내리면 기존 채권 가격이 오른다. 새 채권이 더 유리/불리해지기 때문이다.</p>
+</li>
+<li>
+<p><strong>투자 방법</strong>: 직접 매수는 만기 확정 수익, 채권 ETF는 유동성과 편의성. 초보에겐 단기 국채 ETF부터 추천.</p>
+</li>
+<li>
+<p><strong>자산배분에서 채권의 역할</strong>: 주식이 폭락할 때 포트폴리오를 방어해주는 완충재. 주식 100%보다 주식+채권 조합이 장기적으로 더 편안한 투자를 가능하게 한다.</p>
+</li>
+</ol>
+<p>다음 편에서는 지금까지 배운 것들을 종합해서 <strong>실제로 포트폴리오를 어떻게 만들고 관리하는지</strong> 다룬다. 자산배분, 리밸런싱, 투자 계좌(ISA, IRP) 활용까지 실전 투자 완성편이 기다리고 있다.</p>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-25"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"주식 투자 입문 (9) — 채권과 국채 기초: 주식만으로는 부족한 이유"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"주식 투자 입문 (9) — 채권과 국채 기초: 주식만으로는 부족한 이유 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

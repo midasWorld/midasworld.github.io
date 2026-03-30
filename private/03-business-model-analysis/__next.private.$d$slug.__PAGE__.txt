@@ -1,0 +1,488 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T50ee,<p>관심종목 리스트를 만들었다면, 이제 그 기업을 제대로 이해할 차례다. 주가는 단기적으로 심리와 수급에 의해 움직이지만, 장기적으로는 <strong>기업의 실력</strong>에 수렴한다. 그 실력을 이해하는 게 이번 포스트의 핵심이다.</p>
+<p>숫자(재무제표)를 보기 전에 먼저 해야 할 게 있다. "이 회사는 어떻게 돈을 버는가?" 이 질문에 답할 수 없으면 재무제표를 봐도 맥락이 없다.</p>
+<hr>
+<h2>1. 이 회사는 어떻게 돈을 버는가 — 비즈니스 모델 분석</h2>
+<p>비즈니스 모델이란 <strong>"회사가 가치를 창출하고, 고객에게 전달하고, 그 대가로 돈을 버는 방식"</strong> 을 말한다.</p>
+<p>같은 IT 기업이라도 어떻게 돈을 버는지는 완전히 다를 수 있다.</p>
+<table>
+<thead>
+<tr>
+<th>회사</th>
+<th>수익 모델</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>삼성전자</td>
+<td>반도체·스마트폰 판매 (제품 판매)</td>
+</tr>
+<tr>
+<td>카카오</td>
+<td>광고, 게임, 커머스 수수료 (플랫폼)</td>
+</tr>
+<tr>
+<td>네이버웹툰</td>
+<td>웹툰 열람권, 쿠키 판매 (콘텐츠 구독)</td>
+</tr>
+<tr>
+<td>크래프톤</td>
+<td>게임 인게임 아이템 판매 (마이크로트랜잭션)</td>
+</tr>
+</tbody>
+</table>
+<p>비즈니스 모델을 분석할 때 확인해야 할 7가지 요소가 있다.</p>
+<h3>비즈니스 모델 7문항</h3>
+<pre><code class="hljs language-markdown"><span class="hljs-bullet">1.</span> 고객이 누구인가? (B2B, B2C, 둘 다?)
+<span class="hljs-bullet">2.</span> 어떤 문제를 해결해주는가?
+<span class="hljs-bullet">3.</span> 수익이 어디서 나는가? (제품, 서비스, 구독, 광고, 수수료?)
+<span class="hljs-bullet">4.</span> 비용의 대부분은 어디서 발생하는가?
+<span class="hljs-bullet">5.</span> 핵심 자원은 무엇인가? (기술, 사람, 특허, 네트워크?)
+<span class="hljs-bullet">6.</span> 경쟁자가 쉽게 따라 할 수 있는가?
+<span class="hljs-bullet">7.</span> 규모가 커질수록 단위 비용이 줄어드는가? (규모의 경제)
+</code></pre>
+<p>이 질문들에 대한 답을 스스로 적어보면, 기업을 이해하는 속도가 확 달라진다.</p>
+<h3>수익 모델의 종류</h3>
+<p>수익 모델은 크게 다음과 같이 나뉜다.</p>
+<p><strong>제품 판매형</strong></p>
+<ul>
+<li>물건을 만들어서 판다. 가장 고전적인 모델이다.</li>
+<li>예: 삼성전자(스마트폰), 포스코(철강), 현대차(자동차)</li>
+<li>장점: 이해하기 쉽다.</li>
+<li>단점: 재고 리스크, 원자재 가격 변동에 취약하다.</li>
+</ul>
+<p><strong>서비스형 (SaaS 포함)</strong></p>
+<ul>
+<li>사용한 만큼 요금을 내거나, 구독으로 주기적 결제를 받는다.</li>
+<li>예: AWS, 에이블리(패션 플랫폼), 더존비즈온(B2B SaaS)</li>
+<li>장점: 수익이 안정적이고 예측 가능하다. 이탈률(Churn Rate)이 낮으면 매우 강력하다.</li>
+<li>단점: 초기 고객 유치 비용이 높다.</li>
+</ul>
+<p><strong>플랫폼형 (양면 시장)</strong></p>
+<ul>
+<li>판매자와 구매자를 연결하고 수수료를 받는다.</li>
+<li>예: 쿠팡, 카카오, 배달의민족, 무신사</li>
+<li>장점: 네트워크 효과. 사용자가 늘수록 플랫폼 가치가 올라간다.</li>
+<li>단점: 초기 양면 부트스트래핑이 어렵고, 규제 리스크가 있다.</li>
+</ul>
+<p><strong>광고형</strong></p>
+<ul>
+<li>서비스를 무료로 제공하고, 광고주에게 돈을 받는다.</li>
+<li>예: 네이버, 카카오, 구글</li>
+<li>장점: 사용자 확보가 빠르다.</li>
+<li>단점: 광고 시장 경기에 민감하고, 사용자 프라이버시 규제 위험이 있다.</li>
+</ul>
+<p><strong>구독형</strong></p>
+<ul>
+<li>매월 또는 매년 정기 결제를 받는다.</li>
+<li>예: 넷플릭스, 스포티파이, 유료 앱 서비스</li>
+<li>장점: 수익 예측이 가능하고 고객 생애 가치(LTV)가 높다.</li>
+<li>단점: 구독자 유지(Retention)에 지속적인 투자가 필요하다.</li>
+</ul>
+<h3>워런 버핏의 "경제적 해자(Economic Moat)"</h3>
+<p>버핏이 투자할 때 가장 중요하게 보는 게 있다. 바로 경쟁자가 쉽게 따라올 수 없는 <strong>경제적 해자(Economic Moat)</strong> 다. 성(castle)을 외부 적으로부터 보호하는 해자(moat)처럼, 기업을 경쟁자로부터 보호하는 강점이다.</p>
+<p>해자의 종류는 크게 다섯 가지다.</p>
+<table>
+<thead>
+<tr>
+<th>해자 종류</th>
+<th>설명</th>
+<th>예시</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>브랜드 파워</td>
+<td>프리미엄을 받을 수 있는 강력한 브랜드</td>
+<td>애플, 루이비통</td>
+</tr>
+<tr>
+<td>전환 비용</td>
+<td>다른 서비스로 갈아타기 어렵게 만드는 비용</td>
+<td>SAP ERP, 어도비</td>
+</tr>
+<tr>
+<td>네트워크 효과</td>
+<td>사용자가 많을수록 더 가치가 높아지는 구조</td>
+<td>카카오, 링크드인</td>
+</tr>
+<tr>
+<td>비용 우위</td>
+<td>경쟁자보다 훨씬 싸게 만들 수 있는 능력</td>
+<td>쿠팡(물류 효율화), 코스트코</td>
+</tr>
+<tr>
+<td>허가·특허</td>
+<td>규제나 특허로 진입장벽이 높음</td>
+<td>제약사, 방위산업</td>
+</tr>
+</tbody>
+</table>
+<p>투자하려는 기업의 해자가 무엇인지 반드시 찾아봐야 한다. 해자가 없는 기업은 경쟁이 심해지면 수익성이 급격히 악화된다.</p>
+<hr>
+<h2>2. 산업 생애주기 — 도입기, 성장기, 성숙기, 쇠퇴기</h2>
+<p>기업만 봐서는 안 된다. 그 기업이 속한 <strong>산업 자체가 어느 단계에 있는지</strong>도 봐야 한다.</p>
+<h3>4단계 생애주기</h3>
+<pre><code class="hljs">도입기 → 성장기 → 성숙기 → 쇠퇴기
+</code></pre>
+<p><strong>도입기 (Introduction)</strong></p>
+<p>새로운 기술이나 제품이 처음 시장에 나온 시기다.</p>
+<ul>
+<li>시장 규모 작고, 인지도 낮음</li>
+<li>수익보다 투자가 훨씬 많다 (적자가 당연)</li>
+<li>기술 표준이 아직 정해지지 않아 경쟁자 다수</li>
+<li>예시: AI 에이전트(2024~2025), 자율주행(2020년대 초)</li>
+</ul>
+<p>이 단계에서 투자하면 대박 or 쪽박이다. 표준을 장악하는 기업 하나가 시장을 독식한다. 위험이 높지만 수익 잠재력도 크다.</p>
+<p><strong>성장기 (Growth)</strong></p>
+<p>시장 표준이 결정되고, 수요가 폭발적으로 증가하는 시기다.</p>
+<ul>
+<li>매출 고성장 (연 20~30% 이상)</li>
+<li>경쟁자가 늘어나지만 파이 자체가 빠르게 커져서 다들 성장</li>
+<li>수익성 개선 시작</li>
+<li>예시: 클라우드(2015<del>2020), 전기차(2019</del>2022), OTT(2015~2020)</li>
+</ul>
+<p>이 단계가 투자하기 가장 좋은 시기다. 성장이 확실하고, 아직 주가에 과도하게 반영되지 않은 경우가 많다.</p>
+<p><strong>성숙기 (Maturity)</strong></p>
+<p>성장이 둔화되고 시장 점유율 싸움이 치열해지는 시기다.</p>
+<ul>
+<li>매출 성장률 낮아짐 (연 5~10%)</li>
+<li>M&#x26;A, 구조조정, 원가절감 중심</li>
+<li>배당이나 자사주 매입으로 주주에게 현금 환원</li>
+<li>예시: 철강(포스코), 통신사(KT, SKT), 대형마트</li>
+</ul>
+<p>이 단계에서는 성장 기대보다 <strong>안정적인 현금흐름</strong>과 <strong>배당</strong>에 주목한다.</p>
+<p><strong>쇠퇴기 (Decline)</strong></p>
+<p>산업 자체가 줄어드는 시기다.</p>
+<ul>
+<li>매출 감소, 구조적 적자 기업 증가</li>
+<li>도태되는 기업과 살아남는 기업 갈림</li>
+<li>예시: 인쇄신문, 필름카메라, 오프라인 DVD 대여</li>
+</ul>
+<p>쇠퇴기 산업이라도 살아남는 기업은 큰 수익을 낼 수 있다. (마지막 남은 경쟁자가 시장 전체를 가져가기 때문)</p>
+<h3>단계별 투자 전략 요약</h3>
+<table>
+<thead>
+<tr>
+<th>단계</th>
+<th>투자 포인트</th>
+<th>위험도</th>
+<th>수익 잠재력</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>도입기</td>
+<td>기술 우위 기업 선별</td>
+<td>매우 높음</td>
+<td>매우 높음</td>
+</tr>
+<tr>
+<td>성장기</td>
+<td>점유율 1~2위 기업</td>
+<td>중간</td>
+<td>높음</td>
+</tr>
+<tr>
+<td>성숙기</td>
+<td>배당·현금흐름 안정 기업</td>
+<td>낮음</td>
+<td>중간</td>
+</tr>
+<tr>
+<td>쇠퇴기</td>
+<td>살아남는 1등 기업</td>
+<td>중간</td>
+<td>중간</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>3. 경쟁 구조 분석 — 포터의 5 Forces 실전 적용</h2>
+<p>마이클 포터(Michael Porter)가 개발한 <strong>5 Forces 모델</strong>은 산업의 경쟁 강도와 수익성을 체계적으로 분석하는 프레임워크다. 전략 컨설팅과 투자 분석에서 모두 널리 쓰인다.</p>
+<h3>5가지 힘(Forces)</h3>
+<pre><code class="hljs language-css">                   <span class="hljs-selector-attr">[신규 진입자 위협]</span>
+                          ↓
+<span class="hljs-selector-attr">[공급자 교섭력]</span> ← <span class="hljs-selector-attr">[산업 내 경쟁]</span> → <span class="hljs-selector-attr">[구매자 교섭력]</span>
+                          ↑
+                   <span class="hljs-selector-attr">[대체재 위협]</span>
+</code></pre>
+<p>각 힘이 강할수록 해당 산업의 수익성은 낮아진다. 반대로 5가지 힘이 모두 약하면, 그 산업의 기업들은 높은 수익성을 오래 유지할 수 있다.</p>
+<p><strong>Force 1: 산업 내 경쟁 강도 (Rivalry Among Existing Competitors)</strong></p>
+<p>현재 경쟁자들이 얼마나 치열하게 싸우는가?</p>
+<p>강도를 높이는 요인:</p>
+<ul>
+<li>경쟁자가 많고 비슷한 크기</li>
+<li>성장이 둔화된 산업 (파이가 안 커지니 빼앗아야 함)</li>
+<li>차별화가 어려운 제품 (가격 경쟁 심화)</li>
+<li>퇴출 장벽이 높음 (나가고 싶어도 못 나감)</li>
+</ul>
+<p><strong>Force 2: 신규 진입자 위협 (Threat of New Entrants)</strong></p>
+<p>새로운 경쟁자가 얼마나 쉽게 들어올 수 있는가?</p>
+<p>진입장벽이 높을수록 기존 기업에게 유리하다. 장벽의 종류:</p>
+<ul>
+<li>막대한 초기 투자 자본 필요</li>
+<li>특허·라이선스·규제</li>
+<li>브랜드 충성도</li>
+<li>대규모 유통망</li>
+<li>규모의 경제 (기존 기업이 훨씬 싸게 생산)</li>
+</ul>
+<p><strong>Force 3: 대체재 위협 (Threat of Substitute Products)</strong></p>
+<p>우리 제품을 다른 방법으로 대신할 수 있는가?</p>
+<ul>
+<li>카카오택시 → 대중교통, 자전거, 도보</li>
+<li>오프라인 서점 → 전자책, 유튜브 강의</li>
+<li>호텔 → 에어비앤비</li>
+</ul>
+<p>대체재가 많고 전환 비용이 낮으면, 기업이 가격을 함부로 올리지 못한다.</p>
+<p><strong>Force 4: 구매자 교섭력 (Bargaining Power of Buyers)</strong></p>
+<p>고객이 얼마나 강한 협상력을 갖고 있는가?</p>
+<p>구매자 교섭력이 강해지는 경우:</p>
+<ul>
+<li>구매자 수가 적고 구매량이 크다 (대형 거래처)</li>
+<li>제품 차별화가 없어서 쉽게 다른 공급자로 변경</li>
+<li>구매자가 직접 만들 수 있는 능력이 있다 (후방 통합)</li>
+</ul>
+<p><strong>Force 5: 공급자 교섭력 (Bargaining Power of Suppliers)</strong></p>
+<p>원자재·부품 공급자가 얼마나 강한 협상력을 갖는가?</p>
+<p>공급자 교섭력이 강해지는 경우:</p>
+<ul>
+<li>공급자 수가 적다 (희귀 원자재, 독점 기술)</li>
+<li>대체 공급자 찾기 어렵다</li>
+<li>공급자가 직접 판매도 가능하다 (전방 통합)</li>
+</ul>
+<p>예시: TSMC(파운드리)는 애플, 엔비디아 등 수많은 반도체 설계 기업에 부품을 납품하는데, 대체할 수 있는 파운드리가 없어서 교섭력이 매우 강하다.</p>
+<hr>
+<h2>4. 실전 예시 — 삼성전자(하드웨어)와 네이버(플랫폼) 비교</h2>
+<p>이론을 직접 적용해보자. 삼성전자와 네이버를 비교하면서 두 회사의 본질적인 차이를 이해해보겠다.</p>
+<h3>삼성전자 분석</h3>
+<p><strong>비즈니스 모델</strong>
+삼성전자는 반도체(DS부문)와 스마트폰·가전(MX·VD부문)이 양대 축이다.</p>
+<ul>
+<li>반도체: DRAM, NAND 플래시, 파운드리(위탁 생산) → 기업 대상 B2B</li>
+<li>스마트폰(갤럭시): 소비자 대상 B2C, 프리미엄과 중저가 라인 병행</li>
+<li>가전: TV, 세탁기, 에어컨 등</li>
+</ul>
+<p>매출 구성 비중은 반도체가 약 40~50%를 차지하며, 반도체 업황이 삼성전자 전체 실적을 좌우한다.</p>
+<p><strong>해자</strong></p>
+<ul>
+<li>반도체 기술 우위: DRAM 세계 시장점유율 1위 (~45%)</li>
+<li>수직 계열화: 반도체 설계→생산→패키징까지 자체 수행</li>
+<li>브랜드: 갤럭시 브랜드 파워 (프리미엄 스마트폰 시장에서 애플과 2강 구도)</li>
+</ul>
+<p><strong>5 Forces 요약</strong></p>
+<table>
+<thead>
+<tr>
+<th>Forces</th>
+<th>강도</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>산업 내 경쟁</td>
+<td>높음</td>
+<td>SK하이닉스, 마이크론과 치열한 점유율 경쟁</td>
+</tr>
+<tr>
+<td>신규 진입자 위협</td>
+<td>낮음</td>
+<td>반도체 팹 구축에 수십조 원 필요</td>
+</tr>
+<tr>
+<td>대체재 위협</td>
+<td>중간</td>
+<td>AI·클라우드 확산으로 메모리 수요 꾸준히 증가</td>
+</tr>
+<tr>
+<td>구매자 교섭력</td>
+<td>중간</td>
+<td>애플·엔비디아 같은 대형 고객은 협상력 강함</td>
+</tr>
+<tr>
+<td>공급자 교섭력</td>
+<td>낮음</td>
+<td>장비(ASML 등)는 독점이지만 삼성 구매량이 워낙 큼</td>
+</tr>
+</tbody>
+</table>
+<p><strong>리스크 요인</strong></p>
+<ul>
+<li>반도체 업황 사이클: 2022년처럼 공급 과잉이 오면 실적이 폭락한다.</li>
+<li>중국 수출 규제: 미국의 대중국 반도체 수출 제재가 강화될수록 타격.</li>
+<li>TSMC와의 파운드리 격차: 최첨단 공정에서 TSMC가 여전히 앞서 있다.</li>
+</ul>
+<h3>네이버 분석</h3>
+<p><strong>비즈니스 모델</strong>
+네이버는 검색 기반 광고에서 시작해 플랫폼 제국을 만들었다.</p>
+<table>
+<thead>
+<tr>
+<th>사업부문</th>
+<th>수익원</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>서치플랫폼</td>
+<td>검색 광고, 디스플레이 광고</td>
+</tr>
+<tr>
+<td>커머스</td>
+<td>스마트스토어 거래수수료, 브랜드스토어, 쇼핑라이브</td>
+</tr>
+<tr>
+<td>핀테크</td>
+<td>네이버페이 결제 수수료, 대출 이자 수익</td>
+</tr>
+<tr>
+<td>콘텐츠</td>
+<td>웹툰(네이버웹툰), 제페토(메타버스)</td>
+</tr>
+<tr>
+<td>클라우드</td>
+<td>네이버클라우드 플랫폼(NCP)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>해자</strong></p>
+<ul>
+<li>검색 지배력: 국내 검색 시장 점유율 약 60% (구글이 추격 중이지만 여전히 1위)</li>
+<li>네트워크 효과: 쇼핑·콘텐츠·페이가 하나의 생태계를 이루어 이탈 어려움</li>
+<li>데이터 우위: 수십억 건의 검색 데이터로 광고 타겟팅 정밀도 높음</li>
+</ul>
+<p><strong>5 Forces 요약</strong></p>
+<table>
+<thead>
+<tr>
+<th>Forces</th>
+<th>강도</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>산업 내 경쟁</td>
+<td>높음</td>
+<td>구글(검색), 쿠팡(커머스), 카카오(모든 분야)</td>
+</tr>
+<tr>
+<td>신규 진입자 위협</td>
+<td>낮음</td>
+<td>검색 플랫폼은 네트워크 효과 때문에 신규 진입 어려움</td>
+</tr>
+<tr>
+<td>대체재 위협</td>
+<td>높음</td>
+<td>AI 검색(ChatGPT, 제미나이)이 기존 검색을 대체 중</td>
+</tr>
+<tr>
+<td>구매자 교섭력</td>
+<td>중간</td>
+<td>광고주는 구글·카카오 등 대안 있음</td>
+</tr>
+<tr>
+<td>공급자 교섭력</td>
+<td>낮음</td>
+<td>콘텐츠 공급자(웹툰 작가 등)는 다수 존재</td>
+</tr>
+</tbody>
+</table>
+<p><strong>핵심 리스크</strong></p>
+<ul>
+<li>AI 검색으로의 전환: 생성형 AI가 기존 검색을 대체하면 광고 수익 모델이 흔들린다. 네이버가 가장 경계하는 리스크다.</li>
+<li>쿠팡의 커머스 잠식: 스마트스토어 거래량이 쿠팡에 밀릴 경우 수수료 수익 감소.</li>
+<li>라인야후 사태: 일본 정부의 자본 구조 변경 요구로 글로벌 전략에 불확실성 추가.</li>
+</ul>
+<h3>두 회사 비교 요약</h3>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>삼성전자</th>
+<th>네이버</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>사업 유형</td>
+<td>자본집약적 제조업</td>
+<td>자본경량적 플랫폼</td>
+</tr>
+<tr>
+<td>수익 안정성</td>
+<td>사이클 영향 큼 (변동성 높음)</td>
+<td>광고·수수료 기반으로 비교적 안정</td>
+</tr>
+<tr>
+<td>성장 동력</td>
+<td>HBM·AI 반도체 수요</td>
+<td>커머스·핀테크·AI 전환</td>
+</tr>
+<tr>
+<td>배당 성향</td>
+<td>적극적 주주환원</td>
+<td>성장 투자 우선</td>
+</tr>
+<tr>
+<td>PER 수준</td>
+<td>낮음 (사이클주 특성)</td>
+<td>상대적으로 높음 (플랫폼 프리미엄)</td>
+</tr>
+</tbody>
+</table>
+<p>어떤 회사가 더 좋고 나쁜 게 아니다. 둘은 <strong>완전히 다른 유형의 기업</strong>이고, 그에 따라 분석 방법과 투자 접근도 달라져야 한다.</p>
+<hr>
+<h2>실전 분석 템플릿</h2>
+<p>관심 종목을 분석할 때 이 템플릿을 채워보자. 빈 칸을 채우다 보면 모르는 부분이 어디인지 자연스럽게 드러난다.</p>
+<pre><code class="hljs language-markdown"><span class="hljs-section">## 기업명: [회사명]</span>
+
+<span class="hljs-section">### 1. 비즈니스 모델</span>
+<span class="hljs-bullet">-</span> 주요 고객: (B2B / B2C)
+<span class="hljs-bullet">-</span> 수익 발생 방식: (제품판매 / 구독 / 광고 / 수수료)
+<span class="hljs-bullet">-</span> 매출 구성 비율: (사업부문별 %)
+<span class="hljs-bullet">-</span> 핵심 비용 항목:
+
+<span class="hljs-section">### 2. 경제적 해자</span>
+<span class="hljs-bullet">-</span> 해자 유형: (브랜드 / 전환비용 / 네트워크효과 / 비용우위 / 허가·특허)
+<span class="hljs-bullet">-</span> 해자의 지속 가능성: (강함 / 중간 / 약함)
+<span class="hljs-bullet">-</span> 이유:
+
+<span class="hljs-section">### 3. 산업 생애주기</span>
+<span class="hljs-bullet">-</span> 현재 단계: (도입기 / 성장기 / 성숙기 / 쇠퇴기)
+<span class="hljs-bullet">-</span> 근거:
+
+<span class="hljs-section">### 4. 5 Forces 요약</span>
+<span class="hljs-bullet">-</span> 산업 내 경쟁: (강 / 중 / 약) — 이유:
+<span class="hljs-bullet">-</span> 신규 진입자 위협: (강 / 중 / 약) — 이유:
+<span class="hljs-bullet">-</span> 대체재 위협: (강 / 중 / 약) — 이유:
+<span class="hljs-bullet">-</span> 구매자 교섭력: (강 / 중 / 약) — 이유:
+<span class="hljs-bullet">-</span> 공급자 교섭력: (강 / 중 / 약) — 이유:
+
+<span class="hljs-section">### 5. 핵심 리스크</span>
+<span class="hljs-bullet">1.</span>
+<span class="hljs-bullet">2.</span>
+<span class="hljs-bullet">3.</span>
+
+<span class="hljs-section">### 6. 투자 논리 (한 문장 요약)</span>
+"이 회사는 <span class="hljs-strong">____</span> 때문에 좋고, <span class="hljs-strong">____</span> 리스크가 있어서 <span class="hljs-strong">____</span> 조건이 되면 매수한다."
+</code></pre>
+<p>이 문서를 채울 수 없다면 아직 그 기업에 대한 이해가 충분하지 않은 것이다. 이해가 안 되는 기업에 투자하면 주가가 떨어질 때 버티지 못하고 손절하게 된다.</p>
+<hr>
+<h2>마무리 — 이것만 기억하자</h2>
+<ol>
+<li><strong>수익 모델부터 이해해라</strong>. 숫자(재무제표) 전에 이야기(비즈니스 모델)를 먼저 알아야 한다.</li>
+<li><strong>경제적 해자를 찾아라</strong>. 해자가 없는 기업은 경쟁 심화에 수익성이 급락한다.</li>
+<li><strong>산업 생애주기를 파악해라</strong>. 성장기 산업에서 1~2위 기업은 가장 좋은 투자 대상이다.</li>
+<li><strong>포터의 5 Forces로 경쟁 구조를 체계적으로 보자</strong>. 5개 힘이 모두 약한 산업이 장기적으로 높은 수익성을 유지한다.</li>
+<li><strong>분석 템플릿을 채워라</strong>. 빈 칸이 많다면 아직 그 기업을 모르는 것이다.</li>
+</ol>
+<p>다음 포스트에서는 재무제표(손익계산서, 재무상태표, 현금흐름표)를 읽는 방법을 다룰 예정이다. 비즈니스 모델을 이해했다면, 이제 숫자로 그 이야기를 검증할 차례다.</p>0:{"buildId":"6dNzU7_5pCuaCrqstHw1V","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-25"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"주식 투자 입문 (3) — 기업의 본질 이해하기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

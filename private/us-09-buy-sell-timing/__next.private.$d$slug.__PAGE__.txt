@@ -1,0 +1,1229 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:Tdd39,<h1>매수와 매도: 언제 사고 언제 파는가</h1>
+<p>투자에서 가장 어려운 두 가지를 꼽으라면 "언제 사는가"와 "언제 파는가"입니다. 특히 매도는 더 어렵습니다. 이번 편에서는 기술적 분석의 핵심 도구들과 공포&#x26;탐욕지수, 분할 매수 전략, 손절 원칙, 피라미딩까지 체계적으로 정리합니다.</p>
+<hr>
+<h2>1. 기술적 분석 vs 펀더멘털 분석</h2>
+<p>두 분석 방법은 서로 경쟁하는 것이 아니라, <strong>상호 보완적</strong>입니다.</p>
+<h3>두 분석 방법 비교 표</h3>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>기술적 분석 (Technical Analysis)</th>
+<th>펀더멘털 분석 (Fundamental Analysis)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>분석 대상</td>
+<td>가격, 거래량, 차트 패턴</td>
+<td>재무제표, 사업모델, 경쟁우위</td>
+</tr>
+<tr>
+<td>시간 범위</td>
+<td>단기~중기 타이밍</td>
+<td>중장기 가치 판단</td>
+</tr>
+<tr>
+<td>핵심 질문</td>
+<td>"지금 사야 하나?"</td>
+<td>"이 주식을 사야 하나?"</td>
+</tr>
+<tr>
+<td>강점</td>
+<td>매수/매도 타이밍 최적화</td>
+<td>좋은 기업 선별</td>
+</tr>
+<tr>
+<td>약점</td>
+<td>"왜"를 설명 못함</td>
+<td>"언제"를 알기 어려움</td>
+</tr>
+<tr>
+<td>주요 도구</td>
+<td>이동평균선, RSI, 볼린저밴드</td>
+<td>PER, PBR, ROE, DCF 모델</td>
+</tr>
+<tr>
+<td>대표 투자자</td>
+<td>조지 소로스 (단기 트레이딩)</td>
+<td>워런 버핏 (장기 가치)</td>
+</tr>
+</tbody>
+</table>
+<h3>두 가지를 함께 쓰는 사례</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">좋은</span> <span class="hljs-string">투자</span> <span class="hljs-string">=</span> <span class="hljs-string">좋은</span> <span class="hljs-string">기업(펀더멘털)</span> <span class="hljs-string">×</span> <span class="hljs-string">좋은</span> <span class="hljs-string">타이밍(기술적)</span>
+
+<span class="hljs-string">사례:</span> <span class="hljs-string">NVIDIA</span> <span class="hljs-string">(NVDA)</span>
+
+<span class="hljs-number">2023</span><span class="hljs-string">년</span> <span class="hljs-string">초:</span>
+  <span class="hljs-string">펀더멘털</span> <span class="hljs-string">→</span> <span class="hljs-string">AI</span> <span class="hljs-string">수혜,</span> <span class="hljs-string">GPU</span> <span class="hljs-string">독점,</span> <span class="hljs-string">실적</span> <span class="hljs-string">폭증</span> <span class="hljs-string">예상</span> <span class="hljs-string">(BUY</span> <span class="hljs-string">신호)</span>
+  <span class="hljs-string">기술적</span> <span class="hljs-string">→</span>   <span class="hljs-number">200</span><span class="hljs-string">일</span> <span class="hljs-string">이동평균선</span> <span class="hljs-string">위로</span> <span class="hljs-string">돌파,</span> <span class="hljs-string">골든크로스</span> <span class="hljs-string">형성</span> <span class="hljs-string">(BUY</span> <span class="hljs-string">타이밍)</span>
+  <span class="hljs-string">결과</span> <span class="hljs-string">→</span>     <span class="hljs-number">2023</span><span class="hljs-string">년</span> <span class="hljs-string">한</span> <span class="hljs-string">해</span> <span class="hljs-string">+240%</span> <span class="hljs-string">상승</span>
+
+<span class="hljs-number">2021</span><span class="hljs-string">년</span> <span class="hljs-string">말:</span>
+  <span class="hljs-string">펀더멘털</span> <span class="hljs-string">→</span> <span class="hljs-string">좋은</span> <span class="hljs-string">기업이지만</span> <span class="hljs-string">PER</span> <span class="hljs-number">100</span><span class="hljs-string">배</span> <span class="hljs-string">이상</span> <span class="hljs-string">고평가</span> <span class="hljs-string">우려</span>
+  <span class="hljs-string">기술적</span> <span class="hljs-string">→</span>   <span class="hljs-string">RSI</span> <span class="hljs-number">80</span> <span class="hljs-string">이상</span> <span class="hljs-string">과매수,</span> <span class="hljs-string">이동평균</span> <span class="hljs-string">이탈</span> <span class="hljs-string">시작</span>
+  <span class="hljs-string">결과</span> <span class="hljs-string">→</span>     <span class="hljs-number">2022</span><span class="hljs-string">년</span> <span class="hljs-number">-55</span><span class="hljs-string">%</span> <span class="hljs-string">하락</span>
+</code></pre>
+<hr>
+<h2>2. 공포&#x26;탐욕지수 (Fear &#x26; Greed Index): 시장 심리 온도계</h2>
+<p>CNN에서 운영하는 공포&#x26;탐욕지수(Fear &#x26; Greed Index)는 투자자들의 집단 심리를 0~100 숫자로 보여줍니다.</p>
+<pre><code class="hljs language-scss">공포 &#x26; 탐욕 지수 (Fear &#x26; Greed Index) 척도
+
+  <span class="hljs-number">0</span> ────────────────────────────── <span class="hljs-number">100</span>
+  │                                  │
+극도의       공포       중립    탐욕  극도의
+ 공포       (<span class="hljs-number">25</span>~<span class="hljs-number">50</span>)   (<span class="hljs-number">45</span>~<span class="hljs-number">55</span>) (<span class="hljs-number">55</span>~<span class="hljs-number">75</span>) 탐욕
+(<span class="hljs-number">0</span>~<span class="hljs-number">25</span>)                              (<span class="hljs-number">75</span>~<span class="hljs-number">100</span>)
+
+  ↑                                  ↑
+매수 기회!                         위험 신호!
+시장이 지나치게                   시장이 지나치게
+두려워하는 상태                   낙관적인 상태
+</code></pre>
+<h3>지수 구성 요소 (7가지)</h3>
+<table>
+<thead>
+<tr>
+<th>요소</th>
+<th>비중</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>주가 모멘텀</td>
+<td>1/7</td>
+<td>S&#x26;P 500 vs 125일 이동평균</td>
+</tr>
+<tr>
+<td>신고가/신저가 비율</td>
+<td>1/7</td>
+<td>52주 신고가 vs 신저가 종목 수</td>
+</tr>
+<tr>
+<td>거래량 강도</td>
+<td>1/7</td>
+<td>상승 종목 거래량 vs 하락 종목 거래량</td>
+</tr>
+<tr>
+<td>Put/Call 옵션 비율</td>
+<td>1/7</td>
+<td>풋 옵션(하락 베팅) vs 콜 옵션(상승 베팅) 비율</td>
+</tr>
+<tr>
+<td>VIX 변동성 지수</td>
+<td>1/7</td>
+<td>시장 공포 지수, 30 이상 = 공포 구간</td>
+</tr>
+<tr>
+<td>정크본드 수요</td>
+<td>1/7</td>
+<td>하이일드 채권 스프레드</td>
+</tr>
+<tr>
+<td>안전자산 수요</td>
+<td>1/7</td>
+<td>주식 vs 국채 자금 이동</td>
+</tr>
+</tbody>
+</table>
+<h3>역사적 극단값과 투자 결과</h3>
+<table>
+<thead>
+<tr>
+<th>날짜</th>
+<th>지수 값</th>
+<th>상황</th>
+<th>이후 S&#x26;P 500 1년 수익률</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2020년 3월 12일</td>
+<td><strong>3</strong> (극도 공포)</td>
+<td>COVID-19 폭락</td>
+<td>+60%</td>
+</tr>
+<tr>
+<td>2020년 3월 23일</td>
+<td><strong>2</strong> (역사적 최저)</td>
+<td>바닥</td>
+<td>+55%</td>
+</tr>
+<tr>
+<td>2021년 11월</td>
+<td><strong>90</strong> (극도 탐욕)</td>
+<td>버블 절정</td>
+<td>-18%</td>
+</tr>
+<tr>
+<td>2022년 6월</td>
+<td><strong>6</strong> (극도 공포)</td>
+<td>인플레 충격</td>
+<td>+19%</td>
+</tr>
+<tr>
+<td>2023년 7월</td>
+<td><strong>82</strong> (극도 탐욕)</td>
+<td>AI 버블</td>
+<td>-5% (단기)</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="hljs language-bash">2020년 3월 COVID 폭락 사례
+
+S&#x26;P 500 가격:
+<span class="hljs-variable">$3</span>,400 │●
+<span class="hljs-variable">$3</span>,000 │  ●
+<span class="hljs-variable">$2</span>,600 │   ●
+<span class="hljs-variable">$2</span>,400 │    ●
+<span class="hljs-variable">$2</span>,200 │     ●●
+<span class="hljs-variable">$2</span>,200 │        ● ← 2020년 3월 23일 바닥 (<span class="hljs-variable">$2</span>,191)
+<span class="hljs-variable">$2</span>,100 │                                   ↑
+                              공포&#x26;탐욕지수 = 2~3!
+
+이후:
+<span class="hljs-variable">$2</span>,800 │         ●●
+<span class="hljs-variable">$3</span>,200 │            ●●●●
+<span class="hljs-variable">$3</span>,500 │                 ●●●●●
+<span class="hljs-variable">$3</span>,900 │                        → 1년 후 +60%
+
+교훈: 극도 공포(F&#x26;G = 2~3)에서 매수한 사람들이
+      1년 만에 60% 수익
+</code></pre>
+<h3>공포&#x26;탐욕지수 활용 전략</h3>
+<pre><code class="hljs language-less">활용 전략 (역발상 투자)
+
+<span class="hljs-selector-tag">F</span><span class="hljs-selector-tag">&#x26;</span><span class="hljs-selector-tag">G</span> &#x3C; <span class="hljs-number">20</span> (극도 공포):
+  → 시장이 과도하게 두려워하는 상태
+  → 분할 매수 시작 (<span class="hljs-number">1</span>/<span class="hljs-number">3</span> 투입)
+  → 역사적으로 <span class="hljs-number">1</span>년 후 수익률 평균 +<span class="hljs-number">25</span>~<span class="hljs-number">40%</span>
+
+<span class="hljs-selector-tag">F</span><span class="hljs-selector-tag">&#x26;</span><span class="hljs-selector-tag">G</span> <span class="hljs-number">20</span>~<span class="hljs-number">40</span> (공포):
+  → 추가 매수 기회
+  → 기존 보유 종목 추가 매수 검토
+
+<span class="hljs-selector-tag">F</span><span class="hljs-selector-tag">&#x26;</span><span class="hljs-selector-tag">G</span> <span class="hljs-number">40</span>~<span class="hljs-number">60</span> (중립):
+  → 정상적 <span class="hljs-selector-tag">DCA</span> 유지
+  → 특별한 액션 없음
+
+<span class="hljs-selector-tag">F</span><span class="hljs-selector-tag">&#x26;</span><span class="hljs-selector-tag">G</span> <span class="hljs-number">60</span>~<span class="hljs-number">80</span> (탐욕):
+  → 신규 대규모 진입 자제
+  → 기존 수익 일부 실현 검토
+
+<span class="hljs-selector-tag">F</span><span class="hljs-selector-tag">&#x26;</span><span class="hljs-selector-tag">G</span> > <span class="hljs-number">80</span> (극도 탐욕):
+  → 신규 매수 최소화
+  → 보유 포지션 일부 정리
+  → 현금 비중 높이기
+  → 버핏의 말: "남들이 탐욕스러울 때 두려워하라"
+</code></pre>
+<blockquote>
+<p><strong>확인 방법</strong>: CNN Fear &#x26; Greed Index (edition.cnn.com/markets/fear-and-greed)에서 실시간 확인 가능합니다. 매일 체크하면 시장 분위기를 빠르게 파악할 수 있습니다.</p>
+</blockquote>
+<hr>
+<h2>3. 이동평균선 (Moving Average)</h2>
+<p>이동평균선은 일정 기간 동안의 주가 평균값을 선으로 이은 것입니다. 주가의 노이즈를 제거하고 추세를 보여줍니다.</p>
+<h3>주요 이동평균선의 의미</h3>
+<table>
+<thead>
+<tr>
+<th>이동평균선</th>
+<th>의미</th>
+<th>용도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20일 MA</td>
+<td>단기 추세 (~한 달)</td>
+<td>단기 매매 타이밍, 단기 지지/저항</td>
+</tr>
+<tr>
+<td>50일 MA</td>
+<td>중기 추세 (~2개월)</td>
+<td>중기 추세 판단, 골든크로스 기준</td>
+</tr>
+<tr>
+<td>200일 MA</td>
+<td>장기 추세 (~10개월)</td>
+<td>상승장/하락장 구분선, 핵심 지지선</td>
+</tr>
+</tbody>
+</table>
+<p><strong>200일 이동평균선의 중요성</strong>: 시장 참가자 대부분이 주시합니다. 주가가 200일 MA 위에 있으면 강세 국면, 아래에 있으면 약세 국면으로 판단합니다.</p>
+<h3>골든크로스와 데드크로스 (ASCII 다이어그램)</h3>
+<pre><code class="hljs language-scss">골든크로스 (매수 신호)               데드크로스 (매도 신호)
+
+주가                                  주가
+  │    /─── <span class="hljs-number">50</span>일 MA                    │  \─── <span class="hljs-number">50</span>일 MA
+  │   /                                │   \
+  │  /  ↗ 골든크로스!                  │    \ ↘ 데드크로스!
+  │ / ╱                                │     ╲ \
+  │/─/── <span class="hljs-number">200</span>일 MA                      │      ──\── <span class="hljs-number">200</span>일 MA
+  └────────────────────                └──────────\───────
+  시간 →                               시간 →
+
+  <span class="hljs-number">50</span>일 MA가 <span class="hljs-number">200</span>일 MA를                 <span class="hljs-number">50</span>일 MA가 <span class="hljs-number">200</span>일 MA를
+  아래에서 위로 돌파                    위에서 아래로 돌파
+  → 상승 추세 시작 신호                → 하락 추세 시작 신호
+</code></pre>
+<h3>Apple 2023년 골든크로스 사례</h3>
+<pre><code class="hljs language-bash">AAPL 차트 (2022~2023)
+
+<span class="hljs-variable">$200</span> │                              ╱─────
+<span class="hljs-variable">$180</span> │                         ╱───
+<span class="hljs-variable">$160</span> │              ──────────       ← 50일 MA
+<span class="hljs-variable">$150</span> │──────────╱─────────────       ← 200일 MA
+<span class="hljs-variable">$140</span> │        ╱
+<span class="hljs-variable">$130</span> │ 골든크로스
+<span class="hljs-variable">$120</span> │    │
+     └────┼──────────────────────────
+         Jan 2023
+
+2023년 1월: AAPL 골든크로스 발생 (<span class="hljs-variable">$130</span> 근처)
+2023년 12월: AAPL <span class="hljs-variable">$190</span> 돌파
+수익률: +46%
+
+골든크로스만 믿고 샀어도 좋은 수익!
+(단, 모든 골든크로스가 성공하지는 않음)
+</code></pre>
+<hr>
+<h2>4. RSI (상대강도지수)</h2>
+<p>RSI(Relative Strength Index)는 최근 주가 상승과 하락의 강도를 0~100 사이 숫자로 나타냅니다.</p>
+<h3>RSI 구간 시각화</h3>
+<pre><code class="hljs language-scss">RSI <span class="hljs-number">0</span>~<span class="hljs-number">100</span> 구간
+
+<span class="hljs-number">100</span> │──────────────── 극단적 과매수 (버블 신호)
+ <span class="hljs-number">80</span> │
+ <span class="hljs-number">70</span> │──────────────── 과매수 (Overbought) → 매도 고려
+    │
+ <span class="hljs-number">50</span> │──────────────── 중립선 (상승/하락 추세 구분)
+    │
+ <span class="hljs-number">30</span> │──────────────── 과매도 (Oversold) → 매수 고려
+ <span class="hljs-number">20</span> │
+  <span class="hljs-number">0</span> │──────────────── 극단적 과매도 (공황 신호)
+
+  해석:
+  RSI > <span class="hljs-number">70</span>: <span class="hljs-string">"너무 많이 올랐다"</span> → 단기 조정 가능성
+  RSI <span class="hljs-number">40</span>~<span class="hljs-number">60</span>: 중립 구간
+  RSI &#x3C; <span class="hljs-number">30</span>: <span class="hljs-string">"너무 많이 떨어졌다"</span> → 반등 가능성
+</code></pre>
+<h3>RSI 활용 시 주의사항</h3>
+<table>
+<thead>
+<tr>
+<th>상황</th>
+<th>해석</th>
+<th>주의점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RSI > 70 (과매수)</td>
+<td>단기 조정 가능성</td>
+<td>강한 상승 추세에서는 70 이상 수개월 유지 가능 (NVDA 2023년)</td>
+</tr>
+<tr>
+<td>RSI &#x3C; 30 (과매도)</td>
+<td>반등 가능성</td>
+<td>강한 하락 추세에서는 30 이하 지속 가능</td>
+</tr>
+<tr>
+<td>RSI 다이버전스</td>
+<td>추세 전환 신호</td>
+<td>주가는 고점 갱신, RSI는 낮아지면 하락 예고</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>RSI 혼자 쓰지 마세요</strong>: RSI가 70 이상이어도 AI 붐 같은 강한 추세에서 NVDA는 몇 달을 80~90에서 머물며 계속 올랐습니다. 반드시 다른 지표와 함께 확인하세요.</p>
+</blockquote>
+<hr>
+<h2>5. 지지선과 저항선</h2>
+<h3>지지선과 저항선 개념 (ASCII 다이어그램)</h3>
+<pre><code class="hljs language-bash">주가
+<span class="hljs-variable">$180</span> │         ╱────────────── 저항선 (Resistance)
+     │        ╱ ↑ 주가가 뚫으려 시도
+<span class="hljs-variable">$160</span> │──╲────╱───────────────  ← 저항선
+     │   ╲  ╱
+<span class="hljs-variable">$150</span> │    ╲╱              ← 전저점이 저항선이 됨
+     │
+<span class="hljs-variable">$140</span> │─────────────────────── 지지선 (Support)
+     │  주가가 여러 번 이 가격에서 반등!
+<span class="hljs-variable">$130</span> │
+     └─────────────────────────────
+
+지지선: 주가가 반복적으로 하락을 멈추는 가격대
+저항선: 주가가 반복적으로 상승을 멈추는 가격대
+</code></pre>
+<h3>저항선 돌파의 의미</h3>
+<pre><code class="hljs language-bash">저항선 돌파 시나리오
+
+    <span class="hljs-variable">$160</span> 저항선 돌파 전:          <span class="hljs-variable">$160</span> 돌파 후:
+
+         ↓↑↓↑↓                      ──────────────╱──
+    <span class="hljs-variable">$160</span> ────────── (저항)     <span class="hljs-variable">$160</span> ─────────────╱─── (이제 지지선!)
+         ↑                              주가
+    ─────────────── (지지)
+    <span class="hljs-variable">$140</span>
+
+    <span class="hljs-string">"저항선이 지지선으로 바뀐다"</span> = 심리적 전환점
+    거래량 동반 돌파 = 더 강한 신호
+</code></pre>
+<hr>
+<h2>6. 분할 매수 전략 실전 시뮬레이션: AAPL $10,000 투자</h2>
+<p>$10,000을 AAPL에 투자한다고 가정하고, <strong>4회 분할 매수 vs 일괄 매수</strong>를 비교합니다.</p>
+<h3>시나리오 설정</h3>
+<pre><code class="hljs language-bash">투자 시점: 2022년 1월 (하락장 진입 시점)
+투자 금액: <span class="hljs-variable">$10</span>,000
+AAPL 주가:
+  2022년 1월:  <span class="hljs-variable">$180</span>
+  2022년 3월:  <span class="hljs-variable">$170</span>
+  2022년 6월:  <span class="hljs-variable">$148</span>
+  2022년 9월:  <span class="hljs-variable">$155</span>
+  2023년 1월:  <span class="hljs-variable">$145</span> (최저점 근처)
+  2023년 7월:  <span class="hljs-variable">$195</span> (회복)
+</code></pre>
+<h3>전략 A: 일괄 매수 ($10,000 전액을 2022년 1월에 투자)</h3>
+<pre><code class="hljs language-bash">2022년 1월: <span class="hljs-variable">$10</span>,000 투자 → <span class="hljs-variable">$180</span> × 55.6주 = 55.6주 매수
+
+2023년 7월 기준:
+  보유 주식: 55.6주
+  주가: <span class="hljs-variable">$195</span>
+  평가액: 55.6 × <span class="hljs-variable">$195</span> = <span class="hljs-variable">$10</span>,842
+  수익률: +8.4%
+
+중간 과정:
+  2022년 6월 최저점: 55.6 × <span class="hljs-variable">$148</span> = <span class="hljs-variable">$8</span>,229 (-17.7%)  ← 공포 극심
+</code></pre>
+<h3>전략 B: 4회 분할 매수 ($2,500씩 나눠서)</h3>
+<pre><code class="hljs language-bash">분할 매수 계획 (하락 시 추가 매수)
+────────────────────────────────────────────
+시점         주가      투자금    매수 주수   누적 주수
+────────────────────────────────────────────
+2022년 1월   <span class="hljs-variable">$180</span>      <span class="hljs-variable">$2</span>,500   13.9주      13.9주
+2022년 3월   <span class="hljs-variable">$170</span>      <span class="hljs-variable">$2</span>,500   14.7주      28.6주  ← 하락 시 매수
+2022년 6월   <span class="hljs-variable">$148</span>      <span class="hljs-variable">$2</span>,500   16.9주      45.5주  ← 더 많이 매수
+2023년 1월   <span class="hljs-variable">$145</span>      <span class="hljs-variable">$2</span>,500   17.2주      62.7주  ← 최저점 매수
+────────────────────────────────────────────
+총 투자금:   <span class="hljs-variable">$10</span>,000
+총 매수 주수: 62.7주
+평균 매수 단가: <span class="hljs-variable">$10</span>,000 ÷ 62.7주 = <span class="hljs-variable">$159</span>.5/주
+────────────────────────────────────────────
+
+2023년 7월 기준:
+  보유 주식: 62.7주
+  주가: <span class="hljs-variable">$195</span>
+  평가액: 62.7 × <span class="hljs-variable">$195</span> = <span class="hljs-variable">$12</span>,227
+  수익률: +22.3%
+</code></pre>
+<h3>두 전략 비교</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>일괄 매수</th>
+<th>4회 분할 매수</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>투자 방식</td>
+<td>2022년 1월 전액 투자</td>
+<td>4회에 걸쳐 균등 투자</td>
+</tr>
+<tr>
+<td>평균 매수 단가</td>
+<td>$180</td>
+<td>$159.5</td>
+</tr>
+<tr>
+<td>최종 보유 주식 수</td>
+<td>55.6주</td>
+<td>62.7주</td>
+</tr>
+<tr>
+<td>2023년 7월 평가액</td>
+<td>$10,842</td>
+<td>$12,227</td>
+</tr>
+<tr>
+<td><strong>최종 수익률</strong></td>
+<td><strong>+8.4%</strong></td>
+<td><strong>+22.3%</strong></td>
+</tr>
+<tr>
+<td>최대 평가손실 (공포 구간)</td>
+<td>-17.7%</td>
+<td>-9.2% (심리적 부담 적음)</td>
+</tr>
+<tr>
+<td>심리적 안정성</td>
+<td>낮음 (고점 매수 후 계속 손실)</td>
+<td>높음 (하락 시 기회로 인식)</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="hljs language-bash">분할 매수 핵심 원리
+
+    하락할 때 → 같은 돈으로 더 많은 주 구매
+    상승할 때 → 같은 돈으로 더 적은 주 구매
+    결과: 평균 매수 단가가 자연스럽게 낮아짐
+
+<span class="hljs-variable">$180</span> ─────●
+<span class="hljs-variable">$170</span> ─────────●
+<span class="hljs-variable">$160</span> ──────────────
+<span class="hljs-variable">$150</span> ──────────────────●●  ← 더 많이 살수록 평균 단가↓
+<span class="hljs-variable">$140</span> ──────────────────────────●●●
+
+분할 횟수: 4회
+최저점을 정확히 맞출 필요 없음 → 심리 부담 제거
+</code></pre>
+<blockquote>
+<p><strong>중요</strong>: 개별 주식 분할 매수는 기업이 근본적으로 좋다는 확신이 있을 때만 유효합니다. 망해가는 기업에 분할 매수는 "떨어지는 칼을 잡는 행위"가 될 수 있습니다.</p>
+</blockquote>
+<hr>
+<h2>7. 손절의 기술: -8% 기계적 손절 vs 펀더멘털 기반 손절</h2>
+<p>가장 어려운 것이 손절입니다. 손실을 확정짓는 행위이기 때문에 심리적으로 극도로 어렵습니다.</p>
+<h3>손실 회피 심리 (Loss Aversion)</h3>
+<pre><code class="hljs language-bash">행동경제학 연구 (카너먼 &#x26; 트버스키):
+<span class="hljs-variable">$100</span> 이익의 기쁨 &#x3C; <span class="hljs-variable">$100</span> 손실의 고통 (약 2.5배)
+
+투자자 심리:
+<span class="hljs-string">"지금 팔면 손해 확정이야, 좀 더 기다리면 오르겠지..."</span>
+→ 결과: 작은 손실이 큰 손실로 커짐
+</code></pre>
+<h3>손실 크기에 따른 회복 필요 수익률</h3>
+<table>
+<thead>
+<tr>
+<th>손실</th>
+<th>원금 회복에 필요한 수익률</th>
+<th>체감 난이도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-5%</td>
+<td>+5.3%</td>
+<td>매우 쉬움</td>
+</tr>
+<tr>
+<td>-10%</td>
+<td>+11.1%</td>
+<td>쉬움</td>
+</tr>
+<tr>
+<td>-20%</td>
+<td>+25.0%</td>
+<td>조금 어려움</td>
+</tr>
+<tr>
+<td>-30%</td>
+<td>+42.9%</td>
+<td>어려움</td>
+</tr>
+<tr>
+<td>-40%</td>
+<td>+66.7%</td>
+<td>매우 어려움</td>
+</tr>
+<tr>
+<td>-50%</td>
+<td>+100.0%</td>
+<td>극도로 어려움</td>
+</tr>
+<tr>
+<td>-70%</td>
+<td>+233.3%</td>
+<td>거의 불가능</td>
+</tr>
+<tr>
+<td>-90%</td>
+<td>+900.0%</td>
+<td>사실상 불가능</td>
+</tr>
+</tbody>
+</table>
+<h3>방법 1: 기계적 손절 (−8% 룰)</h3>
+<p>윌리엄 오닐(William O'Neil, CAN SLIM 창시자)이 제안한 방법입니다.</p>
+<pre><code class="hljs language-bash">-8% 기계적 손절 규칙
+
+매수가: <span class="hljs-variable">$100</span>
+손절가: <span class="hljs-variable">$100</span> × (1 - 0.08) = <span class="hljs-variable">$92</span>
+
+주가가 <span class="hljs-variable">$92</span> 이하로 떨어지면 → 무조건 매도!
+
+이유:
+- 감정 배제 → 더 큰 손실 방지
+- -8% 손절 후 다른 종목에서 회복 가능
+- -50% 버티기보다 -8% × 여러 번이 낫다
+
+수학:
+  -8% 손절 후 회복 필요 수익률: +8.7%  (쉬움!)
+  -50% 버티기 후 회복 필요 수익률: +100% (극도로 어려움)
+</code></pre>
+<h3>방법 2: 기술적 분석 기반 손절</h3>
+<pre><code class="hljs language-bash">200일 이동평균선 하향 이탈 → 매도
+
+AAPL 예시 (2022년):
+
+<span class="hljs-variable">$180</span> │ ●
+<span class="hljs-variable">$170</span> │   ●
+<span class="hljs-variable">$160</span> │    ●
+<span class="hljs-variable">$150</span> │     ●──────────── 200일 MA
+<span class="hljs-variable">$148</span> │            ●
+<span class="hljs-variable">$145</span> │              ●  ← 200일 MA 이탈!
+                         여기서 매도 신호
+
+결정 기준:
+  200일 MA 위 → 보유
+  200일 MA 아래 → 매도 검토 (최소 포지션 축소)
+</code></pre>
+<h3>방법 3: 펀더멘털 기반 손절 (가장 정교한 방법)</h3>
+<pre><code class="hljs language-ini">투자 논리(thesis)가 훼손되었을 때 매도
+
+NFLX (넷플릭스) 2022년 사례:
+
+투자 이유:
+  "구독자 성장 지속 + 콘텐츠 독점력"
+
+훼손 신호:
+  2022년 4월: 구독자 최초 감소 발표 (-20만 명)
+  → 성장 스토리 붕괴 → 가격 불문 즉시 매도 신호
+  결과: 발표 당일 -35% 하락
+
+펀더멘털 손절 기준:
+  <span class="hljs-section">[ ]</span> 매출 성장률이 3분기 연속 하락
+  <span class="hljs-section">[ ]</span> 경쟁사가 핵심 시장 점유율 20%+ 빼앗음
+  <span class="hljs-section">[ ]</span> CEO 또는 핵심 경영진 갑작스런 교체
+  <span class="hljs-section">[ ]</span> 회계 부정 또는 SEC 조사 개시
+  → 위 항목 해당 시 가격 불문 매도
+</code></pre>
+<h3>두 방법 비교</h3>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>기계적 손절 (-8%)</th>
+<th>펀더멘털 기반 손절</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>적용 대상</td>
+<td>기술적 트레이더, 단기 투자자</td>
+<td>가치투자자, 장기 투자자</td>
+</tr>
+<tr>
+<td>감정 배제</td>
+<td>완전 배제 (기계적)</td>
+<td>판단 필요 (주관성 있음)</td>
+</tr>
+<tr>
+<td>일시적 조정에 강함</td>
+<td>약함 (자주 손절 가능)</td>
+<td>강함 (펀더멘털 유지 시 보유)</td>
+</tr>
+<tr>
+<td>장기 투자 적합성</td>
+<td>낮음</td>
+<td>높음</td>
+</tr>
+<tr>
+<td>실수 방지</td>
+<td>큰 손실 방지 효과 탁월</td>
+<td>논리 점검 필요</td>
+</tr>
+<tr>
+<td>워런 버핏 방식</td>
+<td>아님</td>
+<td>맞음</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>8. 매수/매도 의사결정 플로우차트 (ASCII 다이어그램)</h2>
+<pre><code class="hljs language-scss">매수 의사결정 플로우차트
+
+START
+  │
+  ▼
+<span class="hljs-selector-attr">[이 기업의 사업 모델을 이해하는가?]</span>
+  │ 아니오 → <span class="hljs-selector-attr">[공부 후 재판단]</span> → START
+  │ 예
+  ▼
+<span class="hljs-selector-attr">[최근 3분기 이상 실적 성장 중인가?]</span>
+  │ 아니오 → <span class="hljs-selector-attr">[패스 또는 Watch List]</span>
+  │ 예
+  ▼
+<span class="hljs-selector-attr">[현재 PER이 업종 평균 2배 미만인가?]</span>
+  │ 아니오 → <span class="hljs-selector-attr">[고평가 주의, 소량만 or 패스]</span>
+  │ 예
+  ▼
+<span class="hljs-selector-attr">[주가가 200일 MA 위에 있는가?]</span>
+  │ 아니오 → <span class="hljs-selector-attr">[매수 보류, 200일 MA 위 돌파 확인 후]</span>
+  │ 예
+  ▼
+<span class="hljs-selector-attr">[RSI가 70 이상 과매수인가?]</span>
+  │ 예 → <span class="hljs-selector-attr">[조정 기다리기]</span>
+  │ 아니오
+  ▼
+<span class="hljs-selector-attr">[F&#x26;G 지수가 70 이상 극도 탐욕인가?]</span>
+  │ 예 → <span class="hljs-selector-attr">[신규 매수 자제]</span>
+  │ 아니오
+  ▼
+<span class="hljs-selector-attr">[손절가와 목표가를 설정했는가?]</span>
+  │ 아니오 → <span class="hljs-selector-attr">[설정 후 재판단]</span>
+  │ 예
+  ▼
+<span class="hljs-selector-attr">[✓ 매수 실행!]</span>
+
+
+매도 의사결정 플로우차트
+
+START (보유 중인 종목)
+  │
+  ▼
+<span class="hljs-selector-attr">[손절가에 도달했는가?]</span>
+  │ 예 → <span class="hljs-selector-attr">[즉시 매도!]</span>
+  │ 아니오
+  ▼
+<span class="hljs-selector-attr">[투자 논리(thesis)가 훼손되었는가?]</span>
+  │ 예 → <span class="hljs-selector-attr">[즉시 매도! (가격 불문)]</span>
+  │ 아니오
+  ▼
+<span class="hljs-selector-attr">[목표가에 도달했는가?]</span>
+  │ 예 → <span class="hljs-selector-attr">[1/3 ~ 1/2 매도 후 나머지 보유]</span>
+  │ 아니오
+  ▼
+<span class="hljs-selector-attr">[더 좋은 투자처를 발견했는가?]</span>
+  │ 예 → <span class="hljs-selector-attr">[교체 매매 검토]</span>
+  │ 아니오
+  ▼
+<span class="hljs-selector-attr">[F&#x26;G가 80+ 극도 탐욕인가?]</span>
+  │ 예 → <span class="hljs-selector-attr">[일부 차익 실현 검토]</span>
+  │ 아니오
+  ▼
+<span class="hljs-selector-attr">[✓ 계속 보유]</span>
+</code></pre>
+<hr>
+<h2>9. 거래량: 신뢰도를 높이는 지표</h2>
+<p>차트에서 가격만 보면 안 됩니다. <strong>거래량은 가격 움직임의 신뢰도를 보여줍니다.</strong></p>
+<pre><code class="hljs language-markdown">거래량과 주가의 4가지 조합
+
+조합 1: 주가↑ + 거래량↑ = 강한 상승 신호 (매수세 강함)
+<span class="hljs-code">        거래량: ████████████████ (평균보다 높음)
+        주가: ↑↑↑↑↑
+        의미: 기관 투자자가 적극 매수 중
+</span>
+조합 2: 주가↑ + 거래량↓ = 약한 상승 (속임수 가능성)
+<span class="hljs-code">        거래량: ████ (평균보다 낮음)
+        주가: ↑↑↑
+        의미: 소수 세력의 인위적 상승 가능, 주의!
+</span>
+조합 3: 주가↓ + 거래량↑ = 강한 하락 신호 (매도 고려)
+<span class="hljs-code">        거래량: ████████████████ (평균보다 높음)
+        주가: ↓↓↓↓↓
+        의미: 기관이 대규모 매도 중, 추세 하락 신호
+</span>
+조합 4: 주가↓ + 거래량↓ = 약한 하락 (조정 후 반등 가능성)
+<span class="hljs-code">        거래량: ████ (평균보다 낮음)
+        주가: ↓↓↓
+        의미: 일시적 조정일 수 있음, 매도 서두르지 말 것
+</span></code></pre>
+<hr>
+<h2>10. 피라미딩 (Pyramiding): 수익 나는 포지션 늘리기</h2>
+<p>피라미딩은 <strong>이미 수익이 나고 있는 포지션을 단계적으로 늘리는</strong> 투자 기법입니다. 손실 나는 포지션에 추가 매수하는 "물타기"와 반대 개념입니다.</p>
+<h3>피라미딩 원리</h3>
+<pre><code class="hljs language-bash">피라미딩 vs 물타기 비교
+
+물타기 (Wrong Way):                피라미딩 (Right Way):
+매수가 <span class="hljs-variable">$100</span>                        매수가 <span class="hljs-variable">$100</span>
+주가 <span class="hljs-variable">$80</span>으로 하락 (-20%)           주가 <span class="hljs-variable">$120</span>으로 상승 (+20%)
+→ 추가 <span class="hljs-variable">$100</span> 매수 (평단낮추기)      → 확인 후 추가 <span class="hljs-variable">$50</span> 매수
+주가 <span class="hljs-variable">$60</span>으로 추가 하락             주가 <span class="hljs-variable">$140</span>으로 추가 상승
+→ 또 추가 매수...                 → 또 추가 <span class="hljs-variable">$25</span> 매수
+결과: 손실 눈덩이                  결과: 수익 극대화
+
+원칙: 시장이 <span class="hljs-string">"맞다"</span>고 증명했을 때만 베팅 키우기
+</code></pre>
+<h3>피라미딩 실전 전략</h3>
+<pre><code class="hljs language-bash">피라미딩 3단계 예시 (총 <span class="hljs-variable">$10</span>,000 투자)
+
+1단계: 초기 매수 (리스크 작게)
+  주가: <span class="hljs-variable">$100</span>
+  투자: <span class="hljs-variable">$4</span>,000 → 40주 매수
+  근거: 기술적 패턴 형성 + 펀더멘털 좋음
+
+2단계: 상승 확인 후 추가 매수
+  주가: <span class="hljs-variable">$120</span> (+20%)
+  투자: <span class="hljs-variable">$3</span>,000 → 25주 추가 매수 (2단계)
+  근거: 200일 MA 위 + 실적 서프라이즈 확인
+  누적: 65주, 평균 단가 <span class="hljs-variable">$107</span>.7
+
+3단계: 추세 강화 확인 후 마지막 추가
+  주가: <span class="hljs-variable">$140</span> (+40%)
+  투자: <span class="hljs-variable">$2</span>,000 → 14.3주 추가 매수
+  근거: 골든크로스 + 기관 매수 증가
+  누적: 79.3주, 평균 단가 <span class="hljs-variable">$126</span> (현재가 <span class="hljs-variable">$140</span>, 이미 +11%)
+
+나머지 <span class="hljs-variable">$1</span>,000: 비상금/손절 여유
+────────────────────────────────────
+총 투자: <span class="hljs-variable">$9</span>,000 (1,000은 여유)
+보유 주식: 79.3주
+평균 단가: ~<span class="hljs-variable">$113</span>.5
+
+만약 <span class="hljs-variable">$160</span>까지 상승하면:
+  평가액: 79.3 × <span class="hljs-variable">$160</span> = <span class="hljs-variable">$12</span>,688
+  수익률: +41% (원금 <span class="hljs-variable">$9</span>,000 대비)
+</code></pre>
+<h3>피라미딩 핵심 규칙</h3>
+<table>
+<thead>
+<tr>
+<th>규칙</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>추가 매수는 상승 확인 후만</td>
+<td>하락 시 추가 매수 = 물타기 (금지)</td>
+</tr>
+<tr>
+<td>추가량은 초기보다 적게</td>
+<td>피라미드 모양 (초기 크고 추가 작게)</td>
+</tr>
+<tr>
+<td>각 추가 매수에 손절선 설정</td>
+<td>전체 포지션에 -10~15% 손절 설정</td>
+</tr>
+<tr>
+<td>추세 이탈 시 전체 정리</td>
+<td>200일 MA 이탈 = 피라미딩 해제</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="hljs language-scss">피라미딩 포지션 크기 시각화
+
+초기 매수  ████████████████████ <span class="hljs-number">40%</span>
+<span class="hljs-number">2</span>차 추가   ████████████████     <span class="hljs-number">30%</span> (초기보다 작게)
+<span class="hljs-number">3</span>차 추가   ████████████         <span class="hljs-number">20%</span> (더 작게)
+비상금     ████                 <span class="hljs-number">10%</span>
+                                  ↑
+                     피라미드 모양 = 위험 관리
+</code></pre>
+<hr>
+<h2>11. 실적 발표 전날 vs 당일 매매 전략</h2>
+<p>분기별 실적 발표(Earnings Release)는 주가의 변동성이 가장 큰 이벤트입니다.</p>
+<h3>실적 발표 주변 주가 패턴</h3>
+<pre><code class="hljs language-scss">실적 발표 전 패턴 (Earnings Anticipation Run-up)
+
+  실적 발표 <span class="hljs-number">2</span>주 전    발표 전날      발표 당일
+       ↓                  ↓              ↓
+       ●──────────────────●             ●── (호실적: +<span class="hljs-number">5</span>~<span class="hljs-number">15%</span>)
+       │ 기대감으로 상승        발표     │
+       │ ("Earnings Run-up")   ↓        ●── (어닝쇼크: -<span class="hljs-number">10</span>~<span class="hljs-number">20%</span>)
+       │                 불확실성
+       │                 극대화
+
+"호재는 소문에 사고 뉴스에 팔아라" (Buy the rumor, sell the news)
+</code></pre>
+<h3>전략 A: 실적 발표 전날 매수 (적극적 전략)</h3>
+<pre><code class="hljs language-markdown">장점:
+<span class="hljs-bullet">  -</span> 실적이 좋으면 발표 다음 날 큰 수익
+<span class="hljs-bullet">  -</span> 실적 기대감이 이미 주가에 일부 반영되어 있음
+
+단점:
+<span class="hljs-bullet">  -</span> 어닝 쇼크 시 하룻밤 사이 -10~20% 손실 가능
+<span class="hljs-bullet">  -</span> "베팅"에 가까움
+
+적합한 상황:
+<span class="hljs-bullet">  -</span> 애널리스트 예상치 대비 "어닝 서프라이즈" 패턴이 반복되는 기업
+<span class="hljs-bullet">  -</span> 최근 3~4분기 연속 어닝 비트(Beat) 기록한 기업
+<span class="hljs-bullet">  -</span> 산업 전체 긍정적 시그널이 있을 때
+</code></pre>
+<h3>전략 B: 실적 발표 당일 매도 (안전한 전략)</h3>
+<pre><code class="hljs language-markdown">장점:
+<span class="hljs-bullet">  -</span> 사전에 오른 수익 확정
+<span class="hljs-bullet">  -</span> 어닝 쇼크 리스크 완전 회피
+
+단점:
+<span class="hljs-bullet">  -</span> 호실적 이후 추가 상승 놓침
+
+적합한 상황:
+<span class="hljs-bullet">  -</span> 포지션이 이미 크게 수익 난 상태
+<span class="hljs-bullet">  -</span> 시장 전반적으로 불확실성 높을 때
+<span class="hljs-bullet">  -</span> 해당 기업의 실적 예측이 어려울 때
+</code></pre>
+<h3>실적 발표 주요 ETF별 예상 반응 (2024년 기준)</h3>
+<table>
+<thead>
+<tr>
+<th>기업</th>
+<th>발표 시즌</th>
+<th>어닝 서프라이즈 패턴</th>
+<th>평균 실적 발표일 주가 변동</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AAPL</td>
+<td>1월, 4월, 7월, 10월</td>
+<td>비교적 안정적</td>
+<td>±3~7%</td>
+</tr>
+<tr>
+<td>NVDA</td>
+<td>2월, 5월, 8월, 11월</td>
+<td>AI 붐 이후 극적</td>
+<td>±10~25%</td>
+</tr>
+<tr>
+<td>MSFT</td>
+<td>1월, 4월, 7월, 10월</td>
+<td>꾸준한 서프라이즈</td>
+<td>±4~8%</td>
+</tr>
+<tr>
+<td>META</td>
+<td>2월, 4월, 7월, 10월</td>
+<td>부활 후 변동 큼</td>
+<td>±8~15%</td>
+</tr>
+<tr>
+<td>TSLA</td>
+<td>1월, 4월, 7월, 10월</td>
+<td>변동성 극대</td>
+<td>±8~20%</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>권장 전략</strong>: 대부분의 개인 투자자에게는 <strong>실적 발표 직전 대규모 포지션을 피하는</strong> 것이 최선입니다. 이미 보유 중이라면 포지션의 50%를 발표 전날 매도해 리스크 헤지를 검토하세요.</p>
+</blockquote>
+<hr>
+<h2>12. 세금 고려한 매도 타이밍: 1년 보유의 마법</h2>
+<p>미국 주식 매도 시 세금은 보유 기간에 따라 크게 달라집니다.</p>
+<h3>미국 자본이득세 (Capital Gains Tax)</h3>
+<table>
+<thead>
+<tr>
+<th>보유 기간</th>
+<th>과세 방식</th>
+<th>세율</th>
+<th>비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1년 미만 (단기)</td>
+<td>단기 자본이득세</td>
+<td>일반 소득세율과 동일 (10~37%)</td>
+<td>급여 소득과 합산</td>
+</tr>
+<tr>
+<td>1년 이상 (장기)</td>
+<td>장기 자본이득세</td>
+<td><strong>0%, 15%, 20%</strong> (소득에 따라)</td>
+<td>훨씬 낮은 세율!</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="hljs language-bash">세금 차이 시뮬레이션 (<span class="hljs-variable">$10</span>,000 이익 발생 시)
+
+투자자 소득: <span class="hljs-variable">$80</span>,000/년 (미국 거주자 기준)
+
+단기 매도 (1년 미만):
+  세율: 22% (소득세 22% 구간)
+  세금: <span class="hljs-variable">$10</span>,000 × 22% = <span class="hljs-variable">$2</span>,200
+  실수령 이익: <span class="hljs-variable">$7</span>,800
+
+장기 매도 (1년 이상):
+  세율: 15% (장기 자본이득세)
+  세금: <span class="hljs-variable">$10</span>,000 × 15% = <span class="hljs-variable">$1</span>,500
+  실수령 이익: <span class="hljs-variable">$8</span>,500
+
+차이: <span class="hljs-variable">$700</span> (세금 절약!)
+→ 단지 몇 주 더 기다려서 1년을 넘기면
+  세금을 <span class="hljs-variable">$700</span> 절약
+</code></pre>
+<h3>한국 거주자의 세금 구조</h3>
+<p>한국 거주자가 미국 주식에 투자할 경우:</p>
+<pre><code class="hljs language-markdown">한국 거주자 해외 주식 양도소득세
+
+과세 기준: 연간 수익 250만원 초과분
+세율: 22% (지방소득세 포함)
+
+예시:
+  연간 수익: 1,250만원
+  공제: 250만원
+  과세 대상: 1,000만원
+  세금: 1,000만원 × 22% = 220만원
+
+절세 팁:
+<span class="hljs-bullet">  1.</span> 손실 종목 매도로 수익 상쇄 (Tax Loss Harvesting)
+<span class="hljs-code">     수익: 1,000만원 - 손실: 400만원 = 600만원 수익
+     공제: 250만원
+     과세: 350만원 × 22% = 77만원 (원래 165만원 → 88만원 절약)
+</span>
+<span class="hljs-bullet">  2.</span> 연말(12월) 전에 세금 계획
+<span class="hljs-code">     수익이 250만원 초과하면 내년으로 매도 이연 검토
+</span></code></pre>
+<hr>
+<h2>13. 실전 시나리오 3가지</h2>
+<p>가장 자주 접하는 투자 상황을 구체적으로 다룹니다.</p>
+<h3>시나리오 1: "NVDA를 $400에 샀는데 $300으로 떨어졌다. 어떻게?"</h3>
+<pre><code class="hljs language-bash">상황:
+  매수가: <span class="hljs-variable">$400</span>
+  현재가: <span class="hljs-variable">$300</span> (-25% 손실)
+
+질문 1: NVDA의 투자 논리(thesis)는 여전히 유효한가?
+  → AI GPU 수요, 데이터센터 성장, CUDA 생태계 독점
+  → 만약 이 논리가 유지되고 있다면?
+
+질문 2: 왜 <span class="hljs-variable">$300</span>으로 떨어졌는가?
+  A. 시장 전체 하락 (S&#x26;P 500도 -20%)
+     → NVDA만의 문제 아님 → 보유 or 추가 매수 검토
+  B. NVDA 자체 악재 (실적 쇼크, 경쟁자 등장)
+     → 투자 논리 훼손 → 손절 검토
+
+결정:
+  [A의 경우]
+  ① 손절 기준(-25%)에 도달했으므로 기계적 손절 원칙이라면 매도
+  ② 또는 분할 추가 매수 (비중 5% 이하 유지 조건)
+     <span class="hljs-variable">$300</span>에 추가 매수 → 평균 단가 <span class="hljs-variable">$350</span>으로 낮춤
+
+  [B의 경우]
+  → 추가 하락 전에 즉시 손절! 더 큰 손실 방지
+
+핵심 교훈: 감정이 아닌 <span class="hljs-string">"논리 유효성"</span>으로 판단하라
+</code></pre>
+<h3>시나리오 2: "AAPL이 +30% 올랐다. 지금 팔아야 하나?"</h3>
+<pre><code class="hljs language-ini">상황:
+  매수가: $150
+  현재가: $195 (+30% 수익)
+
+판단 기준 체크리스트:
+
+펀더멘털:
+  <span class="hljs-section">[✓]</span> 실적 계속 성장 중? → 보유 이유 있음
+  <span class="hljs-section">[?]</span> 현재 PER이 역사적 고점? → PER 30배 = 고평가 경계선
+  <span class="hljs-section">[✓]</span> AI 서비스 사업 아직 성장 초기? → 성장 스토리 살아있음
+
+기술적:
+  <span class="hljs-section">[?]</span> RSI가 75 이상? → 단기 과매수, 조정 가능성
+  <span class="hljs-section">[✓]</span> 200일 MA 위 유지? → 상승 추세 유효
+  <span class="hljs-section">[?]</span> F&#x26;G 지수 80+? → 시장 전체 과열
+
+결정:
+  → 1/3 매도 (수익 확정): $195에 33주 매도
+  → 나머지 2/3 보유: 트레일링 스탑 -15% 설정 ($195 × <span class="hljs-attr">0.85</span> = <span class="hljs-variable">$165</span>)
+  → 결과: 수익의 일부 확정 + 추가 상승 참여
+
+핵심 교훈: 완벽한 고점은 알 수 없다. 분할 매도로 후회 최소화
+</code></pre>
+<h3>시나리오 3: "시장 전체가 -20% 떨어졌다. 어떻게?"</h3>
+<pre><code class="hljs language-yaml"><span class="hljs-string">상황:</span>
+  <span class="hljs-string">S&#x26;P</span> <span class="hljs-number">500</span> <span class="hljs-string">기준</span> <span class="hljs-number">-20</span><span class="hljs-string">%</span> <span class="hljs-string">하락</span> <span class="hljs-string">(베어마켓</span> <span class="hljs-string">진입</span> <span class="hljs-string">기준)</span>
+  <span class="hljs-string">보유</span> <span class="hljs-string">포트폴리오도</span> <span class="hljs-number">-15</span><span class="hljs-string">~20%</span> <span class="hljs-string">하락</span>
+  <span class="hljs-string">뉴스:</span> <span class="hljs-string">경기침체</span> <span class="hljs-string">우려,</span> <span class="hljs-string">공포</span> <span class="hljs-string">극심</span>
+
+<span class="hljs-string">감정</span> <span class="hljs-string">vs</span> <span class="hljs-string">이성:</span>
+  <span class="hljs-string">감정:</span> <span class="hljs-string">"더 떨어지기 전에 팔아야 해!"</span>
+  <span class="hljs-string">이성:</span> <span class="hljs-string">역사적으로</span> <span class="hljs-number">-20</span><span class="hljs-string">%는</span> <span class="hljs-string">'매수 기회'</span>
+
+<span class="hljs-string">역사적</span> <span class="hljs-string">데이터:</span>
+  <span class="hljs-string">┌─────────────────────────────────────────────┐</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">S&#x26;P</span> <span class="hljs-number">500</span> <span class="hljs-number">-20</span><span class="hljs-string">%</span> <span class="hljs-string">이상</span> <span class="hljs-string">하락</span> <span class="hljs-string">후</span> <span class="hljs-string">회복</span> <span class="hljs-string">기간</span>         <span class="hljs-string">│</span>
+  <span class="hljs-string">├──────────────┬────────────┬────────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-string">침체</span> <span class="hljs-string">사건</span>    <span class="hljs-string">│</span> <span class="hljs-string">최대</span> <span class="hljs-string">낙폭</span>  <span class="hljs-string">│</span> <span class="hljs-number">5</span><span class="hljs-string">년</span> <span class="hljs-string">후</span> <span class="hljs-string">수익률</span>  <span class="hljs-string">│</span>
+  <span class="hljs-string">├──────────────┼────────────┼────────────────┤</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">2020 </span><span class="hljs-string">COVID</span>   <span class="hljs-string">│</span>  <span class="hljs-number">-34</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-string">+100%</span>         <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">2008</span> <span class="hljs-string">금융위기│</span>  <span class="hljs-number">-57</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-string">+178%</span>         <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">2001</span> <span class="hljs-string">닷컴버블│</span>  <span class="hljs-number">-49</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-string">+30%</span>          <span class="hljs-string">│</span>
+  <span class="hljs-string">│</span> <span class="hljs-number">2022</span> <span class="hljs-string">긴축충격│</span>  <span class="hljs-number">-25</span><span class="hljs-string">%</span>      <span class="hljs-string">│</span>  <span class="hljs-string">+?</span> <span class="hljs-string">(진행</span> <span class="hljs-string">중)</span>  <span class="hljs-string">│</span>
+  <span class="hljs-string">└──────────────┴────────────┴────────────────┘</span>
+
+<span class="hljs-string">행동</span> <span class="hljs-string">계획:</span>
+  <span class="hljs-attr">Step 1:</span> <span class="hljs-string">패닉</span> <span class="hljs-string">셀(공황</span> <span class="hljs-string">매도)</span> <span class="hljs-string">절대</span> <span class="hljs-string">금지!</span>
+           <span class="hljs-string">"바닥에서 팔면 영원히 후회"</span>
+
+  <span class="hljs-attr">Step 2:</span> <span class="hljs-string">포트폴리오</span> <span class="hljs-string">점검</span>
+           <span class="hljs-string">개별주:</span> <span class="hljs-string">투자</span> <span class="hljs-string">논리</span> <span class="hljs-string">유효한가?</span> <span class="hljs-string">(훼손</span> <span class="hljs-string">시만</span> <span class="hljs-string">매도)</span>
+           <span class="hljs-attr">ETF:</span> <span class="hljs-string">보유</span> <span class="hljs-string">유지</span> <span class="hljs-string">+</span> <span class="hljs-string">추가</span> <span class="hljs-string">매수</span> <span class="hljs-string">준비</span>
+
+  <span class="hljs-attr">Step 3:</span> <span class="hljs-string">F&#x26;G</span> <span class="hljs-string">지수</span> <span class="hljs-string">확인</span>
+           <span class="hljs-number">20</span> <span class="hljs-string">이하</span> <span class="hljs-string">=</span> <span class="hljs-string">분할</span> <span class="hljs-string">매수</span> <span class="hljs-string">시작</span>
+           <span class="hljs-number">10</span> <span class="hljs-string">이하</span> <span class="hljs-string">=</span> <span class="hljs-string">적극</span> <span class="hljs-string">매수</span> <span class="hljs-string">(역사적</span> <span class="hljs-string">바닥</span> <span class="hljs-string">근처)</span>
+
+  <span class="hljs-attr">Step 4:</span> <span class="hljs-string">가용</span> <span class="hljs-string">현금으로</span> <span class="hljs-string">단계적</span> <span class="hljs-string">매수</span>
+           <span class="hljs-string">현금</span> <span class="hljs-number">10</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-string">S&#x26;P</span> <span class="hljs-number">500</span> <span class="hljs-number">-20</span><span class="hljs-string">%</span> <span class="hljs-string">시</span> <span class="hljs-string">투입</span>
+           <span class="hljs-string">현금</span> <span class="hljs-number">10</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-string">S&#x26;P</span> <span class="hljs-number">500</span> <span class="hljs-number">-30</span><span class="hljs-string">%</span> <span class="hljs-string">시</span> <span class="hljs-string">투입</span>
+           <span class="hljs-string">현금</span> <span class="hljs-number">10</span><span class="hljs-string">%</span> <span class="hljs-string">→</span> <span class="hljs-string">S&#x26;P</span> <span class="hljs-number">500</span> <span class="hljs-number">-40</span><span class="hljs-string">%</span> <span class="hljs-string">시</span> <span class="hljs-string">투입</span>
+
+<span class="hljs-string">핵심</span> <span class="hljs-string">교훈:</span>
+  <span class="hljs-string">시장</span> <span class="hljs-string">전체</span> <span class="hljs-string">하락</span> <span class="hljs-string">=</span> <span class="hljs-string">개인의</span> <span class="hljs-string">실수가</span> <span class="hljs-string">아님</span>
+  <span class="hljs-string">역사적으로</span> <span class="hljs-string">인내한</span> <span class="hljs-string">투자자가</span> <span class="hljs-string">모두</span> <span class="hljs-string">회복했음</span>
+  <span class="hljs-string">현금이</span> <span class="hljs-string">있다면</span> <span class="hljs-string">이것은</span> <span class="hljs-string">'재앙'</span><span class="hljs-string">이</span> <span class="hljs-string">아니라</span> <span class="hljs-string">'기회'</span>
+</code></pre>
+<hr>
+<h2>14. 매수/매도 전략 종합 표</h2>
+<h3>매수 전 10가지 체크리스트</h3>
+<table>
+<thead>
+<tr>
+<th>번호</th>
+<th>체크 항목</th>
+<th>확인</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>이 기업의 사업 모델을 쉽게 설명할 수 있는가?</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>2</td>
+<td>최근 3년 매출·이익 성장 추세는 우상향인가?</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>3</td>
+<td>현재 PER이 업종 평균 대비 합리적인가?</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>4</td>
+<td>주가가 200일 이동평균선 위에 있는가?</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>5</td>
+<td>RSI가 70 이상 과매수 구간은 아닌가?</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>6</td>
+<td>공포&#x26;탐욕지수가 70 이하인가? (극도 탐욕 아닌가?)</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>7</td>
+<td>최근 실적 발표 내용을 확인했는가?</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>8</td>
+<td>내가 감당할 수 있는 금액인가? (포트폴리오 5~10%)</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>9</td>
+<td>손절 가격을 미리 정했는가? (-8~15%)</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>10</td>
+<td>목표 매도가를 미리 정했는가?</td>
+<td>☐</td>
+</tr>
+</tbody>
+</table>
+<h3>매도 트리거 5가지</h3>
+<table>
+<thead>
+<tr>
+<th>번호</th>
+<th>매도 트리거</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>목표가 달성</td>
+<td>사전에 정한 목표가 도달 → 1/3~1/2 매도</td>
+</tr>
+<tr>
+<td>2</td>
+<td>손절가 터치</td>
+<td>-8~15%, 또는 200일 MA 이탈</td>
+</tr>
+<tr>
+<td>3</td>
+<td>투자 논리 훼손</td>
+<td>사업 모델 변화, 경쟁자 등장, 부정 회계</td>
+</tr>
+<tr>
+<td>4</td>
+<td>고평가 신호</td>
+<td>PER이 역사적 최고치, RSI 80+ 지속, F&#x26;G 90+</td>
+</tr>
+<tr>
+<td>5</td>
+<td>더 좋은 기회 발견</td>
+<td>같은 돈으로 더 좋은 투자처 확인 시 교체</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>핵심 요약</h2>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>핵심 내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>공포&#x26;탐욕지수</td>
+<td>F&#x26;G &#x3C; 20 = 매수 기회, F&#x26;G > 80 = 위험 신호. 2020년 3월 COVID 때 F&#x26;G = 2</td>
+</tr>
+<tr>
+<td>이동평균선</td>
+<td>200일 MA가 상승/하락장 구분선. 골든크로스 = 매수, 데드크로스 = 매도</td>
+</tr>
+<tr>
+<td>RSI</td>
+<td>70 이상 과매수, 30 이하 과매도. 단독 사용 금지</td>
+</tr>
+<tr>
+<td>분할 매수</td>
+<td>$10,000 AAPL 투자 시 4회 분할 = +22.3% vs 일괄 = +8.4%</td>
+</tr>
+<tr>
+<td>손절 규칙</td>
+<td>기계적: -8% 무조건 / 펀더멘털: 투자 논리 훼손 시</td>
+</tr>
+<tr>
+<td>피라미딩</td>
+<td>수익 나는 포지션만 늘리기. 손실 나는 포지션에 추가 = 물타기 (금지)</td>
+</tr>
+<tr>
+<td>실적 발표</td>
+<td>발표 직전 대형 포지션 위험. 1/2 미리 정리 고려</td>
+</tr>
+<tr>
+<td>세금</td>
+<td>1년 이상 보유 = 장기 자본이득세 혜택. 한국: 250만원 공제 후 22%</td>
+</tr>
+<tr>
+<td>시나리오</td>
+<td>NVDA -25%: 논리 점검 후 결정 / AAPL +30%: 1/3 분할 매도 / 시장 -20%: 패닉 금지, 단계적 매수</td>
+</tr>
+</tbody>
+</table>
+<p>다음 편에서는 주식, ETF, 채권을 어떻게 조합해서 나만의 포트폴리오를 만들지 최종 정리합니다.</p>0:{"buildId":"6dNzU7_5pCuaCrqstHw1V","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-03-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"미국 주식 투자 입문 (9) — 매수와 매도: 언제 사고 언제 파는가"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null
