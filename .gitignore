@@ -16,6 +16,7 @@ out
 node_modules
 
 # Environment
+.env
 .env.local
 .env*.local
 

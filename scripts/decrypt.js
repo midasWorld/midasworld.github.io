@@ -9,9 +9,9 @@ const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 
-// Load .env.local if present (for local development)
-const envPath = path.join(__dirname, "..", ".env.local");
-if (fs.existsSync(envPath)) {
+// Load .env.local / .env if present (for local development)
+const envPaths = [".env.local", ".env"].map((f) => path.join(__dirname, "..", f));
+for (const envPath of envPaths.filter((f) => fs.existsSync(f))) {
   const lines = fs.readFileSync(envPath, "utf-8").split("\n");
   for (const line of lines) {
     const m = line.match(/^([A-Z_]+)=(.*)$/);

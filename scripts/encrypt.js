@@ -10,9 +10,9 @@ const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
 
-// Load .env.local if present
-const envPath = path.join(__dirname, "..", ".env.local");
-if (fs.existsSync(envPath)) {
+// Load .env.local / .env if present
+const envPaths = [".env.local", ".env"].map((f) => path.join(__dirname, "..", f));
+for (const envPath of envPaths.filter((f) => fs.existsSync(f))) {
   const lines = fs.readFileSync(envPath, "utf-8").split("\n");
   for (const line of lines) {
     const m = line.match(/^([A-Z_]+)=(.*)$/);
