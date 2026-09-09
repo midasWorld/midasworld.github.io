@@ -1,0 +1,198 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T150d,<h1>🇺🇸 [미장 기초 4] 미장 정보는 어디서? 잭이글의 사이트</h1>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "국장은 DART에서 봤잖아요. 미장은 어디서 봐요?"</p>
+<p><img src="/static/images/stock/characters/jake_explaining.png" alt="잭이글"> 🦅 <strong>잭이글</strong>: "미국은 <strong>SEC EDGAR</strong>가 DART에 해당해. 근데 영어라 처음엔 무섭지? 단계별로 알려줄게. 4곳만 알면 돼."</p>
+<hr>
+<h2>1. SEC EDGAR — 미국 공식 공시 ⭐</h2>
+<p><strong>sec.gov/edgar</strong> — 미국 증권거래위원회(SEC) 공시 시스템. <strong>무료</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>보고서</th>
+<th>의미</th>
+<th>국장 대응</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>10-K</strong></td>
+<td>연간 사업보고서</td>
+<td>사업보고서</td>
+</tr>
+<tr>
+<td><strong>10-Q</strong></td>
+<td>분기 보고서</td>
+<td>분기보고서</td>
+</tr>
+<tr>
+<td><strong>8-K</strong></td>
+<td>주요 사건 (수시)</td>
+<td>수시공시</td>
+</tr>
+<tr>
+<td><strong>DEF 14A</strong></td>
+<td>주주총회·임원 보수</td>
+<td>주총 소집</td>
+</tr>
+</tbody>
+</table>
+<p>🦅 <strong>잭이글</strong>: "10-K의 **Risk Factors(위험요인)**랑 **MD&#x26;A(경영진 분석)**만 읽어도 회사가 보여. 영어 어려우면 번역기 돌려."</p>
+<p>경로: EDGAR > Search > 회사명/티커 입력 > Filings > 10-K 선택</p>
+<hr>
+<h2>2. Yahoo Finance — 빠른 종합 정보</h2>
+<p><strong>finance.yahoo.com</strong> — 시세·차트·재무·실적일 한눈에. (국장 네이버증권 격)</p>
+<table>
+<thead>
+<tr>
+<th>무엇을 보나</th>
+<th>탭</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>시세·차트</td>
+<td>Summary / Chart</td>
+</tr>
+<tr>
+<td>PER·시총·배당</td>
+<td>Statistics</td>
+</tr>
+<tr>
+<td>재무제표</td>
+<td>Financials</td>
+</tr>
+<tr>
+<td><strong>실적 발표일</strong></td>
+<td>Summary > Earnings Date</td>
+</tr>
+<tr>
+<td>애널 목표가</td>
+<td>Analysis</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>3. Finviz — 종목 스크리닝 ⭐</h2>
+<p><strong>finviz.com</strong> — 조건으로 종목을 걸러내는 <strong>스크리너</strong>가 강력. (무료/유료)</p>
+<p>🦅 <strong>잭이글</strong>: "예를 들어 'PER 15 이하 + 배당 3% 이상 + 시총 100억달러 이상' 이런 조건으로 종목을 한 번에 찾을 수 있어."</p>
+<table>
+<thead>
+<tr>
+<th>기능</th>
+<th>경로</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>스크리너</td>
+<td>Screener > 조건 설정</td>
+</tr>
+<tr>
+<td>히트맵 (시장 전체 시각화)</td>
+<td>Maps</td>
+</tr>
+<tr>
+<td>뉴스 종합</td>
+<td>News</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>4. FRED — 거시경제 지표</h2>
+<p><strong>fred.stlouisfed.org</strong> — 미국 연준(세인트루이스) 경제 데이터. 금리·물가·고용.</p>
+<p>🦅 <strong>잭이글</strong>: "미장은 <strong>연준 금리</strong>에 민감해. 금리 오르면 기술주가 휘청이지. FRED에서 금리·CPI를 체크해."</p>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>검색어</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>기준금리</td>
+<td>Federal Funds Rate</td>
+</tr>
+<tr>
+<td>물가</td>
+<td>CPI</td>
+</tr>
+<tr>
+<td>고용</td>
+<td>Unemployment Rate</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>잭이글의 미장 분석 루틴</h2>
+<p><img src="/static/images/stock/characters/jake_happy.png" alt="잭이글"> 🦅 <strong>잭이글</strong>: "이 순서로 가봐."</p>
+<ol>
+<li><strong>Finviz 스크리너</strong>로 조건에 맞는 후보 발굴</li>
+<li><strong>Yahoo Finance</strong>에서 시세·PER·실적일 빠르게 확인</li>
+<li><strong>SEC EDGAR 10-K</strong>에서 사업·위험요인 정독</li>
+<li><strong>FRED</strong>에서 금리 환경 체크 (성장주는 특히)</li>
+<li>환율(원/달러) 흐름까지 고려해 최종 판단</li>
+</ol>
+<hr>
+<h3>📍 미장 사이트 총정리</h3>
+<table>
+<thead>
+<tr>
+<th>사이트</th>
+<th>URL</th>
+<th>핵심 용도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SEC EDGAR</td>
+<td>sec.gov/edgar</td>
+<td>공시·10-K 원본 ⭐</td>
+</tr>
+<tr>
+<td>Yahoo Finance</td>
+<td>finance.yahoo.com</td>
+<td>빠른 종합 정보</td>
+</tr>
+<tr>
+<td>Finviz</td>
+<td>finviz.com</td>
+<td>종목 스크리닝·히트맵 ⭐</td>
+</tr>
+<tr>
+<td>FRED</td>
+<td>fred.stlouisfed.org</td>
+<td>금리·거시지표</td>
+</tr>
+<tr>
+<td>TradingView</td>
+<td>tradingview.com</td>
+<td>차트·기술적 분석</td>
+</tr>
+<tr>
+<td>Seeking Alpha</td>
+<td>seekingalpha.com</td>
+<td>심층 분석 글(영어)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 미국 기업의 연간 사업보고서(10-K)를 보는 공식 사이트는?
+→ <strong>SEC EDGAR</strong>(sec.gov/edgar)</p>
+<p><strong>Q2.</strong> 조건(PER·배당·시총 등)으로 종목을 걸러내려면?
+→ <strong>Finviz</strong> 스크리너</p>
+<p><strong>Q3.</strong> 미국 기준금리·물가를 확인하는 곳은?
+→ <strong>FRED</strong>(연준 경제 데이터)</p>
+<hr>
+<p>🎬 <strong>다음 사이클 예고</strong>: 기초를 뗀 호두. 이제 기술적 분석(차트)·재무제표 심화로 들어간다. 거사부와 잭이글이 각 시장 버전으로 안내할 예정!</p>
+<blockquote>
+<p>※ 사이트 구조는 2026년 상반기 기준이며 개편될 수 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-06-03"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🇺🇸 [미장 기초 4] 미장 정보는 어디서? 잭이글의 사이트"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,0 +1,190 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","finance-04-debt-quality",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","finance-04-debt-quality","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T1da4,<h1>🧮 [재무심화 4] 부채와 재무건전성 — 위기에 안 무너질 회사</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "재무심화 마지막이다. 호두야, <strong>위기는 반드시 온다.</strong> 2026년 6월 오늘처럼 시장이 −7% 빠지는 날, 살아남는 회사와 무너지는 회사를 가르는 건 **재무 체력(건전성)**이야. ROE·성장보다 **'안 망할 회사인가'**가 먼저다."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "빚이 있으면 무조건 나쁜 거예요?"</p>
+<p>🐢 <strong>거사부</strong>: "아니다. <strong>적절한 빚은 약</strong>이고 <strong>과한 빚은 독</strong>이지. 그 경계를 보는 지표들을 알려주마."</p>
+<hr>
+<h2>1. 부채비율 — 빚이 자본의 몇 배인가</h2>
+<blockquote>
+<p><strong>부채비율 = 부채총계 ÷ 자기자본 × 100</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>부채비율</th>
+<th>통념적 해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>~100% 이하</td>
+<td>건전</td>
+</tr>
+<tr>
+<td>100~200%</td>
+<td>보통 (업종별)</td>
+</tr>
+<tr>
+<td>200% 초과</td>
+<td>경계 (업종 따라)</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "단, <strong>업종마다 기준이 다르다.</strong> 은행·금융은 원래 부채비율이 매우 높고(남의 돈으로 장사), 제조업은 낮아야 건전해. <strong>같은 업종끼리</strong> 비교해라(산업편)."</p>
+<hr>
+<h2>2. ⭐ 이자보상배율 — 이자를 감당할 힘</h2>
+<p>🐢 <strong>거사부</strong>: "부채비율보다 더 실전적인 게 <strong>이자보상배율</strong>이다. <strong>번 돈으로 이자를 몇 번 갚을 수 있나</strong>를 본다."</p>
+<blockquote>
+<p><strong>이자보상배율 = 영업이익 ÷ 이자비용</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>배율</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1배 미만</strong></td>
+<td>🔴 영업이익으로 <strong>이자도 못 냄</strong> (좀비기업)</td>
+</tr>
+<tr>
+<td>1~3배</td>
+<td>🟡 빠듯</td>
+</tr>
+<tr>
+<td>3배 이상</td>
+<td>🟢 여유</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "1배 미만이면 번 돈 전부를 이자로 내도 모자란 거네요?!"</p>
+<p>🐢 <strong>거사부</strong>: "그래. 그런 회사를 **'좀비기업'**이라 한다. 영업해서 이자도 못 갚고 빚으로 빚을 막아. <strong>금리가 오르면(경제 1편) 제일 먼저 쓰러져.</strong> 고금리 국면에 이자보상배율 1배 미만은 지뢰야. <strong>반드시</strong> 확인해라."</p>
+<hr>
+<h2>3. 유동비율 — 당장의 지급능력</h2>
+<blockquote>
+<p><strong>유동비율 = 유동자산 ÷ 유동부채 × 100</strong></p>
+</blockquote>
+<ul>
+<li>1년 안에 <strong>현금화할 자산</strong>으로 <strong>1년 안에 갚을 빚</strong>을 감당하나</li>
+<li><strong>100% 이상</strong>이면 단기 지급능력 OK, 그 이하면 단기 유동성 주의</li>
+<li>흑자도산(재무심화 1편)을 막는 단기 체력 지표</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "유동비율은 **'급할 때 막을 수 있나'**를 본다. 현금흐름표(1편)와 함께 보면 단기 위기 대응력이 보여."</p>
+<hr>
+<h2>4. 분식·위험의 냄새 — 숫자 뒤 신호</h2>
+<p>🐢 <strong>거사부</strong>: "재무제표엔 '냄새'가 난다. 이런 조합을 경계해라."</p>
+<table>
+<thead>
+<tr>
+<th>위험 신호</th>
+<th>의심</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>영업이익 (+) ↑인데 <strong>영업현금흐름 (−)</strong></td>
+<td>외상매출·분식 (1편)</td>
+</tr>
+<tr>
+<td><strong>매출채권·재고</strong>가 매출보다 빨리 증가</td>
+<td>밀어내기·재고 부실</td>
+</tr>
+<tr>
+<td>이자보상배율 <strong>1배 미만</strong> 지속</td>
+<td>좀비기업</td>
+</tr>
+<tr>
+<td>부채 급증 + <strong>유상증자 잦음</strong></td>
+<td>자금난</td>
+</tr>
+<tr>
+<td>잦은 <strong>회계기준 변경·감사의견 한정</strong></td>
+<td>적신호</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "하나만으론 단정 못 해도, <strong>여러 개가 겹치면</strong> 피하는 게 상책이다. 좋은 기회는 또 온다. <strong>안 망할 회사</strong>부터 거르는 게 수비의 핵심이야."</p>
+<hr>
+<h2>5. 실전 — 재무건전성 5초 체크</h2>
+<pre><code class="hljs language-scss">① 이자보상배율 ≥ <span class="hljs-number">1</span>배(가능하면 <span class="hljs-number">3</span>배+)? ← 고금리기 최우선
+② 부채비율이 동종업계 대비 과하지 않나?
+③ 유동비율 <span class="hljs-number">100%</span> 이상?
+④ 영업현금흐름(CFO) (+)이고 순이익과 같은 방향?
+⑤ 위험 신호(증자 남발·감사의견)가 겹치지 않나?
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "성장·밸류에이션을 따지기 <strong>전에</strong> 이 수비 체크부터다. <strong>'잃지 않는 것'이 첫째</strong>라던 버핏의 원칙이 여기 있어."</p>
+<hr>
+<h2>6. 함정</h2>
+<ol>
+<li><strong>"빚 있으면 무조건 나쁘다"</strong> ❌ → <strong>적정 레버리지는 ROE를 키운다</strong>(재무 기초 듀퐁). 과한 게 문제.</li>
+<li><strong>"부채비율만 보면 된다"</strong> ❌ → <strong>이자보상배율</strong>이 더 실전적. 고금리기엔 특히.</li>
+<li><strong>"성장만 좋으면 재무는 나중"</strong> ❌ → 위기에 <strong>재무 약한 회사가 먼저 죽는다.</strong> 수비가 먼저.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>부채비율·유동비율</td>
+<td><strong>FnGuide / DART 재무비율</strong></td>
+<td>동종업계 비교</td>
+</tr>
+<tr>
+<td>이자보상배율</td>
+<td><strong>FnGuide / 증권사</strong></td>
+<td>영업이익÷이자비용</td>
+</tr>
+<tr>
+<td>감사의견·증자</td>
+<td><strong>DART 공시</strong></td>
+<td>감사보고서·증자 공시</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 고금리 국면에서 가장 먼저 확인할 재무건전성 지표 하나는?
+→ <strong>이자보상배율</strong>(영업이익÷이자비용). 1배 미만이면 이자도 못 갚는 좀비기업.</p>
+<p><strong>Q2.</strong> 부채비율을 '같은 업종끼리' 비교해야 하는 이유는?
+→ 은행처럼 <strong>구조적으로 부채가 높은 업종</strong>이 있어 절대수치로 비교하면 왜곡.</p>
+<p><strong>Q3.</strong> '영업이익은 느는데 영업현금흐름이 마이너스'가 위험 신호인 이유는?
+→ 외상매출 누적·<strong>분식</strong> 가능성(이익은 의견, 현금은 사실 — 1편).</p>
+<hr>
+<h2>🎓 재무심화 트랙 졸업</h2>
+<p>🐢 <strong>거사부</strong>: "현금흐름·멀티플·DCF·재무건전성까지 왔다. 이제 너는 <strong>숫자로 회사의 진짜 체력과 가치를 입체적으로</strong> 본다. PER 하나 보던 때와는 차원이 다르지. 다음은 이 모든 분석을 **차트(기술적 분석 심화)**와 <strong>포트폴리오</strong>로 실전화하는 단계다."</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 특정 종목 추천이 아닙니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-11"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🧮 [재무심화 4] 부채와 재무건전성 — 위기에 안 무너질 회사"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"🧮 [재무심화 4] 부채와 재무건전성 — 위기에 안 무너질 회사 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

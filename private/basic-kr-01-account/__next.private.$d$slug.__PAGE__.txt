@@ -1,0 +1,110 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T151e,<h1>🇰🇷 [국장 기초 1] 호두, 증권계좌를 만들다</h1>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "거사부! 이번 달 첫 월급 받았어요. 주식 시작하려면 뭐부터 해야 돼요?"</p>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "허허, 좋은 마음이다. 하지만 급할 거 없어. <strong>증권계좌</strong>부터 만들어야 거래를 시작할 수 있단다."</p>
+<hr>
+<h2>1. 증권계좌가 뭔가요?</h2>
+<p>은행 계좌로는 주식을 살 수 없어요. <strong>증권사</strong>(키움증권, 삼성증권, 미래에셋, 토스증권 등)에서 별도의 <strong>증권 위탁계좌</strong>를 개설해야 합니다.</p>
+<table>
+<thead>
+<tr>
+<th>계좌 종류</th>
+<th>용도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>위탁계좌</strong></td>
+<td>일반 주식 매매 (가장 기본)</td>
+</tr>
+<tr>
+<td><strong>CMA</strong></td>
+<td>매매 + 매일 이자 (자금 파킹)</td>
+</tr>
+<tr>
+<td><strong>ISA</strong></td>
+<td>비과세 한도 운용 (연 200/400만원)</td>
+</tr>
+<tr>
+<td><strong>연금저축·IRP</strong></td>
+<td>세액공제 + 노후</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "처음엔 <strong>위탁계좌</strong> 하나면 충분하다. 절세는 나중에 ISA를 공부하면 돼."</p>
+<hr>
+<h2>2. 비대면 계좌 개설 (5분)</h2>
+<p>🐯 <strong>호두</strong>: "은행 가야 돼요?"</p>
+<p>🐢 <strong>거사부</strong>: "아니다. 요즘은 <strong>앱으로 비대면 개설</strong>이 된단다. 신분증과 본인 명의 은행계좌만 있으면 돼."</p>
+<ol>
+<li>증권사 앱 설치 (키움 영웅문S#, 삼성 mPOP, 토스증권 등)</li>
+<li>비대면 계좌개설 메뉴 → 신분증 촬영</li>
+<li>본인 명의 은행계좌 인증 (1원 송금 확인)</li>
+<li>거래 비밀번호 설정 → 개설 완료</li>
+<li>은행 계좌에서 증권계좌로 <strong>입금(이체)</strong> 후 매매 시작</li>
+</ol>
+<hr>
+<h2>3. 호가창 읽는 법</h2>
+<p>계좌를 만들었으면 종목 화면의 <strong>호가창</strong>을 볼 줄 알아야 해요.</p>
+<pre><code class="hljs language-scss">       매도호가   잔량
+        <span class="hljs-number">50</span>,<span class="hljs-number">300</span>    <span class="hljs-number">1</span>,<span class="hljs-number">200</span>   ← 팔겠다는 주문(위로 갈수록 비쌈)
+        <span class="hljs-number">50</span>,<span class="hljs-number">200</span>      <span class="hljs-number">800</span>
+        <span class="hljs-number">50</span>,<span class="hljs-number">100</span>      <span class="hljs-number">500</span>   ← 최우선 매도호가
+      ─────────────────
+        <span class="hljs-number">50</span>,<span class="hljs-number">000</span>      <span class="hljs-number">600</span>   ← 최우선 매수호가
+        <span class="hljs-number">49</span>,<span class="hljs-number">900</span>    <span class="hljs-number">1</span>,<span class="hljs-number">100</span>
+        <span class="hljs-number">49</span>,<span class="hljs-number">800</span>    <span class="hljs-number">2</span>,<span class="hljs-number">000</span>   ← 사겠다는 주문(아래로 갈수록 쌈)
+</code></pre>
+<p>🐯 <strong>호두</strong>: "그럼 제가 지금 당장 사려면 50,100원에 사지는 거예요?"</p>
+<p>🐢 <strong>거사부</strong>: "그렇지! <strong>시장가로 매수</strong>하면 가장 싼 매도호가(50,100원)부터 채워진단다. 똑똑하구나."</p>
+<hr>
+<h3>📍 어디서 보나 (실전 사이트 가이드)</h3>
+<table>
+<thead>
+<tr>
+<th>사이트</th>
+<th>메뉴 경로</th>
+<th>무엇을 확인</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>증권사 앱</strong> (키움/삼성/토스)</td>
+<td>계좌개설 메뉴</td>
+<td>비대면 개설, 수수료 우대 이벤트</td>
+</tr>
+<tr>
+<td><strong>금융투자협회</strong> (kofia.or.kr)</td>
+<td>전자공시서비스 > 금융투자회사 수수료 비교</td>
+<td>증권사별 매매 수수료율</td>
+</tr>
+<tr>
+<td><strong>네이버페이 증권</strong> (finance.naver.com)</td>
+<td>종목 검색 > 종합정보</td>
+<td>호가창·차트·뉴스 한눈에</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>💡 증권사마다 <strong>신규 개설 수수료 평생 우대</strong> 이벤트를 자주 합니다. 개설 전 비교하세요.</p>
+</blockquote>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 주식을 사려면 어떤 계좌가 필요한가?
+→ 증권사의 <strong>위탁계좌</strong> (은행 계좌로는 불가)</p>
+<p><strong>Q2.</strong> 시장가로 매수하면 호가창의 어느 가격부터 체결되나?
+→ <strong>최우선 매도호가</strong>(가장 싼 매도 주문)부터</p>
+<p><strong>Q3.</strong> 증권사별 수수료는 어디서 비교하나?
+→ <strong>금융투자협회</strong>(kofia.or.kr) 수수료 비교</p>
+<hr>
+<p>🎬 <strong>다음 에피소드</strong>: 호두가 드디어 첫 주문을 넣는다. 그런데 "시장가"로 샀다가 예상보다 비싸게 체결되는데...?</p>
+<blockquote>
+<p>※ 본 내용은 2026년 상반기 기준입니다. 수수료·세금·제도는 변경될 수 있으니 거래 전 증권사·공식 사이트를 확인하세요.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-06-10"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🇰🇷 [국장 기초 1] 호두, 증권계좌를 만들다"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

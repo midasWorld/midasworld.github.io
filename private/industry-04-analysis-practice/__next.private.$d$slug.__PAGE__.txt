@@ -1,0 +1,175 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T251b,<h1>🏭 [산업 4] 산업분석 실전 — 돈이 어디서 나는지 읽기</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "섹터 지도(1편)·로테이션(2편)·해자(3편)를 배웠다. 이제 <strong>하나의 산업을 깊이 해부</strong>하는 법이다. '이 산업에서 <strong>누가 돈을 쥐고</strong>, 경쟁은 얼마나 치열한가'를 읽으면, 같은 업종에서도 <strong>이길 회사</strong>가 보인다."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "산업을 해부한다고요? 어떻게요?"</p>
+<p>🐢 <strong>거사부</strong>: "두 개의 도구를 줄게. <strong>밸류체인</strong>과 <strong>경쟁구조</strong>다."</p>
+<hr>
+<h2>1. 밸류체인 — 돈이 흐르는 강줄기</h2>
+<p>🐢 <strong>거사부</strong>: "어떤 제품이든 <strong>원료 → 부품 → 완제품 → 유통 → 소비자</strong>로 흐른다. 이 강줄기에서 <strong>어느 길목이 돈을 가장 많이 먹나</strong>를 봐야 해."</p>
+<p><strong>예: 반도체 밸류체인</strong></p>
+<pre><code class="hljs language-scss">설계(팹리스) → 장비·소재 → 제조(파운드리) → 패키징 → 세트(스마트폰)
+   엔비디아      ASML·소재     TSMC           OSAT      애플·삼성
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "같은 '반도체 호황'이라도 <strong>누가 제일 남기나</strong>가 다르다. 장비 독점(ASML)·설계 독점(엔비디아)은 마진이 어마어마하지만, 단순 조립은 박하다. <strong>'호황이면 다 좋다'가 아니라 길목을 봐라.</strong>"</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "AI 붐이라고 다 같이 버는 게 아니라, **목 좋은 길목(엔비디아·ASML)**이 다 가져가는 거군요!"</p>
+<p>🐢 <strong>거사부</strong>: "그게 밸류체인 분석이다. <strong>병목(독과점) 길목</strong>이 해자(3편)와 만나면 최고의 자리지."</p>
+<hr>
+<h2>2. 경쟁구조 — 5가지 힘 (포터의 5 Forces)</h2>
+<p>🐢 <strong>거사부</strong>: "산업의 매력은 <strong>경쟁의 5가지 힘</strong>으로 판단한다. 힘이 셀수록 그 산업은 돈 벌기 어려워."</p>
+<table>
+<thead>
+<tr>
+<th>힘</th>
+<th>질문</th>
+<th>약하면(좋음)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>기존 경쟁</strong></td>
+<td>출혈 경쟁 중인가?</td>
+<td>과점·점잖은 경쟁</td>
+</tr>
+<tr>
+<td><strong>신규 진입</strong></td>
+<td>새 경쟁자가 쉽게 오나?</td>
+<td>진입장벽 높음(해자)</td>
+</tr>
+<tr>
+<td><strong>대체재</strong></td>
+<td>대체 상품이 있나?</td>
+<td>대체 어려움</td>
+</tr>
+<tr>
+<td><strong>공급자 힘</strong></td>
+<td>원료 공급자가 갑인가?</td>
+<td>공급자 약함</td>
+</tr>
+<tr>
+<td><strong>구매자 힘</strong></td>
+<td>고객이 갑이라 값 후려치나?</td>
+<td>고객 분산·약함</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "치킨게임 중인 산업(예: 한때 LCD·해운)은 1등도 피를 흘린다. 반대로 <strong>과점이고 진입장벽 높은</strong> 산업(예: 신용카드망)은 다들 편하게 벌지. <strong>산업 자체의 매력</strong>부터 봐야 해."</p>
+<hr>
+<h2>3. 톱다운 vs 보텀업 — 두 방향의 접근</h2>
+<p>🐢 <strong>거사부</strong>: "분석엔 두 방향이 있다. 둘을 <strong>합쳐야</strong> 강하다."</p>
+<table>
+<thead>
+<tr>
+<th>방식</th>
+<th>순서</th>
+<th>강점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>톱다운(하향식)</strong></td>
+<td>경제→섹터→산업→종목</td>
+<td>큰 흐름·국면 포착(경제 트랙)</td>
+</tr>
+<tr>
+<td><strong>보텀업(상향식)</strong></td>
+<td>종목(재무·해자)→위로</td>
+<td>좋은 기업 발굴(재무편)</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "톱다운으로 **'지금 어느 산업에 순풍이 부나'**를 고르고, 보텀업으로 **'그 산업에서 가장 튼튼한 기업'**을 고른다. 위에서 한 번, 아래서 한 번 — <strong>양쪽에서 만나면</strong> 확신이 커지지."</p>
+<hr>
+<h2>4. 산업 라이프사이클 — 성장 단계도 본다</h2>
+<p>🐢 <strong>거사부</strong>: "산업도 사람처럼 <strong>유년기→성장기→성숙기→쇠퇴기</strong>가 있다."</p>
+<table>
+<thead>
+<tr>
+<th>단계</th>
+<th>특징</th>
+<th>투자 포인트</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>태동/성장</strong></td>
+<td>고성장·적자도 많음</td>
+<td>점유율 1등 후보, 변동성 큼</td>
+</tr>
+<tr>
+<td><strong>성숙</strong></td>
+<td>성장 둔화·안정 이익</td>
+<td>배당·현금흐름, 1등의 해자</td>
+</tr>
+<tr>
+<td><strong>쇠퇴</strong></td>
+<td>시장 축소</td>
+<td>구조조정·배당 회수, 가치함정 주의</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "성숙·쇠퇴 산업의 저PER은 **'가치함정'**일 수 있다(재무편 '싼 데는 이유'). 반대로 성장산업은 PER이 높아도 정당화되기도 해. <strong>단계에 맞는 잣대</strong>를 써라."</p>
+<hr>
+<h2>5. 실전 — 산업 한 장 분석 템플릿</h2>
+<pre><code class="hljs language-yaml"><span class="hljs-string">①</span> <span class="hljs-string">밸류체인:</span> <span class="hljs-string">이</span> <span class="hljs-string">산업의</span> <span class="hljs-string">돈은</span> <span class="hljs-string">어느</span> <span class="hljs-string">길목에</span> <span class="hljs-string">몰리나?</span> <span class="hljs-string">(병목=기회)</span>
+<span class="hljs-string">②</span> <span class="hljs-attr">5 Forces:</span> <span class="hljs-string">산업</span> <span class="hljs-string">자체가</span> <span class="hljs-string">돈</span> <span class="hljs-string">벌기</span> <span class="hljs-string">좋은</span> <span class="hljs-string">구조인가?</span>
+<span class="hljs-string">③</span> <span class="hljs-string">라이프사이클:</span> <span class="hljs-string">성장기인가</span> <span class="hljs-string">성숙·쇠퇴기인가?</span>
+<span class="hljs-string">④</span> <span class="hljs-string">순풍/역풍:</span> <span class="hljs-string">경제·금리·정책이</span> <span class="hljs-string">이</span> <span class="hljs-string">산업에</span> <span class="hljs-string">우호적인가?</span> <span class="hljs-string">(톱다운)</span>
+<span class="hljs-string">⑤</span> <span class="hljs-number">1</span><span class="hljs-string">등</span> <span class="hljs-string">후보:</span> <span class="hljs-string">그</span> <span class="hljs-string">안에서</span> <span class="hljs-string">해자·재무</span> <span class="hljs-string">튼튼한</span> <span class="hljs-string">기업은?</span> <span class="hljs-string">(보텀업)</span>
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "이 다섯 줄이면 처음 보는 산업도 <strong>30분이면 뼈대</strong>를 잡는다. 유튜버 말 듣기 전에 <strong>스스로</strong> 이걸 채워봐."</p>
+<hr>
+<h2>6. 함정</h2>
+<ol>
+<li><strong>"호황 산업이면 아무 종목이나"</strong> ❌ → <strong>밸류체인 길목</strong>이 다 가른다. 병목을 쥔 회사가 남긴다.</li>
+<li><strong>"경쟁 심한 줄 모르고 1등이라 매수"</strong> ❌ → 치킨게임 산업은 1등도 피흘림. <strong>산업 구조</strong>부터.</li>
+<li><strong>"저PER이면 무조건 싸다"</strong> ❌ → <strong>쇠퇴 산업의 가치함정</strong>일 수 있음. 라이프사이클 확인.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>용도</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>산업 구조·밸류체인</td>
+<td><strong>증권사 산업분석 리포트</strong></td>
+<td>무료 리서치</td>
+</tr>
+<tr>
+<td>사업 내용·경쟁</td>
+<td><strong>DART 사업보고서</strong></td>
+<td>'사업의 내용'</td>
+</tr>
+<tr>
+<td>글로벌 산업 동향</td>
+<td><strong>업종 ETF 구성·뉴스</strong></td>
+<td>밸류체인 종목 파악</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 같은 'AI 붐'에도 종목별 수익이 갈리는 이유를 밸류체인으로 설명하면?
+→ <strong>병목(독과점) 길목</strong>(설계·장비)이 마진을 독식. 단순 조립 길목은 박함.</p>
+<p><strong>Q2.</strong> 톱다운과 보텀업을 합치면 좋은 이유는?
+→ 톱다운으로 <strong>순풍 부는 산업</strong>을, 보텀업으로 <strong>그 안의 튼튼한 1등</strong>을 골라 양쪽에서 검증.</p>
+<p><strong>Q3.</strong> 쇠퇴 산업의 저PER을 조심해야 하는 이유는?
+→ 시장이 줄어드는 <strong>가치함정</strong>일 수 있음. 라이프사이클 단계에 맞는 잣대 필요.</p>
+<hr>
+<h2>🎓 산업·섹터 트랙 졸업</h2>
+<p>🐢 <strong>거사부</strong>: "섹터 지도·로테이션·해자·산업분석까지 왔다. 이제 너는 **'어느 동네가 따뜻하고, 그 동네 누가 성벽이 튼튼한지'**를 읽는다. 다음은 이걸로 <strong>배당</strong>과 <strong>포트폴리오</strong>를 짜는 단계다."</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 특정 산업·종목 추천이 아닙니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-03"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🏭 [산업 4] 산업분석 실전 — 돈이 어디서 나는지 읽기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,0 +1,110 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T1450,<h1>🎯 [실전 2] 매수·매도와 손절 — 잃지 않는 게 먼저</h1>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "좋은 종목 골랐어요! 이제 전 재산 넣으면 되죠?!"</p>
+<p><img src="/static/images/stock/characters/gosabu_surprised.png" alt="거사부"> 🐢 <strong>거사부</strong>: "멈춰라! 그러다 한 번에 망한다. <strong>얼마를, 언제, 어떻게 사고 파는지</strong>가 종목 고르기보다 더 중요하다. 워런 버핏의 1원칙: '돈을 잃지 마라.'"</p>
+<hr>
+<h2>1. 분할 매수 — 한 번에 다 사지 마라</h2>
+<p>🐢 <strong>거사부</strong>: "아무리 확신해도 타이밍은 못 맞춘다. 그래서 <strong>나눠 산다.</strong>"</p>
+<ul>
+<li>사고 싶은 금액을 <strong>3~4번에 나눠</strong> 매수</li>
+<li>예: 목표 300만원 → 100만 × 3회 (가격 빠지면 추가)</li>
+<li>장점: 평균 단가 안정, 한 번에 고점 매수 위험 ↓</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "단, '물타기'(떨어질 때 추가매수)는 <strong>종목이 여전히 좋을 때만</strong>. 망해가는 회사에 물타기는 같이 가라앉는 길이야."</p>
+<hr>
+<h2>2. 손절 — 가장 중요한데 가장 안 지키는 것</h2>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "손절이요? 오를 때까지 기다리면 안 돼요?"</p>
+<p>🐢 <strong>거사부</strong>: "그 '기다림'이 계좌를 녹인다. <strong>손실은 비대칭</strong>이야."</p>
+<table>
+<thead>
+<tr>
+<th>손실</th>
+<th>회복에 필요한 수익</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>−10%</td>
+<td>+11%</td>
+</tr>
+<tr>
+<td>−20%</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>−50%</td>
+<td><strong>+100%</strong></td>
+</tr>
+<tr>
+<td>−90%</td>
+<td><strong>+900%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "−50% 맞으면 +100% 나야 본전이다. 그래서 <strong>작을 때 자른다.</strong> 매수 전에 '−○%면 판다'를 <strong>미리</strong> 정해두는 게 손절선이야."</p>
+<p><strong>손절 원칙 예시:</strong></p>
+<ul>
+<li>매수가 대비 <strong>−7~10%</strong> 도달 시 기계적 매도 (단기)</li>
+<li>또는 <strong>주요 지지선·이평선 이탈</strong> 시 (기술적)</li>
+<li>손절선은 <strong>매수 전에</strong> 정하고, 감정으로 바꾸지 않는다</li>
+</ul>
+<hr>
+<h2>3. 포지션 사이징 — 한 종목에 얼마?</h2>
+<p>🐢 <strong>거사부</strong>: "한 종목에 전 재산? 절대 안 된다. <strong>한 번의 실수로 끝나지 않을 만큼만</strong> 건다."</p>
+<ul>
+<li>한 종목 비중 <strong>전체의 10~20% 이내</strong> (집중해도 25% 상한)</li>
+<li>"이 종목이 −50% 나도 내 전체 자산은 −○%"를 계산해두기</li>
+<li><strong>2% 룰</strong>: 한 번의 손절로 전체 자산의 2% 이상 잃지 않게 매수량 조절</li>
+</ul>
+<p><strong>예시</strong>: 자산 1,000만원, 2% 룰 → 한 거래 최대 손실 20만원.
+손절선 −10%라면 → 한 종목 매수액 = 20만 ÷ 0.10 = <strong>200만원</strong>까지.</p>
+<hr>
+<h2>4. 매도 — 언제 파나</h2>
+<p>🐢 <strong>거사부</strong>: "사는 것보다 파는 게 어렵다. 매도 기준은 셋이다."</p>
+<table>
+<thead>
+<tr>
+<th>매도 사유</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>목표 도달(익절)</strong></td>
+<td>미리 정한 목표가/밸류에이션 도달</td>
+</tr>
+<tr>
+<td><strong>손절선 도달</strong></td>
+<td>미리 정한 손실 한도</td>
+</tr>
+<tr>
+<td><strong>이유 소멸</strong></td>
+<td>살 때의 근거(실적·성장)가 깨짐</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "'더 오를 것 같아서' 안 팔고, '오르면 본전 찾고 팔려고' 손절 안 하고 — 이 둘이 가장 흔한 패망 패턴이다. <strong>계획대로</strong> 판다."</p>
+<hr>
+<h2>5. 매매일지 — 고수의 비밀</h2>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "기록을 남기라구요?"</p>
+<p>🐢 <strong>거사부</strong>: "그렇다. 매수마다 <strong>왜 샀는지, 손절선·목표가, 결과</strong>를 적어라. 나중에 보면 네 실수 패턴이 보인다. 이게 실력을 늘리는 가장 빠른 길이야."</p>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> −50% 손실을 회복하려면 몇 % 수익이 필요한가?
+→ <strong>+100%</strong> (손실은 비대칭 → 작을 때 손절)</p>
+<p><strong>Q2.</strong> 2% 룰에서 자산 1,000만·손절선 −10%면 한 종목 최대 매수액은?
+→ 20만 ÷ 0.10 = <strong>200만원</strong></p>
+<p><strong>Q3.</strong> 가장 흔한 패망 패턴 두 가지는?
+→ 손절 안 하고 버티기 + "더 오를 것 같아" 익절 미루기 (계획대로 X)</p>
+<hr>
+<p>🎬 <strong>다음</strong>: 한 종목이 아니라 '바구니 전체'를 보는 법 — 포트폴리오와 분산.</p>
+<blockquote>
+<p>※ 손절선·비중은 예시이며 개인 위험성향에 따라 다릅니다. 매매 권유가 아닙니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-04-27"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🎯 [실전 2] 매수·매도와 손절 — 잃지 않는 게 먼저"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

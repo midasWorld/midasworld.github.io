@@ -1,0 +1,112 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","2023-06-06-python-tomcat",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","2023-06-06-python-tomcat","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:Tfee,<p>💻 Mac M1 환경에서 진행 했습니다!</p>
+<h2>파이썬 + 플라스크 설치 및 실행하기</h2>
+<pre><code class="hljs language-shell">brew search pyenv
+
+brew install pyenv
+
+pyenv install --list
+
+pyenv install 3.11.2
+
+python3 --version
+</code></pre>
+<pre><code class="hljs language-shell">vi ~/.zshrc
+</code></pre>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">Python 설정 추가</span> 
+alias python="python3"
+</code></pre>
+<pre><code class="hljs language-shell">pip install flask
+<span class="hljs-meta prompt_">
+# </span><span class="bash">기타 필요한 모듈 설치</span>
+pip install requests
+pip install bs4
+<span class="hljs-meta prompt_">
+# </span><span class="bash">app.py  실행!</span>
+python app.py
+</code></pre>
+<h2>톰캣 설치 및 실행하기</h2>
+<h3>🤔 의문의 에러 발생??</h3>
+<p><img src="https://user-images.githubusercontent.com/93169519/223099688-c5eef764-9529-429e-bd6e-e234f496026c.png" alt="image"></p>
+<p>이게 뭔가 싶어 검색해봤지만 별다른 정보도 없었고, <code>brew list</code> 명령어 입력을 해보니 pcre2 는 이미 설치된 상태였기에 원인을 파악할 수가 없었습니다.
+<br>
+그래서 다시 설치해보니 문제 없이 설치되었다! 😓</p>
+<h3>톰캣 실행</h3>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">톰캣 설치된 디렉토리로 이동</span>
+cd /opt/homebrew/Cellar/tomcat/10.1.7/bin/
+<span class="hljs-meta prompt_">
+# </span><span class="bash">실행!</span>
+./catalina start
+<span class="hljs-meta prompt_">
+# </span><span class="bash">종료!</span>
+./catalina stop
+</code></pre>
+<h2>Open SSL 설치 및 적용하기</h2>
+<h3>Open SSL 설치</h3>
+<pre><code class="hljs language-shell">genrsa -des3 -out [키이름] 2048 
+genrsa -des3 -out private.pem 2048
+
+genrsa -out [키이름] 2048
+genrsa -out private.key 2048
+
+rsa -in [개인키] -pubout -out [공개키] rsa -in priavte.key -pubout -out public.key
+
+req -new -key [키] -out [CSR이름.csr]
+req -new -key private.key -out private.csr
+<span class="hljs-meta prompt_">
+# </span><span class="bash">안되면</span>
+
+req -new -config ./openssl.cnf -key private.key -out private.csr
+
+genrsa [암호화 알고리즘] -out [키이름] 2048
+genrsa -aes256 -out rootCA.key 2048
+
+req -x509 -new -nodes -key rootCA.key -days 3650 -out rootCA.pem
+<span class="hljs-meta prompt_">
+# </span><span class="bash">안되면</span>
+
+req -config ./openssl.cnf -x509 -new -nodes -key rootCA.key -days 3650 -out rootCA.pem
+
+x509 -req -in private.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out private.crt -days 3650
+
+//안되면
+x509 -req -config ./openssl.cnf -in private.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out private.crt -days 3650
+</code></pre>
+<pre><code class="hljs language-xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">Connector</span> 
+          <span class="hljs-attr">port</span>=<span class="hljs-string">"8443"</span> 
+          <span class="hljs-attr">protocol</span>=<span class="hljs-string">"org.apache.coyote.http11.Http11NioProtocol"</span>
+          <span class="hljs-attr">maxThreads</span>=<span class="hljs-string">"150"</span> 
+          <span class="hljs-attr">SSLEnabled</span>=<span class="hljs-string">"true"</span> 
+          <span class="hljs-attr">scheme</span>=<span class="hljs-string">"https"</span> 
+          <span class="hljs-attr">secure</span>=<span class="hljs-string">"true"</span>
+          <span class="hljs-attr">keystoreFile</span>=<span class="hljs-string">"/Users/midas/Downloads/ssl/.keystore"</span>
+          <span class="hljs-attr">keystorePass</span>=<span class="hljs-string">"helloworld"</span> 
+          <span class="hljs-attr">keystoreType</span>=<span class="hljs-string">"pkcs12"</span>
+          <span class="hljs-attr">clientauth</span>=<span class="hljs-string">"false"</span> 
+          <span class="hljs-attr">sslProtocol</span>=<span class="hljs-string">"TLS"</span>
+          /></span>
+</code></pre>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"archive"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2023-06-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"톰캣 + SSL + 파이썬(플라스크) 실행기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"톰캣 + SSL + 파이썬(플라스크) 실행기 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

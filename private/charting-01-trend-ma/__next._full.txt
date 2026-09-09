@@ -1,0 +1,176 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","charting-01-trend-ma",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","charting-01-trend-ma","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T1c5a,<h1>📈 [기술심화 1] 추세와 이동평균 — 흐름을 거스르지 마라</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 기술적 분석 기초(캔들)는 배웠지. 이제 심화다. 먼저 못 박자 — <strong>기술적 분석은 예언이 아니라 확률</strong>이다. '오를 가능성이 높은 자리'를 찾는 거지 미래를 맞히는 게 아냐. 그 전제 위에서, 가장 기본이자 강력한 <strong>추세와 이동평균</strong>을 배운다."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "차트로 미래를 맞히는 거 아니었어요?"</p>
+<p>🐢 <strong>거사부</strong>: "그렇게 믿으면 망한다. <strong>'추세를 읽고 확률 높은 편에 서는 것'</strong> — 그게 전부야. 보자."</p>
+<hr>
+<h2>1. 추세 — 시장의 큰 방향</h2>
+<p>🐢 <strong>거사부</strong>: "가격은 <strong>세 방향</strong> 중 하나로 흐른다. <strong>'추세는 친구다(The trend is your friend)'</strong> — 거스르지 마라."</p>
+<table>
+<thead>
+<tr>
+<th>추세</th>
+<th>모양</th>
+<th>대응 통념</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>상승추세</strong></td>
+<td>고점·저점이 점점↑</td>
+<td>눌림목 매수 관점</td>
+</tr>
+<tr>
+<td><strong>하락추세</strong></td>
+<td>고점·저점이 점점↓</td>
+<td>섣부른 저점매수 위험</td>
+</tr>
+<tr>
+<td><strong>횡보(박스)</strong></td>
+<td>일정 범위 등락</td>
+<td>박스 하단 매수·상단 매도</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "초보는 <strong>하락추세에서 '싸졌다'며 계속 사다가</strong> 물린다('떨어지는 칼날 잡기'). 추세가 꺾였는지부터 확인하는 게 먼저야."</p>
+<hr>
+<h2>2. 지지선과 저항선 — 심리의 벽</h2>
+<ul>
+<li><strong>지지선</strong>: 가격이 내려오다 <strong>반등하는</strong> 바닥 (사려는 힘)</li>
+<li><strong>저항선</strong>: 가격이 오르다 <strong>막히는</strong> 천장 (팔려는 힘)</li>
+<li><strong>돌파</strong>: 저항을 뚫으면 그 저항이 <strong>지지로 전환</strong>(역할 반전)</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "지지·저항은 <strong>사람들의 기억</strong>이다. '저기서 막혔었지' 하는 심리가 벽을 만들어. 그래서 <strong>많이 부딪힌 자리일수록</strong> 강한 벽이지. 돌파엔 보통 <strong>거래량</strong>이 따라야 진짜다(다음 편)."</p>
+<hr>
+<h2>3. 이동평균선(MA) — 추세를 눈에 보이게</h2>
+<blockquote>
+<p><strong>이동평균 = 최근 N일 종가의 평균을 이은 선</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>MA</th>
+<th>성격</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>단기(5·20일)</td>
+<td>민감, 최근 흐름</td>
+</tr>
+<tr>
+<td>중기(60일)</td>
+<td>수급선</td>
+</tr>
+<tr>
+<td>장기(120·200일)</td>
+<td>큰 추세·경기선</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "주가가 <strong>이평선 위</strong>에 있으면 그 기간 산 사람들이 평균적으로 이익(상승 기운), <strong>아래</strong>면 손실(하락 기운)이다. 특히 <strong>200일선</strong>은 장기 추세의 분기점으로 세계가 본다."</p>
+<hr>
+<h2>4. 정배열·역배열 &#x26; 골든/데드크로스</h2>
+<p>🐢 <strong>거사부</strong>: "이평선들의 <strong>줄 서기</strong>가 추세를 말한다."</p>
+<table>
+<thead>
+<tr>
+<th>배열</th>
+<th>모양</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>정배열</strong></td>
+<td>단기>중기>장기 (위→아래)</td>
+<td>건강한 상승추세</td>
+</tr>
+<tr>
+<td><strong>역배열</strong></td>
+<td>단기&#x3C;중기&#x3C;장기</td>
+<td>하락추세</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>골든크로스</strong>: 단기선이 장기선을 <strong>아래→위로 돌파</strong> → 상승전환 신호(통념)</li>
+<li><strong>데드크로스</strong>: 단기선이 장기선을 <strong>위→아래로 이탈</strong> → 하락전환 신호</li>
+</ul>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "골든크로스 뜨면 사면 되는 거예요?"</p>
+<p>🐢 <strong>거사부</strong>: "<strong>그렇게 단순하면 다 부자 됐지.</strong> 이평선은 <strong>후행지표</strong>다 — 평균이라 한 박자 늦어. 골든크로스가 '뜬 걸 확인'했을 땐 이미 오른 뒤일 때가 많아. <strong>신호이자 확인</strong>일 뿐, 매매 자판기가 아니야."</p>
+<hr>
+<h2>5. 실전 — 이동평균 활용</h2>
+<pre><code class="hljs">① 큰 추세 확인: 주가가 200일선 위인가 아래인가 (편들기)
+② 배열 확인: 정배열(상승)인가 역배열(하락)인가
+③ 눌림목: 상승추세에서 20·60일선까지 눌릴 때 관심
+④ 이탈 경계: 중요한 이평선(예 60·200일)을 거래량 동반해 깨면 추세 훼손
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "이평선은 <strong>'지금 추세의 편'을 정하는</strong> 나침반이다. 매수·매도 정밀 타이밍보다 **'상승 편이냐 하락 편이냐'**를 가르는 데 써라."</p>
+<hr>
+<h2>6. 함정</h2>
+<ol>
+<li><strong>"하락추세인데 싸졌으니 매수"</strong> ❌ → <strong>떨어지는 칼날.</strong> 추세 전환 확인이 먼저.</li>
+<li><strong>"골든크로스=매수 자판기"</strong> ❌ → 이평선은 <strong>후행</strong>. 속임수(가짜 신호)도 잦다. 거래량·추세와 같이.</li>
+<li><strong>"기술적 분석으로 미래를 맞힌다"</strong> ❌ → 확률 도구. <strong>재무·가치(기본적 분석)와 함께</strong> 써야 강하다.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>용도</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>차트·이평선</td>
+<td><strong>네이버페이 증권 / TradingView</strong></td>
+<td>5·20·60·120·200일 설정</td>
+</tr>
+<tr>
+<td>미국 차트</td>
+<td><strong>TradingView / finviz</strong></td>
+<td>50일·200일 MA</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> "추세는 친구다"가 뜻하는 매매 태도는?
+→ <strong>추세를 거스르지 말 것.</strong> 특히 하락추세 종목의 섣부른 저점매수(칼날 잡기)를 경계.</p>
+<p><strong>Q2.</strong> 골든크로스를 '매수 자판기'로 쓰면 안 되는 이유는?
+→ 이동평균은 <strong>후행지표</strong>라 신호가 늦고 <strong>가짜 신호</strong>도 잦음. 거래량·추세와 병행 확인.</p>
+<p><strong>Q3.</strong> 200일 이동평균선이 중요하게 여겨지는 이유는?
+→ <strong>장기 추세의 분기점</strong>으로 전 세계가 참고 → 그 위/아래가 큰 방향의 기준.</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [기술심화 2] 거래량 — 가격은 거짓말해도 거래량은 못 한다.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 특정 종목 추천이 아닙니다. 기술적 신호는 확률이지 보장이 아닙니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-06-02"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"📈 [기술심화 1] 추세와 이동평균 — 흐름을 거스르지 마라"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"📈 [기술심화 1] 추세와 이동평균 — 흐름을 거스르지 마라 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

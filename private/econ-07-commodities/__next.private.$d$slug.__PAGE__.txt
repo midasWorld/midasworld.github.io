@@ -1,0 +1,150 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T1cf1,<h1>🌍 [경제 7] 원자재·유가·금 — 인플레 헤지와 경기 바로미터</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 주식·채권·환율을 배웠다. 이제 <strong>원자재</strong>다. 유가·금·구리는 그 자체로 투자 대상이기도 하지만, 더 중요한 건 <strong>경제의 체온계</strong> 역할이야. 이걸 읽으면 인플레(2편)와 경기(3편)를 한발 앞서 본다."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "기름값, 금값이 제 주식이랑 무슨 상관이에요?"</p>
+<p>🐢 <strong>거사부</strong>: "엄청난 상관이 있다. 하나씩 보자."</p>
+<hr>
+<h2>1. 유가(원유) — 인플레와 섹터의 스위치</h2>
+<p>🐢 <strong>거사부</strong>: "원유는 <strong>거의 모든 물건의 원가</strong>에 들어간다. 운송·플라스틱·화학·난방... 그래서 유가는 <strong>인플레의 주범</strong>이자 <strong>섹터 손익의 스위치</strong>야."</p>
+<table>
+<thead>
+<tr>
+<th>유가 상승</th>
+<th>영향</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>인플레 압력↑</td>
+<td>→ 금리 인상 압력(1·2편으로 연결)</td>
+</tr>
+<tr>
+<td><strong>수혜</strong>: 정유·에너지·조선</td>
+<td>매출·마진↑</td>
+</tr>
+<tr>
+<td><strong>피해</strong>: 항공·운송·화학</td>
+<td>연료·원료비↑ → 마진↓</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>대표 유종: <strong>WTI</strong>(미국), <strong>브렌트</strong>(유럽/글로벌)</li>
+<li>유가 급등은 <strong>스태그플레이션</strong>(2편)의 단골 방아쇠 — 1970년대 오일쇼크</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "그래서 유가 차트는 에너지주 투자자만 보는 게 아니다. <strong>인플레 → 금리</strong>를 미리 가늠하는 선행 단서로 모두가 본다."</p>
+<hr>
+<h2>2. 금(Gold) — 안전자산이자 실질금리의 거울</h2>
+<p>🐢 <strong>거사부</strong>: "금은 이자도 배당도 없다. 그런데 왜 사느냐? <strong>세 가지 얼굴</strong> 때문이다."</p>
+<table>
+<thead>
+<tr>
+<th>금의 얼굴</th>
+<th>언제 빛나나</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>안전자산</strong></td>
+<td>위기·전쟁·공포(VIX↑) 때 도피처</td>
+</tr>
+<tr>
+<td><strong>인플레 헤지</strong></td>
+<td>화폐가치 하락 시 실물로 보존</td>
+</tr>
+<tr>
+<td><strong>무이자 자산</strong></td>
+<td><strong>실질금리(명목금리−물가)</strong> 낮을수록 매력↑</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "금은 이자가 없는데, 금리가 높으면 왜 불리해요?"</p>
+<p>🐢 <strong>거사부</strong>: "좋은 질문이다. 금리가 높으면 **'이자 주는 예금·채권'**이 매력적이지? 그럼 <strong>이자 없는 금</strong>은 상대적으로 손해야. 그래서 <strong>실질금리↑ → 금 약세</strong>, <strong>실질금리↓ → 금 강세</strong> 경향이 있다. 금값을 보면 거꾸로 실질금리 분위기를 읽을 수 있어."</p>
+<hr>
+<h2>3. 구리(Dr. Copper) — 경기의 박사</h2>
+<p>🐢 <strong>거사부</strong>: "구리는 별명이 **'닥터 코퍼(경제학 박사)'**다. 전선·건설·전자에 두루 쓰여서, <strong>구리 수요 = 실물 경기</strong>를 잘 비춰."</p>
+<ul>
+<li>구리값 <strong>상승</strong> → 제조·건설 활발 → 경기 확장 신호</li>
+<li>구리값 <strong>하락</strong> → 수요 위축 → 경기 둔화 신호</li>
+<li><strong>구리/금 비율</strong>도 유명: 위험선호(구리)↔안전(금)의 줄다리기</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "지표 발표를 기다릴 것 없이, 구리가 <strong>먼저</strong> 경기를 속삭여준다. 그래서 선행지표(3편)의 보조로 쓴다."</p>
+<hr>
+<h2>4. 원자재로 시황 읽기 — 통합</h2>
+<p>🐢 <strong>거사부</strong>: "1~7편을 원자재로 묶어보자."</p>
+<pre><code class="hljs language-scss">유가↑ → 인플레↑ → 금리↑ → 성장주↓ (+ 에너지주↑)
+구리↑ → 경기 확장 기대 → 경기민감주·소재주 유리
+금↑   → 공포·실질금리↓ → 위험회피 분위기
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "원자재는 **'경제 사슬의 맨 앞'**에 가깝다. 물가·금리·경기가 숫자로 발표되기 전에 <strong>가격으로 먼저</strong> 움직이거든."</p>
+<hr>
+<h2>5. 어떻게 투자하나 (개념만)</h2>
+<p>🐢 <strong>거사부</strong>: "개인이 원유·금을 실물로 들긴 어렵다. 보통 <strong>ETF</strong>나 관련주로 접근해."</p>
+<ul>
+<li>금: 금 ETF(예: KRX금현물·해외 GLD), 금광주</li>
+<li>원유: 원유 ETF/ETN(롤오버 비용 주의), 정유·에너지주</li>
+<li>원자재 전반: 원자재 지수 ETF</li>
+</ul>
+<blockquote>
+<p>⚠️ 원자재 ETF/ETN은 <strong>롤오버(선물 만기 교체) 비용</strong>으로 장기 보유 시 손실이 누적될 수 있다. 상품 편(Stage 2)에서 더 다룬다.</p>
+</blockquote>
+<hr>
+<h2>6. 함정</h2>
+<ol>
+<li><strong>"인플레엔 무조건 금"</strong> ❌ → <strong>실질금리</strong>가 더 중요. 고금리면 인플레여도 금이 눌릴 수 있다.</li>
+<li><strong>"원유 ETF로 유가 따라가면 되지"</strong> ❌ → <strong>롤오버 비용</strong>으로 유가가 올라도 ETF는 덜 오르거나 빠질 수 있다.</li>
+<li><strong>"원자재는 나랑 무관"</strong> ❌ → 유가=인플레, 구리=경기. <strong>남의 주식도 원자재로 설명</strong>된다.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>유가(WTI·브렌트)</td>
+<td><strong>investing.com</strong></td>
+<td>"Crude Oil WTI"</td>
+</tr>
+<tr>
+<td>금·은</td>
+<td><strong>investing.com / KRX금시장</strong></td>
+<td>"Gold"</td>
+</tr>
+<tr>
+<td>구리·구리금비율</td>
+<td><strong>TradingView</strong></td>
+<td>"Copper", "Copper/Gold"</td>
+</tr>
+<tr>
+<td>원자재 전반</td>
+<td><strong>FRED / 한국은행 ECOS</strong></td>
+<td>원자재 가격지수</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 유가 급등이 항공주엔 악재, 정유주엔 호재인 이유는?
+→ 항공은 **연료비(원가)↑**로 마진↓, 정유는 <strong>제품 마진↑</strong>. 유가는 섹터별 손익 스위치.</p>
+<p><strong>Q2.</strong> 금리가 높을 때 금이 상대적으로 불리한 이유는?
+→ 금은 <strong>이자가 없어서</strong>, 이자 주는 자산 대비 매력↓. <strong>실질금리↑ → 금 약세</strong> 경향.</p>
+<p><strong>Q3.</strong> 구리가 '경제학 박사'로 불리는 이유는?
+→ 산업 전반에 쓰여 <strong>구리 수요가 실물 경기를 선행해 비추기</strong> 때문.</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [경제 8] 경제 캘린더 — FOMC·CPI·고용·실적시즌, 1년 이벤트를 읽는 법.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 투자 권유가 아닙니다. 원자재는 변동성이 크고 ETF는 롤오버 비용이 있습니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-16"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🌍 [경제 7] 원자재·유가·금 — 인플레 헤지와 경기 바로미터"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,0 +1,198 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","fundamental-us-02-10k",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","fundamental-us-02-10k","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T1c3f,<h1>🇺🇸 [미장 재무 2] 애플 ROE 141%·PBR 42의 비밀 — 자사주의 마법</h1>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "잭이글! 애플 ROE가 <strong>141%</strong>, PBR이 <strong>42배</strong>래요. 이거 숫자가 고장난 거 아니에요?!"</p>
+<p><img src="/static/images/stock/characters/jake_explaining.png" alt="잭이글"> 🦅 <strong>잭이글</strong>: "Haha, 안 고장났어. 이게 바로 미국식 주주환원, <strong>자사주 매입(buyback)의 마법</strong>이야. 한국에선 보기 힘든 숫자지."</p>
+<blockquote>
+<p>📅 <strong>기준일: 2026-06-02</strong>. 애플 ROE 141.5%, PBR 42.32, PER 37.15 (Yahoo Finance 기준).</p>
+</blockquote>
+<hr>
+<h2>1. 왜 애플 ROE가 141%인가?</h2>
+<p><strong>ROE = 순이익 ÷ 자기자본</strong></p>
+<p>🦅 <strong>잭이글</strong>: "분자(순이익)가 큰 것도 있지만, 핵심은 <strong>분모(자기자본)가 작아진</strong> 거야."</p>
+<ul>
+<li>애플은 매년 <strong>수백억 달러로 자사주를 사서 소각</strong>함</li>
+<li>자사주 매입 → 자본(equity)이 줄어듦 → ROE 분모 ↓ → <strong>ROE 폭등</strong></li>
+<li>같은 이유로 순자산이 작아지니 <strong>PBR(주가÷순자산)도 42배로 치솟음</strong></li>
+</ul>
+<p><img src="/static/images/stock/charts/aapl_buyback.png" alt="애플 발행주식수 감소 차트"></p>
+<p>🦅 <strong>잭이글</strong>: "차트 봐. 애플 주식 수가 2022년 15.9억 주에서 계속 줄지? 매년 자사주를 사서 소각한 거야. 주식 수가 줄면 분모(자본)도 줄어 ROE가 치솟는 거지. ROE 141%를 '한국 회사 ROE 10%보다 14배 좋다'고 단순 비교하면 안 돼. <strong>자본 구조가 다른</strong> 거야."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "아하... 빚이 아니라 자사주로 자본을 줄여서 ROE가 높아 보이는 거네요?"</p>
+<p>🦅 <strong>잭이글</strong>: "Exactly. 그래서 미장은 ROE만 보지 말고 <strong>자사주 매입 추이 + FCF</strong>를 같이 봐야 해."</p>
+<hr>
+<h2>2. 자사주 매입 = 미국식 주주환원</h2>
+<table>
+<thead>
+<tr>
+<th>주주환원</th>
+<th>한국</th>
+<th>미국</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>배당</td>
+<td>활발</td>
+<td>활발</td>
+</tr>
+<tr>
+<td><strong>자사주 매입·소각</strong></td>
+<td>적음(점차 증가)</td>
+<td><strong>매우 활발</strong></td>
+</tr>
+</tbody>
+</table>
+<p>🦅 <strong>잭이글</strong>: "자사주를 사서 소각하면 <strong>주식 수가 줄어</strong> → 1주당 가치(EPS)가 올라 → 주주 이익. 애플·메타·구글이 매년 수백억 달러를 여기 써. 미장 분석에선 <strong>buyback이 배당만큼 중요</strong>해."</p>
+<hr>
+<h2>3. 진짜 분석은 10-K — 핵심 4섹션</h2>
+<p>🦅 <strong>잭이글</strong>: "SEC EDGAR에서 애플 10-K 열고 이것만 봐."</p>
+<table>
+<thead>
+<tr>
+<th>섹션</th>
+<th>내용</th>
+<th>왜</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item 1A. Risk Factors</strong></td>
+<td>회사가 밝힌 위험</td>
+<td>매출의 아이폰 의존도, 중국 리스크 등 ⭐</td>
+</tr>
+<tr>
+<td><strong>Item 7. MD&#x26;A</strong></td>
+<td>경영진 실적 설명</td>
+<td>매출 증감 이유</td>
+</tr>
+<tr>
+<td><strong>Item 8. Financials</strong></td>
+<td>재무제표 원본</td>
+<td>숫자 검증</td>
+</tr>
+<tr>
+<td><strong>Cash Flow > Financing</strong></td>
+<td>'Repurchase of common stock'</td>
+<td><strong>자사주 매입 규모</strong> ⭐</td>
+</tr>
+</tbody>
+</table>
+<p>🦅 <strong>잭이글</strong>: "현금흐름표의 Financing 항목에서 자사주 매입액을 보면, 애플이 자본을 얼마나 줄이는지 바로 보여. 그게 ROE 141%의 출처야."</p>
+<hr>
+<h2>4. 미국 재무용어 (한국과 매칭)</h2>
+<table>
+<thead>
+<tr>
+<th>10-K 용어</th>
+<th>한국</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue</td>
+<td>매출액</td>
+<td>총 판매</td>
+</tr>
+<tr>
+<td>Net Income</td>
+<td>당기순이익</td>
+<td>최종 이익</td>
+</tr>
+<tr>
+<td>Diluted EPS</td>
+<td>희석 EPS</td>
+<td>주당 이익</td>
+</tr>
+<tr>
+<td><strong>Free Cash Flow</strong></td>
+<td>잉여현금흐름</td>
+<td>영업현금 − 설비투자 ⭐</td>
+</tr>
+<tr>
+<td>Shareholders' Equity</td>
+<td>자기자본</td>
+<td>순자산 (자사주로 작아질 수 있음)</td>
+</tr>
+<tr>
+<td><strong>Buyback / Repurchase</strong></td>
+<td>자사주 매입</td>
+<td>주식 수 감소</td>
+</tr>
+</tbody>
+</table>
+<p>🦅 <strong>잭이글</strong>: "<strong>FCF</strong>가 미장 투자자들의 최애 숫자야. 회계이익은 조정 가능하지만 현금은 못 속여. 애플처럼 FCF가 꾸준하니 자사주도 살 수 있는 거지."</p>
+<hr>
+<h2>5. 함정 — 미국 특유의 주의점</h2>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "조심할 건요?"</p>
+<p>🦅 <strong>잭이글</strong>: "셋이야."</p>
+<ul>
+<li><strong>Non-GAAP 이익</strong>: 회사가 유리하게 '조정한' 이익. 공식(GAAP)과 비교</li>
+<li><strong>SBC(주식보상비용)</strong>: 테크 기업이 이 비용을 빼고 이익을 부풀림</li>
+<li><strong>buyback의 그림자</strong>: 자사주를 <strong>고점에 무리하게 빚내서 사면</strong> 오히려 독. 자사주 매입이 항상 선은 아님</li>
+</ul>
+<p>🦅 <strong>잭이글</strong>: "ROE 141% 보고 '와 최고 기업' 하지 말고, <strong>그게 어떻게 나온 숫자인지</strong> 분해하는 게 고수야."</p>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>사이트</th>
+<th>경로</th>
+<th>확인할 것</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SEC EDGAR</strong> (sec.gov/edgar)</td>
+<td>티커 > 10-K</td>
+<td>Risk Factors·MD&#x26;A·자사주 매입액 ⭐</td>
+</tr>
+<tr>
+<td><strong>Macrotrends</strong> (macrotrends.net)</td>
+<td>티커 > Shares Outstanding</td>
+<td>주식 수 감소 추이(buyback 효과)</td>
+</tr>
+<tr>
+<td><strong>stockanalysis.com</strong></td>
+<td>티커</td>
+<td>FCF·자사주·ROE 깔끔 요약(무료)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 애플 ROE가 141%나 되는 주된 이유는?
+→ <strong>자사주 매입·소각</strong>으로 자기자본(ROE 분모)이 작아져서</p>
+<p><strong>Q2.</strong> 애플 PBR이 42배인 것과 ROE 141%는 같은 원인인가?
+→ 그렇다. 둘 다 <strong>순자산(자본)이 자사주 매입으로 작아진</strong> 결과</p>
+<p><strong>Q3.</strong> 미장 투자자가 회계이익보다 신뢰하는 현금 지표는?
+→ <strong>FCF</strong>(잉여현금흐름) = 영업현금흐름 − 설비투자</p>
+<hr>
+<p>🎬 <strong>다음 사이클 예고</strong>: 기술적 분석(차트)도 국장/미장으로! 한국은 빨강=상승, 미국은 초록=상승 — 캔들 색부터 거꾸로다.</p>
+<blockquote>
+<p>※ 종목은 개념 설명용 예시이며 매수 추천이 아닙니다. 수치는 2026-06-02 기준이며 매일 변합니다. 자사주·ROE 해석은 자본구조에 따라 달라집니다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-07"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🇺🇸 [미장 재무 2] 애플 ROE 141%·PBR 42의 비밀 — 자사주의 마법"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"🇺🇸 [미장 재무 2] 애플 ROE 141%·PBR 42의 비밀 — 자사주의 마법 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

@@ -1,0 +1,151 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T1bd3,<h1>🧮 [재무심화 1] 현금흐름표 — 이익은 의견, 현금은 사실</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 재무 기초편에서 PER·PBR·ROE를 배웠지. 이제 한 단계 깊이 들어간다. **'흑자인데 망하는 회사(흑자도산)'**가 왜 생길까? 답은 <strong>현금흐름표</strong>에 있다. **'이익은 의견이고, 현금은 사실'**이라는 말, 오늘 뼛속까지 새겨주마."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "이익이 났는데 망해요? 그게 가능해요?"</p>
+<p>🐢 <strong>거사부</strong>: "외상으로 많이 팔면 '이익'은 찍히지만 <strong>현금이 안 들어와</strong> 직원 월급을 못 줘 망한다. 보자."</p>
+<hr>
+<h2>1. 현금흐름표 3가지 — 돈이 어디서 들고 나나</h2>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>무엇</th>
+<th>건강한 모습</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>영업활동(CFO)</strong></td>
+<td>본업으로 번 현금</td>
+<td><strong>(+) 크게</strong> — 핵심!</td>
+</tr>
+<tr>
+<td><strong>투자활동(CFI)</strong></td>
+<td>설비·자산 투자</td>
+<td>(−) (미래 위해 쓰는 중)</td>
+</tr>
+<tr>
+<td><strong>재무활동(CFF)</strong></td>
+<td>빚·증자·배당</td>
+<td>상황별</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "가장 중요한 건 **영업활동현금흐름(CFO)**이다. 본업에서 진짜 현금이 들어오나? **순이익은 (+)인데 CFO가 (−)**면 — 이익이 '장부상 숫자'일 뿐 현금이 안 들어온다는 적신호야."</p>
+<hr>
+<h2>2. 흑자도산의 정체 — 이익 ≠ 현금</h2>
+<p>🐢 <strong>거사부</strong>: "회계상 매출·이익은 <strong>외상(미수금)도 포함</strong>해서 잡힌다. 물건은 팔았는데 돈은 아직 못 받아도 '매출·이익'이 찍혀."</p>
+<pre><code class="hljs language-markdown">물건 100원어치 외상 판매 → 매출 100, 이익 20 (장부상)
+<span class="hljs-code">                       → 그런데 현금은 0원 들어옴
+직원 월급·납품대금은 현금으로 나가야 함 → 현금 부족 → 흑자도산
+</span></code></pre>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "아! 장부엔 이익인데 통장엔 돈이 없는 거군요."</p>
+<p>🐢 <strong>거사부</strong>: "그래서 <strong>현금흐름표를 손익계산서와 같이</strong> 봐야 한다. 이익이 늘어도 <strong>CFO가 따라 늘지 않으면</strong> 의심해라. 분식회계의 단골 수법이기도 하지."</p>
+<hr>
+<h2>3. FCF(잉여현금흐름) — 진짜 '남는 돈'</h2>
+<p>🐢 <strong>거사부</strong>: "고수가 가장 중시하는 지표 중 하나가 **FCF(Free Cash Flow)**다."</p>
+<blockquote>
+<p><strong>FCF = 영업활동현금흐름(CFO) − 자본적지출(CAPEX)</strong></p>
+</blockquote>
+<ul>
+<li>본업으로 번 현금에서 <strong>설비투자를 빼고 진짜 남는 돈</strong></li>
+<li>이 돈으로 <strong>배당·자사주·빚 상환</strong>을 한다 → 주주환원의 원천</li>
+<li>FCF가 꾸준히 (+)이고 늘어나는 회사 = 진짜 우량</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "PER·이익이 좋아 보여도 <strong>FCF가 마이너스</strong>면, 그 회사는 벌어서 다 까먹거나 빚으로 버티는 거다. **배당의 지속가능성(배당편)**도 결국 FCF에서 나와."</p>
+<hr>
+<h2>4. 현금흐름 패턴으로 회사 읽기</h2>
+<p>🐢 <strong>거사부</strong>: "세 현금흐름의 (+/−) 조합이 회사의 '상태'를 말해준다."</p>
+<table>
+<thead>
+<tr>
+<th>CFO</th>
+<th>CFI</th>
+<th>CFF</th>
+<th>해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td>
+<td>−</td>
+<td>−</td>
+<td>🟢 <strong>우량 성숙기</strong>: 벌어서 투자하고 빚갚고 배당</td>
+</tr>
+<tr>
+<td>+</td>
+<td>−</td>
+<td>+</td>
+<td>🟡 <strong>성장기</strong>: 벌지만 더 투자하려 자금 조달</td>
+</tr>
+<tr>
+<td>−</td>
+<td>−</td>
+<td>+</td>
+<td>🔴 <strong>위험</strong>: 본업서 못 버는데 빚으로 연명</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "맨 아래 줄(−,−,+)을 조심해라. <strong>본업서 현금이 안 나오는데 계속 빚으로 메우는</strong> 회사 — 폭탄 돌리기다. 적자 성장기업과 구분이 필요하지만, 오래 지속되면 위험 신호야."</p>
+<hr>
+<h2>5. 실전 — 현금흐름 3줄 체크</h2>
+<pre><code class="hljs language-scss">① <span class="hljs-built_in">CFO</span>(영업현금흐름)가 (+)이고, 순이익과 방향이 같은가?
+② <span class="hljs-built_in">FCF</span>(=CFO−CAPEX)가 (+)이며 꾸준한가?
+③ 현금흐름 패턴이 '본업으로 벌어 굴리는' 모습인가? (−,−,+ 경계)
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "이 세 줄이면 '이익의 질'을 본다. <strong>숫자로 분칠한 이익</strong>과 <strong>진짜 현금 버는 회사</strong>를 가려낼 수 있어."</p>
+<hr>
+<h2>6. 함정</h2>
+<ol>
+<li><strong>"순이익 늘면 좋은 회사"</strong> ❌ → <strong>CFO가 안 따라오면</strong> 외상·분식 의심. 이익은 의견, 현금은 사실.</li>
+<li><strong>"PER 싸니 매수"</strong> ❌ → <strong>FCF 마이너스</strong>면 그 이익은 현금이 아닐 수 있음.</li>
+<li><strong>"현금흐름표는 어렵다고 패스"</strong> ❌ → 흑자도산·분식을 거르는 <strong>가장 강력한 도구</strong>. 최소 CFO·FCF는 봐라.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>현금흐름표</td>
+<td><strong>DART 사업보고서 III.재무</strong></td>
+<td>CFO·CFI·CFF 원본</td>
+</tr>
+<tr>
+<td>FCF·CAPEX</td>
+<td><strong>FnGuide / 증권사</strong></td>
+<td>잉여현금흐름</td>
+</tr>
+<tr>
+<td>미국</td>
+<td><strong>SEC 10-K(Cash Flow)</strong></td>
+<td>Operating/Investing/Financing</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> '흑자도산'이 가능한 이유는?
+→ 매출·이익엔 **외상(미수금)**이 포함돼, 장부는 흑자여도 <strong>현금이 안 들어와</strong> 지급불능에 빠질 수 있음.</p>
+<p><strong>Q2.</strong> FCF(잉여현금흐름)는 어떻게 계산하고 왜 중요한가?
+→ <strong>CFO − CAPEX</strong>. 배당·자사주·빚상환의 <strong>실제 재원</strong>이라 주주환원·지속성의 핵심.</p>
+<p><strong>Q3.</strong> 현금흐름 패턴 (−,−,+)이 위험할 수 있는 이유는?
+→ **본업서 현금을 못 버는데(−) 빚으로 연명(+)**하는 구조일 수 있음.</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [재무심화 2] 밸류에이션 멀티플 — PER을 넘어 EV/EBITDA·PSR·PEG로 보기.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 특정 종목 추천이 아닙니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-14"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🧮 [재무심화 1] 현금흐름표 — 이익은 의견, 현금은 사실"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

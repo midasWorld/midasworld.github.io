@@ -1,0 +1,125 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T161f,<h1>🇺🇸 [미장 기술 2] 이동평균선·RSI — 애플 차트로</h1>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "잭이글, 타이밍 보는 지표는 미장도 똑같아요?"</p>
+<p><img src="/static/images/stock/characters/jake_explaining.png" alt="잭이글"> 🦅 <strong>잭이글</strong>: "개념은 같아 — 이평선, RSI. 근데 미장은 변동성이 커서 <strong>지표가 더 자주 속이고</strong>, 영어 용어를 알아야 해. 애플 차트로 가자."</p>
+<blockquote>
+<p>📅 2026-06-02 시점 실제 데이터. 학습용이며 매매 신호가 아닙니다.</p>
+</blockquote>
+<hr>
+<h2>1. 이동평균선 (Moving Average)</h2>
+<p><img src="/static/images/stock/charts/ma_rsi_apple.png" alt="애플 이평선+RSI"></p>
+<p>🦅 <strong>잭이글</strong>: "애플 1년 차트야. 주황(20일, 20-day MA)이 파랑(60일) 위에 있으면 상승 추세. 영어로:"</p>
+<table>
+<thead>
+<tr>
+<th>영어</th>
+<th>한국</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Golden Cross</strong></td>
+<td>골든크로스</td>
+<td>단기선이 장기선 상향 돌파 (매수)</td>
+</tr>
+<tr>
+<td><strong>Death Cross</strong></td>
+<td>데드크로스</td>
+<td>단기선이 장기선 하향 돌파 (매도)</td>
+</tr>
+<tr>
+<td><strong>MA (Moving Average)</strong></td>
+<td>이동평균선</td>
+<td>N일 평균</td>
+</tr>
+<tr>
+<td>Support / Resistance</td>
+<td>지지/저항</td>
+<td>잘 안 뚫리는 가격대</td>
+</tr>
+</tbody>
+</table>
+<p>🦅 <strong>잭이글</strong>: "미장 애널리스트들이 '50-day moving average'를 많이 봐. 미국은 50일·200일선 조합이 표준이야 (한국은 20·60). <strong>200일선 위/아래</strong>가 강세장/약세장 기준으로 자주 쓰여."</p>
+<hr>
+<h2>2. RSI — 영어 그대로</h2>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "RSI는 미국 거였군요?"</p>
+<p>🦅 <strong>잭이글</strong>: "맞아, RSI(Relative Strength Index)는 미국에서 만든 거야. 차트 아래 보라색."</p>
+<ul>
+<li><strong>Overbought (과매수)</strong>: RSI 70+ → 단기 조정 가능</li>
+<li><strong>Oversold (과매도)</strong>: RSI 30- → 반등 가능</li>
+</ul>
+<p>🦅 <strong>잭이글</strong>: "근데 애플 차트 RSI 봐. 강한 상승 구간에선 70을 한참 넘겨도 계속 올라가지? 미장 성장주는 <strong>RSI 과매수가 오래 유지</strong>되는 경우가 많아. '70 넘었으니 팔자'는 단순 룰은 미장에서 자주 깨져."</p>
+<hr>
+<h2>3. 미장 특유 — 거시 지표가 차트를 흔든다</h2>
+<p>🦅 <strong>잭이글</strong>: "미장 기술적 분석엔 차트만으론 부족해. <strong>연준 금리·CPI 발표일</strong>에 지표가 다 무력화돼."</p>
+<ul>
+<li><strong>FOMC(금리 결정)</strong> 발표일: 차트 신호 무시하고 급변</li>
+<li><strong>CPI(물가)·고용지표</strong> 발표: 갭 + 변동성 폭발</li>
+<li>성장주는 <strong>금리에 민감</strong> (금리 ↑ → 고PER 기술주 ↓)</li>
+</ul>
+<p>🦅 <strong>잭이글</strong>: "그래서 미장은 **경제 캘린더(Economic Calendar)**를 항상 옆에 둬. Investing.com이나 FRED에서 발표일을 체크하라고."</p>
+<hr>
+<h2>4. 잭이글의 미장 기술 분석 원칙</h2>
+<p>🦅 <strong>잭이글</strong>: "변동성 큰 미장에선 이렇게 해."</p>
+<ol>
+<li><strong>추세 확인</strong>: 200일선 위 = 강세, 아래 = 약세</li>
+<li><strong>RSI는 보조로만</strong> (과매수 오래 가는 거 감안)</li>
+<li><strong>실적일·FOMC·CPI 날짜</strong> 미리 체크 (차트보다 우선)</li>
+<li><strong>손절선 필수</strong> (가격제한 없어 하루 -40%도 가능)</li>
+<li><strong>기본적 분석(10-K·FCF)과 병행</strong></li>
+</ol>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "미장은 차트 + 거시지표 + 실적일까지! 더 챙길 게 많네요."</p>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>사이트</th>
+<th>경로</th>
+<th>확인할 것</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TradingView</strong> (tradingview.com)</td>
+<td>티커 > Indicators</td>
+<td>MA·RSI·MACD + 50/200일선 ⭐</td>
+</tr>
+<tr>
+<td><strong>Finviz</strong> (finviz.com)</td>
+<td>티커</td>
+<td>기술적 신호 요약, SMA 50/200</td>
+</tr>
+<tr>
+<td><strong>Investing.com</strong></td>
+<td>Tools > Economic Calendar</td>
+<td>FOMC·CPI·실적일 ⭐</td>
+</tr>
+<tr>
+<td><strong>FRED</strong> (fred.stlouisfed.org)</td>
+<td>Federal Funds Rate</td>
+<td>금리 환경</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 미국에서 강세장/약세장 기준으로 자주 쓰는 이동평균선은?
+→ <strong>200일선</strong> (위=강세, 아래=약세). 미장은 50·200일 조합이 표준</p>
+<p><strong>Q2.</strong> 미장 성장주에서 'RSI 70 넘으면 매도' 룰이 자주 깨지는 이유는?
+→ 강한 상승장에선 <strong>과매수가 오래 유지</strong>되기 때문</p>
+<p><strong>Q3.</strong> 미장 차트 신호를 무력화시키는 대표 이벤트는?
+→ <strong>FOMC(금리)·CPI(물가)·실적 발표</strong> (경제 캘린더 필수)</p>
+<hr>
+<p>🎬 <strong>다음 사이클 예고</strong>: 기초·기술·재무를 뗀 호두. 이제 한 종목을 <strong>처음부터 끝까지</strong> 분석하는 캡스톤에 도전한다!</p>
+<blockquote>
+<p>※ 보조지표는 참고 도구이며 매매를 보장하지 않습니다. 매수 추천이 아닙니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-04-11"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🇺🇸 [미장 기술 2] 이동평균선·RSI — 애플 차트로"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

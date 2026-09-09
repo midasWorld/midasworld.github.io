@@ -1,0 +1,137 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T1b0f,<h1>⚡ [파생 3] 옵션 그릭스 — 옵션값을 움직이는 숨은 힘</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "파생 1편에서 옵션의 기초(콜/풋, 권리)를 배웠지. 이번엔 <strong>옵션 가격이 왜 그렇게 움직이는가</strong> — **그릭스(Greeks)**다. 옵션은 주식과 달리 <strong>방향이 맞아도 손해</strong>를 볼 수 있어. 그 이유가 그릭스에 있다. 역시 고위험이니 <strong>이해 위주</strong>로 가자."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "방향이 맞는데 손해를 봐요? 콜 샀고 주가 올랐는데도요?"</p>
+<p>🐢 <strong>거사부</strong>: "그렇다. <strong>시간</strong>과 <strong>변동성</strong> 때문이지. 그게 그릭스다. 보자."</p>
+<hr>
+<h2>1. 옵션값 = 내재가치 + 시간가치</h2>
+<p>🐢 <strong>거사부</strong>: "옵션 프리미엄(가격)은 두 조각이다."</p>
+<ul>
+<li><strong>내재가치</strong>: 지금 당장 행사하면 버는 값 (실제 이득분)</li>
+<li><strong>시간가치</strong>: '만기까지 더 유리해질 가능성'에 붙는 값 → <strong>만기로 갈수록 0으로 소멸</strong></li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "핵심은 <strong>시간가치가 녹는다</strong>는 거다. 가만히 있어도 옵션은 매일 조금씩 가치가 빠져. 그래서 '방향 맞아도 시간에 잃는' 일이 생겨."</p>
+<hr>
+<h2>2. 4대 그릭스</h2>
+<table>
+<thead>
+<tr>
+<th>그릭스</th>
+<th>무엇에 대한 민감도</th>
+<th>한 줄</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>델타(Δ)</strong></td>
+<td>기초자산 가격</td>
+<td>주가 1 변할 때 옵션값 변화(방향 노출)</td>
+</tr>
+<tr>
+<td><strong>세타(Θ)</strong></td>
+<td>시간</td>
+<td><strong>시간이 갈수록 빠지는 값(시간가치 소멸)</strong></td>
+</tr>
+<tr>
+<td><strong>베가(ν)</strong></td>
+<td>변동성</td>
+<td>변동성 1%p 변할 때 옵션값 변화</td>
+</tr>
+<tr>
+<td><strong>감마(Γ)</strong></td>
+<td>델타의 변화</td>
+<td>주가 변할 때 델타가 얼마나 빨리 변하나</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "전부 외울 필욘 없다. <strong>델타(방향)·세타(시간)·베가(변동성)</strong> 셋만 잡아라. 옵션은 이 <strong>세 가지에 동시에</strong> 노출돼."</p>
+<hr>
+<h2>3. ⚠️ 세타 — 옵션 매수자의 적</h2>
+<p>🐢 <strong>거사부</strong>: "옵션을 <strong>사면(매수)</strong> 가장 무서운 게 <strong>세타</strong>다. <strong>매일 시간가치가 녹아내려.</strong> 주가가 안 움직이고 횡보만 해도 옵션 산 사람은 <strong>계속 손해</strong>야."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "그래서 콜 샀는데 주가가 제자리면 돈이 줄어드는 거군요!"</p>
+<p>🐢 <strong>거사부</strong>: "그래. 더구나 <strong>만기 임박</strong>할수록 세타가 가속돼 빠르게 녹아. 그래서 옵션 매수는 **'방향 + 타이밍 + 속도'**가 다 맞아야 벌어. 셋 중 하나만 어긋나도 시간에 잃지. <strong>옵션 매수자 대부분이 만기에 휴지가 되는</strong> 이유다."</p>
+<hr>
+<h2>4. 베가 — 변동성이 값을 흔든다</h2>
+<p>🐢 <strong>거사부</strong>: "옵션값은 **변동성(VIX 같은)**에 민감하다(베가)."</p>
+<ul>
+<li>변동성↑ → 옵션값↑ (더 크게 움직일 가능성에 프리미엄)</li>
+<li><strong>이벤트(실적·FOMC) 전</strong> 변동성이 부풀었다가, 이벤트 후 급락(<strong>IV crush</strong>) → 옵션 매수자가 <strong>방향 맞아도</strong> 변동성 붕괴로 손해</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "초보가 실적 발표 노리고 옵션 샀다가, <strong>결과는 맞았는데 변동성 꺼지며 손해</strong> 보는 게 이거다. 옵션은 **'비싸게 사면(고변동성) 불리'**하다는 걸 기억해."</p>
+<hr>
+<h2>5. 매수 vs 매도 — 위험의 비대칭</h2>
+<table>
+<thead>
+<tr>
+<th>포지션</th>
+<th>최대 손실</th>
+<th>최대 이익</th>
+<th>시간가치(세타)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>옵션 <strong>매수</strong></td>
+<td>프리미엄 한정</td>
+<td>(콜)무한대</td>
+<td><strong>불리</strong>(녹음)</td>
+</tr>
+<tr>
+<td>옵션 <strong>매도</strong></td>
+<td><strong>무한대 가능</strong></td>
+<td>프리미엄 한정</td>
+<td>유리(받음)</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "옵션 **매도(발행)**는 시간가치를 받아먹어 유리해 보이지만, <strong>손실이 무한대</strong>가 될 수 있다. '꾸준히 푼돈 벌다 한 방에 파산'하는 전형이지. <strong>매수는 한정손실·시간불리, 매도는 시간유리·무한손실</strong> — 이 비대칭을 모르면 큰일 난다."</p>
+<hr>
+<h2>6. 함정</h2>
+<ol>
+<li><strong>"방향만 맞으면 옵션은 번다"</strong> ❌ → **세타(시간)·베가(변동성)**에 동시 노출. 방향 맞아도 잃을 수 있음.</li>
+<li><strong>"이벤트 전 옵션 매수"</strong> ❌ → 변동성이 부푼 비싼 값 → 이벤트 후 <strong>IV crush</strong>로 손해.</li>
+<li><strong>"옵션 매도는 꾸준히 버니 안전"</strong> ❌ → <strong>손실 무한대.</strong> 한 번의 급변에 계좌가 날아갈 수 있음.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>용도</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>옵션 시세·그릭스</td>
+<td><strong>증권사 파생 HTS</strong></td>
+<td>델타·세타·내재변동성(IV)</td>
+</tr>
+<tr>
+<td>변동성(VIX)</td>
+<td><strong>investing.com</strong>(경제 7편)</td>
+<td>시장 변동성 분위기</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 콜옵션을 샀고 주가도 올랐는데 손해 볼 수 있는 두 가지 이유는?
+→ **세타(시간가치 소멸)**와 <strong>베가(변동성 하락, IV crush)</strong>.</p>
+<p><strong>Q2.</strong> 옵션 매수자에게 '세타'가 적인 이유는?
+→ 시간이 갈수록 <strong>시간가치가 녹아</strong> 가만있어도 가치가 줄기 때문(만기 임박 시 가속).</p>
+<p><strong>Q3.</strong> 옵션 매도(발행)의 위험 구조는?
+→ 이익은 <strong>프리미엄 한정</strong>인데 손실은 <strong>무한대 가능</strong> — 비대칭 위험.</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [파생 4] 옵션 전략 — 커버드콜·보호적 풋, 헤지로서의 파생.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 투자 권유가 아닙니다. 옵션은 원금 전액·이상 손실이 가능한 고위험 상품입니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-27"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"⚡ [파생 3] 옵션 그릭스 — 옵션값을 움직이는 숨은 힘"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,0 +1,224 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","fundamental-kr-02-roe",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","fundamental-kr-02-roe","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T1e68,<h1>🇰🇷 [국장 재무 2] ROE 실전 — SK하이닉스 ROE 61%의 비밀</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, SK하이닉스 ROE가 **61.2%**다. KB금융은 10%고. 이 차이가 뭘 뜻하는지 알면 재무 분석의 절반은 끝난 거다."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "61%요?! 그럼 SK하이닉스가 6배 좋은 회사예요?"</p>
+<blockquote>
+<p>📅 <strong>기준일: 2026-06-02</strong>. ROE는 분기마다 바뀌니 FnGuide에서 현재 값을 확인하세요.</p>
+</blockquote>
+<hr>
+<h2>1. ROE = 자본을 굴리는 효율</h2>
+<p><strong>ROE = 당기순이익 ÷ 자기자본 × 100</strong></p>
+<p>"내 돈(자본) 100원으로 1년에 몇 원 벌었나"</p>
+<table>
+<thead>
+<tr>
+<th>종목</th>
+<th>ROE (2026-06-02)</th>
+<th>해석</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SK하이닉스</strong></td>
+<td>61.2%</td>
+<td>반도체 <strong>초호황</strong> — 이익 폭증 국면</td>
+</tr>
+<tr>
+<td><strong>삼성전자</strong></td>
+<td>18.9%</td>
+<td>우량하지만 하이닉스보단 낮음</td>
+</tr>
+<tr>
+<td><strong>KB금융</strong></td>
+<td>10.0%</td>
+<td>은행 평균 수준</td>
+</tr>
+<tr>
+<td><strong>카카오</strong></td>
+<td>3.9%</td>
+<td>자본 대비 이익 부진</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/static/images/stock/charts/roe_compare_kr.png" alt="ROE 비교 차트"></p>
+<p>🐢 <strong>거사부</strong>: "단, SK하이닉스 61%는 <strong>지속 가능한 숫자가 아니다.</strong> 반도체 호황 때 잠깐 치솟은 거야. 그래서 ROE는 <strong>한 해 숫자보다 5년 추이</strong>가 중요하다."</p>
+<hr>
+<h2>2. 함정 — ROE가 높은 게 항상 좋은 건 아니다</h2>
+<p>🐢 <strong>거사부</strong>: "ROE를 높이는 방법은 셋이다. <strong>듀퐁 분석</strong>으로 쪼개보자."</p>
+<p><strong>ROE = 순이익률 × 자산회전율 × 재무레버리지</strong></p>
+<table>
+<thead>
+<tr>
+<th>요소</th>
+<th>의미</th>
+<th>높이는 법</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>순이익률</td>
+<td>마진</td>
+<td>비싸게 팔거나 비용 절감</td>
+</tr>
+<tr>
+<td>자산회전율</td>
+<td>자산 활용</td>
+<td>적은 자산으로 많이 팔기</td>
+</tr>
+<tr>
+<td>재무레버리지</td>
+<td><strong>부채 사용</strong></td>
+<td>빚을 늘리면 ROE도 오름 ⚠️</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "문제는 세 번째다. <strong>빚을 잔뜩 끌어다 만든 ROE</strong>는 호황 땐 좋아 보이지만 불황엔 회사를 무너뜨려. 그래서 ROE를 볼 땐 <strong>부채비율</strong>을 꼭 같이 본다."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "같은 ROE 15%라도 마진으로 만든 거랑 빚으로 만든 건 다르다는 거죠?"</p>
+<p>🐢 <strong>거사부</strong>: "바로 그거다. 질(質)이 다르지. 숫자로 보자."</p>
+<p><strong>듀퐁 분해 예시 (가상의 두 회사, ROE 동일 20%)</strong></p>
+<table>
+<thead>
+<tr>
+<th>회사</th>
+<th>순이익률</th>
+<th>자산회전율</th>
+<th>레버리지(자산/자본)</th>
+<th>ROE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A (마진형)</td>
+<td>20%</td>
+<td>1.0</td>
+<td>1.0 (무차입)</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>B (레버리지형)</td>
+<td>5%</td>
+<td>1.0</td>
+<td>4.0 (빚 많음)</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "둘 다 ROE 20%다. 하지만 A는 마진으로, B는 <strong>부채 4배 레버리지</strong>로 만들었어. 불황이 오면? B는 이자 부담에 휘청이지만 A는 멀쩡하다. <strong>같은 ROE도 출처를 봐야 하는</strong> 이유다."</p>
+<hr>
+<h2>3. 재무제표 3종 — 3줄만 봐도 절반</h2>
+<p>🐢 <strong>거사부</strong>: "처음엔 이 세 줄이면 충분하다."</p>
+<table>
+<thead>
+<tr>
+<th>재무제표</th>
+<th>핵심 한 줄 체크</th>
+<th>위험 신호</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>손익계산서</strong></td>
+<td>매출·영업이익 3년 연속 ↑?</td>
+<td>매출 정체·이익 급감</td>
+</tr>
+<tr>
+<td><strong>재무상태표</strong></td>
+<td>부채비율 100% 이하?</td>
+<td>200% 초과</td>
+</tr>
+<tr>
+<td><strong>현금흐름표</strong></td>
+<td>영업현금흐름 (+)?</td>
+<td>영업이익 +인데 현금 −</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "특히 마지막. <strong>영업이익은 느는데 영업현금흐름이 마이너스</strong>면 외상매출만 쌓이거나 분식 가능성을 의심해라. 이익은 조정할 수 있어도 현금은 거짓말을 못 한다."</p>
+<hr>
+<h2>4. PER·PBR·ROE의 삼각관계</h2>
+<p>🐢 <strong>거사부</strong>: "세 지표는 따로 노는 게 아니다. 이렇게 연결돼."</p>
+<blockquote>
+<p><strong>PBR = PER × (ROE ÷ 100)</strong></p>
+</blockquote>
+<ul>
+<li>ROE가 높으면 → 같은 PER이라도 PBR이 높게 정당화됨</li>
+<li>삼성전자: PER 28.21 × ROE 0.189 ≈ PBR 5.3 (실제 4.85, 근사 일치)</li>
+<li><strong>좋은 회사 = 높은 ROE를 오래 유지</strong> → 시장이 높은 PBR을 허락</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "그러니 결국 핵심은 <strong>ROE를 꾸준히 높게 유지하는 회사</strong>를 찾는 거다. 워런 버핏이 ROE를 가장 본 이유지."</p>
+<hr>
+<h2>5. 호두의 우량주 체크리스트</h2>
+<p>🐢 <strong>거사부</strong>: "FnGuide·DART로 직접 채워봐라."</p>
+<ol>
+<li><strong>ROE 5년 추이</strong> 15% 이상 꾸준? (한 해 반짝 ❌) — FnGuide Snapshot</li>
+<li>그 ROE가 <strong>부채 아닌 마진·효율</strong>로 나왔나? (부채비율 100% 이하)</li>
+<li>매출·영업이익 <strong>3년 연속 증가</strong>? — DART 손익계산서</li>
+<li><strong>영업현금흐름 (+)</strong> 지속? — DART 현금흐름표</li>
+<li>PER이 업종 평균 이하 + 위 4개 충족 → <strong>관심 종목</strong></li>
+</ol>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "ROE 61% 숫자 하나에 안 속고, 추이랑 부채까지 보는 거군요!"</p>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>사이트</th>
+<th>경로</th>
+<th>확인할 것</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FnGuide</strong> (comp.fnguide.com)</td>
+<td>Snapshot > 재무비율</td>
+<td>ROE 5년 추이, 부채비율, 듀퐁</td>
+</tr>
+<tr>
+<td><strong>DART</strong> (dart.fss.or.kr)</td>
+<td>사업보고서 > III. 재무</td>
+<td>손익·재무상태·현금흐름 원본</td>
+</tr>
+<tr>
+<td><strong>네이버페이 증권</strong></td>
+<td>종목분석 > 기업현황</td>
+<td>요약 재무·컨센서스</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> SK하이닉스 ROE 61%가 "지속 가능"한가?
+→ 아님. 반도체 <strong>호황기 일시적</strong> 수치. 5년 추이로 봐야 함.</p>
+<p><strong>Q2.</strong> 부채를 늘리면 ROE는 오른다. 왜 위험한가?
+→ 호황엔 좋아 보여도 <strong>불황에 이자·상환 부담</strong>으로 무너질 수 있음 (레버리지 양날의 검).</p>
+<p><strong>Q3.</strong> 영업이익은 +인데 영업현금흐름이 −면?
+→ 외상매출 누적·분식 가능성 <strong>의심 신호</strong>.</p>
+<hr>
+<p>🎬 <strong>다음 시장</strong>: 🇺🇸 미장! 잭이글이 애플 ROE <strong>141%</strong>, 엔비디아 forward PER <strong>17.6</strong>의 비밀을 푼다.</p>
+<blockquote>
+<p>※ 종목은 개념 설명용 예시이며 매수 추천이 아닙니다. 수치는 2026-06-02 기준이며 분기마다 변합니다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-09"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🇰🇷 [국장 재무 2] ROE 실전 — SK하이닉스 ROE 61%의 비밀"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"🇰🇷 [국장 재무 2] ROE 실전 — SK하이닉스 ROE 61%의 비밀 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

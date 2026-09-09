@@ -1,0 +1,118 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T1d04,<h1>⚡ [파생 2] 선물 — 양날의 검, 레버리지의 세계</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 옵션 기초(파생 1편)는 봤지. 이제 **선물(futures)**이다. 시작 전에 <strong>강하게 경고</strong>한다 — 파생은 <strong>고위험 레버리지</strong> 상품이야. 개인 투자자 대다수가 여기서 큰돈을 잃어. 오늘은 '하라'가 아니라 **'알고 조심하라'**는 마음으로 배운다."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "그렇게 위험해요? 그럼 왜 배워요?"</p>
+<p>🐢 <strong>거사부</strong>: "<strong>적(위험)을 알아야 안 당한다.</strong> 그리고 선물의 일부 개념(헤지)은 방어에도 쓰여. 원리를 알자."</p>
+<hr>
+<h2>1. 선물 = 미래에 사고팔 가격을 '지금' 약속</h2>
+<p><strong>선물</strong> = 정해진 <strong>미래 시점</strong>에, <strong>정해진 가격</strong>으로 자산을 사고팔기로 한 <strong>계약</strong>.</p>
+<ul>
+<li>원래 목적은 <strong>헤지(위험회피)</strong>: 농부가 추수 전 곡물값을 미리 고정 → 가격 폭락 대비</li>
+<li>지금은 대부분 <strong>투기·레버리지</strong> 수단으로 거래</li>
+<li>한국 대표: <strong>코스피200 선물</strong>, 미국: <strong>나스닥·S&#x26;P 선물, 원유·금 선물</strong></li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "선물 자체는 죄가 없다. <strong>헤지 도구</strong>로 태어났어. 문제는 사람들이 <strong>레버리지 도박</strong>으로 쓴다는 거지."</p>
+<hr>
+<h2>2. ⚠️ 레버리지 — 증거금과 마진콜</h2>
+<p>🐢 <strong>거사부</strong>: "선물의 핵심이자 독은 <strong>레버리지</strong>다. <strong>증거금</strong>이라는 일부 금액만 맡기고 <strong>큰 금액을 거래</strong>한다."</p>
+<ul>
+<li>예: 증거금률 10% → <strong>10배 레버리지</strong>. 1,000만원으로 1억 포지션</li>
+<li>가격이 <strong>내 방향으로 1%</strong> = 원금 대비 <strong>10% 수익</strong></li>
+<li>가격이 <strong>반대로 1%</strong> = 원금 대비 <strong>10% 손실</strong></li>
+<li><strong>마진콜</strong>: 손실로 증거금이 부족해지면 <strong>추가 입금 요구</strong>, 못 하면 <strong>강제청산(반대매매)</strong></li>
+</ul>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "반대로 10% 가면 원금이 다 날아가요?!"</p>
+<p>🐢 <strong>거사부</strong>: "그래. <strong>주식은 회사가 안 망하면 기다리면 되지만, 선물은 마진콜에 강제청산되면 끝</strong>이다. '버티기'가 안 돼. 게다가 **원금 이상 손실(빚)**도 가능해. 이게 주식과 근본적으로 다른 점이야."</p>
+<hr>
+<h2>3. 선물의 두 얼굴 — 헤지 vs 투기</h2>
+<table>
+<thead>
+<tr>
+<th>목적</th>
+<th>누가</th>
+<th>예</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>헤지(방어)</strong></td>
+<td>보유자산 위험을 상쇄</td>
+<td>주식 보유자가 하락 대비 <strong>선물 매도</strong>로 보험</td>
+</tr>
+<tr>
+<td><strong>투기(베팅)</strong></td>
+<td>방향에 레버리지 베팅</td>
+<td>지수 오를 것 같아 <strong>선물 매수</strong></td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "기관이 선물을 쓰는 큰 이유는 <strong>헤지</strong>다. 주식 100억을 들고 있는데 단기 하락이 걱정되면, 다 팔지 않고 <strong>선물 매도</strong>로 위험만 상쇄해. 개인이 따라 하기엔 정교함·증거금 관리가 어렵지만, **'선물은 보험으로도 쓴다'**는 건 알아둬라."</p>
+<hr>
+<h2>4. 베이시스·롤오버 — 숨은 비용</h2>
+<p>🐢 <strong>거사부</strong>: "선물엔 <strong>만기</strong>가 있다. 그래서 주식과 다른 비용이 숨어 있어."</p>
+<ul>
+<li><strong>베이시스</strong>: 선물가격 − 현물가격. 만기로 갈수록 좁혀짐</li>
+<li><strong>롤오버</strong>: 만기 전 다음 월물로 갈아타기 → <strong>비용 발생</strong>(상품 ETF가 장기 손실 나던 이유, 상품 4편)</li>
+<li><strong>콘탱고/백워데이션</strong>: 선물이 현물보다 비싸냐(콘탱고)/싸냐(백워데이션)</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "그래서 <strong>선물·선물형 ETF의 장기 보유는 롤오버 비용으로 샌다.</strong> 원자재 편에서 경고한 그거다. 단기 트레이딩 도구지 장기 자산이 아니야."</p>
+<hr>
+<h2>5. 함정 — 개인이 선물에서 잃는 이유</h2>
+<ol>
+<li><strong>과도한 레버리지</strong>: 10~20배로 베팅 → 작은 역행에 청산. <strong>변동성에 그냥 쓸려나감.</strong></li>
+<li><strong>마진콜 공포매매</strong>: 강제청산 압박에 최악의 자리서 손절.</li>
+<li><strong>방향만 맞으면 된다는 착각</strong>: 방향 맞아도 <strong>타이밍·변동성</strong>에 청산당하면 끝.</li>
+<li><strong>원금 이상 손실</strong>: 주식과 달리 <strong>빚을 질 수</strong> 있다.</li>
+</ol>
+<p>🐢 <strong>거사부</strong>: "통계적으로 <strong>개인 파생 투자자 대다수가 장기적으로 잃는다.</strong> 초보라면 <strong>선물은 '안 하는 것'이 최선의 전략</strong>일 때가 많아. 하더라도 <strong>잃어도 되는 소액 + 엄격한 손절</strong>로 시작하고, 레버리지를 낮춰라."</p>
+<hr>
+<h2>6. 핵심 정리</h2>
+<ol>
+<li>선물 = <strong>레버리지 계약</strong>. 수익도 손실도 배로. <strong>마진콜·강제청산·원금 이상 손실</strong> 존재.</li>
+<li>원래 목적은 <strong>헤지(보험)</strong>. 투기로 쓰면 고위험.</li>
+<li><strong>롤오버 비용</strong>으로 장기 보유 부적합.</li>
+<li>초보는 <strong>신중·소액·저레버리지·손절 필수</strong>, 또는 <strong>안 하기</strong>.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>용도</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>선물 시세·증거금</td>
+<td><strong>증권사 파생 HTS</strong></td>
+<td>증거금률·청산기준</td>
+</tr>
+<tr>
+<td>베이시스·미결제</td>
+<td><strong>KRX 파생상품</strong></td>
+<td>콘탱고/백워데이션</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 선물이 주식과 근본적으로 다른 위험 두 가지는?
+→ <strong>마진콜에 의한 강제청산</strong>(버티기 불가)과 <strong>원금 이상 손실(빚)</strong> 가능성.</p>
+<p><strong>Q2.</strong> 선물의 원래(본래) 목적은?
+→ <strong>헤지(위험회피)</strong>. 미래 가격을 고정해 가격변동 위험을 줄이는 보험.</p>
+<p><strong>Q3.</strong> 선물·선물형 ETF가 장기 보유에 부적합한 이유는?
+→ 만기마다 <strong>롤오버 비용</strong>이 발생해 장기적으로 가치가 샘.</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [파생 3] 옵션 그릭스 — 옵션 가격을 움직이는 숨은 힘들.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 투자 권유가 아닙니다. 파생상품은 원금 이상 손실이 가능한 고위험 상품입니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-28"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"⚡ [파생 2] 선물 — 양날의 검, 레버리지의 세계"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

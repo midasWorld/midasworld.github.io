@@ -1,0 +1,131 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","practice-03-portfolio",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","practice-03-portfolio","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T147c,<h1>🎯 [실전 3] 포트폴리오·분산 — 계란을 한 바구니에 담지 마라</h1>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "거사부, 제일 좋은 종목 하나에 몰빵하면 수익도 제일 크지 않아요?"</p>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "수익도 크지만 <strong>망할 확률도 제일 크지.</strong> 한 종목이 −80% 나면 끝이야. 그래서 <strong>나눠 담는다(분산).</strong> 숫자로 보자."</p>
+<hr>
+<h2>1. 분산투자 효과 — 위험이 줄어든다</h2>
+<p><img src="/static/images/stock/charts/diversification.png" alt="분산투자 효과"></p>
+<p>🐢 <strong>거사부</strong>: "차트를 봐라. 종목 수가 늘수록 변동성(위험)이 뚝 떨어지다가, <strong>10~20종목</strong>에서 거의 바닥에 닿는다."</p>
+<ul>
+<li><strong>비체계적 위험(개별 위험)</strong>: 분산으로 제거 가능 (특정 회사 사고)</li>
+<li><strong>체계적 위험(시장 위험)</strong>: 분산으로도 못 없앰 (시장 전체 폭락)</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "즉 10~20종목이면 개별 회사 리스크는 거의 없앤다. 너무 많이(50종목+) 담으면 관리만 힘들고 효과는 미미해."</p>
+<hr>
+<h2>2. 무엇으로 분산하나</h2>
+<table>
+<thead>
+<tr>
+<th>분산 축</th>
+<th>예시</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>종목</strong></td>
+<td>10~20개</td>
+</tr>
+<tr>
+<td><strong>섹터</strong></td>
+<td>반도체·금융·소비재·헬스케어 등 분산 (한 섹터 몰빵 X)</td>
+</tr>
+<tr>
+<td><strong>지역</strong></td>
+<td>국장 + 미장 (환·경기 사이클 분산)</td>
+</tr>
+<tr>
+<td><strong>자산</strong></td>
+<td>주식 + 채권 + 현금 + (금)</td>
+</tr>
+<tr>
+<td><strong>시간</strong></td>
+<td>적립식(분할 매수)</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "특히 <strong>섹터 분산</strong>이 중요하다. 반도체만 10종목 = 분산이 아니야. 반도체 폭락하면 다 같이 죽어."</p>
+<hr>
+<h2>3. 현금도 포지션이다</h2>
+<p>🐢 <strong>거사부</strong>: "100% 주식은 위험하다. <strong>현금 비중</strong>을 둬라."</p>
+<ul>
+<li>현금 = 폭락 시 <strong>싸게 살 실탄</strong> + 심리적 안정</li>
+<li>시장 과열 땐 현금 ↑, 폭락 후엔 현금으로 매수</li>
+<li>초보 권장: 현금 20~30% 유지</li>
+</ul>
+<hr>
+<h2>4. ETF — 가장 쉬운 분산</h2>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "종목 20개 고르고 관리하기 너무 어려운데요..."</p>
+<p>🐢 <strong>거사부</strong>: "그럼 <strong>ETF</strong>가 답이다. ETF 한 주 = 수백 종목에 동시 투자."</p>
+<table>
+<thead>
+<tr>
+<th>ETF</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>S&#x26;P500 ETF</strong> (SPY/VOO, 국내 상장 TIGER 미국S&#x26;P500)</td>
+<td>미국 대표 500종목</td>
+</tr>
+<tr>
+<td><strong>나스닥100</strong> (QQQ, TIGER 미국나스닥100)</td>
+<td>미국 기술주 100</td>
+</tr>
+<tr>
+<td><strong>KODEX 200</strong></td>
+<td>한국 대표 200종목</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "워런 버핏도 '대부분의 사람에겐 S&#x26;P500 인덱스펀드 적립이 최선'이라 했다. 종목 고를 자신 없으면 ETF 적립이 정답에 가까워."</p>
+<hr>
+<h2>5. 복리 — 시간이 최고의 무기</h2>
+<p><img src="/static/images/stock/charts/compound.png" alt="복리 효과"></p>
+<p>🐢 <strong>거사부</strong>: "분산해서 <strong>오래</strong> 들고 가면 복리가 일한다. 차트를 봐라. 연 10%로 30년이면 원금의 <strong>약 17배</strong>다. 단리(4배)와 비교하면 시간이 만든 차이지."</p>
+<p>🐢 <strong>거사부</strong>: "그래서 '잃지 않고 + 분산하고 + 오래' 가 핵심이다. 한 방을 노리다 −50% 맞으면 복리 시계가 처음으로 돌아가."</p>
+<hr>
+<h2>6. 초보 포트폴리오 예시 (참고)</h2>
+<p>🐢 <strong>거사부</strong>: "정답은 없지만, 초보라면 이런 틀에서 시작해도 좋다."</p>
+<ul>
+<li>핵심(50~60%): S&#x26;P500/KODEX200 같은 <strong>인덱스 ETF</strong> (적립식)</li>
+<li>위성(20<del>30%): 직접 분석한 **개별 우량주 5</del>10개**</li>
+<li>현금(20%): 기회·방어용</li>
+</ul>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 분산으로 <strong>없앨 수 없는</strong> 위험은?
+→ <strong>체계적 위험(시장 위험)</strong> — 시장 전체 폭락</p>
+<p><strong>Q2.</strong> 개별위험을 대부분 없애는 적정 종목 수는?
+→ <strong>10~20종목</strong> (그 이상은 효과 미미)</p>
+<p><strong>Q3.</strong> 종목 고를 자신이 없을 때 가장 쉬운 분산 방법은?
+→ <strong>인덱스 ETF</strong>(S&#x26;P500 등) 적립</p>
+<hr>
+<p>🎬 <strong>다음</strong>: 모든 걸 무너뜨리는 마지막 적 — 투자 심리(FOMO·공포·탐욕).</p>
+<blockquote>
+<p>※ 포트폴리오 예시는 학습용이며 투자 권유가 아닙니다. 개인 상황에 맞게 조정하세요.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-04-26"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🎯 [실전 3] 포트폴리오·분산 — 계란을 한 바구니에 담지 마라"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"🎯 [실전 3] 포트폴리오·분산 — 계란을 한 바구니에 담지 마라 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

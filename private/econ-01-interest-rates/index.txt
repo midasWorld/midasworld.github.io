@@ -1,0 +1,176 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","econ-01-interest-rates",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","econ-01-interest-rates","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T1ef4,<h1>🌍 [경제 1] 금리와 중앙은행 — 모든 자산의 '중력'</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 주식·부동산·채권... 세상 모든 자산 가격을 끌어당기는 <strong>중력</strong>이 하나 있다. 바로 <strong>금리</strong>다. 워런 버핏이 '금리는 자산 가격에 작용하는 중력과 같다'고 했지. 이걸 모르면 차트 100개를 봐도 헛것이야."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "금리가 오르면 왜 주식이 빠져요? 둘이 무슨 상관이에요?"</p>
+<p>🐢 <strong>거사부</strong>: "오늘 그 '상관'을 뿌리부터 잡아주마."</p>
+<hr>
+<h2>1. 금리는 '돈의 값'이다</h2>
+<p>금리 = <strong>돈을 빌리는 값(이자율)</strong>. 돈도 수요·공급으로 값이 매겨진다.</p>
+<ul>
+<li>금리↑ = 돈이 비싸다 → 기업은 투자·대출 줄이고, 개인은 저축이 유리</li>
+<li>금리↓ = 돈이 싸다 → 빚내서 투자·소비 늘고, 위험자산(주식)으로 돈이 몰림</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "그래서 금리는 <strong>경기의 액셀과 브레이크</strong>다. 중앙은행이 이 페달을 밟는다."</p>
+<hr>
+<h2>2. 기준금리 vs 시장금리 — 헷갈리지 마라</h2>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>누가 정하나</th>
+<th>무엇인가</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>기준금리</strong></td>
+<td>중앙은행 (Fed·한은)</td>
+<td>정책적으로 '결정'하는 금리. 출발점</td>
+</tr>
+<tr>
+<td><strong>시장금리</strong></td>
+<td>시장 (채권 거래)</td>
+<td>국채·회사채 수익률. 매일 '변동'</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>미국 기준금리 = <strong>FFR</strong>(연방기금금리), 결정기구 = <strong>FOMC</strong>(연 8회)</li>
+<li>한국 기준금리 = 한국은행 <strong>금융통화위원회</strong>(연 8회)</li>
+<li>대표 시장금리 = <strong>미국 10년물 국채금리</strong> → 오늘 <strong>4.54%</strong> (2026-06-06 기준)</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "뉴스에서 '금리 동결/인상/인하'는 <strong>기준금리</strong> 얘기다. 하지만 주가에 직접 작용하는 건 **시장금리(특히 미 10년물)**야. 둘은 연결돼 있지만 따로 움직일 때도 있어 — 이게 고급 포인트다."</p>
+<hr>
+<h2>3. 왜 금리가 오르면 성장주가 더 빠지나 (핵심)</h2>
+<p>🐢 <strong>거사부</strong>: "주식의 가치는 <strong>'미래에 벌 돈'을 현재로 당겨온 값</strong>이다. 당겨올 때 <strong>금리로 할인</strong>한다."</p>
+<blockquote>
+<p>현재가치 = 미래의 돈 ÷ (1 + 금리)^연수</p>
+</blockquote>
+<ul>
+<li>금리↑ → 분모↑ → 미래 이익의 <strong>현재가치↓</strong> → 주가↓</li>
+<li>특히 <strong>성장주</strong>는 돈을 <strong>먼 미래</strong>에 번다 → 할인을 세게 먹음 → <strong>더 크게 하락</strong></li>
+<li><strong>가치주·배당주</strong>는 지금 당장 벌고 나눠줌 → 상대적으로 덜 타격</li>
+</ul>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "아! 그래서 금리 오른 날 나스닥(기술주)이 다우보다 더 빠지는 거군요?"</p>
+<p>🐢 <strong>거사부</strong>: "정확하다. 2026-06-06 오늘도 10년물이 4.54%로 높은 가운데 **나스닥 −4.18% vs 다우 −1.35%**였지. 같은 시장이라도 금리에 맞는 종목군이 다른 거다."</p>
+<hr>
+<h2>4. 통화정책 — 긴축과 완화</h2>
+<table>
+<thead>
+<tr>
+<th>국면</th>
+<th>중앙은행 행동</th>
+<th>의도</th>
+<th>주식 영향(일반적)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>긴축(tightening)</strong></td>
+<td>금리 인상 · QT(양적긴축)</td>
+<td>과열·인플레 잡기</td>
+<td>역풍 (특히 성장주)</td>
+</tr>
+<tr>
+<td><strong>완화(easing)</strong></td>
+<td>금리 인하 · QE(양적완화)</td>
+<td>경기 부양</td>
+<td>순풍 (위험자산 선호)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>QE</strong>(양적완화): 중앙은행이 채권을 사서 시중에 돈을 푸는 것</li>
+<li><strong>QT</strong>(양적긴축): 반대로 돈을 거두는 것</li>
+<li><strong>점도표(dot plot)</strong>: Fed 위원들이 예상하는 향후 금리 경로 → 시장이 주목</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "명심해라. 시장은 **'지금 금리'보다 '앞으로 금리가 어디로 갈지'**에 더 반응한다. 인하가 시작되기 '전에' 주가가 먼저 오르기도 해. 그래서 <strong>방향과 속도</strong>를 읽는 거다."</p>
+<hr>
+<h2>5. 함정 — 흔한 오해들</h2>
+<p>🐢 <strong>거사부</strong>: "초보가 꼭 빠지는 함정 셋이다."</p>
+<ol>
+<li><strong>"금리 인하 = 무조건 주가 상승"</strong> ❌
+→ 경기침체 때문에 어쩔 수 없이 내리는 인하라면, 오히려 폭락 신호일 수 있다. <strong>왜 내리는지</strong>가 중요.</li>
+<li><strong>"기준금리만 보면 된다"</strong> ❌
+→ 주가엔 **시장금리(10년물)**가 더 직접적. 기준금리 동결인데 시장금리는 급등할 수 있다.</li>
+<li><strong>"금리는 한 나라만 보면 된다"</strong> ❌
+→ 한국 주식도 **미국 금리(달러 자금)**에 크게 휘둘린다. 미 10년물은 사실상 글로벌 기준.</li>
+</ol>
+<hr>
+<h2>6. 실전 — 금리로 시황 읽는 3단계</h2>
+<p>🐢 <strong>거사부</strong>: "복잡하게 갈 것 없다. 이 순서면 충분해."</p>
+<pre><code class="hljs language-markdown">① 방향: 기준금리 인상/동결/인하 사이클 어디인가?
+② 레벨: 미 10년물 몇 %? (4% 넘으면 성장주 부담 구간)
+③ 대응: 고금리 국면 → 현금흐름 좋은 가치·배당주 비중↑
+<span class="hljs-code">        저금리 전환 → 성장주·중소형주 비중 검토
+</span></code></pre>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>사이트</th>
+<th>경로</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>미 기준금리·FOMC</td>
+<td><strong>CME FedWatch</strong> / Fed 홈페이지</td>
+<td>금리 인상확률·점도표</td>
+</tr>
+<tr>
+<td>미 10년물 금리</td>
+<td><strong>investing.com</strong> / TradingView</td>
+<td>"US 10Y" 검색</td>
+</tr>
+<tr>
+<td>한국 기준금리</td>
+<td><strong>한국은행(bok.or.kr)</strong></td>
+<td>통화정책 > 기준금리</td>
+</tr>
+<tr>
+<td>한국 시장금리</td>
+<td><strong>금융투자협회 채권정보(kofiabond)</strong></td>
+<td>국고채 금리</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 금리가 오를 때 성장주가 가치주보다 더 빠지는 근본 이유는?
+→ 주가는 미래 이익의 <strong>현재가치</strong>인데, 성장주는 이익이 <strong>먼 미래</strong>라 <strong>할인(금리)</strong> 영향을 더 크게 받음.</p>
+<p><strong>Q2.</strong> "금리 인하 = 무조건 호재"가 틀릴 수 있는 경우는?
+→ <strong>경기침체</strong> 때문에 어쩔 수 없이 내리는 인하면 폭락 신호일 수 있음. <strong>인하의 이유</strong>를 봐야 함.</p>
+<p><strong>Q3.</strong> 한국 주식인데 왜 미국 금리를 봐야 하나?
+→ 글로벌 달러 자금이 <strong>미 10년물</strong>을 기준으로 움직이며 외국인 수급·환율에 직결되기 때문.</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [경제 2] 인플레이션 — 물가가 오르면 왜 중앙은행이 금리를 올릴까? CPI·PCE 읽는 법.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 투자 권유가 아닙니다. 금리·지수 수치는 2026-06-06 기준이며 매일 변하니 직접 확인하세요. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-22"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🌍 [경제 1] 금리와 중앙은행 — 모든 자산의 '중력'"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"🌍 [경제 1] 금리와 중앙은행 — 모든 자산의 '중력' | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

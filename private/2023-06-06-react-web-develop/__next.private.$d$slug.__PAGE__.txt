@@ -1,0 +1,81 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T12db,<p>백엔드 지망이라 프론트는 간단하게 구현만 했었는데...
+<br>
+간단하게 구현하더라도 로그인이나 api 프로세스 포함해서 기타 기초 개념에 대해서는 다시 다잡고 들어가야 겠다는걸 느끼게 되어 작성해보려고 합니다.</p>
+<h1>프로젝트 구조 설정</h1>
+<h2>tailwind 설치 및 사용법</h2>
+<p><code>tailwind</code>를 사용하게 된 이유는 따로 css 파일을 생성하지 않고도 해당 jsx 파일에서 class 설정으로 간단하게 css 적용이 가능합니다.
+<br>
+고로 편리하고 직관적으로 코드를 관리할 수 있기 때문에 도입하게 되었습니다.</p>
+<h3>tailwind 설치</h3>
+<pre><code class="hljs language-shell"><span class="hljs-meta prompt_"># </span><span class="bash">개발자 모드로 설치</span>
+npm instal -D tailwindcss
+<span class="hljs-meta prompt_">
+# </span><span class="bash">tailwind.config.js 생성!</span>
+npx tailwindcss init
+</code></pre>
+<p><code>tailwind.config.js</code> 파일에서 <code>content</code> 설정을 해줍니다.
+<br>
+(js, jsx 파일에서 <code>tailwind</code>를 사용할 수 있도록 설정!)</p>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">/** <span class="hljs-doctag">@type</span> {<span class="hljs-type">import('tailwindcss').Config</span>} */</span>
+<span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span> = {
+  <span class="hljs-attr">content</span>: [<span class="hljs-string">"./src/**/*.{js,jsx}"</span>], <span class="hljs-comment">// ✨ 여기!</span>
+  <span class="hljs-attr">theme</span>: {
+    <span class="hljs-attr">extend</span>: {},
+  },
+  <span class="hljs-attr">plugins</span>: [],
+};
+</code></pre>
+<p><code>index.css</code>에서 설정을 추가해줍니다.</p>
+<pre><code class="hljs language-css"><span class="hljs-keyword">@tailwind</span> base;
+<span class="hljs-keyword">@tailwind</span> components;
+<span class="hljs-keyword">@tailwind</span> utilities;
+
+<span class="hljs-comment">/* css 내용...*/</span>
+</code></pre>
+<p>다시 실행을 해보면 적용된 것을 확인 할 수 있습니다!</p>
+<h3>tailwind css intelliSense 플러그인 설치!</h3>
+<p>tailwind css 사용할 때 자동완성을 시켜주는 플러그인 입니다.
+<br>
+색상 표시도 되기 때문에 유용한것 같아 같이 설치했습니다.</p>
+<blockquote>
+<p>❗ 플러그인 설치 후 적용이 안되는 문제 발생
+<a href="https://javascript.plainenglish.io/how-to-fix-tailwind-css-intellisense-in-visual-studio-code-3dede794df21">How to Fix Tailwind CSS IntelliSense in Visual Studio Code</a></p>
+</blockquote>
+<p>위의 링크에서 설명해주는 대로 설정하니 해결 되었습니다.</p>
+<p>명령 팔레트 > setting.json 으로 이동 후...
+<br>
+아래의 설정을 추가해주면 끝입니다!</p>
+<pre><code class="hljs language-json"><span class="hljs-attr">"editor.quickSuggestions"</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
+<span class="hljs-attr">"strings"</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">true</span></span>
+<span class="hljs-punctuation">}</span><span class="hljs-punctuation">,</span>
+<span class="hljs-attr">"css.validate"</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">false</span></span><span class="hljs-punctuation">,</span>
+<span class="hljs-attr">"editor.inlineSuggest.enabled"</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">true</span></span>
+</code></pre>
+<h3>테마 설정 및 활용하기</h3>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">/** <span class="hljs-doctag">@type</span> {<span class="hljs-type">import('tailwindcss').Config</span>} */</span>
+<span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span> = {
+  <span class="hljs-attr">content</span>: [],
+  <span class="hljs-attr">theme</span>: {
+    <span class="hljs-attr">extend</span>: {
+      <span class="hljs-attr">colors</span>: {
+        <span class="hljs-attr">brand</span>: <span class="hljs-string">"#716AA1"</span>, <span class="hljs-comment">// ✨ 여기!</span>
+      },
+    },
+  },
+  <span class="hljs-attr">plugins</span>: [],
+};
+</code></pre>
+<p>위와 같이 <code>theme - extend - colors</code>에서 <code>brand</code>라는 이름으로 설정을 하면?</p>
+<pre><code class="hljs language-css">&#x3C;<span class="hljs-selector-tag">p</span> className='<span class="hljs-selector-tag">text</span>-brand'>
+  Hello
+&#x3C;/<span class="hljs-selector-tag">p</span>>
+</code></pre>
+<p>위와 같이 brand 라는 이름으로 설정한 색상을 사용할 수 있습니다.</p>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"archive"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2023-06-06"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"리액트 웹페이지 개발기 (로그인)"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

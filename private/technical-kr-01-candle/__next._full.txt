@@ -1,0 +1,126 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","technical-kr-01-candle",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","technical-kr-01-candle","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T119c,<h1>🇰🇷 [국장 기술 1] 캔들 읽기 — 삼성전자 차트로</h1>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "거사부, 차트의 빨강·파랑 막대들이 뭐예요? 빨강이면 위험한 거 아니에요?"</p>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "허허, 한국에선 정반대다. <strong>빨강이 상승</strong>이야. 이게 **캔들(봉)**인데, 막대 하나가 하루의 네 가지 가격을 담는단다."</p>
+<blockquote>
+<p>📅 차트는 2026-06-02 시점 실제 데이터입니다. 패턴 학습용이며 매수 신호가 아닙니다.</p>
+</blockquote>
+<hr>
+<h2>1. 캔들 하나에 담긴 4가지</h2>
+<p><strong>시가 · 종가 · 고가 · 저가</strong> (OHLC)</p>
+<ul>
+<li><strong>몸통</strong>: 시가와 종가 사이</li>
+<li><strong>꼬리(심지)</strong>: 고가·저가까지</li>
+<li><strong>양봉(빨강)</strong>: 종가 > 시가 (상승 마감)</li>
+<li><strong>음봉(파랑)</strong>: 종가 &#x3C; 시가 (하락 마감)</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "⚠️ 명심해라. <strong>한국은 빨강=상승, 파랑=하락</strong>이다. 미국은 정반대(초록=상승)야. 시장 바꿀 때 헷갈리면 큰일 난다."</p>
+<p><img src="/static/images/stock/charts/candle_color_diff.png" alt="캔들 색 차이"></p>
+<hr>
+<h2>2. 실제 삼성전자 캔들</h2>
+<p><img src="/static/images/stock/charts/candle_samsung.png" alt="삼성전자 캔들"></p>
+<p>🐢 <strong>거사부</strong>: "삼성전자 일봉이다. 빨강 막대가 많고 우상향하지? <strong>상승 추세</strong>라는 뜻이다. 막대가 길수록 그날 매수세(또는 매도세)가 강했다는 거야."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "긴 빨강 막대(장대양봉)는 강한 매수네요!"</p>
+<p>🐢 <strong>거사부</strong>: "그렇지. 반대로 위에 꼬리만 길게 달린 캔들은 '올랐다가 다시 밀린' 거라 매도 압력 신호일 수 있다."</p>
+<hr>
+<h2>3. 알아둘 캔들 패턴</h2>
+<table>
+<thead>
+<tr>
+<th>패턴</th>
+<th>모양</th>
+<th>신호</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>장대양봉</strong></td>
+<td>긴 빨강 몸통</td>
+<td>강한 매수, 추세 시작/강화</td>
+</tr>
+<tr>
+<td><strong>도지</strong></td>
+<td>십자가(몸통 거의 없음)</td>
+<td>매수·매도 균형, 추세 약화</td>
+</tr>
+<tr>
+<td><strong>망치형</strong></td>
+<td>아래꼬리 긴 작은 몸통</td>
+<td>하락 끝 반등 신호</td>
+</tr>
+<tr>
+<td><strong>유성형</strong></td>
+<td>위꼬리 긴 작은 몸통</td>
+<td>상승 끝 하락 신호</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "단, 캔들 하나로 판단하지 마라. <strong>거래량</strong>과 <strong>추세</strong> 속에서 봐야 의미가 있단다."</p>
+<hr>
+<h2>4. 한국 특유 — 가격제한폭</h2>
+<p>🐢 <strong>거사부</strong>: "국장은 하루 **±30%**까지만 움직인다(상한가/하한가). 그래서 장대양봉도 최대 +30%에서 멈춰. 미장은 제한이 없어 하루 +50%도 가능하지."</p>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>사이트</th>
+<th>경로</th>
+<th>확인할 것</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>네이버페이 증권</strong></td>
+<td>종목 > 차트</td>
+<td>일봉·주봉 캔들, 거래량</td>
+</tr>
+<tr>
+<td><strong>증권사 앱(HTS/MTS)</strong></td>
+<td>차트</td>
+<td>캔들 + 보조지표 겹쳐보기</td>
+</tr>
+<tr>
+<td><strong>TradingView</strong> (kr.tradingview.com)</td>
+<td>종목 검색</td>
+<td>전문가용 차트 도구</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 한국 차트에서 빨간 캔들의 의미는?
+→ <strong>상승</strong>(종가 > 시가). 미국은 정반대(초록=상승)</p>
+<p><strong>Q2.</strong> 위꼬리가 긴 유성형 캔들이 고점에서 나오면?
+→ 상승 끝 <strong>하락 전환</strong> 신호 가능성</p>
+<p><strong>Q3.</strong> 국장의 하루 최대 상승폭은?
+→ <strong>+30%</strong> (상한가)</p>
+<hr>
+<p>🎬 <strong>다음</strong>: 거사부가 이동평균선과 RSI로 "언제 사고 파는지" 타이밍을 본다.</p>
+<blockquote>
+<p>※ 차트 패턴은 보조 판단 도구이며 미래를 보장하지 않습니다. 매수 추천이 아닙니다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-04-14"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🇰🇷 [국장 기술 1] 캔들 읽기 — 삼성전자 차트로"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"🇰🇷 [국장 기술 1] 캔들 읽기 — 삼성전자 차트로 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

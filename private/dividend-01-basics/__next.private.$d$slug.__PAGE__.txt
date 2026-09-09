@@ -1,0 +1,140 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T1de8,<h1>💵 [배당 1] 배당 기초 — 주식이 주는 '월세'</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 주식으로 돈 버는 길은 둘이다. <strong>싸게 사서 비싸게 파는 차익(시세)</strong>, 그리고 <strong>가지고만 있어도 들어오는 배당</strong>. 배당은 주식이 주는 <strong>월세</strong> 같은 거야. 오늘 이 월세의 작동 원리를 잡자."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "주식 들고만 있어도 돈을 줘요? 공짜로요?"</p>
+<p>🐢 <strong>거사부</strong>: "공짜는 아니다. 회사가 번 이익을 주주에게 나눠주는 거지. 근데 그 '나눠주는 방식'에 규칙이 있어."</p>
+<hr>
+<h2>1. 배당이란 — 이익을 주주에게 나눔</h2>
+<p><strong>배당</strong> = 기업이 번 이익의 일부를 <strong>주주에게 현금(또는 주식)으로 분배</strong>하는 것.</p>
+<ul>
+<li>회사는 이익을 ① <strong>재투자</strong>(성장)하거나 ② <strong>배당</strong>(환원)한다</li>
+<li><strong>성장기업</strong>은 재투자 위주(배당 적거나 0) — 예: 많은 기술 성장주</li>
+<li><strong>성숙기업</strong>은 배당 위주(안정 현금흐름) — 예: 통신·유틸리티·은행</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "그래서 <strong>배당이 적다고 나쁜 게 아니다.</strong> 성장기업은 그 돈으로 더 키우는 거고, 성숙기업은 나눠주는 거지. **회사의 단계(산업 4편 라이프사이클)**에 달렸어."</p>
+<hr>
+<h2>2. 배당 핵심 지표 2개</h2>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>계산</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>배당수익률</strong></td>
+<td>연간 배당금 ÷ 주가</td>
+<td>주가 대비 몇 % 받나 (월세 수익률)</td>
+</tr>
+<tr>
+<td><strong>배당성향</strong></td>
+<td>배당금 ÷ 순이익</td>
+<td>이익의 몇 %를 나눠주나 (지속가능성)</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "둘을 <strong>같이</strong> 봐야 한다. 배당수익률만 높고 <strong>배당성향이 100% 넘으면</strong> — 번 돈보다 더 주는 거라 <strong>지속 불가능</strong>이야. 곧 배당이 깎일 신호지."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "배당수익률 8%! 하고 좋아했는데, 성향이 120%면 위험한 거군요?"</p>
+<p>🐢 <strong>거사부</strong>: "바로 그거다. <strong>'높은 배당엔 이유가 있다'</strong> — 다음 편에서 이 함정을 깊이 판다."</p>
+<hr>
+<h2>3. 배당 일정 — '언제 가지고 있어야' 받나</h2>
+<p>🐢 <strong>거사부</strong>: "배당은 아무 때나 사면 받는 게 아니다. <strong>기준일에 주주명부에 있어야</strong> 한다."</p>
+<table>
+<thead>
+<tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>배당기준일</strong></td>
+<td>이 날 주주여야 배당 받을 권리</td>
+</tr>
+<tr>
+<td><strong>배당락일</strong></td>
+<td>기준일 다음 거래일. 권리 사라져 주가가 배당만큼 빠짐</td>
+</tr>
+<tr>
+<td><strong>지급일</strong></td>
+<td>실제 현금이 들어오는 날 (보통 한두 달 뒤)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>한국: 보통 <strong>연말(12월) 결산배당</strong>이 많음(+중간배당 하는 곳도)</li>
+<li>미국: <strong>분기 배당</strong>이 일반적 (잭이글: "미국은 3개월마다 따박따박!")</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "주의! <strong>배당락일엔 주가가 배당금만큼 자동으로 떨어진다.</strong> 그래서 '배당 받으려 기준일 직전에 샀다가 배당락에 주가가 빠져서 본전'인 경우가 많아. <strong>배당은 공짜 점심이 아니다.</strong>"</p>
+<hr>
+<h2>4. ⚠️ 배당락 — 배당은 '내 돈이 잠깐 나갔다 오는 것'에 가깝다</h2>
+<p>🐢 <strong>거사부</strong>: "초보가 꼭 오해하는 거다. 배당 1,000원을 받으면 — 그날 <strong>주가도 약 1,000원 빠진다.</strong> 즉 단기적으론 <strong>내 자산 총액은 그대로</strong>(주가↓ + 현금↑)."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "엥? 그럼 배당은 의미가 없는 거예요?"</p>
+<p>🐢 <strong>거사부</strong>: "단기 차익노림엔 그렇게 보이지. 하지만 <strong>장기 투자자</strong>에겐 다르다. ①꾸준한 <strong>현금흐름</strong>(재투자·생활비)을 주고 ②<strong>좋은 배당기업은 시간이 지나며 배당을 늘려</strong> 주가도 회복·상승해. <strong>배당의 진짜 힘은 단기가 아니라 장기·복리에 있다</strong>(배당 3편)."</p>
+<hr>
+<h2>5. 배당주가 어울리는 사람</h2>
+<p>🐢 <strong>거사부</strong>: "배당 투자가 특히 맞는 경우다."</p>
+<ul>
+<li>변동성보다 <strong>안정적 현금흐름</strong>을 원하는 사람</li>
+<li><strong>노후·은퇴</strong> 자금(따박따박 인출)</li>
+<li>장기 <strong>복리 재투자</strong>로 굴리려는 사람</li>
+<li>하락장에서 <strong>버틸 심리적 쿠션</strong>(배당 받으며 존버)이 필요한 사람</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "단, 고성장을 원하면 배당주만으론 아쉽다. <strong>성장주와 배당주를 섞는 것</strong>(포트폴리오)이 보통의 답이야."</p>
+<hr>
+<h2>6. 함정</h2>
+<ol>
+<li><strong>"배당수익률 높으면 좋다"</strong> ❌ → <strong>배당성향·이익 지속성</strong>을 같이 봐야. 고배당이 곧 위험신호일 수도.</li>
+<li><strong>"기준일 직전에 사면 공짜 배당"</strong> ❌ → <strong>배당락</strong>으로 주가가 그만큼 빠짐. 단기엔 본전.</li>
+<li><strong>"배당 적은 회사는 나쁘다"</strong> ❌ → 성장기업은 <strong>재투자</strong>가 정답일 수 있음. 라이프사이클로 판단.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>용도</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>배당수익률·이력</td>
+<td><strong>네이버페이 증권 종목 '배당'</strong></td>
+<td>수익률·성향·지급이력</td>
+</tr>
+<tr>
+<td>배당기준일·락일</td>
+<td><strong>증권사 HTS / KIND</strong></td>
+<td>배당 공시</td>
+</tr>
+<tr>
+<td>미국 배당</td>
+<td><strong>Seeking Alpha / 발행사</strong></td>
+<td>분기배당·연속증액</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 배당수익률이 높은데도 위험할 수 있는 이유는?
+→ **배당성향이 과도(100%↑)**하면 번 것보다 더 주는 것 → 지속 불가, 곧 삭감 위험.</p>
+<p><strong>Q2.</strong> 배당락일에 주가가 빠지는 이유는?
+→ 배당받을 <strong>권리가 사라져</strong> 주가가 배당금만큼 자동 조정. 단기엔 자산 총액 비슷.</p>
+<p><strong>Q3.</strong> 배당이 적은 성장기업을 무조건 나쁘다고 못 하는 이유는?
+→ 이익을 <strong>재투자</strong>해 더 키우는 단계일 수 있음(라이프사이클).</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [배당 2] 배당성장주 vs 고배당 함정 — 진짜 배당주를 가르는 법.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 특정 종목 추천이 아닙니다. 배당은 회사 사정에 따라 삭감될 수 있습니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-25"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"💵 [배당 1] 배당 기초 — 주식이 주는 '월세'"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,0 +1,182 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","fundamental-us-01-per",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","fundamental-us-01-per","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T1be7,<h1>🇺🇸 [미장 재무 1] 엔비디아 PER 34 vs Forward 17 — 성장의 비밀</h1>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "잭이글, 엔비디아 PER이 34배예요. 너무 비싼 거 아니에요?"</p>
+<p><img src="/static/images/stock/characters/jake_explaining.png" alt="잭이글"> 🦅 <strong>잭이글</strong>: "Hold on. 같은 화면에서 <strong>Forward PER</strong>을 봐. 17.6배야. 이 둘의 차이가 미장 성장주의 핵심이라고."</p>
+<blockquote>
+<p>📅 <strong>기준일: 2026-06-02 종가</strong>. 모든 수치는 매일 변하니 Finviz·Yahoo에서 오늘 값을 확인해.</p>
+</blockquote>
+<hr>
+<h2>1. Trailing PER vs Forward PER</h2>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Trailing PER</strong></td>
+<td>과거 12개월 <strong>실제 이익</strong> 기준</td>
+</tr>
+<tr>
+<td><strong>Forward PER</strong></td>
+<td>향후 12개월 <strong>예상 이익</strong> 기준</td>
+</tr>
+</tbody>
+</table>
+<p>엔비디아 (2026-06-02):</p>
+<ul>
+<li>Trailing PER <strong>34.18</strong> (지난 1년 이익 기준 → 비싸 보임)</li>
+<li>Forward PER <strong>17.61</strong> (예상 이익 기준 → 절반으로 뚝)</li>
+</ul>
+<p>🦅 <strong>잭이글</strong>: "Forward가 Trailing의 절반이라는 건, 시장이 <strong>앞으로 이익이 約 2배로 늘 것</strong>으로 본다는 뜻이야. 그래서 trailing PER 34가 '비싸다'고 단정하면 안 돼."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "아! 미래 이익이 급증하면 지금 PER이 높아도 정당화되는 거군요?"</p>
+<p>🦅 <strong>잭이글</strong>: "Exactly. 단, <strong>그 예상이 빗나가면</strong> forward PER은 허상이 되고 주가는 무너져. 매 분기 실적(earnings)을 확인해야 하는 이유지."</p>
+<hr>
+<h2>2. PEG — 성장을 반영한 밸류에이션</h2>
+<p><strong>PEG = PER ÷ 연이익성장률(%)</strong>, 1.0 이하면 성장 대비 합리적.</p>
+<ul>
+<li>엔비디아 trailing PER 34, 이익성장률이 연 40%대라면 → PEG ≈ 0.8 → 비싸지 않을 수 있음</li>
+<li>반대로 성장률 10%인데 PER 34면 → PEG 3.4 → 과열</li>
+</ul>
+<p>🦅 <strong>잭이글</strong>: "미장 성장주는 PER 숫자만 보면 다 비싸 보여. <strong>PEG로 성장 대비</strong>를 봐야 진짜가 보여."</p>
+<hr>
+<h2>3. 성장주 vs 가치주 — 실제 비교 (2026-06-02)</h2>
+<table>
+<thead>
+<tr>
+<th>종목</th>
+<th>Trailing PER</th>
+<th>Forward PER</th>
+<th>ROE</th>
+<th>유형</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>엔비디아(NVDA)</strong></td>
+<td>34.18</td>
+<td>17.61</td>
+<td>114.3%</td>
+<td>초고성장</td>
+</tr>
+<tr>
+<td><strong>마이크로소프트(MSFT)</strong></td>
+<td>27.33</td>
+<td>23.73</td>
+<td>34.0%</td>
+<td>안정 성장</td>
+</tr>
+<tr>
+<td><strong>알파벳(GOOGL)</strong></td>
+<td>28.76</td>
+<td>26.04</td>
+<td>38.9%</td>
+<td>성장</td>
+</tr>
+<tr>
+<td><strong>코카콜라(KO)</strong></td>
+<td>24.76</td>
+<td>22.60</td>
+<td>43.4%</td>
+<td>배당/소비재</td>
+</tr>
+<tr>
+<td><strong>버크셔(BRK.B)</strong></td>
+<td>13.96</td>
+<td>—</td>
+<td>10.5%</td>
+<td>가치/지주</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/static/images/stock/charts/per_trailing_forward_us.png" alt="Trailing vs Forward PER 차트"></p>
+<p>🦅 <strong>잭이글</strong>: "엔비디아만 trailing-forward 갭이 크지(34→17.6)? 그만큼 <strong>성장 기대가 폭발적</strong>이라는 뜻. 반면 코카콜라는 24→22로 갭이 작아 — 안정적이지만 성장은 느리다는 신호야."</p>
+<p>🐯 <strong>호두</strong>: "코카콜라 PER이 24배면... 소비재치곤 좀 비싼 거 아니에요?"</p>
+<p>🦅 <strong>잭이글</strong>: "Sharp! 맞아. KO는 '싼 가치주'가 아니라 <strong>비싸도 사는 안정 배당주</strong>야. 버핏이 보유한다고 싸다는 뜻은 아니라고. 가격은 별개야."</p>
+<hr>
+<h2>4. 역사가 준 교훈 — 닷컴버블 (2000)</h2>
+<p>🦅 <strong>잭이글</strong>: "고PER이 항상 정당화되는 건 아니야. 2000년 닷컴버블 때를 봐."</p>
+<ul>
+<li>1999~2000년, 인터넷 기업들이 <strong>이익도 없이 PER 수백 배</strong>에 거래됨</li>
+<li>"이번엔 다르다(This time is different)"는 말이 유행</li>
+<li>2000년 3월 나스닥 정점 → 2002년까지 <strong>약 −78% 폭락</strong>, 수많은 닷컴 기업 상장폐지</li>
+<li>살아남은 건 <strong>실제 이익·현금흐름이 있던</strong> 아마존·이베이 등 소수</li>
+</ul>
+<p>🦅 <strong>잭이글</strong>: "교훈? 성장 스토리가 아무리 좋아도 <strong>결국 이익·현금흐름이 받쳐줘야</strong> 한다는 거야. forward PER이 낮아 보여도 그 '예상 이익'이 진짜 올지 의심해."</p>
+<hr>
+<h2>5. 호두의 미장 실습</h2>
+<p>🦅 <strong>잭이글</strong>: "Finviz로 1분이면 끝나."</p>
+<ol>
+<li><strong>Finviz</strong> (finviz.com) → 티커(NVDA) 입력 → P/E, Forward P/E, PEG, ROE 한 줄에 다 나옴</li>
+<li><strong>Yahoo Finance</strong> → NVDA > Statistics → Forward P/E, PEG Ratio 확인</li>
+<li>같은 방식 MSFT·KO 비교 → trailing-forward 갭으로 성장성 가늠</li>
+<li>판단: 고PER이면 <strong>forward PER + PEG</strong>로 성장 검증, 갭 작으면 안정주</li>
+</ol>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "PER 하나가 아니라 forward PER이랑 PEG까지! 이제 'NVDA 비싸다'고 단정 안 할래요."</p>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>사이트</th>
+<th>경로</th>
+<th>확인할 것</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Finviz</strong> (finviz.com)</td>
+<td>티커 검색</td>
+<td>P/E·Forward P/E·PEG·ROE 한눈에 ⭐</td>
+</tr>
+<tr>
+<td><strong>Yahoo Finance</strong></td>
+<td>티커 > Statistics</td>
+<td>Forward P/E, PEG, EPS 추정</td>
+</tr>
+<tr>
+<td><strong>Macrotrends</strong> (macrotrends.net)</td>
+<td>티커 > PE Ratio</td>
+<td>10년 PER 추이</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 엔비디아 trailing PER 34, forward PER 17.6이 뜻하는 것은?
+→ 시장이 향후 이익이 <strong>약 2배 증가</strong>할 것으로 기대 (그래서 trailing이 비싸 보이는 것)</p>
+<p><strong>Q2.</strong> PER 30, 이익성장률 연 30%면 PEG는? 해석은?
+→ PEG = 30÷30 = <strong>1.0</strong> → 성장 대비 합리적</p>
+<p><strong>Q3.</strong> 코카콜라 PER 24가 "싸다"는 뜻인가?
+→ 아님. 소비재치곤 <strong>비싼 편</strong>. 안정·배당 때문에 비싸도 사는 종목 (버핏 보유 ≠ 저가)</p>
+<hr>
+<p>🎬 <strong>다음</strong>: 잭이글이 "애플 ROE가 왜 141%나 되는지" — 자사주 매입의 마법(과 함정)을 10-K로 파헤친다.</p>
+<blockquote>
+<p>※ 종목은 개념 설명용 예시이며 매수 추천이 아닙니다. 수치는 2026-06-02 종가 기준이며 매일 변합니다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-08"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🇺🇸 [미장 재무 1] 엔비디아 PER 34 vs Forward 17 — 성장의 비밀"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"🇺🇸 [미장 재무 1] 엔비디아 PER 34 vs Forward 17 — 성장의 비밀 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

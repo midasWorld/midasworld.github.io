@@ -1,0 +1,151 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T1c10,<h1>🌍 [경제 4] 고용지표 — 왜 '고용이 좋은데' 주가가 빠지나</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 이상한 얘기 하나 해주마. <strong>'일자리가 잘 늘었다'는 뉴스에 주가가 떨어지는</strong> 날이 있다. 왜일까? 이걸 이해하면 너는 시장의 '청개구리 같은 성격'을 알게 된다."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "고용이 좋으면 경제가 좋은 거 아니에요? 그럼 주가도 올라야지!"</p>
+<p>🐢 <strong>거사부</strong>: "상식적으론 그렇지. 근데 시장은 한 발 더 간다. 오늘 그 논리를 잡아주마."</p>
+<hr>
+<h2>1. 왜 주식쟁이가 고용을 보나 — Fed의 '이중책무'</h2>
+<p>미국 중앙은행(Fed)은 법으로 <strong>두 가지 목표</strong>를 진다.</p>
+<blockquote>
+<p><strong>① 물가 안정 (2%)  +  ② 최대 고용</strong></p>
+</blockquote>
+<ul>
+<li>그래서 Fed는 <strong>고용지표</strong>를 보고 금리를 정한다 → 고용이 금리를 움직이고, 금리가 주가를 움직인다(1편)</li>
+<li>즉 고용지표는 **'금리의 선행 단서'**다. 그래서 주식쟁이가 본다.</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "1·2편의 사슬을 기억하지? <strong>고용 → Fed 판단 → 금리 → 주가.</strong> 고용은 이 사슬의 앞단이야."</p>
+<hr>
+<h2>2. 핵심 고용지표 3종</h2>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>무엇</th>
+<th>발표</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>비농업고용(NFP)</strong></td>
+<td>농업 뺀 신규 일자리 수</td>
+<td>매월 첫 금요일</td>
+<td><strong>시장 최대어</strong>. 월 20만↑면 견조</td>
+</tr>
+<tr>
+<td><strong>실업률</strong></td>
+<td>실업자 ÷ 경제활동인구</td>
+<td>〃</td>
+<td>낮을수록 과열, 단 <strong>후행</strong></td>
+</tr>
+<tr>
+<td><strong>시간당 임금</strong></td>
+<td>임금 상승률</td>
+<td>〃</td>
+<td>임금↑ → 인플레 압력 → 금리↑</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "특히 <strong>시간당 임금</strong>을 놓치지 마라. 임금이 빨리 오르면 → 기업 비용↑ + 소비여력↑ → <strong>인플레</strong> 자극 → Fed가 금리를 못 내린다. 고용 숫자만큼 <strong>임금</strong>이 중요해."</p>
+<hr>
+<h2>3. 'Good news is bad news' — 청개구리 장세</h2>
+<p>🐢 <strong>거사부</strong>: "이제 첫 질문의 답이다. <strong>고금리 국면</strong>에선 이런 일이 벌어진다."</p>
+<pre><code class="hljs language-arduino">고용 너무 강함 → 경기 과열·임금↑ → Fed가 금리 인하 미룸/인상
+            → 시장금리↑ → 주가↓   (<span class="hljs-string">'좋은 뉴스가 나쁜 뉴스'</span>)
+
+고용 식음     → 경기 둔화 우려 but 금리 인하 기대↑
+            → 때로 주가↑          (<span class="hljs-string">'나쁜 뉴스가 좋은 뉴스'</span>)
+</code></pre>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "아! <strong>금리 인하를 기다리는 장</strong>에선, 고용이 너무 좋으면 '인하가 늦어지겠네' 해서 실망하는 거군요?"</p>
+<p>🐢 <strong>거사부</strong>: "정확하다. 단 <strong>항상</strong> 그런 건 아니야. <strong>침체 공포가 큰 국면</strong>에선 반대로 '고용 좋다=경기 튼튼'으로 환영받는다. <strong>그 시점에 시장이 뭘 더 무서워하는가</strong>(인플레냐 침체냐)에 따라 해석이 뒤집혀. 이게 고급 포인트다."</p>
+<hr>
+<h2>4. 원칙은 똑같다 — '예상치 대비'</h2>
+<p>🐢 <strong>거사부</strong>: "2편에서 배운 그 원칙, 고용에도 그대로다."</p>
+<table>
+<thead>
+<tr>
+<th>NFP 발표</th>
+<th>의미</th>
+<th>고금리 국면 반응(일반)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>예상 <strong>크게 상회</strong></td>
+<td>경기 과열·금리 부담</td>
+<td>주가↓ 금리↑</td>
+</tr>
+<tr>
+<td>예상 부합</td>
+<td>무난</td>
+<td>차분</td>
+</tr>
+<tr>
+<td>예상 <strong>크게 하회</strong></td>
+<td>둔화 신호</td>
+<td>인하기대 vs 침체공포 <strong>양면</strong></td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "숫자 자체가 아니라 **'예상과의 차이'**가 가격을 흔든다. 금리·물가·고용 — 모든 지표의 공통 법칙이야."</p>
+<hr>
+<h2>5. 함정 — 실업률의 두 얼굴</h2>
+<p>🐢 <strong>거사부</strong>: "초보가 헷갈리는 것들."</p>
+<ol>
+<li><strong>"실업률 낮으면 무조건 좋다"</strong> ❌ → 너무 낮으면 <strong>과열·임금인플레</strong> 신호로 읽혀 금리 부담. 또 실업률은 <strong>후행지표</strong>라 침체를 미리 못 잡는다.</li>
+<li><strong>"실업률만 보면 된다"</strong> ❌ → <strong>경제활동참가율</strong>이 떨어져서(구직 포기) 실업률이 '착시'로 낮아질 수 있다. 숫자 뒤를 봐라.</li>
+<li><strong>"고용=항상 호재/악재"</strong> ❌ → 같은 숫자도 **국면(인플레 걱정 vs 침체 걱정)**에 따라 해석이 정반대.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>미 NFP·실업률·임금</td>
+<td><strong>investing.com 경제캘린더</strong></td>
+<td>매월 첫 금요일, 예상치·실제</td>
+</tr>
+<tr>
+<td>미 고용 상세</td>
+<td><strong>BLS</strong>(bls.gov)</td>
+<td>고용보고서 원문</td>
+</tr>
+<tr>
+<td>한국 고용동향</td>
+<td><strong>통계청 KOSIS</strong></td>
+<td>매월 취업자 증감·실업률</td>
+</tr>
+<tr>
+<td>Fed의 시각</td>
+<td><strong>FOMC 성명·기자회견</strong></td>
+<td>'고용시장 평가' 문구</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 주식 투자자가 고용지표를 챙기는 근본 이유는?
+→ Fed가 **고용(이중책무)**을 보고 <strong>금리</strong>를 정하고, 금리가 주가를 움직이기 때문. 고용은 금리의 선행 단서.</p>
+<p><strong>Q2.</strong> 금리 인하를 기다리는 장에서 NFP가 예상보다 너무 강하면 왜 악재가 되나?
+→ 경기 과열·임금↑로 <strong>인하가 미뤄질</strong> 거란 우려 → 'good news is bad news'.</p>
+<p><strong>Q3.</strong> 실업률이 낮아졌는데 마냥 좋다고 못 하는 이유 하나는?
+→ **구직 포기(참가율 하락)**로 인한 착시일 수 있고, 과열 시 임금인플레 신호이며, 애초에 <strong>후행지표</strong>라 침체를 못 잡음.</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [경제 5] 채권·수익률곡선 — 장단기 금리차가 역전되면 왜 '침체 경보'인가.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 투자 권유가 아닙니다. 지표 해석은 시장 국면에 따라 달라지며 단일 수치로 단정할 수 없습니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-19"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🌍 [경제 4] 고용지표 — 왜 '고용이 좋은데' 주가가 빠지나"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

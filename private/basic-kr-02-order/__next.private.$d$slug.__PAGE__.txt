@@ -1,0 +1,121 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T10c2,<h1>🇰🇷 [국장 기초 2] 호두의 첫 주문 — 시장가의 함정</h1>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "거사부! 사고 싶은 종목을 찾았어요. 빨리 사고 싶어서 그냥 '시장가'로 눌렀는데..."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "어? 50,100원에 살 줄 알았는데 51,000원에 체결됐어요! 왜죠?!"</p>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "허허… 그게 바로 <strong>시장가의 함정</strong>이란다. 차근차근 보자."</p>
+<hr>
+<h2>1. 지정가 vs 시장가</h2>
+<table>
+<thead>
+<tr>
+<th>주문</th>
+<th>동작</th>
+<th>장점</th>
+<th>위험</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>지정가</strong>(Limit)</td>
+<td>내가 정한 가격에만 체결</td>
+<td>원하는 가격 보장</td>
+<td>체결 안 될 수 있음</td>
+</tr>
+<tr>
+<td><strong>시장가</strong>(Market)</td>
+<td>즉시 현재 호가로 체결</td>
+<td>즉시 체결</td>
+<td><strong>비싸게 살 수 있음(슬리피지)</strong></td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "네가 시장가로 주문한 순간, 매도호가 50,100원 → 50,200원 → … 위로 채워가며 체결된 거야. 매도 물량이 적으면 한참 위까지 올라가지."</p>
+<hr>
+<h2>2. 슬리피지(Slippage)</h2>
+<p><strong>슬리피지</strong> = 예상 체결가와 실제 체결가의 차이.</p>
+<ul>
+<li>거래량 많은 대형주(삼성전자 등): 슬리피지 거의 없음</li>
+<li>거래량 적은 종목: 시장가 주문 시 크게 손해</li>
+</ul>
+<p>🐯 <strong>호두</strong>: "그럼 어떻게 해야 돼요?"</p>
+<p>🐢 <strong>거사부</strong>: "<strong>지정가</strong>를 써라. '50,100원에 사겠다'고 지정하면 그 가격 이하에서만 체결된단다. 급하지 않으면 항상 지정가가 안전해."</p>
+<hr>
+<h2>3. 특수 주문</h2>
+<table>
+<thead>
+<tr>
+<th>주문</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IOC</strong></td>
+<td>즉시 체결 + 남은 잔량 자동 취소</td>
+</tr>
+<tr>
+<td><strong>FOK</strong></td>
+<td>전량 즉시 체결 or 전량 취소</td>
+</tr>
+<tr>
+<td><strong>조건부지정가</strong></td>
+<td>장중 지정가, 마감 동시호가에 시장가 전환</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>4. 체결 우선순위</h2>
+<p>같은 종목에 주문이 몰리면 이 순서로 체결돼요:</p>
+<p><strong>① 가격 우선</strong> (더 좋은 가격) → <strong>② 시간 우선</strong> (먼저 낸 주문) → <strong>③ 수량 우선</strong></p>
+<p>🐢 <strong>거사부</strong>: "그러니 좋은 가격에 빨리 주문을 넣는 게 유리하지."</p>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>사이트</th>
+<th>메뉴 경로</th>
+<th>무엇을 확인</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>증권사 앱</strong></td>
+<td>주식 주문 화면</td>
+<td>지정가/시장가/IOC/FOK 선택</td>
+</tr>
+<tr>
+<td><strong>네이버페이 증권</strong> (finance.naver.com)</td>
+<td>종목 > 호가</td>
+<td>호가 잔량으로 슬리피지 가늠</td>
+</tr>
+<tr>
+<td><strong>KRX</strong> (krx.co.kr)</td>
+<td>시장정보 > 거래 안내</td>
+<td>호가 단위·체결 규칙</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>💡 <strong>호가 단위</strong>는 가격대별로 다릅니다. 예: 5만원대 주식은 50원 단위, 1만원대는 10원 단위.</p>
+</blockquote>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> 원하는 가격을 보장하려면 어떤 주문?
+→ <strong>지정가</strong></p>
+<p><strong>Q2.</strong> 거래량 적은 종목에 시장가 주문 시 위험은?
+→ <strong>슬리피지</strong>(예상보다 비싸게 체결)</p>
+<p><strong>Q3.</strong> 체결 우선순위 1순위는?
+→ <strong>가격 우선</strong></p>
+<hr>
+<p>🎬 <strong>다음 에피소드</strong>: 호두가 첫 수익을 봤다! 그런데 막상 팔고 나니 생각보다 손에 쥔 돈이 적은데... 세금과 거래시간 이야기.</p>
+<blockquote>
+<p>※ 2026년 상반기 기준. 거래 규칙·호가 단위는 변경될 수 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-06-09"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🇰🇷 [국장 기초 2] 호두의 첫 주문 — 시장가의 함정"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

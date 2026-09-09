@@ -1,0 +1,125 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T1bc1,<h1>📈 [기술심화 3] 보조지표 — RSI·MACD·볼린저밴드 제대로 쓰기</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 추세(1편)·거래량(2편)을 봤다. 이제 <strong>보조지표</strong>다. RSI·MACD·볼린저밴드 — 화려해 보이지만, <strong>보조는 어디까지나 보조</strong>야. 주가(가격·추세)가 본문이고 보조지표는 각주다. 주객전도하면 망해. 그 전제로 제대로 쓰는 법을 알려주마."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "지표가 많던데 다 써야 해요?"</p>
+<p>🐢 <strong>거사부</strong>: "아니다. <strong>두세 개만 제대로</strong> 쓰면 충분해. 성격이 겹치는 걸 잔뜩 깔면 오히려 헷갈려. 핵심만 보자."</p>
+<hr>
+<h2>1. 보조지표의 두 종류</h2>
+<table>
+<thead>
+<tr>
+<th>종류</th>
+<th>무엇</th>
+<th>대표</th>
+<th>잘 듣는 장세</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>추세지표</strong></td>
+<td>추세 방향·강도</td>
+<td>MACD, 이동평균</td>
+<td><strong>추세장</strong></td>
+</tr>
+<tr>
+<td><strong>모멘텀(오실레이터)</strong></td>
+<td>과열·침체</td>
+<td>RSI, 스토캐스틱</td>
+<td><strong>횡보장</strong></td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "이게 핵심이다. <strong>추세장에선 추세지표, 횡보장에선 오실레이터</strong>가 잘 듣는다. 장세에 안 맞는 지표를 쓰면 계속 틀려. 도구를 장세에 맞춰라."</p>
+<hr>
+<h2>2. RSI — 과매수·과매도</h2>
+<blockquote>
+<p><strong>RSI</strong>: 0~100. 최근 상승/하락 강도. 통념상 <strong>70↑ 과매수, 30↓ 과매도</strong></p>
+</blockquote>
+<ul>
+<li>70 이상 = 너무 올랐다(조정 가능성), 30 이하 = 너무 빠졌다(반등 가능성)</li>
+<li><strong>⚠️ 함정</strong>: 강한 추세장에선 RSI가 <strong>70 위에 오래 머물며 계속 상승</strong>한다. "과매수니 팔자"가 큰 실수가 돼</li>
+</ul>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "RSI 70이면 무조건 파는 거 아니에요?"</p>
+<p>🐢 <strong>거사부</strong>: "그게 초보의 무덤이다. <strong>강세장에선 과매수가 계속된다.</strong> RSI는 <strong>횡보장</strong>에서 30/70 되돌림이 잘 듣고, <strong>추세장에선 신호가 무력</strong>해져. 단독으로 쓰지 마."</p>
+<hr>
+<h2>3. MACD — 추세 전환과 모멘텀</h2>
+<blockquote>
+<p><strong>MACD = 단기 이평 − 장기 이평</strong>, 그리고 그 <strong>시그널선</strong></p>
+</blockquote>
+<ul>
+<li>MACD가 시그널선을 <strong>위로 교차</strong> → 상승 모멘텀(매수 관점)</li>
+<li><strong>아래로 교차</strong> → 하락 모멘텀</li>
+<li><strong>0선 위/아래</strong> = 큰 추세의 방향</li>
+<li>추세장에서 특히 유용 (추세지표)</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "MACD는 이동평균을 가공한 거라 역시 <strong>후행</strong> 성격이 있다. 하지만 추세의 <strong>힘이 붙는지 꺾이는지</strong>를 보는 덴 좋아. 교차만 보지 말고 <strong>0선 기준 위치</strong>도 같이 봐라."</p>
+<hr>
+<h2>4. 볼린저밴드 — 변동성의 띠</h2>
+<blockquote>
+<p>이동평균(중심선) ± 표준편차 2배로 만든 <strong>위·아래 밴드</strong></p>
+</blockquote>
+<ul>
+<li>주가가 밴드 <strong>상단 터치</strong> = 단기 과열, <strong>하단 터치</strong> = 단기 침체(횡보장 기준)</li>
+<li><strong>밴드 수축(스퀴즈)</strong> = 변동성 축소 → <strong>큰 변동 임박</strong> 신호(방향은 미정)</li>
+<li><strong>밴드 확장</strong> = 변동성 폭발(추세 진행 중)</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "볼린저의 진짜 묘미는 **'스퀴즈'**다. 밴드가 좁아지면 <strong>폭풍 전 고요</strong> — 곧 크게 움직인다(방향은 거래량·돌파로 판단). 단, '하단 터치=매수'는 <strong>하락추세에선 계속 하단을 타고 내려가니</strong> 조심."</p>
+<hr>
+<h2>5. ⭐ 다이버전스 — 지표가 가격과 엇갈릴 때</h2>
+<p>🐢 <strong>거사부</strong>: "보조지표의 백미는 **다이버전스(괴리)**다."</p>
+<ul>
+<li><strong>하락 다이버전스</strong>: 주가는 <strong>신고점</strong>인데 RSI/MACD는 <strong>고점이 낮아짐</strong> → 상승 힘 약화(천장 경계)</li>
+<li><strong>상승 다이버전스</strong>: 주가는 <strong>신저점</strong>인데 지표는 <strong>저점이 높아짐</strong> → 하락 힘 소진(바닥 가능성)</li>
+</ul>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "가격은 오르는데 지표는 힘이 빠지면 미리 경고가 되는 거군요!"</p>
+<p>🐢 <strong>거사부</strong>: "그렇지. 다이버전스는 <strong>추세 전환의 조기 경보</strong>다. 단, 조기 경보지 <strong>타이머가 아니라</strong> 한참 더 갈 수도 있어. 확인 신호로 써라."</p>
+<hr>
+<h2>6. 함정 — 보조지표 3대 실수</h2>
+<ol>
+<li><strong>"RSI 70=매도, 30=매수"</strong> 기계적 적용 ❌ → <strong>추세장에선 무력.</strong> 장세 구분이 먼저.</li>
+<li><strong>지표 떡칠</strong> ❌ → 성격 겹치는 지표 5개 깔아도 노이즈만↑. <strong>2~3개</strong>면 충분.</li>
+<li><strong>"보조지표로 매매 결정"</strong> ❌ → 보조는 <strong>각주</strong>. 가격·추세·거래량(본문)을 <strong>보조·확인</strong>하는 용도.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RSI·MACD·볼린저</td>
+<td><strong>TradingView / 네이버 차트</strong></td>
+<td>지표 추가 메뉴</td>
+</tr>
+<tr>
+<td>다이버전스</td>
+<td><strong>TradingView</strong></td>
+<td>가격 vs RSI/MACD 비교</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> RSI 70(과매수)에서 기계적으로 매도하면 위험한 장세는?
+→ <strong>강한 추세장(상승장)</strong>. RSI가 70 위에 오래 머물며 계속 오를 수 있음.</p>
+<p><strong>Q2.</strong> 볼린저밴드 '스퀴즈(수축)'가 시사하는 것은?
+→ 변동성 축소 → <strong>큰 변동 임박</strong>(방향은 미정, 돌파·거래량으로 판단).</p>
+<p><strong>Q3.</strong> '하락 다이버전스'란?
+→ 주가는 <strong>신고점</strong>인데 RSI/MACD 고점은 <strong>낮아짐</strong> → 상승 동력 약화(천장 경보).</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [기술심화 4] 차트 패턴 — 헤드앤숄더·삼각수렴, 그리고 패턴의 함정.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 특정 종목 추천이 아닙니다. 보조지표는 확률적 참고 도구입니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-31"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"📈 [기술심화 3] 보조지표 — RSI·MACD·볼린저밴드 제대로 쓰기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

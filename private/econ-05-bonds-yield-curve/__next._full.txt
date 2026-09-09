@@ -1,0 +1,152 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/6616542657a424b9.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/6616542657a424b9.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/6616542657a424b9.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"rWDbntOheDKJYi0h3fs-H","c":["","private","econ-05-bonds-yield-curve",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","econ-05-bonds-yield-curve","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6616542657a424b9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T1d33,<h1>🌍 [경제 5] 채권과 수익률곡선 — 시장이 보는 '침체 경보기'</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 주식만 보는 사람은 반쪽이다. 진짜 큰돈(기관·외국인)은 <strong>채권</strong>을 본다. 그리고 채권엔 <strong>경기침체를 미리 알리는 경보기</strong>가 숨어 있어. 오늘 그 경보기 읽는 법을 알려주마."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "채권은 그냥 안전한 거 아니에요? 그게 주식이랑 무슨 상관이..."</p>
+<p>🐢 <strong>거사부</strong>: "그 '안전한 것'이 주식의 <strong>기준점</strong>이자 <strong>경쟁자</strong>다. 차근차근 가자."</p>
+<hr>
+<h2>1. 채권 기본 — 가격과 금리는 반대로 움직인다</h2>
+<p><strong>채권</strong> = 돈을 빌려주고 받는 차용증. 만기에 원금 + 정해진 이자.</p>
+<blockquote>
+<p>📌 <strong>채권 가격 ↑ = 채권 금리(수익률) ↓</strong> (반대 방향!)</p>
+</blockquote>
+<ul>
+<li>왜? 이미 발행된 '연 3% 채권'이 있는데 신규 채권이 '연 5%'로 나오면 → 3%짜리는 인기 없어 <strong>값이 떨어진다</strong> → 떨어진 값에 사면 수익률이 5%에 맞춰짐</li>
+<li>그래서 <strong>"금리가 올랐다" = "채권값이 떨어졌다"</strong> 는 같은 말</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "이 역관계만 잡아도 뉴스가 달리 보인다. '국채금리 급등'은 '채권 투자자들이 채권을 팔았다'는 뜻이야."</p>
+<hr>
+<h2>2. 채권은 주식의 '중력의 기준점'</h2>
+<p>🐢 <strong>거사부</strong>: "1편에서 금리를 '중력'이라 했지? 그 중력의 <strong>기준이 국채금리</strong>다."</p>
+<ul>
+<li><strong>미 10년물 국채 = 무위험 수익률의 대표</strong> → 오늘 <strong>4.54%</strong> (2026-06-06)</li>
+<li>주식의 기대수익률은 이 4.54%와 <strong>경쟁</strong>한다 → "위험한 주식이 안전한 4.5%보다 나은가?"</li>
+<li>국채금리↑ → 안전자산 매력↑ → 위험자산(주식)에서 돈이 빠질 유인</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "그래서 10년물이 4%를 넘어서면 성장주가 특히 힘들어해. **'안전하게 4.5% 받지 왜 위험을 지냐'**는 압력이지."</p>
+<hr>
+<h2>3. 수익률곡선 — 만기별 금리를 이은 선</h2>
+<p>🐢 <strong>거사부</strong>: "국채는 만기가 다양하다(3개월·2년·10년·30년). 만기별 금리를 이으면 <strong>수익률곡선</strong>이 된다."</p>
+<table>
+<thead>
+<tr>
+<th>곡선 모양</th>
+<th>무슨 뜻</th>
+<th>경기 신호</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>우상향(정상)</strong></td>
+<td>장기금리 > 단기금리</td>
+<td>정상·완만한 성장 기대</td>
+</tr>
+<tr>
+<td><strong>평탄(flat)</strong></td>
+<td>장단기 비슷</td>
+<td>전환기·불확실</td>
+</tr>
+<tr>
+<td><strong>역전(inverted)</strong></td>
+<td><strong>단기금리 > 장기금리</strong></td>
+<td>⚠️ <strong>침체 경보</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>보통은 돈을 오래 빌려주면 금리를 더 받는다(우상향) → 당연</li>
+<li>그런데 **단기금리가 장기보다 높아지는 '역전'**은 비정상 신호</li>
+</ul>
+<hr>
+<h2>4. 장단기 금리차 역전 = 침체 경보 (핵심)</h2>
+<p>🐢 <strong>거사부</strong>: "가장 유명한 게 <strong>10년물 − 2년물</strong> 금리차다. 이게 **마이너스(역전)**가 되면 역사적으로 1~2년 뒤 <strong>경기침체</strong>가 잦았어."</p>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "왜 역전되면 침체가 와요?"</p>
+<p>🐢 <strong>거사부</strong>: "직관은 이렇다. **'곧 경기가 나빠져 Fed가 금리를 내릴 것'**이라고 시장이 보면, 미래 금리를 반영하는 <strong>장기금리가 먼저 내려가</strong> → 단기보다 낮아져 역전된다. 즉 역전은 **'시장이 미리 침체를 베팅'**하는 거야."</p>
+<blockquote>
+<p>⚠️ 단, 역전은 <strong>'경보'지 '타이머'가 아니다.</strong> 역전 후 침체까지 몇 달~2년 시차가 크고, 안 온 적도 있다. <strong>만능 예언이 아니라 확률 높은 경고등</strong>으로 봐라.</p>
+</blockquote>
+<hr>
+<h2>5. 신용 스프레드 — 또 하나의 경보기</h2>
+<p>🐢 <strong>거사부</strong>: "하나 더. <strong>회사채 금리 − 국채 금리 = 신용 스프레드</strong>다."</p>
+<ul>
+<li>스프레드 <strong>확대</strong> = 투자자가 부도 위험을 크게 본다 = 공포·경기불안</li>
+<li>스프레드 <strong>축소</strong> = 안심·위험선호</li>
+<li>특히 <strong>하이일드(정크본드) 스프레드</strong>가 급히 벌어지면 위기 신호</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "주가가 멀쩡해 보여도 <strong>신용 스프레드가 슬금슬금 벌어지면</strong> 채권시장이 먼저 겁먹은 거다. 주식보다 채권이 똑똑할 때가 많아."</p>
+<hr>
+<h2>6. 함정</h2>
+<ol>
+<li><strong>"금리 오르면 채권은 안전하니 사자"</strong> ❌ → 금리 상승기엔 <strong>채권 가격이 떨어진다.</strong> 장기채일수록 더 크게 손실(듀레이션).</li>
+<li><strong>"역전됐으니 당장 다 팔자"</strong> ❌ → 역전 후에도 주가가 한참 오른 적 많다. <strong>경보지 매도 타이머 아님.</strong></li>
+<li><strong>"주식만 보면 된다"</strong> ❌ → <strong>채권시장이 더 빨리</strong> 위험을 반영한다. 국채금리·스프레드를 곁들여 봐라.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>미 국채금리(2Y·10Y)</td>
+<td><strong>investing.com</strong> / TradingView</td>
+<td>"US 2Y", "US 10Y"</td>
+</tr>
+<tr>
+<td>장단기 금리차</td>
+<td><strong>FRED</strong></td>
+<td>"T10Y2Y" 검색, 0 밑이면 역전</td>
+</tr>
+<tr>
+<td>신용 스프레드</td>
+<td><strong>FRED</strong></td>
+<td>"BAMLH0A0HYM2"(하이일드)</td>
+</tr>
+<tr>
+<td>한국 국고채</td>
+<td><strong>금융투자협회 채권정보</strong></td>
+<td>3Y·10Y 국고채</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> "국채금리가 급등했다"를 채권 가격으로 바꿔 말하면?
+→ <strong>채권 가격이 급락했다</strong> (금리와 가격은 반대).</p>
+<p><strong>Q2.</strong> 10년물−2년물이 마이너스(역전)면 무슨 신호이고, 왜 생기나?
+→ <strong>침체 경보</strong>. 시장이 미래 금리 인하(=경기 악화)를 예상해 <strong>장기금리가 먼저 내려가</strong> 단기보다 낮아짐.</p>
+<p><strong>Q3.</strong> 역전을 '타이머'로 쓰면 안 되는 이유는?
+→ 역전~침체까지 <strong>시차가 크고 불규칙</strong>하며 빗나간 적도 있음. 확률 높은 <strong>경고등</strong>일 뿐.</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [경제 6] 환율 — 원/달러 1,559원, 외국인은 왜 환율에 따라 사고팔까.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 투자 권유가 아닙니다. 금리·스프레드는 매일 변하니 직접 확인하세요. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-18"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🌍 [경제 5] 채권과 수익률곡선 — 시장이 보는 '침체 경보기'"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"🌍 [경제 5] 채권과 수익률곡선 — 시장이 보는 '침체 경보기' | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]

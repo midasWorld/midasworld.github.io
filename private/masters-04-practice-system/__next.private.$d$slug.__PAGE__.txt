@@ -1,0 +1,149 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T21c8,<h1>🎓 [대가 4] 실무 — 나만의 투자 시스템 만들기</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 드디어 마지막 챕터다. 대가들의 철학(1~3편)을 배웠으니, 이제 <strong>너만의 시스템</strong>으로 만들 차례야. 지식이 100개여도 <strong>원칙·기록·복기</strong>가 없으면 감정에 휘둘려 다 잃어. 실전을 살아남게 하는 <strong>실무 도구</strong>를 알려주마."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "지식은 배웠는데 막상 실전에선 자신이 없어요..."</p>
+<p>🐢 <strong>거사부</strong>: "당연하다. **투자의 적은 시장이 아니라 너 자신(감정)**이거든. 시스템이 그 감정을 막아준다."</p>
+<hr>
+<h2>1. 투자 원칙 — 흔들리지 않을 나의 헌법</h2>
+<p>🐢 <strong>거사부</strong>: "먼저 <strong>글로 적은 원칙</strong>을 만들어라. 머릿속 다짐은 폭락장에 증발해."</p>
+<p><strong>원칙 예시 (너만의 버전으로)</strong></p>
+<pre><code class="hljs language-scss">· 한 종목 최대 비중 <span class="hljs-number">20%</span>, 한 섹터 최대 <span class="hljs-number">40%</span> (분산)
+· 매수 전 '왜 사는지' <span class="hljs-number">3</span>줄 + 손절가·목표가를 적는다
+· 손절선 −<span class="hljs-number">10%</span> 도달 시 기계적 매도 (예외 없음)
+· 빚(신용·미수)·레버리지로 투자하지 않는다
+· 큰 이벤트(FOMC·실적) 직전 풀매수 금지
+· 모르는 것엔 투자하지 않는다 (능력 범위)
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "이게 너의 <strong>헌법</strong>이다. 시장이 너를 유혹할 때, <strong>'내 원칙에 맞나?'</strong> 한 줄이 너를 구한다. 버핏의 '제1원칙: 잃지 마라'를 네 언어로 적어둬."</p>
+<hr>
+<h2>2. 매매일지 — 모든 거래의 근거를 남겨라</h2>
+<p>🐢 <strong>거사부</strong>: "프로와 아마추어를 가르는 게 <strong>매매일지</strong>다. 사고팔 때마다 적어."</p>
+<table>
+<thead>
+<tr>
+<th>기록 항목</th>
+<th>왜</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>매수 이유</strong> (3줄)</td>
+<td>나중에 '왜 샀지?'를 막음</td>
+</tr>
+<tr>
+<td><strong>매수가·손절가·목표가</strong></td>
+<td>계획 없는 매매 방지</td>
+</tr>
+<tr>
+<td><strong>그때의 감정</strong></td>
+<td>공포·탐욕 패턴 파악</td>
+</tr>
+<tr>
+<td><strong>매도 이유·결과</strong></td>
+<td>복기의 재료</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "특히 **'그때의 감정'**을 적어라. 나중에 보면 <strong>'아, 나는 공포에 항상 바닥에서 팔았구나'</strong> 같은 <strong>내 약점의 패턴</strong>이 보인다. 그걸 알아야 고치지."</p>
+<hr>
+<h2>3. 복기 — 맞아도 틀려도 되돌아본다 (국장 특별편처럼!)</h2>
+<p>🐢 <strong>거사부</strong>: "기억하나? 국장 특별편에서 06-02 콜을 06-05에 <strong>복기</strong>했지. 그게 바로 이거다."</p>
+<pre><code class="hljs language-arduino">① 결과만 보지 말고 <span class="hljs-string">'과정(판단)'</span>을 평가
+② 맞았어도 <span class="hljs-string">'운인가 실력인가'</span> 구분
+③ 틀렸으면 <span class="hljs-string">'판단 오류인가, 불운인가, 원칙 위반인가'</span>
+④ 다음에 바꿀 것 <span class="hljs-number">1</span>가지를 적는다
+</code></pre>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "맞아도 복기해요? 번 거면 좋은 거 아니에요?"</p>
+<p>🐢 <strong>거사부</strong>: "<strong>운으로 번 건 다음에 운으로 잃는다.</strong> 좋은 판단으로 졌을 수도, 나쁜 판단으로 이겼을 수도 있어. <strong>과정을 평가</strong>해야 진짜 실력이 쌓여. 복기 없는 경험은 그냥 도박 횟수일 뿐이야."</p>
+<hr>
+<h2>4. 백테스트 — 과거로 전략을 시험하되 겸손하게</h2>
+<p>🐢 <strong>거사부</strong>: "<strong>백테스트</strong>는 '이 전략을 과거에 썼다면?'을 검증하는 거다. 유용하지만 <strong>함정</strong>투성이야."</p>
+<table>
+<thead>
+<tr>
+<th>함정</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>과최적화</strong></td>
+<td>과거에만 딱 맞게 꾸민 전략 → 미래엔 실패</td>
+</tr>
+<tr>
+<td><strong>생존 편향</strong></td>
+<td>망한 종목 빼고 살아남은 것만 테스트 → 착시</td>
+</tr>
+<tr>
+<td><strong>미래 정보 사용</strong></td>
+<td>그때 몰랐을 정보를 슬쩍 사용</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "백테스트가 화려할수록 <strong>과최적화</strong>를 의심해라. '과거에 연 50%!'는 대개 <strong>미래엔 안 통하는</strong> 꾸민 곡선이야. 단순하고 견고한 게 낫다. <strong>과거 ≠ 미래</strong>를 새겨라."</p>
+<hr>
+<h2>5. 감정 통제 — 투자의 마지막 8할</h2>
+<p>🐢 <strong>거사부</strong>: "지식이 2할이면 <strong>감정 통제가 8할</strong>이다. 대표적 함정들이다."</p>
+<table>
+<thead>
+<tr>
+<th>심리 함정</th>
+<th>증상</th>
+<th>처방</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FOMO</strong></td>
+<td>남들 벌 때 급히 추격매수</td>
+<td>원칙·체크리스트로 멈춤</td>
+</tr>
+<tr>
+<td><strong>손실회피</strong></td>
+<td>손절 못 하고 물타기</td>
+<td>손절선 사전 약속</td>
+</tr>
+<tr>
+<td><strong>확증편향</strong></td>
+<td>내 종목 호재만 봄</td>
+<td>반대 의견 일부러 찾기</td>
+</tr>
+<tr>
+<td><strong>처분효과</strong></td>
+<td>오른 건 빨리 팔고 손실은 방치</td>
+<td>린치 '꽃에 물 주기'</td>
+</tr>
+<tr>
+<td><strong>군중심리</strong></td>
+<td>공포에 팔고 탐욕에 삼</td>
+<td>미스터 마켓 기억</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "이걸 막는 게 **시스템(원칙+일지+복기)**이다. 감정은 못 없애. 대신 <strong>'미리 정한 규칙'으로 감정의 손발을 묶는</strong> 거지."</p>
+<hr>
+<h2>6. 나만의 투자 시스템 — 통합</h2>
+<pre><code class="hljs">① 코어: 저비용 인덱스 적립 (보글) — 절세계좌에서
+② 새틀라이트: 능력 범위 내 개별주 (가치·성장 분석)
+③ 자산배분: 상관 낮은 자산 분산 + 주기적 리밸런싱 (달리오)
+④ 원칙: 글로 적은 헌법 (비중·손절·금지사항)
+⑤ 기록·복기: 매매일지 + 정기 복기 (운/실력 구분)
+⑥ 감정 통제: 규칙으로 심리 함정 차단
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "이 여섯 개가 돌아가면, 너는 <strong>유튜버·테마·소문에 휘둘리지 않는 독립적 투자자</strong>다. 그게 이 모든 공부의 목적이었어."</p>
+<hr>
+<h2>🎓🎓 주식 커리큘럼 전체 졸업</h2>
+<p><img src="/static/images/stock/characters/gosabu_happy.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 정말 멀리 왔다. <strong>경제(금리·물가·경기) → 상품(ETF·리츠·채권) → 산업·섹터 → 배당 → 재무심화 → 기술심화 → 파생 → 대가 철학·실무.</strong> 이제 너는 <strong>경제 상식을 갖춘, 스스로 판단하는 투자자</strong>다."</p>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "뉴스가 들리고, 차트가 읽히고, 회사의 체력이 보여요. 무엇보다 **'모르면 안 한다'**는 걸 배웠어요!"</p>
+<p><img src="/static/images/stock/characters/jake_explaining.png" alt="잭이글"> 🦅 <strong>잭이글</strong>: "국장이든 미장이든, 이제 네 무기는 충분해. 마지막 한마디 — <strong>'시장은 인내심 없는 자의 돈을 인내심 있는 자에게 옮기는 기계'</strong>(버핏). 천천히, 꾸준히, 원칙대로. Good luck!"</p>
+<p>🐢 <strong>거사부</strong>: "공부는 끝이 없다. 하지만 <strong>뼈대는 다 세웠어.</strong> 이젠 실전에서 <strong>작게 시작해, 기록하고, 복기하며</strong> 너만의 길을 만들어라. 잃지 않는 것부터 — 그게 시작이자 전부다."</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 투자 권유가 아닙니다. 어떤 전략도 수익을 보장하지 않으며, 모든 투자 판단과 책임은 본인에게 있습니다. 작게 시작하고, 잃어도 되는 돈으로, 천천히.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-04-29"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🎓 [대가 4] 실무 — 나만의 투자 시스템 만들기"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,0 +1,124 @@
+1:"$Sreact.fragment"
+2:I[12613,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+3:I[22016,["/_next/static/chunks/6616542657a424b9.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T1e8e,<h1>🧮 [재무심화 3] DCF — 미래의 현금을 오늘 가치로</h1>
+<p><img src="/static/images/stock/characters/gosabu_explaining.png" alt="거사부"> 🐢 <strong>거사부</strong>: "호두야, 멀티플(PER·EV/EBITDA)은 '남들과 비교'하는 <strong>상대평가</strong>였다. 이번엔 비교 없이 <strong>이 회사 자체의 값</strong>을 구하는 <strong>절대평가</strong> — **DCF(현금흐름할인)**다. 워런 버핏이 말하는 '내재가치'의 뼈대지. 계산이 아니라 <strong>사고방식</strong>을 가져가는 게 핵심이야."</p>
+<p><img src="/static/images/stock/characters/hodu_thinking.png" alt="호두"> 🐯 <strong>호두</strong>: "어렵겠는데요... 수학인가요?"</p>
+<p>🐢 <strong>거사부</strong>: "원리는 한 줄이다. <strong>'기업의 가치 = 그 기업이 미래에 벌 현금을, 오늘 가치로 할인해 모두 더한 것'</strong>. 천천히 가자."</p>
+<hr>
+<h2>1. 핵심 직관 — 미래의 1만원 &#x3C; 오늘의 1만원</h2>
+<p>🐢 <strong>거사부</strong>: "경제 1편에서 배운 <strong>할인</strong> 기억하지? 1년 뒤 1만원은 오늘 1만원보다 가치가 낮다. 금리(기회비용)만큼 깎이거든."</p>
+<blockquote>
+<p>오늘 가치 = 미래 현금 ÷ (1 + 할인율)^연수</p>
+</blockquote>
+<ul>
+<li><strong>할인율</strong>: 보통 그 투자의 기대수익률·자본비용(WACC). 금리·위험이 높을수록 ↑</li>
+<li>기업이 **앞으로 10년·영구히 벌 현금(FCF)**을 각각 오늘 가치로 깎아서 <strong>전부 더하면</strong> = 기업의 내재가치</li>
+</ul>
+<p>🐢 <strong>거사부</strong>: "즉 DCF는 **'이 회사가 평생 벌 현금을 지금 돈으로 환산'**하는 거다. 그 값이 시가총액보다 크면 저평가, 작으면 고평가로 보는 거지."</p>
+<hr>
+<h2>2. DCF 3단계 뼈대</h2>
+<pre><code class="hljs language-arduino">① 미래 FCF 추정: 향후 <span class="hljs-number">5</span>~<span class="hljs-number">10</span>년 잉여현금흐름(재무심화<span class="hljs-number">1</span>편)을 예상
+② 할인: 각 해 FCF를 할인율로 나눠 <span class="hljs-string">'오늘 가치'</span>로
+③ 영구가치(터미널밸류): <span class="hljs-number">10</span>년 이후는 <span class="hljs-string">'일정 성장 영구'</span> 가정해 한 덩어리로 더함
+→ ①~③ 합 = 기업가치 → 주당 내재가치와 현재 주가 비교
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "①에서 <strong>현금흐름</strong>, ②에서 <strong>금리·할인</strong>, ③에서 <strong>성장</strong> — 지금까지 배운 게 다 들어간다. DCF는 재무·경제 지식의 <strong>종합판</strong>이야."</p>
+<hr>
+<h2>3. ⚠️ DCF의 진짜 교훈 — '쓰레기 넣으면 쓰레기 나온다'</h2>
+<p><img src="/static/images/stock/characters/hodu_surprised.png" alt="호두"> 🐯 <strong>호두</strong>: "그럼 DCF로 계산하면 정확한 가격이 나오는 거예요?"</p>
+<p>🐢 <strong>거사부</strong>: "<strong>절대 아니다.</strong> 여기가 제일 중요해. DCF는 <strong>가정(추정)에 극도로 민감</strong>하다. <strong>GIGO — Garbage In, Garbage Out.</strong>"</p>
+<table>
+<thead>
+<tr>
+<th>가정</th>
+<th>조금만 바꿔도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>미래 성장률</td>
+<td>10%→12%만 해도 가치 급변</td>
+</tr>
+<tr>
+<td>할인율</td>
+<td>8%→9%만 해도 가치 크게↓</td>
+</tr>
+<tr>
+<td>영구성장률</td>
+<td>2%→3%면 터미널밸류 폭증</td>
+</tr>
+</tbody>
+</table>
+<p>🐢 <strong>거사부</strong>: "그래서 **'DCF로 12,345원이 나왔으니 정확히 그 값'**이라 믿으면 바보다. 애널리스트가 원하는 목표가에 맞춰 가정을 끼워넣는 일도 흔해. DCF는 **'정밀한 오답'**을 줄 수 있어."</p>
+<hr>
+<h2>4. 그럼 DCF를 왜 배우나 — 사고방식과 민감도</h2>
+<p>🐢 <strong>거사부</strong>: "정확한 값이 목적이 아니다. DCF가 주는 진짜 선물은 셋이다."</p>
+<ol>
+<li><strong>사고의 틀</strong>: 주가는 결국 **'미래 현금흐름의 현재가치'**라는 본질을 이해</li>
+<li><strong>민감도 분석</strong>: 성장률·할인율을 <strong>범위로</strong> 넣어 **'가치의 범위'**를 본다 (점이 아니라 구간)</li>
+<li><strong>역산(reverse DCF)</strong>: 현재 주가가 <strong>'어떤 성장률을 가정'하는지</strong> 거꾸로 풀어, 그 기대가 현실적인지 점검</li>
+</ol>
+<p><img src="/static/images/stock/characters/hodu_happy.png" alt="호두"> 🐯 <strong>호두</strong>: "아! '이 주가가 맞으려면 앞으로 매년 20% 성장해야 하네 — 그게 가능한가?' 이렇게 쓰는 거군요!"</p>
+<p>🐢 <strong>거사부</strong>: "바로 그거다! <strong>역DCF</strong>가 실전에서 제일 유용해. '시장이 이 회사에 어떤 미래를 기대하나'를 읽고, 그 기대가 <strong>과한지 보수적인지</strong> 판단하는 거지."</p>
+<hr>
+<h2>5. 실전 — 개인투자자의 현실적 사용법</h2>
+<pre><code class="hljs language-scss">① 정밀 DCF 숫자에 집착하지 말 것 (전문가도 빗나감)
+② 보수적 가정으로 '대략의 범위'만 잡기 (낙관/비관 시나리오)
+③ 역DCF로 '현재 주가가 요구하는 성장'이 현실적인지 점검
+④ 멀티플(<span class="hljs-number">2</span>편)·현금흐름(<span class="hljs-number">1</span>편)과 교차검증
+</code></pre>
+<p>🐢 <strong>거사부</strong>: "DCF 한 방으로 결론내지 마라. <strong>여러 방법을 겹쳐</strong> '대략 싼가 비싼가'의 감을 잡는 도구일 뿐이야. 정밀함을 가장한 확신이 제일 위험해."</p>
+<hr>
+<h2>6. 함정</h2>
+<ol>
+<li><strong>"DCF가 내놓은 값 = 정확한 적정가"</strong> ❌ → 가정에 극도로 민감(GIGO). <strong>범위</strong>로 봐라.</li>
+<li><strong>"성장률 높게 넣으면 비싸도 정당화"</strong> ❌ → 낙관적 가정으로 <strong>원하는 답 만들기</strong>의 함정.</li>
+<li><strong>"DCF는 어려우니 안 봐도 됨"</strong> ❌ → 최소한 **'주가=미래현금 현재가치'**라는 본질과 <strong>역DCF</strong> 감각은 챙겨라.</li>
+</ol>
+<hr>
+<h3>📍 어디서 보나</h3>
+<table>
+<thead>
+<tr>
+<th>용도</th>
+<th>사이트</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FCF·성장 데이터</td>
+<td><strong>FnGuide / Stock Analysis</strong></td>
+<td>DCF 입력값</td>
+</tr>
+<tr>
+<td>간이 DCF/역DCF</td>
+<td><strong>각종 DCF 계산기·엑셀</strong></td>
+<td>시나리오 민감도</td>
+</tr>
+<tr>
+<td>WACC·할인율 개념</td>
+<td><strong>증권사 리서치</strong></td>
+<td>자본비용 추정</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>💡 미니 체크</h2>
+<p><strong>Q1.</strong> DCF가 말하는 '기업의 내재가치'를 한 줄로 정의하면?
+→ 그 기업이 <strong>미래에 벌 현금(FCF)을 할인율로 깎아 현재가치로 모두 합한 것</strong>.</p>
+<p><strong>Q2.</strong> DCF 결과를 '정확한 적정가'로 믿으면 안 되는 이유는?
+→ 성장률·할인율 등 <strong>가정에 극도로 민감(GIGO)</strong> → 작은 변화에 값이 크게 출렁임.</p>
+<p><strong>Q3.</strong> 역DCF(reverse DCF)는 무엇을 점검하는 도구인가?
+→ <strong>현재 주가가 가정하는 성장률</strong>을 거꾸로 구해, 그 기대가 현실적인지 평가.</p>
+<hr>
+<p>🎬 <strong>다음 편</strong>: [재무심화 4] 부채와 재무건전성 — 위기에 무너지지 않을 회사 고르기.</p>
+<blockquote>
+<p>※ 본 자료는 교육 목적이며 특정 종목 추천이 아닙니다. DCF는 가정에 의존하며 정확한 가치를 보장하지 않습니다. 투자 책임은 본인에게 있습니다.</p>
+</blockquote>0:{"buildId":"rWDbntOheDKJYi0h3fs-H","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L3",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"stock"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-05-12"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"🧮 [재무심화 3] DCF — 미래의 현금을 오늘 가치로"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$4"}}]]}]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null
