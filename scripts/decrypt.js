@@ -12,7 +12,7 @@ const path = require("path");
 // Load .env.local / .env if present (for local development)
 const envPaths = [".env.local", ".env"].map((f) => path.join(__dirname, "..", f));
 for (const envPath of envPaths.filter((f) => fs.existsSync(f))) {
-  const lines = fs.readFileSync(envPath, "utf-8").split("\n");
+  const lines = fs.readFileSync(envPath, "utf-8").split(/\r?\n/);
   for (const line of lines) {
     const m = line.match(/^([A-Z_]+)=(.*)$/);
     if (m) process.env[m[1]] = m[2].trim().replace(/^["']|["']$/g, "");
