@@ -18,7 +18,7 @@ export const SUB_CATEGORIES: Record<string, readonly string[]> = {
 /** 2차 카테고리 레이블 */
 export const CATEGORY_LABELS: Record<string, string> = {
   database: "Database",
-  java: "Java",
+  java: "Java / Kotlin",
   spring: "Spring",
   node: "Node.js",
   docker: "Docker",
