@@ -1,0 +1,463 @@
+1:"$Sreact.fragment"
+2:I[80492,["/_next/static/chunks/d37560a69420d663.js"],"ThemeProvider"]
+3:"$Sreact.suspense"
+4:I[87771,["/_next/static/chunks/d37560a69420d663.js"],"Sidebar"]
+5:I[32119,["/_next/static/chunks/d37560a69420d663.js"],"MobileNav"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/65eda8e73b1f4598.css","style"]
+:HL["/_next/static/chunks/30a279644fc45151.css","style"]
+:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"P":null,"b":"qedTCNlDdvb0SAexx_0c4","c":["","private","career-history",""],"q":"","i":false,"f":[[["",{"children":["private",{"children":[["slug","career-history","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/65eda8e73b1f4598.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/30a279644fc45151.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/d37560a69420d663.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":":root {\n  --bg-base: #f8fafc;\n  --bg-sidebar: #f1f5f9;\n  --bg-card: #ffffff;\n  --bg-active: #dbeafe;\n  --bg-badge: #dbeafe;\n  --bg-hover: #e2e8f0;\n  --text-primary: #0f172a;\n  --text-secondary: #1e293b;\n  --text-muted: #64748b;\n  --text-accent: #2563eb;\n  --text-badge: #1d4ed8;\n  --border-base: #e2e8f0;\n  --border-accent: #2563eb;\n  --border-card-hover: #3b82f6;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}\n.dark {\n  --bg-base: #0d1117;\n  --bg-sidebar: #161b22;\n  --bg-card: #21262d;\n  --bg-active: rgba(88, 166, 255, 0.15);\n  --bg-badge: rgba(88, 166, 255, 0.15);\n  --bg-hover: rgba(48, 54, 61, 0.6);\n  --text-primary: #e6edf3;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --text-accent: #58a6ff;\n  --text-badge: #58a6ff;\n  --border-base: #30363d;\n  --border-accent: #58a6ff;\n  --border-card-hover: #388bfd;\n  --font-display-family: 'JetBrains Mono', monospace;\n  --card-radius: 0.375rem;\n  --card-shadow: none;\n}"}}],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"className":"noto_sans_kr_837bc4fe-module__IXam-q__variable font-sans antialiased","children":["$","$L2",null,{"children":["$","div",null,{"className":"flex min-h-screen","children":[["$","$3",null,{"fallback":["$","div",null,{"className":"hidden lg:block w-64 shrink-0"}],"children":["$","$L4",null,{"counts":{"etc":1,"database":10,"node":6,"nest":3,"docker":4,"git":6,"server":8,"spring":2,"network":4,"javascript":1,"algorithm":21,"java":1}}]}],["$","$3",null,{"fallback":null,"children":["$","$L5",null,{"counts":"$0:f:0:1:0:props:children:1:props:children:1:props:children:props:children:props:children:0:props:children:props:counts"}]}],["$","main",null,{"className":"flex-1 min-w-0 pt-14 lg:pt-0","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{"children":["$L9",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"OutletBoundary"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"MetadataBoundary"]
+8:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Lc",[["$","script","script-0",{"src":"/_next/static/chunks/b6f08ff9efce5300.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[12613,["/_next/static/chunks/d37560a69420d663.js","/_next/static/chunks/b6f08ff9efce5300.js"],"PrivateGate"]
+14:I[22016,["/_next/static/chunks/d37560a69420d663.js","/_next/static/chunks/b6f08ff9efce5300.js"],""]
+15:T4e77,<h1>경력기술서</h1>
+<p><strong>〔이름〕</strong> · Server Developer · 〔이메일〕 · 〔GitHub / 블로그〕
+지원 포지션 : 토스플레이스 Server Developer (Product)</p>
+<blockquote>
+<p><strong>표기 안내 (제출 전 이 박스 삭제)</strong></p>
+<ul>
+<li><code>〔 〕</code> : 채워야 할 빈칸. 모르면 해당 문장을 통째로 삭제</li>
+<li><code>〔확인〕</code> : 원본 자료에 없는 추론. 사실이면 표시만 지우고, 아니면 삭제</li>
+<li>제출 전 <code>〔</code> 로 검색해서 남은 것이 없는지 확인</li>
+</ul>
+</blockquote>
+<hr>
+<h2>요약</h2>
+<p><strong>운영 중인 커머스·결제 시스템을 멈추지 않고 바꿔 온 5년 5개월차 서버 개발자입니다.</strong></p>
+<ol>
+<li><strong>운영 중 시스템의 무중단 교체</strong>
+외부 파트너가 호출하는 공개 API를 PHP에서 Kotlin/Spring으로 전환했습니다. 트래픽을 10%에서 100%까지 단계적으로 넘기다 오류를 감지해 0%로 되돌렸고, 원인을 수정한 뒤 전환을 끝냈습니다. 주요 API 응답시간은 <strong>30% 단축</strong>했습니다.</li>
+<li><strong>금액·정합성이 걸린 장애 해결</strong>
+쿠폰 중복 사용(동시성) 문제와 배치·컨슈머 사이의 DB 데드락을 해결했습니다.</li>
+<li><strong>토스플레이스 사업 영역과 이어지는 도메인 경험</strong>
+<ul>
+<li>결제 : PG 앱 스킴, 네이버페이 주문형 SDK</li>
+<li>CRM : 쿠폰, 마일리지</li>
+<li>B2B : 파트너 공개 API, 크리마 연동</li>
+<li>오프라인 : 제조 현장 키오스크 개발·운영</li>
+</ul>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>공고 요구사항</th>
+<th>관련 사례</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>고가용성 시스템 운영 · 단계적 마이그레이션</td>
+<td><a href="#1-%EA%B3%B5%EA%B0%9C-api-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EC%A0%84%ED%99%98--php--kotlin-spring">1. 공개 API 무중단 전환</a>, <a href="#5-php-70--82-%EB%B2%84%EC%A0%84%EC%97%85--%EC%95%94%ED%98%B8%ED%99%94-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%ED%99%98">5. PHP 8.2 버전업</a></td>
+</tr>
+<tr>
+<td>장애 경험과 문제 해결</td>
+<td><a href="#%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85--%EC%A0%84%ED%99%98-%EC%A4%91-api-%EC%98%A4%EB%A5%98%EC%99%80-%EB%A1%A4%EB%B0%B1">1. 전환 중 롤백</a>, <a href="#2-%EC%BF%A0%ED%8F%B0-%EC%A4%91%EB%B3%B5-%EC%82%AC%EC%9A%A9-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0">2. 쿠폰 동시성</a>, <a href="#3-%EB%B0%B0%EC%B9%98-cron--airflow-%EC%A0%84%ED%99%98--%EC%BB%A8%EC%8A%88%EB%A8%B8-%EB%8D%B0%EB%93%9C%EB%9D%BD-%ED%95%B4%EC%86%8C">3. 데드락</a></td>
+</tr>
+<tr>
+<td>OOP · DDD</td>
+<td><a href="#1-%EA%B3%B5%EA%B0%9C-api-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EC%A0%84%ED%99%98--php--kotlin-spring">1. 도메인 단위 재구성</a></td>
+</tr>
+<tr>
+<td>CRM · B2B 연동</td>
+<td><a href="#2-%EC%BF%A0%ED%8F%B0-%EC%A4%91%EB%B3%B5-%EC%82%AC%EC%9A%A9-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0">2. 쿠폰</a>, <a href="#4-%ED%8C%8C%ED%8A%B8%EB%84%88-api-%ED%98%B8%EC%B6%9C%EB%9F%89-%EC%A0%9C%ED%95%9C%EB%B2%84%EC%A0%80%EB%8B%9D%EA%B5%AC%EB%B2%84%EC%A0%84-%EC%A2%85%EB%A3%8C">4. 파트너 API 운영</a>, <a href="#%EA%B7%B8-%EC%99%B8-%EC%A3%BC%EC%9A%94-%EC%97%85%EB%AC%B4">그 외 주요 업무</a></td>
+</tr>
+<tr>
+<td>POS &#x26; KIOSK</td>
+<td><a href="#%EC%9C%84%EC%A0%80%EB%93%9C%EC%A0%95%EB%B3%B4%EC%8B%9C%EC%8A%A4%ED%85%9C--20190820220420%EB%85%84-8%EA%B0%9C%EC%9B%94">위저드정보시스템 · 현장 키오스크</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>경력</h2>
+<table>
+<thead>
+<tr>
+<th>회사</th>
+<th>기간</th>
+<th>직위 · 역할</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NHN커머스</strong></td>
+<td>2023.07 ~ 2026.04 (2년 9개월)</td>
+<td>대리 · 고도몰 중개서버(API · Consumer · Airflow) 및 솔루션 개발/운영</td>
+</tr>
+<tr>
+<td><strong>위저드정보시스템</strong></td>
+<td>2019.08 ~ 2022.04 (2년 8개월)</td>
+<td>대리 · 제조업 MES/WMS 개발/운영</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h1>NHN커머스 · 2023.07 ~ 2026.04</h1>
+<p>고도몰(NHN커머스의 쇼핑몰 솔루션, 상점 〔N〕개)과 외부 파트너 앱·서비스를 잇는 <strong>중개서버</strong>(API · 메시지 컨슈머 · 배치)를 개발하고 운영했습니다.</p>
+<h2>1. 공개 API 무중단 전환 : PHP → Kotlin, Spring</h2>
+<p><code>〔기간〕</code> · <code>역할 : 〔주도 / 참여, 팀 N명〕</code>
+<code>Kotlin</code> <code>Spring Boot</code> <code>〔JPA 등 데이터 접근 기술〕</code> <code>MySQL</code> <code>〔캐시 저장소〕</code> <code>Kotest</code> <code>Testcontainers</code> <code>Spring REST Docs</code> <code>Swagger</code> <code>GSLB</code> <code>OpenSearch</code></p>
+<h3>해결한 문제</h3>
+<ul>
+<li>외부 파트너 앱이 상점의 상품·게시판 데이터를 다루는 <strong>공개 Open-API가 PHP 레거시</strong>였습니다.</li>
+<li>운영하는 동안 같은 종류의 결함이 반복됐습니다.
+<ul>
+<li>주문 조회 API의 스펙 누락, 응답 누락, 오류</li>
+<li>상품 등록 시 입력값 검증 누락</li>
+</ul>
+</li>
+<li>연관 데이터를 반복해서 조회하는 <strong>N+1 쿼리 구조</strong> 때문에 응답이 느렸습니다.</li>
+<li>코드가 중복되고 계층 간 책임이 모호해서, 기능을 하나 추가해도 고칠 곳이 많았습니다.</li>
+</ul>
+<h3>중요성과 제약</h3>
+<ul>
+<li>파트너가 <strong>운영 중에 호출하는 API</strong>라서, 서비스가 멈추거나 응답 형식이 바뀌면 곧바로 파트너 서비스 장애로 이어집니다.</li>
+<li>규모 : 연동 앱 〔N〕개, 일 호출량 〔N〕건</li>
+</ul>
+<h3>의사결정</h3>
+<table>
+<thead>
+<tr>
+<th>결정</th>
+<th>이유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>N+1 쿼리 → 단일 쿼리로 통합</strong></td>
+<td>캐시만 추가하면 캐시가 비었을 때 여전히 N번 조회하므로, 쿼리 구조 자체를 고침 〔확인〕</td>
+</tr>
+<tr>
+<td><strong>호출이 많고 연산 비용이 큰 조회에만 캐싱</strong></td>
+<td>〔캐시 대상 · TTL · 데이터 변경 시 캐시 처리 방식〕</td>
+</tr>
+<tr>
+<td><strong>DDD 기반 도메인 단위 재구성</strong></td>
+<td>코드 중복과 계층 간 책임 모호성을 해소하고, 변경 범위를 도메인 안으로 좁힘</td>
+</tr>
+<tr>
+<td><strong>REST Docs + Swagger로 문서화</strong></td>
+<td>REST Docs는 테스트를 통과해야 문서가 생성되므로 외부 공개 문서와 실제 구현이 어긋나지 않음 〔확인〕</td>
+</tr>
+<tr>
+<td><strong>Kotest + Testcontainers로 테스트</strong></td>
+<td>운영과 같은 MySQL 엔진에서 쿼리 결과를 검증 〔확인〕</td>
+</tr>
+<tr>
+<td><strong>단계적 트래픽 전환</strong> (DevOps팀이 구축한 GSLB 활용)</td>
+<td>신·구 서버가 같은 DB를 쓰는 상태에서 트래픽을 **10% → 30% → 50% → 70% → 100%**로 넘기고, 문제가 생기면 되돌릴 수 있게 함</td>
+</tr>
+</tbody>
+</table>
+<h3>수행 내용</h3>
+<ul>
+<li>기존 상품·게시판 댓글 API 전환, 신규 v2 API 개발(상품 혜택 조회, 게시글 댓글·답글)</li>
+<li>DevOps 파트와 협업해 CI/CD 파이프라인 구축, 중개서버 <strong>빌드 캐싱</strong>으로 배포 시간 단축</li>
+<li>전환 검증 : 테스트 코드 작성, QA를 통해 <strong>신·구 API에 실제 요청을 보내 응답 비교</strong></li>
+<li>전환 진행 판단 : 단계마다 <strong>에러율과 파트너 문의를 모니터링</strong>하며 다음 단계 진행 여부 결정</li>
+</ul>
+<h3>트러블슈팅 — 전환 중 API 오류와 롤백</h3>
+<ul>
+<li><strong>상황</strong> : 트래픽 〔N〕% 단계에서 새 서버의 〔API명〕에서 〔오류 내용〕 발생</li>
+<li><strong>감지</strong> : 〔에러율 / 파트너 문의 / OpenSearch 로그〕</li>
+<li><strong>대응</strong> : 가중치를 <strong>0%로 되돌려</strong> 모든 트래픽을 기존 서버로 복귀시킴</li>
+<li><strong>원인과 수정</strong> : 〔원인〕 → 〔수정 내용〕</li>
+<li><strong>재전환</strong> : 〔재발 방지 조치〕 후 다시 단계적으로 올려 100% 전환 완료</li>
+</ul>
+<h3>결과</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>Before</th>
+<th>After</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>주요 API 응답시간 (OpenSearch 로그, 〔평균 / p95〕)</td>
+<td>〔N〕ms</td>
+<td>〔M〕ms (<strong>-30%</strong>)</td>
+</tr>
+<tr>
+<td>요청당 DB 조회 횟수</td>
+<td>〔N〕회</td>
+<td>〔M〕회</td>
+</tr>
+<tr>
+<td>배포 소요 시간</td>
+<td>〔N〕분</td>
+<td>〔M〕분</td>
+</tr>
+<tr>
+<td>전환 중 롤백</td>
+<td>—</td>
+<td>1회 (오류 감지 → 0% 복귀 → 수정 후 전환 완료)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>기능을 추가할 때 수정 범위가 좁아져 개발 공수가 줄었음 (〔가능하면 수치 : 신규 API 개발 기간 N일 → M일〕)</li>
+</ul>
+<hr>
+<h2>2. 쿠폰 중복 사용 동시성 이슈 해결</h2>
+<p><code>〔기간〕</code> · <code>역할 : 〔주도 / 참여〕</code> · <code>PHP</code> <code>MySQL</code></p>
+<blockquote>
+<p>⚠️ <strong>해결 방식이 기억나지 않으면 이 항목은 "그 외 주요 업무"로 내리고 한 줄만 남기세요.</strong></p>
+</blockquote>
+<h3>해결한 문제</h3>
+<ul>
+<li>1회만 쓸 수 있는 쿠폰이 <strong>동시에 들어온 요청으로 중복 사용</strong>되었습니다.
+<ul>
+<li>발생 상황 : 〔더블클릭 / 여러 탭 / 앱·웹 동시 주문 등〕</li>
+<li>발생 규모 : 〔N건〕</li>
+</ul>
+</li>
+</ul>
+<h3>중요성</h3>
+<ul>
+<li>할인 금액은 곧 상점의 손실로 이어지는 <strong>금액 관련 결함</strong>입니다.</li>
+</ul>
+<h3>원인</h3>
+<ul>
+<li>〔원인 : 예) "쿠폰 사용 가능 여부 조회"와 "사용 처리" 사이에 틈이 있어, 두 요청이 모두 '미사용' 상태를 읽고 둘 다 사용 처리함〕</li>
+</ul>
+<h3>의사결정</h3>
+<ul>
+<li>검토한 방식 : 〔실제로 검토한 것만 : 비관적 락(SELECT … FOR UPDATE) / 조건부 UPDATE + 영향받은 행 수 확인 / Redis 분산 락 / 유니크 제약 등〕</li>
+<li><strong>선택</strong> : 〔선택한 방식〕</li>
+<li><strong>이유</strong> : 〔선택 이유〕</li>
+</ul>
+<h3>결과</h3>
+<ul>
+<li>적용 후 중복 사용 〔0건〕</li>
+<li>〔검증 방법 : 동시 요청 재현 테스트 등〕</li>
+</ul>
+<hr>
+<h2>3. 배치 cron → Airflow 전환 &#x26; 컨슈머 데드락 해소</h2>
+<p><code>〔2025.01 ~ 2025.07〕 〔확인 : 원본 history.md에는 2026년으로 적혀 있음〕</code> · <code>역할 : 〔주도 / 참여〕</code> · <code>Python</code> <code>Airflow</code> <code>MySQL</code></p>
+<h3>해결한 문제</h3>
+<ul>
+<li>cron + PHP로 돌던 스케줄러 5종을 Airflow로 전환했습니다.
+<ul>
+<li>대상 : 상품 통계 분석, 상품 페이지뷰 분석, 크리마 리뷰 동기화, 크리마 장바구니, 크리마 플러스 리뷰</li>
+</ul>
+</li>
+<li>기존 운영 로그를 분석해 <strong>병목 구간과 반복되는 실패 패턴</strong>을 찾았습니다.
+<ul>
+<li>기능을 그대로 옮기지 않고, 이 구조 문제를 함께 해결하도록 처리 흐름을 개선했습니다.</li>
+</ul>
+</li>
+<li>상품 페이지뷰 분석 스케줄러의 처리 흐름을 바꿔, <strong>고도몰 컨슈머가 처리하던 토픽에서 발생하던 DB 데드락</strong>을 해소했습니다.</li>
+</ul>
+<h3>의사결정</h3>
+<ul>
+<li><strong>Airflow를 선택한 이유</strong> : 〔예 : 재시도 · 실행 이력 확인 · 실패한 태스크만 재실행 등 실제로 필요했던 이유〕</li>
+<li><strong>외부 연동</strong> : 크리마 API 스펙과 변경 이력을 검토하고, 문서만으로 불명확한 부분은 <strong>제휴사와 직접 확인</strong>해 동기화 로직을 확정했습니다.</li>
+</ul>
+<h3>트러블슈팅 — 컨슈머 데드락</h3>
+<blockquote>
+<p>⚠️ <strong>직접 원인을 분석하지 않았다면 아래 세부 내용은 지우고, 위 "해결한 문제"의 한 줄만 남기세요.</strong></p>
+</blockquote>
+<ul>
+<li><strong>증상</strong> : 〔에러 로그 / 발생 빈도〕</li>
+<li><strong>원인</strong> : 〔어떤 작업들이 어떤 테이블의 행을 어떤 순서로 잠갔는지〕</li>
+<li><strong>해결</strong> : 〔락 순서 통일 / 작업 단위 분할 / 쓰기 주체 분리 / 실행 시간대 분리 등 실제 조치〕</li>
+</ul>
+<h3>결과</h3>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>Before</th>
+<th>After</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>컨슈머 데드락</td>
+<td>〔주 N회〕</td>
+<td>〔0회〕</td>
+</tr>
+<tr>
+<td>배치 실패율 또는 수동 재실행 횟수</td>
+<td>〔N〕</td>
+<td>〔M〕</td>
+</tr>
+<tr>
+<td>처리 시간</td>
+<td>〔N분〕</td>
+<td>〔M분〕</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>4. 파트너 API 호출량 제한·버저닝·구버전 종료</h2>
+<p><code>2025</code> · <code>역할 : 〔주도 / 참여〕</code> · <code>Kotlin</code> <code>Spring Boot</code></p>
+<h3>해결한 문제</h3>
+<ul>
+<li>API <strong>호출량 제한</strong>을 도입해야 했지만, 앱별 호출 현황이 파악되어 있지 않았습니다.</li>
+<li>요청·응답 필드명을 정리하기 위해 <strong>API 버전을 새로 만들어야</strong> 했습니다.</li>
+</ul>
+<h3>중요성과 제약</h3>
+<ul>
+<li>구버전을 쓰는 앱을 한꺼번에 차단하면 그 앱의 <strong>실제 서비스가 장애</strong>를 겪습니다.</li>
+</ul>
+<h3>의사결정</h3>
+<ul>
+<li><strong>계측 먼저, 제한은 그다음</strong> : 앱별 호출량을 파악한 뒤 제한 기준을 정하고 개발자 가이드를 업데이트했습니다.</li>
+<li><strong>구버전 종료 순서</strong> : 신·구 버전 함께 운영 → 종료 일자 공지 → 앱별 구버전 호출량 추적 → 종료 일자에 맞춰 차단</li>
+</ul>
+<h3>결과</h3>
+<ul>
+<li>대상 앱 〔N〕개, 종료일 기준 구버전 호출 앱 〔N〕개</li>
+<li>차단 후 장애·문의 〔N건〕</li>
+</ul>
+<hr>
+<h2>5. PHP 7.0 → 8.2 버전업 &#x26; 암호화 데이터 전환</h2>
+<p><code>〔기간〕</code> · <code>역할 : 〔주도 / 참여〕</code> · <code>PHP 8.2</code> <code>OpenSSL</code></p>
+<h3>해결한 문제</h3>
+<ul>
+<li>솔루션이 보안 지원이 끝난 <strong>PHP 7.0</strong>에서 운영되고 있었습니다.</li>
+<li>기존 암호화에 쓰던 <strong><code>mcrypt</code> 확장은 PHP 7.2부터 제거</strong>되어, 버전을 올리려면 암호화 방식부터 바꿔야 했습니다.</li>
+</ul>
+<h3>중요성과 제약</h3>
+<ul>
+<li>이미 암호화되어 저장된 데이터(〔데이터 종류〕)를 <strong>손실 없이</strong> 새 방식으로 옮겨야 했습니다.</li>
+<li>대상 규모 : 〔상점 N개 / 데이터 N건〕</li>
+</ul>
+<h3>의사결정</h3>
+<ul>
+<li><strong><code>mcrypt</code> → <code>openssl</code>로 교체하고 기존 데이터를 마이그레이션</strong>했습니다.
+<ul>
+<li>〔호환성 검증 방법 : 알고리즘·모드·패딩 확인 등〕</li>
+<li>〔겪은 문제가 있다면 : 예) 패딩 방식 차이로 복호화 결과가 달라진 문제〕</li>
+</ul>
+</li>
+<li><strong>버전업 자동화</strong> : 〔무엇을 자동화했는지 : 상점별 반복 작업 스크립트화 등〕</li>
+</ul>
+<h3>결과</h3>
+<ul>
+<li>〔N〕개 상점 전환 완료, 데이터 불일치 〔0건〕</li>
+<li>상점당 작업 시간 〔N → M〕</li>
+</ul>
+<hr>
+<h2>그 외 주요 업무</h2>
+<ul>
+<li><strong>앱 인증·결제 연동</strong>
+<ul>
+<li>마이앱 로그인을 위한 회원 인증 · 토큰 API 개발</li>
+<li>소셜 로그인 확장 : 애플 로그인 설정, 구글 로그인, 카카오 싱크 회원가입 정책</li>
+<li>보안 : 비밀번호 변경 시 앱도 로그아웃되도록 개선, 회원가입 완료 시 기존 생체 인증·토큰 정보 초기화</li>
+<li>결제 : 앱 내 PG 결제를 위한 앱 스킴 처리, <strong>네이버페이 주문형 SDK V2</strong> 연동</li>
+</ul>
+</li>
+<li><strong>CRM·외부 연동 API</strong>
+<ul>
+<li>CRM 연계용 잔여·소멸예정 마일리지 API</li>
+<li>상품 혜택 조회 API (신상품 할인 응답 추가)</li>
+<li>크리마 플러스 리뷰 사용 여부 조회 API, 외부 스크립트 생성 API</li>
+</ul>
+</li>
+<li><strong>카페24 → 고도몰 데이터 이전 툴 재구축</strong> (2024.05 ~ 2024.08)
+<ul>
+<li>기존 PHP 툴을 Python · Flask로 재구축하고 주문·상품 데이터 추출·변환 기능 개발</li>
+<li>데이터 이전 오류율 감소 (〔N% → M%〕)</li>
+</ul>
+</li>
+<li><strong>로컬 디스크 → Object Storage 전환</strong> (2024.01 ~ 2024.09)
+<ul>
+<li>쿠폰 이미지, 공급사 게시판 첨부파일, 설문조사, 에디터, Open-API 상품 이미지 업로드</li>
+</ul>
+</li>
+<li><strong>중개서버 Redis → Valkey 전환</strong></li>
+</ul>
+<hr>
+<h1>위저드정보시스템 · 2019.08 ~ 2022.04 (2년 8개월)</h1>
+<ul>
+<li><strong>현장 생산관리 키오스크 시스템 개발 · 배포 · 운영</strong>
+생산 현장 작업자가 쓰는 키오스크 시스템을 개발부터 운영까지 담당했습니다.</li>
+<li><strong>귀뚜라미 창고관리시스템(WMS) 구축</strong>
+<ul>
+<li>입출고 및 랙(Rack)별 재고 관리 시스템 구축</li>
+<li>입출고 프로시저 <strong>SQL 튜닝으로 처리 속도 개선</strong> : 〔N초 → M초〕 (기존 기록 : "150% 개선")</li>
+<li>PM 역할을 함께 맡아 일정 관리와 유관 부서 커뮤니케이션 담당</li>
+</ul>
+</li>
+<li><strong>MES(생산·기초정보·자재 관리) 및 전자결재 시스템 구축</strong>
+<ul>
+<li>메모리 최적화를 위한 레거시 코드 리팩토링으로 시스템 속도 개선 : 〔N초 → M초〕 (기존 기록 : "130% 개선")</li>
+<li>코딩 컨벤션 정립</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>기술 스택</h2>
+<table>
+<thead>
+<tr>
+<th>분야</th>
+<th>기술</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Language / Framework</td>
+<td>Kotlin, Spring Boot, 〔JPA 등〕, PHP, Python, Flask</td>
+</tr>
+<tr>
+<td>Data / Cache / Messaging</td>
+<td>MySQL, Redis, Valkey, 〔메시지 브로커 : Kafka 등〕</td>
+</tr>
+<tr>
+<td>Batch</td>
+<td>Apache Airflow</td>
+</tr>
+<tr>
+<td>Test / Docs</td>
+<td>Kotest, Testcontainers, Spring REST Docs, Swagger</td>
+</tr>
+<tr>
+<td>Infra / Monitoring</td>
+<td>GSLB, NHN Cloud Object Storage, OpenSearch, CI/CD 〔도구명〕</td>
+</tr>
+</tbody>
+</table>
+<h2>자격 · 교육</h2>
+<ul>
+<li>정보처리기사 (2019.08)</li>
+<li>SQL개발자 SQLD (2026.04)</li>
+<li>프로그래머스 데브코스 : 클라우드 기반 백엔드 엔지니어링 (530시간 · Java, Spring Boot, MySQL, AWS)</li>
+</ul>
+<hr>
+<hr>
+<h2>✂️ 채울 항목 체크리스트 (제출 시 이 섹션 삭제)</h2>
+<p><strong>최우선 (합격 가능성을 가르는 항목)</strong></p>
+<ol>
+<li>[1] 전환 중 오류 : 몇 % 단계였는지, 어떤 API의 어떤 오류였는지, 원인과 수정 내용</li>
+<li>[2] 쿠폰 중복 사용을 <strong>실제로 해결한 방식</strong> → 기억나지 않으면 "그 외 주요 업무"로 내리기</li>
+<li>[3] 데드락 : 직접 분석했는지, 원인과 해결 방법 → 직접 한 게 아니면 트러블슈팅 세부 내용 삭제</li>
+</ol>
+<p><strong>중요</strong>
+4. [1] 응답시간 30% 단축의 전후 ms 값과 기준(평균 / p95), 연동 앱 수, 일 호출량
+5. [공통] 프로젝트별 <strong>본인 역할(주도 / 참여)과 기간</strong>
+6. [5] 대상 상점 수와 데이터 규모, 자동화한 작업 내용
+7. [위저드] "150% / 130% 개선"을 <strong>N초 → M초</strong> 형태로 바꾸기</p>
+<p><strong>있으면 좋음</strong>
+8. [1] 캐시 대상·TTL·저장소, 빌드 캐싱 전후 배포 시간, 데이터 접근 기술(JPA 여부)
+9. [3] Airflow를 선택한 실제 이유, 배치 실패율이나 처리 시간 변화
+10. [4] 대상 앱 수, 차단 후 문의 건수
+11. [기술 스택] 메시지 브로커 종류, CI/CD 도구명</p>c:["$","$L13",null,{"children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-12","children":[["$","$L14",null,{"href":"/private","className":"text-sm text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors mb-8 inline-block","children":"← Private 목록으로"}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 mb-3","children":[["$","span",null,{"className":"text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400","children":"job"}],["$","span",null,{"className":"text-xs text-gray-400","children":"2026-09-18"}]]}],["$","h1",null,{"className":"text-3xl font-bold text-gray-900 dark:text-gray-100","children":"경력기술서"}]]}],["$","article",null,{"className":"prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-red-600 dark:prose-a:text-red-400 prose-img:rounded-lg prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/2b423cf30d3964a3.js"],"IconMark"]
+e:null
+12:[["$","title","0",{"children":"경력기술서 | midasworld (Private)"}],["$","meta","1",{"name":"description","content":"서버 개발 학습 블로그"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]
